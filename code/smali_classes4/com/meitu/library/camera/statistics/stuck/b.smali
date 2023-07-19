@@ -41,9 +41,9 @@
 
     const p1, 0xa98f
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -53,9 +53,9 @@
 
     const p1, 0xa995
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -65,9 +65,9 @@
 
     const p1, 0xa992
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -77,9 +77,9 @@
 
     const p1, 0xa991
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -89,9 +89,9 @@
 
     const p1, 0xa994
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -101,7 +101,7 @@
 
     const p1, 0xa990
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget v0, p0, Lcom/meitu/library/camera/statistics/stuck/b;->a:I
 
@@ -131,7 +131,7 @@
     invoke-interface {v0}, Lcom/meitu/library/camera/statistics/stuck/b$a;->b()V
 
     :cond_1
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -141,7 +141,7 @@
 
     const p1, 0xa993
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget v0, p0, Lcom/meitu/library/camera/statistics/stuck/b;->a:I
 
@@ -169,7 +169,7 @@
     invoke-interface {v0}, Lcom/meitu/library/camera/statistics/stuck/b$a;->a()V
 
     :cond_1
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

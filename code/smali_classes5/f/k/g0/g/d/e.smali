@@ -34,7 +34,7 @@
 
     const v0, 0xd7c7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Ljava/lang/Object;
 
@@ -42,7 +42,7 @@
 
     sput-object v1, Lf/k/g0/g/d/e;->e:Ljava/lang/Object;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -62,7 +62,7 @@
 
     const v0, 0xd7c2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lf/k/g0/g/d/e;->c:Lcom/google/firebase/analytics/FirebaseAnalytics;
 
@@ -83,7 +83,7 @@
     :cond_0
     iget-object v1, p0, Lf/k/g0/g/d/e;->c:Lcom/google/firebase/analytics/FirebaseAnalytics;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -93,7 +93,7 @@
 
     const v0, 0xd7c1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lf/k/g0/g/d/e;->b:Lcom/google/firebase/analytics/a/a;
 
@@ -112,7 +112,7 @@
     :cond_0
     iget-object v1, p0, Lf/k/g0/g/d/e;->b:Lcom/google/firebase/analytics/a/a;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -132,7 +132,7 @@
 
     const v0, 0xd7c6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0}, Lf/k/g0/g/d/e;->f()Lcom/google/firebase/analytics/a/a;
 
@@ -201,7 +201,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v3
 
@@ -210,7 +210,7 @@
 
     move-result-object v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 
@@ -219,7 +219,7 @@
 
     move-result-object v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -233,7 +233,7 @@
 
     const v0, 0xd7c4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0}, Lf/k/g0/g/d/e;->f()Lcom/google/firebase/analytics/a/a;
 
@@ -268,7 +268,7 @@
 
     :catchall_0
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -282,7 +282,7 @@
 
     const v0, 0xd7c5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0}, Lf/k/g0/g/d/e;->f()Lcom/google/firebase/analytics/a/a;
 
@@ -299,7 +299,7 @@
 
     :catchall_0
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -317,7 +317,7 @@
 
     const v0, 0xd7c3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0}, Lf/k/g0/g/d/e;->e()Lcom/google/firebase/analytics/FirebaseAnalytics;
 
@@ -332,7 +332,7 @@
 
     :catchall_0
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

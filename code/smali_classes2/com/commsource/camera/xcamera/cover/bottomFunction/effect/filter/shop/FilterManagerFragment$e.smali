@@ -41,7 +41,7 @@
 
     const/16 v0, 0x2f41
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerFragment$e;
 
@@ -49,7 +49,7 @@
 
     sput-object v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerFragment$e;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerFragment$e;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -69,13 +69,13 @@
 
     const/16 v0, 0x2f40
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p2, Lcom/meitu/template/bean/Filter;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerFragment$e;->b(Lcom/commsource/widget/h1/d;Lcom/meitu/template/bean/Filter;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -103,7 +103,7 @@
 
     const/16 v0, 0x2f40
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "baseItem"
 
@@ -146,7 +146,7 @@
     invoke-virtual {p1, p2}, Lcom/commsource/widget/h1/d;->j(I)V
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

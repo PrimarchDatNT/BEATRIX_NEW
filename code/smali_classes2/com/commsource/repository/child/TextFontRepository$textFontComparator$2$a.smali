@@ -77,7 +77,7 @@
 
     const/16 v0, 0x57a3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "onlineData"
 
@@ -161,7 +161,7 @@
     goto :goto_0
 
     :cond_3
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -182,7 +182,7 @@
 
     const/16 v0, 0x57a2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/commsource/repository/child/TextFontRepository;->v:Lcom/commsource/repository/child/TextFontRepository;
 
@@ -194,7 +194,7 @@
 
     move-result-object v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -230,7 +230,7 @@
 
     const/16 v0, 0x57a4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "null cannot be cast to non-null type kotlin.Array<T>"
 
@@ -263,7 +263,7 @@
 
     invoke-direct {p1, v1}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -296,7 +296,7 @@
 
     invoke-direct {p1, v1}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -329,7 +329,7 @@
 
     invoke-direct {p1, v1}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -421,7 +421,7 @@
 
     invoke-virtual {v1}, Lcom/commsource/repository/MaterialRepository;->d()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -435,7 +435,7 @@
 
     const/16 v0, 0x57a5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-super {p0, p1}, Lcom/commsource/repository/OnlineLocalMaterialCompator;->t(Ljava/lang/Throwable;)V
 
@@ -443,7 +443,7 @@
 
     invoke-virtual {p1}, Lcom/commsource/repository/MaterialRepository;->b()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

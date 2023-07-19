@@ -49,9 +49,9 @@
 
     const/16 p1, 0x6055
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -65,9 +65,9 @@
 
     const/16 p1, 0x6056
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -89,9 +89,9 @@
 
     const/16 p1, 0x6054
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -101,7 +101,7 @@
 
     const/16 p1, 0x6057
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/widget/ProBackgroundView$valueAnimator$2$a;->a:Lcom/commsource/widget/ProBackgroundView$valueAnimator$2;
 
@@ -125,7 +125,7 @@
 
     invoke-virtual {p2}, Landroid/view/View;->postInvalidate()V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

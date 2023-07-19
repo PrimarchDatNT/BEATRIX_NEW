@@ -82,7 +82,7 @@
 
     const v0, 0x8c50
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/commsource/easyeditor/utils/opengl/l;->a:I
 
@@ -238,7 +238,7 @@
     invoke-static {p1, v3}, Landroid/opengl/GLES20;->glUniform1i(II)V
 
     :cond_3
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -248,7 +248,7 @@
 
     const v0, 0x8c53
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p2, Lcom/commsource/easyeditor/utils/opengl/f;->c:I
 
@@ -478,7 +478,7 @@
 
     invoke-static {v1, v8}, Landroid/opengl/GLES20;->glBindFramebuffer(II)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -488,7 +488,7 @@
 
     const v0, 0x8c51
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/commsource/easyeditor/utils/opengl/p;->b:[F
 
@@ -564,7 +564,7 @@
 
     invoke-virtual {p0}, Lcom/commsource/easyeditor/utils/opengl/l;->f()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -574,7 +574,7 @@
 
     const v0, 0x8c4f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/commsource/easyeditor/utils/opengl/l;->a:I
 
@@ -655,7 +655,7 @@
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -665,7 +665,7 @@
 
     const v0, 0x8c4d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/commsource/easyeditor/utils/opengl/l;->a:I
 
@@ -746,7 +746,7 @@
     invoke-virtual {v1, v3, v2}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -756,7 +756,7 @@
 
     const v0, 0x8c52
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x5
 
@@ -766,7 +766,7 @@
 
     invoke-static {v1, v2, v3}, Landroid/opengl/GLES20;->glDrawArrays(III)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -776,7 +776,7 @@
 
     const v0, 0x8c4e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/commsource/easyeditor/utils/opengl/l;->a:I
 
@@ -787,7 +787,7 @@
     invoke-static {v1}, Landroid/opengl/GLES20;->glDeleteProgram(I)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

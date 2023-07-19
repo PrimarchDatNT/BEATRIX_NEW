@@ -40,7 +40,7 @@
 
     const/16 p1, 0x2e7a
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$w;->a:Lcom/commsource/beautyplus/setting/test/TestFuncActivity;
 
@@ -50,7 +50,7 @@
 
     invoke-virtual {v0}, Lcom/commsource/beautyplus/setting/test/TestFuncViewModel;->G()V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

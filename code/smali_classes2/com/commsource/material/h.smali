@@ -41,7 +41,7 @@
 
     const/16 v0, 0x5cbd
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x0
 
@@ -49,7 +49,7 @@
 
     move-result-object v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -59,7 +59,7 @@
 
     const/16 v0, 0x5cbe
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/commsource/material/h;->d:Lcom/commsource/material/h;
 
@@ -92,7 +92,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p0
 
@@ -100,7 +100,7 @@
     :goto_0
     sget-object p0, Lcom/commsource/material/h;->d:Lcom/commsource/material/h;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -112,11 +112,11 @@
 
     const/16 v0, 0x5cc3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p1, p2}, Lf/d/i/e;->C3(Landroid/content/Context;Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -126,7 +126,7 @@
 
     const/16 p1, 0x5cc4
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/material/g;->b:Ljava/util/List;
 
@@ -178,7 +178,7 @@
     :cond_0
     invoke-static {}, Lcom/commsource/camera/beauty/ArAnalyAgent;->k()V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -188,7 +188,7 @@
 
     const/16 v0, 0x5cc2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -198,7 +198,7 @@
 
     move-result-object v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -208,7 +208,7 @@
 
     const/16 v0, 0x5cbf
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lf/d/i/o;->o0()Z
 
@@ -270,7 +270,7 @@
 
     move-result p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -280,7 +280,7 @@
 
     const/16 v0, 0x5cc0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p1}, Ljava/lang/String;->valueOf(I)Ljava/lang/String;
 
@@ -332,7 +332,7 @@
     :cond_2
     invoke-super {p0, p1}, Lcom/commsource/material/g;->c(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -342,7 +342,7 @@
 
     const/16 v0, 0x5cc1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lf/d/i/o;->o0()Z
 
@@ -412,7 +412,7 @@
     :cond_2
     invoke-static {}, Lcom/commsource/camera/beauty/ArAnalyAgent;->k()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

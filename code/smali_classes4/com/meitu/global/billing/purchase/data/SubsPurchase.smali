@@ -43,11 +43,11 @@
 
     const v0, 0xc7d9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/global/billing/purchase/data/SubsPurchase;->expireTimeMs:J
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-wide v1
 .end method
@@ -57,7 +57,7 @@
 
     const v0, 0xc7da
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -77,7 +77,7 @@
     const/4 v1, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -87,11 +87,11 @@
 
     const v0, 0xc7d8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean v1, p0, Lcom/meitu/global/billing/purchase/data/SubsPurchase;->inGracePeriod:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -101,7 +101,7 @@
 
     const v0, 0xc7db
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -205,7 +205,7 @@
 
     move-result-object v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

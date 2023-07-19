@@ -175,7 +175,7 @@
 
     const/16 v0, 0x45bb
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/studio/mixlayer/ImageStyleViewModel$a;
 
@@ -603,7 +603,7 @@
 
     const/16 v0, 0x45bb
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -745,11 +745,11 @@
 
     const/16 v0, 0x45bc
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->m0:Ljava/util/ArrayList;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -759,11 +759,11 @@
 
     const/16 v0, 0x45bd
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->n0:Landroid/util/SparseArray;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -781,7 +781,7 @@
 
     const/16 v4, 0x45ab
 
-    invoke-static {v4}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v4}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v5, v0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->X:[F
 
@@ -1009,7 +1009,7 @@
 
     const/16 v1, 0x45ab
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1019,7 +1019,7 @@
 
     const/16 v0, 0x45ac
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     and-int/lit8 v1, p8, 0x40
 
@@ -1051,7 +1051,7 @@
 
     invoke-direct/range {v2 .. v9}, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->C(Lcom/commsource/studio/bean/ImageLayerInfo;Landroid/graphics/Matrix;FFIILcom/commsource/studio/bean/GroupLayerInfo;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1061,7 +1061,7 @@
 
     const/16 v0, 0x459f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x1
 
@@ -1138,7 +1138,7 @@
     invoke-virtual {p1, p2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1148,7 +1148,7 @@
 
     const/16 p5, 0x45b1    # 2.5E-41f
 
-    invoke-static {p5}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p5}, Lcom/res/ANRTrace;->e(I)V
 
     and-int/lit8 v0, p4, 0x2
 
@@ -1168,7 +1168,7 @@
     :cond_1
     invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->H(Lcom/commsource/widget/XSeekBar;FF)V
 
-    invoke-static {p5}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p5}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1178,7 +1178,7 @@
 
     const/16 p5, 0x45a9
 
-    invoke-static {p5}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p5}, Lcom/res/ANRTrace;->e(I)V
 
     and-int/lit8 p4, p4, 0x4
 
@@ -1191,7 +1191,7 @@
 
     move-result-object p0
 
-    invoke-static {p5}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p5}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -1201,7 +1201,7 @@
 
     const/16 v0, 0x45a4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     packed-switch p1, :pswitch_data_0
 
@@ -1383,7 +1383,7 @@
     move-result-object p1
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
@@ -1412,7 +1412,7 @@
 
     const/16 v0, 0x45af
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-nez p1, :cond_0
 
@@ -1430,7 +1430,7 @@
 
     invoke-static/range {v1 .. v6}, Lcotlin/collections/k;->t2([FFIIILjava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -1519,7 +1519,7 @@
 
     aput p1, p2, v5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1529,7 +1529,7 @@
 
     const/16 v0, 0x45b6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->S:Lcom/commsource/studio/bean/FocusLayerInfo;
 
@@ -1602,7 +1602,7 @@
 
     if-eqz v2, :cond_3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const/4 p1, 0x1
 
@@ -1615,7 +1615,7 @@
 
     invoke-direct {p1, v1}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -1635,18 +1635,18 @@
 
     move-result p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 
     :cond_5
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v3
 
     :cond_6
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v3
 .end method
@@ -1656,7 +1656,7 @@
 
     const/16 v0, 0x45b7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x0
 
@@ -1758,7 +1758,7 @@
 
     :cond_3
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -1770,7 +1770,7 @@
 
     const/16 v7, 0x45ad
 
-    invoke-static {v7}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v7}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, v6, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->X:[F
 
@@ -1857,7 +1857,7 @@
 
     aput v12, v0, v11
 
-    invoke-static {v7}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v7}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 .end method
@@ -1867,7 +1867,7 @@
 
     const/16 p8, 0x45ae
 
-    invoke-static {p8}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p8}, Lcom/res/ANRTrace;->e(I)V
 
     and-int/lit8 v0, p7, 0x8
 
@@ -1923,7 +1923,7 @@
 
     move-result-object p0
 
-    invoke-static {p8}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p8}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -1933,7 +1933,7 @@
 
     const/16 v0, 0x45a1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "defaultValue[key]"
 
@@ -2419,7 +2419,7 @@
 
     :cond_d
     :goto_c
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -2448,7 +2448,7 @@
 
     const/16 v0, 0x459d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->S:Lcom/commsource/studio/bean/FocusLayerInfo;
 
@@ -2574,7 +2574,7 @@
 
     :cond_7
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -2584,7 +2584,7 @@
 
     const/16 v0, 0x459e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->S:Lcom/commsource/studio/bean/FocusLayerInfo;
 
@@ -2645,7 +2645,7 @@
 
     invoke-direct {p1, v1}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -2659,7 +2659,7 @@
     invoke-direct {p0, p1, v1}, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->G(ILcom/commsource/studio/bean/ImageLayerInfo;)V
 
     :cond_3
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -2673,7 +2673,7 @@
 
     const/16 v0, 0x45b0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-nez p1, :cond_0
 
@@ -2735,7 +2735,7 @@
     invoke-virtual {p1, p2}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -2747,7 +2747,7 @@
 
     const/16 v0, 0x45a8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v2, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->S:Lcom/commsource/studio/bean/FocusLayerInfo;
 
@@ -2884,7 +2884,7 @@
 
     move-result-object p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
@@ -2929,7 +2929,7 @@
 
     move-result-object p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
@@ -2970,7 +2970,7 @@
     move-result-object v1
 
     :cond_8
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -2993,7 +2993,7 @@
 
     const/16 v0, 0x4594
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->p:Lcotlin/w;
 
@@ -3003,7 +3003,7 @@
 
     check-cast v1, Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -3015,11 +3015,11 @@
 
     const/16 v0, 0x4599
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->N:[F
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -3039,7 +3039,7 @@
 
     const/16 v0, 0x459a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->O:Lcotlin/w;
 
@@ -3049,7 +3049,7 @@
 
     check-cast v1, Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -3070,7 +3070,7 @@
 
     const/16 v0, 0x4596
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->K:Lcotlin/w;
 
@@ -3080,7 +3080,7 @@
 
     check-cast v1, Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -3101,7 +3101,7 @@
 
     const/16 v0, 0x4595
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->J:Lcotlin/w;
 
@@ -3111,7 +3111,7 @@
 
     check-cast v1, Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -3127,7 +3127,7 @@
 
     const/16 v0, 0x45b2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-nez p1, :cond_0
 
@@ -3262,7 +3262,7 @@
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
@@ -3297,11 +3297,11 @@
 
     const/16 v0, 0x459b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->P:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -3322,7 +3322,7 @@
 
     const/16 v0, 0x4592
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->f:Lcotlin/w;
 
@@ -3332,7 +3332,7 @@
 
     check-cast v1, Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -3353,7 +3353,7 @@
 
     const/16 v0, 0x4591
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->d:Lcotlin/w;
 
@@ -3363,7 +3363,7 @@
 
     check-cast v1, Lcom/commsource/beautyfilter/NoStickLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -3384,7 +3384,7 @@
 
     const/16 v0, 0x4593
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->g:Lcotlin/w;
 
@@ -3394,7 +3394,7 @@
 
     check-cast v1, Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -3415,11 +3415,11 @@
 
     const/16 v0, 0x459c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->Q:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -3440,7 +3440,7 @@
 
     const/16 v0, 0x4597
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->L:Lcotlin/w;
 
@@ -3450,7 +3450,7 @@
 
     check-cast v1, Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -3471,7 +3471,7 @@
 
     const/16 v0, 0x4598
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->M:Lcotlin/w;
 
@@ -3481,7 +3481,7 @@
 
     check-cast v1, Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -3491,7 +3491,7 @@
 
     const/16 v0, 0x45a6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->S:Lcom/commsource/studio/bean/FocusLayerInfo;
 
@@ -3584,7 +3584,7 @@
 
     if-eqz v9, :cond_2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v5
 
@@ -3600,7 +3600,7 @@
 
     invoke-direct {v1, v2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw v1
 
@@ -3665,7 +3665,7 @@
 
     :cond_6
     :goto_2
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v5
 
@@ -3694,7 +3694,7 @@
 
     if-eqz v4, :cond_8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v5
 
@@ -3724,19 +3724,19 @@
     goto :goto_3
 
     :cond_9
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v3
 
     :cond_a
     :goto_3
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v5
 
     :cond_b
     :goto_4
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v3
 .end method
@@ -3746,7 +3746,7 @@
 
     const/16 v0, 0x45b3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->S:Lcom/commsource/studio/bean/FocusLayerInfo;
 
@@ -3814,7 +3814,7 @@
 
     :cond_3
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v2
 .end method
@@ -3824,7 +3824,7 @@
 
     const/16 v0, 0x45a3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->S:Lcom/commsource/studio/bean/FocusLayerInfo;
 
@@ -3920,7 +3920,7 @@
     if-nez p1, :cond_0
 
     :cond_5
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v5
 
@@ -3981,14 +3981,14 @@
     if-nez p1, :cond_b
 
     :cond_a
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v5
 
     :cond_b
     const/4 p1, 0x0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -4002,7 +4002,7 @@
 
     const/16 v0, 0x45b4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p1, :cond_3
 
@@ -4117,7 +4117,7 @@
     invoke-static {p1, v2}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
     :cond_3
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -4127,7 +4127,7 @@
 
     const/16 v0, 0x45b5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Ljava/util/HashMap;
 
@@ -4199,7 +4199,7 @@
 
     invoke-static {v2, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -4213,7 +4213,7 @@
 
     const/16 v0, 0x45ba
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-nez p1, :cond_0
 
@@ -4302,7 +4302,7 @@
     invoke-static {p1, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -4325,7 +4325,7 @@
 
     const/16 v0, 0x45b9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Ljava/util/HashMap;
 
@@ -4349,7 +4349,7 @@
 
     invoke-static {p1, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -4359,7 +4359,7 @@
 
     const/16 v0, 0x45b8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Ljava/util/HashMap;
 
@@ -4467,7 +4467,7 @@
 
     invoke-static {p1, v1}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -4485,7 +4485,7 @@
 
     const/16 v9, 0x45aa
 
-    invoke-static {v9}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v9}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz v0, :cond_4
 
@@ -4645,7 +4645,7 @@
     invoke-direct/range {v0 .. v7}, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->C(Lcom/commsource/studio/bean/ImageLayerInfo;Landroid/graphics/Matrix;FFIILcom/commsource/studio/bean/GroupLayerInfo;)V
 
     :cond_4
-    invoke-static {v9}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v9}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -4655,7 +4655,7 @@
 
     const/16 v0, 0x45a7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->S:Lcom/commsource/studio/bean/FocusLayerInfo;
 
@@ -4749,7 +4749,7 @@
 
     invoke-direct {v1, v2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw v1
 
@@ -4832,13 +4832,13 @@
     invoke-virtual {v1, v2}, Lcom/commsource/studio/bean/FocusLayerInfo;->setAlpha(F)V
 
     :cond_6
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
     :cond_7
     :goto_2
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -4852,7 +4852,7 @@
 
     const/16 v0, 0x45a0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "value"
 
@@ -4923,7 +4923,7 @@
 
     invoke-direct {p1, p2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -4943,7 +4943,7 @@
     invoke-direct {p0, v1, p1, p2}, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->p0(Lcom/commsource/studio/bean/ImageLayerInfo;I[I)V
 
     :cond_3
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -4961,7 +4961,7 @@
 
     const/16 v0, 0x45a5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p2, :cond_7
 
@@ -5110,13 +5110,13 @@
     invoke-virtual {p1, p2}, Lcom/commsource/studio/effect/l;->D(Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;)V
 
     :cond_6
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
     :cond_7
     :goto_2
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -5128,7 +5128,7 @@
 
     const/16 v0, 0x45a2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->S:Lcom/commsource/studio/bean/FocusLayerInfo;
 
@@ -5220,12 +5220,12 @@
 
     check-cast p1, Ljava/lang/Integer;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
     :cond_3
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v4
 
@@ -5240,7 +5240,7 @@
 
     move-result-object p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
@@ -5253,7 +5253,7 @@
 
     check-cast p1, Ljava/lang/Integer;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method

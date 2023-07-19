@@ -62,11 +62,11 @@
 
     const v0, 0xc685
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/global/billing/purchase/data/UserOrderInfo;->mMTGPurchases:Ljava/util/List;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -76,11 +76,11 @@
 
     const v0, 0xc683
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/global/billing/purchase/data/UserOrderInfo;->mRestorePurchase:Lcom/meitu/global/billing/purchase/data/RestorePurchase;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -98,11 +98,11 @@
 
     const v0, 0xc686
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/meitu/global/billing/purchase/data/UserOrderInfo;->mMTGPurchases:Ljava/util/List;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -112,11 +112,11 @@
 
     const v0, 0xc684
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/meitu/global/billing/purchase/data/UserOrderInfo;->mRestorePurchase:Lcom/meitu/global/billing/purchase/data/RestorePurchase;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

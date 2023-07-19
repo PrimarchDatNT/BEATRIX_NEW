@@ -46,7 +46,7 @@
 
     const v0, 0xec29
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p1, Lcom/meitu/webview/mtscript/MTCommandOpenAppScript$Model;->packageName:Ljava/lang/String;
 
@@ -58,7 +58,7 @@
 
     if-eqz v1, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v2
 
@@ -73,7 +73,7 @@
 
     if-nez v1, :cond_1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v3
 
@@ -92,12 +92,12 @@
 
     if-ge v1, p1, :cond_2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v3
 
     :cond_2
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v2
 .end method
@@ -109,9 +109,9 @@
 
     const v0, 0xec27
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const/4 v0, 0x1
 
@@ -123,7 +123,7 @@
 
     const v0, 0xec26
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p1, Lcom/meitu/webview/mtscript/MTCommandOpenAppScript$Model;->packageName:Ljava/lang/String;
 
@@ -194,7 +194,7 @@
     invoke-static {v4, v1}, Lcom/meitu/webview/utils/g;->w(Landroid/content/Context;Ljava/lang/String;)V
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v5
 
@@ -236,7 +236,7 @@
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v5
 
@@ -256,7 +256,7 @@
     invoke-static {v4, v1}, Lcom/meitu/library/p/d/a;->r(Landroid/content/Context;Ljava/lang/String;)Z
 
     :cond_6
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v5
 .end method
@@ -266,14 +266,14 @@
 
     const v0, 0xec28
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p1, :cond_0
 
     invoke-virtual {p1, p2}, Lcom/meitu/webview/core/CommonWebView;->loadUrl(Ljava/lang/String;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -283,7 +283,7 @@
 
     const v0, 0xec25
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/webview/mtscript/MTCommandOpenAppScript$a;
 
@@ -293,7 +293,7 @@
 
     invoke-virtual {p0, v1}, Lcom/meitu/webview/mtscript/i;->E(Lcom/meitu/webview/mtscript/i$c;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const/4 v0, 0x1
 

@@ -326,11 +326,11 @@
 
     const/16 v0, 0x5a37
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/commsource/easyeditor/y1;->d:Lcom/meitu/core/types/NativeBitmap;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -340,11 +340,11 @@
 
     const/16 v0, 0x5a3a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p0, p0, Lcom/commsource/easyeditor/y1;->e:Landroid/graphics/Bitmap;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -354,7 +354,7 @@
 
     const/16 v0, 0x5a35
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/y1;->r:Lcom/commsource/easyeditor/z1/k;
 
@@ -364,7 +364,7 @@
 
     invoke-virtual {p0, p1}, Lcom/commsource/easyeditor/y1;->H0(Z)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -374,11 +374,11 @@
 
     const/16 v0, 0x5a39
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/commsource/easyeditor/y1;->e:Landroid/graphics/Bitmap;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -388,11 +388,11 @@
 
     const/16 v0, 0x5a3c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p0, p0, Lcom/commsource/easyeditor/y1;->f:Lcom/meitu/core/types/FaceData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -402,7 +402,7 @@
 
     const/16 v0, 0x5a33
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/y1;->r:Lcom/commsource/easyeditor/z1/k;
 
@@ -414,7 +414,7 @@
 
     invoke-virtual {p0, p1}, Lcom/commsource/easyeditor/y1;->H0(Z)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -424,11 +424,11 @@
 
     const/16 v0, 0x5a3b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/commsource/easyeditor/y1;->f:Lcom/meitu/core/types/FaceData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -438,11 +438,11 @@
 
     const/16 v0, 0x5a3d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p0, p0, Lcom/commsource/easyeditor/y1;->r:Lcom/commsource/easyeditor/z1/k;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -467,7 +467,7 @@
 
     const/16 v0, 0x5a05
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/commsource/easyeditor/y1;->h0()Landroidx/lifecycle/MutableLiveData;
 
@@ -485,7 +485,7 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -495,11 +495,11 @@
 
     const/16 v0, 0x5a3e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/commsource/easyeditor/y1;->h:Lcom/commsource/easyeditor/a2/c;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -509,11 +509,11 @@
 
     const/16 v0, 0x5a40
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p0, p0, Lcom/commsource/easyeditor/y1;->q:Ljava/util/List;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -523,11 +523,11 @@
 
     const/16 v0, 0x5a3f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/commsource/easyeditor/y1;->q:Ljava/util/List;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -537,11 +537,11 @@
 
     const/16 v0, 0x5a41
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p0, p0, Lcom/commsource/easyeditor/y1;->y:Lf/d/d/o;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -551,11 +551,11 @@
 
     const/16 v0, 0x5a42
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p0, p0, Lcom/commsource/easyeditor/y1;->x:Lcom/commsource/easyeditor/z1/l;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -565,7 +565,7 @@
 
     const/16 v0, 0x5a01
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -599,7 +599,7 @@
 
     invoke-interface {p2, p1, p3}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -609,7 +609,7 @@
 
     const/16 v0, 0x5a0e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p1, :cond_4
 
@@ -768,7 +768,7 @@
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
     :cond_4
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -782,7 +782,7 @@
 
     const/16 v0, 0x5a00
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -826,7 +826,7 @@
 
     div-float/2addr p1, v2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 
@@ -839,7 +839,7 @@
 
     div-float/2addr p1, v2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -849,7 +849,7 @@
 
     const/16 v0, 0x5a04
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/y1;->w:Lcom/commsource/easyeditor/entity/c;
 
@@ -873,7 +873,7 @@
 
     if-nez p2, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -988,7 +988,7 @@
     invoke-static {p1}, Lcom/commsource/easyeditor/w1;->b(Lcom/commsource/easyeditor/entity/c;)V
 
     :cond_5
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -998,7 +998,7 @@
 
     const/16 v0, 0x5a03
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/y1;->v:Lcom/commsource/easyeditor/entity/f;
 
@@ -1022,7 +1022,7 @@
 
     if-nez p2, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -1130,7 +1130,7 @@
     invoke-static {p1, p2}, Lcom/commsource/easyeditor/w1;->c(ILcom/commsource/easyeditor/entity/f;)V
 
     :cond_4
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1144,7 +1144,7 @@
 
     const/16 v0, 0x59ff
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p1}, Lcom/commsource/easyeditor/entity/f;->c()Lcom/commsource/easyeditor/entity/FaceEffectEnum;
 
@@ -1154,7 +1154,7 @@
 
     move-result p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -1164,7 +1164,7 @@
 
     const/16 v0, 0x5a2f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x3
 
@@ -1176,7 +1176,7 @@
 
     if-nez p1, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -1301,7 +1301,7 @@
 
     invoke-virtual {v1, p1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1311,11 +1311,11 @@
 
     const/16 v0, 0x5a2e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-nez p1, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -1349,7 +1349,7 @@
 
     invoke-virtual {v1, p1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1361,7 +1361,7 @@
 
     const/16 v1, 0x5a32
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     iget v2, v0, Lcom/commsource/easyeditor/y1;->s:I
 
@@ -1481,19 +1481,19 @@
 
     invoke-virtual {v3, v2}, Lcom/commsource/easyeditor/entity/g;->l(Ljava/util/List;)V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
     :cond_2
     :goto_0
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
     :cond_3
     :goto_1
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1503,7 +1503,7 @@
 
     const/16 v0, 0x5a30
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/y1;->r:Lcom/commsource/easyeditor/z1/k;
 
@@ -1553,7 +1553,7 @@
 
     invoke-static {v1, p1, v2}, Lcom/commsource/easyeditor/w1;->h(Lcom/commsource/easyeditor/entity/b;Lcom/commsource/easyeditor/v1;Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1563,7 +1563,7 @@
 
     const/16 v0, 0x5a31
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/y1;->r:Lcom/commsource/easyeditor/z1/k;
 
@@ -1573,7 +1573,7 @@
 
     invoke-virtual {p0, p1}, Lcom/commsource/easyeditor/y1;->H0(Z)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1583,11 +1583,11 @@
 
     const/16 v0, 0x5a36
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p0, p0, Lcom/commsource/easyeditor/y1;->u:Lcom/commsource/easyeditor/entity/b;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -1597,11 +1597,11 @@
 
     const/16 v0, 0x5a38
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p0, p0, Lcom/commsource/easyeditor/y1;->d:Lcom/meitu/core/types/NativeBitmap;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -1611,7 +1611,7 @@
 
     const/16 v0, 0x5a34
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/y1;->r:Lcom/commsource/easyeditor/z1/k;
 
@@ -1621,7 +1621,7 @@
 
     invoke-virtual {p0, p1}, Lcom/commsource/easyeditor/y1;->H0(Z)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1659,7 +1659,7 @@
 
     const/16 v0, 0x5a11
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/y1;->h:Lcom/commsource/easyeditor/a2/c;
 
@@ -1673,7 +1673,7 @@
 
     invoke-direct {p0, v1}, Lcom/commsource/easyeditor/y1;->O0(Lcom/commsource/easyeditor/entity/d;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1685,7 +1685,7 @@
 
     const/16 v0, 0x5a0c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/y1;->v:Lcom/commsource/easyeditor/entity/f;
 
@@ -1717,7 +1717,7 @@
     invoke-virtual {p1}, Lcom/commsource/easyeditor/z1/k;->N()V
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1729,7 +1729,7 @@
 
     const/16 v0, 0x5a0f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/commsource/easyeditor/y1;->l0()Z
 
@@ -1753,7 +1753,7 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -1764,7 +1764,7 @@
 
     if-nez v1, :cond_1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -1797,7 +1797,7 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/easyeditor/z1/k;->H(Ljava/lang/Runnable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1807,11 +1807,11 @@
 
     const/16 v0, 0x5a1a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/commsource/easyeditor/y1;->y:Lf/d/d/o;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1821,11 +1821,11 @@
 
     const/16 v0, 0x5a19
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput p1, p0, Lcom/commsource/easyeditor/y1;->E:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1835,7 +1835,7 @@
 
     const/16 v0, 0x5a14
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/commsource/easyeditor/y1;->t:I
 
@@ -1847,7 +1847,7 @@
 
     const/4 p1, 0x0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 
@@ -1867,7 +1867,7 @@
 
     const/4 p1, 0x1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -1889,7 +1889,7 @@
 
     const/16 v0, 0x5a0d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -1948,7 +1948,7 @@
     goto :goto_0
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1958,7 +1958,7 @@
 
     const/16 v0, 0x5a1c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/y1;->y:Lf/d/d/o;
 
@@ -1975,7 +1975,7 @@
     invoke-virtual {v1, v2, v3, v4, v5}, Lf/d/d/o;->t0(Landroid/graphics/Bitmap;Lcom/meitu/core/types/FaceData;Lcom/commsource/camera/fastcapture/SelfiePhotoData;Z)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1985,11 +1985,11 @@
 
     const/16 v0, 0x5a1b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/y1;->y:Lf/d/d/o;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -2001,7 +2001,7 @@
 
     const/16 v0, 0x5a10
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/y1;->h:Lcom/commsource/easyeditor/a2/c;
 
@@ -2015,7 +2015,7 @@
 
     invoke-direct {p0, v1}, Lcom/commsource/easyeditor/y1;->O0(Lcom/commsource/easyeditor/entity/d;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -2035,7 +2035,7 @@
 
     const/16 v0, 0x5a27
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/y1;->g:Landroidx/lifecycle/MediatorLiveData;
 
@@ -2064,7 +2064,7 @@
     :cond_0
     iget-object v1, p0, Lcom/commsource/easyeditor/y1;->g:Landroidx/lifecycle/MediatorLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -2082,11 +2082,11 @@
 
     const/16 v0, 0x5a26
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/y1;->k:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -2096,7 +2096,7 @@
 
     const/16 v0, 0x5a0a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/y1;->u:Lcom/commsource/easyeditor/entity/b;
 
@@ -2221,7 +2221,7 @@
 
     invoke-virtual {p0, p1}, Lcom/commsource/easyeditor/y1;->H0(Z)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -2239,11 +2239,11 @@
 
     const/16 v0, 0x5a2d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/y1;->o:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -2253,11 +2253,11 @@
 
     const/16 v0, 0x5a18
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/commsource/easyeditor/y1;->E:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -2267,7 +2267,7 @@
 
     const/16 v0, 0x5a07
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p1, :cond_1
 
@@ -2284,13 +2284,13 @@
 
     iput-object p1, p0, Lcom/commsource/easyeditor/y1;->w:Lcom/commsource/easyeditor/entity/c;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
     :cond_1
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -2300,11 +2300,11 @@
 
     const/16 v0, 0x5a17
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/commsource/easyeditor/y1;->t:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -2314,7 +2314,7 @@
 
     const/16 v0, 0x5a02
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/y1;->v:Lcom/commsource/easyeditor/entity/f;
 
@@ -2333,7 +2333,7 @@
 
     :cond_1
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -2343,11 +2343,11 @@
 
     const/16 v0, 0x5a16
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/commsource/easyeditor/y1;->s:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -2357,7 +2357,7 @@
 
     const/16 v0, 0x5a06
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/y1;->v:Lcom/commsource/easyeditor/entity/f;
 
@@ -2465,13 +2465,13 @@
 
     :cond_4
     :goto_2
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
     :cond_5
     :goto_3
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -2481,7 +2481,7 @@
 
     const/16 v0, 0x5a08
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/y1;->u:Lcom/commsource/easyeditor/entity/b;
 
@@ -2511,7 +2511,7 @@
 
     if-ne v2, v3, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -2570,7 +2570,7 @@
     invoke-virtual {p0, p1}, Lcom/commsource/easyeditor/y1;->H0(Z)V
 
     :cond_2
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -2588,7 +2588,7 @@
 
     const/16 v0, 0x5a28
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/y1;->l:Landroidx/lifecycle/MediatorLiveData;
 
@@ -2617,7 +2617,7 @@
     :cond_0
     iget-object v1, p0, Lcom/commsource/easyeditor/y1;->l:Landroidx/lifecycle/MediatorLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -2627,7 +2627,7 @@
 
     const/16 v0, 0x5a09
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/commsource/easyeditor/y1;->t:I
 
@@ -2666,7 +2666,7 @@
 
     if-ne v2, v3, :cond_1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -2726,13 +2726,13 @@
 
     invoke-virtual {p0, p1}, Lcom/commsource/easyeditor/y1;->H0(Z)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
     :cond_3
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -2750,11 +2750,11 @@
 
     const/16 v0, 0x5a2c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/y1;->A:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -2764,11 +2764,11 @@
 
     const/16 v0, 0x5a15
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/y1;->u:Lcom/commsource/easyeditor/entity/b;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -2786,11 +2786,11 @@
 
     const/16 v0, 0x5a24
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/y1;->i:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -2808,11 +2808,11 @@
 
     const/16 v0, 0x5a22
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/y1;->b:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -2831,11 +2831,11 @@
 
     const/16 v0, 0x5a23
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/y1;->c:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -2854,11 +2854,11 @@
 
     const/16 v0, 0x5a2b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/y1;->n:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -2876,11 +2876,11 @@
 
     const/16 v0, 0x5a21
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/y1;->a:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -2898,11 +2898,11 @@
 
     const/16 v0, 0x5a2a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/y1;->z:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -2912,11 +2912,11 @@
 
     const/16 v0, 0x5a13
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/y1;->w:Lcom/commsource/easyeditor/entity/c;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -2926,11 +2926,11 @@
 
     const/16 v0, 0x5a12
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/y1;->v:Lcom/commsource/easyeditor/entity/f;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -2948,11 +2948,11 @@
 
     const/16 v0, 0x5a29
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/y1;->m:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -2962,11 +2962,11 @@
 
     const/16 v0, 0x5a1f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/y1;->F:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -2984,11 +2984,11 @@
 
     const/16 v0, 0x5a25
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/y1;->j:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -2998,7 +2998,7 @@
 
     const/16 v0, 0x5a1e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/y1;->f:Lcom/meitu/core/types/FaceData;
 
@@ -3018,7 +3018,7 @@
     const/4 v1, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -3028,7 +3028,7 @@
 
     const/16 v0, 0x5a20
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/y1;->u:Lcom/commsource/easyeditor/entity/b;
 
@@ -3056,7 +3056,7 @@
     const/4 v1, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -3066,7 +3066,7 @@
 
     const/16 v0, 0x5a1d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/y1;->y:Lf/d/d/o;
 
@@ -3086,7 +3086,7 @@
     const/4 v1, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -3096,7 +3096,7 @@
 
     const/16 v0, 0x59fe
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "IMAGE_PATH"
 
@@ -3136,7 +3136,7 @@
 
     invoke-static {p1}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -3146,7 +3146,7 @@
 
     const/16 v0, 0x5a0b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/y1;->q:Ljava/util/List;
 
@@ -3173,7 +3173,7 @@
 
     move-result p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 
@@ -3181,7 +3181,7 @@
     :goto_0
     const/4 p1, 0x0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method

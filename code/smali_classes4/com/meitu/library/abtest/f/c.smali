@@ -13,7 +13,7 @@
 
     const v0, 0xc5b3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-class v1, Lcom/meitu/library/abtest/f/c;
 
@@ -23,7 +23,7 @@
 
     sput-object v1, Lcom/meitu/library/abtest/f/c;->m:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -137,7 +137,7 @@
 
     const v0, 0xc5b2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p0}, Lcom/meitu/library/abtest/l/h;->d(Lcom/meitu/library/abtest/a;)Ljava/lang/String;
 
@@ -151,7 +151,7 @@
 
     const-wide/16 p0, -0x1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-wide p0
 
@@ -186,7 +186,7 @@
 
     move-result-wide p0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-wide p0
 .end method
@@ -201,7 +201,7 @@
     const v0, 0xc5b1
 
     :try_start_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean v1, p0, Lcom/meitu/library/abtest/f/a;->a:Z
 
@@ -222,7 +222,7 @@
     :cond_0
     iget-object v1, p0, Lcom/meitu/library/abtest/f/a;->b:[Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -246,7 +246,7 @@
     const v0, 0xc5b0
 
     :try_start_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean v1, p0, Lcom/meitu/library/abtest/f/a;->a:Z
 
@@ -269,7 +269,7 @@
 
     aget-object v1, v1, v2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

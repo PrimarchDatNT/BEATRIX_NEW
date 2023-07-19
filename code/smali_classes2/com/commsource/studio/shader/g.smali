@@ -41,7 +41,7 @@
 
     const p4, 0x9a00
 
-    invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p4}, Lcom/res/ANRTrace;->e(I)V
 
     and-int/lit8 p3, p3, 0x2
 
@@ -52,7 +52,7 @@
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/shader/g;->l(Lcom/commsource/easyeditor/utils/opengl/f;[F)V
 
-    invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p4}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -72,7 +72,7 @@
 
     const v0, 0x9a01
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "textureEntity"
 
@@ -110,7 +110,7 @@
 
     invoke-super {p0}, Lcom/commsource/studio/shader/a;->a()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -128,7 +128,7 @@
 
     const v0, 0x99ff
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "textureEntity"
 
@@ -165,7 +165,7 @@
     :cond_0
     invoke-super {p0}, Lcom/commsource/studio/shader/a;->a()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

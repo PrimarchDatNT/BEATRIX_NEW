@@ -52,7 +52,7 @@
 
     const v0, 0x9bd8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Landroid/graphics/Rect;
 
@@ -94,7 +94,7 @@
 
     invoke-virtual {p1, v2, v1}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->a3(Landroid/graphics/Point;Landroid/graphics/Rect;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -104,13 +104,13 @@
 
     const v0, 0x9bd7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/window/ArGiphyDeleteCover$c;->a(Ljava/lang/Integer;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

@@ -55,7 +55,7 @@
 
     const/16 v0, 0x60ef
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/TimeCountDownCover;->d:Lcotlin/w;
 
@@ -65,7 +65,7 @@
 
     check-cast v1, Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -77,11 +77,11 @@
 
     const/16 v0, 0x60f0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/TimeCountDownCover;->f:Lcom/commsource/camera/xcamera/g;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -95,11 +95,11 @@
 
     const/16 v0, 0x60f1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/commsource/camera/xcamera/cover/window/TimeCountDownCover;->f:Lcom/commsource/camera/xcamera/g;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -109,7 +109,7 @@
 
     const/16 v0, 0x60f7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->h(FF)V
 
@@ -128,7 +128,7 @@
     invoke-virtual {p2, p1}, Landroid/widget/TextView;->setRotation(F)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -138,7 +138,7 @@
 
     const/16 v0, 0x60f2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/window/TimeCountDownCover;->E()Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
@@ -162,7 +162,7 @@
 
     invoke-virtual {v1, v2, v3}, Landroidx/lifecycle/LiveData;->observe(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Observer;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -175,7 +175,7 @@
 
     const/16 v0, 0x60f6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/TimeCountDownCover;->f:Lcom/commsource/camera/xcamera/g;
 
@@ -184,7 +184,7 @@
     invoke-virtual {v1}, Lcom/commsource/camera/xcamera/g;->a()V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -194,9 +194,9 @@
 
     const/16 v0, 0x60f3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     sget v0, Lcom/res/provider/ResLAYOUT;->cover_time_count_down:I
 
@@ -208,7 +208,7 @@
 
     const/16 v0, 0x60f4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/AbsBaseCover;->c()Lcom/commsource/camera/xcamera/cover/CoverGroup;
 
@@ -224,7 +224,7 @@
 
     invoke-virtual {v1, p0}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -234,9 +234,9 @@
 
     const/16 v0, 0x60f5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

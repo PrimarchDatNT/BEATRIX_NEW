@@ -61,7 +61,7 @@
 
     const/16 v0, 0x1015
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-super {p0}, Lcom/commsource/studio/r0/t;->h()V
 
@@ -99,7 +99,7 @@
 
     invoke-virtual {v1}, Lcom/commsource/camera/newrender/renderproxy/m$a;->b()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -121,7 +121,7 @@
 
     const/16 v0, 0x1016
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "params"
 
@@ -610,7 +610,7 @@
     goto/16 :goto_0
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 

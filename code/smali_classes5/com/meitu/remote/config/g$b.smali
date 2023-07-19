@@ -48,11 +48,11 @@
 
     const v0, 0xcec0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/remote/config/g$b;->a:J
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-wide v1
 .end method
@@ -62,11 +62,11 @@
 
     const v0, 0xcec1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/remote/config/g$b;->b:J
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-wide v1
 .end method
@@ -76,11 +76,11 @@
 
     const v0, 0xcec2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean p0, p0, Lcom/meitu/remote/config/g$b;->c:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p0
 .end method
@@ -94,7 +94,7 @@
 
     const v0, 0xcebf
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/remote/config/g;
 
@@ -102,7 +102,7 @@
 
     invoke-direct {v1, p0, v2}, Lcom/meitu/remote/config/g;-><init>(Lcom/meitu/remote/config/g$b;Lcom/meitu/remote/config/g$a;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -112,11 +112,11 @@
 
     const v0, 0xcebd
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean v1, p0, Lcom/meitu/remote/config/g$b;->c:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -126,11 +126,11 @@
 
     const v0, 0xceb9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/remote/config/g$b;->a:J
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-wide v1
 .end method
@@ -140,11 +140,11 @@
 
     const v0, 0xcebb
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/remote/config/g$b;->b:J
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-wide v1
 .end method
@@ -156,11 +156,11 @@
 
     const v0, 0xcebe
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-boolean p1, p0, Lcom/meitu/remote/config/g$b;->c:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -178,7 +178,7 @@
 
     const v0, 0xceba
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-wide/16 v1, 0x0
 
@@ -188,7 +188,7 @@
 
     iput-wide p1, p0, Lcom/meitu/remote/config/g$b;->a:J
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
@@ -215,7 +215,7 @@
 
     invoke-direct {v1, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw v1
 .end method
@@ -227,7 +227,7 @@
 
     const v0, 0xcebc
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-wide/16 v1, 0x0
 
@@ -237,7 +237,7 @@
 
     iput-wide p1, p0, Lcom/meitu/remote/config/g$b;->b:J
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
@@ -264,7 +264,7 @@
 
     invoke-direct {v1, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw v1
 .end method

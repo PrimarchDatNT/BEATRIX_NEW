@@ -66,11 +66,11 @@
 
     const/16 v0, 0x7303
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p0, p0, Lcom/commsource/studio/function/AIBeautyFragment;->e0:Lcom/commsource/studio/processor/j;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -80,7 +80,7 @@
 
     const/16 v0, 0x7305
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p0, p0, Lcom/commsource/studio/function/AIBeautyFragment;->g0:Lcom/commsource/studio/layer/EffectTranslateLayer;
 
@@ -91,7 +91,7 @@
     invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -101,7 +101,7 @@
 
     const/16 v0, 0x7301
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p0, p0, Lcom/commsource/studio/function/AIBeautyFragment;->d0:Lcom/commsource/beautyplus/f0/ab;
 
@@ -112,7 +112,7 @@
     invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -122,11 +122,11 @@
 
     const/16 v0, 0x7300
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/commsource/studio/function/AIBeautyFragment;->h0:Lf/d/d/o;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -136,11 +136,11 @@
 
     const/16 v0, 0x7304
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/commsource/studio/function/AIBeautyFragment;->e0:Lcom/commsource/studio/processor/j;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -150,11 +150,11 @@
 
     const/16 v0, 0x7306
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/commsource/studio/function/AIBeautyFragment;->g0:Lcom/commsource/studio/layer/EffectTranslateLayer;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -164,11 +164,11 @@
 
     const/16 v0, 0x7302
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/commsource/studio/function/AIBeautyFragment;->d0:Lcom/commsource/beautyplus/f0/ab;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -178,7 +178,7 @@
 
     const/16 v0, 0x72ff
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p0, p0, Lcom/commsource/studio/function/AIBeautyFragment;->h0:Lf/d/d/o;
 
@@ -189,7 +189,7 @@
     invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -201,7 +201,7 @@
 
     const/16 v0, 0x72fc
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Ljava/util/HashMap;
 
@@ -269,7 +269,7 @@
 
     invoke-super {p0}, Lcom/commsource/studio/function/BaseSubFragment;->G0()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -281,11 +281,11 @@
 
     const/16 v0, 0x72f0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/function/AIBeautyFragment;->f0:Lcom/commsource/studio/effect/c;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -295,7 +295,7 @@
 
     const/16 v0, 0x72fd
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/function/AIBeautyFragment;->h0:Lf/d/d/o;
 
@@ -312,14 +312,14 @@
 
     if-eqz v1, :cond_1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
     :cond_1
     invoke-super {p0}, Lcom/commsource/studio/function/BaseSubFragment;->I0()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -333,7 +333,7 @@
 
     const/16 v0, 0x72f2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "<set-?>"
 
@@ -341,7 +341,7 @@
 
     iput-object p1, p0, Lcom/commsource/studio/function/AIBeautyFragment;->f0:Lcom/commsource/studio/effect/c;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -351,7 +351,7 @@
 
     const/16 v0, 0x72f5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/studio/processor/j;
 
@@ -361,7 +361,7 @@
 
     iput-object v1, p0, Lcom/commsource/studio/function/AIBeautyFragment;->e0:Lcom/commsource/studio/processor/j;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -371,7 +371,7 @@
 
     const/16 v0, 0x72f6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-super {p0}, Lcom/commsource/studio/function/BaseSubFragment;->L0()V
 
@@ -381,7 +381,7 @@
 
     invoke-static {v1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -391,9 +391,9 @@
 
     const/16 v0, 0x72f7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -403,7 +403,7 @@
 
     const/16 v0, 0x72f8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-super {p0}, Lcom/commsource/studio/function/BaseSubFragment;->N0()V
 
@@ -413,7 +413,7 @@
 
     invoke-virtual {p0, v1}, Lcom/commsource/studio/function/BaseSubFragment;->c1(Lcotlin/jvm/u/a;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -423,7 +423,7 @@
 
     const/16 v0, 0x72fb
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-super {p0}, Lcom/commsource/studio/function/BaseSubFragment;->Q()V
 
@@ -438,7 +438,7 @@
     :cond_0
     invoke-virtual {v1}, Lf/d/d/o;->v()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -448,13 +448,13 @@
 
     const/16 v0, 0x72f1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/commsource/studio/function/AIBeautyFragment;->H1()Lcom/commsource/studio/effect/c;
 
     move-result-object v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -468,7 +468,7 @@
 
     const/16 v0, 0x72fe
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "routerEntity"
 
@@ -499,7 +499,7 @@
 
     invoke-virtual {p1, v2, v1}, Lcom/commsource/beautyplus/router/RouterEntity;->addParameter(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -509,13 +509,13 @@
 
     const/16 v0, 0x72f3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Lcom/commsource/studio/effect/c;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/AIBeautyFragment;->I1(Lcom/commsource/studio/effect/c;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -525,11 +525,11 @@
 
     const/16 v0, 0x72ee
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/commsource/studio/function/AIBeautyFragment;->c0:F
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -539,11 +539,11 @@
 
     const/16 v0, 0x72ef
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput p1, p0, Lcom/commsource/studio/function/AIBeautyFragment;->c0:F
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -567,7 +567,7 @@
 
     const/16 p2, 0x72f4
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     const-string p3, "inflater"
 
@@ -682,7 +682,7 @@
 
     move-result-object p1
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -692,13 +692,13 @@
 
     const/16 v0, 0x7309
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-super {p0}, Lcom/commsource/studio/function/BaseSubFragment;->onDestroyView()V
 
     invoke-virtual {p0}, Lcom/commsource/studio/function/AIBeautyFragment;->u()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -708,7 +708,7 @@
 
     const/16 v0, 0x72fa
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-super {p0}, Lcom/commsource/beautyplus/i0/a;->onResume()V
 
@@ -723,7 +723,7 @@
     :cond_0
     invoke-virtual {v1}, Lf/d/d/o;->j0()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -741,7 +741,7 @@
 
     const/16 v0, 0x72f9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "view"
 
@@ -766,7 +766,7 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/widget/XSeekBar;->f(Lcom/commsource/widget/XSeekBar$b;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -776,7 +776,7 @@
 
     const/16 v0, 0x7308
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/function/AIBeautyFragment;->i0:Ljava/util/HashMap;
 
@@ -785,7 +785,7 @@
     invoke-virtual {v1}, Ljava/util/HashMap;->clear()V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -795,7 +795,7 @@
 
     const/16 v0, 0x7307
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/function/AIBeautyFragment;->i0:Ljava/util/HashMap;
 
@@ -830,7 +830,7 @@
 
     const/4 p1, 0x0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
@@ -848,7 +848,7 @@
     invoke-virtual {v2, p1, v1}, Ljava/util/HashMap;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_2
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

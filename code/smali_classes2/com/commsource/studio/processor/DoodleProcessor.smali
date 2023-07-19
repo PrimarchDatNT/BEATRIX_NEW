@@ -126,11 +126,11 @@
 
     const/16 v0, 0x4818
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0}, Lcom/commsource/studio/processor/DoodleProcessor;->d0()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -140,13 +140,13 @@
 
     const/16 v0, 0x480c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0}, Lcom/commsource/studio/processor/DoodleProcessor;->e0()Z
 
     move-result p0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p0
 .end method
@@ -156,11 +156,11 @@
 
     const/16 v0, 0x480d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p0, p0, Lcom/commsource/studio/processor/DoodleProcessor;->P:Lcom/commsource/studio/doodle/i;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -170,7 +170,7 @@
 
     const/16 v0, 0x480a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p0, p0, Lcom/commsource/studio/processor/DoodleProcessor;->U:Lcom/commsource/studio/doodle/h;
 
@@ -181,7 +181,7 @@
     invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -191,7 +191,7 @@
 
     const/16 v0, 0x4810
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p0, p0, Lcom/commsource/studio/processor/DoodleProcessor;->O:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
@@ -202,7 +202,7 @@
     invoke-static {v1}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -212,11 +212,11 @@
 
     const/16 v0, 0x4813
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget p0, p0, Lcom/commsource/studio/processor/DoodleProcessor;->W:F
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p0
 .end method
@@ -226,11 +226,11 @@
 
     const/16 v0, 0x4819
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p0, p0, Lcom/commsource/studio/processor/DoodleProcessor;->N:Ljava/util/ArrayList;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -240,11 +240,11 @@
 
     const/16 v0, 0x480f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p0, p0, Lcom/commsource/studio/processor/DoodleProcessor;->V:[F
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -254,11 +254,11 @@
 
     const/16 v0, 0x4815
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean p0, p0, Lcom/commsource/studio/processor/DoodleProcessor;->S:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p0
 .end method
@@ -268,11 +268,11 @@
 
     const/16 v0, 0x4816
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean p0, p0, Lcom/commsource/studio/processor/DoodleProcessor;->R:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p0
 .end method
@@ -282,11 +282,11 @@
 
     const/16 v0, 0x480e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->P:Lcom/commsource/studio/doodle/i;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -296,11 +296,11 @@
 
     const/16 v0, 0x480b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->U:Lcom/commsource/studio/doodle/h;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -310,11 +310,11 @@
 
     const/16 v0, 0x4811
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->O:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -324,11 +324,11 @@
 
     const/16 v0, 0x4814
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput p1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->W:F
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -338,11 +338,11 @@
 
     const/16 v0, 0x4817
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-boolean p1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->R:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -352,13 +352,13 @@
 
     const/16 v0, 0x4812
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0, p1}, Lcom/commsource/studio/processor/DoodleProcessor;->v0(F)F
 
     move-result p0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p0
 .end method
@@ -368,7 +368,7 @@
 
     const/16 v0, 0x47ff
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->M:Ljava/util/ArrayList;
 
@@ -443,7 +443,7 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -453,7 +453,7 @@
 
     const/16 v0, 0x4803
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->M:Ljava/util/ArrayList;
 
@@ -471,7 +471,7 @@
     const/4 v1, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -487,7 +487,7 @@
 
     const/16 v4, 0x4805
 
-    invoke-static {v4}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v4}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v5, -0x1
 
@@ -500,7 +500,7 @@
     invoke-virtual {v1, v6, v6, v5}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->MagicColorPenInit([FLjava/lang/String;I)Z
 
     :cond_0
-    invoke-static {v4}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v4}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -584,7 +584,7 @@
 
     invoke-static {v1, v0}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    invoke-static {v4}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v4}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -718,7 +718,7 @@
 
     invoke-static {v0, v2, v6, v1, v6}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    invoke-static {v4}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v4}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -728,7 +728,7 @@
 
     const/16 v0, 0x4804
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/core/magicpen/parser/PEXXmlParser;
 
@@ -807,7 +807,7 @@
 
     invoke-static {p2, p1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -1005,7 +1005,7 @@
 
     invoke-static {p1, p3, v2, v1, v2}, Lcom/commsource/util/l0;->L(Ljava/lang/String;Ljava/lang/String;Lcom/meitu/library/util/Debug/Debug$DebugLevel;ILjava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1015,7 +1015,7 @@
 
     const/16 v0, 0x47f1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/commsource/studio/doodle/b;->f:Lcom/commsource/studio/doodle/b$a;
 
@@ -1037,7 +1037,7 @@
 
     div-float/2addr p1, v2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -1053,7 +1053,7 @@
 
     const/16 v0, 0x47f0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "fragment"
 
@@ -1121,7 +1121,7 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/component/d;->y(Lcom/commsource/studio/layer/c$a;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1131,7 +1131,7 @@
 
     const/16 v0, 0x47f2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-super {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->a()V
 
@@ -1188,7 +1188,7 @@
 
     iput-boolean v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->Y:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1202,7 +1202,7 @@
 
     const/16 v0, 0x47f7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "doodleWrapper"
 
@@ -1212,7 +1212,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -1530,7 +1530,7 @@
     invoke-direct {p0, p1, v5, v3, v1}, Lcom/commsource/studio/processor/DoodleProcessor;->q0(Lcom/meitu/core/magicpen/NativeGLMagicPen;Ljava/lang/String;ZLjava/lang/String;)V
 
     :goto_5
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1540,7 +1540,7 @@
 
     const/16 v0, 0x4801
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->O:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
@@ -1555,7 +1555,7 @@
 
     move-result v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -1565,7 +1565,7 @@
 
     const/16 v0, 0x47f8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x0
 
@@ -1597,7 +1597,7 @@
 
     invoke-direct {p0, v2, v1, v3, v1}, Lcom/commsource/studio/processor/DoodleProcessor;->q0(Lcom/meitu/core/magicpen/NativeGLMagicPen;Ljava/lang/String;ZLjava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1607,7 +1607,7 @@
 
     const/16 v0, 0x47f5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-super {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->c()V
 
@@ -1667,7 +1667,7 @@
 
     invoke-static {v2, v1, v1, v3, v4}, Lcom/commsource/studio/component/UndoRedoComponent$c;->I(Lcom/commsource/studio/component/UndoRedoComponent$c;ZZILjava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1677,7 +1677,7 @@
 
     const/16 v0, 0x47fa
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p1}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 
@@ -1710,7 +1710,7 @@
 
     invoke-virtual {v1, v2, v3, p1, v4}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->SetParticleColor(IIII)Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1720,7 +1720,7 @@
 
     const/16 v0, 0x4802
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->O:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
@@ -1750,7 +1750,7 @@
 
     invoke-virtual {v1}, Ljava/util/ArrayList;->clear()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1762,7 +1762,7 @@
 
     const/16 v0, 0x47f9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->P:Lcom/commsource/studio/doodle/i;
 
@@ -1778,7 +1778,7 @@
     const/4 v1, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -1790,7 +1790,7 @@
 
     const/16 v0, 0x4807
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->e()Lcom/commsource/easyeditor/utils/opengl/f;
 
@@ -1804,7 +1804,7 @@
 
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -1814,7 +1814,7 @@
 
     const/16 v0, 0x4800
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->O:Lcom/meitu/core/magicpen/NativeGLMagicPen;
 
@@ -1829,7 +1829,7 @@
 
     move-result v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -1841,7 +1841,7 @@
 
     const/16 v0, 0x47ea
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->T:Lcom/commsource/studio/component/UndoRedoComponent$c;
 
@@ -1852,7 +1852,7 @@
     invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -1862,7 +1862,7 @@
 
     const/16 v0, 0x47fd
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/studio/processor/DoodleProcessor$redo$1;
 
@@ -1878,7 +1878,7 @@
 
     invoke-static {p0, v1, v2, v3, v2}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1899,11 +1899,11 @@
 
     const/16 v0, 0x47e9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->M:Ljava/util/ArrayList;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -1913,13 +1913,13 @@
 
     const/16 v0, 0x4809
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p0}, Lcom/commsource/studio/v$a;->b(Lcom/commsource/studio/v;)Z
 
     move-result v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -1940,7 +1940,7 @@
 
     const/16 v0, 0x47fc
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Ljava/util/ArrayList;
 
@@ -1977,7 +1977,7 @@
     goto :goto_0
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -1987,7 +1987,7 @@
 
     const/16 v0, 0x47fe
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/studio/processor/DoodleProcessor$undo$1;
 
@@ -2003,7 +2003,7 @@
 
     invoke-static {p0, v1, v2, v3, v2}, Lcom/commsource/studio/processor/BaseEffectProcessor;->z(Lcom/commsource/studio/processor/BaseEffectProcessor;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -2017,7 +2017,7 @@
 
     const/16 v0, 0x47f4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "background"
 
@@ -2034,7 +2034,7 @@
     :cond_0
     invoke-virtual {v1, p1}, Lcom/meitu/core/magicpen/NativeGLMagicPen;->backGroundInit(Landroid/graphics/Bitmap;)Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -2044,11 +2044,11 @@
 
     const/16 v0, 0x4808
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p0}, Lcom/commsource/studio/v$a;->a(Lcom/commsource/studio/v;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -2058,7 +2058,7 @@
 
     const/16 v0, 0x47f3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->P:Lcom/commsource/studio/doodle/i;
 
@@ -2105,7 +2105,7 @@
     invoke-virtual {p0}, Lcom/commsource/studio/processor/DoodleProcessor;->b0()V
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -2115,11 +2115,11 @@
 
     const/16 v0, 0x47ec
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->X:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -2129,11 +2129,11 @@
 
     const/16 v0, 0x47ee
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean v1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->Y:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -2158,7 +2158,7 @@
 
     const/16 v0, 0x4806
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "callback"
 
@@ -2281,7 +2281,7 @@
     invoke-interface {p1, v1, v1}, Lcotlin/jvm/u/p;->invoke(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -2291,11 +2291,11 @@
 
     const/16 v0, 0x47ed
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-boolean p1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->X:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -2309,7 +2309,7 @@
 
     const/16 v0, 0x47f6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "disFBO"
 
@@ -2321,7 +2321,7 @@
 
     if-eqz v1, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -2383,7 +2383,7 @@
 
     iput-boolean v4, p0, Lcom/commsource/studio/processor/DoodleProcessor;->R:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -2393,11 +2393,11 @@
 
     const/16 v0, 0x47ef
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-boolean p1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->Y:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -2407,11 +2407,11 @@
 
     const/16 v0, 0x47fb
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput p1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->W:F
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -2425,7 +2425,7 @@
 
     const/16 v0, 0x47eb
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "<set-?>"
 
@@ -2433,7 +2433,7 @@
 
     iput-object p1, p0, Lcom/commsource/studio/processor/DoodleProcessor;->T:Lcom/commsource/studio/component/UndoRedoComponent$c;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

@@ -52,7 +52,7 @@
 
     const v0, 0x9c32
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x0
 
@@ -117,7 +117,7 @@
     invoke-static {p1, v1}, Lcom/commsource/camera/xcamera/cover/rightFunction/RightFunctionCover;->E(Lcom/commsource/camera/xcamera/cover/rightFunction/RightFunctionCover;Lcom/commsource/repository/child/makeup/e;)V
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -127,13 +127,13 @@
 
     const v0, 0x9c31
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Lcom/commsource/repository/child/makeup/h;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/rightFunction/RightFunctionCover$g;->a(Lcom/commsource/repository/child/makeup/h;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

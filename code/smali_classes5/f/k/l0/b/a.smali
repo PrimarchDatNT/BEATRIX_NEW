@@ -37,7 +37,7 @@
 
     const/16 v0, 0x7d67
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -66,7 +66,7 @@
     move-result v1
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -76,7 +76,7 @@
 
     const/16 v0, 0x7d65
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x1
 
@@ -86,7 +86,7 @@
 
     if-ne v2, v1, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const-string v0, "zh-Hans"
 
@@ -97,7 +97,7 @@
 
     if-ne v2, v1, :cond_1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const-string v0, "zh-Hant"
 
@@ -108,14 +108,14 @@
 
     if-ne v2, v1, :cond_2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const-string v0, "ja"
 
     return-object v0
 
     :cond_2
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const-string v0, "en"
 
@@ -127,7 +127,7 @@
 
     const/16 v0, 0x7d66
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x1
 
@@ -137,7 +137,7 @@
 
     if-ne v2, v1, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const-string v0, "zh-Hans"
 
@@ -148,14 +148,14 @@
 
     if-ne v2, v1, :cond_1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const-string v0, "zh-Hant"
 
     return-object v0
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const-string v0, "en"
 

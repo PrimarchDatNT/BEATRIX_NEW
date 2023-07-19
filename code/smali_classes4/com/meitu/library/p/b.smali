@@ -19,7 +19,7 @@
 
     const/16 v0, 0x5aac
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Ljava/util/Random;
 
@@ -31,7 +31,7 @@
 
     sput-object v1, Lcom/meitu/library/p/b;->a:Ljava/util/Random;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -49,7 +49,7 @@
 
     const/16 v0, 0x5a9a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p1, p2}, Ljava/lang/Math;->min(FF)F
 
@@ -59,7 +59,7 @@
 
     move-result p0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p0
 .end method
@@ -69,7 +69,7 @@
 
     const/16 v0, 0x5a9b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p1, p2}, Ljava/lang/Math;->min(II)I
 
@@ -79,7 +79,7 @@
 
     move-result p0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p0
 .end method
@@ -89,13 +89,13 @@
 
     const/16 v0, 0x5a9c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const v1, 0x3c8efa35
 
     mul-float p0, p0, v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p0
 .end method
@@ -105,7 +105,7 @@
 
     const/16 v0, 0x5aab
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sub-float/2addr p2, p0
 
@@ -125,7 +125,7 @@
 
     double-to-float p0, p0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p0
 .end method
@@ -145,7 +145,7 @@
 
     const/16 v5, 0x5a9d
 
-    invoke-static {v5}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v5}, Lcom/res/ANRTrace;->e(I)V
 
     iget v6, v0, Landroid/graphics/Point;->x:I
 
@@ -216,7 +216,7 @@
     invoke-static/range {v12 .. v17}, Lcom/meitu/library/p/b;->g(IIIIII)Z
 
     :cond_0
-    invoke-static {v5}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v5}, Lcom/res/ANRTrace;->a(I)V
 
     const/4 v0, 0x0
 
@@ -228,7 +228,7 @@
 
     const/16 v0, 0x5a9e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x1
 
@@ -244,7 +244,7 @@
     const/4 v1, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 
@@ -281,7 +281,7 @@
     const/4 v1, 0x0
 
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -291,7 +291,7 @@
 
     const/16 v0, 0x5a9f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p0, :cond_0
 
@@ -309,7 +309,7 @@
     const/4 p0, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p0
 .end method
@@ -319,13 +319,13 @@
 
     const/16 v0, 0x5aa0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x1
 
     if-nez p0, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 
@@ -350,7 +350,7 @@
     :cond_1
     add-int/2addr p0, v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p0
 .end method
@@ -360,13 +360,13 @@
 
     const/16 v0, 0x5aa1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const v1, 0x42652ee0
 
     mul-float p0, p0, v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p0
 .end method
@@ -376,7 +376,7 @@
 
     const/16 v0, 0x5aa2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/library/p/b;->a:Ljava/util/Random;
 
@@ -390,7 +390,7 @@
 
     add-float/2addr p0, v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p0
 .end method
@@ -400,7 +400,7 @@
 
     const/16 v0, 0x5aa3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p0, p4, p5, p6, p7}, Lcom/meitu/library/p/b;->n([FFFFF)[F
 
@@ -408,7 +408,7 @@
 
     move-result-object p0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -418,7 +418,7 @@
 
     const/16 v0, 0x5aa4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     neg-float p1, p1
 
@@ -426,7 +426,7 @@
 
     move-result-object p0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -436,7 +436,7 @@
 
     const/16 v0, 0x5aa5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/high16 v1, 0x3f800000    # 1.0f
 
@@ -448,7 +448,7 @@
 
     move-result-object p0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -458,7 +458,7 @@
 
     const/16 v0, 0x5aa6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p0, p1, p2, p3}, Lcom/meitu/library/p/b;->p([FFFF)[F
 
@@ -466,7 +466,7 @@
 
     move-result-object p0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -476,7 +476,7 @@
 
     const/16 v0, 0x5aa7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x0
 
@@ -544,7 +544,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -554,7 +554,7 @@
 
     const/16 v0, 0x5aa8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/high16 v1, 0x3f800000    # 1.0f
 
@@ -601,7 +601,7 @@
     goto :goto_0
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -611,7 +611,7 @@
 
     const/16 v0, 0x5aa9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     array-length v1, p0
 
@@ -631,7 +631,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v2
 .end method
@@ -643,7 +643,7 @@
 
     const/16 v0, 0x5aaa
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p1, Landroid/graphics/Point;->x:I
 
@@ -749,7 +749,7 @@
     const/4 p2, 0x0
 
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p2
 .end method

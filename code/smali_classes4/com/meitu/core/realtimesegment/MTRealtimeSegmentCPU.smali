@@ -19,7 +19,7 @@
 
     const v0, 0xdd72
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lcom/meitu/core/realtimesegment/MTRealtimeSegmentCPU;->ajc$preClinit()V
 
@@ -33,7 +33,7 @@
 
     invoke-static {v1}, Lcom/meitu/core/realtimesegment/MTRealtimeSegmentCPU;->loadSegmentLibrary(Landroid/content/Context;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -76,7 +76,7 @@
 
     const v0, 0xdd74
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v9, Ln/a/b/c/e;
 
@@ -116,7 +116,7 @@
 
     sput-object v1, Lcom/meitu/core/realtimesegment/MTRealtimeSegmentCPU;->ajc$tjp_0:Lorg/aspectj/lang/c$b;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -126,13 +126,13 @@
 
     const p3, 0xdd73
 
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -142,7 +142,7 @@
 
     const v0, 0xdd6c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "mtphotosegment"
 
@@ -312,7 +312,7 @@
     invoke-static {v1}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
 
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -364,7 +364,7 @@
 
     const v19, 0xdd6d
 
-    invoke-static/range {v19 .. v19}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static/range {v19 .. v19}, Lcom/res/ANRTrace;->e(I)V
 
     move-object/from16 v4, p0
 
@@ -380,7 +380,7 @@
 
     invoke-static/range {v0 .. v18}, Lcom/meitu/core/realtimesegment/MTRealtimeSegmentCPU;->nativeRunWithRgbaYuv(J[BLjava/nio/ByteBuffer;I[BIIIIIZIIIZIFF)V
 
-    invoke-static/range {v19 .. v19}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static/range {v19 .. v19}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -422,7 +422,7 @@
 
     const v19, 0xdd6e
 
-    invoke-static/range {v19 .. v19}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static/range {v19 .. v19}, Lcom/res/ANRTrace;->e(I)V
 
     move-object/from16 v3, p0
 
@@ -434,7 +434,7 @@
 
     invoke-static/range {v0 .. v18}, Lcom/meitu/core/realtimesegment/MTRealtimeSegmentCPU;->nativeRunWithRgbaYuv(J[BLjava/nio/ByteBuffer;I[BIIIIIZIIIZIFF)V
 
-    invoke-static/range {v19 .. v19}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static/range {v19 .. v19}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -446,7 +446,7 @@
 
     const v1, 0xdd6f
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     if-nez p1, :cond_0
 
@@ -579,7 +579,7 @@
     invoke-static/range {v5 .. v23}, Lcom/meitu/core/realtimesegment/MTRealtimeSegmentCPU;->nativeRunWithRgbaYuv(J[BLjava/nio/ByteBuffer;I[BIIIIIZIIIZIFF)V
 
     :goto_0
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -594,7 +594,7 @@
 
     const v0, 0xdd71
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/core/realtimesegment/MTRealtimeSegmentCPU;->mNativeInstance:J
 
@@ -611,7 +611,7 @@
     :cond_0
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -621,7 +621,7 @@
 
     const v0, 0xdd70
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/core/realtimesegment/MTRealtimeSegmentCPU;->mNativeInstance:J
 
@@ -636,7 +636,7 @@
     iput-wide v3, p0, Lcom/meitu/core/realtimesegment/MTRealtimeSegmentCPU;->mNativeInstance:J
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

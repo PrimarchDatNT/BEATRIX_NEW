@@ -45,7 +45,7 @@
 
     const p1, 0xd901
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Ljava/util/LinkedHashMap;->size()I
 
@@ -63,7 +63,7 @@
     const/4 v0, 0x0
 
     :goto_0
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return v0
 .end method

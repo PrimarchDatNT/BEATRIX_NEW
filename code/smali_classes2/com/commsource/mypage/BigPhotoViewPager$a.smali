@@ -174,7 +174,7 @@
 
     const/16 p2, 0x2571
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     instance-of v0, p3, Landroid/view/View;
 
@@ -189,7 +189,7 @@
     invoke-virtual {p1, p3}, Ljava/util/LinkedList;->add(Ljava/lang/Object;)Z
 
     :cond_0
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -199,7 +199,7 @@
 
     const/16 v0, 0x256d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/mypage/BigPhotoViewPager$a;->d:Lcom/commsource/mypage/BigPhotoViewPager;
 
@@ -225,7 +225,7 @@
     move-result v1
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -239,9 +239,9 @@
 
     const/16 p1, 0x256f
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     const/4 p1, -0x2
 
@@ -259,7 +259,7 @@
 
     const/16 v0, 0x2570
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/mypage/BigPhotoViewPager$a;->a:Ljava/util/LinkedList;
 
@@ -515,7 +515,7 @@
 
     :cond_3
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -533,7 +533,7 @@
 
     const/16 v0, 0x256e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-ne p1, p2, :cond_0
 
@@ -545,7 +545,7 @@
     const/4 p1, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method

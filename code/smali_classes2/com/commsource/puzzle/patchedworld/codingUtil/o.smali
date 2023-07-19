@@ -13,7 +13,7 @@
 
     const v0, 0x90cf
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-class v1, Lcom/commsource/puzzle/patchedworld/codingUtil/o;
 
@@ -23,7 +23,7 @@
 
     sput-object v1, Lcom/commsource/puzzle/patchedworld/codingUtil/o;->a:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -41,7 +41,7 @@
 
     const v0, 0x90c8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Landroid/graphics/RectF;->right:F
 
@@ -59,7 +59,7 @@
 
     invoke-direct {v2, v1, v3, p1, p0}, Landroid/graphics/RectF;-><init>(FFFF)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v2
 .end method
@@ -69,7 +69,7 @@
 
     const v0, 0x90ce
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p0, :cond_8
 
@@ -239,7 +239,7 @@
     const/4 p0, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
@@ -311,7 +311,7 @@
 
     const v0, 0x90c9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p1}, Landroid/graphics/Rect;->centerX()I
 
@@ -339,7 +339,7 @@
 
     invoke-virtual {p0, v1, p1}, Landroid/graphics/Rect;->offsetTo(II)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -349,7 +349,7 @@
 
     const v0, 0x90cb
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     int-to-float v1, p2
 
@@ -413,7 +413,7 @@
 
     iput p3, p4, Landroid/graphics/Rect;->bottom:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -423,7 +423,7 @@
 
     const v0, 0x90cc
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     int-to-float p0, p0
 
@@ -535,7 +535,7 @@
 
     iput p3, p4, Landroid/graphics/Rect;->bottom:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -545,7 +545,7 @@
 
     const v0, 0x90ca
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     int-to-float p2, p2
 
@@ -639,7 +639,7 @@
 
     invoke-virtual {p5, p0, p1}, Landroid/graphics/Rect;->inset(II)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p3
 .end method
@@ -649,7 +649,7 @@
 
     const v0, 0x90cd
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     int-to-float v1, p2
 
@@ -679,7 +679,7 @@
 
     iput p0, p3, Landroid/graphics/Rect;->bottom:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method

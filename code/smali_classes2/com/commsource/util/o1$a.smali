@@ -65,7 +65,7 @@
 
     const/16 v0, 0x5ae7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/commsource/util/o1$a;->a:I
 
@@ -79,7 +79,7 @@
 
     sub-int/2addr p1, v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -95,7 +95,7 @@
 
     const/16 p3, 0x5aeb
 
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0, p1}, Lcom/commsource/util/o1$a;->a(I)I
 
@@ -132,7 +132,7 @@
     goto :goto_0
 
     :cond_1
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -142,7 +142,7 @@
 
     const/16 v0, 0x5ae8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/commsource/util/o1$a;->a:I
 
@@ -185,7 +185,7 @@
     goto :goto_0
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -195,9 +195,9 @@
 
     const/16 p1, 0x5aea
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -207,7 +207,7 @@
 
     const/16 v0, 0x5ae9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/commsource/util/o1$a;->a:I
 
@@ -253,7 +253,7 @@
     goto :goto_0
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

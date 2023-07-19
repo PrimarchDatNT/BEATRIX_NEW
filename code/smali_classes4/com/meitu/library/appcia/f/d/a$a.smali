@@ -52,7 +52,7 @@
 
     const v0, 0xcd9d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v2, p0, Lcom/meitu/library/appcia/f/d/a$a;->a:I
 
@@ -82,7 +82,7 @@
 
     invoke-interface/range {v1 .. v6}, Lcom/meitu/library/appcia/f/d/b;->a(ILjava/lang/String;Ljava/lang/Throwable;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

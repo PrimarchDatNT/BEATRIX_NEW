@@ -45,7 +45,7 @@
 
     const/16 v0, 0x77ba
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-class v1, Lcom/commsource/camera/newrender/renderproxy/s;
 
@@ -55,7 +55,7 @@
 
     sput-object v1, Lcom/commsource/camera/newrender/renderproxy/s;->f:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -93,7 +93,7 @@
 
     const/16 v1, 0x77b9
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v2, Ljava/lang/StringBuilder;
 
@@ -137,7 +137,7 @@
 
     move-result v2
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return v2
 .end method
@@ -147,11 +147,11 @@
 
     const/16 v0, 0x77b1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/camera/newrender/renderproxy/s;->c:Lcom/meitu/core/MTRtEffectFaceData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -161,7 +161,7 @@
 
     const/16 v0, 0x77b2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/camera/newrender/renderproxy/s;->b:Lcom/meitu/core/facelift/MTHeadScale;
 
@@ -169,7 +169,7 @@
 
     move-result v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -179,11 +179,11 @@
 
     const/16 v0, 0x77b0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/camera/newrender/renderproxy/s;->b:Lcom/meitu/core/facelift/MTHeadScale;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -193,7 +193,7 @@
 
     const/16 v0, 0x77ae
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x3
 
@@ -230,7 +230,7 @@
 
     iput-boolean v1, p0, Lcom/commsource/camera/newrender/renderproxy/s;->e:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -240,13 +240,13 @@
 
     const/16 v0, 0x77af
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/camera/newrender/renderproxy/s;->b:Lcom/meitu/core/facelift/MTHeadScale;
 
     invoke-virtual {v1}, Lcom/meitu/core/facelift/MTHeadScale;->release()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -256,7 +256,7 @@
 
     const/16 v0, 0x77b8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/commsource/camera/newrender/renderproxy/s;->d:I
 
@@ -283,7 +283,7 @@
     invoke-virtual {v1, p1}, Lcom/meitu/core/facelift/MTHeadScale;->setGroupfieMode(I)V
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -293,7 +293,7 @@
 
     const/16 v0, 0x77b3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-nez p1, :cond_0
 
@@ -303,7 +303,7 @@
 
     invoke-static {p1, v1}, Lcom/meitu/library/util/Debug/Debug;->n(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -312,7 +312,7 @@
 
     invoke-static {v1, p1}, Lcom/commsource/beautyplus/g0/h;->b(Lcom/meitu/core/MTRtEffectFaceData;Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -322,11 +322,11 @@
 
     const/16 v0, 0x77b4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput p1, p0, Lcom/commsource/camera/newrender/renderproxy/s;->a:F
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -336,7 +336,7 @@
 
     const/16 v0, 0x77b7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/camera/newrender/renderproxy/s;->b:Lcom/meitu/core/facelift/MTHeadScale;
 
@@ -373,7 +373,7 @@
     :goto_0
     iput-boolean p2, p0, Lcom/commsource/camera/newrender/renderproxy/s;->e:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -383,13 +383,13 @@
 
     const/16 v0, 0x77b6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/camera/newrender/renderproxy/s;->b:Lcom/meitu/core/facelift/MTHeadScale;
 
     invoke-virtual {v1, p1}, Lcom/meitu/core/facelift/MTHeadScale;->setIsNeedFixFaceID(Z)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -399,13 +399,13 @@
 
     const/16 v0, 0x77b5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/camera/newrender/renderproxy/s;->b:Lcom/meitu/core/facelift/MTHeadScale;
 
     invoke-virtual {v1, p1}, Lcom/meitu/core/facelift/MTHeadScale;->setSmartFaceIntensity(F)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

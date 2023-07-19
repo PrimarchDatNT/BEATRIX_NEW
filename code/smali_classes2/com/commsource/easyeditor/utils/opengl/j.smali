@@ -23,7 +23,7 @@
 
     const/16 v0, 0x42c4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-class v1, Lcom/commsource/easyeditor/utils/opengl/j;
 
@@ -33,7 +33,7 @@
 
     sput-object v1, Lcom/commsource/easyeditor/utils/opengl/j;->k:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -73,7 +73,7 @@
 
     const/16 v1, 0x42c1
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v2, v0, Lcom/commsource/easyeditor/utils/opengl/j;->g:Lcom/meitu/core/processor/MTPoseProcessor;
 
@@ -85,7 +85,7 @@
 
     invoke-static {v2, v3}, Lcom/meitu/library/util/Debug/Debug;->n(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -336,7 +336,7 @@
     invoke-static {v2}, Lcom/meitu/library/util/Debug/Debug;->m(Ljava/lang/String;)V
 
     :cond_b
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -348,7 +348,7 @@
 
     invoke-static {v2, v3}, Lcom/meitu/library/util/Debug/Debug;->z(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -366,9 +366,9 @@
 
     const/16 v0, 0x42bb
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -378,7 +378,7 @@
 
     const/16 v0, 0x42bd
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/utils/opengl/j;->g:Lcom/meitu/core/processor/MTPoseProcessor;
 
@@ -391,7 +391,7 @@
     iput-object v1, p0, Lcom/commsource/easyeditor/utils/opengl/j;->g:Lcom/meitu/core/processor/MTPoseProcessor;
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -403,13 +403,13 @@
 
     const/16 v10, 0x42bc
 
-    invoke-static {v10}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v10}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, v0, Lcom/commsource/easyeditor/utils/opengl/j;->g:Lcom/meitu/core/processor/MTPoseProcessor;
 
     if-nez v1, :cond_0
 
-    invoke-static {v10}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v10}, Lcom/res/ANRTrace;->a(I)V
 
     return p3
 
@@ -454,7 +454,7 @@
 
     invoke-static {v1, v2}, Lcom/meitu/library/util/Debug/Debug;->z(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v10}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v10}, Lcom/res/ANRTrace;->a(I)V
 
     return p3
 
@@ -523,7 +523,7 @@
 
     invoke-virtual/range {v1 .. v9}, Lcom/meitu/core/processor/MTPoseProcessor;->drawToTexture(IIIIIIII)V
 
-    invoke-static {v10}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v10}, Lcom/res/ANRTrace;->a(I)V
 
     return p4
 .end method
@@ -533,7 +533,7 @@
 
     const/16 v0, 0x42c3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-class v1, Lcom/commsource/camera/d1/g/j;
 
@@ -573,7 +573,7 @@
 
     move-result-object v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -583,7 +583,7 @@
 
     const/16 v0, 0x42c2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/utils/opengl/j;->g:Lcom/meitu/core/processor/MTPoseProcessor;
 
@@ -597,7 +597,7 @@
 
     const/4 v1, 0x0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 
@@ -616,7 +616,7 @@
 
     move-result-object v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -626,7 +626,7 @@
 
     const/16 v0, 0x42ba
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/utils/opengl/j;->g:Lcom/meitu/core/processor/MTPoseProcessor;
 
@@ -665,7 +665,7 @@
     invoke-virtual {p1}, Lcom/meitu/core/processor/MTPoseProcessor;->reset()V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -675,7 +675,7 @@
 
     const/16 v0, 0x42bf
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/utils/opengl/j;->h:[F
 
@@ -687,7 +687,7 @@
 
     aput p1, v1, v2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -697,7 +697,7 @@
 
     const/16 v0, 0x42c0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/utils/opengl/j;->j:[F
 
@@ -709,7 +709,7 @@
 
     aput p1, v1, v2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -719,7 +719,7 @@
 
     const/16 v0, 0x42be
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/utils/opengl/j;->i:[F
 
@@ -731,7 +731,7 @@
 
     aput p1, v1, v2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

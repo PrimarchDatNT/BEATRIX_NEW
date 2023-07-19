@@ -61,7 +61,7 @@
 
     const/16 p6, 0x4a2e
 
-    invoke-static {p6}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p6}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p8, Landroid/text/Spanned;
 
@@ -167,7 +167,7 @@
     invoke-virtual {p2, p8}, Landroid/graphics/Paint;->setStyle(Landroid/graphics/Paint$Style;)V
 
     :cond_2
-    invoke-static {p6}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p6}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -177,7 +177,7 @@
 
     const/16 p1, 0x4a2d
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget v0, p0, Lcom/commsource/camera/mvp/helper/XSpanUtils$c;->b:I
 
@@ -187,7 +187,7 @@
 
     add-int/2addr v0, v1
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return v0
 .end method

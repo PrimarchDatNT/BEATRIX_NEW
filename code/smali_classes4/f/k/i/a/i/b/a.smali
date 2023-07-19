@@ -26,11 +26,11 @@
 
     const v0, 0xdabf
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lf/k/i/a/i/b/a;->a:Lf/k/i/a/h/d;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -45,7 +45,7 @@
 
     const v0, 0xdac0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-interface {p1}, Lokhttp3/Interceptor$Chain;->request()Lokhttp3/Request;
 
@@ -104,7 +104,7 @@
     invoke-interface {v1, v2, v4, v3}, Lf/k/i/a/h/d;->a(Ljava/lang/String;Ljava/net/InetAddress;I)V
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method

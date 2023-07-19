@@ -36,7 +36,7 @@
 
     const/16 p1, 0x59af
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager$b;->a:Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager;
 
@@ -44,7 +44,7 @@
 
     invoke-static {v0, v1}, Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager;->c(Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager;I)I
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -54,7 +54,7 @@
 
     const/16 p1, 0x59ae
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager$b;->a:Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager;
 
@@ -62,7 +62,7 @@
 
     invoke-static {v0, v1}, Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager;->c(Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager;I)I
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

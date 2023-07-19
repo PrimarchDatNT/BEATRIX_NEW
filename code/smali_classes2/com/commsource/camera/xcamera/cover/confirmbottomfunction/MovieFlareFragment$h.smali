@@ -52,7 +52,7 @@
 
     const/16 p1, 0x57da
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/MovieFlareFragment$h;->a:Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/MovieFlareFragment;
 
@@ -162,7 +162,7 @@
     :goto_1
     invoke-virtual {v2, v0}, Lcom/commsource/widget/round/a;->q(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -172,13 +172,13 @@
 
     const/16 v0, 0x57d9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Ljava/lang/Integer;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/confirmbottomfunction/MovieFlareFragment$h;->a(Ljava/lang/Integer;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

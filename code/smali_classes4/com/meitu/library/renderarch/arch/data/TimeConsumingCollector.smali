@@ -127,7 +127,7 @@
 
     const v0, 0xb451
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Ljava/util/HashMap;
 
@@ -149,7 +149,7 @@
 
     sput-object v1, Lcom/meitu/library/renderarch/arch/data/TimeConsumingCollector;->J:Ljava/util/List;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -181,7 +181,7 @@
 
     const v0, 0xb44f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/library/renderarch/arch/data/TimeConsumingCollector;->G:Ljava/util/Map;
 
@@ -216,7 +216,7 @@
     invoke-interface {v2, p0, v1}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -228,7 +228,7 @@
 
     const v0, 0xb44c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lcom/meitu/library/camera/util/a;->h()Z
 
@@ -263,7 +263,7 @@
 
     move-result-object p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -273,7 +273,7 @@
 
     const v0, 0xb44d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lcom/meitu/library/camera/util/a;->h()Z
 
@@ -351,7 +351,7 @@
     move-result-object p1
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
@@ -375,11 +375,11 @@
 
     const v0, 0xb44e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/renderarch/arch/data/TimeConsumingCollector;->a:Ljava/util/Map;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -389,7 +389,7 @@
 
     const v0, 0xb450
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-boolean v1, Lcom/meitu/library/renderarch/arch/data/TimeConsumingCollector;->H:Z
 
@@ -404,7 +404,7 @@
     invoke-interface {v1}, Ljava/util/Map;->clear()V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -414,7 +414,7 @@
 
     const v0, 0xb44a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lcom/meitu/library/camera/util/a;->h()Z
 
@@ -447,7 +447,7 @@
 
     invoke-virtual {p0, p1, v1, v2}, Lcom/meitu/library/renderarch/arch/data/TimeConsumingCollector;->g(Ljava/lang/String;J)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -457,7 +457,7 @@
 
     const v0, 0xb44b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lcom/meitu/library/camera/util/a;->h()Z
 
@@ -497,7 +497,7 @@
     invoke-interface {v1, p1, p2}, Ljava/util/Map;->put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

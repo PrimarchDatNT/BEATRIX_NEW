@@ -64,11 +64,11 @@
 
     const/16 v0, 0x645a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p0, p0, Lcom/commsource/puzzle/patchedworld/s/c$b;->a:Lcom/commsource/widget/IconFrontView;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -78,11 +78,11 @@
 
     const/16 v0, 0x645b    # 3.6001E-41f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p0, p0, Lcom/commsource/puzzle/patchedworld/s/c$b;->b:Lcom/commsource/widget/AutoFitTextView;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method

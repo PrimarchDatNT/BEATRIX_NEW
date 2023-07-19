@@ -48,7 +48,7 @@
 
     const/16 v0, 0x4541
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "text"
 
@@ -66,7 +66,7 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->Z2(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -76,13 +76,13 @@
 
     const/16 v0, 0x4542
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover$c;->a:Lcom/commsource/camera/i0;
 
     invoke-virtual {v1}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

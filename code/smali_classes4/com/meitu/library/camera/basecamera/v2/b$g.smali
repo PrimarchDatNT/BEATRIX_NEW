@@ -42,7 +42,7 @@
 
     const v2, 0xb33d
 
-    invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v2}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lcom/meitu/library/camera/util/h;->h()Z
 
@@ -463,7 +463,7 @@
     goto/16 :goto_0
 
     :goto_1
-    invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -631,7 +631,7 @@
 
     invoke-virtual {v0}, Landroid/os/ConditionVariable;->open()V
 
-    invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v2}, Lcom/res/ANRTrace;->a(I)V
 
     throw v6
 .end method

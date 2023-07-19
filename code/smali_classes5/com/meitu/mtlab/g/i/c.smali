@@ -36,7 +36,7 @@
 
     const v0, 0xdc3c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x0
 
@@ -46,7 +46,7 @@
 
     move-result-object p0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -71,7 +71,7 @@
 
     const v0, 0xdc3c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lorg/json/JSONObject;
 
@@ -245,7 +245,7 @@
 
     move-result-object p0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -273,7 +273,7 @@
 
     const v3, 0xdc3b
 
-    invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v3}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -281,7 +281,7 @@
 
     if-eqz v4, :cond_0
 
-    invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v3}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -367,7 +367,7 @@
 
     :cond_4
     :goto_0
-    invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v3}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -377,7 +377,7 @@
 
     const v0, 0xdc3d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lorg/json/JSONObject;
 
@@ -489,7 +489,7 @@
 
     move-result-object p0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -499,7 +499,7 @@
 
     const v0, 0xdc3e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lorg/json/JSONObject;
 
@@ -550,7 +550,7 @@
 
     move-result-object p0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -562,7 +562,7 @@
 
     const v1, 0xdc41
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     new-instance v2, Lorg/json/JSONObject;
@@ -655,7 +655,7 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
@@ -664,7 +664,7 @@
 
     invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 .end method
@@ -687,7 +687,7 @@
 
     const v2, 0xdc40
 
-    invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v2}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p3, :cond_0
 
@@ -878,7 +878,7 @@
     invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
 
     :cond_6
-    invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -888,7 +888,7 @@
 
     const v0, 0xdc3f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -1013,7 +1013,7 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 
@@ -1044,13 +1044,13 @@
 
     const/4 p0, -0x1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p0
 
     :cond_2
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v2
 .end method

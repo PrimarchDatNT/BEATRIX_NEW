@@ -59,7 +59,7 @@
 
     const v0, 0xf3b2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtlab/beautyplus/opengl/MTlabEglEnvironment;->a:J
 
@@ -69,7 +69,7 @@
 
     iput-boolean v1, p0, Lcom/meitu/mtlab/beautyplus/opengl/MTlabEglEnvironment;->b:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -79,7 +79,7 @@
 
     const v0, 0xf3b0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/16 v1, 0x20
 
@@ -87,7 +87,7 @@
 
     move-result v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -97,7 +97,7 @@
 
     const v0, 0xf3af
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean v1, p0, Lcom/meitu/mtlab/beautyplus/opengl/MTlabEglEnvironment;->b:Z
 
@@ -136,7 +136,7 @@
     :cond_2
     iget-boolean p1, p0, Lcom/meitu/mtlab/beautyplus/opengl/MTlabEglEnvironment;->b:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -146,11 +146,11 @@
 
     const v0, 0xf3b3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean v1, p0, Lcom/meitu/mtlab/beautyplus/opengl/MTlabEglEnvironment;->b:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -165,7 +165,7 @@
 
     const v0, 0xf3b1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
@@ -179,7 +179,7 @@
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
     :catchall_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

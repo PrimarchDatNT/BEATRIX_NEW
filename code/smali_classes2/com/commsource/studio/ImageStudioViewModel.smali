@@ -639,7 +639,7 @@
 
     const v0, 0x8fa2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/studio/ImageStudioViewModel$b;
 
@@ -649,7 +649,7 @@
 
     sput-object v1, Lcom/commsource/studio/ImageStudioViewModel;->f1:Lcom/commsource/studio/ImageStudioViewModel$b;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -967,11 +967,11 @@
 
     const v0, 0x8fa3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0}, Lcom/commsource/studio/ImageStudioViewModel;->R()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -981,11 +981,11 @@
 
     const v0, 0x8fa4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean p0, p0, Lcom/commsource/studio/ImageStudioViewModel;->G0:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p0
 .end method
@@ -995,11 +995,11 @@
 
     const v0, 0x8fa6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0, p1}, Lcom/commsource/studio/ImageStudioViewModel;->w1(Ljava/util/Map;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1009,11 +1009,11 @@
 
     const v0, 0x8fa8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0}, Lcom/commsource/studio/ImageStudioViewModel;->M1()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1023,7 +1023,7 @@
 
     const p3, 0x8f7a
 
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->e(I)V
 
     and-int/lit8 p2, p2, 0x1
 
@@ -1034,7 +1034,7 @@
     :cond_0
     invoke-virtual {p0, p1}, Lcom/commsource/studio/ImageStudioViewModel;->C1(Ljava/util/Map;)V
 
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1044,11 +1044,11 @@
 
     const v0, 0x8fa5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-boolean p1, p0, Lcom/commsource/studio/ImageStudioViewModel;->G0:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1058,11 +1058,11 @@
 
     const v0, 0x8fa7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/studio/ImageStudioViewModel;->o2(Landroidx/fragment/app/FragmentActivity;ZLcotlin/jvm/u/a;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1072,7 +1072,7 @@
 
     const p6, 0x8f74
 
-    invoke-static {p6}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p6}, Lcom/res/ANRTrace;->e(I)V
 
     and-int/lit8 v0, p5, 0x1
 
@@ -1090,7 +1090,7 @@
     :cond_1
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/commsource/studio/ImageStudioViewModel;->E1(ZJLcotlin/jvm/u/a;)V
 
-    invoke-static {p6}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p6}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1100,7 +1100,7 @@
 
     const p4, 0x8f7c
 
-    invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p4}, Lcom/res/ANRTrace;->e(I)V
 
     and-int/lit8 p3, p3, 0x2
 
@@ -1111,7 +1111,7 @@
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/ImageStudioViewModel;->G(Landroidx/fragment/app/FragmentActivity;Lcotlin/jvm/u/a;)V
 
-    invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p4}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1121,7 +1121,7 @@
 
     const p4, 0x8f66
 
-    invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p4}, Lcom/res/ANRTrace;->e(I)V
 
     and-int/lit8 p3, p3, 0x2
 
@@ -1134,7 +1134,7 @@
 
     move-result-object p0
 
-    invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p4}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -1144,7 +1144,7 @@
 
     const p5, 0x8f87
 
-    invoke-static {p5}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p5}, Lcom/res/ANRTrace;->e(I)V
 
     and-int/lit8 v0, p4, 0x2
 
@@ -1162,7 +1162,7 @@
     :cond_1
     invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/studio/ImageStudioViewModel;->J1(Ljava/util/List;ZLcotlin/jvm/u/a;)V
 
-    invoke-static {p5}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p5}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1172,7 +1172,7 @@
 
     const p5, 0x8f78
 
-    invoke-static {p5}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p5}, Lcom/res/ANRTrace;->e(I)V
 
     and-int/lit8 v0, p4, 0x1
 
@@ -1199,7 +1199,7 @@
     :cond_2
     invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/studio/ImageStudioViewModel;->L(Ljava/lang/String;ZLcotlin/jvm/u/a;)V
 
-    invoke-static {p5}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p5}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1209,7 +1209,7 @@
 
     const v0, 0x8f7d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->L:Landroidx/lifecycle/MutableLiveData;
 
@@ -1223,7 +1223,7 @@
 
     invoke-virtual {p0, v1}, Lcom/commsource/studio/ImageStudioViewModel;->H1(Lcotlin/jvm/u/a;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1233,7 +1233,7 @@
 
     const v0, 0x8f90
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/commsource/material/ImageSegmentExecutor;->E:Lcom/commsource/material/ImageSegmentExecutor;
 
@@ -1272,7 +1272,7 @@
     invoke-static {v1, v2, v4, v3, v4}, Lcom/commsource/material/ImageSegmentExecutor;->f(Lcom/commsource/material/ImageSegmentExecutor;Lcom/commsource/material/download/SegmentModel;Lcom/commsource/material/download/b/c;ILjava/lang/Object;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1282,7 +1282,7 @@
 
     const v0, 0x8f99
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x2
 
@@ -1309,7 +1309,7 @@
     invoke-virtual {v2, v1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1319,7 +1319,7 @@
 
     const p6, 0x8fa0
 
-    invoke-static {p6}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p6}, Lcom/res/ANRTrace;->e(I)V
 
     and-int/lit8 v0, p5, 0x1
 
@@ -1359,7 +1359,7 @@
     :cond_3
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/commsource/studio/ImageStudioViewModel;->V1(IIII)V
 
-    invoke-static {p6}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p6}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1379,7 +1379,7 @@
 
     const v0, 0x8f7f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->L:Landroidx/lifecycle/MutableLiveData;
 
@@ -1393,7 +1393,7 @@
 
     invoke-virtual {p0, v1}, Lcom/commsource/studio/ImageStudioViewModel;->H1(Lcotlin/jvm/u/a;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1403,7 +1403,7 @@
 
     const p3, 0x8f80
 
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->e(I)V
 
     and-int/lit8 p2, p2, 0x1
 
@@ -1414,7 +1414,7 @@
     :cond_0
     invoke-direct {p0, p1}, Lcom/commsource/studio/ImageStudioViewModel;->X(Lcotlin/jvm/u/l;)V
 
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1424,7 +1424,7 @@
 
     const v0, 0x8f6b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->u0:Lcom/commsource/beautyplus/router/RouterEntity;
 
@@ -1499,7 +1499,7 @@
 
     if-eqz v3, :cond_4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v4
 
@@ -1526,7 +1526,7 @@
 
     if-eqz v2, :cond_5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v4
 
@@ -1551,7 +1551,7 @@
 
     const/4 v1, 0x1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 
@@ -1573,7 +1573,7 @@
     invoke-static {v1}, Lcom/commsource/widget/dialog/s0/t;->f0(Landroid/content/Context;)V
 
     :cond_7
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v4
 .end method
@@ -1583,7 +1583,7 @@
 
     const p4, 0x8f71
 
-    invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p4}, Lcom/res/ANRTrace;->e(I)V
 
     and-int/lit8 p3, p3, 0x1
 
@@ -1594,7 +1594,7 @@
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/ImageStudioViewModel;->m2(J)V
 
-    invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p4}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1604,7 +1604,7 @@
 
     const v0, 0x8f68
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/commsource/studio/sub/SubTabEnum;->Companion:Lcom/commsource/studio/sub/SubTabEnum$a;
 
@@ -1659,7 +1659,7 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1685,7 +1685,7 @@
 
     const v3, 0x8f82
 
-    invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v3}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v4, Ljava/util/ArrayList;
 
@@ -2676,7 +2676,7 @@
 
     const v16, 0x8f82
 
-    invoke-static/range {v16 .. v16}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static/range {v16 .. v16}, Lcom/res/ANRTrace;->a(I)V
 
     throw v1
 
@@ -2712,7 +2712,7 @@
 
     invoke-direct {v1, v10}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
 
-    invoke-static/range {v16 .. v16}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static/range {v16 .. v16}, Lcom/res/ANRTrace;->a(I)V
 
     throw v1
 
@@ -3279,7 +3279,7 @@
 
     const v2, 0x8f82
 
-    invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v2}, Lcom/res/ANRTrace;->a(I)V
 
     throw v1
 
@@ -3322,7 +3322,7 @@
 
     const v2, 0x8f82
 
-    invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v2}, Lcom/res/ANRTrace;->a(I)V
 
     throw v1
 
@@ -3376,7 +3376,7 @@
     :goto_21
     const v1, 0x8f82
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -3386,7 +3386,7 @@
 
     const v0, 0x8f92
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->v0:I
 
@@ -3424,7 +3424,7 @@
     const-string v1, "\u81ea\u62cd\u5bfc\u56fe"
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 
@@ -3451,7 +3451,7 @@
 
     const v0, 0x8f93
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Ljava/util/HashMap;
 
@@ -4066,7 +4066,7 @@
 
     invoke-virtual {p1}, Lcom/commsource/home/HomeDeepLinkAnalyze;->f()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -4076,7 +4076,7 @@
 
     const v0, 0x8f67
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p1, :cond_0
 
@@ -4094,14 +4094,14 @@
 
     xor-int/lit8 p1, p1, 0x1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 
     :cond_0
     const/4 p1, 0x0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -4113,11 +4113,11 @@
 
     const v0, 0x8f8b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->K0:J
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-wide v1
 .end method
@@ -4131,7 +4131,7 @@
 
     const v0, 0x8f8d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "layerInfo"
 
@@ -4361,7 +4361,7 @@
 
     :cond_c
     :goto_2
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -4382,11 +4382,11 @@
 
     const v0, 0x8f22
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->S:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -4402,7 +4402,7 @@
 
     const v0, 0x8f75
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "bitmap"
 
@@ -4443,7 +4443,7 @@
 
     check-cast p1, Lcom/commsource/studio/bean/d;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -4455,11 +4455,11 @@
 
     const v0, 0x8f4f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->z0:Lcom/commsource/studio/bean/a;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -4482,7 +4482,7 @@
 
     const v0, 0x8f79
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0}, Lcom/commsource/studio/ImageStudioViewModel;->R()V
 
@@ -4559,7 +4559,7 @@
 
     invoke-static {p1, v2, v2, v1, v3}, Lcom/commsource/studio/component/UndoRedoComponent$c;->I(Lcom/commsource/studio/component/UndoRedoComponent$c;ZZILjava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -4580,11 +4580,11 @@
 
     const v0, 0x8f28
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->Y:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -4605,11 +4605,11 @@
 
     const v0, 0x8f2a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->Z:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -4631,7 +4631,7 @@
 
     const v0, 0x8f73
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "action"
 
@@ -4677,7 +4677,7 @@
     invoke-virtual {p1, p2}, Lcom/commsource/easyeditor/utils/opengl/e;->g(Ljava/lang/Runnable;)V
 
     :cond_2
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -4698,11 +4698,11 @@
 
     const v0, 0x8f32
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->g0:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -4732,7 +4732,7 @@
 
     const v0, 0x8f7b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "activity"
 
@@ -4746,7 +4746,7 @@
 
     invoke-virtual {v1, p1, v2}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->a(Landroidx/fragment/app/FragmentActivity;Lcotlin/jvm/u/l;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -4767,11 +4767,11 @@
 
     const v0, 0x8f2c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->a0:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -4785,7 +4785,7 @@
 
     const v0, 0x8f6e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "task"
 
@@ -4825,7 +4825,7 @@
     invoke-virtual {v1, p1, v2}, Lcom/commsource/easyeditor/utils/opengl/e;->i(Ljava/lang/Runnable;Ljava/lang/Runnable;)V
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -4846,11 +4846,11 @@
 
     const v0, 0x8f57
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->D0:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -4872,7 +4872,7 @@
 
     const v0, 0x8f6d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "action"
 
@@ -4904,7 +4904,7 @@
     invoke-virtual {v1, v2}, Lcom/commsource/easyeditor/utils/opengl/e;->g(Ljava/lang/Runnable;)V
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -4923,7 +4923,7 @@
 
     const v0, 0x8f65
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->z0:Lcom/commsource/studio/bean/a;
 
@@ -5162,7 +5162,7 @@
 
     if-nez p1, :cond_5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v4
 
@@ -5209,13 +5209,13 @@
 
     invoke-static/range {v4 .. v9}, Lcom/commsource/studio/ImageStudioViewModel;->M(Lcom/commsource/studio/ImageStudioViewModel;Ljava/lang/String;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v3
 
     :cond_6
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v4
 .end method
@@ -5236,11 +5236,11 @@
 
     const v0, 0x8f9d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->M0:Landroid/util/SparseArray;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -5254,7 +5254,7 @@
 
     const v0, 0x8f63
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "intent"
 
@@ -5272,7 +5272,7 @@
 
     if-eq p1, v1, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v2
 
@@ -5548,7 +5548,7 @@
 
     invoke-direct {p1, v1}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -5719,7 +5719,7 @@
 
     :cond_12
     :goto_7
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v2
 
@@ -5841,12 +5841,12 @@
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/ImageStudioViewModel;->O(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 
     :cond_17
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v2
 .end method
@@ -5867,11 +5867,11 @@
 
     const v0, 0x8f2d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->b0:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -5901,7 +5901,7 @@
 
     const p2, 0x8f86
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v0, "layerInfos"
 
@@ -5947,7 +5947,7 @@
 
     invoke-static/range {v3 .. v9}, Lcom/commsource/studio/ImageStudioViewModel;->F1(Lcom/commsource/studio/ImageStudioViewModel;ZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -5965,7 +5965,7 @@
 
     const v0, 0x8f96
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "func"
 
@@ -6229,7 +6229,7 @@
 
     invoke-static {v1}, Lf/k/c/c/f;->r(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -6264,7 +6264,7 @@
 
     invoke-static {v1}, Lf/k/c/c/f;->r(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -6315,7 +6315,7 @@
 
     :cond_3
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -6354,11 +6354,11 @@
 
     const v0, 0x8f1e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->O:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -6386,7 +6386,7 @@
 
     const v0, 0x8f77
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lcom/commsource/util/g2;->b()Z
 
@@ -6431,7 +6431,7 @@
 
     invoke-virtual {p1, v1, p2, v2}, Lcom/commsource/editengine/d;->h(Ljava/util/List;ZLcotlin/jvm/u/a;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -6453,11 +6453,11 @@
 
     const v0, 0x8f21
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->R:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -6467,7 +6467,7 @@
 
     const v0, 0x8f94
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->v0:I
 
@@ -6489,7 +6489,7 @@
     invoke-virtual {v1}, Lcom/meitu/library/hwanalytics/spm/SPMManager;->r()V
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -6510,11 +6510,11 @@
 
     const v0, 0x8f25
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->V:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -6535,11 +6535,11 @@
 
     const v0, 0x8f33
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->h0:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -6553,11 +6553,11 @@
 
     const v0, 0x8f5b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/commsource/studio/ImageStudioViewModel;->F0:Landroid/graphics/Bitmap;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -6567,7 +6567,7 @@
 
     const v0, 0x8f64
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/commsource/studio/ImageStudioViewModel;->i0()Lcom/commsource/studio/bean/Step;
 
@@ -6643,7 +6643,7 @@
 
     invoke-virtual {v1, p1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -6655,11 +6655,11 @@
 
     const v0, 0x8f45
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->u0:Lcom/commsource/beautyplus/router/RouterEntity;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -6673,7 +6673,7 @@
 
     const v0, 0x8f3c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "<set-?>"
 
@@ -6681,7 +6681,7 @@
 
     iput-object p1, p0, Lcom/commsource/studio/ImageStudioViewModel;->p0:Lcom/commsource/studio/StudioCanvasContainer;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -6691,7 +6691,7 @@
 
     const v0, 0x8f85
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->z0:Lcom/commsource/studio/bean/a;
 
@@ -6746,7 +6746,7 @@
     const/4 v1, 0x0
 
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -6756,11 +6756,11 @@
 
     const v0, 0x8f4d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->y0:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -6774,11 +6774,11 @@
 
     const v0, 0x8f56
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/commsource/studio/ImageStudioViewModel;->C0:Lcom/commsource/studio/bean/PictureLayerInfo;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -6788,7 +6788,7 @@
 
     const v0, 0x8f9c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->g0:Landroidx/lifecycle/MutableLiveData;
 
@@ -6825,7 +6825,7 @@
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -6846,11 +6846,11 @@
 
     const v0, 0x8f19
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->J:Lcom/commsource/beautyfilter/NoStickLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -6864,7 +6864,7 @@
 
     const v0, 0x8f4a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "<set-?>"
 
@@ -6872,7 +6872,7 @@
 
     iput-object p1, p0, Lcom/commsource/studio/ImageStudioViewModel;->w0:Landroid/os/Handler;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -6882,7 +6882,7 @@
 
     const v0, 0x8f5e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->z0:Lcom/commsource/studio/bean/a;
 
@@ -6919,7 +6919,7 @@
 
     move-result v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -6929,11 +6929,11 @@
 
     const v0, 0x8f3e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-boolean p1, p0, Lcom/commsource/studio/ImageStudioViewModel;->q0:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -6949,13 +6949,13 @@
 
     const v0, 0x8f95
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x0
 
     if-nez p1, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 
@@ -7052,7 +7052,7 @@
 
     invoke-static {v2, p1}, Lcom/meitu/core/processor/BlurProcessor;->stackBlur_bitmap(Landroid/graphics/Bitmap;I)Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v2
 .end method
@@ -7075,11 +7075,11 @@
 
     const v0, 0x8f17
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->g:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -7089,11 +7089,11 @@
 
     const v0, 0x8f48
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput p1, p0, Lcom/commsource/studio/ImageStudioViewModel;->v0:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -7103,7 +7103,7 @@
 
     const v0, 0x8f72
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x1
 
@@ -7119,7 +7119,7 @@
 
     invoke-virtual {v1, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -7140,11 +7140,11 @@
 
     const v0, 0x8f18
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->p:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -7158,7 +7158,7 @@
 
     const v0, 0x8f54
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "<set-?>"
 
@@ -7166,7 +7166,7 @@
 
     iput-object p1, p0, Lcom/commsource/studio/ImageStudioViewModel;->B0:Lcom/commsource/editengine/d;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -7176,7 +7176,7 @@
 
     const v0, 0x8f98
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->f0:Landroidx/lifecycle/MutableLiveData;
 
@@ -7196,7 +7196,7 @@
 
     if-eqz v1, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -7209,7 +7209,7 @@
 
     invoke-virtual {v1, p1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -7232,11 +7232,11 @@
 
     const v0, 0x8f20
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->Q:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -7250,7 +7250,7 @@
 
     const v0, 0x8f52
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "<set-?>"
 
@@ -7258,7 +7258,7 @@
 
     iput-object p1, p0, Lcom/commsource/studio/ImageStudioViewModel;->A0:Lcom/commsource/editengine/f;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -7268,7 +7268,7 @@
 
     const v0, 0x8f6a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lf/d/i/o;->o0()Z
 
@@ -7333,7 +7333,7 @@
 
     invoke-static {v1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -7354,11 +7354,11 @@
 
     const v0, 0x8f35
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->j0:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -7368,13 +7368,13 @@
 
     const v0, 0x8f9f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->N0:Landroid/graphics/Rect;
 
     invoke-virtual {v1, p1, p2, p3, p4}, Landroid/graphics/Rect;->set(IIII)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -7386,7 +7386,7 @@
 
     const v0, 0x8f7e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->A0:Lcom/commsource/editengine/f;
 
@@ -7441,7 +7441,7 @@
     invoke-static {v1, v2}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -7462,11 +7462,11 @@
 
     const v0, 0x8f34
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->i0:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -7478,11 +7478,11 @@
 
     const v0, 0x8f6f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->H0:Ljava/lang/Runnable;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -7492,11 +7492,11 @@
 
     const v0, 0x8f8a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput p1, p0, Lcom/commsource/studio/ImageStudioViewModel;->J0:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -7517,11 +7517,11 @@
 
     const v0, 0x8f1b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->L:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -7531,11 +7531,11 @@
 
     const v0, 0x8f8c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-wide p1, p0, Lcom/commsource/studio/ImageStudioViewModel;->K0:J
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -7556,11 +7556,11 @@
 
     const v0, 0x8f30
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->e0:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -7581,11 +7581,11 @@
 
     const v0, 0x8f1f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->P:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -7599,7 +7599,7 @@
 
     const v0, 0x8f50
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "<set-?>"
 
@@ -7607,7 +7607,7 @@
 
     iput-object p1, p0, Lcom/commsource/studio/ImageStudioViewModel;->z0:Lcom/commsource/studio/bean/a;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -7628,11 +7628,11 @@
 
     const v0, 0x8f24
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->U:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -7653,11 +7653,11 @@
 
     const v0, 0x8f1c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->M:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -7679,7 +7679,7 @@
 
     const v0, 0x8f29
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "<set-?>"
 
@@ -7687,7 +7687,7 @@
 
     iput-object p1, p0, Lcom/commsource/studio/ImageStudioViewModel;->Y:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -7708,11 +7708,11 @@
 
     const v0, 0x8f27
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->X:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -7724,11 +7724,11 @@
 
     const v0, 0x8f59
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->E0:Lcom/commsource/studio/bean/e;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -7750,7 +7750,7 @@
 
     const v0, 0x8f2b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "<set-?>"
 
@@ -7758,7 +7758,7 @@
 
     iput-object p1, p0, Lcom/commsource/studio/ImageStudioViewModel;->Z:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -7770,7 +7770,7 @@
 
     const v0, 0x8f3a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->o0:Lcotlin/w;
 
@@ -7780,7 +7780,7 @@
 
     check-cast v1, Lcom/commsource/studio/function/background/BackgroundViewModel;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -7792,7 +7792,7 @@
 
     const v0, 0x8f39
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->n0:Lcotlin/w;
 
@@ -7802,7 +7802,7 @@
 
     check-cast v1, Lcom/commsource/studio/component/StudioProViewModel;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -7824,7 +7824,7 @@
 
     const v0, 0x8f58
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "<set-?>"
 
@@ -7832,7 +7832,7 @@
 
     iput-object p1, p0, Lcom/commsource/studio/ImageStudioViewModel;->D0:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -7853,11 +7853,11 @@
 
     const v0, 0x8f1d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->N:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -7877,11 +7877,11 @@
 
     const v0, 0x8f26
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->W:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -7891,11 +7891,11 @@
 
     const v0, 0x8f42
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-boolean p1, p0, Lcom/commsource/studio/ImageStudioViewModel;->s0:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -7907,11 +7907,11 @@
 
     const v0, 0x8f5a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->F0:Landroid/graphics/Bitmap;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -7921,11 +7921,11 @@
 
     const v0, 0x8f14
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->d:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -7939,7 +7939,7 @@
 
     const v0, 0x8fa1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "obstacleView"
 
@@ -7965,7 +7965,7 @@
 
     invoke-virtual {p1}, Landroid/util/SparseArray;->clear()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -8090,7 +8090,7 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -8111,11 +8111,11 @@
 
     const v0, 0x8f2e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->c0:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -8127,7 +8127,7 @@
 
     const v0, 0x8f38
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->m0:Lcotlin/w;
 
@@ -8137,7 +8137,7 @@
 
     check-cast v1, Lcom/commsource/studio/component/UndoRedoComponent$c;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -8151,11 +8151,11 @@
 
     const v0, 0x8f46
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/commsource/studio/ImageStudioViewModel;->u0:Lcom/commsource/beautyplus/router/RouterEntity;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -8167,7 +8167,7 @@
 
     const v0, 0x8f3b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->p0:Lcom/commsource/studio/StudioCanvasContainer;
 
@@ -8178,7 +8178,7 @@
     invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -8190,7 +8190,7 @@
 
     const v0, 0x8f4b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->x0:Lcom/commsource/util/d2;
 
@@ -8201,7 +8201,7 @@
     invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -8211,11 +8211,11 @@
 
     const v0, 0x8f4e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-boolean p1, p0, Lcom/commsource/studio/ImageStudioViewModel;->y0:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -8238,11 +8238,11 @@
 
     const v0, 0x8f16
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->f:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -8254,11 +8254,11 @@
 
     const v0, 0x8f43
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->t0:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -8268,7 +8268,7 @@
 
     const v0, 0x8f5f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->z0:Lcom/commsource/studio/bean/a;
 
@@ -8307,7 +8307,7 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/beautyfilter/NoStickLiveData;->postValue(Ljava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -8319,7 +8319,7 @@
 
     const v0, 0x8f97
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->E0:Lcom/commsource/studio/bean/e;
 
@@ -8327,7 +8327,7 @@
 
     move-result-object v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -8337,7 +8337,7 @@
 
     const v0, 0x8f69
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0}, Lcom/commsource/studio/ImageStudioViewModel;->o1()V
 
@@ -8357,7 +8357,7 @@
 
     const/4 v1, 0x1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 
@@ -8397,7 +8397,7 @@
 
     :cond_2
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v4
 .end method
@@ -8407,11 +8407,11 @@
 
     const v0, 0x8f40
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-boolean p1, p0, Lcom/commsource/studio/ImageStudioViewModel;->r0:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -8423,7 +8423,7 @@
 
     const v0, 0x8f55
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->z0:Lcom/commsource/studio/bean/a;
 
@@ -8446,7 +8446,7 @@
     :cond_0
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->C0:Lcom/commsource/studio/bean/PictureLayerInfo;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -8456,11 +8456,11 @@
 
     const v0, 0x8f15
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput p1, p0, Lcom/commsource/studio/ImageStudioViewModel;->d:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -8472,11 +8472,11 @@
 
     const v0, 0x8f49
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->w0:Landroid/os/Handler;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -8486,7 +8486,7 @@
 
     const v0, 0x8f83
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->z0:Lcom/commsource/studio/bean/a;
 
@@ -8529,7 +8529,7 @@
     const/4 v2, 0x1
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v2
 .end method
@@ -8543,7 +8543,7 @@
 
     const v0, 0x8f4c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "<set-?>"
 
@@ -8551,7 +8551,7 @@
 
     iput-object p1, p0, Lcom/commsource/studio/ImageStudioViewModel;->x0:Lcom/commsource/util/d2;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -8563,7 +8563,7 @@
 
     const v0, 0x8f5d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->z0:Lcom/commsource/studio/bean/a;
 
@@ -8592,7 +8592,7 @@
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -8602,7 +8602,7 @@
 
     const v0, 0x8f84
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->z0:Lcom/commsource/studio/bean/a;
 
@@ -8645,7 +8645,7 @@
     const/4 v2, 0x1
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v2
 .end method
@@ -8659,11 +8659,11 @@
 
     const v0, 0x8f44
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/commsource/studio/ImageStudioViewModel;->t0:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -8675,11 +8675,11 @@
 
     const v0, 0x8f88
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->I0:[Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -8697,7 +8697,7 @@
 
     const v0, 0x8f61
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "activity"
 
@@ -8808,7 +8808,7 @@
 
     iput p1, p0, Lcom/commsource/studio/ImageStudioViewModel;->v0:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -8818,13 +8818,13 @@
 
     const v0, 0x8f70
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->H0:Ljava/lang/Runnable;
 
     invoke-static {v1, p1, p2}, Lcom/commsource/util/g2;->l(Ljava/lang/Runnable;J)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -8845,11 +8845,11 @@
 
     const v0, 0x8f31
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->f0:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -8865,7 +8865,7 @@
 
     const v0, 0x8f62
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "intent"
 
@@ -8897,7 +8897,7 @@
 
     invoke-virtual {p1, v2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 
@@ -8944,7 +8944,7 @@
 
     invoke-virtual {p1, v1}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v2
 .end method
@@ -8965,11 +8965,11 @@
 
     const v0, 0x8f2f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->d0:Lcom/commsource/beautyfilter/NoStickLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -8979,7 +8979,7 @@
 
     const v0, 0x8f6c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-super {p0}, Landroidx/lifecycle/ViewModel;->onCleared()V
 
@@ -8991,7 +8991,7 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -9004,7 +9004,7 @@
 
     const v0, 0x8f91
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0}, Lcom/commsource/studio/ImageStudioViewModel;->r0()Ljava/lang/String;
 
@@ -9016,7 +9016,7 @@
 
     invoke-static {v2, v3, v1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -9034,7 +9034,7 @@
 
     const v0, 0x8f60
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "storeOwner"
 
@@ -9076,7 +9076,7 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/studio/f;->c(Landroidx/fragment/app/FragmentActivity;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -9087,7 +9087,7 @@
 
     invoke-direct {p1, p2}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 .end method
@@ -9108,11 +9108,11 @@
 
     const v0, 0x8f36
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->k0:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -9122,11 +9122,11 @@
 
     const v0, 0x8f3d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->q0:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -9136,11 +9136,11 @@
 
     const v0, 0x8f47
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->v0:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -9150,7 +9150,7 @@
 
     const v0, 0x8f8f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->f0:Landroidx/lifecycle/MutableLiveData;
 
@@ -9166,7 +9166,7 @@
 
     move-result v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -9176,7 +9176,7 @@
 
     const v0, 0x8f9a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->v0:I
 
@@ -9200,7 +9200,7 @@
     const/4 v1, 0x1
 
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -9221,11 +9221,11 @@
 
     const v0, 0x8f23
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->T:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -9235,7 +9235,7 @@
 
     const v0, 0x8f9b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->v0:I
 
@@ -9251,7 +9251,7 @@
     const/4 v1, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -9263,7 +9263,7 @@
 
     const v0, 0x8f53
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->B0:Lcom/commsource/editengine/d;
 
@@ -9274,7 +9274,7 @@
     invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -9284,11 +9284,11 @@
 
     const v0, 0x8f41
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->s0:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -9300,7 +9300,7 @@
 
     const v0, 0x8f51
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->A0:Lcom/commsource/editengine/f;
 
@@ -9311,7 +9311,7 @@
     invoke-static {v2}, Lcotlin/jvm/internal/f0;->S(Ljava/lang/String;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -9325,7 +9325,7 @@
 
     const v0, 0x8f8e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "subTabEnum"
 
@@ -9349,7 +9349,7 @@
     const/4 p1, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -9361,11 +9361,11 @@
 
     const v0, 0x8f9e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->N0:Landroid/graphics/Rect;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -9375,11 +9375,11 @@
 
     const v0, 0x8f3f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->r0:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -9400,11 +9400,11 @@
 
     const v0, 0x8f37
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->l0:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -9425,11 +9425,11 @@
 
     const v0, 0x8f1a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->K:Lcom/commsource/beautyfilter/NoStickLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -9441,7 +9441,7 @@
 
     const v0, 0x8f5c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->z0:Lcom/commsource/studio/bean/a;
 
@@ -9470,7 +9470,7 @@
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -9488,7 +9488,7 @@
 
     const v0, 0x8f76
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "bitmap"
 
@@ -9877,7 +9877,7 @@
     invoke-static {v1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
     :cond_9
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -9887,11 +9887,11 @@
 
     const v0, 0x8f89
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/commsource/studio/ImageStudioViewModel;->J0:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -9905,7 +9905,7 @@
 
     const v0, 0x8f81
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "activity"
 
@@ -9931,7 +9931,7 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/util/q2/b;->a(Lcom/commsource/util/q2/f;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

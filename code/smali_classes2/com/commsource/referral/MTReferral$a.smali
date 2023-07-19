@@ -44,13 +44,13 @@
 
     const v0, 0x9c05
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Lcom/commsource/referral/MTReferral$Model;
 
     invoke-virtual {p0, p1}, Lcom/commsource/referral/MTReferral$a;->d(Lcom/commsource/referral/MTReferral$Model;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -60,7 +60,7 @@
 
     const v0, 0x9c04
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v5, p1, Lcom/commsource/referral/MTReferral$Model;->description:Ljava/lang/String;
 
@@ -365,7 +365,7 @@
     invoke-static {p1}, Lf/k/c/c/f;->y(Ljava/lang/CharSequence;)V
 
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 

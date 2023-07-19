@@ -41,7 +41,7 @@
 
     const/16 v0, 0x204b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/function/composition/CompositionView$GestureListener;->c:Lcom/commsource/studio/function/composition/CompositionView;
 
@@ -79,7 +79,7 @@
 
     div-float/2addr v1, v2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -95,7 +95,7 @@
 
     const/16 p2, 0x204c
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v0, "focus"
 
@@ -111,7 +111,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 
@@ -174,7 +174,7 @@
 
     invoke-virtual {p1}, Landroid/view/View;->invalidate()V
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -188,7 +188,7 @@
 
     const/16 v0, 0x2049
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "downEvent"
 
@@ -292,7 +292,7 @@
 
     :cond_3
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v3
 
@@ -303,7 +303,7 @@
 
     invoke-static {p1, v1}, Lcom/commsource/studio/function/composition/CompositionView;->o(Lcom/commsource/studio/function/composition/CompositionView;Lcom/commsource/studio/function/composition/CompositionView$a;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v3
 .end method
@@ -317,7 +317,7 @@
 
     const/16 p1, 0x204e
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/studio/function/composition/CompositionView$GestureListener;->c:Lcom/commsource/studio/function/composition/CompositionView;
 
@@ -362,7 +362,7 @@
     invoke-virtual {v0, v2, v3, v4}, Landroid/os/Handler;->postDelayed(Ljava/lang/Runnable;J)Z
 
     :cond_0
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -380,7 +380,7 @@
 
     const/16 v0, 0x204a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "downEvent"
 
@@ -701,7 +701,7 @@
 
     if-gtz p2, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v2
 
@@ -984,7 +984,7 @@
 
     if-ltz p2, :cond_4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v2
 
@@ -1271,7 +1271,7 @@
 
     if-ltz p2, :cond_8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v2
 
@@ -1558,7 +1558,7 @@
 
     if-gtz p2, :cond_c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v2
 
@@ -1824,7 +1824,7 @@
     invoke-virtual {p1}, Landroid/view/View;->invalidate()V
 
     :cond_10
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v2
 
@@ -1856,7 +1856,7 @@
 
     const/16 p1, 0x204d
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p2, p0, Lcom/commsource/studio/function/composition/CompositionView$GestureListener;->c:Lcom/commsource/studio/function/composition/CompositionView;
 
@@ -1868,7 +1868,7 @@
 
     if-eqz p2, :cond_0
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return v0
 
@@ -1939,7 +1939,7 @@
 
     invoke-virtual {p2}, Landroid/view/View;->invalidate()V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return v0
 .end method

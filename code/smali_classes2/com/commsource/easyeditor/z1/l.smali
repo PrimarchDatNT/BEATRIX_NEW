@@ -17,7 +17,7 @@
 
     const/16 v0, 0x5f05
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -47,7 +47,7 @@
 
     sput-object v1, Lcom/commsource/easyeditor/z1/l;->b:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -65,7 +65,7 @@
 
     const/16 v0, 0x5f04
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/commsource/easyeditor/z1/l;->b:Ljava/lang/String;
 
@@ -91,7 +91,7 @@
     const/4 v1, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -106,13 +106,13 @@
     const/16 v0, 0x5f03
 
     :try_start_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-nez p1, :cond_0
 
     const/4 p1, 0x0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -199,7 +199,7 @@
 
     invoke-virtual {p1, p3, p2}, Lcom/meitu/mtlab/beautyplus/imageproc/MTlabImageAiEnhance;->a(Landroid/graphics/Bitmap;F)Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
@@ -210,7 +210,7 @@
     :cond_3
     :goto_1
     :try_start_4
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_0
 

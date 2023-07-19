@@ -49,7 +49,7 @@
 
     const/16 v0, 0x40a8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-class v1, Lcom/meitu/template/feedback/util/c;
 
@@ -81,7 +81,7 @@
 
     sput-object v1, Lcom/meitu/template/feedback/util/c;->i:Ljava/util/Map;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -99,11 +99,11 @@
 
     const/16 v0, 0x40a4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/template/feedback/util/c;->h:Ljava/util/Map;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -113,11 +113,11 @@
 
     const/16 v0, 0x40a5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p0, p1, p2}, Lcom/meitu/template/feedback/util/c;->k(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -127,11 +127,11 @@
 
     const/16 v0, 0x40a6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/template/feedback/util/c;->i:Ljava/util/Map;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -141,11 +141,11 @@
 
     const/16 v0, 0x40a7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p0, p1, p2}, Lcom/meitu/template/feedback/util/c;->h(Landroid/content/Context;Ljava/lang/String;Lcom/meitu/template/bean/Chat;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -155,7 +155,7 @@
 
     const/16 v0, 0x40a2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/template/feedback/util/c;->j:Lf/k/i0/b/b;
 
@@ -170,7 +170,7 @@
     :cond_0
     sget-object p0, Lcom/meitu/template/feedback/util/c;->j:Lf/k/i0/b/b;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -180,7 +180,7 @@
 
     const/16 v0, 0x40a1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/template/bean/ChatFiled;
 
@@ -263,7 +263,7 @@
     invoke-static {p1, p0}, Lcom/meitu/library/util/Debug/Debug;->n(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -273,7 +273,7 @@
 
     const/16 p4, 0x40a3
 
-    invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p4}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p3}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -297,7 +297,7 @@
 
     invoke-interface {p1, p0}, Ljava/util/Map;->remove(Ljava/lang/Object;)Ljava/lang/Object;
 
-    invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p4}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -326,7 +326,7 @@
 
     invoke-static {p1, p3, p2}, Lcom/meitu/template/feedback/util/c;->i(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p4}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -336,7 +336,7 @@
 
     const/16 v0, 0x409f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/template/feedback/util/c;->a:Ljava/lang/String;
 
@@ -379,7 +379,7 @@
     invoke-virtual {p0, p2}, Lorg/greenrobot/eventbus/c;->q(Ljava/lang/Object;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -389,7 +389,7 @@
 
     const/16 v0, 0x40a0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lf/k/l0/a/a;
 
@@ -419,7 +419,7 @@
 
     invoke-virtual {p2, v1}, Lf/k/k/u/c;->a(Lf/k/k/p;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -429,7 +429,7 @@
 
     const/16 v0, 0x409d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -470,13 +470,13 @@
 
     invoke-static {p3}, Lcom/commsource/util/c2;->g(Lcom/commsource/util/u2/a;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
     :cond_1
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -486,7 +486,7 @@
 
     const/16 v0, 0x409e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p0}, Lcom/meitu/library/p/h/a;->b(Landroid/content/Context;)Z
 
@@ -510,7 +510,7 @@
 
     invoke-static {p0, p2, p1}, Lcom/meitu/template/feedback/util/c;->h(Landroid/content/Context;Ljava/lang/String;Lcom/meitu/template/bean/Chat;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -521,7 +521,7 @@
 
     invoke-static {p1, v1}, Lcom/commsource/util/l1;->f(Ljava/lang/String;Lcom/commsource/util/l1$d;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

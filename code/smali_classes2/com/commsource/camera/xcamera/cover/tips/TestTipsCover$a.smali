@@ -40,7 +40,7 @@
 
     const/16 v0, 0x6372
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -84,7 +84,7 @@
 
     invoke-static {v3}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

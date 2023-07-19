@@ -64,7 +64,7 @@
 
     const p2, 0xf2f4
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Landroid/os/Handler;->obtainMessage()Landroid/os/Message;
 
@@ -76,7 +76,7 @@
 
     invoke-virtual {p0, v0}, Landroid/os/Handler;->sendMessage(Landroid/os/Message;)Z
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -86,7 +86,7 @@
 
     const v0, 0xf2f5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/common/video/videocache/i$a;->b:Ljava/util/List;
 
@@ -120,7 +120,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

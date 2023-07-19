@@ -27,7 +27,7 @@
 
     const v0, 0xd075
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/core/photosegment/MTPhotoSegment$1;
 
@@ -39,7 +39,7 @@
 
     invoke-static {v1}, Lcom/meitu/core/photosegment/MTPhotoSegment;->loadSegmentLibrary(Landroid/content/Context;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -215,13 +215,13 @@
 
     const v0, 0xd06c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lcom/meitu/core/photosegment/MTPhotoSegment;->nativeEglInitDisplay()Z
 
     move-result v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -231,11 +231,11 @@
 
     const v0, 0xd06d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lcom/meitu/core/photosegment/MTPhotoSegment;->nativeEglTermDisplay()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -245,7 +245,7 @@
 
     const v0, 0xd071
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lcom/meitu/core/photosegment/MTPhotoSegment;->nativeGl3stubInit()Z
 
@@ -267,7 +267,7 @@
     const/4 v1, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -277,7 +277,7 @@
 
     const v0, 0xd06b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "mtcvlite"
 
@@ -345,7 +345,7 @@
     invoke-static {v5}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -387,7 +387,7 @@
 
     const v0, 0xd070
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/core/photosegment/MTPhotoSegment;->mNativeInstance:J
 
@@ -397,7 +397,7 @@
 
     move-result-object p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -407,7 +407,7 @@
 
     const v0, 0xd06e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x1
 
@@ -427,7 +427,7 @@
 
     move-result-object p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -437,7 +437,7 @@
 
     const v0, 0xd06e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/core/photosegment/MTPhotoSegment;->mNativeInstance:J
 
@@ -455,7 +455,7 @@
 
     move-result-object p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -465,7 +465,7 @@
 
     const v0, 0xd06f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/core/photosegment/MTPhotoSegment;->mNativeInstance:J
 
@@ -483,7 +483,7 @@
 
     move-result p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -493,13 +493,13 @@
 
     const v0, 0xd074
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/core/photosegment/MTPhotoSegment;->mNativeInstance:J
 
     invoke-static {v1, v2, p1, p2}, Lcom/meitu/core/photosegment/MTPhotoSegment;->nativeSetCropAndWarpParam(J[F[[F)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -514,7 +514,7 @@
 
     const v0, 0xd073
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     invoke-virtual {p0}, Lcom/meitu/core/photosegment/MTPhotoSegment;->release()V
@@ -523,7 +523,7 @@
 
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -532,7 +532,7 @@
 
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw v1
 .end method
@@ -542,7 +542,7 @@
 
     const v0, 0xd072
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/core/photosegment/MTPhotoSegment;->mNativeInstance:J
 
@@ -557,7 +557,7 @@
     iput-wide v3, p0, Lcom/meitu/core/photosegment/MTPhotoSegment;->mNativeInstance:J
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

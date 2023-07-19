@@ -40,7 +40,7 @@
 
     const/16 p1, 0x717
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -82,7 +82,7 @@
 
     invoke-virtual {p2, p3}, Lcom/commsource/video/decoder/SysMediaPlayer;->e0(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     const/4 p1, 0x1
 

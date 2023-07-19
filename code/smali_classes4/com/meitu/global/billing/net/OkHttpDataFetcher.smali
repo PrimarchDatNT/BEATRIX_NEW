@@ -128,11 +128,11 @@
 
     const v0, 0xc666
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0, p1, p2, p3}, Lcom/meitu/global/billing/net/OkHttpDataFetcher;->j(Ljava/lang/String;Ljava/lang/Exception;Lcom/meitu/global/billing/net/v;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -142,11 +142,11 @@
 
     const v0, 0xc667
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0, p1, p2, p3}, Lcom/meitu/global/billing/net/OkHttpDataFetcher;->k(Ljava/lang/String;Lokhttp3/Response;Lcom/meitu/global/billing/net/v;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -174,7 +174,7 @@
 
     const v0, 0xc65e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lokhttp3/Request$Builder;
 
@@ -487,7 +487,7 @@
 
     move-result-object p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -507,7 +507,7 @@
 
     const v0, 0xc65d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -539,7 +539,7 @@
 
     invoke-interface {p2, v1}, Lokhttp3/Call;->enqueue(Lokhttp3/Callback;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -549,7 +549,7 @@
 
     const v0, 0xc665
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Ljava/lang/StringBuffer;
 
@@ -615,7 +615,7 @@
 
     move-result-object p0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -635,7 +635,7 @@
 
     const v0, 0xc65f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -714,7 +714,7 @@
     invoke-interface {p3, p2, p1, v1}, Lcom/meitu/global/billing/net/v;->a(ZLcom/meitu/global/billing/net/HttpConstant$ErrorMsg;Ljava/lang/Object;)V
 
     :cond_3
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -734,7 +734,7 @@
 
     const v0, 0xc660
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -783,7 +783,7 @@
     invoke-interface {p3, p1, v1, p2}, Lcom/meitu/global/billing/net/v;->a(ZLcom/meitu/global/billing/net/HttpConstant$ErrorMsg;Ljava/lang/Object;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -835,7 +835,7 @@
     invoke-interface {p3, p1, p2, v1}, Lcom/meitu/global/billing/net/v;->a(ZLcom/meitu/global/billing/net/HttpConstant$ErrorMsg;Ljava/lang/Object;)V
 
     :cond_2
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -864,7 +864,7 @@
 
     const v0, 0xc662
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v5, 0x0
 
@@ -895,7 +895,7 @@
     invoke-direct {p0, p1, p2, p4}, Lcom/meitu/global/billing/net/OkHttpDataFetcher;->j(Ljava/lang/String;Ljava/lang/Exception;Lcom/meitu/global/billing/net/v;)V
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -918,7 +918,7 @@
 
     const v0, 0xc661
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v3, 0x0
 
@@ -949,7 +949,7 @@
     invoke-direct {p0, p1, p2, p3}, Lcom/meitu/global/billing/net/OkHttpDataFetcher;->j(Ljava/lang/String;Ljava/lang/Exception;Lcom/meitu/global/billing/net/v;)V
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -972,7 +972,7 @@
 
     const v0, 0xc664
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v3, 0x0
 
@@ -1003,7 +1003,7 @@
     invoke-direct {p0, p1, p2, p3}, Lcom/meitu/global/billing/net/OkHttpDataFetcher;->j(Ljava/lang/String;Ljava/lang/Exception;Lcom/meitu/global/billing/net/v;)V
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1031,7 +1031,7 @@
 
     const v0, 0xc663
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     sget-object v6, Lcom/meitu/global/billing/net/OkHttpDataFetcher$HttpMethodType;->UPLOAD:Lcom/meitu/global/billing/net/OkHttpDataFetcher$HttpMethodType;
@@ -1062,7 +1062,7 @@
     invoke-direct {p0, p1, p2, p5}, Lcom/meitu/global/billing/net/OkHttpDataFetcher;->j(Ljava/lang/String;Ljava/lang/Exception;Lcom/meitu/global/billing/net/v;)V
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

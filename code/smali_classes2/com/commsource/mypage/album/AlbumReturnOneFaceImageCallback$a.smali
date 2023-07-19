@@ -66,7 +66,7 @@
 
     const v0, 0x8bf2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/mypage/album/AlbumReturnOneFaceImageCallback$a$a;
 
@@ -76,7 +76,7 @@
 
     sput-object v1, Lcom/commsource/mypage/album/AlbumReturnOneFaceImageCallback$a;->f:Lcom/commsource/mypage/album/AlbumReturnOneFaceImageCallback$a$a;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -133,7 +133,7 @@
 
     const v0, 0x8bef
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/16 v1, 0xa9
 
@@ -192,7 +192,7 @@
     :cond_2
     const/4 p1, 0x1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -206,7 +206,7 @@
 
     const v0, 0x8bee
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "delegateFragment"
 
@@ -218,7 +218,7 @@
 
     invoke-virtual {p1, v1, v2}, Landroidx/fragment/app/Fragment;->startActivityForResult(Landroid/content/Intent;I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -241,11 +241,11 @@
 
     const v0, 0x8bf1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/mypage/album/AlbumReturnOneFaceImageCallback$a;->b:Lcotlin/jvm/u/p;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -257,11 +257,11 @@
 
     const v0, 0x8bf0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/mypage/album/AlbumReturnOneFaceImageCallback$a;->a:Landroid/content/Intent;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

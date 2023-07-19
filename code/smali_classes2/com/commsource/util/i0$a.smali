@@ -33,7 +33,7 @@
 
     const/16 p1, 0x3161
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v0, "\u65e7\u7b56\u7565"
 
@@ -43,7 +43,7 @@
 
     move-result v0
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return v0
 .end method

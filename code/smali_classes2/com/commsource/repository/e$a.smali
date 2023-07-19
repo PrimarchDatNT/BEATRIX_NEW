@@ -21,9 +21,9 @@
 
     const/16 p0, 0x4555
 
-    invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p0}, Lcom/res/ANRTrace;->a(I)V
 
     const/4 p0, 0x0
 

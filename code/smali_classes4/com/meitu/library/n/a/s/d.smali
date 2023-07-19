@@ -152,7 +152,7 @@
 
     const v0, 0xb3af
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     rem-int/lit8 v1, p1, 0x2
 
@@ -161,7 +161,7 @@
     add-int/lit8 p1, p1, 0x1
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -171,7 +171,7 @@
 
     const v0, 0xb3ae
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean v1, p0, Lcom/meitu/library/n/a/s/d;->a0:Z
 
@@ -186,7 +186,7 @@
     invoke-direct {v1, p1, p2}, Lcom/meitu/library/n/a/h;-><init>(II)V
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 
@@ -246,7 +246,7 @@
 
     const v0, 0xb3b7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/n/a/s/d;->p:Lcom/meitu/library/renderarch/arch/data/b/c;
 
@@ -411,7 +411,7 @@
     invoke-static {p1, v1}, Lcom/meitu/library/camera/util/h;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_5
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -481,7 +481,7 @@
     :goto_1
     iput-object p1, p0, Lcom/meitu/library/n/a/s/d;->f:Lcom/meitu/library/n/a/d;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -491,7 +491,7 @@
 
     const v0, 0xb3b1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/n/a/s/d;->Z:Lcom/meitu/library/n/a/s/d$b;
 
@@ -504,7 +504,7 @@
     iput-object v1, p0, Lcom/meitu/library/n/a/s/d;->Z:Lcom/meitu/library/n/a/s/d$b;
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -516,13 +516,13 @@
 
     const v0, 0xb3b5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x1
 
     iput-boolean v1, p0, Lcom/meitu/library/n/a/s/d;->P:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -532,7 +532,7 @@
 
     const p3, 0xb3b3
 
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/meitu/library/n/a/s/d;->g:Lcom/meitu/library/n/a/s/b;
 
@@ -564,7 +564,7 @@
 
     iput-boolean p10, p0, Lcom/meitu/library/n/a/s/d;->S:Z
 
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -574,11 +574,11 @@
 
     const v0, 0xb3ac
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-boolean p1, p0, Lcom/meitu/library/n/a/s/d;->a0:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -588,7 +588,7 @@
 
     const v0, 0xb3b0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0}, Lcom/meitu/library/n/a/s/d;->k()V
 
@@ -603,7 +603,7 @@
     iput-object v1, p0, Lcom/meitu/library/n/a/s/d;->X:Lcom/meitu/library/n/b/h;
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -613,11 +613,11 @@
 
     const v0, 0xb3b9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/meitu/library/n/a/s/d;->V:Lcom/meitu/library/renderarch/arch/data/TimeConsumingCollector;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -627,11 +627,11 @@
 
     const v0, 0xb3b3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/meitu/library/n/a/s/d;->L:Lcom/meitu/library/n/a/q/b;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -641,7 +641,7 @@
 
     const v0, 0xb3ad
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x0
 
@@ -741,7 +741,7 @@
 
     iput-object p2, p0, Lcom/meitu/library/n/a/s/d;->X:Lcom/meitu/library/n/b/h;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p2
 .end method
@@ -751,7 +751,7 @@
 
     const v0, 0xb3b4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p1, Lcom/meitu/library/renderarch/arch/data/b/g;->a:[B
 
@@ -783,7 +783,7 @@
     invoke-static {p1, p2}, Lcom/meitu/library/n/a/s/d$b;->c(Lcom/meitu/library/n/a/s/d$b;Lcom/meitu/library/n/a/s/d$c;)V
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -793,11 +793,11 @@
 
     const v0, 0xb3b8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/meitu/library/n/a/s/d;->Q:Lcom/meitu/library/n/a/q/c;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -807,11 +807,11 @@
 
     const v0, 0xb3b2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/meitu/library/n/a/s/d;->Y:F
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -821,7 +821,7 @@
 
     const v0, 0xb3b6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "MTReader"
 
@@ -992,7 +992,7 @@
     :cond_5
     invoke-static {}, Lcom/meitu/library/n/c/j;->b()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -1181,7 +1181,7 @@
     :cond_d
     invoke-static {}, Lcom/meitu/library/n/c/j;->b()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -1247,7 +1247,7 @@
     :cond_10
     invoke-static {}, Lcom/meitu/library/n/c/j;->b()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 .end method

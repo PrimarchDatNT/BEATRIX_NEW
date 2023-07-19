@@ -82,9 +82,9 @@
 
     const/16 v0, 0x490f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const-string v0, "precision highp float;\n\nvarying vec2 v_textureCoordinates;\n\nuniform sampler2D originalTexture;//\u539f\u56fe\nuniform sampler2D effectiveTexture;//\u6548\u679c\u56fe\n\nvoid main()\n{\n    vec3 src = texture2D(originalTexture, v_textureCoordinates).rgb;\n    vec4 effective = texture2D(effectiveTexture, v_textureCoordinates);\n    float alpha = effective.a;\n    \n    vec3 result = src * (1.0 - alpha) + effective.rgb * alpha;\n    \n    gl_FragColor = vec4(result, 1.0);\n}"
 
@@ -96,7 +96,7 @@
 
     const/16 v0, 0x4910
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "originalTexture"
 
@@ -114,7 +114,7 @@
 
     iput p1, p0, Lcom/commsource/studio/shader/b;->m:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -124,7 +124,7 @@
 
     const/16 v0, 0x4911
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const v1, 0x84c0
 
@@ -164,7 +164,7 @@
 
     invoke-static {v1, v2}, Landroid/opengl/GLES20;->glUniform1i(II)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -176,11 +176,11 @@
 
     const/16 v0, 0x4912
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/shader/b;->n:Lcom/commsource/studio/shader/b$a;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

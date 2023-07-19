@@ -40,7 +40,7 @@
 
     const/16 p1, 0x1d7c
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v0, "p1"
 
@@ -77,7 +77,7 @@
     :cond_0
     const/4 p2, 0x1
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return p2
 .end method

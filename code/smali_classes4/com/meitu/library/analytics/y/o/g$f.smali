@@ -32,7 +32,7 @@
 
     const v0, 0xd67b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "\u672a\u77e5\u5927\u5c0f"
 
@@ -89,7 +89,7 @@
 
     invoke-static {p0}, Lcom/meitu/library/analytics/y/o/o;->a([Ljava/io/Closeable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 
@@ -241,7 +241,7 @@
 
     invoke-static {v3}, Lcom/meitu/library/analytics/y/o/o;->a([Ljava/io/Closeable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw v1
 
@@ -263,13 +263,13 @@
     invoke-static {v3}, Lcom/meitu/library/analytics/y/o/o;->a([Ljava/io/Closeable;)V
 
     :goto_3
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 
     :cond_5
     :goto_4
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -281,7 +281,7 @@
 
     const v1, 0xd67c
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v2, "\u672a\u77e5\u5927\u5c0f"
 
@@ -401,19 +401,19 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
     :catch_0
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v2
 
     :cond_2
     :goto_0
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v2
 
     :cond_3
     :goto_1
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v2
 .end method
@@ -427,7 +427,7 @@
 
     const v2, 0xd67d
 
-    invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v2}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v3, "\u672a\u77e5\u5927\u5c0f"
 
@@ -575,19 +575,19 @@
     aput-object v0, v3, p0
 
     :goto_0
-    invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v2}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v3
 
     :cond_3
     :goto_1
-    invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v2}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v3
 
     :cond_4
     :goto_2
-    invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v2}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v3
 .end method

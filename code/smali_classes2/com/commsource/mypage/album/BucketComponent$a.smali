@@ -40,7 +40,7 @@
 
     const/16 p1, 0x1483
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/mypage/album/BucketComponent$a;->a:Lcom/commsource/mypage/album/BucketComponent;
 
@@ -48,7 +48,7 @@
 
     invoke-static {v0, v1}, Lcom/commsource/mypage/album/BucketComponent;->k(Lcom/commsource/mypage/album/BucketComponent;Z)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

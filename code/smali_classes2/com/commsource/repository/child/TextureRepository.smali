@@ -61,7 +61,7 @@
 
     const/16 v0, 0x1317
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/repository/child/TextureRepository;
 
@@ -135,7 +135,7 @@
 
     sput-object v1, Lcom/commsource/repository/child/TextureRepository;->r:Lcotlin/w;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -157,7 +157,7 @@
 
     const/16 v0, 0x130c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -284,7 +284,7 @@
 
     invoke-interface {v2, v1}, Lf/k/i0/a/e1;->I0([Lcom/commsource/studio/function/background/TextureMaterial;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -295,7 +295,7 @@
 
     invoke-direct {v1, v2}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw v1
 .end method
@@ -313,7 +313,7 @@
 
     const/16 v0, 0x130e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/commsource/repository/child/TextureRepository;->E()Lf/k/i0/a/e1;
 
@@ -388,7 +388,7 @@
     goto :goto_0
 
     :cond_3
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v4
 .end method
@@ -409,7 +409,7 @@
 
     const/16 v0, 0x130d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/repository/child/TextureRepository$f;
 
@@ -419,7 +419,7 @@
 
     move-result-object p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -429,11 +429,11 @@
 
     const/16 p0, 0x131b
 
-    invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v0, Lcom/commsource/repository/child/TextureRepository;->q:Lcom/commsource/repository/f;
 
-    invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 .end method
@@ -443,11 +443,11 @@
 
     const/16 p0, 0x131c
 
-    invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-boolean v0, Lcom/commsource/repository/child/TextureRepository;->p:Z
 
-    invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p0}, Lcom/res/ANRTrace;->a(I)V
 
     return v0
 .end method
@@ -457,11 +457,11 @@
 
     const/16 v0, 0x1318
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0}, Lcom/commsource/repository/child/TextureRepository;->G()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -471,13 +471,13 @@
 
     const/16 v0, 0x1319
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0}, Lcom/commsource/repository/child/TextureRepository;->J()Ljava/util/List;
 
     move-result-object p0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -487,11 +487,11 @@
 
     const/16 p0, 0x131d
 
-    invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p0}, Lcom/res/ANRTrace;->e(I)V
 
     sput-boolean p1, Lcom/commsource/repository/child/TextureRepository;->p:Z
 
-    invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -501,13 +501,13 @@
 
     const/16 v0, 0x131a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0, p1}, Lcom/commsource/repository/child/TextureRepository;->K(Ljava/util/List;)Ljava/util/List;
 
     move-result-object p0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -517,7 +517,7 @@
 
     const/16 p4, 0x1312
 
-    invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p4}, Lcom/res/ANRTrace;->e(I)V
 
     and-int/lit8 p3, p3, 0x2
 
@@ -528,7 +528,7 @@
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/repository/child/TextureRepository;->w(Lcom/commsource/studio/function/background/TextureMaterial;Z)V
 
-    invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p4}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -546,7 +546,7 @@
 
     const/16 v0, 0x1310
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "material"
 
@@ -556,7 +556,7 @@
 
     invoke-direct {v1, p1}, Lcom/commsource/repository/child/TextureRepository$b;-><init>(Lcom/commsource/studio/function/background/TextureMaterial;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -577,11 +577,11 @@
 
     const/16 v0, 0x1306
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/commsource/repository/child/TextureRepository;->o:Lcom/commsource/material/download/b/a;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -597,7 +597,7 @@
 
     const/16 v0, 0x130f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "material"
 
@@ -639,7 +639,7 @@
 
     invoke-direct {v1, v2, v3, v4, p1}, Lcom/commsource/material/download/c/d;-><init>(Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -665,7 +665,7 @@
 
     const/16 v0, 0x1307
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/commsource/repository/child/TextureRepository;->r:Lcotlin/w;
 
@@ -675,7 +675,7 @@
 
     check-cast v1, Lcom/commsource/repository/OnlineLocalMaterialCompator;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -685,7 +685,7 @@
 
     const/16 v0, 0x1304
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/commsource/repository/child/TextureRepository;->m:Lcotlin/w;
 
@@ -695,7 +695,7 @@
 
     check-cast v1, Lf/k/i0/a/e1;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -711,7 +711,7 @@
 
     const/16 v0, 0x1314
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "textureMaterial"
 
@@ -763,7 +763,7 @@
     move-result-object p1
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -779,7 +779,7 @@
 
     const/16 v0, 0x1315
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "material"
 
@@ -815,7 +815,7 @@
     move-result-object p1
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -825,7 +825,7 @@
 
     const/16 v0, 0x130a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-boolean v1, Lcom/commsource/repository/child/TextureRepository;->p:Z
 
@@ -852,7 +852,7 @@
 
     invoke-static {v1, v2, v3, v4}, Lcom/commsource/repository/OnlineLocalMaterialCompator;->i(Lcom/commsource/repository/OnlineLocalMaterialCompator;ZILjava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -862,7 +862,7 @@
 
     const/16 v0, 0x1309
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x4
 
@@ -876,7 +876,7 @@
     invoke-virtual {p0}, Lcom/commsource/repository/child/TextureRepository;->I()V
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -886,7 +886,7 @@
 
     const/16 v0, 0x130b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/commsource/repository/child/TextureRepository;->I()V
 
@@ -898,7 +898,7 @@
 
     move-result v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -920,7 +920,7 @@
 
     const/16 v0, 0x1308
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "list"
 
@@ -934,7 +934,7 @@
 
     invoke-interface {p1, v1}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -944,7 +944,7 @@
 
     const/16 v0, 0x1316
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/commsource/repository/child/TextureRepository;->q:Lcom/commsource/repository/f;
 
@@ -952,7 +952,7 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/repository/f;->a(Ljava/lang/Runnable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -966,7 +966,7 @@
 
     const/16 v0, 0x1311
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "material"
 
@@ -978,7 +978,7 @@
 
     if-eqz v1, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -1023,7 +1023,7 @@
 
     invoke-virtual {p2, p1}, Lcom/commsource/material/download/b/b$b;->c(Lcom/commsource/material/download/b/c;)Lcom/commsource/material/download/b/b;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1039,7 +1039,7 @@
 
     const/16 v0, 0x1313
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "mid"
 
@@ -1092,7 +1092,7 @@
     check-cast v2, Lcom/commsource/studio/function/background/TextureMaterial;
 
     :cond_2
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v2
 .end method
@@ -1114,11 +1114,11 @@
 
     const/16 v0, 0x1305
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/commsource/repository/child/TextureRepository;->n:Landroidx/lifecycle/MutableLiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

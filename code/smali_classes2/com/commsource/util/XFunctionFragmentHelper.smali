@@ -52,7 +52,7 @@
 
     const/16 v0, 0x4b4a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/util/XFunctionFragmentHelper;->c:Landroidx/fragment/app/FragmentManager;
 
@@ -100,7 +100,7 @@
     :goto_0
     check-cast v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/a;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -110,7 +110,7 @@
 
     const/16 p4, 0x4b4c
 
-    invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p4}, Lcom/res/ANRTrace;->e(I)V
 
     and-int/lit8 p3, p3, 0x2
 
@@ -121,7 +121,7 @@
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/util/XFunctionFragmentHelper;->h(Lcom/commsource/util/r0;Lcotlin/jvm/u/l;)V
 
-    invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p4}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -135,11 +135,11 @@
 
     const/16 v0, 0x4b4d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/util/XFunctionFragmentHelper;->c:Landroidx/fragment/app/FragmentManager;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -151,11 +151,11 @@
 
     const/16 v0, 0x4b48
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/util/XFunctionFragmentHelper;->b:Lcom/commsource/util/r0;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -167,11 +167,11 @@
 
     const/16 v0, 0x4b46
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/util/XFunctionFragmentHelper;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/a;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -181,11 +181,11 @@
 
     const/16 v0, 0x4b4e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/commsource/util/XFunctionFragmentHelper;->d:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -199,11 +199,11 @@
 
     const/16 v0, 0x4b49
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/commsource/util/XFunctionFragmentHelper;->b:Lcom/commsource/util/r0;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -217,11 +217,11 @@
 
     const/16 v0, 0x4b47
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/commsource/util/XFunctionFragmentHelper;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/a;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -250,7 +250,7 @@
 
     const/16 v0, 0x4b4b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x0
 
@@ -282,7 +282,7 @@
 
     if-eqz v2, :cond_1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -304,7 +304,7 @@
     :cond_2
     if-nez p1, :cond_3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -335,7 +335,7 @@
     invoke-virtual {v1, v2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/a;->x(Lcotlin/jvm/u/a;)V
 
     :cond_5
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

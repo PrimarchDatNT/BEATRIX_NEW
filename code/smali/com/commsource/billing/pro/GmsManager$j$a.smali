@@ -49,7 +49,7 @@
 
     const/16 v0, 0x29ed
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "restore purchase : success"
 
@@ -91,7 +91,7 @@
 
     invoke-static {v1}, Lcom/commsource/util/g2;->g(Ljava/lang/Runnable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

@@ -48,7 +48,7 @@
 
     const v0, 0xd3e1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/analytics/y/n/i;->z:Lcom/meitu/library/analytics/y/n/h;
 
@@ -69,7 +69,7 @@
     invoke-interface {p3, p1, p2}, Lcom/meitu/library/analytics/y/n/h;->b(Ljava/lang/String;Z)Lcom/meitu/library/analytics/y/n/h;
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -79,7 +79,7 @@
 
     const v0, 0xd3df
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/analytics/y/n/i;->z:Lcom/meitu/library/analytics/y/n/h;
 
@@ -100,7 +100,7 @@
     invoke-interface {p3, p1, p2}, Lcom/meitu/library/analytics/y/n/h;->c(Ljava/lang/String;I)Lcom/meitu/library/analytics/y/n/h;
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -110,7 +110,7 @@
 
     const v0, 0xd3e0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/analytics/y/n/i;->z:Lcom/meitu/library/analytics/y/n/h;
 
@@ -131,7 +131,7 @@
     invoke-interface {p3, p1, v1, v2}, Lcom/meitu/library/analytics/y/n/h;->d(Ljava/lang/String;J)Lcom/meitu/library/analytics/y/n/h;
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -141,7 +141,7 @@
 
     const v0, 0xd3de
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/analytics/y/n/i;->z:Lcom/meitu/library/analytics/y/n/h;
 
@@ -154,7 +154,7 @@
     invoke-interface {p3, p1, p2}, Lcom/meitu/library/analytics/y/n/h;->a(Ljava/lang/String;Ljava/lang/String;)Lcom/meitu/library/analytics/y/n/h;
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -166,7 +166,7 @@
 
     const v0, 0xd3e2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/analytics/y/n/i;->y:Lcom/meitu/library/analytics/sdk/content/f;
 
@@ -261,7 +261,7 @@
 
     invoke-super {p0}, Lcom/meitu/library/analytics/y/h/d;->e()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -271,7 +271,7 @@
 
     const v0, 0xd3e3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/analytics/y/n/i;->z:Lcom/meitu/library/analytics/y/n/h;
 
@@ -291,7 +291,7 @@
     const/4 v1, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -310,7 +310,7 @@
 
     const v0, 0xd3dc    # 7.6001E-41f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/meitu/library/analytics/y/h/d;->j()V
 
@@ -336,7 +336,7 @@
 
     move-result-object p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
@@ -371,7 +371,7 @@
 
     move-result-object p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
@@ -406,7 +406,7 @@
 
     move-result-object p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
@@ -441,7 +441,7 @@
 
     move-result-object p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
@@ -470,7 +470,7 @@
 
     invoke-direct {v1, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw v1
 .end method
@@ -480,7 +480,7 @@
 
     const v0, 0xd3e4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/analytics/y/n/i;->y:Lcom/meitu/library/analytics/sdk/content/f;
 
@@ -496,7 +496,7 @@
 
     move-result-object v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -506,11 +506,11 @@
 
     const v0, 0xd3e5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/analytics/y/n/i;->B:Lcom/meitu/library/analytics/y/n/g;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -530,7 +530,7 @@
 
     const v0, 0xd3dd
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/analytics/y/n/i;->y:Lcom/meitu/library/analytics/sdk/content/f;
 
@@ -540,7 +540,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
@@ -565,7 +565,7 @@
 
     invoke-direct {p0, v1, p2, v2}, Lcom/meitu/library/analytics/y/n/i;->r(Ljava/lang/String;Ljava/lang/String;Z)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
@@ -584,7 +584,7 @@
 
     invoke-direct {p0, v1, p2, v2}, Lcom/meitu/library/analytics/y/n/i;->p(Ljava/lang/String;Ljava/lang/Integer;Z)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
@@ -603,7 +603,7 @@
 
     invoke-direct {p0, v1, p2, v2}, Lcom/meitu/library/analytics/y/n/i;->q(Ljava/lang/String;Ljava/lang/Long;Z)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
@@ -622,7 +622,7 @@
 
     invoke-direct {p0, v1, p2, v2}, Lcom/meitu/library/analytics/y/n/i;->o(Ljava/lang/String;Ljava/lang/Boolean;Z)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
@@ -651,7 +651,7 @@
 
     invoke-direct {p2, p1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p2
 .end method

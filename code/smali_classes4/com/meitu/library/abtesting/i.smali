@@ -50,7 +50,7 @@
 
     const p3, 0xca27
 
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v0, "absdk_getAbInfo"
 
@@ -76,7 +76,7 @@
 
     invoke-virtual {p2, p4, p1}, Landroid/os/Bundle;->putString(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p2
 
@@ -93,7 +93,7 @@
 
     if-nez p4, :cond_1
 
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 
@@ -132,12 +132,12 @@
 
     invoke-virtual {v1, p2, p1}, Landroid/os/Bundle;->putInt(Ljava/lang/String;I)V
 
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 
     :cond_2
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 .end method

@@ -42,7 +42,7 @@
 
     const/16 v0, 0x7fc2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p0}, Lcom/commsource/widget/dialog/s0/t;->L(Landroid/content/Context;)Z
 
@@ -69,7 +69,7 @@
 
     invoke-interface {p1, p0, p2}, Lcom/commsource/mypage/album/y$f;->a(ILjava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -79,7 +79,7 @@
 
     const/16 v0, 0x7fc0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget v1, Lcom/res/provider/ResSTRING;->toast_image_aspect_ratio_too_big:I
 
@@ -109,7 +109,7 @@
 
     invoke-interface {p1, p0, p2}, Lcom/commsource/mypage/album/y$f;->a(ILjava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -119,13 +119,13 @@
 
     const/16 v0, 0x7fbf
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x0
 
     invoke-interface {p0, v1, p1}, Lcom/commsource/mypage/album/y$f;->a(ILjava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -135,7 +135,7 @@
 
     const/16 v0, 0x7fc1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x0
 
@@ -143,7 +143,7 @@
 
     invoke-virtual {p2}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -155,7 +155,7 @@
 
     const/16 v0, 0x7fbe
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/mypage/album/y$a;->g:Ljava/lang/String;
 
@@ -215,7 +215,7 @@
 
     invoke-static {v3}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -233,7 +233,7 @@
 
     invoke-static {v4}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -251,7 +251,7 @@
 
     invoke-static {v4}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

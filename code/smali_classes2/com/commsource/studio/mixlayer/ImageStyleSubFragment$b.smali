@@ -51,7 +51,7 @@
 
     const/16 p1, 0xf9e
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p2, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$b;->a:Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;
 
@@ -67,7 +67,7 @@
 
     invoke-virtual {p2, v0}, Landroidx/lifecycle/MutableLiveData;->setValue(Ljava/lang/Object;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -77,11 +77,11 @@
 
     const/16 v0, 0xfa1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/widget/XSeekBar$b$a;->a(Lcom/commsource/widget/XSeekBar$b;IFZ)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -91,7 +91,7 @@
 
     const/16 v0, 0xf9f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p3, :cond_0
 
@@ -142,7 +142,7 @@
     invoke-static/range {v3 .. v8}, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;->d0(Lcom/commsource/studio/mixlayer/ImageStyleSubFragment;IIZILjava/lang/Object;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -152,7 +152,7 @@
 
     const/16 p2, 0xfa0
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p3, :cond_0
 
@@ -203,7 +203,7 @@
     invoke-virtual {p3, v0, p1}, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->l0(II)V
 
     :cond_0
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

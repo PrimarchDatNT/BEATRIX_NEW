@@ -80,9 +80,9 @@
 
     const/16 v0, 0x72cf
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const-string v0, "precision highp float;\n\nuniform sampler2D texture;\nvarying vec2 v_textureCoordinates;\n\nvoid main()\n{\n    gl_FragColor = texture2D(texture, v_textureCoordinates);\n}"
 
@@ -94,7 +94,7 @@
 
     const/16 v0, 0x72d0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "texture"
 
@@ -104,7 +104,7 @@
 
     iput p1, p0, Lcom/commsource/studio/shader/f;->l:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -114,7 +114,7 @@
 
     const/16 v0, 0x72d1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const v1, 0x84c0
 
@@ -136,7 +136,7 @@
 
     invoke-static {v1, v2}, Landroid/opengl/GLES20;->glUniform1i(II)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -148,11 +148,11 @@
 
     const/16 v0, 0x72d2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/shader/f;->m:Lcom/commsource/studio/shader/f$a;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

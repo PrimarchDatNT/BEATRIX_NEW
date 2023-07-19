@@ -53,7 +53,7 @@
 
     const v1, 0xc415
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-super {p0}, Lcom/meitu/library/abtest/j/a;->e()V
 
@@ -141,7 +141,7 @@
 
     :cond_0
     :goto_0
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -151,7 +151,7 @@
 
     const v0, 0xc416
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-super {p0}, Lcom/meitu/library/abtest/j/a;->k()V
 
@@ -193,7 +193,7 @@
 
     :cond_0
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

@@ -43,7 +43,7 @@
 
     const v0, 0xc0a9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lf/k/m/f/b$b;->b:Lf/k/m/f/b;
 
@@ -51,7 +51,7 @@
 
     invoke-static {v1, v2}, Lf/k/m/f/b;->f(Lf/k/m/f/b;Lcom/android/billingclient/api/Purchase;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

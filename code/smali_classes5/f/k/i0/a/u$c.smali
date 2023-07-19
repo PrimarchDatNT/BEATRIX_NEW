@@ -44,7 +44,7 @@
 
     const/16 v0, 0x6a0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p2}, Lcom/meitu/template/bean/j;->k()I
 
@@ -282,7 +282,7 @@
 
     invoke-interface {p1, v1, v2, v3}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindLong(IJ)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -292,13 +292,13 @@
 
     const/16 v0, 0x6a1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p2, Lcom/meitu/template/bean/j;
 
     invoke-virtual {p0, p1, p2}, Lf/k/i0/a/u$c;->a(Landroidx/sqlite/db/SupportSQLiteStatement;Lcom/meitu/template/bean/j;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -308,9 +308,9 @@
 
     const/16 v0, 0x69f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const-string v0, "UPDATE OR ABORT `FILTER_GROUP_INFO` SET `GroupId` = ?,`FilterCount` = ?,`GroupName` = ?,`GroupDesc` = ?,`GroupPaidState` = ?,`GroupThumbnail` = ?,`GroupPaidInfo` = ?,`isAvailable` = ?,`GroupSort` = ?,`GroupTag` = ?,`InternalState` = ?,`DownloadType` = ?,`GroupPrice` = ?,`CategoryId` = ?,`GroupColor` = ?,`updateAt` = ?,`localInsertTime` = ? WHERE `GroupId` = ?"
 

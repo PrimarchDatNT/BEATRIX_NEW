@@ -48,7 +48,7 @@
 
     const v0, 0xdf7b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVPlayer$a;->a:Ljava/lang/ref/WeakReference;
 
@@ -147,7 +147,7 @@
 
     invoke-static {v1, p1}, Lcom/meitu/debug/Logger;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -246,7 +246,7 @@
 
     invoke-virtual {v1, v2, p1}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->notifyOnInfo(II)Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -294,19 +294,19 @@
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->notifyOnCompletion()V
 
     :cond_8
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
     :cond_9
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
     :cond_a
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->notifyOnSeekComplete()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -315,27 +315,27 @@
 
     invoke-virtual {v1, p1}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->notifyOnBufferingUpdate(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
     :cond_c
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->notifyOnCompletion()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
     :cond_d
     invoke-virtual {v1}, Lcom/meitu/mtmvcore/application/MTMVPlayer;->notifyOnPrepared()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
     :cond_e
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -349,7 +349,7 @@
 
     invoke-static {p1, v1}, Lcom/meitu/debug/Logger;->Y(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

@@ -66,7 +66,7 @@
 
     const v0, 0xe964
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;
 
@@ -270,7 +270,7 @@
 
     const v0, 0xe964
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -293,7 +293,7 @@
 
     const v0, 0xe963
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;->values()[Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;
 
@@ -307,14 +307,14 @@
 
     aget-object p0, v1, p0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
     :cond_0
     const/4 p0, 0x0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -324,7 +324,7 @@
 
     const v0, 0xe962
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-class v1, Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;
 
@@ -334,7 +334,7 @@
 
     check-cast p0, Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -344,7 +344,7 @@
 
     const v0, 0xe961
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;->$VALUES:[Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;
 
@@ -354,7 +354,7 @@
 
     check-cast v1, [Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

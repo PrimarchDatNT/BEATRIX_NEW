@@ -42,11 +42,11 @@
 
     const v0, 0xd9f4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/mtuploader/GlobalConfig$b;->a:Lcom/meitu/mtuploader/GlobalConfig;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -56,13 +56,13 @@
 
     const v0, 0xd9f1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/mtuploader/GlobalConfig$b;->a:Lcom/meitu/mtuploader/GlobalConfig;
 
     invoke-virtual {v1, p1}, Lcom/meitu/mtuploader/GlobalConfig;->setChunkSize(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -72,13 +72,13 @@
 
     const v0, 0xd9f2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/mtuploader/GlobalConfig$b;->a:Lcom/meitu/mtuploader/GlobalConfig;
 
     invoke-virtual {v1, p1}, Lcom/meitu/mtuploader/GlobalConfig;->setChunkedPutThreshold(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -88,13 +88,13 @@
 
     const v0, 0xd9f3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/mtuploader/GlobalConfig$b;->a:Lcom/meitu/mtuploader/GlobalConfig;
 
     invoke-static {v1, p1}, Lcom/meitu/mtuploader/GlobalConfig;->access$102(Lcom/meitu/mtuploader/GlobalConfig;Z)Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -104,13 +104,13 @@
 
     const v0, 0xd9ee
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/mtuploader/GlobalConfig$b;->a:Lcom/meitu/mtuploader/GlobalConfig;
 
     invoke-virtual {v1, p1, p2}, Lcom/meitu/mtuploader/GlobalConfig;->setTokenConnectTimeOut(J)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -120,13 +120,13 @@
 
     const v0, 0xd9ef
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/mtuploader/GlobalConfig$b;->a:Lcom/meitu/mtuploader/GlobalConfig;
 
     invoke-virtual {v1, p1, p2}, Lcom/meitu/mtuploader/GlobalConfig;->setTokenSocketReadTimeOut(J)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -136,13 +136,13 @@
 
     const v0, 0xd9f0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/mtuploader/GlobalConfig$b;->a:Lcom/meitu/mtuploader/GlobalConfig;
 
     invoke-virtual {v1, p1, p2}, Lcom/meitu/mtuploader/GlobalConfig;->setTokenSocketWriteTimeOut(J)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -152,13 +152,13 @@
 
     const v0, 0xd9ed
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/mtuploader/GlobalConfig$b;->a:Lcom/meitu/mtuploader/GlobalConfig;
 
     invoke-virtual {v1, p1}, Lcom/meitu/mtuploader/GlobalConfig;->setUploadCloudConnectTimeout(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -168,13 +168,13 @@
 
     const v0, 0xd9ec
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/mtuploader/GlobalConfig$b;->a:Lcom/meitu/mtuploader/GlobalConfig;
 
     invoke-virtual {v1, p1}, Lcom/meitu/mtuploader/GlobalConfig;->setUploadCloudResponseTimeout(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method

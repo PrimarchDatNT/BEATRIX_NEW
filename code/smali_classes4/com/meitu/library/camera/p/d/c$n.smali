@@ -48,7 +48,7 @@
 
     const p3, 0xab98
 
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/meitu/library/camera/p/d/c$n;->a:Lcom/meitu/library/camera/p/d/c;
 
@@ -87,7 +87,7 @@
     invoke-virtual {p2, p1, p4, p5, p6}, Lcom/meitu/library/camera/p/d/j/e;->j2(Lcom/meitu/library/n/a/g;III)V
 
     :cond_1
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

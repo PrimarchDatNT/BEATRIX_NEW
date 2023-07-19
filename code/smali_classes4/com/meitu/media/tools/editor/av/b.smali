@@ -102,13 +102,13 @@
 
     const v0, 0xe4b0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-wide/16 v1, 0x0
 
     sput-wide v1, Lcom/meitu/media/tools/editor/av/b;->p0:J
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -258,7 +258,7 @@
 
     const v0, 0xe4a7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/media/tools/editor/av/b;->O:Ljava/lang/Object;
 
@@ -306,7 +306,7 @@
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     :try_start_2
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p2
 
@@ -325,7 +325,7 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -337,7 +337,7 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 .end method
@@ -347,7 +347,7 @@
 
     const v0, 0xe4a1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x0
 
@@ -368,7 +368,7 @@
     invoke-virtual {v1}, Landroid/os/Looper;->quit()V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -378,7 +378,7 @@
 
     const v0, 0xe49f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -434,7 +434,7 @@
 
     iput-boolean v2, p0, Lcom/meitu/media/tools/editor/av/b;->c0:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -445,7 +445,7 @@
 
     invoke-direct {v1, v2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw v1
 .end method
@@ -455,7 +455,7 @@
 
     const v0, 0xe4ac
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/media/tools/editor/av/b;->K:Ljava/lang/Object;
 
@@ -474,7 +474,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -516,7 +516,7 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -528,7 +528,7 @@
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw v2
 .end method
@@ -538,11 +538,11 @@
 
     const v0, 0xe4ae
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct/range {p0 .. p5}, Lcom/meitu/media/tools/editor/av/b;->y(Landroid/media/MediaCodec;IILjava/nio/ByteBuffer;Landroid/media/MediaCodec$BufferInfo;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -552,11 +552,11 @@
 
     const v0, 0xe4af
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0}, Lcom/meitu/media/tools/editor/av/b;->x()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -566,7 +566,7 @@
 
     const v0, 0xe4aa
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p2, Landroid/media/MediaCodec$BufferInfo;->size:I
 
@@ -633,7 +633,7 @@
     invoke-virtual {p1, p2, v1, v2}, Ljava/nio/ByteBuffer;->put([BII)Ljava/nio/ByteBuffer;
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -643,7 +643,7 @@
 
     const v0, 0xe4ab
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x0
 
@@ -717,7 +717,7 @@
 
     aput-byte p2, p1, v3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -727,7 +727,7 @@
 
     const v0, 0xe4a8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p2, Landroid/media/MediaCodec$BufferInfo;->size:I
 
@@ -789,7 +789,7 @@
 
     invoke-virtual {p1, v2, v3, p2}, Ljava/nio/ByteBuffer;->put([BII)Ljava/nio/ByteBuffer;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -799,13 +799,13 @@
 
     const v0, 0xe49b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/media/tools/editor/av/b;
 
     invoke-direct {v1, p0, p1}, Lcom/meitu/media/tools/editor/av/b;-><init>(Ljava/lang/String;Lcom/meitu/media/tools/editor/av/Muxer$FORMAT;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -815,7 +815,7 @@
 
     const v0, 0xe4a6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "[FFmpegMuxer]Forcing Shutdown"
 
@@ -842,7 +842,7 @@
     :goto_0
     invoke-direct {p0}, Lcom/meitu/media/tools/editor/av/b;->B()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -864,7 +864,7 @@
 
     const v15, 0xe4a4
 
-    invoke-static {v15}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v15}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-super/range {p0 .. p5}, Lcom/meitu/media/tools/editor/av/Muxer;->p(Landroid/media/MediaCodec;IILjava/nio/ByteBuffer;Landroid/media/MediaCodec$BufferInfo;)V
 
@@ -917,7 +917,7 @@
     :cond_0
     invoke-direct {v1, v2, v14, v4, v3}, Lcom/meitu/media/tools/editor/av/b;->A(Landroid/media/MediaCodec;Ljava/nio/ByteBuffer;II)V
 
-    invoke-static {v15}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v15}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -928,7 +928,7 @@
 
     invoke-direct {v1, v2, v14, v4, v3}, Lcom/meitu/media/tools/editor/av/b;->A(Landroid/media/MediaCodec;Ljava/nio/ByteBuffer;II)V
 
-    invoke-static {v15}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v15}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -1190,7 +1190,7 @@
     :cond_d
     const v2, 0xe4a4
 
-    invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1200,7 +1200,7 @@
 
     const p2, 0xe4a9
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/meitu/media/tools/editor/av/b;->Z:Ljava/nio/ByteBuffer;
 
@@ -1212,7 +1212,7 @@
 
     invoke-virtual {v0, p1}, Ljava/nio/ByteBuffer;->put(Ljava/nio/ByteBuffer;)Ljava/nio/ByteBuffer;
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1224,7 +1224,7 @@
 
     const v0, 0xe49c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "mime"
 
@@ -1302,7 +1302,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -1310,7 +1310,7 @@
     invoke-virtual {p0, p1}, Lcom/meitu/media/tools/editor/av/b;->w(Landroid/media/MediaFormat;)V
 
     :goto_2
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -1320,7 +1320,7 @@
 
     const v0, 0xe4a5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/meitu/media/tools/editor/av/Muxer;->g()Z
 
@@ -1344,7 +1344,7 @@
     invoke-direct {p0}, Lcom/meitu/media/tools/editor/av/b;->x()V
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1354,11 +1354,11 @@
 
     const v0, 0xe4a2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean v1, p0, Lcom/meitu/media/tools/editor/av/b;->c0:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -1368,7 +1368,7 @@
 
     const p1, 0xe4a0
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/meitu/media/tools/editor/av/b;->O:Ljava/lang/Object;
 
@@ -1383,7 +1383,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -1395,7 +1395,7 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     throw v1
 .end method
@@ -1405,13 +1405,13 @@
 
     const v0, 0xe49d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/media/tools/editor/av/b;->d0:Lcom/meitu/media/tools/editor/FFmpegWrapper$AVOptions;
 
     iput p1, v1, Lcom/meitu/media/tools/editor/FFmpegWrapper$AVOptions;->i:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1431,7 +1431,7 @@
 
     const v8, 0xe4a3
 
-    invoke-static {v8}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v8}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v9, v1, Lcom/meitu/media/tools/editor/av/b;->K:Ljava/lang/Object;
 
@@ -1550,7 +1550,7 @@
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
     :try_start_4
-    invoke-static {v8}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v8}, Lcom/res/ANRTrace;->a(I)V
 
     throw v0
 
@@ -1580,7 +1580,7 @@
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_1
 
-    invoke-static {v8}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v8}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -1592,7 +1592,7 @@
     :try_end_5
     .catchall {:try_start_5 .. :try_end_5} :catchall_1
 
-    invoke-static {v8}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v8}, Lcom/res/ANRTrace;->a(I)V
 
     throw v0
 .end method
@@ -1602,7 +1602,7 @@
 
     const v0, 0xe4ad
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Landroid/os/Looper;->prepare()V
 
@@ -1648,7 +1648,7 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -1660,7 +1660,7 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw v1
 
@@ -1672,7 +1672,7 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw v2
 .end method
@@ -1682,7 +1682,7 @@
 
     const v0, 0xe49e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-super {p0, p1}, Lcom/meitu/media/tools/editor/av/Muxer;->a(Landroid/media/MediaFormat;)I
 
@@ -1744,7 +1744,7 @@
     iput p1, v1, Lcom/meitu/media/tools/editor/FFmpegWrapper$AVOptions;->d:I
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

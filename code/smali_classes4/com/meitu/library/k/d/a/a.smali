@@ -23,7 +23,7 @@
 
     const v0, 0xc0ed
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Ljava/text/DecimalFormat;
 
@@ -33,7 +33,7 @@
 
     sput-object v1, Lcom/meitu/library/k/d/a/a;->e:Ljava/text/DecimalFormat;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -51,7 +51,7 @@
 
     const v0, 0xc0e6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p0, :cond_0
 
@@ -69,7 +69,7 @@
 
     :cond_0
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -79,7 +79,7 @@
 
     const v0, 0xc0ea
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -115,7 +115,7 @@
 
     move-result-object v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -125,7 +125,7 @@
 
     const v0, 0xc0e4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -175,7 +175,7 @@
 
     move-result-object p0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -187,7 +187,7 @@
 
     const v1, 0xc0e5
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v2, 0x0
 
@@ -205,7 +205,7 @@
 
     invoke-static {v2}, Lcom/meitu/library/k/d/a/a;->a(Ljava/io/Closeable;)V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 
@@ -268,7 +268,7 @@
 
     invoke-static {v3}, Lcom/meitu/library/k/d/a/a;->a(Ljava/io/Closeable;)V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
@@ -303,14 +303,14 @@
     :cond_1
     invoke-static {v2}, Lcom/meitu/library/k/d/a/a;->a(Ljava/io/Closeable;)V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 
     :goto_1
     invoke-static {v2}, Lcom/meitu/library/k/d/a/a;->a(Ljava/io/Closeable;)V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     throw p0
 .end method
@@ -322,7 +322,7 @@
 
     const v1, 0xc0e7
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v2, 0x0
 
@@ -340,7 +340,7 @@
 
     invoke-static {v2}, Lcom/meitu/library/k/d/a/a;->a(Ljava/io/Closeable;)V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 
@@ -403,7 +403,7 @@
 
     invoke-static {v3}, Lcom/meitu/library/k/d/a/a;->a(Ljava/io/Closeable;)V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
@@ -438,14 +438,14 @@
     :cond_1
     invoke-static {v2}, Lcom/meitu/library/k/d/a/a;->a(Ljava/io/Closeable;)V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 
     :goto_1
     invoke-static {v2}, Lcom/meitu/library/k/d/a/a;->a(Ljava/io/Closeable;)V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     throw p0
 .end method
@@ -457,7 +457,7 @@
 
     const v1, 0xc0e8
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v2, 0x0
 
@@ -475,7 +475,7 @@
 
     invoke-static {v2}, Lcom/meitu/library/k/d/a/a;->a(Ljava/io/Closeable;)V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 
@@ -540,7 +540,7 @@
 
     invoke-static {v3}, Lcom/meitu/library/k/d/a/a;->a(Ljava/io/Closeable;)V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
@@ -575,14 +575,14 @@
     :cond_1
     invoke-static {v2}, Lcom/meitu/library/k/d/a/a;->a(Ljava/io/Closeable;)V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 
     :goto_1
     invoke-static {v2}, Lcom/meitu/library/k/d/a/a;->a(Ljava/io/Closeable;)V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     throw p0
 .end method
@@ -594,7 +594,7 @@
 
     const v1, 0xc0e9
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v2, 0x0
 
@@ -624,14 +624,14 @@
 
     invoke-static {v2}, Lcom/meitu/library/k/d/a/a;->a(Ljava/io/Closeable;)V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
     :cond_0
     invoke-static {v2}, Lcom/meitu/library/k/d/a/a;->a(Ljava/io/Closeable;)V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 
@@ -721,7 +721,7 @@
 
     invoke-static {v3}, Lcom/meitu/library/k/d/a/a;->a(Ljava/io/Closeable;)V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v4
 
@@ -751,7 +751,7 @@
 
     invoke-static {v3}, Lcom/meitu/library/k/d/a/a;->a(Ljava/io/Closeable;)V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
@@ -776,7 +776,7 @@
 
     invoke-static {v3}, Lcom/meitu/library/k/d/a/a;->a(Ljava/io/Closeable;)V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
@@ -817,14 +817,14 @@
     :goto_2
     invoke-static {v2}, Lcom/meitu/library/k/d/a/a;->a(Ljava/io/Closeable;)V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 
     :goto_3
     invoke-static {v2}, Lcom/meitu/library/k/d/a/a;->a(Ljava/io/Closeable;)V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     throw p0
 .end method
@@ -834,7 +834,7 @@
 
     const v0, 0xc0eb
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "\u672a\u77e5\u5927\u5c0f"
 
@@ -858,7 +858,7 @@
 
     invoke-static {v2}, Lcom/meitu/library/k/d/a/a;->a(Ljava/io/Closeable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 
@@ -975,14 +975,14 @@
     :goto_1
     invoke-static {v2}, Lcom/meitu/library/k/d/a/a;->a(Ljava/io/Closeable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 
     :goto_2
     invoke-static {v2}, Lcom/meitu/library/k/d/a/a;->a(Ljava/io/Closeable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p0
 .end method
@@ -994,7 +994,7 @@
 
     const v1, 0xc0ec
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v2, "\u672a\u77e5\u5927\u5c0f"
 
@@ -1104,13 +1104,13 @@
     invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
 
     :goto_0
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v2
 
     :cond_1
     :goto_1
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v2
 .end method

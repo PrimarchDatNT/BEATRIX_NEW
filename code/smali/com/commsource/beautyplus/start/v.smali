@@ -53,11 +53,11 @@
 
     const/16 v0, 0xabd
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p0, p0, Lcom/commsource/beautyplus/start/v;->a:Landroid/content/Context;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -67,11 +67,11 @@
 
     const/16 v0, 0xabe
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/beautyplus/start/v;->m(Landroid/content/res/AssetManager;Ljava/lang/String;Ljava/util/List;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -86,7 +86,7 @@
 
     const/16 v0, 0xab3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautyplus/start/v;->a:Landroid/content/Context;
 
@@ -135,7 +135,7 @@
     invoke-static {v1, v2}, Lf/d/i/e;->k2(Landroid/content/Context;Z)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -145,7 +145,7 @@
 
     const/16 v0, 0xab0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautyplus/start/v;->a:Landroid/content/Context;
 
@@ -180,7 +180,7 @@
     :goto_0
     if-nez v1, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -242,7 +242,7 @@
 
     :cond_2
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -252,7 +252,7 @@
 
     const/16 p0, 0xab6
 
-    invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lcom/commsource/material/ImageSegmentExecutor;->D()Z
 
@@ -262,7 +262,7 @@
 
     invoke-static {}, Lcom/commsource/camera/f1/d;->k()Lcom/commsource/camera/f1/d;
 
-    invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -281,7 +281,7 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/commsource/material/ImageSegmentExecutor;->e(Lcom/commsource/material/download/SegmentModel;Lcom/commsource/material/download/b/c;)V
 
-    invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -291,7 +291,7 @@
 
     const/16 v0, 0xaac
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
@@ -321,7 +321,7 @@
 
     invoke-static {v1}, Lcom/meitu/library/abtesting/ABTestingManager;->M(Landroid/content/Context;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -331,7 +331,7 @@
 
     const/16 v0, 0xaba
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p0, :cond_3
 
@@ -462,7 +462,7 @@
 
     invoke-static {v4, p0}, Lcom/meitu/library/util/Debug/Debug;->e(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -529,7 +529,7 @@
 
     :cond_3
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -539,7 +539,7 @@
 
     const/16 p1, 0xabb
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -569,7 +569,7 @@
 
     invoke-static {p0}, Lf/d/i/e;->b3(Ljava/lang/String;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -579,7 +579,7 @@
 
     const/16 v0, 0xabc
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautyplus/start/v;->a:Landroid/content/Context;
 
@@ -591,7 +591,7 @@
 
     invoke-static {p1}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -611,7 +611,7 @@
 
     const/16 v0, 0xab9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     invoke-virtual {p1, p2}, Landroid/content/res/AssetManager;->list(Ljava/lang/String;)[Ljava/lang/String;
@@ -683,7 +683,7 @@
     invoke-virtual {p1}, Ljava/lang/Exception;->printStackTrace()V
 
     :cond_2
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -693,7 +693,7 @@
 
     const/16 v0, 0xaaf
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lcom/commsource/camera/z0/e;->M()V
 
@@ -727,7 +727,7 @@
 
     invoke-virtual {p0}, Lcom/commsource/home/OnlineDialogRepo;->s()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -737,7 +737,7 @@
 
     const/16 v0, 0xab5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p1}, Lf/d/i/e;->R(Landroid/content/Context;)Ljava/lang/String;
 
@@ -855,7 +855,7 @@
     :goto_1
     invoke-static {p1, v1}, Lf/d/i/e;->f2(Landroid/content/Context;Lcom/commsource/beautyplus/data/b;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -865,7 +865,7 @@
 
     const/16 v0, 0xab7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Landroid/os/Build;->MODEL:Ljava/lang/String;
 
@@ -965,7 +965,7 @@
     invoke-static {v1, v2}, Lcom/commsource/statistics/i;->s(Ljava/lang/String;Ljava/util/Map;)V
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -975,7 +975,7 @@
 
     const/16 v0, 0xab8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/beautyplus/start/v$d;
 
@@ -985,7 +985,7 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -995,7 +995,7 @@
 
     const/16 v0, 0xaae
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautyplus/start/v;->a:Landroid/content/Context;
 
@@ -1011,7 +1011,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -1039,7 +1039,7 @@
     invoke-virtual {v1}, Ljava/lang/Exception;->printStackTrace()V
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1049,7 +1049,7 @@
 
     const/16 v0, 0xaad
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautyplus/start/v;->a:Landroid/content/Context;
 
@@ -1555,7 +1555,7 @@
 
     invoke-direct {p0}, Lcom/commsource/beautyplus/start/v;->q()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1565,7 +1565,7 @@
 
     const/16 v0, 0xab2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     invoke-direct {p0}, Lcom/commsource/beautyplus/start/v;->c()V
@@ -1582,7 +1582,7 @@
     invoke-static {v1}, Lcom/meitu/library/util/Debug/Debug;->a0(Ljava/lang/Throwable;)V
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1592,7 +1592,7 @@
 
     const/16 v0, 0xab4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -1649,7 +1649,7 @@
     invoke-static {v1, v2}, Lf/d/i/e;->J2(Landroid/content/Context;Z)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1661,7 +1661,7 @@
 
     const/16 v0, 0xaab
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-boolean p2, p0, Lcom/commsource/beautyplus/start/v;->e:Z
 
@@ -1671,7 +1671,7 @@
 
     invoke-direct {p0, p1}, Lcom/commsource/beautyplus/start/v;->s(Landroid/app/Activity;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1681,11 +1681,11 @@
 
     const/16 v0, 0xab1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean v1, p0, Lcom/commsource/beautyplus/start/v;->b:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method

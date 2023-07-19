@@ -47,7 +47,7 @@
 
     const v0, 0xe975
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder$b;->a:Ljava/lang/ref/WeakReference;
 
@@ -66,7 +66,7 @@
     invoke-interface {v1, v2, v3}, Lcom/meitu/media/mediarecord/softrecord/MediaRecorder$e;->a(Lcom/meitu/media/mediarecord/softrecord/MediaRecorder;I)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

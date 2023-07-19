@@ -44,11 +44,11 @@
 
     const v0, 0xeb62
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-nez p1, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -123,7 +123,7 @@
     :catch_0
     invoke-virtual {p0, v1}, Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript$a;->d(Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript$Model;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -133,13 +133,13 @@
 
     const v0, 0xeb64
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript$Model;
 
     invoke-virtual {p0, p1}, Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript$a;->d(Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript$Model;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -149,7 +149,7 @@
 
     const v0, 0xeb63
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -173,7 +173,7 @@
 
     invoke-static {v1, p1}, Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript;->I(Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript;Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript$Model;)Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

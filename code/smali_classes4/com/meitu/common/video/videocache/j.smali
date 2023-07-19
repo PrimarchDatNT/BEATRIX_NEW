@@ -30,7 +30,7 @@
 
     const v0, 0xf2e6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "HttpUrlSource"
 
@@ -40,7 +40,7 @@
 
     sput-object v1, Lcom/meitu/common/video/videocache/j;->f:Lorg/slf4j/c;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -145,7 +145,7 @@
 
     const v0, 0xf2e0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/common/video/videocache/j;->f:Lorg/slf4j/c;
 
@@ -295,7 +295,7 @@
     invoke-virtual {v2}, Ljava/net/HttpURLConnection;->disconnect()V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -307,7 +307,7 @@
     invoke-virtual {v2}, Ljava/net/HttpURLConnection;->disconnect()V
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw v1
 .end method
@@ -317,7 +317,7 @@
 
     const v0, 0xf2dd
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "Content-Length"
 
@@ -337,7 +337,7 @@
     move-result-wide v1
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-wide v1
 .end method
@@ -347,7 +347,7 @@
 
     const v0, 0xf2e2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/common/video/videocache/j;->b:Lcom/meitu/common/video/videocache/u/b;
 
@@ -393,7 +393,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -409,7 +409,7 @@
 
     const v0, 0xf2e1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/common/video/videocache/j;->c:Lcom/meitu/common/video/videocache/q;
 
@@ -561,7 +561,7 @@
 
     if-nez v5, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v4
 
@@ -584,7 +584,7 @@
 
     invoke-direct {p1, p2}, Lcom/meitu/common/video/videocache/ProxyCacheException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 .end method
@@ -599,7 +599,7 @@
 
     const v0, 0xf2dc
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0, p1}, Lcom/meitu/common/video/videocache/j;->c(Ljava/net/HttpURLConnection;)J
 
@@ -626,7 +626,7 @@
     iget-wide v1, p1, Lcom/meitu/common/video/videocache/q;->b:J
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-wide v1
 .end method
@@ -643,7 +643,7 @@
 
     const v0, 0xf2db
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, -0x1
 
@@ -700,7 +700,7 @@
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -735,7 +735,7 @@
 
     invoke-direct {v2, p1, v1}, Lcom/meitu/common/video/videocache/ProxyCacheException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw v2
 .end method
@@ -750,7 +750,7 @@
 
     const v0, 0xf2de
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/common/video/videocache/j;->d:Ljava/net/HttpURLConnection;
 
@@ -791,13 +791,13 @@
 
     invoke-direct {v2, v3, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw v2
 
     :cond_0
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -815,7 +815,7 @@
     const v0, 0xf2e3
 
     :try_start_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/common/video/videocache/j;->c:Lcom/meitu/common/video/videocache/q;
 
@@ -834,7 +834,7 @@
 
     iget-object v1, v1, Lcom/meitu/common/video/videocache/q;->c:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -855,13 +855,13 @@
 
     const v0, 0xf2e4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/common/video/videocache/j;->c:Lcom/meitu/common/video/videocache/q;
 
     iget-object v1, v1, Lcom/meitu/common/video/videocache/q;->a:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -879,7 +879,7 @@
     const v0, 0xf2da
 
     :try_start_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/common/video/videocache/j;->c:Lcom/meitu/common/video/videocache/q;
 
@@ -898,7 +898,7 @@
 
     iget-wide v1, v1, Lcom/meitu/common/video/videocache/q;->b:J
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -924,7 +924,7 @@
 
     const v0, 0xf2df
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/common/video/videocache/j;->e:Ljava/io/InputStream;
 
@@ -944,7 +944,7 @@
     .catch Ljava/io/InterruptedIOException; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 
@@ -971,7 +971,7 @@
 
     invoke-direct {v1, v2, p1}, Lcom/meitu/common/video/videocache/ProxyCacheException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw v1
 
@@ -1004,7 +1004,7 @@
 
     invoke-direct {v1, v2, p1}, Lcom/meitu/common/video/videocache/InterruptedProxyCacheException;-><init>(Ljava/lang/String;Ljava/lang/Throwable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw v1
 
@@ -1033,7 +1033,7 @@
 
     invoke-direct {p1, v1}, Lcom/meitu/common/video/videocache/ProxyCacheException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 .end method
@@ -1043,7 +1043,7 @@
 
     const v0, 0xf2e5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -1065,7 +1065,7 @@
 
     move-result-object v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

@@ -60,11 +60,11 @@
 
     const v0, 0xbddb
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-wide p1, p0, Lcom/meitu/mtlab/MTAiInterface/MTEyeSegmentModule/MTEyeSegmentOption;->mNativeInstance:J
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-wide p1
 .end method
@@ -74,13 +74,13 @@
 
     const v0, 0xbddc
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lcom/meitu/mtlab/MTAiInterface/MTEyeSegmentModule/MTEyeSegmentOption;->nativeCreateInstance()J
 
     move-result-wide v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-wide v1
 .end method
@@ -107,7 +107,7 @@
 
     const v0, 0xbdd8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-wide/16 v1, 0x0
 
@@ -117,7 +117,7 @@
 
     invoke-static {v1, v2}, Lcom/meitu/mtlab/MTAiInterface/MTEyeSegmentModule/MTEyeSegmentOption;->nativeClearOption(J)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -127,9 +127,9 @@
 
     const v0, 0xbdd6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const/16 v0, 0x28
 
@@ -146,7 +146,7 @@
 
     const v0, 0xbdd5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTEyeSegmentModule/MTEyeSegmentOption;->mNativeInstance:J
@@ -157,7 +157,7 @@
 
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -166,7 +166,7 @@
 
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw v1
 .end method
@@ -176,11 +176,11 @@
 
     const v0, 0xbdd7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTEyeSegmentModule/MTEyeSegmentOption;->mNativeInstance:J
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-wide v1
 .end method
@@ -190,7 +190,7 @@
 
     const v0, 0xbdd9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTEyeSegmentModule/MTEyeSegmentOption;->mNativeInstance:J
 
@@ -200,7 +200,7 @@
 
     invoke-static {v1, v2, v3, v4, v5}, Lcom/meitu/mtlab/MTAiInterface/MTEyeSegmentModule/MTEyeSegmentOption;->nativeSetRegParam(JJZ)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -210,13 +210,13 @@
 
     const v0, 0xbdda
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     invoke-static {p1, p2, v1, v2}, Lcom/meitu/mtlab/MTAiInterface/MTEyeSegmentModule/MTEyeSegmentOption;->nativeSetRunParam(JJ)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

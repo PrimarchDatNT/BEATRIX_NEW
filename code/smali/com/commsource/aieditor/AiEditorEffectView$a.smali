@@ -36,7 +36,7 @@
 
     const v0, 0x8d37
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/aieditor/AiEditorEffectView$a;->a:Lcom/commsource/aieditor/AiEditorEffectView;
 
@@ -90,7 +90,7 @@
     :cond_1
     const/4 p1, 0x1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -100,7 +100,7 @@
 
     const p1, 0x8d38
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p2, p0, Lcom/commsource/aieditor/AiEditorEffectView$a;->a:Lcom/commsource/aieditor/AiEditorEffectView;
 
@@ -208,7 +208,7 @@
     :cond_2
     const/4 p2, 0x1
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return p2
 .end method

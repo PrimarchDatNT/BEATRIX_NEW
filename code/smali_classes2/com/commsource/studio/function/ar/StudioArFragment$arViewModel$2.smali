@@ -53,7 +53,7 @@
 
     const/16 v0, 0x54e3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Landroidx/lifecycle/ViewModelProvider;
 
@@ -69,7 +69,7 @@
 
     check-cast v1, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -79,13 +79,13 @@
 
     const/16 v0, 0x54e2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/commsource/studio/function/ar/StudioArFragment$arViewModel$2;->invoke()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;
 
     move-result-object v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

@@ -29,7 +29,7 @@
 
     const/16 v0, 0x367b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/repository/child/TextFontRepository$d$a;
 
@@ -37,7 +37,7 @@
 
     sput-object v1, Lcom/commsource/repository/child/TextFontRepository$d$a;->a:Lcom/commsource/repository/child/TextFontRepository$d$a;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -57,7 +57,7 @@
 
     const/16 v0, 0x367a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -187,7 +187,7 @@
 
     invoke-interface {v1, v2}, Lf/k/i0/a/a1;->E2([Lcom/commsource/studio/text/TextFontMaterial;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -198,7 +198,7 @@
 
     invoke-direct {v1, v2}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw v1
 .end method

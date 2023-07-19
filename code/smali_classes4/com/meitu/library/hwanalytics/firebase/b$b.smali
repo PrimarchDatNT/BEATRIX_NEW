@@ -28,7 +28,7 @@
 
     const v0, 0xc199
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/library/hwanalytics/firebase/b$b;
 
@@ -36,7 +36,7 @@
 
     sput-object v1, Lcom/meitu/library/hwanalytics/firebase/b$b;->a:Lcom/meitu/library/hwanalytics/firebase/b$b;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -56,13 +56,13 @@
 
     const v0, 0xc198
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/16 v1, 0xa
 
     invoke-static {v1}, Landroid/os/Process;->setThreadPriority(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

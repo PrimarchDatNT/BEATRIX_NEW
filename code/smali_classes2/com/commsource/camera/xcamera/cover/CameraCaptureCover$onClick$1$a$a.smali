@@ -44,7 +44,7 @@
 
     const/16 v0, 0x64ea
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$onClick$1$a$a;->b:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$onClick$1$a;
 
@@ -66,7 +66,7 @@
 
     invoke-virtual {v1, v2, v3, v4}, Lcom/commsource/camera/xcamera/cover/montage/a;->M(Landroid/graphics/Bitmap;II)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

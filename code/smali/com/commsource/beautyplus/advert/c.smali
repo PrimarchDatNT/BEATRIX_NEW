@@ -51,7 +51,7 @@
 
     const v0, 0x9c33
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautyplus/advert/c;->b:Lcom/commsource/beautyplus/advert/k;
 
@@ -66,7 +66,7 @@
     iput-object v1, p0, Lcom/commsource/beautyplus/advert/c;->a:Lcom/commsource/beautyplus/advert/l/a;
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -78,7 +78,7 @@
 
     const v0, 0x9c34
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0}, Lcom/commsource/beautyplus/advert/c;->d()V
 
@@ -155,7 +155,7 @@
 
     check-cast p1, Lcom/commsource/beautyplus/advert/ArPopWindowBean;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
@@ -173,7 +173,7 @@
     :cond_3
     const/4 p1, 0x0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -183,7 +183,7 @@
 
     const v0, 0x9c35
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautyplus/advert/c;->b:Lcom/commsource/beautyplus/advert/k;
 
@@ -194,7 +194,7 @@
     :cond_0
     iput-object p1, p0, Lcom/commsource/beautyplus/advert/c;->a:Lcom/commsource/beautyplus/advert/l/a;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -204,7 +204,7 @@
 
     const v0, 0x9c36
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0}, Lcom/commsource/beautyplus/advert/c;->d()V
 
@@ -264,7 +264,7 @@
     invoke-virtual {p1, v1}, Lcom/commsource/beautyplus/advert/k;->d(Ljava/lang/Object;)V
 
     :cond_2
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

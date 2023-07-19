@@ -52,7 +52,7 @@
 
     const/16 v0, 0x4be9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunctionCover$b;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunctionCover;
 
@@ -83,7 +83,7 @@
 
     invoke-static {v1, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunctionCover;->E(Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunctionCover;Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -93,13 +93,13 @@
 
     const/16 v0, 0x4be8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunctionCover$b;->a(Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

@@ -45,7 +45,7 @@
 
     const/16 p1, 0x33b2
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p2, p0, Lcom/commsource/util/p0$b;->a:Lcom/commsource/util/p0;
 
@@ -92,7 +92,7 @@
     invoke-virtual {p2, p0}, Landroid/view/Choreographer;->removeFrameCallback(Landroid/view/Choreographer$FrameCallback;)V
 
     :goto_0
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

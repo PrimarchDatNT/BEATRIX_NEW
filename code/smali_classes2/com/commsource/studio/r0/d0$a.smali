@@ -28,7 +28,7 @@
 
     const v0, 0xa104
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/studio/r0/d0$a;
 
@@ -36,7 +36,7 @@
 
     sput-object v1, Lcom/commsource/studio/r0/d0$a;->a:Lcom/commsource/studio/r0/d0$a;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -56,13 +56,13 @@
 
     const v0, 0xa103
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget v1, Lcom/res/provider/ResSTRING;->t_edit_teethcorrection_fail_tip:I
 
     invoke-static {v1}, Lf/k/c/c/f;->r(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

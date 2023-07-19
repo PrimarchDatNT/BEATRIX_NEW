@@ -49,7 +49,7 @@
 
     const/16 v0, 0x6f0a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView$a;->g:Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;
 
@@ -179,7 +179,7 @@
 
     invoke-virtual {v1, v4, v4, v2, v3}, Landroid/graphics/Rect;->set(IIII)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

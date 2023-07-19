@@ -16,11 +16,11 @@
 
     const v0, 0xaf72
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lcom/meitu/library/camera/util/l;->a()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -38,7 +38,7 @@
 
     const v0, 0xaf75
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v9, Ln/a/b/c/e;
 
@@ -104,7 +104,7 @@
 
     sput-object v1, Lcom/meitu/library/camera/util/l;->c:Lorg/aspectj/lang/c$b;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -114,7 +114,7 @@
 
     const v0, 0xaf6f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Landroid/graphics/BitmapFactory$Options;->outHeight:I
 
@@ -134,7 +134,7 @@
     goto :goto_1
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v2
 
@@ -152,7 +152,7 @@
 
     const v0, 0xaf6b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p0, :cond_6
 
@@ -185,7 +185,7 @@
 
     if-nez v1, :cond_1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
@@ -300,7 +300,7 @@
     invoke-static {p2, p0}, Lcom/meitu/library/camera/util/h;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_5
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
@@ -308,7 +308,7 @@
     :goto_0
     const/4 p0, 0x0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -318,14 +318,14 @@
 
     const v0, 0xaf65
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-nez p0, :cond_0
 
     const/4 p0, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p0
 
@@ -342,13 +342,13 @@
 
     const v0, 0xaf61
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x0
 
     if-nez p0, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 
@@ -390,7 +390,7 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p0
 
@@ -399,7 +399,7 @@
 
     invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -409,13 +409,13 @@
 
     const p0, 0xaf73
 
-    invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Landroid/hardware/Camera;->getNumberOfCameras()I
 
     move-result v0
 
-    invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p0}, Lcom/res/ANRTrace;->a(I)V
 
     return v0
 .end method
@@ -425,13 +425,13 @@
 
     const p0, 0xaf74
 
-    invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Landroid/hardware/Camera;->getNumberOfCameras()I
 
     move-result v0
 
-    invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p0}, Lcom/res/ANRTrace;->a(I)V
 
     return v0
 .end method
@@ -441,7 +441,7 @@
 
     const v0, 0xaf5d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Landroid/content/Intent;
 
@@ -473,7 +473,7 @@
 
     invoke-virtual {v1, p0}, Landroid/content/Intent;->setData(Landroid/net/Uri;)Landroid/content/Intent;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -483,7 +483,7 @@
 
     const v0, 0xaf70
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/library/camera/util/l;->a:Ljava/lang/Integer;
 
@@ -494,7 +494,7 @@
     move-result p0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p0
 
@@ -553,7 +553,7 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_1
     .catch Ljava/lang/AssertionError; {:try_start_0 .. :try_end_0} :catch_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p0
 
@@ -595,14 +595,14 @@
 
     const v0, 0xaf5f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-nez p0, :cond_0
 
     const/4 p0, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
@@ -633,14 +633,14 @@
 
     const v0, 0xaf60
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-nez p0, :cond_0
 
     const/4 p0, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
@@ -675,7 +675,7 @@
 
     const p2, 0xaf60
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v0, "android.permission.CAMERA"
 
@@ -689,7 +689,7 @@
 
     if-ne p0, v1, :cond_0
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 
@@ -810,7 +810,7 @@
     :try_end_2
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_0
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
@@ -825,7 +825,7 @@
 
     invoke-virtual {v1}, Landroid/hardware/Camera;->release()V
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     throw p0
     :try_end_3
@@ -843,7 +843,7 @@
     invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
 
     :cond_4
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 .end method
@@ -853,7 +853,7 @@
 
     const v0, 0xaf5e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Landroid/content/Intent;
 
@@ -887,7 +887,7 @@
 
     invoke-virtual {p0, v1}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -897,7 +897,7 @@
 
     const v0, 0xaf63
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p0}, Lcom/meitu/library/camera/util/l;->e(Landroid/content/Context;)I
 
@@ -913,7 +913,7 @@
     const/4 v1, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -923,7 +923,7 @@
 
     const v0, 0xaf64
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p0}, Lcom/meitu/library/camera/util/l;->e(Landroid/content/Context;)I
 
@@ -941,7 +941,7 @@
     const/4 p0, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p0
 .end method
@@ -951,14 +951,14 @@
 
     const v0, 0xaf68
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-nez p0, :cond_0
 
     const/4 p0, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p0
 
@@ -975,7 +975,7 @@
 
     const v0, 0xaf62
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p0}, Lcom/meitu/library/camera/util/l;->e(Landroid/content/Context;)I
 
@@ -993,7 +993,7 @@
     const/4 p0, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p0
 .end method
@@ -1003,7 +1003,7 @@
 
     const v0, 0xaf71
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -1083,7 +1083,7 @@
     invoke-static {v1, p0}, Lcom/meitu/library/camera/util/h;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_3
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v2
 .end method
@@ -1099,7 +1099,7 @@
 
     const v3, 0xaf69
 
-    invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v3}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v4, 0x0
 
@@ -1226,7 +1226,7 @@
 
     :cond_3
     :goto_1
-    invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v3}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v4
 
@@ -1260,13 +1260,13 @@
     invoke-static {v2, p1}, Lcom/meitu/library/camera/util/h;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_4
-    invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v3}, Lcom/res/ANRTrace;->a(I)V
 
     throw p0
 
     :cond_5
     :goto_3
-    invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v3}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v4
 .end method
@@ -1278,7 +1278,7 @@
 
     const v0, 0xaf6d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x0
 
@@ -1313,7 +1313,7 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
@@ -1322,13 +1322,13 @@
 
     invoke-virtual {p0}, Ljava/lang/Exception;->printStackTrace()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 
     :cond_2
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -1340,7 +1340,7 @@
 
     const v0, 0xaf6d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/camera/MTCamera$p;->a:[B
 
@@ -1364,7 +1364,7 @@
 
     move-result-object p0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -1382,7 +1382,7 @@
 
     const v3, 0xaf6e
 
-    invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v3}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -1484,7 +1484,7 @@
     invoke-static {v2, p1}, Lcom/meitu/library/camera/util/h;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
-    invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v3}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
@@ -1532,7 +1532,7 @@
     :cond_2
     const/4 p0, 0x0
 
-    invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v3}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
@@ -1566,7 +1566,7 @@
     invoke-static {v2, p1}, Lcom/meitu/library/camera/util/h;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_3
-    invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v3}, Lcom/res/ANRTrace;->a(I)V
 
     throw p0
 .end method
@@ -1588,7 +1588,7 @@
 
     const v11, 0xaf6a
 
-    invoke-static {v11}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v11}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v12, 0x0
 
@@ -1609,7 +1609,7 @@
 
     if-nez v2, :cond_1
 
-    invoke-static {v11}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v11}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 
@@ -1740,7 +1740,7 @@
 
     :cond_4
     :goto_1
-    invoke-static {v11}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v11}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v12
 
@@ -1774,13 +1774,13 @@
     invoke-static {v10, v1}, Lcom/meitu/library/camera/util/h;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_5
-    invoke-static {v11}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v11}, Lcom/res/ANRTrace;->a(I)V
 
     throw v0
 
     :cond_6
     :goto_3
-    invoke-static {v11}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v11}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v12
 .end method
@@ -1804,7 +1804,7 @@
 
     const v11, 0xaf6c
 
-    invoke-static {v11}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v11}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v12, 0x0
 
@@ -1823,7 +1823,7 @@
 
     if-nez v2, :cond_1
 
-    invoke-static {v11}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v11}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 
@@ -1858,7 +1858,7 @@
 
     if-eqz v2, :cond_2
 
-    invoke-static {v11}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v11}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 
@@ -1983,7 +1983,7 @@
 
     :cond_5
     :goto_1
-    invoke-static {v11}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v11}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v12
 
@@ -2017,13 +2017,13 @@
     invoke-static {v10, v1}, Lcom/meitu/library/camera/util/h;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_6
-    invoke-static {v11}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v11}, Lcom/res/ANRTrace;->a(I)V
 
     throw v0
 
     :cond_7
     :goto_3
-    invoke-static {v11}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v11}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v12
 .end method
@@ -2033,18 +2033,18 @@
 
     const v0, 0xaf66
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-nez p0, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
     :cond_0
     invoke-static {p0, p1, p2}, Lcom/meitu/library/camera/util/b;->f(Landroid/content/Context;Ljava/lang/String;I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -2054,18 +2054,18 @@
 
     const v0, 0xaf67
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-nez p0, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
     :cond_0
     invoke-static {p0, p1}, Lcom/meitu/library/camera/util/b;->g(Landroid/content/Context;Z)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

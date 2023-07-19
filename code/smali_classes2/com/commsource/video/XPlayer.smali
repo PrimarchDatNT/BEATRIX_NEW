@@ -33,7 +33,7 @@
 
     const/16 v0, 0x3ad2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/video/XPlayer;
 
@@ -57,7 +57,7 @@
 
     sput-object v1, Lcom/commsource/video/XPlayer;->d:Lcotlin/w;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -75,7 +75,7 @@
 
     const/16 p5, 0x3acd
 
-    invoke-static {p5}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p5}, Lcom/res/ANRTrace;->e(I)V
 
     and-int/lit8 p4, p4, 0x4
 
@@ -86,7 +86,7 @@
     :cond_0
     invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/video/XPlayer;->c(Lcom/commsource/video/view/XVideoContainer;Lcom/commsource/video/view/XVideoContainer;Lcotlin/jvm/u/a;)V
 
-    invoke-static {p5}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p5}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -100,13 +100,13 @@
 
     const/16 v0, 0x3acb
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/video/decoder/SysMediaPlayer;
 
     invoke-direct {v1}, Lcom/commsource/video/decoder/SysMediaPlayer;-><init>()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -120,7 +120,7 @@
 
     const/16 v0, 0x3acf
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/commsource/video/XPlayer;->e()Z
 
@@ -131,7 +131,7 @@
     invoke-virtual {p1}, Lcom/commsource/video/b;->i()V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -163,7 +163,7 @@
 
     const/16 v0, 0x3acc
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "preContainer"
 
@@ -184,7 +184,7 @@
     check-cast p1, Lcotlin/t1;
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -194,7 +194,7 @@
 
     const/16 v0, 0x3ad0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/commsource/video/XPlayer;->e:Lcom/commsource/video/b;
 
@@ -211,14 +211,14 @@
 
     const/4 v1, 0x1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 
     :cond_1
     const/4 v1, 0x0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -230,7 +230,7 @@
 
     const/16 v0, 0x3ac8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/commsource/video/XPlayer;->c:Lcotlin/w;
 
@@ -240,7 +240,7 @@
 
     check-cast v1, Ljava/util/concurrent/ThreadPoolExecutor;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -256,7 +256,7 @@
 
     const/16 v0, 0x3ad1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "originUrl"
 
@@ -276,7 +276,7 @@
 
     invoke-static {p1, v1}, Lcotlin/jvm/internal/f0;->h(Ljava/lang/Object;Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -286,7 +286,7 @@
 
     const/16 v0, 0x3aca
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/commsource/video/XPlayer;->d:Lcotlin/w;
 
@@ -296,7 +296,7 @@
 
     check-cast v1, Lcom/meitu/common/video/videocache/h;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -306,7 +306,7 @@
 
     const/16 v0, 0x3ace
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/commsource/video/XPlayer;->e:Lcom/commsource/video/b;
 
@@ -320,7 +320,7 @@
     const/4 v1, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -334,7 +334,7 @@
 
     const/16 v0, 0x3ac9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "runnable"
 
@@ -346,7 +346,7 @@
 
     invoke-virtual {v1, p1}, Ljava/util/concurrent/ThreadPoolExecutor;->execute(Ljava/lang/Runnable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

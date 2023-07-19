@@ -56,7 +56,7 @@
 
     const v0, 0xb6f4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-wide/16 v1, 0x0
 
@@ -72,7 +72,7 @@
 
     iput-wide v1, p0, Lcom/meitu/library/renderarch/arch/input/camerainput/FpsSampler$AnalysisEntity;->a:J
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -82,7 +82,7 @@
 
     const v0, 0xb6ee
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p1, :cond_0
 
@@ -103,7 +103,7 @@
     iput-wide v1, p0, Lcom/meitu/library/renderarch/arch/input/camerainput/FpsSampler$AnalysisEntity;->b:J
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -113,7 +113,7 @@
 
     const v0, 0xb6e6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/meitu/library/renderarch/arch/input/camerainput/FpsSampler$AnalysisEntity;->e:Ljava/lang/String;
 
@@ -149,7 +149,7 @@
 
     iput-object p1, p0, Lcom/meitu/library/renderarch/arch/input/camerainput/FpsSampler$AnalysisEntity;->g:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -159,11 +159,11 @@
 
     const v0, 0xb6ea
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/meitu/library/renderarch/arch/input/camerainput/FpsSampler$AnalysisEntity;->d:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -173,11 +173,11 @@
 
     const v0, 0xb6ec
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/library/renderarch/arch/input/camerainput/FpsSampler$AnalysisEntity;->a:J
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-wide v1
 .end method
@@ -187,11 +187,11 @@
 
     const v0, 0xb6ed
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/library/renderarch/arch/input/camerainput/FpsSampler$AnalysisEntity;->b:J
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-wide v1
 .end method
@@ -201,11 +201,11 @@
 
     const v0, 0xb6e7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/renderarch/arch/input/camerainput/FpsSampler$AnalysisEntity;->f:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -215,11 +215,11 @@
 
     const v0, 0xb6e8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/renderarch/arch/input/camerainput/FpsSampler$AnalysisEntity;->e:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -229,11 +229,11 @@
 
     const v0, 0xb6e9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/renderarch/arch/input/camerainput/FpsSampler$AnalysisEntity;->g:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -243,11 +243,11 @@
 
     const v0, 0xb6eb
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/library/renderarch/arch/input/camerainput/FpsSampler$AnalysisEntity;->c:J
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-wide v1
 .end method
@@ -257,7 +257,7 @@
 
     const v0, 0xb6ef
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/meitu/library/renderarch/arch/input/camerainput/FpsSampler$AnalysisEntity;->d:I
 
@@ -271,7 +271,7 @@
     const/4 v1, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -281,7 +281,7 @@
 
     const v0, 0xb6f3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/library/renderarch/arch/input/camerainput/FpsSampler$AnalysisEntity;->c:J
 
@@ -321,7 +321,7 @@
     iput-wide v1, p0, Lcom/meitu/library/renderarch/arch/input/camerainput/FpsSampler$AnalysisEntity;->b:J
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -331,13 +331,13 @@
 
     const v0, 0xb6f0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x1
 
     invoke-virtual {p0, p1, p2, v1}, Lcom/meitu/library/renderarch/arch/input/camerainput/FpsSampler$AnalysisEntity;->refreshTime(JI)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -347,7 +347,7 @@
 
     const p3, 0xb6f1
 
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v0, p0, Lcom/meitu/library/renderarch/arch/input/camerainput/FpsSampler$AnalysisEntity;->c:J
 
@@ -382,7 +382,7 @@
 
     :cond_1
     :goto_0
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -392,7 +392,7 @@
 
     const v0, 0xb6f2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-wide p1, p0, Lcom/meitu/library/renderarch/arch/input/camerainput/FpsSampler$AnalysisEntity;->c:J
 
@@ -400,7 +400,7 @@
 
     iput p1, p0, Lcom/meitu/library/renderarch/arch/input/camerainput/FpsSampler$AnalysisEntity;->d:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

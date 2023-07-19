@@ -40,7 +40,7 @@
 
     const/16 v0, 0x534a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     invoke-static {}, Lcom/meitu/webview/utils/c;->b()Lcom/google/gson/Gson;
@@ -151,7 +151,7 @@
     invoke-static {v1, v2}, Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;->z(Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;Ljava/util/List;)V
 
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

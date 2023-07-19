@@ -65,11 +65,11 @@
 
     const v0, 0xca4e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/library/analytics/u/g;->i:Lcom/meitu/library/analytics/u/g;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -79,11 +79,11 @@
 
     const v0, 0xca4f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sput-object p0, Lcom/meitu/library/analytics/u/g;->i:Lcom/meitu/library/analytics/u/g;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -93,13 +93,13 @@
 
     const v0, 0xca4c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/library/analytics/u/g;->i:Lcom/meitu/library/analytics/u/g;
 
     if-eqz v1, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -118,7 +118,7 @@
 
     invoke-interface {v1, v2}, Lcom/meitu/library/analytics/y/h/h;->post(Ljava/lang/Runnable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -134,7 +134,7 @@
 
     const v3, 0xca4d
 
-    invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v3}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual/range {p2 .. p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
@@ -154,7 +154,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v3}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -173,7 +173,7 @@
 
     if-eqz v6, :cond_1
 
-    invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v3}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -188,7 +188,7 @@
 
     if-gtz v14, :cond_2
 
-    invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v3}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -203,7 +203,7 @@
 
     if-gez v16, :cond_3
 
-    invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v3}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -220,7 +220,7 @@
 
     if-gez v6, :cond_4
 
-    invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v3}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -459,7 +459,7 @@
     invoke-static {v0, v1, v2}, Lcom/meitu/library/analytics/y/j/d;->c(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
     :cond_b
-    invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v3}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

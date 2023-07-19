@@ -56,7 +56,7 @@
 
     const/16 v0, 0x5ca4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
@@ -98,7 +98,7 @@
 
     invoke-static/range {v1 .. v9}, Lcom/commsource/studio/formula/FormulaViewModel;->F(Lcom/commsource/studio/formula/FormulaViewModel;Lcom/commsource/studio/formula/JsFormula;Lcom/commsource/studio/bean/PictureLayerInfo;Lcom/commsource/studio/bean/a;ZZZILjava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

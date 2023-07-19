@@ -41,13 +41,13 @@
 
     const v0, 0xb3a1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/library/camera/MTCamera$SecurityProgram;
 
     invoke-direct {v1, p1}, Lcom/meitu/library/camera/MTCamera$SecurityProgram;-><init>(Landroid/os/Parcel;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -57,11 +57,11 @@
 
     const v0, 0xb3a2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-array p1, p1, [Lcom/meitu/library/camera/MTCamera$SecurityProgram;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -71,13 +71,13 @@
 
     const v0, 0xb3a4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0, p1}, Lcom/meitu/library/camera/MTCamera$SecurityProgram$a;->a(Landroid/os/Parcel;)Lcom/meitu/library/camera/MTCamera$SecurityProgram;
 
     move-result-object p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -87,13 +87,13 @@
 
     const v0, 0xb3a3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0, p1}, Lcom/meitu/library/camera/MTCamera$SecurityProgram$a;->b(I)[Lcom/meitu/library/camera/MTCamera$SecurityProgram;
 
     move-result-object p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method

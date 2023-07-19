@@ -85,7 +85,7 @@
 
     const v0, 0xb03c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/camera/basecamera/v2/c/a;->a:Ljava/util/concurrent/locks/ReentrantLock;
 
@@ -128,7 +128,7 @@
 
     invoke-virtual {v1}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v3
 
@@ -156,7 +156,7 @@
 
     invoke-direct {p1}, Lcom/meitu/library/camera/basecamera/v2/c/g$b;-><init>()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
     :try_end_2
@@ -167,7 +167,7 @@
 
     invoke-virtual {v1}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 .end method
@@ -177,7 +177,7 @@
 
     const v0, 0xb03a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/camera/basecamera/v2/c/a;->a:Ljava/util/concurrent/locks/ReentrantLock;
 
@@ -248,7 +248,7 @@
 
     invoke-virtual {v1}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -286,7 +286,7 @@
 
     invoke-virtual {v1}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -296,7 +296,7 @@
 
     invoke-direct {p1}, Lcom/meitu/library/camera/basecamera/v2/c/g$b;-><init>()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
     :try_end_3
@@ -307,7 +307,7 @@
 
     invoke-virtual {v1}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 .end method
@@ -317,7 +317,7 @@
 
     const v0, 0xb03b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/camera/basecamera/v2/c/a;->a:Ljava/util/concurrent/locks/ReentrantLock;
 
@@ -369,7 +369,7 @@
     :cond_1
     invoke-virtual {v1}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -378,7 +378,7 @@
 
     invoke-virtual {v1}, Ljava/util/concurrent/locks/ReentrantLock;->unlock()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw v2
 .end method

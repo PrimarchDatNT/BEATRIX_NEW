@@ -15,13 +15,13 @@
 
     const v0, 0xb8e7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-wide/16 v1, 0x0
 
     sput-wide v1, Lcom/meitu/library/camera/s/n/b;->b:J
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -44,7 +44,7 @@
     const v1, 0xb8e6
 
     :try_start_0
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     sget-wide v2, Lcom/meitu/library/camera/s/n/b;->b:J
 
@@ -258,7 +258,7 @@
 
     :cond_2
     :goto_5
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     throw v2
 
@@ -270,7 +270,7 @@
 
     div-long/2addr v2, v4
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
     :try_end_b
     .catchall {:try_start_b .. :try_end_b} :catchall_2
 

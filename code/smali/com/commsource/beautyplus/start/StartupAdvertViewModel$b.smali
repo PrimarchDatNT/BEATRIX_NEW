@@ -48,7 +48,7 @@
 
     const/16 v0, 0x128e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
@@ -79,7 +79,7 @@
 
     :cond_1
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -89,7 +89,7 @@
 
     const/16 p1, 0x128f
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$b;->a:Lcom/commsource/beautyplus/start/StartupAdvertViewModel;
 
@@ -104,7 +104,7 @@
     invoke-static {v0}, Lcom/commsource/beautyplus/start/StartupAdvertViewModel;->L(Lcom/commsource/beautyplus/start/StartupAdvertViewModel;)V
 
     :cond_0
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -114,13 +114,13 @@
 
     const/16 v0, 0x1290
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Lcom/commsource/beautyplus/start/w/a$b;
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$b;->b(Lcom/commsource/beautyplus/start/w/a$b;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

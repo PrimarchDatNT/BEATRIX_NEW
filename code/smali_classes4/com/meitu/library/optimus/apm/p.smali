@@ -17,7 +17,7 @@
 
     const v0, 0xd91b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/library/optimus/apm/l;
 
@@ -31,7 +31,7 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/library/optimus/apm/l;->i(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -41,7 +41,7 @@
 
     const v0, 0xd91c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/library/optimus/apm/l;
 
@@ -55,7 +55,7 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/library/optimus/apm/l;->i(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -65,7 +65,7 @@
 
     const v0, 0xd91d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/library/optimus/apm/l;
 
@@ -79,7 +79,7 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/library/optimus/apm/l;->i(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -89,7 +89,7 @@
 
     const v0, 0xd919
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/library/optimus/apm/l;
 
@@ -103,7 +103,7 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/library/optimus/apm/l;->i(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -113,7 +113,7 @@
 
     const v0, 0xd91a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/library/optimus/apm/l;
 
@@ -127,7 +127,7 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/library/optimus/apm/l;->i(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

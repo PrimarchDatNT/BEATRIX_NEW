@@ -58,13 +58,13 @@
 
     const/16 v0, 0x193c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Lcom/meitu/global/billing/purchase/data/MTGPurchase;
 
     invoke-virtual {p0, p1}, Lcom/commsource/billing/pro/GmsManager$k;->b(Lcom/meitu/global/billing/purchase/data/MTGPurchase;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -78,7 +78,7 @@
 
     const/16 v0, 0x193b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string/jumbo v1, "t"
 
@@ -90,7 +90,7 @@
 
     invoke-static {v1, p1, v2}, Lcom/commsource/billing/pro/GmsManager;->f(Lcom/commsource/billing/pro/GmsManager;Lcom/meitu/global/billing/purchase/data/MTGPurchase;I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -104,7 +104,7 @@
 
     const/16 p1, 0x193d
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p2, p0, Lcom/commsource/billing/pro/GmsManager$k;->a:Lcom/commsource/billing/pro/GmsManager;
 
@@ -118,7 +118,7 @@
 
     invoke-virtual {p2, v1, v0}, Lcom/commsource/billing/pro/GmsManager$b;->k(II)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

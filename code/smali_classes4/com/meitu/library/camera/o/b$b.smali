@@ -46,7 +46,7 @@
 
     const v0, 0xacfd
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/camera/o/b$b;->c:Lcom/meitu/library/camera/o/b;
 
@@ -56,7 +56,7 @@
 
     invoke-static {v1, v2, v3, p1}, Lcom/meitu/library/camera/o/b;->e2(Lcom/meitu/library/camera/o/b;Lcom/meitu/library/camera/MTCamera$h;Ljava/lang/String;Z)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

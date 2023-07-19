@@ -52,7 +52,7 @@
 
     const/16 v0, 0x3227
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "LayerSelectComponent"
 
@@ -89,7 +89,7 @@
     invoke-virtual {p1, v1}, Lcom/commsource/studio/LayerManageListLayout;->B(Ljava/util/List;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -99,13 +99,13 @@
 
     const/16 v0, 0x3226
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Ljava/lang/String;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/gesture/LayerSelectComponent$b;->a(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

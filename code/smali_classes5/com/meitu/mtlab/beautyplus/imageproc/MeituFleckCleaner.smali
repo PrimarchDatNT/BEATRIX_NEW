@@ -11,7 +11,7 @@
 
     const v1, 0xf378
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     const-string v2, "gnustl_shared"
@@ -70,7 +70,7 @@
     invoke-virtual {v0}, Ljava/lang/Throwable;->printStackTrace()V
 
     :goto_2
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -88,7 +88,7 @@
 
     const v0, 0xf377
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p0, p1, p2, p3, p4}, Lcom/meitu/mtlab/beautyplus/imageproc/MeituFleckCleaner;->nativeRunEffect(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;I[FZ)Z
 
@@ -103,7 +103,7 @@
     invoke-static {p1, p2}, Lcom/meitu/core/types/NDebug;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p0
 .end method

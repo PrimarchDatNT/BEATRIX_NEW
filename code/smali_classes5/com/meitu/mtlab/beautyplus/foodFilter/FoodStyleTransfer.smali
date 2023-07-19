@@ -21,7 +21,7 @@
 
     const v0, 0xf408
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-class v1, Lcom/meitu/mtlab/beautyplus/foodFilter/FoodStyleTransfer;
 
@@ -33,7 +33,7 @@
 
     invoke-static {}, Lcom/meitu/mtlab/beautyplus/foodFilter/FoodStyleTransfer;->d()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -69,7 +69,7 @@
 
     const v0, 0xf403
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     const-string v1, "gnustl_shared"
@@ -126,7 +126,7 @@
     invoke-static {v1, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     :goto_2
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -138,7 +138,7 @@
 
     const v0, 0xf407
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/mtlab/beautyplus/foodFilter/FoodStyleTransfer;->a:J
@@ -173,7 +173,7 @@
 
     iput-wide v1, p0, Lcom/meitu/mtlab/beautyplus/foodFilter/FoodStyleTransfer;->b:J
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -183,7 +183,7 @@
 
     const v0, 0xf405
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/mtlab/beautyplus/foodFilter/FoodStyleTransfer;->a:J
@@ -208,7 +208,7 @@
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/mtlab/beautyplus/foodFilter/FoodStyleTransfer;->RunEffect(JLandroid/graphics/Bitmap;I)V
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -218,7 +218,7 @@
 
     const v0, 0xf406
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -244,7 +244,7 @@
 
     invoke-static {p1, v1, v2}, Lcom/meitu/core/processor/FilterProcessor;->renderLutProc(Landroid/graphics/Bitmap;Ljava/lang/String;F)Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -254,7 +254,7 @@
 
     const v0, 0xf404
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/meitu/mtlab/beautyplus/foodFilter/FoodStyleTransfer;->c:Ljava/lang/String;
 
@@ -316,7 +316,7 @@
     iput-wide v1, p0, Lcom/meitu/mtlab/beautyplus/foodFilter/FoodStyleTransfer;->a:J
 
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

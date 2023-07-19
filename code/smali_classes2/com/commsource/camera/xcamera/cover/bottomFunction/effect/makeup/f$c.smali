@@ -49,9 +49,9 @@
 
     const/16 p1, 0x3e11
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -65,7 +65,7 @@
 
     const/16 p1, 0x3e12
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f$c;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;
 
@@ -104,7 +104,7 @@
     invoke-static {v0}, Lcom/commsource/util/l0;->v0(Landroid/view/View;)V
 
     :cond_0
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -126,7 +126,7 @@
 
     const/16 p1, 0x3e10
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f$c;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;
 
@@ -182,7 +182,7 @@
     invoke-static {v0}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
     :goto_0
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -192,7 +192,7 @@
 
     const/16 p2, 0x3e13
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f$c;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/f;
 
@@ -400,7 +400,7 @@
     invoke-virtual {v0, p1}, Landroid/view/ViewGroup;->setTranslationY(F)V
 
     :goto_1
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

@@ -39,7 +39,7 @@
 
     const v0, 0xcb74
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/analytics/m$d;->a:Lcom/meitu/library/analytics/m;
 
@@ -51,7 +51,7 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/library/analytics/sdk/content/f;->j([Lcom/meitu/library/analytics/sdk/content/Switcher;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

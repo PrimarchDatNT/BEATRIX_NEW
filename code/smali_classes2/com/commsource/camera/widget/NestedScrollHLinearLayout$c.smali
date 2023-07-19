@@ -48,7 +48,7 @@
 
     const/16 p2, 0x354f
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/camera/widget/NestedScrollHLinearLayout$c;->a:Lcom/commsource/camera/widget/NestedScrollHLinearLayout;
 
@@ -113,7 +113,7 @@
     invoke-interface {p1, v0}, Lcom/commsource/camera/widget/NestedScrollHLinearLayout$b;->a(Z)V
 
     :cond_0
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -123,7 +123,7 @@
 
     const/16 v0, 0x3550
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-super {p0, p1, p2, p3, p4}, Landroid/view/animation/Animation;->initialize(IIII)V
 
@@ -137,7 +137,7 @@
 
     invoke-virtual {p0, p1}, Landroid/view/animation/Animation;->setInterpolator(Landroid/view/animation/Interpolator;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

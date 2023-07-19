@@ -16,7 +16,7 @@
 
     const v0, 0xafb9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "MTFboFactory"
 
@@ -67,7 +67,7 @@
 
     invoke-direct {v1, v2}, Lcom/meitu/library/n/b/k/b;-><init>(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 
@@ -79,7 +79,7 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw v1
 .end method
@@ -89,7 +89,7 @@
 
     const v0, 0xafba
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p0, p1}, Lcom/meitu/library/n/b/k/e;->a(II)Lcom/meitu/library/n/b/k/d;
 
@@ -118,7 +118,7 @@
     invoke-virtual {v2, p0}, Lcom/meitu/library/n/b/k/b;->a(Lcom/meitu/library/n/b/k/d;)Z
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v2
 .end method

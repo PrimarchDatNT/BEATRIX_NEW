@@ -71,7 +71,7 @@
 
     const v0, 0xbe6f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-wide/16 v1, 0x0
 
@@ -81,7 +81,7 @@
 
     invoke-static {v1, v2}, Lcom/meitu/mtlab/MTAiInterface/MTSkinBCCModule/MTSkinBCCOption;->nativeClearOption(J)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -91,9 +91,9 @@
 
     const v0, 0xbe6d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const/16 v0, 0x1b
 
@@ -110,7 +110,7 @@
 
     const v0, 0xbe6c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSkinBCCModule/MTSkinBCCOption;->mNativeInstance:J
@@ -121,7 +121,7 @@
 
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -130,7 +130,7 @@
 
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw v1
 .end method
@@ -140,11 +140,11 @@
 
     const v0, 0xbe6e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSkinBCCModule/MTSkinBCCOption;->mNativeInstance:J
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-wide v1
 .end method
@@ -154,7 +154,7 @@
 
     const v0, 0xbe70
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/MTSkinBCCModule/MTSkinBCCOption;->mNativeInstance:J
 
@@ -162,7 +162,7 @@
 
     invoke-static {v1, v2, v3, v4}, Lcom/meitu/mtlab/MTAiInterface/MTSkinBCCModule/MTSkinBCCOption;->nativeSetOption(JJ)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -172,13 +172,13 @@
 
     const v0, 0xbe71
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineOption;->option:J
 
     invoke-static {p1, p2, v1, v2}, Lcom/meitu/mtlab/MTAiInterface/MTSkinBCCModule/MTSkinBCCOption;->nativeEnableDetectSkinBCC(JJ)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

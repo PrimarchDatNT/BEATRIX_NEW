@@ -27,7 +27,7 @@
 
     const v0, 0xd2b8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x0
 
@@ -43,7 +43,7 @@
 
     sput v1, Lcom/meitu/libmtsns/c/d/c;->d:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -61,7 +61,7 @@
 
     const v0, 0xd2b2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/libmtsns/c/d/c;->b:Ljava/lang/ref/WeakReference;
 
@@ -95,7 +95,7 @@
     sput-object p0, Lcom/meitu/libmtsns/c/d/c;->a:Landroid/widget/Toast;
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -105,7 +105,7 @@
 
     const v0, 0xd2b7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x0
 
@@ -113,7 +113,7 @@
 
     invoke-static {}, Ljava/lang/System;->gc()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -123,7 +123,7 @@
 
     const v0, 0xd2b4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     sget-object v1, Lcom/meitu/libmtsns/c/d/c;->a:Landroid/widget/Toast;
@@ -144,7 +144,7 @@
     invoke-virtual {p0}, Ljava/lang/NullPointerException;->printStackTrace()V
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -154,7 +154,7 @@
 
     const v0, 0xd2b3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     sget-object v1, Lcom/meitu/libmtsns/c/d/c;->a:Landroid/widget/Toast;
@@ -175,7 +175,7 @@
     invoke-virtual {p0}, Ljava/lang/NullPointerException;->printStackTrace()V
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -185,7 +185,7 @@
 
     const v0, 0xd2b5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-ltz p1, :cond_0
 
@@ -212,7 +212,7 @@
     invoke-virtual {p0}, Landroid/widget/Toast;->show()V
 
     :cond_2
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -222,7 +222,7 @@
 
     const v0, 0xd2b6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/libmtsns/c/d/c;->a:Landroid/widget/Toast;
 
@@ -238,7 +238,7 @@
 
     invoke-virtual {p0}, Landroid/widget/Toast;->show()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

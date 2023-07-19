@@ -43,7 +43,7 @@
 
     const v0, 0xebfb
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/webview/core/e$a;->a:Lcom/meitu/webview/core/e$b;
 
@@ -52,7 +52,7 @@
     invoke-interface {v1, p1, p2}, Lcom/meitu/webview/core/e$b;->onReceivedIcon(Ljava/lang/String;Landroid/graphics/Bitmap;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

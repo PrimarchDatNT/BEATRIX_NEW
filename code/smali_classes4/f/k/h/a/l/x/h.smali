@@ -20,7 +20,7 @@
 
     const v0, 0xc6f7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-class v1, Lf/k/h/a/l/x/h;
 
@@ -30,7 +30,7 @@
 
     sput-object v1, Lf/k/h/a/l/x/h;->b:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -58,14 +58,14 @@
 
     const v0, 0xc6f6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-nez p1, :cond_0
 
     invoke-direct {p0, p2}, Lf/k/h/a/l/x/h;->d(Ljava/util/List;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -83,7 +83,7 @@
 
     const v0, 0xc6f5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lf/k/h/a/l/x/h;->b:Ljava/lang/String;
 
@@ -97,7 +97,7 @@
 
     invoke-static {p1, v1}, Lf/k/h/a/l/w;->m(Ljava/util/List;Lf/k/h/a/l/y/i;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -109,7 +109,7 @@
 
     const v0, 0xc6f4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lf/k/h/a/l/x/h;->a:Lf/k/h/a/l/x/b;
 
@@ -119,7 +119,7 @@
 
     invoke-virtual {v1, v2}, Lf/k/h/a/l/x/b;->a(Lf/k/h/a/l/y/m;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

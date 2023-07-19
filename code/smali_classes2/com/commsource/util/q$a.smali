@@ -55,7 +55,7 @@
 
     const/16 p1, 0x38e4
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p2, p0, Lcom/commsource/util/q$a;->a:Ljava/lang/String;
 
@@ -69,7 +69,7 @@
 
     invoke-static {p2, v0, v1, v2, v3}, Lcom/commsource/util/q;->a(Ljava/lang/String;Landroid/graphics/Bitmap;Lcom/meitu/mtlab/g/d/a;II)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -79,7 +79,7 @@
 
     const/16 v0, 0x38e5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p1}, Lcom/meitu/mtlab/g/i/c;->h(Ljava/lang/String;)I
 
@@ -116,7 +116,7 @@
 
     invoke-static {p1, v1, v2, v3, v4}, Lcom/commsource/util/q;->a(Ljava/lang/String;Landroid/graphics/Bitmap;Lcom/meitu/mtlab/g/d/a;II)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

@@ -42,7 +42,7 @@
 
     const/16 v0, 0x4328
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/ImageStateFlags$a;
 
@@ -50,7 +50,7 @@
 
     sput-object v1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/ImageStateFlags;->CREATOR:Landroid/os/Parcelable$Creator;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -235,9 +235,9 @@
 
     const/16 v0, 0x4326
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const/4 v0, 0x0
 
@@ -249,7 +249,7 @@
 
     const/16 p2, 0x4327
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean v0, p0, Lcom/commsource/puzzle/patchedworld/imageware/image_process/ImageStateFlags;->a:Z
 
@@ -297,7 +297,7 @@
 
     invoke-virtual {p1, v0}, Landroid/os/Parcel;->writeByte(B)V
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

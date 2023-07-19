@@ -41,7 +41,7 @@
 
     const p1, 0x93f4
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/studio/layer/DeFocusLayer$d$b;->a:Lcom/commsource/studio/layer/DeFocusLayer$d;
 
@@ -49,7 +49,7 @@
 
     invoke-interface {v0}, Lcotlin/jvm/u/a;->invoke()Ljava/lang/Object;
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

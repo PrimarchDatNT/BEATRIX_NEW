@@ -53,7 +53,7 @@
 
     const/16 v0, 0xdfa
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p2, Lcom/commsource/home/entity/g;
 
@@ -61,7 +61,7 @@
 
     move-result p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -75,7 +75,7 @@
 
     const/16 v10, 0xdfb
 
-    invoke-static {v10}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v10}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v11, 0x1
 
@@ -194,7 +194,7 @@
     invoke-static/range {v1 .. v9}, Lcom/commsource/home/d;->m(Lcom/commsource/home/d;Ljava/lang/String;ILcom/commsource/home/entity/ContentModule;ILcom/commsource/home/entity/d;Ljava/lang/String;ILjava/lang/Object;)V
 
     :cond_0
-    invoke-static {v10}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v10}, Lcom/res/ANRTrace;->a(I)V
 
     return v11
 .end method

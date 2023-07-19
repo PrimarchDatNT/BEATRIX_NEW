@@ -648,7 +648,7 @@
 
     const/16 v0, 0x594d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Landroid/util/SparseIntArray;
 
@@ -2534,7 +2534,7 @@
 
     invoke-virtual {v1, v3, v2}, Landroid/util/SparseIntArray;->put(II)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -2552,13 +2552,13 @@
 
     const/16 v0, 0x5942
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     packed-switch p3, :pswitch_data_0
 
     const/4 p1, 0x0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
@@ -2575,7 +2575,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/v2;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -2598,7 +2598,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -2615,7 +2615,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/t2;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -2638,7 +2638,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -2655,7 +2655,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/r2;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -2678,7 +2678,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -2695,7 +2695,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/p2;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -2718,7 +2718,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -2735,7 +2735,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/n2;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -2758,7 +2758,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -2775,7 +2775,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/l2;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -2798,7 +2798,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -2815,7 +2815,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/j2;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -2838,7 +2838,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -2855,7 +2855,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/h2;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -2878,7 +2878,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -2895,7 +2895,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/f2;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -2918,7 +2918,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -2935,7 +2935,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/d2;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -2958,7 +2958,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -2975,7 +2975,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/b2;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -2998,7 +2998,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -3015,7 +3015,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/z1;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -3038,7 +3038,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -3055,7 +3055,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/x1;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -3078,7 +3078,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -3095,7 +3095,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/v1;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -3118,7 +3118,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -3135,7 +3135,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/t1;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -3158,7 +3158,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -3175,7 +3175,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/r1;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -3198,7 +3198,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -3215,7 +3215,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/p1;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -3238,7 +3238,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -3255,7 +3255,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/n1;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -3278,7 +3278,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -3295,7 +3295,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/l1;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -3318,7 +3318,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -3335,7 +3335,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/j1;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -3358,7 +3358,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -3375,7 +3375,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/h1;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -3398,7 +3398,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -3415,7 +3415,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/f1;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -3438,7 +3438,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -3455,7 +3455,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/d1;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -3478,7 +3478,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -3495,7 +3495,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/b1;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -3518,7 +3518,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -3535,7 +3535,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/z0;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -3558,7 +3558,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -3575,7 +3575,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/x0;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -3598,7 +3598,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -3615,7 +3615,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/v0;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -3638,7 +3638,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -3655,7 +3655,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/t0;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -3678,7 +3678,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -3695,7 +3695,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/r0;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -3718,7 +3718,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -3735,7 +3735,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/p0;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -3758,7 +3758,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -3775,7 +3775,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/n0;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -3798,7 +3798,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -3815,7 +3815,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/l0;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -3838,7 +3838,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -3855,7 +3855,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/j0;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -3878,7 +3878,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -3895,7 +3895,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/h0;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -3918,7 +3918,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -3935,7 +3935,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/f0;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -3958,7 +3958,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -3975,7 +3975,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/d0;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -3998,7 +3998,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -4015,7 +4015,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/b0;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -4038,7 +4038,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -4055,7 +4055,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/z;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -4078,7 +4078,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -4095,7 +4095,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/x;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -4118,7 +4118,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -4135,7 +4135,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/v;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -4158,7 +4158,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -4175,7 +4175,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/t;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -4198,7 +4198,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -4215,7 +4215,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/r;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -4238,7 +4238,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -4255,7 +4255,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/p;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -4278,7 +4278,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -4295,7 +4295,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/n;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -4318,7 +4318,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -4335,7 +4335,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/l;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -4358,7 +4358,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -4375,7 +4375,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/j;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -4398,7 +4398,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -4415,7 +4415,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/h;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -4438,7 +4438,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -4455,7 +4455,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/f;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -4478,7 +4478,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -4495,7 +4495,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/d;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -4518,7 +4518,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -4535,7 +4535,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/b;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -4558,7 +4558,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -4624,13 +4624,13 @@
 
     const/16 v0, 0x5943
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     packed-switch p3, :pswitch_data_0
 
     const/4 p1, 0x0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
@@ -4647,7 +4647,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/r6;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -4670,7 +4670,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -4687,7 +4687,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/p6;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -4710,7 +4710,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -4727,7 +4727,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/n6;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -4750,7 +4750,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -4767,7 +4767,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/l6;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -4790,7 +4790,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -4807,7 +4807,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/j6;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -4830,7 +4830,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -4847,7 +4847,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/h6;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -4870,7 +4870,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -4887,7 +4887,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/f6;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -4910,7 +4910,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -4927,7 +4927,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/d6;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -4950,7 +4950,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -4967,7 +4967,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/b6;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -4990,7 +4990,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -5007,7 +5007,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/z5;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -5030,7 +5030,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -5047,7 +5047,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/x5;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -5070,7 +5070,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -5087,7 +5087,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/v5;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -5110,7 +5110,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -5127,7 +5127,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/t5;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -5150,7 +5150,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -5167,7 +5167,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/r5;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -5190,7 +5190,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -5207,7 +5207,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/p5;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -5230,7 +5230,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -5247,7 +5247,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/n5;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -5270,7 +5270,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -5287,7 +5287,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/l5;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -5310,7 +5310,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -5327,7 +5327,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/j5;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -5350,7 +5350,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -5367,7 +5367,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/h5;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -5390,7 +5390,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -5407,7 +5407,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/f5;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -5430,7 +5430,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -5447,7 +5447,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/d5;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -5470,7 +5470,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -5487,7 +5487,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/b5;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -5510,7 +5510,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -5527,7 +5527,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/z4;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -5550,7 +5550,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -5567,7 +5567,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/x4;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -5590,7 +5590,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -5607,7 +5607,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/v4;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -5630,7 +5630,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -5647,7 +5647,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/t4;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -5670,7 +5670,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -5687,7 +5687,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/r4;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -5710,7 +5710,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -5727,7 +5727,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/p4;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -5750,7 +5750,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -5767,7 +5767,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/n4;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -5790,7 +5790,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -5807,7 +5807,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/l4;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -5830,7 +5830,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -5847,7 +5847,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/j4;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -5870,7 +5870,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -5887,7 +5887,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/h4;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -5910,7 +5910,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -5927,7 +5927,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/f4;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -5950,7 +5950,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -5967,7 +5967,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/d4;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -5990,7 +5990,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -6007,7 +6007,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/b4;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -6030,7 +6030,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -6047,7 +6047,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/z3;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -6070,7 +6070,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -6087,7 +6087,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/x3;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -6110,7 +6110,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -6127,7 +6127,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/v3;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -6150,7 +6150,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -6167,7 +6167,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/t3;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -6190,7 +6190,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -6207,7 +6207,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/r3;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -6230,7 +6230,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -6247,7 +6247,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/p3;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -6270,7 +6270,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -6287,7 +6287,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/n3;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -6310,7 +6310,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -6327,7 +6327,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/l3;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -6350,7 +6350,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -6367,7 +6367,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/j3;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -6390,7 +6390,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -6407,7 +6407,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/h3;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -6430,7 +6430,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -6447,7 +6447,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/f3;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -6470,7 +6470,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -6487,7 +6487,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/d3;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -6510,7 +6510,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -6527,7 +6527,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/b3;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -6550,7 +6550,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -6567,7 +6567,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/z2;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -6590,7 +6590,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -6607,7 +6607,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/x2;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -6630,7 +6630,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -6696,13 +6696,13 @@
 
     const/16 v0, 0x5944
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     packed-switch p3, :pswitch_data_0
 
     const/4 p1, 0x0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
@@ -6719,7 +6719,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/na;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -6742,7 +6742,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -6759,7 +6759,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/la;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -6782,7 +6782,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -6799,7 +6799,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/ja;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -6822,7 +6822,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -6839,7 +6839,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/ha;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -6862,7 +6862,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -6879,7 +6879,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/fa;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -6902,7 +6902,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -6919,7 +6919,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/da;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -6942,7 +6942,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -6959,7 +6959,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/ba;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -6982,7 +6982,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -6999,7 +6999,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/z9;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -7022,7 +7022,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -7039,7 +7039,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/x9;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -7062,7 +7062,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -7079,7 +7079,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/v9;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -7102,7 +7102,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -7119,7 +7119,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/t9;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -7142,7 +7142,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -7159,7 +7159,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/r9;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -7182,7 +7182,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -7199,7 +7199,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/p9;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -7222,7 +7222,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -7239,7 +7239,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/n9;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -7262,7 +7262,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -7279,7 +7279,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/l9;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -7302,7 +7302,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -7319,7 +7319,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/j9;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -7342,7 +7342,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -7359,7 +7359,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/h9;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -7382,7 +7382,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -7399,7 +7399,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/f9;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -7422,7 +7422,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -7439,7 +7439,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/d9;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -7462,7 +7462,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -7479,7 +7479,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/b9;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -7502,7 +7502,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -7519,7 +7519,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/z8;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -7542,7 +7542,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -7559,7 +7559,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/x8;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -7582,7 +7582,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -7599,7 +7599,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/v8;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -7622,7 +7622,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -7639,7 +7639,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/t8;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -7662,7 +7662,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -7679,7 +7679,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/r8;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -7702,7 +7702,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -7719,7 +7719,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/p8;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -7742,7 +7742,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -7759,7 +7759,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/n8;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -7782,7 +7782,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -7799,7 +7799,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/l8;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -7822,7 +7822,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -7839,7 +7839,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/j8;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -7862,7 +7862,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -7879,7 +7879,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/h8;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -7902,7 +7902,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -7919,7 +7919,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/f8;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -7942,7 +7942,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -7959,7 +7959,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/d8;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -7982,7 +7982,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -7999,7 +7999,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/b8;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -8022,7 +8022,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -8039,7 +8039,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/z7;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -8062,7 +8062,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -8079,7 +8079,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/x7;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -8102,7 +8102,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -8119,7 +8119,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/v7;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -8142,7 +8142,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -8159,7 +8159,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/t7;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -8182,7 +8182,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -8199,7 +8199,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/r7;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -8222,7 +8222,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -8239,7 +8239,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/p7;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -8262,7 +8262,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -8279,7 +8279,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/n7;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -8302,7 +8302,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -8319,7 +8319,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/l7;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -8342,7 +8342,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -8359,7 +8359,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/j7;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -8382,7 +8382,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -8399,7 +8399,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/h7;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -8422,7 +8422,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -8439,7 +8439,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/f7;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -8462,7 +8462,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -8479,7 +8479,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/d7;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -8502,7 +8502,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -8519,7 +8519,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/b7;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -8542,7 +8542,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -8559,7 +8559,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/z6;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -8582,7 +8582,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -8599,7 +8599,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/x6;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -8622,7 +8622,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -8639,7 +8639,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/v6;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -8662,7 +8662,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -8679,7 +8679,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/t6;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -8702,7 +8702,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -8768,13 +8768,13 @@
 
     const/16 v0, 0x5945
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     packed-switch p3, :pswitch_data_0
 
     const/4 p1, 0x0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
@@ -8791,7 +8791,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/je;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -8814,7 +8814,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -8831,7 +8831,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/he;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -8854,7 +8854,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -8871,7 +8871,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/fe;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -8894,7 +8894,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -8911,7 +8911,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/de;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -8934,7 +8934,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -8951,7 +8951,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/be;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -8974,7 +8974,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -8991,7 +8991,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/zd;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -9014,7 +9014,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -9031,7 +9031,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/xd;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -9054,7 +9054,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -9071,7 +9071,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/vd;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -9094,7 +9094,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -9111,7 +9111,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/td;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -9134,7 +9134,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -9151,7 +9151,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/rd;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -9174,7 +9174,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -9191,7 +9191,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/pd;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -9214,7 +9214,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -9231,7 +9231,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/nd;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -9254,7 +9254,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -9271,7 +9271,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/ld;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -9294,7 +9294,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -9311,7 +9311,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/jd;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -9334,7 +9334,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -9351,7 +9351,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/hd;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -9374,7 +9374,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -9391,7 +9391,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/fd;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -9414,7 +9414,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -9431,7 +9431,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/dd;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -9454,7 +9454,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -9471,7 +9471,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/bd;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -9494,7 +9494,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -9511,7 +9511,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/zc;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -9534,7 +9534,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -9551,7 +9551,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/xc;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -9574,7 +9574,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -9591,7 +9591,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/vc;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -9614,7 +9614,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -9631,7 +9631,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/tc;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -9654,7 +9654,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -9671,7 +9671,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/rc;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -9694,7 +9694,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -9711,7 +9711,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/pc;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -9734,7 +9734,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -9751,7 +9751,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/nc;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -9774,7 +9774,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -9791,7 +9791,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/lc;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -9814,7 +9814,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -9831,7 +9831,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/jc;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -9854,7 +9854,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -9871,7 +9871,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/hc;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -9894,7 +9894,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -9911,7 +9911,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/fc;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -9934,7 +9934,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -9951,7 +9951,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/dc;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -9974,7 +9974,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -9991,7 +9991,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/bc;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -10014,7 +10014,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -10031,7 +10031,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/zb;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -10054,7 +10054,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -10071,7 +10071,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/xb;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -10094,7 +10094,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -10111,7 +10111,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/vb;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -10134,7 +10134,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -10151,7 +10151,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/tb;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -10174,7 +10174,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -10191,7 +10191,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/rb;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -10214,7 +10214,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -10231,7 +10231,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/pb;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -10254,7 +10254,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -10271,7 +10271,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/nb;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -10294,7 +10294,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -10311,7 +10311,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/lb;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -10334,7 +10334,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -10351,7 +10351,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/jb;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -10374,7 +10374,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -10391,7 +10391,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/fb;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -10414,7 +10414,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -10431,7 +10431,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/hb;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -10454,7 +10454,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -10471,7 +10471,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/db;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -10494,7 +10494,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -10511,7 +10511,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/bb;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -10534,7 +10534,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -10551,7 +10551,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/za;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -10574,7 +10574,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -10591,7 +10591,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/xa;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -10614,7 +10614,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -10631,7 +10631,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/va;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -10654,7 +10654,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -10671,7 +10671,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/ta;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -10694,7 +10694,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -10711,7 +10711,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/ra;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -10734,7 +10734,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -10751,7 +10751,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/pa;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -10774,7 +10774,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -10840,13 +10840,13 @@
 
     const/16 v0, 0x5946
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     packed-switch p3, :pswitch_data_0
 
     const/4 p1, 0x0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
@@ -10863,7 +10863,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/fi;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -10886,7 +10886,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -10903,7 +10903,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/di;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -10926,7 +10926,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -10943,7 +10943,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/bi;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -10966,7 +10966,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -10983,7 +10983,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/zh;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -11006,7 +11006,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -11023,7 +11023,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/xh;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -11046,7 +11046,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -11063,7 +11063,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/vh;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -11086,7 +11086,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -11103,7 +11103,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/th;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -11126,7 +11126,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -11143,7 +11143,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/rh;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -11166,7 +11166,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -11183,7 +11183,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/ph;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -11206,7 +11206,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -11223,7 +11223,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/nh;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -11246,7 +11246,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -11263,7 +11263,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/lh;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -11286,7 +11286,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -11303,7 +11303,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/jh;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -11326,7 +11326,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -11343,7 +11343,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/hh;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -11366,7 +11366,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -11383,7 +11383,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/fh;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -11406,7 +11406,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -11423,7 +11423,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/dh;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -11446,7 +11446,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -11463,7 +11463,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/bh;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -11486,7 +11486,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -11503,7 +11503,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/zg;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -11526,7 +11526,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -11543,7 +11543,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/xg;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -11566,7 +11566,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -11583,7 +11583,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/vg;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -11606,7 +11606,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -11623,7 +11623,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/tg;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -11646,7 +11646,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -11663,7 +11663,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/rg;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -11686,7 +11686,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -11703,7 +11703,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/pg;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -11726,7 +11726,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -11743,7 +11743,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/ng;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -11766,7 +11766,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -11783,7 +11783,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/lg;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -11806,7 +11806,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -11823,7 +11823,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/jg;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -11846,7 +11846,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -11863,7 +11863,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/hg;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -11886,7 +11886,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -11903,7 +11903,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/fg;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -11926,7 +11926,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -11943,7 +11943,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/dg;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -11966,7 +11966,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -11983,7 +11983,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/bg;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -12006,7 +12006,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -12023,7 +12023,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/xf;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -12046,7 +12046,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -12063,7 +12063,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/zf;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -12086,7 +12086,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -12103,7 +12103,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/vf;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -12126,7 +12126,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -12143,7 +12143,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/tf;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -12166,7 +12166,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -12183,7 +12183,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/rf;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -12206,7 +12206,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -12223,7 +12223,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/pf;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -12246,7 +12246,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -12263,7 +12263,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/lf;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -12286,7 +12286,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -12303,7 +12303,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/nf;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -12326,7 +12326,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -12343,7 +12343,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/jf;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -12366,7 +12366,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -12383,7 +12383,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/hf;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -12406,7 +12406,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -12423,7 +12423,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/ff;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -12446,7 +12446,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -12463,7 +12463,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/df;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -12486,7 +12486,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -12503,7 +12503,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/bf;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -12526,7 +12526,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -12543,7 +12543,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/ze;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -12566,7 +12566,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -12583,7 +12583,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/xe;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -12606,7 +12606,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -12623,7 +12623,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/ve;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -12646,7 +12646,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -12663,7 +12663,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/te;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -12686,7 +12686,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -12703,7 +12703,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/re;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -12726,7 +12726,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -12743,7 +12743,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/pe;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -12766,7 +12766,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -12783,7 +12783,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/ne;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -12806,7 +12806,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -12823,7 +12823,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/le;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -12846,7 +12846,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -12912,13 +12912,13 @@
 
     const/16 v0, 0x5947
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     packed-switch p3, :pswitch_data_0
 
     const/4 p1, 0x0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
@@ -12935,7 +12935,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/bm;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -12958,7 +12958,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -12975,7 +12975,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/zl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -12998,7 +12998,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -13015,7 +13015,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/xl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -13038,7 +13038,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -13055,7 +13055,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/vl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -13078,7 +13078,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -13095,7 +13095,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/tl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -13118,7 +13118,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -13135,7 +13135,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/rl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -13158,7 +13158,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -13175,7 +13175,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/pl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -13198,7 +13198,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -13215,7 +13215,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/nl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -13238,7 +13238,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -13255,7 +13255,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/ll;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -13278,7 +13278,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -13295,7 +13295,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/jl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -13318,7 +13318,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -13335,7 +13335,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/hl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -13358,7 +13358,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -13375,7 +13375,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/fl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -13398,7 +13398,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -13415,7 +13415,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/dl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -13438,7 +13438,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -13455,7 +13455,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/bl;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -13478,7 +13478,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -13495,7 +13495,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/zk;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -13518,7 +13518,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -13535,7 +13535,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/xk;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -13558,7 +13558,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -13575,7 +13575,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/vk;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -13598,7 +13598,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -13615,7 +13615,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/tk;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -13638,7 +13638,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -13655,7 +13655,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/rk;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -13678,7 +13678,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -13695,7 +13695,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/pk;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -13718,7 +13718,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -13735,7 +13735,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/nk;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -13758,7 +13758,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -13775,7 +13775,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/lk;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -13798,7 +13798,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -13815,7 +13815,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/jk;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -13838,7 +13838,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -13855,7 +13855,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/hk;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -13878,7 +13878,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -13895,7 +13895,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/fk;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -13918,7 +13918,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -13935,7 +13935,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/dk;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -13958,7 +13958,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -13975,7 +13975,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/bk;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -13998,7 +13998,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -14015,7 +14015,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/zj;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -14038,7 +14038,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -14055,7 +14055,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/xj;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -14078,7 +14078,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -14095,7 +14095,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/vj;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -14118,7 +14118,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -14135,7 +14135,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/tj;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -14158,7 +14158,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -14175,7 +14175,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/rj;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -14198,7 +14198,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -14215,7 +14215,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/pj;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -14238,7 +14238,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -14255,7 +14255,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/nj;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -14278,7 +14278,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -14295,7 +14295,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/lj;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -14318,7 +14318,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -14335,7 +14335,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/jj;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -14358,7 +14358,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -14375,7 +14375,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/hj;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -14398,7 +14398,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -14415,7 +14415,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/fj;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -14438,7 +14438,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -14455,7 +14455,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/dj;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -14478,7 +14478,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -14495,7 +14495,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/bj;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -14518,7 +14518,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -14535,7 +14535,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/zi;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -14558,7 +14558,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -14575,7 +14575,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/xi;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -14598,7 +14598,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -14615,7 +14615,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/vi;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -14638,7 +14638,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -14655,7 +14655,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/ti;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -14678,7 +14678,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -14695,7 +14695,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/ri;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -14718,7 +14718,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -14735,7 +14735,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/pi;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -14758,7 +14758,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -14775,7 +14775,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/ni;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -14798,7 +14798,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -14815,7 +14815,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/li;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -14838,7 +14838,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -14855,7 +14855,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/ji;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -14878,7 +14878,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -14895,7 +14895,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/hi;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -14918,7 +14918,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -14984,13 +14984,13 @@
 
     const/16 v0, 0x5948
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     packed-switch p3, :pswitch_data_0
 
     const/4 p1, 0x0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
@@ -15007,7 +15007,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/bn;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -15030,7 +15030,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -15047,7 +15047,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/zm;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -15070,7 +15070,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -15087,7 +15087,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/xm;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -15110,7 +15110,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -15127,7 +15127,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/vm;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -15150,7 +15150,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -15167,7 +15167,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/tm;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -15190,7 +15190,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -15207,7 +15207,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/rm;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -15230,7 +15230,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -15247,7 +15247,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/pm;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -15270,7 +15270,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -15287,7 +15287,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/nm;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -15310,7 +15310,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -15327,7 +15327,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/lm;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -15350,7 +15350,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -15367,7 +15367,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/jm;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -15390,7 +15390,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -15407,7 +15407,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/hm;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -15430,7 +15430,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -15447,7 +15447,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/fm;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -15470,7 +15470,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -15487,7 +15487,7 @@
 
     invoke-direct {p3, p1, p2}, Lcom/commsource/beautyplus/f0/dm;-><init>(Landroidx/databinding/DataBindingComponent;Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p3
 
@@ -15510,7 +15510,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -15547,7 +15547,7 @@
 
     const/16 v0, 0x594c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Ljava/util/ArrayList;
 
@@ -15567,7 +15567,7 @@
 
     invoke-virtual {v1, v2}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -15577,7 +15577,7 @@
 
     const/16 v0, 0x594b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/commsource/beautyplus/DataBinderMapperImpl$a;->a:Landroid/util/SparseArray;
 
@@ -15587,7 +15587,7 @@
 
     check-cast p1, Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -15597,7 +15597,7 @@
 
     const/16 v0, 0x5949
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/commsource/beautyplus/DataBinderMapperImpl;->b5:Landroid/util/SparseIntArray;
 
@@ -15626,7 +15626,7 @@
 
     move-result-object p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
@@ -15635,7 +15635,7 @@
 
     move-result-object p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
@@ -15644,7 +15644,7 @@
 
     move-result-object p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
@@ -15653,7 +15653,7 @@
 
     move-result-object p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
@@ -15662,7 +15662,7 @@
 
     move-result-object p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
@@ -15671,7 +15671,7 @@
 
     move-result-object p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
@@ -15680,7 +15680,7 @@
 
     move-result-object p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
@@ -15691,7 +15691,7 @@
 
     invoke-direct {p1, p2}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -15699,7 +15699,7 @@
     :goto_0
     const/4 p1, 0x0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
@@ -15720,7 +15720,7 @@
 
     const/16 p1, 0x5949
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v0, 0x0
 
@@ -15760,19 +15760,19 @@
 
     invoke-direct {p2, p3}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     throw p2
 
     :cond_2
     :goto_0
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 
     :cond_3
     :goto_1
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 .end method
@@ -15782,13 +15782,13 @@
 
     const/16 v0, 0x594a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x0
 
     if-nez p1, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 
@@ -15811,7 +15811,7 @@
     move-result v1
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method

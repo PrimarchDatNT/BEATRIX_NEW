@@ -45,7 +45,7 @@
 
     const/16 v0, 0x713a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "locate time out"
 
@@ -65,7 +65,7 @@
 
     invoke-static {v1, v2}, Lcom/commsource/beautyplus/onboarding/BoardingViewModel;->y(Lcom/commsource/beautyplus/onboarding/BoardingViewModel;Z)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -87,7 +87,7 @@
 
     const/16 p2, 0x713b
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -185,7 +185,7 @@
 
     invoke-static {p3, p1}, Lcom/commsource/beautyplus/onboarding/BoardingViewModel;->y(Lcom/commsource/beautyplus/onboarding/BoardingViewModel;Z)V
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -195,9 +195,9 @@
 
     const/16 p1, 0x7138
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -207,7 +207,7 @@
 
     const/16 v0, 0x7139
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "locate failed"
 
@@ -227,7 +227,7 @@
 
     invoke-static {v1, v2}, Lcom/commsource/beautyplus/onboarding/BoardingViewModel;->y(Lcom/commsource/beautyplus/onboarding/BoardingViewModel;Z)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

@@ -40,7 +40,7 @@
 
     const/16 v0, 0x7391
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lcom/commsource/util/d2;->b()Lcom/commsource/util/d2;
 
@@ -72,7 +72,7 @@
 
     invoke-static {v1}, Lcom/commsource/beautyplus/p;->a(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

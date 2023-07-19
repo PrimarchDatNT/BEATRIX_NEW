@@ -38,7 +38,7 @@
 
     const v0, 0xf047
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p1}, Lcom/google/android/gms/ads/formats/e;->k()Ljava/lang/CharSequence;
 
@@ -66,7 +66,7 @@
     const/4 p1, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -78,7 +78,7 @@
 
     const v0, 0xf046
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/admob/AdxMediationAdapter$AdxContentMapper;->mNativeContentAd:Lcom/google/android/gms/ads/formats/e;
 
@@ -96,7 +96,7 @@
 
     invoke-interface {p1}, Lcom/meitu/hwbusinesskit/admob/AdxMediationAdapter$NativeAdMapperListener;->onMappingFailed()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -167,7 +167,7 @@
 
     invoke-interface {p1}, Lcom/meitu/hwbusinesskit/admob/AdxMediationAdapter$NativeAdMapperListener;->onMappingSuccess()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -177,7 +177,7 @@
 
     const v0, 0xf048
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x1
 
@@ -196,7 +196,7 @@
     invoke-virtual {p1, v1}, Lcom/google/android/gms/ads/formats/NativeAdView;->setNativeAd(Lcom/google/android/gms/ads/formats/a;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

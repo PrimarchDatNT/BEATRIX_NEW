@@ -46,7 +46,7 @@
 
     const p1, 0x8546
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p2, p0, Lcom/commsource/studio/function/s/b$d;->a:Lcom/commsource/studio/function/s/b;
 
@@ -61,7 +61,7 @@
     invoke-virtual {p2, v0}, Lcom/commsource/studio/layer/BaseLayer;->n0(Z)V
 
     :cond_0
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -71,11 +71,11 @@
 
     const v0, 0x8548
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/widget/XSeekBar$b$a;->a(Lcom/commsource/widget/XSeekBar$b;IFZ)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -85,7 +85,7 @@
 
     const p2, 0x8545
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p3, :cond_2
 
@@ -203,7 +203,7 @@
     invoke-virtual {p1, p3}, Lcom/commsource/widget/h1/e;->v(Ljava/lang/Object;)V
 
     :cond_3
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -213,7 +213,7 @@
 
     const p1, 0x8547
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p2, p0, Lcom/commsource/studio/function/s/b$d;->a:Lcom/commsource/studio/function/s/b;
 
@@ -228,7 +228,7 @@
     invoke-virtual {p2, p3}, Lcom/commsource/studio/layer/BaseLayer;->n0(Z)V
 
     :cond_0
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

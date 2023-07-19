@@ -37,13 +37,13 @@
 
     const v0, 0x916c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity$c;->a:Lcom/commsource/camera/ArVideoConfirmActivity;
 
     invoke-static {v1}, Lcom/commsource/camera/ArVideoConfirmActivity;->e1(Lcom/commsource/camera/ArVideoConfirmActivity;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -63,7 +63,7 @@
 
     const v0, 0x916b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity$c;->a:Lcom/commsource/camera/ArVideoConfirmActivity;
 
@@ -108,7 +108,7 @@
 
     if-nez v1, :cond_1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -508,13 +508,13 @@
     invoke-static {v1, v4}, Lcom/commsource/camera/ArVideoConfirmActivity;->d1(Lcom/commsource/camera/ArVideoConfirmActivity;Z)V
 
     :goto_4
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
     :cond_a
     :goto_5
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

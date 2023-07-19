@@ -17,7 +17,7 @@
 
     const v0, 0xc261
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p0}, Lcom/meitu/library/gid/base/l;->i(Landroid/content/Context;)Z
 
@@ -37,7 +37,7 @@
     invoke-direct {p0, p1}, Lcom/meitu/library/gid/base/r0/d;-><init>(Lcom/meitu/library/gid/base/u;)V
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method

@@ -120,7 +120,7 @@
 
     const v0, 0xa6c2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-class v1, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer;
 
@@ -138,7 +138,7 @@
 
     sput-object v1, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer;->i0:Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$DrawMode;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -453,7 +453,7 @@
 
     const v0, 0xa6b8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer;->d:Landroid/graphics/Canvas;
 
@@ -472,7 +472,7 @@
     invoke-virtual {v1, v2}, Landroid/graphics/Canvas;->drawPaint(Landroid/graphics/Paint;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -482,7 +482,7 @@
 
     const v0, 0xa6b4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-lez p1, :cond_2
 
@@ -554,14 +554,14 @@
 
     const/4 p1, 0x1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 
     :cond_2
     const/4 p1, 0x0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -571,7 +571,7 @@
 
     const v0, 0xa6ab
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer;->d:Landroid/graphics/Canvas;
 
@@ -713,7 +713,7 @@
 
     :cond_2
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -723,7 +723,7 @@
 
     const v0, 0xa6aa
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer;->p:Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$DrawMode;
 
@@ -782,7 +782,7 @@
     invoke-virtual {p1, v1, v2}, Landroid/graphics/Canvas;->drawPath(Landroid/graphics/Path;Landroid/graphics/Paint;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -792,7 +792,7 @@
 
     const v0, 0xa6ac
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer;->c:Landroid/graphics/Bitmap;
 
@@ -821,7 +821,7 @@
     invoke-virtual {p1, v2, v1, v3}, Landroid/graphics/Canvas;->drawBitmap(Landroid/graphics/Bitmap;Landroid/graphics/Matrix;Landroid/graphics/Paint;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -831,7 +831,7 @@
 
     const v0, 0xa6b5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer;->W:Landroid/graphics/Path;
 
@@ -863,7 +863,7 @@
 
     iput p2, p0, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer;->U:F
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -873,7 +873,7 @@
 
     const v0, 0xa6b6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer;->W:Landroid/graphics/Path;
 
@@ -911,7 +911,7 @@
 
     iput p2, p0, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer;->U:F
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -921,7 +921,7 @@
 
     const v0, 0xa6b7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer;->Z:Landroid/graphics/PointF;
 
@@ -957,7 +957,7 @@
 
     invoke-virtual {p2, v2, p1}, Landroid/graphics/PointF;->set(FF)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -969,7 +969,7 @@
 
     const v0, 0xa6a9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->e()Lcom/meitu/widget/layeredimageview/AbsLayerContainer;
 
@@ -994,7 +994,7 @@
 
     invoke-virtual {p1}, Landroid/graphics/Canvas;->restore()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1004,7 +1004,7 @@
 
     const v0, 0xa6b1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean v1, p0, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer;->R:Z
 
@@ -1093,7 +1093,7 @@
     invoke-virtual {p1, p2, p3}, Landroid/graphics/Canvas;->drawPath(Landroid/graphics/Path;Landroid/graphics/Paint;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1103,11 +1103,11 @@
 
     const v0, 0xa6bf
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer;->p:Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$DrawMode;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -1117,14 +1117,14 @@
 
     const v0, 0xa6c0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p1, :cond_0
 
     iput-object p1, p0, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer;->p:Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$DrawMode;
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1134,7 +1134,7 @@
 
     const v0, 0xa6ba
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer;->M:I
 
@@ -1180,7 +1180,7 @@
     invoke-virtual {p1}, Landroid/widget/ImageView;->invalidate()V
 
     :cond_2
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1190,7 +1190,7 @@
 
     const v0, 0xa6ad
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->f()Z
 
@@ -1250,12 +1250,12 @@
 
     invoke-interface {p1}, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$b;->a()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v2
 .end method
@@ -1265,7 +1265,7 @@
 
     const v0, 0xa6ae
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->f()Z
 
@@ -1410,12 +1410,12 @@
 
     :cond_3
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 
     :cond_4
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v2
 .end method
@@ -1425,7 +1425,7 @@
 
     const p1, 0xa6af
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/meitu/widget/layeredimageview/layer/a;->f()Z
 
@@ -1469,14 +1469,14 @@
 
     invoke-direct {p0, p4, p2}, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer;->y(FF)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return p3
 
     :cond_0
     const/4 p2, 0x0
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return p2
 .end method
@@ -1486,7 +1486,7 @@
 
     const p1, 0xa6b0
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v0, 0x0
 
@@ -1496,7 +1496,7 @@
 
     invoke-interface {v0}, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$b;->d()V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     const/4 p1, 0x1
 
@@ -1508,7 +1508,7 @@
 
     const v0, 0xa6b9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer;->L:I
 
@@ -1523,7 +1523,7 @@
     invoke-virtual {p1}, Landroid/widget/ImageView;->invalidate()V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1533,7 +1533,7 @@
 
     const v0, 0xa6be
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p1, :cond_0
 
@@ -1564,7 +1564,7 @@
     invoke-direct {p0, p1, v1, v2}, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer;->i(IIZ)Z
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1574,7 +1574,7 @@
 
     const v0, 0xa6bc
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer;->O:I
 
@@ -1620,7 +1620,7 @@
     invoke-virtual {p1}, Landroid/widget/ImageView;->invalidate()V
 
     :cond_2
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1630,7 +1630,7 @@
 
     const v0, 0xa6bb
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer;->N:I
 
@@ -1645,7 +1645,7 @@
     invoke-virtual {p1}, Landroid/widget/ImageView;->invalidate()V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1655,7 +1655,7 @@
 
     const v0, 0xa6b2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p1, :cond_0
 
@@ -1672,7 +1672,7 @@
     invoke-direct {p0, v1, p1, v2}, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer;->i(IIZ)Z
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1682,7 +1682,7 @@
 
     const v0, 0xa6b3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p1, :cond_0
 
@@ -1699,7 +1699,7 @@
     invoke-direct {p0, v1, p1, v2}, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer;->i(IIZ)Z
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1709,7 +1709,7 @@
 
     const v0, 0xa6c1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x0
 
@@ -1725,7 +1725,7 @@
     :goto_0
     iput p1, p0, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer;->V:F
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1735,7 +1735,7 @@
 
     const v0, 0xa6bd
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-boolean p1, p0, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer;->Q:Z
 
@@ -1745,7 +1745,7 @@
 
     invoke-virtual {p1}, Landroid/widget/ImageView;->invalidate()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

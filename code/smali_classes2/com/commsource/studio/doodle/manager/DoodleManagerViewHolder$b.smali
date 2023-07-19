@@ -41,7 +41,7 @@
 
     const p1, 0x8232
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder$b;->a:Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder;
 
@@ -311,7 +311,7 @@
 
     invoke-static {v0}, Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder;->x(Lcom/commsource/studio/doodle/manager/DoodleManagerViewHolder;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

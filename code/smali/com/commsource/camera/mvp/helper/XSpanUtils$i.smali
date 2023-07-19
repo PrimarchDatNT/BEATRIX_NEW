@@ -59,7 +59,7 @@
 
     const/16 v0, 0x6464
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/commsource/camera/mvp/helper/XSpanUtils$i;->a:F
 
@@ -71,7 +71,7 @@
 
     invoke-virtual {p1, v1, v2, v3, v4}, Landroid/text/TextPaint;->setShadowLayer(FFFI)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

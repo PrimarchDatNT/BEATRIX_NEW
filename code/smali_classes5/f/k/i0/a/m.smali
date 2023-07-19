@@ -76,7 +76,7 @@
 
     const/16 v0, 0x69dd
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lf/k/i0/a/m;->a:Landroidx/room/RoomDatabase;
 
@@ -101,7 +101,7 @@
 
     invoke-virtual {p1}, Landroidx/room/RoomDatabase;->endTransaction()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -112,7 +112,7 @@
 
     invoke-virtual {v1}, Landroidx/room/RoomDatabase;->endTransaction()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 .end method
@@ -122,13 +122,13 @@
 
     const/16 v0, 0x69e6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, [Lcom/meitu/template/bean/f;
 
     invoke-virtual {p0, p1}, Lf/k/i0/a/m;->Q([Lcom/meitu/template/bean/f;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -138,7 +138,7 @@
 
     const/16 v0, 0x69dc
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lf/k/i0/a/m;->a:Landroidx/room/RoomDatabase;
 
@@ -163,7 +163,7 @@
 
     invoke-virtual {p1}, Landroidx/room/RoomDatabase;->endTransaction()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -174,7 +174,7 @@
 
     invoke-virtual {v1}, Landroidx/room/RoomDatabase;->endTransaction()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 .end method
@@ -184,7 +184,7 @@
 
     const/16 v0, 0x69df
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lf/k/i0/a/m;->a:Landroidx/room/RoomDatabase;
 
@@ -209,7 +209,7 @@
 
     invoke-virtual {p1}, Landroidx/room/RoomDatabase;->endTransaction()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -220,7 +220,7 @@
 
     invoke-virtual {v1}, Landroidx/room/RoomDatabase;->endTransaction()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 .end method
@@ -230,13 +230,13 @@
 
     const/16 v0, 0x69e5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, [Lcom/meitu/template/bean/f;
 
     invoke-virtual {p0, p1}, Lf/k/i0/a/m;->Q2([Lcom/meitu/template/bean/f;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -246,13 +246,13 @@
 
     const/16 v0, 0x69e7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Lcom/meitu/template/bean/f;
 
     invoke-virtual {p0, p1}, Lf/k/i0/a/m;->D0(Lcom/meitu/template/bean/f;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -270,7 +270,7 @@
 
     const/16 v0, 0x69e2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "select CategoryId from DOODLE_CATEGORY"
 
@@ -339,7 +339,7 @@
 
     invoke-virtual {v1}, Landroidx/room/RoomSQLiteQuery;->release()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v5
 
@@ -350,7 +350,7 @@
 
     invoke-virtual {v1}, Landroidx/room/RoomSQLiteQuery;->release()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw v2
 .end method
@@ -360,7 +360,7 @@
 
     const/16 v0, 0x69e1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "select * from DOODLE_CATEGORY where CategoryId = ?"
 
@@ -466,7 +466,7 @@
 
     invoke-virtual {v1}, Landroidx/room/RoomSQLiteQuery;->release()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v3
 
@@ -477,7 +477,7 @@
 
     invoke-virtual {v1}, Landroidx/room/RoomSQLiteQuery;->release()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw v2
 .end method
@@ -495,7 +495,7 @@
 
     const/16 v0, 0x69e3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "select * from DOODLE_CATEGORY"
 
@@ -596,7 +596,7 @@
 
     invoke-virtual {v1}, Landroidx/room/RoomSQLiteQuery;->release()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v7
 
@@ -607,7 +607,7 @@
 
     invoke-virtual {v1}, Landroidx/room/RoomSQLiteQuery;->release()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw v3
 .end method
@@ -617,13 +617,13 @@
 
     const/16 v0, 0x69e4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, [Lcom/meitu/template/bean/f;
 
     invoke-virtual {p0, p1}, Lf/k/i0/a/m;->y([Lcom/meitu/template/bean/f;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -633,13 +633,13 @@
 
     const/16 v0, 0x69e8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Lcom/meitu/template/bean/f;
 
     invoke-virtual {p0, p1}, Lf/k/i0/a/m;->s1(Lcom/meitu/template/bean/f;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -649,7 +649,7 @@
 
     const/16 v0, 0x69db
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lf/k/i0/a/m;->a:Landroidx/room/RoomDatabase;
 
@@ -674,7 +674,7 @@
 
     invoke-virtual {p1}, Landroidx/room/RoomDatabase;->endTransaction()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -685,7 +685,7 @@
 
     invoke-virtual {v1}, Landroidx/room/RoomDatabase;->endTransaction()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 .end method
@@ -695,13 +695,13 @@
 
     const/16 v0, 0x69e9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Lcom/meitu/template/bean/f;
 
     invoke-virtual {p0, p1}, Lf/k/i0/a/m;->p3(Lcom/meitu/template/bean/f;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -711,7 +711,7 @@
 
     const/16 v0, 0x69ea
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Ljava/lang/Integer;
 
@@ -719,7 +719,7 @@
 
     move-result-object p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -729,7 +729,7 @@
 
     const/16 v0, 0x69e0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lf/k/i0/a/m;->a:Landroidx/room/RoomDatabase;
 
@@ -754,7 +754,7 @@
 
     invoke-virtual {p1}, Landroidx/room/RoomDatabase;->endTransaction()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -765,7 +765,7 @@
 
     invoke-virtual {v1}, Landroidx/room/RoomDatabase;->endTransaction()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 .end method
@@ -775,7 +775,7 @@
 
     const/16 v0, 0x69de
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lf/k/i0/a/m;->a:Landroidx/room/RoomDatabase;
 
@@ -800,7 +800,7 @@
 
     invoke-virtual {p1}, Landroidx/room/RoomDatabase;->endTransaction()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -811,7 +811,7 @@
 
     invoke-virtual {v1}, Landroidx/room/RoomDatabase;->endTransaction()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 .end method

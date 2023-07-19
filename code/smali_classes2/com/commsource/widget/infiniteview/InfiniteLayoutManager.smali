@@ -52,7 +52,7 @@
 
     const/16 v0, 0x22ab
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p1, Landroid/graphics/Rect;->left:I
 
@@ -78,7 +78,7 @@
     const/4 p1, 0x1
 
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -88,7 +88,7 @@
 
     const/16 v0, 0x22a7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p1, p2}, Landroidx/recyclerview/widget/RecyclerView$Recycler;->getViewForPosition(I)Landroid/view/View;
 
@@ -161,7 +161,7 @@
 
     invoke-static {p4, p2}, Lcom/commsource/widget/infiniteview/InfiniteLayoutManager$b;->d(Lcom/commsource/widget/infiniteview/InfiniteLayoutManager$b;Landroid/graphics/Rect;)Landroid/graphics/Rect;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p4
 .end method
@@ -177,7 +177,7 @@
 
     const/16 v9, 0x22a6
 
-    invoke-static {v9}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v9}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v10, Ljava/util/LinkedList;
 
@@ -461,7 +461,7 @@
     invoke-virtual {v6, v8}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->offsetChildrenHorizontal(I)V
 
     :cond_9
-    invoke-static {v9}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v9}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -473,7 +473,7 @@
 
     const/16 v0, 0x22a9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getItemCount()I
 
@@ -489,7 +489,7 @@
     const/4 v2, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v2
 .end method
@@ -499,9 +499,9 @@
 
     const/16 v0, 0x22aa
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const/4 v0, 0x0
 
@@ -513,7 +513,7 @@
 
     const/16 p1, 0x22ac
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v0, Landroid/graphics/PointF;
 
@@ -523,7 +523,7 @@
 
     invoke-direct {v0, v1, v2}, Landroid/graphics/PointF;-><init>(FF)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 .end method
@@ -533,7 +533,7 @@
 
     const/16 v0, 0x22a2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Landroidx/recyclerview/widget/RecyclerView$LayoutParams;
 
@@ -541,7 +541,7 @@
 
     invoke-direct {v1, v2, v2}, Landroidx/recyclerview/widget/RecyclerView$LayoutParams;-><init>(II)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -551,7 +551,7 @@
 
     const/16 v0, 0x22a3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-super {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->onItemsChanged(Landroidx/recyclerview/widget/RecyclerView;)V
 
@@ -559,7 +559,7 @@
 
     iput-boolean p1, p0, Lcom/commsource/widget/infiniteview/InfiniteLayoutManager;->a:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -569,7 +569,7 @@
 
     const/16 p2, 0x22a4
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getItemCount()I
 
@@ -579,7 +579,7 @@
 
     invoke-virtual {p0, p1}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->detachAndScrapAttachedViews(Landroidx/recyclerview/widget/RecyclerView$Recycler;)V
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -603,7 +603,7 @@
 
     invoke-direct {p0, p1, v1, v0}, Lcom/commsource/widget/infiniteview/InfiniteLayoutManager;->c(Landroidx/recyclerview/widget/RecyclerView$Recycler;IZ)V
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -613,7 +613,7 @@
 
     const/16 p3, 0x22a8
 
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->e(I)V
 
     neg-int v0, p1
 
@@ -621,7 +621,7 @@
 
     invoke-direct {p0, p2, v0, v1}, Lcom/commsource/widget/infiniteview/InfiniteLayoutManager;->c(Landroidx/recyclerview/widget/RecyclerView$Recycler;IZ)V
 
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -631,9 +631,9 @@
 
     const/16 p1, 0x22a5
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

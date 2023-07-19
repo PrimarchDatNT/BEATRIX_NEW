@@ -49,9 +49,9 @@
 
     const/16 p1, 0x673e
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -65,7 +65,7 @@
 
     const/16 p1, 0x673c
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/camera/f1/k$a;->a:Lcom/commsource/camera/f1/k;
 
@@ -82,7 +82,7 @@
     check-cast v0, Lcotlin/t1;
 
     :cond_0
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -104,7 +104,7 @@
 
     const/16 p1, 0x673d
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/camera/f1/k$a;->a:Lcom/commsource/camera/f1/k;
 
@@ -125,7 +125,7 @@
 
     invoke-virtual {v0}, Lcom/commsource/camera/f1/k;->b()V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -135,7 +135,7 @@
 
     const/16 p2, 0x673b
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/camera/f1/k$a;->a:Lcom/commsource/camera/f1/k;
 
@@ -168,7 +168,7 @@
 
     invoke-virtual {p1}, Landroid/view/View;->postInvalidate()V
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

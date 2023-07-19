@@ -36,7 +36,7 @@
 
     const/16 p5, 0x6231
 
-    invoke-static {p5}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p5}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/FastCenterScrollLayoutManager$a;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/FastCenterScrollLayoutManager;
 
@@ -58,7 +58,7 @@
 
     sub-int/2addr p3, p2
 
-    invoke-static {p5}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p5}, Lcom/res/ANRTrace;->a(I)V
 
     return p3
 
@@ -73,7 +73,7 @@
 
     sub-int/2addr p3, p1
 
-    invoke-static {p5}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p5}, Lcom/res/ANRTrace;->a(I)V
 
     return p3
 
@@ -90,14 +90,14 @@
 
     sub-int/2addr p4, p2
 
-    invoke-static {p5}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p5}, Lcom/res/ANRTrace;->a(I)V
 
     return p4
 
     :cond_2
     const/4 p1, 0x0
 
-    invoke-static {p5}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p5}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -107,7 +107,7 @@
 
     const/16 v0, 0x6230
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/FastCenterScrollLayoutManager$a;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/FastCenterScrollLayoutManager;
 
@@ -121,7 +121,7 @@
 
     div-float/2addr v1, p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -131,7 +131,7 @@
 
     const/16 v0, 0x622f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x1
 
@@ -191,12 +191,12 @@
 
     if-ge p1, v1, :cond_2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 
     :cond_2
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 
@@ -214,12 +214,12 @@
 
     if-ge p1, v1, :cond_5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 
     :cond_5
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -229,7 +229,7 @@
 
     const/16 v0, 0x6232
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/FastCenterScrollLayoutManager$a;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/FastCenterScrollLayoutManager;
 
@@ -237,7 +237,7 @@
 
     move-result-object p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method

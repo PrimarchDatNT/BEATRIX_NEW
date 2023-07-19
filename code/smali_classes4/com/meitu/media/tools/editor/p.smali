@@ -115,7 +115,7 @@
 
     const v0, 0xe5f4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Landroid/os/Environment;->getExternalStorageDirectory()Ljava/io/File;
 
@@ -131,7 +131,7 @@
 
     sput-object v1, Lcom/meitu/media/tools/editor/p;->O:Lcom/meitu/media/tools/editor/e;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -200,11 +200,11 @@
 
     const v0, 0xe5ef
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct/range {p0 .. p5}, Lcom/meitu/media/tools/editor/p;->m(Ljava/lang/String;DD)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -214,11 +214,11 @@
 
     const v0, 0xe5f0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean p0, p0, Lcom/meitu/media/tools/editor/p;->l:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p0
 .end method
@@ -228,11 +228,11 @@
 
     const v0, 0xe5f1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sput-boolean p0, Lcom/meitu/media/tools/editor/p;->N:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p0
 .end method
@@ -242,11 +242,11 @@
 
     const v0, 0xe5f2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p0, p0, Lcom/meitu/media/tools/editor/p;->k:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -256,11 +256,11 @@
 
     const v0, 0xe5f3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/media/tools/editor/p;->O:Lcom/meitu/media/tools/editor/e;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -270,7 +270,7 @@
 
     const v0, 0xe5e7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-eq p2, p3, :cond_0
 
@@ -291,7 +291,7 @@
     invoke-static {p1}, Lcom/meitu/media/tools/utils/debug/Logger;->i(Ljava/lang/String;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -301,9 +301,9 @@
 
     const p1, 0xe5e8
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -313,7 +313,7 @@
 
     const v0, 0xe5e6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p2, p3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
@@ -338,7 +338,7 @@
     invoke-static {p1}, Lcom/meitu/media/tools/utils/debug/Logger;->i(Ljava/lang/String;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -348,9 +348,9 @@
 
     const p1, 0xe5e9
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -370,7 +370,7 @@
 
     const v7, 0xe5e2
 
-    invoke-static {v7}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v7}, Lcom/res/ANRTrace;->e(I)V
 
     iget v5, v0, Lcom/meitu/media/tools/editor/p;->v:I
 
@@ -607,7 +607,7 @@
     invoke-static/range {v1 .. v6}, Landroid/opengl/Matrix;->rotateM([FIFFFF)V
 
     :cond_b
-    invoke-static {v7}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v7}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -1154,7 +1154,7 @@
 
     const v1, 0xe5e2
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -1169,7 +1169,7 @@
     invoke-static {v3, v2}, Landroid/opengl/Matrix;->setIdentityM([FI)V
 
     :cond_1e
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1179,7 +1179,7 @@
 
     const v0, 0xe5e3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/meitu/media/tools/editor/f;->mOutVideoRotate:I
 
@@ -1378,7 +1378,7 @@
 
     aput v3, p1, v7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1395,7 +1395,7 @@
 
     const v11, 0xe5e0
 
-    invoke-static {v11}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v11}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v0, 0x2
 
@@ -1512,7 +1512,7 @@
 
     invoke-direct {v0, v1}, Ljava/lang/IllegalStateException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v11}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v11}, Lcom/res/ANRTrace;->a(I)V
 
     throw v0
 
@@ -1674,7 +1674,7 @@
 
     const v1, 0xe5e0
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     throw v0
     :try_end_2
@@ -2032,7 +2032,7 @@
 
     const v1, 0xe5e0
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -2108,7 +2108,7 @@
 
     const v1, 0xe5e0
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     throw v0
     :try_end_7
@@ -2173,7 +2173,7 @@
 
     const v1, 0xe5e0
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     throw v0
     :try_end_8
@@ -2224,7 +2224,7 @@
 
     const v1, 0xe5e0
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     throw v0
     :try_end_9
@@ -2255,7 +2255,7 @@
     :cond_1a
     const v1, 0xe5e0
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     throw v0
 
@@ -2271,7 +2271,7 @@
 
     const v0, 0xe5e5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -2289,7 +2289,7 @@
 
     invoke-static {p0}, Lcom/meitu/media/tools/utils/debug/Logger;->a(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -2299,7 +2299,7 @@
 
     const v0, 0xe5e1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     int-to-float v3, p2
 
@@ -2315,7 +2315,7 @@
 
     invoke-static/range {v1 .. v6}, Landroid/opengl/Matrix;->rotateM([FIFFFF)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -2327,9 +2327,9 @@
 
     const v0, 0xe5ec
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const-wide/16 v0, 0x0
 
@@ -2341,11 +2341,11 @@
 
     const v0, 0xe5c7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/tools/editor/p;->o:J
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-wide v1
 .end method
@@ -2355,7 +2355,7 @@
 
     const v0, 0xe5d1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Ljava/lang/RuntimeException;
 
@@ -2363,7 +2363,7 @@
 
     invoke-direct {v1, v2}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw v1
 .end method
@@ -2373,7 +2373,7 @@
 
     const p1, 0xe5d0
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance p2, Ljava/lang/RuntimeException;
 
@@ -2381,7 +2381,7 @@
 
     invoke-direct {p2, p3}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     throw p2
 .end method
@@ -2391,7 +2391,7 @@
 
     const p1, 0xe5ce
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v0, Ljava/lang/RuntimeException;
 
@@ -2399,7 +2399,7 @@
 
     invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     throw v0
 .end method
@@ -2409,7 +2409,7 @@
 
     const p1, 0xe5d9
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance p2, Ljava/lang/RuntimeException;
 
@@ -2417,7 +2417,7 @@
 
     invoke-direct {p2, p3}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     throw p2
 .end method
@@ -2427,7 +2427,7 @@
 
     const v0, 0xe5da
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0, p1}, Lcom/meitu/media/tools/editor/f;->open(Ljava/lang/String;)Z
 
@@ -2437,7 +2437,7 @@
 
     if-nez p1, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 
@@ -2489,7 +2489,7 @@
     const/4 v1, 0x0
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -2499,7 +2499,7 @@
 
     const v0, 0xe5c9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean v1, p0, Lcom/meitu/media/tools/editor/p;->m:Z
 
@@ -2510,7 +2510,7 @@
     iput-boolean v1, p0, Lcom/meitu/media/tools/editor/p;->l:Z
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -2520,9 +2520,9 @@
 
     const v0, 0xe5bf
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -2532,7 +2532,7 @@
 
     const p1, 0xe5d2
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance p2, Ljava/lang/RuntimeException;
 
@@ -2540,7 +2540,7 @@
 
     invoke-direct {p2, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     throw p2
 .end method
@@ -2561,13 +2561,13 @@
 
     const v10, 0xe5cb
 
-    invoke-static {v10}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v10}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v11, 0x0
 
     if-nez v0, :cond_0
 
-    invoke-static {v10}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v10}, Lcom/res/ANRTrace;->a(I)V
 
     return v11
 
@@ -2917,7 +2917,7 @@
 
     invoke-direct {v0, v9}, Ljava/lang/Exception;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v10}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v10}, Lcom/res/ANRTrace;->a(I)V
 
     throw v0
 
@@ -2952,7 +2952,7 @@
     iput-boolean v11, v8, Lcom/meitu/media/tools/editor/p;->m:Z
 
     :goto_8
-    invoke-static {v10}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v10}, Lcom/res/ANRTrace;->a(I)V
 
     return v11
 
@@ -2961,7 +2961,7 @@
 
     invoke-direct {v0, v9}, Ljava/lang/Exception;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v10}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v10}, Lcom/res/ANRTrace;->a(I)V
 
     throw v0
 
@@ -2980,14 +2980,14 @@
 
     invoke-direct {v0, v9}, Ljava/lang/Exception;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v10}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v10}, Lcom/res/ANRTrace;->a(I)V
 
     throw v0
 
     :cond_e
     iput-boolean v11, v8, Lcom/meitu/media/tools/editor/p;->m:Z
 
-    invoke-static {v10}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v10}, Lcom/res/ANRTrace;->a(I)V
 
     throw v2
 .end method
@@ -2997,7 +2997,7 @@
 
     const p2, 0xe5ea
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance p4, Lcom/meitu/media/tools/editor/m;
 
@@ -3018,7 +3018,7 @@
     :goto_0
     const/4 p1, 0x0
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -3028,11 +3028,11 @@
 
     const v0, 0xe5c1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/tools/editor/p;->g:J
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-wide v1
 .end method
@@ -3042,11 +3042,11 @@
 
     const v0, 0xe5de
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/meitu/media/tools/editor/p;->r:F
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -3056,9 +3056,9 @@
 
     const p1, 0xe5ee
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     const/4 p1, 0x0
 
@@ -3070,9 +3070,9 @@
 
     const v0, 0xe5df
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const/4 v0, 0x0
 
@@ -3084,7 +3084,7 @@
 
     const v0, 0xe5c8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/meitu/media/tools/editor/p;->b:I
 
@@ -3101,7 +3101,7 @@
     :cond_0
     iget v1, p0, Lcom/meitu/media/tools/editor/p;->d:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 
@@ -3109,7 +3109,7 @@
     :goto_0
     iget v1, p0, Lcom/meitu/media/tools/editor/p;->c:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -3119,7 +3119,7 @@
 
     const v0, 0xe5c6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/meitu/media/tools/editor/p;->b:I
 
@@ -3136,7 +3136,7 @@
     :cond_0
     iget v1, p0, Lcom/meitu/media/tools/editor/p;->c:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 
@@ -3144,7 +3144,7 @@
     :goto_0
     iget v1, p0, Lcom/meitu/media/tools/editor/p;->d:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -3154,9 +3154,9 @@
 
     const v0, 0xe5ed
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const/4 v0, -0x1
 
@@ -3168,11 +3168,11 @@
 
     const v0, 0xe5c4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/tools/editor/p;->e:D
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-wide v1
 .end method
@@ -3182,7 +3182,7 @@
 
     const p1, 0xe5dd
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance p2, Ljava/lang/RuntimeException;
 
@@ -3190,7 +3190,7 @@
 
     invoke-direct {p2, p3}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     throw p2
 .end method
@@ -3200,11 +3200,11 @@
 
     const v0, 0xe5c3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/meitu/media/tools/editor/p;->d:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -3214,11 +3214,11 @@
 
     const v0, 0xe5c5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/meitu/media/tools/editor/p;->b:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -3228,11 +3228,11 @@
 
     const v0, 0xe5c0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/tools/editor/p;->f:J
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-wide v1
 .end method
@@ -3242,11 +3242,11 @@
 
     const v0, 0xe5c2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/meitu/media/tools/editor/p;->c:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -3256,13 +3256,13 @@
 
     const v0, 0xe5ca
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean v1, p0, Lcom/meitu/media/tools/editor/p;->m:Z
 
     xor-int/lit8 v1, v1, 0x1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -3272,7 +3272,7 @@
 
     const v0, 0xe5be
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/media/tools/editor/VideoFilterEdit;
 
@@ -3304,7 +3304,7 @@
 
     invoke-static {p1}, Lcom/meitu/media/tools/utils/debug/Logger;->i(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v3
 
@@ -3424,13 +3424,13 @@
 
     const/4 p1, 0x1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 
     :cond_2
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v3
 .end method
@@ -3440,7 +3440,7 @@
 
     const p1, 0xe5cd
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v0, Ljava/lang/RuntimeException;
 
@@ -3448,7 +3448,7 @@
 
     invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     throw v0
 .end method
@@ -3458,7 +3458,7 @@
 
     const p1, 0xe5cc
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance p2, Ljava/lang/RuntimeException;
 
@@ -3466,7 +3466,7 @@
 
     invoke-direct {p2, v0}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     throw p2
 .end method
@@ -3476,7 +3476,7 @@
 
     const p1, 0xe5cf
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v0, Ljava/lang/RuntimeException;
 
@@ -3484,7 +3484,7 @@
 
     invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     throw v0
 .end method
@@ -3494,7 +3494,7 @@
 
     const p1, 0xe5db
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance p2, Ljava/lang/RuntimeException;
 
@@ -3502,7 +3502,7 @@
 
     invoke-direct {p2, p3}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     throw p2
 .end method
@@ -3512,7 +3512,7 @@
 
     const p1, 0xe5d5
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v0, Ljava/lang/RuntimeException;
 
@@ -3520,7 +3520,7 @@
 
     invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     throw v0
 .end method
@@ -3530,7 +3530,7 @@
 
     const p1, 0xe5d6
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v0, Ljava/lang/RuntimeException;
 
@@ -3538,7 +3538,7 @@
 
     invoke-direct {v0, v1}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     throw v0
 .end method
@@ -3548,7 +3548,7 @@
 
     const v0, 0xe5dc
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Ljava/lang/RuntimeException;
 
@@ -3556,7 +3556,7 @@
 
     invoke-direct {v1, v2}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw v1
 .end method
@@ -3566,7 +3566,7 @@
 
     const p1, 0xe5d4
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance p2, Ljava/lang/RuntimeException;
 
@@ -3574,7 +3574,7 @@
 
     invoke-direct {p2, p3}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     throw p2
 .end method
@@ -3593,7 +3593,7 @@
 
     const v15, 0xe5e4
 
-    invoke-static {v15}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v15}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual/range {p3 .. p3}, Landroid/media/MediaCodec;->getInputBuffers()[Ljava/nio/ByteBuffer;
 
@@ -3983,7 +3983,7 @@
 
     const v1, 0xe5e4
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     throw v0
 
@@ -4743,7 +4743,7 @@
     :cond_25
     const v0, 0xe5e4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -4753,7 +4753,7 @@
 
     const v0, 0xe5eb
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/media/tools/editor/p;->j:Lcom/meitu/media/tools/editor/r;
 
@@ -4762,7 +4762,7 @@
     invoke-virtual {v1}, Lcom/meitu/media/tools/editor/r;->l()V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -4772,7 +4772,7 @@
 
     const p1, 0xe5d7
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance p2, Ljava/lang/RuntimeException;
 
@@ -4780,7 +4780,7 @@
 
     invoke-direct {p2, p3}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     throw p2
 .end method
@@ -4790,7 +4790,7 @@
 
     const p1, 0xe5d8
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance p2, Ljava/lang/RuntimeException;
 
@@ -4798,7 +4798,7 @@
 
     invoke-direct {p2, p3}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     throw p2
 .end method
@@ -4808,7 +4808,7 @@
 
     const p1, 0xe5d3
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance p2, Ljava/lang/RuntimeException;
 
@@ -4816,7 +4816,7 @@
 
     invoke-direct {p2, p3}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     throw p2
 .end method

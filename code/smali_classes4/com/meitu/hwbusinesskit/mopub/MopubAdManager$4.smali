@@ -39,13 +39,13 @@
 
     const p1, 0xf09e
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/mopub/MopubAdManager$4;->this$0:Lcom/meitu/hwbusinesskit/mopub/MopubAdManager;
 
     invoke-static {v0}, Lcom/meitu/hwbusinesskit/mopub/MopubAdManager;->access$2100(Lcom/meitu/hwbusinesskit/mopub/MopubAdManager;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -55,9 +55,9 @@
 
     const p1, 0xf09d
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

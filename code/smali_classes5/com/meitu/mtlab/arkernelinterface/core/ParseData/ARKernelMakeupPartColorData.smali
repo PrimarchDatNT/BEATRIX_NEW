@@ -162,7 +162,7 @@
 
     const v0, 0xe8be
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;->nativeInstance:J
 
@@ -172,7 +172,7 @@
 
     iput-boolean v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;->nativeReleased:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -187,7 +187,7 @@
 
     const v0, 0xe8bf
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     iget-boolean v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;->nativeReleased:Z
@@ -201,7 +201,7 @@
     :cond_0
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -210,7 +210,7 @@
 
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw v1
 .end method
@@ -220,7 +220,7 @@
 
     const v0, 0xe8b8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;->nativeInstance:J
 
@@ -230,7 +230,7 @@
 
     iput v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;->defaultAlpha:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -240,11 +240,11 @@
 
     const v0, 0xe8b6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;->colorID:J
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-wide v1
 .end method
@@ -254,7 +254,7 @@
 
     const v0, 0xe8bb
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;->nativeInstance:J
 
@@ -264,7 +264,7 @@
 
     iput v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;->opacity:F
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -274,7 +274,7 @@
 
     const v0, 0xe8b9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;->nativeInstance:J
 
@@ -284,7 +284,7 @@
 
     iput-object v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;->RGBA:[F
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -294,7 +294,7 @@
 
     const v0, 0xe8bd
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;->nativeInstance:J
 
@@ -302,7 +302,7 @@
 
     move-result v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -312,11 +312,11 @@
 
     const v0, 0xe8b7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-wide p1, p0, Lcom/meitu/mtlab/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;->colorID:J
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -326,7 +326,7 @@
 
     const v0, 0xe8bc
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput p1, p0, Lcom/meitu/mtlab/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;->opacity:F
 
@@ -334,7 +334,7 @@
 
     invoke-static {v1, v2, p1}, Lcom/meitu/mtlab/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;->nSetMakeupColorOpacity(JF)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -344,7 +344,7 @@
 
     const v0, 0xe8ba
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtlab/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;->nativeInstance:J
 
@@ -352,7 +352,7 @@
 
     iput-object p1, p0, Lcom/meitu/mtlab/arkernelinterface/core/ParseData/ARKernelMakeupPartColorData;->RGBA:[F
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

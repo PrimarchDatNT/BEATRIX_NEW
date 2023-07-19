@@ -33,7 +33,7 @@
 
     const v0, 0xc044
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/beautypluseffecttools/MTOverseasBaseFilter;->nativeInstance:J
 
@@ -51,7 +51,7 @@
     const/4 v1, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -61,7 +61,7 @@
 
     const v0, 0xc045
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     const-string v1, "gnustl_shared"
@@ -138,7 +138,7 @@
     invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
 
     :goto_4
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

@@ -40,7 +40,7 @@
 
     const/16 v0, 0x46cc
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "responseListener"
 
@@ -114,7 +114,7 @@
 
     invoke-virtual {v1, p1}, Lf/k/k/d;->j(Lf/k/k/p;)Lf/k/k/d;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -136,7 +136,7 @@
 
     const/16 v0, 0x46cd
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "responseListener"
 
@@ -182,7 +182,7 @@
 
     invoke-virtual {p1, p2}, Lf/k/k/d;->j(Lf/k/k/p;)Lf/k/k/d;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -211,7 +211,7 @@
 
     const/16 v0, 0x46ce
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "list"
 
@@ -257,7 +257,7 @@
 
     invoke-virtual {p1, p2}, Lf/k/k/d;->j(Lf/k/k/p;)Lf/k/k/d;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

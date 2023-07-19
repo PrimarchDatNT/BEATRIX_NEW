@@ -84,9 +84,9 @@
 
     const v0, 0x804b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const-string v0, "precision highp float;\n\nvarying vec2 v_textureCoordinates;\n\nuniform sampler2D originalTexture;//\u539f\u56fe\nuniform sampler2D effectiveTexture;//\u6548\u679c\u56fe\nuniform sampler2D alphaChannel;//\u900f\u660e\u901a\u9053\n\nvoid main()\n{\n    vec4 src = texture2D(originalTexture, v_textureCoordinates);\n    vec4 effective = texture2D(effectiveTexture, v_textureCoordinates);\n    \n    float alpha = texture2D(alphaChannel, v_textureCoordinates).r;\n    \n    vec4 result = src * (1.0 - alpha) + effective * alpha;\n    \n    gl_FragColor = vec4(result);\n}"
 
@@ -98,7 +98,7 @@
 
     const v0, 0x804c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "originalTexture"
 
@@ -124,7 +124,7 @@
 
     iput p1, p0, Lcom/commsource/studio/shader/h;->n:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -134,7 +134,7 @@
 
     const v0, 0x804d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const v1, 0x84c0
 
@@ -192,7 +192,7 @@
 
     invoke-static {v1, v2}, Landroid/opengl/GLES20;->glUniform1i(II)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -204,11 +204,11 @@
 
     const v0, 0x804e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/shader/h;->o:Lcom/commsource/studio/shader/h$a;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

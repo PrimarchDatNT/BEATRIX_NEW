@@ -53,7 +53,7 @@
 
     const/16 v0, 0x7936
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/home/NewHomeActivity$videoScrollListener$2$a;
 
@@ -77,7 +77,7 @@
 
     invoke-direct {v1, p0, v2, v3}, Lcom/commsource/home/NewHomeActivity$videoScrollListener$2$a;-><init>(Lcom/commsource/home/NewHomeActivity$videoScrollListener$2;Landroidx/recyclerview/widget/RecyclerView;Ll/a/a/a/a/a/a;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -87,13 +87,13 @@
 
     const/16 v0, 0x7935
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/commsource/home/NewHomeActivity$videoScrollListener$2;->invoke()Lcom/commsource/home/NewHomeActivity$videoScrollListener$2$a;
 
     move-result-object v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

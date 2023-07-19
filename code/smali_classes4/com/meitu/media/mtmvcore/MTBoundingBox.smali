@@ -66,7 +66,7 @@
 
     const v0, 0xe061
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v9, Lcom/meitu/media/mtmvcore/MTBoundingBox;
 
@@ -88,7 +88,7 @@
 
     invoke-direct/range {v1 .. v8}, Lcom/meitu/media/mtmvcore/MTBoundingBox;-><init>(Ljava/lang/String;ZFFFF[F)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v9
 .end method
@@ -98,13 +98,13 @@
 
     const v0, 0xe060
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/media/mtmvcore/MTBoundingBox;
 
     invoke-direct {v1, p0, p1, p2, p3}, Lcom/meitu/media/mtmvcore/MTBoundingBox;-><init>(Ljava/lang/String;ZLandroid/graphics/RectF;Landroid/graphics/Matrix;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

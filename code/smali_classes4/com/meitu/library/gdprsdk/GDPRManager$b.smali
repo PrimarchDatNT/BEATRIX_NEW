@@ -33,7 +33,7 @@
 
     const v0, 0xf1a1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0, p1}, Lcom/meitu/library/gdprsdk/GDPRManager$b;->b(Landroid/content/Context;)Lcom/meitu/library/gdprsdk/GDPRManager$GDPR_STATE;
 
@@ -55,7 +55,7 @@
     const/4 p1, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -65,7 +65,7 @@
 
     const v0, 0xf1a0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     const-string v1, "phone"
@@ -101,7 +101,7 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
@@ -153,7 +153,7 @@
 
     sget-object p1, Lcom/meitu/library/gdprsdk/GDPRManager$GDPR_STATE;->UNAVAILABLE:Lcom/meitu/library/gdprsdk/GDPRManager$GDPR_STATE;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
@@ -178,7 +178,7 @@
     sget-object p1, Lcom/meitu/library/gdprsdk/GDPRManager$GDPR_STATE;->NOT_IN_GDPR:Lcom/meitu/library/gdprsdk/GDPRManager$GDPR_STATE;
 
     :goto_3
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
@@ -186,7 +186,7 @@
     :goto_4
     sget-object p1, Lcom/meitu/library/gdprsdk/GDPRManager$GDPR_STATE;->UNAVAILABLE:Lcom/meitu/library/gdprsdk/GDPRManager$GDPR_STATE;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method

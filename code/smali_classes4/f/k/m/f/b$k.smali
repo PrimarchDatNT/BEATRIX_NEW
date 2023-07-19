@@ -43,7 +43,7 @@
 
     const v0, 0xc05c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     :cond_0
     iget-object v1, p0, Lf/k/m/f/b$k;->b:Lf/k/m/f/b;
@@ -164,7 +164,7 @@
     :goto_2
     invoke-static {v3, v2, v4, v1}, Lf/k/m/f/b;->d(Lf/k/m/f/b;Lcom/android/billingclient/api/Purchase;ILjava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -175,7 +175,7 @@
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
     :goto_3
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -187,7 +187,7 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw v2
 .end method

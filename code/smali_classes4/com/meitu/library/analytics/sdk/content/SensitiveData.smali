@@ -49,7 +49,7 @@
 
     const v0, 0xd525
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/library/analytics/sdk/content/SensitiveData;
 
@@ -229,7 +229,7 @@
 
     const v0, 0xd525
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -256,7 +256,7 @@
 
     const v0, 0xd523
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-class v1, Lcom/meitu/library/analytics/sdk/content/SensitiveData;
 
@@ -266,7 +266,7 @@
 
     check-cast p0, Lcom/meitu/library/analytics/sdk/content/SensitiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -276,7 +276,7 @@
 
     const v0, 0xd522
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/library/analytics/sdk/content/SensitiveData;->$VALUES:[Lcom/meitu/library/analytics/sdk/content/SensitiveData;
 
@@ -286,7 +286,7 @@
 
     check-cast v1, [Lcom/meitu/library/analytics/sdk/content/SensitiveData;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -298,11 +298,11 @@
 
     const v0, 0xd524
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/analytics/sdk/content/SensitiveData;->name:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

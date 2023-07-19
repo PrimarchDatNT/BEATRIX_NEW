@@ -39,7 +39,7 @@
 
     const p1, 0xf461
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p2, p0, Lf/k/j0/c$b;->a:Lf/k/j0/c;
 
@@ -60,7 +60,7 @@
     invoke-interface {p2, v0}, Lcom/meitu/shortcut/core/f;->a(Ljava/lang/Object;)V
 
     :cond_0
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

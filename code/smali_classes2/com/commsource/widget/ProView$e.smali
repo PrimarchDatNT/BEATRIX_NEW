@@ -47,7 +47,7 @@
 
     const/16 p1, 0xb1e
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/widget/ProView$e;->a:Lcom/commsource/widget/ProView;
 
@@ -133,7 +133,7 @@
 
     invoke-virtual {v0, v1, v2}, Lcom/commsource/camera/f1/n;->f(FF)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -144,7 +144,7 @@
 
     invoke-direct {v0, v1}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     throw v0
 .end method
@@ -154,7 +154,7 @@
 
     const/16 v0, 0xb1d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/widget/ProView$e;->a:Lcom/commsource/widget/ProView;
 
@@ -248,7 +248,7 @@
 
     invoke-virtual {p2, p1}, Landroid/widget/RelativeLayout;->setAlpha(F)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

@@ -28,7 +28,7 @@
 
     const v0, 0x9694
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/statistics/FirebaseTestEventOutputController$a$a;
 
@@ -36,7 +36,7 @@
 
     sput-object v1, Lcom/commsource/statistics/FirebaseTestEventOutputController$a$a;->a:Lcom/commsource/statistics/FirebaseTestEventOutputController$a$a;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -56,7 +56,7 @@
 
     const v0, 0x9693
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/commsource/statistics/FirebaseTestEventOutputController;->c:Lcom/commsource/statistics/FirebaseTestEventOutputController$a;
 
@@ -66,7 +66,7 @@
 
     invoke-static {v1}, Lcom/meitu/library/p/g/b;->m(Ljava/lang/String;)Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

@@ -45,13 +45,13 @@
 
     const/16 v0, 0x74df
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$g;->a:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;
 
     invoke-static {v1}, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;->J(Lcom/commsource/camera/xcamera/cover/CameraCaptureCover;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -61,7 +61,7 @@
 
     const/16 p1, 0x74e0
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p2, :cond_0
 
@@ -76,7 +76,7 @@
     :cond_0
     const/4 p2, 0x1
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return p2
 .end method

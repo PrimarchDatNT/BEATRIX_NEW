@@ -23,7 +23,7 @@
 
     const v0, 0xdfd4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p0, p1}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeCreate(FF)J
 
@@ -47,7 +47,7 @@
     move-object p0, v1
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -57,7 +57,7 @@
 
     const v0, 0xdfd5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p0, p1, p2, p3}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeCreate(FFLjava/lang/String;Ljava/lang/String;)J
 
@@ -81,7 +81,7 @@
     move-object p0, p2
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -99,7 +99,7 @@
 
     const v0, 0xdffc
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
@@ -107,7 +107,7 @@
 
     move-result v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -117,13 +117,13 @@
 
     const v0, 0xdfde
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativePauseRender(J)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -133,7 +133,7 @@
 
     const v0, 0xdfd6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
@@ -143,7 +143,7 @@
 
     iput-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -153,13 +153,13 @@
 
     const v0, 0xdfdf
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeResumeRender(J)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -169,7 +169,7 @@
 
     const v0, 0xdfe0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
@@ -177,7 +177,7 @@
 
     move-result p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -187,13 +187,13 @@
 
     const v0, 0xdfe2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2, p1, p2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeSetContentColor(JII)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -203,13 +203,13 @@
 
     const v0, 0xdfe6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2, p1}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeSetContentRotation(JF)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -219,13 +219,13 @@
 
     const v0, 0xdfe3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2, p1}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeSetContentSize(JF)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -235,13 +235,13 @@
 
     const v0, 0xdfe1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2, p1}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeSetContentSpeed(JF)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -251,7 +251,7 @@
 
     const v0, 0xdfe9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
@@ -259,7 +259,7 @@
 
     invoke-virtual {p0, v1, v2, p1}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeSetDuration(JF)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -269,13 +269,13 @@
 
     const v0, 0xdff6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2, p1, p2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeSetTouchEndTime(JJ)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -285,13 +285,13 @@
 
     const v0, 0xdff4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2, p1, p2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeSetTouchStartTime(JJ)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -301,13 +301,13 @@
 
     const v0, 0xdfeb
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2, p0, p1}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeSetTouchCallback(JLcom/meitu/mtmvcore/application/media/MTVFXView;Lcom/meitu/mtmvcore/application/media/MTTouchInterface;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -317,13 +317,13 @@
 
     const v0, 0xdfe7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2, p1}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeSetUpdateMode(JI)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -333,13 +333,13 @@
 
     const v0, 0xdfd7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeShow(J)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -349,13 +349,13 @@
 
     const v0, 0xdfdc
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeStartRender(J)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -365,13 +365,13 @@
 
     const v0, 0xdfdd
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeStopRender(J)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -381,13 +381,13 @@
 
     const v0, 0xdfdb
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2, p1, p2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeTouchBy(JFF)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -397,13 +397,13 @@
 
     const v0, 0xdfda
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2, p1, p2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeTouchTo(JFF)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -413,7 +413,7 @@
 
     const v0, 0xdff8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v2, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
@@ -427,7 +427,7 @@
 
     invoke-virtual/range {v1 .. v6}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeAddToTimeLine(JJLcom/meitu/media/mtmvcore/MTMVTimeLine;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -437,13 +437,13 @@
 
     const v0, 0xdfed
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeDisableRecordAction(J)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -453,13 +453,13 @@
 
     const v0, 0xdff1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeDisableRender(J)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -469,13 +469,13 @@
 
     const v0, 0xdff3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeDisableTail(J)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -485,13 +485,13 @@
 
     const v0, 0xdfef
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeDisableTouchEvent(J)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -501,13 +501,13 @@
 
     const v0, 0xdfec
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeEnableRecordAction(J)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -517,13 +517,13 @@
 
     const v0, 0xdff0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeEnableRender(J)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -533,13 +533,13 @@
 
     const v0, 0xdff2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeEnableTail(J)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -549,13 +549,13 @@
 
     const v0, 0xdfee
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeEnableTouchEvent(J)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -565,13 +565,13 @@
 
     const v0, 0xe000
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeEndTouchEvent(J)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -581,7 +581,7 @@
 
     const v0, 0xdffb
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
@@ -589,7 +589,7 @@
 
     move-result v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -599,7 +599,7 @@
 
     const v0, 0xdffa
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
@@ -607,7 +607,7 @@
 
     move-result v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -746,7 +746,7 @@
 
     const v0, 0xdfea
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
@@ -756,7 +756,7 @@
 
     float-to-long v1, v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-wide v1
 .end method
@@ -766,7 +766,7 @@
 
     const v0, 0xdfe4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
@@ -774,7 +774,7 @@
 
     move-result v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -784,7 +784,7 @@
 
     const v0, 0xdfff
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
@@ -792,7 +792,7 @@
 
     move-result v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -802,7 +802,7 @@
 
     const v0, 0xdfe5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
@@ -810,7 +810,7 @@
 
     move-result v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -820,7 +820,7 @@
 
     const v0, 0xdff7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
@@ -828,7 +828,7 @@
 
     move-result-wide v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-wide v1
 .end method
@@ -838,7 +838,7 @@
 
     const v0, 0xdff5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
@@ -846,7 +846,7 @@
 
     move-result-wide v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-wide v1
 .end method
@@ -856,7 +856,7 @@
 
     const v0, 0xdff9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
@@ -882,7 +882,7 @@
     move-object v1, v3
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -892,7 +892,7 @@
 
     const v0, 0xdfe8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
@@ -900,7 +900,7 @@
 
     move-result v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -910,7 +910,7 @@
 
     const v0, 0xdfd9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
@@ -918,7 +918,7 @@
 
     move-result v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -928,13 +928,13 @@
 
     const v0, 0xdfd8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
     invoke-virtual {p0, v1, v2}, Lcom/meitu/mtmvcore/application/media/MTVFXView;->nativeHide(J)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -944,7 +944,7 @@
 
     const v0, 0xdffe
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
@@ -952,7 +952,7 @@
 
     move-result v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -962,7 +962,7 @@
 
     const v0, 0xdffd
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/mtmvcore/application/media/MTVFXView;->a:J
 
@@ -970,7 +970,7 @@
 
     move-result v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method

@@ -47,7 +47,7 @@
 
     const v0, 0xd9c8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/mtuploader/MtUploadService$b;->c:Lcom/meitu/mtuploader/MtUploadService;
 
@@ -67,7 +67,7 @@
 
     invoke-static {v1, v2, v3, v4}, Lcom/meitu/mtuploader/f;->j(Landroid/content/Context;Lcom/meitu/mtuploader/bean/MtUploadBean;Lcom/meitu/mtuploader/bean/MtUploadRequestTokenBean;Lcom/meitu/mtuploader/f$e;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

@@ -40,7 +40,7 @@
 
     const v0, 0xb4de
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/n/a/o/f$b;->a:Lcom/meitu/library/n/a/o/f;
 
@@ -50,7 +50,7 @@
 
     invoke-virtual {v1}, Lcom/meitu/library/n/a/o/a;->D()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -62,7 +62,7 @@
 
     const v0, 0xb4dd
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/n/a/o/f$b;->a:Lcom/meitu/library/n/a/o/f;
 
@@ -109,7 +109,7 @@
     invoke-interface {v1}, Lcom/meitu/library/n/a/o/a$h;->a()V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -119,9 +119,9 @@
 
     const v0, 0xb4dc
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -131,9 +131,9 @@
 
     const p1, 0xb4db
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -143,7 +143,7 @@
 
     const p1, 0xb4e2
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/meitu/library/n/a/o/f$b;->a:Lcom/meitu/library/n/a/o/f;
 
@@ -190,7 +190,7 @@
     invoke-static {v0, v1}, Lcom/meitu/library/n/a/o/f;->u(Lcom/meitu/library/n/a/o/f;Lcom/meitu/library/n/a/o/e$b;)Lcom/meitu/library/n/a/o/e$b;
 
     :cond_2
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -200,9 +200,9 @@
 
     const v0, 0xb4e3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -212,9 +212,9 @@
 
     const v0, 0xb4e1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -224,7 +224,7 @@
 
     const v0, 0xb4e0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/n/a/o/f$b;->a:Lcom/meitu/library/n/a/o/f;
 
@@ -234,7 +234,7 @@
 
     invoke-virtual {v1}, Lcom/meitu/library/n/a/o/a;->D()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -244,7 +244,7 @@
 
     const v0, 0xb4df
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/n/a/o/f$b;->a:Lcom/meitu/library/n/a/o/f;
 
@@ -291,7 +291,7 @@
     invoke-static {v1, v2}, Lcom/meitu/library/n/a/o/f;->u(Lcom/meitu/library/n/a/o/f;Lcom/meitu/library/n/a/o/e$b;)Lcom/meitu/library/n/a/o/e$b;
 
     :cond_2
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

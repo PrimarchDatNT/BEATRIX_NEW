@@ -31,7 +31,7 @@
 
     const v0, 0xf1c7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "func"
 
@@ -45,7 +45,7 @@
 
     invoke-virtual {v1}, Lcom/meitu/common/animutil/a;->a()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -73,7 +73,7 @@
 
     const v0, 0xf1c8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "func"
 
@@ -89,7 +89,7 @@
 
     invoke-virtual {v1}, Lcom/meitu/common/animutil/ObjAnim;->A()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -117,7 +117,7 @@
 
     const v0, 0xf1c9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "func"
 
@@ -133,7 +133,7 @@
 
     invoke-virtual {v1}, Lcom/meitu/common/animutil/d;->z()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

@@ -75,7 +75,7 @@
 
     const/16 v0, 0x822
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch;->I2()Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch$b;
 
@@ -127,7 +127,7 @@
 
     invoke-virtual {p0, v2, v3}, Lcom/commsource/puzzle/patchedworld/ImagePatch;->s2(J)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -140,7 +140,7 @@
 
     const/16 v0, 0x824
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-super {p0}, Lcom/commsource/puzzle/patchedworld/VisualPatch;->I()I
 
@@ -186,7 +186,7 @@
 
     move-result v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -196,7 +196,7 @@
 
     const/16 v0, 0x821
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch$b;
 
@@ -274,7 +274,7 @@
 
     iput-wide v2, v1, Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch$b;->j:J
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -287,7 +287,7 @@
 
     const/16 v0, 0x825
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -333,7 +333,7 @@
 
     move-result v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -343,11 +343,11 @@
 
     const/16 v0, 0x828
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch;->D1:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -357,13 +357,13 @@
 
     const/16 v0, 0x826
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0, p1}, Lcom/commsource/puzzle/patchedworld/ImagePatch;->w2(Landroid/graphics/Bitmap;)Lcom/commsource/puzzle/patchedworld/ImagePatch;
 
     invoke-virtual {p0, p1}, Lcom/commsource/puzzle/patchedworld/VisualPatch;->w1(Landroid/graphics/Bitmap;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -373,11 +373,11 @@
 
     const/16 v0, 0x827
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput p1, p0, Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch;->D1:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -391,7 +391,7 @@
 
     const/16 v0, 0x823
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch;->I2()Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch$b;
 
@@ -403,7 +403,7 @@
 
     invoke-virtual {p0, p1}, Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch;->H2(Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch$b;)Lcom/commsource/puzzle/patchedworld/PosterPhotoPatch$b;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

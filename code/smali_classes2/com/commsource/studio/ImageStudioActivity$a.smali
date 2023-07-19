@@ -37,7 +37,7 @@
 
     const/16 p6, 0x49a7
 
-    invoke-static {p6}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p6}, Lcom/res/ANRTrace;->e(I)V
 
     and-int/lit8 v0, p5, 0x4
 
@@ -55,7 +55,7 @@
     :cond_1
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/commsource/studio/ImageStudioActivity$a;->b(Landroid/app/Activity;Ljava/lang/String;Lcom/commsource/beautyplus/router/RouterEntity;I)V
 
-    invoke-static {p6}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p6}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -71,7 +71,7 @@
 
     const/16 v0, 0x49a8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "activity"
 
@@ -95,7 +95,7 @@
 
     invoke-virtual {p1, v1}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -117,7 +117,7 @@
 
     const/16 v0, 0x49a6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "activity"
 
@@ -145,7 +145,7 @@
 
     invoke-static {v1}, Lcom/commsource/util/c2;->e(Lcom/commsource/util/u2/a;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

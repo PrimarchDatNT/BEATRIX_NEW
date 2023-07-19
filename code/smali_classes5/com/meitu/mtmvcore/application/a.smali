@@ -45,7 +45,7 @@
 
     const v0, 0xe16e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean v1, p0, Lcom/meitu/mtmvcore/application/a;->b:Z
 
@@ -61,7 +61,7 @@
 
     iput-boolean v1, p0, Lcom/meitu/mtmvcore/application/a;->b:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -164,7 +164,7 @@
 
     iput-wide v1, p0, Lcom/meitu/mtmvcore/application/a;->e:J
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -174,7 +174,7 @@
 
     const v0, 0xe16f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-wide/16 v1, 0x0
 
@@ -184,7 +184,7 @@
 
     iput-boolean v1, p0, Lcom/meitu/mtmvcore/application/a;->b:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -194,7 +194,7 @@
 
     const v0, 0xe16d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const v1, 0x4e6e6b28    # 1.0E9f
 
@@ -202,7 +202,7 @@
 
     iput v1, p0, Lcom/meitu/mtmvcore/application/a;->a:F
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

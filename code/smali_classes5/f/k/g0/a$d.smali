@@ -64,7 +64,7 @@
 
     const v0, 0xce23
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v8, Lcom/meitu/remote/config/d;
 
@@ -126,7 +126,7 @@
 
     invoke-direct/range {v1 .. v7}, Lcom/meitu/remote/config/d;-><init>(Landroid/content/Context;Lf/k/g0/a;Lf/k/g0/h/c;Lcom/meitu/remote/abt/a;Lf/k/g0/g/d/d;Lf/k/g0/g/c/a;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v8
 .end method
@@ -136,13 +136,13 @@
 
     const v0, 0xce24
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lf/k/g0/a$d;->a()Lcom/meitu/remote/config/d;
 
     move-result-object v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

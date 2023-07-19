@@ -42,13 +42,13 @@
 
     const v0, 0xbcc2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p0, p1}, Lcom/meitu/mtlab/MTAiInterface/MTBodyInOneModule/MTBodyInOneResult;->nativeBodyMatchFace([Landroid/graphics/RectF;Ljava/util/ArrayList;)[I
 
     move-result-object p0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -78,7 +78,7 @@
 
     const v0, 0xbcc1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-super {p0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
 
@@ -141,7 +141,7 @@
     iput-object v2, v1, Lcom/meitu/mtlab/MTAiInterface/MTBodyInOneModule/MTBodyInOneResult;->body:[Lcom/meitu/mtlab/MTAiInterface/MTBodyInOneModule/MTBodyInOne;
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

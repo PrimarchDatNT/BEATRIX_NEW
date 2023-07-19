@@ -46,7 +46,7 @@
 
     const v0, 0xe5fc
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/core/mtgif/MTGif$GIFSpeed;
 
@@ -118,7 +118,7 @@
 
     sput-object v10, Lcom/meitu/core/mtgif/MTGif$GIFSpeed;->$VALUES:[Lcom/meitu/core/mtgif/MTGif$GIFSpeed;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -143,7 +143,7 @@
 
     const v0, 0xe5fb
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-class v1, Lcom/meitu/core/mtgif/MTGif$GIFSpeed;
 
@@ -153,7 +153,7 @@
 
     check-cast p0, Lcom/meitu/core/mtgif/MTGif$GIFSpeed;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -163,7 +163,7 @@
 
     const v0, 0xe5fa
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/core/mtgif/MTGif$GIFSpeed;->$VALUES:[Lcom/meitu/core/mtgif/MTGif$GIFSpeed;
 
@@ -173,7 +173,7 @@
 
     check-cast v1, [Lcom/meitu/core/mtgif/MTGif$GIFSpeed;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

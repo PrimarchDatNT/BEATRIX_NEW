@@ -114,13 +114,13 @@
 
     const v0, 0xdfb4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
     invoke-direct {p0, p1, p2, v1, v2}, Lcom/meitu/media/UI/SelectBox;->nativeAddPosition(FFJ)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -130,7 +130,7 @@
 
     const v0, 0xdfab
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
@@ -138,7 +138,7 @@
 
     move-result v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -148,7 +148,7 @@
 
     const v0, 0xdfb2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
@@ -156,7 +156,7 @@
 
     move-result v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -166,7 +166,7 @@
 
     const v0, 0xdfb3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
@@ -174,7 +174,7 @@
 
     move-result v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -184,7 +184,7 @@
 
     const v0, 0xdfb6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
@@ -192,7 +192,7 @@
 
     move-result v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -202,7 +202,7 @@
 
     const v0, 0xdfaa
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
@@ -210,7 +210,7 @@
 
     move-result v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -220,13 +220,13 @@
 
     const v0, 0xdfac
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
     invoke-direct {p0, p1, v1, v2}, Lcom/meitu/media/UI/SelectBox;->nativeSetAlpha(FJ)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -236,13 +236,13 @@
 
     const v0, 0xdfaf
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
     invoke-direct {p0, p1, v1, v2}, Lcom/meitu/media/UI/SelectBox;->nativeSetDash(ZJ)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -252,13 +252,13 @@
 
     const v0, 0xdfb0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
     invoke-direct {p0, p1, p2, v1, v2}, Lcom/meitu/media/UI/SelectBox;->nativeSetDashData([FFJ)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -268,13 +268,13 @@
 
     const v0, 0xdfad
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
     invoke-direct {p0, p1, v1, v2}, Lcom/meitu/media/UI/SelectBox;->nativeSetLineColor(IJ)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -284,13 +284,13 @@
 
     const v0, 0xdfae
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
     invoke-direct {p0, p1, v1, v2}, Lcom/meitu/media/UI/SelectBox;->nativeSetLineWidth(FJ)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -300,13 +300,13 @@
 
     const v0, 0xdfb1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
     invoke-direct {p0, p1, p2, v1, v2}, Lcom/meitu/media/UI/SelectBox;->nativeSetPosition(FFJ)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -316,13 +316,13 @@
 
     const v0, 0xdfb5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
     invoke-direct {p0, p1, v1, v2}, Lcom/meitu/media/UI/SelectBox;->nativeSetRotation(FJ)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -332,13 +332,13 @@
 
     const v0, 0xdfbc
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
     invoke-direct {p0, p1, v1, v2}, Lcom/meitu/media/UI/SelectBox;->nativeSetShrinkOrEnglarg(FJ)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -348,13 +348,13 @@
 
     const v0, 0xdfb7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
     invoke-direct {p0, p1, v1, v2}, Lcom/meitu/media/UI/SelectBox;->nativeSetSkewX(FJ)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -364,13 +364,13 @@
 
     const v0, 0xdfb8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
     invoke-direct {p0, p1, v1, v2}, Lcom/meitu/media/UI/SelectBox;->nativeSetSkewY(FJ)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -380,13 +380,13 @@
 
     const v0, 0xdfbf
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
     invoke-direct {p0, p0, p1, v1, v2}, Lcom/meitu/media/UI/SelectBox;->nativeSetTouchCallback(Lcom/meitu/media/UI/SelectBox;Lcom/meitu/media/UI/SelTouchInterface;J)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -396,13 +396,13 @@
 
     const v0, 0xdfb9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
     invoke-direct {p0, p1, v1, v2}, Lcom/meitu/media/UI/SelectBox;->nativeSetVisible(ZJ)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -412,13 +412,13 @@
 
     const v0, 0xdfa9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
     invoke-direct {p0, p1, p2, v1, v2}, Lcom/meitu/media/UI/SelectBox;->nativeSetWidthAndHeight(FFJ)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -428,7 +428,7 @@
 
     const v0, 0xdfbd
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
@@ -436,7 +436,7 @@
 
     move-result p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -446,13 +446,13 @@
 
     const v0, 0xdfba
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
     invoke-direct {p0, p1, v1, v2}, Lcom/meitu/media/UI/SelectBox;->nativeTranslationToX(FJ)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -462,13 +462,13 @@
 
     const v0, 0xdfbb
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
     invoke-direct {p0, p1, v1, v2}, Lcom/meitu/media/UI/SelectBox;->nativeTranslationToY(FJ)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -478,7 +478,7 @@
 
     const v0, 0xdfc0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
@@ -488,7 +488,7 @@
 
     iput-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -498,13 +498,13 @@
 
     const v0, 0xdfbe
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/media/UI/SelectBox;->nativedrawRec(J)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -514,7 +514,7 @@
 
     const v0, 0xdfa8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v5, p0, Lcom/meitu/media/UI/SelectBox;->a:J
 
@@ -528,7 +528,7 @@
 
     invoke-direct/range {v1 .. v6}, Lcom/meitu/media/UI/SelectBox;->nativeSetPicFilePath(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;J)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

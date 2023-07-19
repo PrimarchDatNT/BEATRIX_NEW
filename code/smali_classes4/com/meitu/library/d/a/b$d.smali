@@ -17,7 +17,7 @@
     const v1, 0xa8fc
 
     :try_start_0
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v2, Lcom/meitu/library/d/a/b$d;->a:Ljava/lang/Boolean;
 
@@ -29,7 +29,7 @@
 
     move-result v2
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -70,7 +70,7 @@
 
     sput-object v2, Lcom/meitu/library/d/a/b$e;->a:[Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
@@ -91,7 +91,7 @@
 
     sput-object v2, Lcom/meitu/library/d/a/b$d;->a:Ljava/lang/Boolean;
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 

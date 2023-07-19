@@ -25,7 +25,7 @@
 
     const v0, 0xd2fa
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "LibSNS"
 
@@ -35,7 +35,7 @@
 
     sput-object v1, Lcom/meitu/libmtsns/framwork/util/SNSLog;->b:Lcom/meitu/libmtsns/framwork/util/SNSLog$DebugLevel;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -53,7 +53,7 @@
 
     const v0, 0xd2f6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/libmtsns/framwork/util/SNSLog;->b:Lcom/meitu/libmtsns/framwork/util/SNSLog$DebugLevel;
 
@@ -76,7 +76,7 @@
     invoke-interface {v1, p0}, Lcom/meitu/libmtsns/framwork/util/c;->a(Ljava/lang/String;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -86,7 +86,7 @@
 
     const v0, 0xd2f9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/libmtsns/framwork/util/SNSLog;->b:Lcom/meitu/libmtsns/framwork/util/SNSLog$DebugLevel;
 
@@ -109,7 +109,7 @@
     invoke-interface {v1, p0}, Lcom/meitu/libmtsns/framwork/util/c;->d(Ljava/lang/String;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -119,11 +119,11 @@
 
     const v0, 0xd2f1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/libmtsns/framwork/util/SNSLog;->b:Lcom/meitu/libmtsns/framwork/util/SNSLog$DebugLevel;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -133,11 +133,11 @@
 
     const v0, 0xd2ef
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/libmtsns/framwork/util/SNSLog;->a:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -147,7 +147,7 @@
 
     const v0, 0xd2f7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/libmtsns/framwork/util/SNSLog;->b:Lcom/meitu/libmtsns/framwork/util/SNSLog$DebugLevel;
 
@@ -170,7 +170,7 @@
     invoke-interface {v1, p0}, Lcom/meitu/libmtsns/framwork/util/c;->b(Ljava/lang/String;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -180,7 +180,7 @@
 
     const v0, 0xd2f4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/libmtsns/framwork/util/SNSLog$a;->a:[I
 
@@ -192,47 +192,47 @@
 
     packed-switch p0, :pswitch_data_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
     :pswitch_0
     invoke-static {p1}, Lcom/meitu/libmtsns/framwork/util/SNSLog;->b(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
     :pswitch_1
     invoke-static {p1}, Lcom/meitu/libmtsns/framwork/util/SNSLog;->k(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
     :pswitch_2
     invoke-static {p1}, Lcom/meitu/libmtsns/framwork/util/SNSLog;->a(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
     :pswitch_3
     invoke-static {p1}, Lcom/meitu/libmtsns/framwork/util/SNSLog;->e(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
     :pswitch_4
     invoke-static {p1}, Lcom/meitu/libmtsns/framwork/util/SNSLog;->j(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
     :pswitch_5
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -252,13 +252,13 @@
 
     const v0, 0xd2f2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p0, :cond_0
 
     sput-object p0, Lcom/meitu/libmtsns/framwork/util/SNSLog;->b:Lcom/meitu/libmtsns/framwork/util/SNSLog$DebugLevel;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -269,7 +269,7 @@
 
     invoke-direct {p0, v1}, Ljava/lang/IllegalArgumentException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p0
 .end method
@@ -279,11 +279,11 @@
 
     const v0, 0xd2f3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sput-object p0, Lcom/meitu/libmtsns/framwork/util/SNSLog;->c:Lcom/meitu/libmtsns/framwork/util/c;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -293,11 +293,11 @@
 
     const v0, 0xd2f0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sput-object p0, Lcom/meitu/libmtsns/framwork/util/SNSLog;->a:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -307,7 +307,7 @@
 
     const v0, 0xd2f5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/libmtsns/framwork/util/SNSLog;->b:Lcom/meitu/libmtsns/framwork/util/SNSLog$DebugLevel;
 
@@ -330,7 +330,7 @@
     invoke-interface {v1, p0}, Lcom/meitu/libmtsns/framwork/util/c;->e(Ljava/lang/String;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -340,7 +340,7 @@
 
     const v0, 0xd2f8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/libmtsns/framwork/util/SNSLog;->b:Lcom/meitu/libmtsns/framwork/util/SNSLog$DebugLevel;
 
@@ -363,7 +363,7 @@
     invoke-interface {v1, p0}, Lcom/meitu/libmtsns/framwork/util/c;->c(Ljava/lang/String;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

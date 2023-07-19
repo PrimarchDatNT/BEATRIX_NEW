@@ -52,13 +52,13 @@
 
     const/16 v0, 0x6347
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/billing/activity/ProActivity$r;->a:Lcom/commsource/billing/activity/ProActivity;
 
     invoke-static {v1, p1}, Lcom/commsource/billing/activity/ProActivity;->X0(Lcom/commsource/billing/activity/ProActivity;Ljava/lang/Boolean;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -68,13 +68,13 @@
 
     const/16 v0, 0x6346
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/billing/activity/ProActivity$r;->a(Ljava/lang/Boolean;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

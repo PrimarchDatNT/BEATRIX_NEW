@@ -44,7 +44,7 @@
 
     const/16 v0, 0x3082
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p2}, Lcom/meitu/template/bean/ArMaterial;->getId()Ljava/lang/Long;
 
@@ -1118,7 +1118,7 @@
     invoke-interface {p1, v2, v3, v4}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindLong(IJ)V
 
     :goto_14
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1128,13 +1128,13 @@
 
     const/16 v0, 0x3083
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p2, Lcom/meitu/template/bean/ArMaterial;
 
     invoke-virtual {p0, p1, p2}, Lf/k/i0/a/c$c;->a(Landroidx/sqlite/db/SupportSQLiteStatement;Lcom/meitu/template/bean/ArMaterial;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1144,9 +1144,9 @@
 
     const/16 v0, 0x3081
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const-string v0, "UPDATE OR ABORT `AR_MATERIAL` SET `_id` = ?,`NUMBER` = ?,`SORT` = ?,`VERSION_CONTROL` = ?,`MIN_VERSION` = ?,`MAX_VERSION` = ?,`FILE_URL` = ?,`FILE_SIZE` = ?,`THUMBNAIL` = ?,`PREVIEW_URL` = ?,`IS_HOT` = ?,`HOT_SORT` = ?,`HOT_END_TIME` = ?,`INTERACTIVE` = ?,`AUTO_DOWNLOAD` = ?,`IS_NEW` = ?,`NEW_SORT` = ?,`RED_TIME` = ?,`NEW_END_TIME` = ?,`END_TIME` = ?,`WEIGHT` = ?,`AFTER_WEIGHT` = ?,`TITLE` = ?,`BGM_FLAG` = ?,`DBG_ENABLE` = ?,`DBG_URL` = ?,`DBG_NUMBER` = ?,`IS_3D` = ?,`FEATURED_SORT` = ?,`IS_FEATURED` = ?,`IS_COLLECTED` = ?,`IS_DOWNLOAD` = ?,`IS_DOWNLOADING` = ?,`DOWNLOAD_TIME` = ?,`IS_HIDE_RED` = ?,`GROUP_NUMBER` = ?,`IS_BG_DOWNLOAD` = ?,`IS_BG_DOWNLOADING` = ?,`IS_3D_DOWNLOAD` = ?,`IS_3D_DOWNLOADING` = ?,`END_USE_TIME` = ?,`IS_DYE_HAIR` = ?,`IS_DYE_HAIR_DOWNLOAD` = ?,`IS_DYE_HAIR_DOWNLOADING` = ?,`COLLECTION_TIME` = ?,`IS_HUMAN_POSTURE` = ?,`IS_HUMAN_DOWNLOAD` = ?,`IS_HUMAN_DOWNLOADING` = ?,`AR_ONLINE_TEXT` = ?,`IS_SWITCHING` = ?,`IS_PHYSICAL` = ?,`IS_TOUCH` = ?,`REGION_HOT_SORT` = ?,`IS_ANIMAL_DOWNLOAD` = ?,`IS_PET` = ?,`REDIRECT_TO` = ?,`ENABLE_TEXT` = ?,`IS_AFTER_SHARE` = ?,`IS_SHARE_LOCK` = ?,`IS_SKELETAL` = ?,`IS_SKELETON_DOWNLOAD` = ?,`IS_FACE_3D_V2` = ?,`IS_NECK_LOCK_POINT` = ?,`IS_NECK_LOCK_DOWNLOAD` = ?,`IS_FACE_3D_V2_DOWNLOAD` = ?,`AR_CORE_TYPE` = ?,`HASH_TAG` = ?,`MAKE_LEVEL` = ?,`BEAUTY_LEVEL` = ?,`AR_HELP_TITLE` = ?,`AR_HELP_RULE` = ?,`AR_HELP_URL` = ?,`AR_HELP_IS_DOWNLOAD` = ?,`AR_HELP_TIP_TYPE` = ?,`IP_COLOR_CODE` = ?,`LOCATIONS` = ?,`IS_HAND_POSE` = ?,`IS_NEED_WATER_MARK` = ?,`IP_STROE_ID` = ?,`LOCK_CAMERA` = ?,`AR_CORE_ICON` = ?,`ALLOW_MODELS` = ?,`LIMIT_SPECIFIC_MODELS` = ?,`SHOW_AR_CORE_ICON` = ?,`PAID_TYPE` = ?,`NEW_AR` = ? WHERE `_id` = ?"
 

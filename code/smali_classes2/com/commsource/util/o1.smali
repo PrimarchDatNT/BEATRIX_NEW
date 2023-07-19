@@ -47,7 +47,7 @@
 
     const/16 v9, 0x33d1
 
-    invoke-static {v9}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v9}, Lcom/res/ANRTrace;->e(I)V
 
     if-nez v7, :cond_0
 
@@ -55,7 +55,7 @@
 
     invoke-direct {v0, v1}, Ljava/util/LinkedList;-><init>(Ljava/util/Collection;)V
 
-    invoke-static {v9}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v9}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 
@@ -71,7 +71,7 @@
     invoke-interface {v8, v7, v0, v0, v0}, Lcom/commsource/util/o1$c;->e(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
     :cond_1
-    invoke-static {v9}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v9}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v7
 
@@ -144,7 +144,7 @@
     invoke-interface {v8, v10, v11, v12, v13}, Lcom/commsource/util/o1$c;->e(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V
 
     :cond_4
-    invoke-static {v9}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v9}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v7
 .end method
@@ -154,7 +154,7 @@
 
     const/16 v0, 0x33d2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-nez p0, :cond_0
 
@@ -162,7 +162,7 @@
 
     const/4 p0, 0x0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p0
 
@@ -171,7 +171,7 @@
 
     const/4 p0, -0x1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p0
 
@@ -180,7 +180,7 @@
 
     const/4 p0, 0x1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p0
 
@@ -189,7 +189,7 @@
 
     move-result p0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p0
 .end method

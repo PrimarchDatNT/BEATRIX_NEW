@@ -39,7 +39,7 @@
 
     const/16 p1, 0x4a27
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p2, p0, Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView$a;->a:Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;
 
@@ -53,7 +53,7 @@
 
     invoke-static {p2}, Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;->d(Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -63,7 +63,7 @@
 
     const/16 v0, 0x4a26
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView$a;->a:Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;
 
@@ -73,7 +73,7 @@
 
     invoke-static {v1, p1}, Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;->a(Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;Landroid/view/Surface;)Landroid/view/Surface;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -83,7 +83,7 @@
 
     const/16 p1, 0x4a28
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView$a;->a:Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;
 
@@ -95,7 +95,7 @@
 
     invoke-static {v0}, Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;->e(Lcom/commsource/easyeditor/widget/EasyEditorSurfaceView;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

@@ -21,7 +21,7 @@
 
     const v0, 0xc671
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-class v1, Lf/k/h/a/h;
 
@@ -31,7 +31,7 @@
 
     sput-object v1, Lf/k/h/a/h;->c:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -49,7 +49,7 @@
 
     const v0, 0xc668
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lf/k/h/a/h;->d:Lf/k/h/a/h;
 
@@ -77,7 +77,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw v2
 
@@ -85,7 +85,7 @@
     :goto_0
     sget-object v1, Lf/k/h/a/h;->d:Lf/k/h/a/h;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -95,7 +95,7 @@
 
     const v0, 0xc670
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p1}, Lf/k/h/a/l/s;->a(Landroid/content/Context;)Lf/k/h/a/l/k;
 
@@ -115,7 +115,7 @@
 
     invoke-virtual {p1}, Lf/k/h/a/l/k;->r()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -127,7 +127,7 @@
 
     const v0, 0xc66c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lf/k/h/a/h;->a:Lf/k/h/a/l/r;
 
@@ -136,7 +136,7 @@
     invoke-interface {v1, p1, p2}, Lf/k/h/a/l/r;->a(Lcom/meitu/global/billing/purchase/data/MTGPurchase;Lf/k/h/a/l/y/c;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -146,7 +146,7 @@
 
     const v0, 0xc66f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lf/k/h/a/h;->b:Lf/k/h/a/k/c;
 
@@ -156,14 +156,14 @@
 
     move-result-object p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
     :cond_0
     const/4 p1, 0x0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -173,7 +173,7 @@
 
     const v0, 0xc669
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lf/k/h/a/h;->c:Ljava/lang/String;
 
@@ -187,7 +187,7 @@
 
     invoke-static {v1}, Lf/k/h/a/m/j;->a(Ljava/lang/Runnable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -197,7 +197,7 @@
 
     const v0, 0xc66a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lf/k/h/a/h;->a:Lf/k/h/a/l/r;
 
@@ -206,7 +206,7 @@
     invoke-interface {v1, p1, p2, p3}, Lf/k/h/a/l/r;->b(Landroid/app/Activity;Lcom/meitu/global/billing/product/data/Product;Lf/k/h/a/l/y/d;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -224,7 +224,7 @@
 
     const v0, 0xc66b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lf/k/h/a/h;->a:Lf/k/h/a/l/r;
 
@@ -233,7 +233,7 @@
     invoke-interface {v1, p1, p2, p3}, Lf/k/h/a/l/r;->onActivityResult(IILandroid/content/Intent;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -254,7 +254,7 @@
 
     const v0, 0xc66e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lf/k/h/a/h;->b:Lf/k/h/a/k/c;
 
@@ -263,7 +263,7 @@
     invoke-interface {v1, p1, p2, p3}, Lf/k/h/a/k/c;->a(Ljava/lang/String;Ljava/util/List;Lf/k/h/a/k/e/a;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -273,7 +273,7 @@
 
     const v0, 0xc66d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lf/k/h/a/h;->a:Lf/k/h/a/l/r;
 
@@ -282,7 +282,7 @@
     invoke-interface {v1, p1}, Lf/k/h/a/l/r;->c(Lf/k/h/a/l/y/g;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

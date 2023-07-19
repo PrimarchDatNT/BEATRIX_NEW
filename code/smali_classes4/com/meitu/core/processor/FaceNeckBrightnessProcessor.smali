@@ -17,7 +17,7 @@
 
     const v0, 0xbb1d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p0, :cond_0
 
@@ -32,7 +32,7 @@
     invoke-static {p0, p1, v1, v2, p3}, Lcom/meitu/core/processor/FaceNeckBrightnessProcessor;->nativeFaceNeckBrightness_bitmap(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;JI)Z
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const/4 p0, 0x0
 
@@ -44,7 +44,7 @@
 
     const v0, 0xbb1d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p0, :cond_0
 
@@ -67,7 +67,7 @@
     invoke-static/range {v1 .. v6}, Lcom/meitu/core/processor/FaceNeckBrightnessProcessor;->nativeFaceNeckBrightness(JLandroid/graphics/Bitmap;JI)Z
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const/4 p0, 0x0
 

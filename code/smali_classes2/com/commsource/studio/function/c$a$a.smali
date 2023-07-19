@@ -57,13 +57,13 @@
 
     const/16 v0, 0x3b3a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Ljava/util/List;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/c$a$a;->c(Ljava/util/List;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -77,7 +77,7 @@
 
     const/16 v0, 0x3b3b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p0, p1}, Lf/k/k/o;->d(Lf/k/k/p;Ljava/lang/Throwable;)V
 
@@ -148,7 +148,7 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/studio/function/c;->H(Lf/k/k/d;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -170,7 +170,7 @@
 
     const/16 v0, 0x3b39
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p1, :cond_2
 
@@ -251,7 +251,7 @@
     invoke-virtual {p1, v1}, Lcom/commsource/studio/function/c;->H(Lf/k/k/d;)V
 
     :cond_2
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

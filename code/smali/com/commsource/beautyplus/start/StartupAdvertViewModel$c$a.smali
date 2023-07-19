@@ -43,7 +43,7 @@
 
     const/16 v0, 0x5eeb
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautyplus/start/StartupAdvertViewModel$c$a;->b:Lcom/commsource/beautyplus/start/StartupAdvertViewModel$c;
 
@@ -111,7 +111,7 @@
 
     invoke-static {v1, v2, v3}, Lcom/commsource/beautyplus/start/StartupAdvertViewModel;->C(Lcom/commsource/beautyplus/start/StartupAdvertViewModel;Ljava/lang/Integer;Lcom/meitu/hwbusinesskit/core/bean/AdData;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

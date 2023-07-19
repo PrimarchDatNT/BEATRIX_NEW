@@ -38,7 +38,7 @@
 
     const/16 v0, 0x6345
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -52,7 +52,7 @@
 
     invoke-static {v1}, Lcom/meitu/webview/utils/g;->v(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -64,7 +64,7 @@
 
     const/16 v0, 0x6344
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     iget-object v1, p0, Lcom/commsource/beautyplus/web/BeautyPlusWebView$b$a;->g:Ljava/lang/String;
@@ -142,7 +142,7 @@
 
     :cond_1
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

@@ -37,7 +37,7 @@
 
     const v0, 0x9286
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/editengine/node/TextLayerNode$interactionService$2;
 
@@ -45,7 +45,7 @@
 
     sput-object v1, Lcom/commsource/editengine/node/TextLayerNode$interactionService$2;->INSTANCE:Lcom/commsource/editengine/node/TextLayerNode$interactionService$2;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -69,13 +69,13 @@
 
     const v0, 0x9285
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelPublicInteractionService;
 
     invoke-direct {v1}, Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelPublicInteractionService;-><init>()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -85,13 +85,13 @@
 
     const v0, 0x9284
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/commsource/editengine/node/TextLayerNode$interactionService$2;->invoke()Lcom/meitu/mtlab/arkernelinterface/interaction/ARKernelPublicInteractionService;
 
     move-result-object v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

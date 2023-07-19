@@ -51,7 +51,7 @@
 
     const/16 p3, 0x460f
 
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p2, :cond_1
 
@@ -72,7 +72,7 @@
     iput-boolean v1, p2, Lcotlin/jvm/internal/Ref$BooleanRef;->element:Z
 
     :cond_1
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method

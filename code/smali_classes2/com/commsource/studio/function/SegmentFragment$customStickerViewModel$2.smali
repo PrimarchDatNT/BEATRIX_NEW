@@ -54,7 +54,7 @@
 
     const/16 v0, 0x123
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/function/SegmentFragment$customStickerViewModel$2;->this$0:Lcom/commsource/studio/function/SegmentFragment;
 
@@ -70,7 +70,7 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/studio/f;->a(Landroidx/fragment/app/Fragment;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -80,13 +80,13 @@
 
     const/16 v0, 0x122
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/commsource/studio/function/SegmentFragment$customStickerViewModel$2;->invoke()Lcom/commsource/studio/sticker/a;
 
     move-result-object v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

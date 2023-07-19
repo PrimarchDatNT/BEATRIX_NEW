@@ -45,7 +45,7 @@
 
     const v0, 0xcedf
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Ljava/util/HashMap;
 
@@ -53,7 +53,7 @@
 
     sput-object v1, Lcom/meitu/remote/config/i/h;->c:Ljava/util/Map;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -82,13 +82,13 @@
     const v1, 0xcedd
 
     :try_start_0
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v2, Lcom/meitu/remote/config/i/h;->c:Ljava/util/Map;
 
     invoke-interface {v2}, Ljava/util/Map;->clear()V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -114,7 +114,7 @@
     const v1, 0xcedc
 
     :try_start_0
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v2, Lcom/meitu/remote/config/i/h;->c:Ljava/util/Map;
 
@@ -137,7 +137,7 @@
 
     check-cast p0, Lcom/meitu/remote/config/i/h;
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -163,7 +163,7 @@
     const v0, 0xcedb
 
     :try_start_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/remote/config/i/h;->a:Landroid/content/Context;
 
@@ -173,7 +173,7 @@
 
     const/4 v1, 0x0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -194,11 +194,11 @@
 
     const v0, 0xcede
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/remote/config/i/h;->b:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -219,7 +219,7 @@
     const v0, 0xceda
 
     :try_start_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_2
 
@@ -273,7 +273,7 @@
     invoke-virtual {v2}, Ljava/io/FileInputStream;->close()V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_2
 
@@ -302,7 +302,7 @@
     invoke-virtual {v2}, Ljava/io/FileInputStream;->close()V
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw v1
 
@@ -315,7 +315,7 @@
     invoke-virtual {v2}, Ljava/io/FileInputStream;->close()V
 
     :cond_2
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
     :try_end_4
     .catchall {:try_start_4 .. :try_end_4} :catchall_2
 
@@ -344,7 +344,7 @@
     const v0, 0xced9
 
     :try_start_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/remote/config/i/h;->a:Landroid/content/Context;
 
@@ -378,7 +378,7 @@
 
     const/4 p1, 0x0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_1
 
@@ -392,7 +392,7 @@
     :try_start_3
     invoke-virtual {v1}, Ljava/io/FileOutputStream;->close()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
     :try_end_3

@@ -60,7 +60,7 @@
 
     const p1, 0x93f3
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v0, Landroid/animation/AnimatorSet;
 
@@ -116,7 +116,7 @@
 
     invoke-virtual {v0}, Landroid/animation/AnimatorSet;->start()V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -126,7 +126,7 @@
 
     const p1, 0x93f2
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/helpcapture/HelpSelfieActivity$a;->p:Lcom/commsource/helpcapture/HelpSelfieActivity;
 
@@ -172,7 +172,7 @@
 
     invoke-virtual {v0, v1}, Landroid/view/ViewGroup;->setBackground(Landroid/graphics/drawable/Drawable;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

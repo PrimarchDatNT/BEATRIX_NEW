@@ -39,7 +39,7 @@
 
     const v0, 0xab90
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -73,7 +73,7 @@
 
     invoke-static {v1, v2}, Lcom/meitu/library/camera/p/d/j/e;->Z0(Lcom/meitu/library/camera/p/d/j/e;Lcom/meitu/library/renderarch/arch/data/a;)Lcom/meitu/library/renderarch/arch/data/a;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

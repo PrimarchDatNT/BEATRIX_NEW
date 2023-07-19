@@ -29,7 +29,7 @@
 
     const v0, 0xec5e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/hwbusinesskit/core/utils/PlatformUtil;->mInitializedPlatforms:Ljava/util/List;
 
@@ -53,7 +53,7 @@
     invoke-interface {v1, p0}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -63,7 +63,7 @@
 
     const v0, 0xec5f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/hwbusinesskit/core/utils/PlatformUtil;->mInitializedPlatforms:Ljava/util/List;
 
@@ -91,7 +91,7 @@
     const/4 p0, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p0
 .end method

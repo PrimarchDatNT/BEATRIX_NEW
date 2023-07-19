@@ -29,7 +29,7 @@
 
     const v0, 0xcd85
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/library/appcia/f/f/d;->b:Lcom/meitu/library/appcia/f/f/d;
 
@@ -59,7 +59,7 @@
     :cond_1
     sget-object p0, Lcom/meitu/library/appcia/f/f/d;->b:Lcom/meitu/library/appcia/f/f/d;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -71,7 +71,7 @@
 
     const v0, 0xcd87
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     instance-of v1, p2, Ljava/lang/Boolean;
 
@@ -183,7 +183,7 @@
     const/4 p1, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -193,7 +193,7 @@
 
     const v0, 0xcd86
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/library/appcia/f/f/d;->c:Landroid/content/SharedPreferences;
 
@@ -273,7 +273,7 @@
     :goto_0
     invoke-interface {v1}, Landroid/content/SharedPreferences$Editor;->apply()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

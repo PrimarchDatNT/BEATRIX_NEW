@@ -30,13 +30,13 @@
 
     const v0, 0x9a05
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p2, Landroid/graphics/Bitmap;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/processor/c;->V(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -54,7 +54,7 @@
 
     const v0, 0x9a04
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "lastEffectBitmap"
 
@@ -66,7 +66,7 @@
 
     invoke-static {p1, p2}, Lcom/meitu/core/processor/RemoveBlackEyeProcessor;->removeBlackEye(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;)Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

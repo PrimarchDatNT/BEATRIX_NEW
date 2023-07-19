@@ -36,7 +36,7 @@
 
     const p2, 0xd4a4
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/meitu/library/analytics/y/c/l$a;->a:Lcom/meitu/library/analytics/y/c/l;
 
@@ -46,7 +46,7 @@
 
     invoke-static {v0, p1}, Lcom/meitu/library/analytics/y/c/l;->e(Lcom/meitu/library/analytics/y/c/l;Landroid/content/Context;)V
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

@@ -37,7 +37,7 @@
 
     const v0, 0x8d22
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/studio/function/background/BackgroundDrawer$backgroundPaint$2;
 
@@ -45,7 +45,7 @@
 
     sput-object v1, Lcom/commsource/studio/function/background/BackgroundDrawer$backgroundPaint$2;->INSTANCE:Lcom/commsource/studio/function/background/BackgroundDrawer$backgroundPaint$2;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -69,7 +69,7 @@
 
     const v0, 0x8d21
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Landroid/graphics/Paint;
 
@@ -77,7 +77,7 @@
 
     invoke-direct {v1, v2}, Landroid/graphics/Paint;-><init>(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -87,13 +87,13 @@
 
     const v0, 0x8d20
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/commsource/studio/function/background/BackgroundDrawer$backgroundPaint$2;->invoke()Landroid/graphics/Paint;
 
     move-result-object v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

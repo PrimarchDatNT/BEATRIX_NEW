@@ -51,7 +51,7 @@
 
     const v0, 0xdb6d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/mtlab/g/g/d$f;->a:Lcom/meitu/mtlab/g/d/b;
 
@@ -64,7 +64,7 @@
     invoke-interface {v1, v2, v3}, Lcom/meitu/mtlab/g/d/b;->b(ILjava/lang/Object;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

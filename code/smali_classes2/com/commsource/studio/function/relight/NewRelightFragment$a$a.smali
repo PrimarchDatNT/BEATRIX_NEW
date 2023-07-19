@@ -28,7 +28,7 @@
 
     const v0, 0x917f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/studio/function/relight/NewRelightFragment$a$a;
 
@@ -36,7 +36,7 @@
 
     sput-object v1, Lcom/commsource/studio/function/relight/NewRelightFragment$a$a;->a:Lcom/commsource/studio/function/relight/NewRelightFragment$a$a;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -56,7 +56,7 @@
 
     const v0, 0x917e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x1
 
@@ -128,7 +128,7 @@
     invoke-virtual {v1, v2}, Lcom/commsource/studio/sub/SubModuleEnum;->setFragmentClass(Ljava/lang/Class;)V
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

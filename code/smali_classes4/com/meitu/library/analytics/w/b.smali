@@ -30,7 +30,7 @@
 
     const p1, 0xd369
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v0, "AnalyticsMigrationParamsHelper"
 
@@ -42,7 +42,7 @@
 
     if-nez v0, :cond_0
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -68,13 +68,13 @@
     :cond_1
     invoke-static {v0}, Lcom/meitu/library/analytics/w/d;->f(Lcom/meitu/library/analytics/sdk/content/f;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
     :cond_2
     :goto_0
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

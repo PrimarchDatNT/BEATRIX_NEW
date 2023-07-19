@@ -65,7 +65,7 @@
 
     const/16 v0, 0x2342
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/component/UndoRedoComponent$d;->a:Lcom/commsource/studio/component/UndoRedoComponent;
 
@@ -181,7 +181,7 @@
     :goto_1
     invoke-virtual {v1, v3}, Landroid/widget/TextView;->setAlpha(F)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -191,13 +191,13 @@
 
     const/16 v0, 0x2341
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Lcotlin/Pair;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/component/UndoRedoComponent$d;->a(Lcotlin/Pair;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

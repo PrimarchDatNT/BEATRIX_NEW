@@ -32,7 +32,7 @@
 
     const/16 v0, 0x6ad2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$PinchAction;->values()[Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$PinchAction;
 
@@ -408,7 +408,7 @@
     .catch Ljava/lang/NoSuchFieldError; {:try_start_16 .. :try_end_16} :catch_16
 
     :catch_16
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

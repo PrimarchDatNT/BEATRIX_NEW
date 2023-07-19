@@ -34,13 +34,13 @@
 
     const v0, 0xd6de
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "CREATE TABLE events ( _id INTEGER PRIMARY KEY AUTOINCREMENT, event_id TEXT NOT NULL DEFAULT \'\', event_type INTEGER NOT NULL DEFAULT 0, event_source TEXT NOT NULL DEFAULT 0, time INTEGER NOT NULL DEFAULT 0, duration INTEGER NOT NULL DEFAULT 0, params TEXT NOT NULL DEFAULT \'\', device_info TEXT NOT NULL DEFAULT \'\', session_id INTEGER NOT NULL DEFAULT 0, event_persistent BOOL NOT NULL DEFAULT 0, event_log_id INTEGER NOT NULL DEFAULT 0, switch_state TEXT NOT NULL DEFAULT \'\', permission_state TEXT NOT NULL DEFAULT \'\', bssid TEXT NOT NULL DEFAULT \'no_wifi\', geo_location_info TEXT NOT NULL DEFAULT \'\',event_priority INTEGER NOT NULL DEFAULT 0  );"
 
     invoke-virtual {p1, v1}, Landroid/database/sqlite/SQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -50,13 +50,13 @@
 
     const v0, 0xd6df
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "CREATE TABLE sessions(session_id INTEGER PRIMARY KEY AUTOINCREMENT, session_value TEXT NOT NULL DEFAULT \'\');"
 
     invoke-virtual {p1, v1}, Landroid/database/sqlite/SQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -66,7 +66,7 @@
 
     const v0, 0xd6e1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "ALTER TABLE events ADD COLUMN session_id INTEGER NOT NULL DEFAULT 0;"
 
@@ -303,7 +303,7 @@
     goto/16 :goto_1
 
     :cond_3
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -313,13 +313,13 @@
 
     const v0, 0xd6e2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "ALTER TABLE events ADD COLUMN geo_location_info TEXT NOT NULL DEFAULT \'\';"
 
     invoke-virtual {p1, v1}, Landroid/database/sqlite/SQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -329,13 +329,13 @@
 
     const v0, 0xd6e3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "ALTER TABLE events ADD COLUMN event_priority INTEGER NOT NULL DEFAULT 0;"
 
     invoke-virtual {p1, v1}, Landroid/database/sqlite/SQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -347,13 +347,13 @@
 
     const v0, 0xd6dd
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0, p1}, Lcom/meitu/library/analytics/sdk/db/e$a;->a(Landroid/database/sqlite/SQLiteDatabase;)V
 
     invoke-direct {p0, p1}, Lcom/meitu/library/analytics/sdk/db/e$a;->b(Landroid/database/sqlite/SQLiteDatabase;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -363,7 +363,7 @@
 
     const p2, 0xd6e4
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     const-string p3, "SELECT name FROM sqlite_master WHERE type=\'table\'"
 
@@ -473,7 +473,7 @@
     :cond_3
     invoke-virtual {p0, p1}, Lcom/meitu/library/analytics/sdk/db/e$a;->onCreate(Landroid/database/sqlite/SQLiteDatabase;)V
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -483,7 +483,7 @@
 
     const v0, 0xd6e0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "DROP TABLE IF EXISTS events"
 
@@ -501,7 +501,7 @@
 
     invoke-direct {p0, p1}, Lcom/meitu/library/analytics/sdk/db/e$a;->b(Landroid/database/sqlite/SQLiteDatabase;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -607,7 +607,7 @@
     goto :goto_0
 
     :cond_5
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

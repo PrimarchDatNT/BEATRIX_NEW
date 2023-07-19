@@ -52,7 +52,7 @@
 
     const/16 p1, 0x50b9
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/ProCover$l;->a:Lcom/commsource/camera/xcamera/cover/ProCover;
 
@@ -98,7 +98,7 @@
 
     invoke-static {v0, v1}, Lcom/commsource/util/l2;->D(Landroid/view/View;I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -108,13 +108,13 @@
 
     const/16 v0, 0x50b8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/ProCover$l;->a(Lcom/commsource/camera/xcamera/cover/bottomFunction/b$b;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

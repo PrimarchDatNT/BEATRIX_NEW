@@ -84,7 +84,7 @@
 
     const v0, 0xc046
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p1, Lf/k/v/b;->a:Ljava/lang/String;
 
@@ -166,7 +166,7 @@
 
     iput-object p1, p0, Lf/k/v/b;->s:Lcom/meitu/core/parse/MteDict;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

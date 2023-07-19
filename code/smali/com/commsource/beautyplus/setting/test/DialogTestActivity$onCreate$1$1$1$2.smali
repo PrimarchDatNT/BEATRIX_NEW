@@ -38,7 +38,7 @@
 
     const/16 v0, 0x2b4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1$1$2;
 
@@ -46,7 +46,7 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1$1$2;->INSTANCE:Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1$1$2;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -68,7 +68,7 @@
 
     const/16 v0, 0x2b2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Lcom/commsource/widget/dialog/delegate/b;
 
@@ -76,7 +76,7 @@
 
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -90,7 +90,7 @@
 
     const/16 v0, 0x2b3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "it"
 
@@ -106,7 +106,7 @@
 
     invoke-static {v1, p1}, Lf/k/c/c/f;->k(Ljava/lang/String;[Ljava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

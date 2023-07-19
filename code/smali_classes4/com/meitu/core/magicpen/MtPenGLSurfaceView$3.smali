@@ -39,7 +39,7 @@
 
     const v0, 0xdc8e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$3;->this$0:Lcom/meitu/core/magicpen/MtPenGLSurfaceView;
 
@@ -68,7 +68,7 @@
     invoke-interface {v1}, Lcom/meitu/core/magicpen/IMtPenCallback;->onCancelScrawlOperate()V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

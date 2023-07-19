@@ -33,7 +33,7 @@
 
     const v0, 0xbb43
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0, p1, p2}, Lcom/meitu/core/util/MTEglHelper;->nativeCreateGLContext(II)J
 
@@ -41,7 +41,7 @@
 
     iput-wide p1, p0, Lcom/meitu/core/util/MTEglHelper;->nativeInstance:J
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -51,13 +51,13 @@
 
     const v0, 0xbb44
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/core/util/MTEglHelper;->nativeInstance:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/core/util/MTEglHelper;->nativeReleaseGLContext(J)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

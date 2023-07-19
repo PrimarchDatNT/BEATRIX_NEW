@@ -39,13 +39,13 @@
 
     const p1, 0xf08a
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/mopub/MopubAdManager$5;->this$0:Lcom/meitu/hwbusinesskit/mopub/MopubAdManager;
 
     invoke-static {v0}, Lcom/meitu/hwbusinesskit/mopub/MopubAdManager;->access$2400(Lcom/meitu/hwbusinesskit/mopub/MopubAdManager;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -55,13 +55,13 @@
 
     const p1, 0xf08b
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/mopub/MopubAdManager$5;->this$0:Lcom/meitu/hwbusinesskit/mopub/MopubAdManager;
 
     invoke-static {v0}, Lcom/meitu/hwbusinesskit/mopub/MopubAdManager;->access$2500(Lcom/meitu/hwbusinesskit/mopub/MopubAdManager;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -71,7 +71,7 @@
 
     const p1, 0xf088
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/mopub/MopubAdManager$5;->this$0:Lcom/meitu/hwbusinesskit/mopub/MopubAdManager;
 
@@ -91,7 +91,7 @@
 
     invoke-static {v0, v1, p2}, Lcom/meitu/hwbusinesskit/mopub/MopubAdManager;->access$2300(Lcom/meitu/hwbusinesskit/mopub/MopubAdManager;ILjava/lang/String;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -101,13 +101,13 @@
 
     const p1, 0xf087
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/mopub/MopubAdManager$5;->this$0:Lcom/meitu/hwbusinesskit/mopub/MopubAdManager;
 
     invoke-static {v0}, Lcom/meitu/hwbusinesskit/mopub/MopubAdManager;->access$2200(Lcom/meitu/hwbusinesskit/mopub/MopubAdManager;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -117,9 +117,9 @@
 
     const p1, 0xf089
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

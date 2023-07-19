@@ -39,7 +39,7 @@
 
     const v0, 0xeb57
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/webview/core/CommonWebView$a;->a:Lcom/meitu/webview/core/CommonWebView;
 
@@ -61,7 +61,7 @@
 
     invoke-static {p1, p2}, Lcom/meitu/webview/utils/g;->y(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -96,7 +96,7 @@
 
     if-eqz p2, :cond_1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -109,7 +109,7 @@
 
     invoke-static {p1, p2}, Lcom/meitu/webview/download/b;->b(Ljava/lang/String;Lcom/meitu/webview/download/a;)Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

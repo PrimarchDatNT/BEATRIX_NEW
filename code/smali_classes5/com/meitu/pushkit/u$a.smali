@@ -39,7 +39,7 @@
 
     const p1, 0xb9d3
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lcom/meitu/pushkit/y;->y()Lcom/meitu/library/m/a/b;
 
@@ -57,7 +57,7 @@
 
     invoke-virtual {p2, v0}, Lcom/meitu/pushkit/f;->c0(Ljava/lang/String;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -72,7 +72,7 @@
 
     const p1, 0xb9d4
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     invoke-virtual {p2}, Lokhttp3/Response;->body()Lokhttp3/ResponseBody;
@@ -171,7 +171,7 @@
 
     invoke-virtual {p2, v0}, Lcom/meitu/pushkit/f;->c0(Ljava/lang/String;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

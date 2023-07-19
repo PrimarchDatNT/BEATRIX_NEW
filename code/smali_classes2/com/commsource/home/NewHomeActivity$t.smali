@@ -41,7 +41,7 @@
 
     const/16 p2, 0x4e33
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     const-string p3, "recyclerView"
 
@@ -59,7 +59,7 @@
 
     invoke-virtual {p3, p1}, Lcom/commsource/home/b;->f(Landroidx/recyclerview/widget/RecyclerView;)V
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

@@ -16,7 +16,7 @@
 
     const/16 v0, 0x5c16
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/util/t1;
 
@@ -24,7 +24,7 @@
 
     sput-object v1, Lcom/commsource/util/t1;->a:Lcom/commsource/util/t1;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -44,7 +44,7 @@
 
     const/16 v1, 0x5c15
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     iget v2, v0, Landroid/graphics/RectF;->left:F
 
@@ -193,7 +193,7 @@
     const/4 v8, 0x1
 
     :cond_a
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return v8
 .end method
@@ -213,7 +213,7 @@
 
     const/16 v0, 0x5c14
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "rect1Array"
 
@@ -231,7 +231,7 @@
 
     if-eq v1, v2, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v8
 
@@ -349,7 +349,7 @@
     :goto_1
     if-eqz v2, :cond_4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v8
 
@@ -359,7 +359,7 @@
     goto :goto_0
 
     :cond_5
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method

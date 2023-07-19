@@ -42,7 +42,7 @@
 
     const v1, 0x8ffb
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v2, 0x0
 
@@ -213,7 +213,7 @@
     invoke-static {v3}, Lcom/meitu/library/p/g/e;->a(Ljava/io/Closeable;)V
 
     :goto_2
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -225,7 +225,7 @@
 
     invoke-static {v3}, Lcom/meitu/library/p/g/e;->a(Ljava/io/Closeable;)V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     throw v0
 .end method

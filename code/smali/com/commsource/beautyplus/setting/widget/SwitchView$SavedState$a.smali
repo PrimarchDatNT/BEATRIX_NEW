@@ -42,7 +42,7 @@
 
     const v0, 0x959b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/beautyplus/setting/widget/SwitchView$SavedState;
 
@@ -50,7 +50,7 @@
 
     invoke-direct {v1, p1, v2}, Lcom/commsource/beautyplus/setting/widget/SwitchView$SavedState;-><init>(Landroid/os/Parcel;Lcom/commsource/beautyplus/setting/widget/SwitchView$a;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -60,11 +60,11 @@
 
     const v0, 0x959c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-array p1, p1, [Lcom/commsource/beautyplus/setting/widget/SwitchView$SavedState;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -74,13 +74,13 @@
 
     const v0, 0x959e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/setting/widget/SwitchView$SavedState$a;->a(Landroid/os/Parcel;)Lcom/commsource/beautyplus/setting/widget/SwitchView$SavedState;
 
     move-result-object p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -90,13 +90,13 @@
 
     const v0, 0x959d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/setting/widget/SwitchView$SavedState$a;->b(I)[Lcom/commsource/beautyplus/setting/widget/SwitchView$SavedState;
 
     move-result-object p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method

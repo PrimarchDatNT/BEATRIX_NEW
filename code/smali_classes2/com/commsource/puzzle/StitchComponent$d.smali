@@ -40,7 +40,7 @@
 
     const/16 v0, 0x5281
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/puzzle/StitchComponent$d;->a:Lcom/commsource/puzzle/StitchComponent;
 
@@ -56,7 +56,7 @@
 
     invoke-static {v1, v2, v3}, Lcom/commsource/puzzle/StitchComponent;->c(Lcom/commsource/puzzle/StitchComponent;ILjava/util/List;)Ljava/util/List;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

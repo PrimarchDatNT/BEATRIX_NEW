@@ -48,13 +48,13 @@
 
     const v0, 0x839c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Landroid/graphics/Bitmap;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/mypage/album/z$c$c;->c(Landroid/graphics/Bitmap;Lcom/bumptech/glide/request/k/f;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -74,7 +74,7 @@
 
     const p2, 0x839c
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/mypage/album/z$c$c;->f:Lcom/commsource/mypage/album/z$c;
 
@@ -155,7 +155,7 @@
     invoke-virtual {v0, p1}, Landroid/widget/ImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
     :cond_0
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

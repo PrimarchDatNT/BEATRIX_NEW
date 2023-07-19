@@ -21,7 +21,7 @@
 
     const v0, 0xcf5c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lf/k/g0/e/d/b;
 
@@ -35,7 +35,7 @@
 
     sput-object v1, Lf/k/g0/e/d/a;->a:Ljava/util/concurrent/ExecutorService;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -53,11 +53,11 @@
 
     const v0, 0xcf5b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lf/k/g0/e/d/a;->a:Ljava/util/concurrent/ExecutorService;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

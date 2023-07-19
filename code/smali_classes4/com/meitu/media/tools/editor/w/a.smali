@@ -23,7 +23,7 @@
 
     const p0, 0xe48a
 
-    invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v0, Lcom/meitu/media/tools/editor/w/a;->b:Lcom/meitu/media/tools/editor/w/a;
 
@@ -31,7 +31,7 @@
 
     const/4 v0, 0x0
 
-    invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 
@@ -52,7 +52,7 @@
 
     sget-object v0, Lcom/meitu/media/tools/editor/w/a;->b:Lcom/meitu/media/tools/editor/w/a;
 
-    invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 .end method
@@ -62,13 +62,13 @@
 
     const p0, 0xe48b
 
-    invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v0, Lcom/meitu/media/tools/editor/w/a;->b:Lcom/meitu/media/tools/editor/w/a;
 
     if-eqz v0, :cond_0
 
-    invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -83,7 +83,7 @@
 
     sput-object v0, Lcom/meitu/media/tools/editor/w/a;->b:Lcom/meitu/media/tools/editor/w/a;
 
-    invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

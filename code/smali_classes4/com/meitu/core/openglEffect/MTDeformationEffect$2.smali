@@ -47,7 +47,7 @@
 
     const v0, 0xbc11
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/core/openglEffect/MTDeformationEffect$2;->this$0:Lcom/meitu/core/openglEffect/MTDeformationEffect;
 
@@ -121,7 +121,7 @@
 
     invoke-virtual {v1, v2, v3, v4, v5}, Lcom/meitu/core/processor/ImageDeformationProcessor;->drawToTexture(IIII)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

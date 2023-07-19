@@ -106,7 +106,7 @@
 
     const v0, 0x8305    # 4.7001E-41f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/commsource/widget/mask/MaskContainer;->d:Lcom/commsource/widget/mask/MaskContainer$a;
 
@@ -117,7 +117,7 @@
     invoke-interface {v1, v2}, Lcom/commsource/widget/mask/MaskContainer$a;->a(Ljava/util/Map;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -127,11 +127,11 @@
 
     const v0, 0x830c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sput-object p0, Lcom/commsource/widget/mask/MaskContainer;->d:Lcom/commsource/widget/mask/MaskContainer$a;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -143,7 +143,7 @@
 
     const v0, 0x8306
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/widget/mask/MaskContainer;->a:Ljava/util/HashMap;
 
@@ -153,7 +153,7 @@
 
     check-cast p1, Lcom/commsource/widget/mask/a;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -163,7 +163,7 @@
 
     const v0, 0x830a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/widget/mask/MaskContainer;->a:Ljava/util/HashMap;
 
@@ -193,7 +193,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -203,7 +203,7 @@
 
     const v0, 0x8309
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x0
 
@@ -244,7 +244,7 @@
     invoke-virtual {p1, v1}, Landroid/view/ViewStub;->setVisibility(I)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -254,7 +254,7 @@
 
     const v0, 0x8308
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/commsource/widget/mask/MaskContainer;->b:Ljava/lang/String;
 
@@ -292,7 +292,7 @@
     invoke-virtual {p1, v1}, Landroid/view/ViewStub;->setVisibility(I)V
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -302,7 +302,7 @@
 
     const v0, 0x8307
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/widget/mask/MaskContainer;->a:Ljava/util/HashMap;
 
@@ -334,7 +334,7 @@
     :cond_0
     invoke-virtual {p0, p1}, Lcom/commsource/widget/mask/MaskContainer;->e(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -344,11 +344,11 @@
 
     const v0, 0x830b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/widget/mask/MaskContainer;->b:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -358,7 +358,7 @@
 
     const v0, 0x8304
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/widget/mask/MaskContainer;->c:Lcom/commsource/widget/mask/e;
 
@@ -373,7 +373,7 @@
     :cond_0
     iget-object v1, p0, Lcom/commsource/widget/mask/MaskContainer;->c:Lcom/commsource/widget/mask/e;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -383,13 +383,13 @@
 
     const v0, 0x8303
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-super {p0}, Landroid/widget/RelativeLayout;->onFinishInflate()V
 
     invoke-direct {p0}, Lcom/commsource/widget/mask/MaskContainer;->d()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

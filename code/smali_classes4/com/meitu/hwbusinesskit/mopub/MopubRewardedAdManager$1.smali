@@ -39,13 +39,13 @@
 
     const v0, 0xf097
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/mopub/MopubRewardedAdManager$1;->this$0:Lcom/meitu/hwbusinesskit/mopub/MopubRewardedAdManager;
 
     invoke-virtual {v1}, Lcom/meitu/hwbusinesskit/mopub/MopubRewardedAdManager;->loadAdvert()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

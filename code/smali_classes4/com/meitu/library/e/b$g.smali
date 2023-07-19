@@ -39,7 +39,7 @@
 
     const v0, 0xd0fc
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/e/b$g;->a:Lcom/meitu/library/e/b;
 
@@ -49,7 +49,7 @@
 
     invoke-interface {v1}, Lcom/meitu/library/e/b$j;->q()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

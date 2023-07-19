@@ -40,7 +40,7 @@
 
     const p1, 0x9beb
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController$a;->a:Ljava/lang/Runnable;
 
@@ -49,7 +49,7 @@
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V
 
     :cond_0
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -59,7 +59,7 @@
 
     const p1, 0x9bec
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController$a;->a:Ljava/lang/Runnable;
 
@@ -68,7 +68,7 @@
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V
 
     :cond_0
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

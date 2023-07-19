@@ -53,7 +53,7 @@
 
     const/16 v0, 0x192
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x5
 
@@ -281,7 +281,7 @@
 
     sput-object v2, Lcom/commsource/studio/effect/remold/RemoldPartEnum;->$VALUES:[Lcom/commsource/studio/effect/remold/RemoldPartEnum;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -314,7 +314,7 @@
 
     const/16 v0, 0x197
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-class v1, Lcom/commsource/studio/effect/remold/RemoldPartEnum;
 
@@ -324,7 +324,7 @@
 
     check-cast p0, Lcom/commsource/studio/effect/remold/RemoldPartEnum;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -334,7 +334,7 @@
 
     const/16 v0, 0x196
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/commsource/studio/effect/remold/RemoldPartEnum;->$VALUES:[Lcom/commsource/studio/effect/remold/RemoldPartEnum;
 
@@ -344,7 +344,7 @@
 
     check-cast v1, [Lcom/commsource/studio/effect/remold/RemoldPartEnum;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -356,11 +356,11 @@
 
     const/16 v0, 0x193
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/commsource/studio/effect/remold/RemoldPartEnum;->id:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -370,11 +370,11 @@
 
     const/16 v0, 0x194
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/commsource/studio/effect/remold/RemoldPartEnum;->nameRes:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -395,11 +395,11 @@
 
     const/16 v0, 0x195
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/effect/remold/RemoldPartEnum;->remoldEnums:Ljava/util/List;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

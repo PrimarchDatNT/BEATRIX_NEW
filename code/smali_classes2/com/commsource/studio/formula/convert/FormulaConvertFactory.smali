@@ -37,7 +37,7 @@
 
     const v0, 0x8e10
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/studio/formula/convert/FormulaConvertFactory;
 
@@ -51,7 +51,7 @@
 
     sput-object v1, Lcom/commsource/studio/formula/convert/FormulaConvertFactory;->g:Lcom/commsource/studio/formula/convert/d;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -69,11 +69,11 @@
 
     const p0, 0x8e12
 
-    invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v0, Lcom/commsource/studio/formula/convert/FormulaConvertFactory;->g:Lcom/commsource/studio/formula/convert/d;
 
-    invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 .end method
@@ -83,11 +83,11 @@
 
     const v0, 0x8e13
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/commsource/studio/formula/convert/FormulaConvertFactory;->f(Lcom/commsource/studio/formula/convert/g;Lcotlin/jvm/u/l;Ljava/lang/String;Ljava/lang/Exception;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -97,11 +97,11 @@
 
     const v0, 0x8e11
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/studio/formula/convert/FormulaConvertFactory;->h(Lcom/commsource/studio/formula/convert/g;Lcotlin/jvm/u/l;Lcom/commsource/studio/formula/convert/FormulaConvertFactory$a;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -111,7 +111,7 @@
 
     const p4, 0x8e0b
 
-    invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p4}, Lcom/res/ANRTrace;->e(I)V
 
     and-int/lit8 p3, p3, 0x2
 
@@ -122,7 +122,7 @@
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/formula/convert/FormulaConvertFactory;->d(Lcom/commsource/studio/formula/convert/g;Lcotlin/jvm/u/l;)V
 
-    invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p4}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -146,7 +146,7 @@
 
     const v0, 0x8e0c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -203,7 +203,7 @@
 
     monitor-exit p4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -236,7 +236,7 @@
     :cond_2
     monitor-exit p4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -245,7 +245,7 @@
 
     monitor-exit p4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 .end method
@@ -255,7 +255,7 @@
 
     const p6, 0x8e0d
 
-    invoke-static {p6}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p6}, Lcom/res/ANRTrace;->e(I)V
 
     and-int/lit8 v0, p5, 0x2
 
@@ -275,7 +275,7 @@
     :cond_1
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/commsource/studio/formula/convert/FormulaConvertFactory;->f(Lcom/commsource/studio/formula/convert/g;Lcotlin/jvm/u/l;Ljava/lang/String;Ljava/lang/Exception;)V
 
-    invoke-static {p6}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p6}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -301,7 +301,7 @@
 
     const v0, 0x8e0e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p1}, Lcom/commsource/studio/formula/convert/g;->i()Z
 
@@ -324,7 +324,7 @@
 
     monitor-exit v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -345,7 +345,7 @@
     :cond_1
     monitor-exit v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -354,7 +354,7 @@
 
     monitor-exit v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 .end method
@@ -364,7 +364,7 @@
 
     const p5, 0x8e0f
 
-    invoke-static {p5}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p5}, Lcom/res/ANRTrace;->e(I)V
 
     and-int/lit8 p4, p4, 0x2
 
@@ -375,7 +375,7 @@
     :cond_0
     invoke-direct {p0, p1, p2, p3}, Lcom/commsource/studio/formula/convert/FormulaConvertFactory;->h(Lcom/commsource/studio/formula/convert/g;Lcotlin/jvm/u/l;Lcom/commsource/studio/formula/convert/FormulaConvertFactory$a;)V
 
-    invoke-static {p5}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p5}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -412,7 +412,7 @@
 
     const v0, 0x8e0a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "formulaWrapper"
 
@@ -478,7 +478,7 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/repository/c;->e(Lcom/commsource/repository/d;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

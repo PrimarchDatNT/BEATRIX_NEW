@@ -40,11 +40,11 @@
 
     const v0, 0xf03f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p0, p0, Lcom/meitu/hwbusinesskit/admob/AdxMediationAdapter;->mNativeListener:Lcom/google/android/gms/ads/mediation/customevent/f;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -56,9 +56,9 @@
 
     const v0, 0xf03c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -68,9 +68,9 @@
 
     const v0, 0xf03d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -80,9 +80,9 @@
 
     const v0, 0xf03e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -92,7 +92,7 @@
 
     const p5, 0xf03b
 
-    invoke-static {p5}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p5}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p2, p0, Lcom/meitu/hwbusinesskit/admob/AdxMediationAdapter;->mNativeListener:Lcom/google/android/gms/ads/mediation/customevent/f;
 
@@ -182,7 +182,7 @@
 
     invoke-virtual {p1, p2}, Lcom/google/android/gms/ads/c;->c(Lcom/google/android/gms/ads/d;)V
 
-    invoke-static {p5}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p5}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -196,7 +196,7 @@
 
     invoke-interface {p1, p2}, Lcom/google/android/gms/ads/mediation/customevent/e;->a(I)V
 
-    invoke-static {p5}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p5}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -236,7 +236,7 @@
 
     invoke-interface {p1, p2}, Lcom/google/android/gms/ads/mediation/customevent/e;->a(I)V
 
-    invoke-static {p5}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p5}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

@@ -44,7 +44,7 @@
 
     const p1, 0xd99c
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v0, "MtTokenUtil"
 
@@ -88,7 +88,7 @@
 
     invoke-static {v0, v1, p2, v2}, Lcom/meitu/mtuploader/f;->b(Lcom/meitu/mtuploader/f$e;ILjava/lang/String;Lcom/meitu/mtuploader/bean/MtTokenBean;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -110,7 +110,7 @@
 
     const p2, 0xd99d
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v0, "MtTokenUtil"
 
@@ -227,7 +227,7 @@
     :try_end_2
     .catchall {:try_start_2 .. :try_end_2} :catchall_0
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -262,7 +262,7 @@
 
     invoke-static {p1, p3, v1, v0}, Lcom/meitu/mtuploader/f;->b(Lcom/meitu/mtuploader/f$e;ILjava/lang/String;Lcom/meitu/mtuploader/bean/MtTokenBean;)V
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -314,7 +314,7 @@
     invoke-static {p1, p3, v1, v0}, Lcom/meitu/mtuploader/f;->b(Lcom/meitu/mtuploader/f$e;ILjava/lang/String;Lcom/meitu/mtuploader/bean/MtTokenBean;)V
 
     :goto_1
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

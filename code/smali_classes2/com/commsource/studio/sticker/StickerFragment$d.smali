@@ -52,7 +52,7 @@
 
     const/16 v0, 0x3b6f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p2, Ljava/lang/Integer;
 
@@ -60,7 +60,7 @@
 
     move-result p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -70,7 +70,7 @@
 
     const/16 p1, 0x3b70
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p2, p0, Lcom/commsource/studio/sticker/StickerFragment$d;->a:Lcom/commsource/studio/sticker/StickerFragment;
 
@@ -158,7 +158,7 @@
 
     invoke-static/range {v0 .. v7}, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder;->k(Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FragmentBuilder;Landroidx/fragment/app/FragmentActivity;ILjava/lang/Class;IIILjava/lang/Object;)Lcom/commsource/beautyplus/i0/a;
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     const/4 p1, 0x1
 

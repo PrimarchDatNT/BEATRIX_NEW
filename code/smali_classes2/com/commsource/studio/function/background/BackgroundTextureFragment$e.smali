@@ -40,7 +40,7 @@
 
     const v0, 0x94b7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/studio/function/background/BackgroundTextureFragment$e;
 
@@ -48,7 +48,7 @@
 
     sput-object v1, Lcom/commsource/studio/function/background/BackgroundTextureFragment$e;->a:Lcom/commsource/studio/function/background/BackgroundTextureFragment$e;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -68,9 +68,9 @@
 
     const p1, 0x94b6
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -80,13 +80,13 @@
 
     const v0, 0x94b5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Lcom/commsource/studio/function/background/BackgroundType;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/background/BackgroundTextureFragment$e;->a(Lcom/commsource/studio/function/background/BackgroundType;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

@@ -52,7 +52,7 @@
 
     const v0, 0x9c2f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p2, Lcom/commsource/home/entity/i;
 
@@ -60,7 +60,7 @@
 
     move-result p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -74,7 +74,7 @@
 
     const v10, 0x9c30
 
-    invoke-static {v10}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v10}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, v0, Lcom/commsource/home/banner/HomeSlideShowModuleVH$d;->a:Lcom/commsource/home/banner/HomeSlideShowModuleVH;
 
@@ -209,7 +209,7 @@
 
     invoke-static/range {v1 .. v9}, Lcom/commsource/home/d;->m(Lcom/commsource/home/d;Ljava/lang/String;ILcom/commsource/home/entity/ContentModule;ILcom/commsource/home/entity/d;Ljava/lang/String;ILjava/lang/Object;)V
 
-    invoke-static {v10}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v10}, Lcom/res/ANRTrace;->a(I)V
 
     return v12
 .end method

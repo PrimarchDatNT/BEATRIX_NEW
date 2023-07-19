@@ -27,7 +27,7 @@
 
     const v0, 0xe9a5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-nez p0, :cond_0
 
@@ -39,7 +39,7 @@
     iget-wide v1, p0, Lcom/meitu/media/mediarecord/softrecord/MediaRecorderStateListener;->a:J
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-wide v1
 .end method
@@ -51,7 +51,7 @@
 
     const v0, 0xe9a8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/mediarecord/softrecord/MediaRecorderStateListener;->a:J
 
@@ -65,7 +65,7 @@
 
     invoke-static/range {v1 .. v6}, Lcom/meitu/media/mediarecord/softrecord/MTMediaRecorderJNI;->MediaRecorderStateListener_MediaRecordProgressBegan(JLcom/meitu/media/mediarecord/softrecord/MediaRecorderStateListener;JLcom/meitu/media/mediarecord/softrecord/MediaRecorder;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -75,7 +75,7 @@
 
     const v0, 0xe9ab
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/mediarecord/softrecord/MediaRecorderStateListener;->a:J
 
@@ -89,7 +89,7 @@
 
     invoke-static/range {v1 .. v6}, Lcom/meitu/media/mediarecord/softrecord/MTMediaRecorderJNI;->MediaRecorderStateListener_MediaRecordProgressCanceled(JLcom/meitu/media/mediarecord/softrecord/MediaRecorderStateListener;JLcom/meitu/media/mediarecord/softrecord/MediaRecorder;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -99,7 +99,7 @@
 
     const v0, 0xe9a9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/mediarecord/softrecord/MediaRecorderStateListener;->a:J
 
@@ -115,7 +115,7 @@
 
     invoke-static/range {v1 .. v7}, Lcom/meitu/media/mediarecord/softrecord/MTMediaRecorderJNI;->MediaRecorderStateListener_MediaRecordProgressChanged(JLcom/meitu/media/mediarecord/softrecord/MediaRecorderStateListener;JLcom/meitu/media/mediarecord/softrecord/MediaRecorder;I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -125,7 +125,7 @@
 
     const v0, 0xe9aa
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/mediarecord/softrecord/MediaRecorderStateListener;->a:J
 
@@ -139,7 +139,7 @@
 
     invoke-static/range {v1 .. v6}, Lcom/meitu/media/mediarecord/softrecord/MTMediaRecorderJNI;->MediaRecorderStateListener_MediaRecordProgressEnded(JLcom/meitu/media/mediarecord/softrecord/MediaRecorderStateListener;JLcom/meitu/media/mediarecord/softrecord/MediaRecorder;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -152,7 +152,7 @@
     const v0, 0xe9a7
 
     :try_start_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/mediarecord/softrecord/MediaRecorderStateListener;->a:J
 
@@ -176,7 +176,7 @@
     iput-wide v3, p0, Lcom/meitu/media/mediarecord/softrecord/MediaRecorderStateListener;->a:J
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -197,11 +197,11 @@
 
     const v0, 0xe9a6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/meitu/media/mediarecord/softrecord/MediaRecorderStateListener;->e()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

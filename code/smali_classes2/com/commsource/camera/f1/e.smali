@@ -21,13 +21,13 @@
 
     const v0, 0x9183
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x0
 
     sput-object v1, Lcom/commsource/camera/f1/e;->d:Lcom/commsource/camera/f1/e;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -51,7 +51,7 @@
 
     const v0, 0x9180
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/commsource/camera/f1/e;->d:Lcom/commsource/camera/f1/e;
 
@@ -84,7 +84,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw v2
 
@@ -92,7 +92,7 @@
     :goto_0
     sget-object v1, Lcom/commsource/camera/f1/e;->d:Lcom/commsource/camera/f1/e;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -104,7 +104,7 @@
 
     const v0, 0x9182
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/camera/f1/e;->a:Lf/d/e/a/m;
 
@@ -207,7 +207,7 @@
     :goto_1
     iget-object v1, p0, Lcom/commsource/camera/f1/e;->a:Lf/d/e/a/m;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -217,7 +217,7 @@
 
     const v0, 0x9181
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/commsource/camera/f1/e;->a()Lf/d/e/a/m;
 
@@ -229,7 +229,7 @@
 
     invoke-virtual {v1, p1}, Lf/d/e/a/e;->j(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

@@ -98,7 +98,7 @@
 
     const v0, 0x80a0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/high16 v1, 0x43480000    # 200.0f
 
@@ -108,7 +108,7 @@
 
     sput v1, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->b0:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -228,7 +228,7 @@
 
     const v0, 0x809b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x0
 
@@ -239,7 +239,7 @@
     invoke-interface {p1}, Ljava/lang/Runnable;->run()V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -249,13 +249,13 @@
 
     const v0, 0x809a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x0
 
     iput-boolean v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->d:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -265,7 +265,7 @@
 
     const v0, 0x809e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->J:Lcom/commsource/easyeditor/widget/EasyEditorGestureController$e;
 
@@ -282,7 +282,7 @@
 
     iput-boolean v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->T:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -292,7 +292,7 @@
 
     const v0, 0x809d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->J:Lcom/commsource/easyeditor/widget/EasyEditorGestureController$e;
 
@@ -305,7 +305,7 @@
 
     iput-object v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->L:Lcom/commsource/easyeditor/widget/EasyEditorGestureController$TouchModeEnum;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -315,7 +315,7 @@
 
     const v0, 0x8099
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p1}, Lcom/commsource/easyeditor/widget/EasyEditorGestureController$c;->b()F
 
@@ -331,7 +331,7 @@
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->b(FFFLjava/lang/Runnable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -341,7 +341,7 @@
 
     const v0, 0x8090
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x0
 
@@ -383,7 +383,7 @@
 
     invoke-virtual {p1, p2, v1}, Landroid/graphics/PointF;->set(FF)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -393,7 +393,7 @@
 
     const v0, 0x8071
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->J:Lcom/commsource/easyeditor/widget/EasyEditorGestureController$e;
 
@@ -423,7 +423,7 @@
     iput-boolean v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->p:Z
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -433,7 +433,7 @@
 
     const v0, 0x807e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->a:[F
 
@@ -445,7 +445,7 @@
 
     aput p1, v1, v2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -455,7 +455,7 @@
 
     const v0, 0x8080
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->a:[F
 
@@ -463,7 +463,7 @@
 
     aput p1, v1, v2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -473,7 +473,7 @@
 
     const v0, 0x8082
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->a:[F
 
@@ -481,7 +481,7 @@
 
     aput p1, v1, v2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -491,11 +491,11 @@
 
     const v0, 0x809f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p0, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->J:Lcom/commsource/easyeditor/widget/EasyEditorGestureController$e;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -505,7 +505,7 @@
 
     const v0, 0x8086
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->r()F
 
@@ -544,7 +544,7 @@
     invoke-interface {p4}, Ljava/lang/Runnable;->run()V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -609,7 +609,7 @@
 
     invoke-virtual {p1}, Landroid/animation/ValueAnimator;->start()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -619,7 +619,7 @@
 
     const v0, 0x808f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getPointerCount()I
 
@@ -631,7 +631,7 @@
 
     const/4 p1, 0x0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 
@@ -674,7 +674,7 @@
 
     double-to-float p1, v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -684,13 +684,13 @@
 
     const v0, 0x8087
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x0
 
     invoke-virtual {p0, v1}, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->e(Ljava/lang/Runnable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -700,7 +700,7 @@
 
     const v0, 0x8076
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->K:Lcom/commsource/easyeditor/widget/EasyEditorGestureController$b;
 
@@ -711,7 +711,7 @@
     invoke-virtual {v2, v1}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -721,7 +721,7 @@
 
     const v0, 0x8074
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->g:Ljava/lang/Runnable;
 
@@ -736,7 +736,7 @@
 
     iput-boolean v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->p:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -746,7 +746,7 @@
 
     const v0, 0x8089
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->d:Z
 
@@ -781,13 +781,13 @@
     invoke-direct {p0, v1, v2}, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->j(FF)V
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
     :cond_2
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -797,7 +797,7 @@
 
     const v0, 0x808a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x1
 
@@ -805,7 +805,7 @@
 
     invoke-direct {p0}, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->d()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -815,7 +815,7 @@
 
     const v0, 0x808b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x1
 
@@ -890,7 +890,7 @@
 
     invoke-direct {p0, p1, p2, v2, v1}, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->b(FFFLjava/lang/Runnable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -904,7 +904,7 @@
 
     const v2, 0x808c
 
-    invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v2}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v3, Lcom/commsource/easyeditor/widget/EasyEditorGestureController$c;
 
@@ -1273,7 +1273,7 @@
 
     :cond_c
     :goto_1
-    invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v2}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v3
 
@@ -1281,7 +1281,7 @@
     :goto_2
     invoke-static {v10, v11}, Landroid/opengl/Matrix;->setIdentityM([FI)V
 
-    invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v2}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v3
 .end method
@@ -1291,7 +1291,7 @@
 
     const v0, 0x8097
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget v1, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->b0:I
 
@@ -1317,7 +1317,7 @@
 
     invoke-static {v1, v2}, Landroid/opengl/Matrix;->setIdentityM([FI)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1327,7 +1327,7 @@
 
     const v0, 0x807c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0}, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->y()Z
 
@@ -1375,7 +1375,7 @@
     const/4 p1, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -1385,9 +1385,9 @@
 
     const v0, 0x807b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const/4 v0, 0x0
 
@@ -1399,7 +1399,7 @@
 
     const v0, 0x809c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p7}, Landroid/animation/ValueAnimator;->getAnimatedValue()Ljava/lang/Object;
 
@@ -1431,7 +1431,7 @@
 
     invoke-virtual {p0}, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->R()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1491,7 +1491,7 @@
 
     const v0, 0x806e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->L:Lcom/commsource/easyeditor/widget/EasyEditorGestureController$TouchModeEnum;
 
@@ -1591,7 +1591,7 @@
     :goto_0
     invoke-direct {p0}, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->f()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1601,7 +1601,7 @@
 
     const v0, 0x806d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x1
 
@@ -1613,7 +1613,7 @@
 
     if-ne v1, v2, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -1628,7 +1628,7 @@
 
     invoke-direct {p0}, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->f()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1638,7 +1638,7 @@
 
     const v0, 0x806f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->L:Lcom/commsource/easyeditor/widget/EasyEditorGestureController$TouchModeEnum;
 
@@ -1656,7 +1656,7 @@
     iput-object v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->L:Lcom/commsource/easyeditor/widget/EasyEditorGestureController$TouchModeEnum;
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1666,7 +1666,7 @@
 
     const v0, 0x8075
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getAction()I
 
@@ -1718,7 +1718,7 @@
     invoke-virtual {p1}, Lcom/commsource/easyeditor/widget/EasyEditorGestureController$b;->run()V
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1728,7 +1728,7 @@
 
     const v0, 0x8084
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->W:Lcom/commsource/easyeditor/widget/EasyEditorGestureController$d;
 
@@ -1736,7 +1736,7 @@
 
     invoke-interface {v1, v2}, Lcom/commsource/easyeditor/widget/EasyEditorGestureController$d;->a([F)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1746,7 +1746,7 @@
 
     const v0, 0x8073
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->J:Lcom/commsource/easyeditor/widget/EasyEditorGestureController$e;
 
@@ -1761,7 +1761,7 @@
     invoke-interface {v1}, Lcom/commsource/easyeditor/widget/EasyEditorGestureController$e;->e()V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1771,7 +1771,7 @@
 
     const v0, 0x8072
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->J:Lcom/commsource/easyeditor/widget/EasyEditorGestureController$e;
 
@@ -1801,7 +1801,7 @@
     iput-boolean v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->p:Z
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1811,11 +1811,11 @@
 
     const v0, 0x806a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->W:Lcom/commsource/easyeditor/widget/EasyEditorGestureController$d;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1825,11 +1825,11 @@
 
     const v0, 0x8077
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->J:Lcom/commsource/easyeditor/widget/EasyEditorGestureController$e;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1839,7 +1839,7 @@
 
     const v0, 0x8095
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->a:[F
 
@@ -1855,7 +1855,7 @@
 
     invoke-direct {p0}, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->v()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1865,11 +1865,11 @@
 
     const v0, 0x8096
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-nez p1, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -1976,7 +1976,7 @@
 
     invoke-static {v1}, Lcom/commsource/util/g2;->k(Ljava/lang/Runnable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1986,7 +1986,7 @@
 
     const v0, 0x8085
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->d:Z
 
@@ -2023,13 +2023,13 @@
 
     invoke-direct {p0, v2, v3, v1, v4}, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->b(FFFLjava/lang/Runnable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
     :cond_1
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -2039,7 +2039,7 @@
 
     const v0, 0x8078
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
@@ -2104,7 +2104,7 @@
     :cond_0
     invoke-virtual {p0}, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->R()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -2114,7 +2114,7 @@
 
     const v0, 0x8070
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->J:Lcom/commsource/easyeditor/widget/EasyEditorGestureController$e;
 
@@ -2151,7 +2151,7 @@
 
     iput-object p1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->L:Lcom/commsource/easyeditor/widget/EasyEditorGestureController$TouchModeEnum;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -2161,7 +2161,7 @@
 
     const v0, 0x8088
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->x()Z
 
@@ -2178,7 +2178,7 @@
 
     iput-boolean p1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->f:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -2193,7 +2193,7 @@
 
     invoke-direct {p0, p1, p1, v1, v2}, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->b(FFFLjava/lang/Runnable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -2203,7 +2203,7 @@
 
     const v0, 0x8091
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->u()I
 
@@ -2221,7 +2221,7 @@
 
     sub-float/2addr p1, v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -2231,7 +2231,7 @@
 
     const v0, 0x8092
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->m()I
 
@@ -2249,7 +2249,7 @@
 
     sub-float/2addr v1, p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -2259,7 +2259,7 @@
 
     const v0, 0x8079
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getPointerCount()I
 
@@ -2269,7 +2269,7 @@
 
     if-ge v1, v2, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -2446,7 +2446,7 @@
     :cond_3
     invoke-virtual {p0}, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->R()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -2456,7 +2456,7 @@
 
     const v0, 0x807a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getPointerCount()I
 
@@ -2466,7 +2466,7 @@
 
     if-ge v1, v2, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -2481,7 +2481,7 @@
 
     iput p1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->Q:F
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -2491,7 +2491,7 @@
 
     const v0, 0x806c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->J:Lcom/commsource/easyeditor/widget/EasyEditorGestureController$e;
 
@@ -2574,7 +2574,7 @@
     invoke-direct {p0}, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->Q()V
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -2584,11 +2584,11 @@
 
     const v0, 0x8094
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->Y:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -2598,7 +2598,7 @@
 
     const v0, 0x808e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->Z:[F
 
@@ -2614,7 +2614,7 @@
     aget v1, v1, v2
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -2624,7 +2624,7 @@
 
     const v0, 0x808d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->Z:[F
 
@@ -2640,7 +2640,7 @@
     aget v1, v1, v2
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -2655,7 +2655,7 @@
 
     const p1, 0x806b
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->Z:[F
 
@@ -2726,13 +2726,13 @@
     invoke-virtual {p0, p2}, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->k(Landroid/view/MotionEvent;)V
 
     :goto_0
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return v2
 
     :cond_6
     :goto_1
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -2742,11 +2742,11 @@
 
     const v0, 0x8098
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->a:[F
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -2756,7 +2756,7 @@
 
     const v0, 0x807f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->a:[F
 
@@ -2764,7 +2764,7 @@
 
     aget v1, v1, v2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -2774,7 +2774,7 @@
 
     const v0, 0x8081
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->a:[F
 
@@ -2782,7 +2782,7 @@
 
     aget v1, v1, v2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -2792,7 +2792,7 @@
 
     const v0, 0x8083
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->a:[F
 
@@ -2800,7 +2800,7 @@
 
     aget v1, v1, v2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -2810,11 +2810,11 @@
 
     const v0, 0x8093
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->X:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -2824,7 +2824,7 @@
 
     const v0, 0x807d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/commsource/easyeditor/widget/EasyEditorGestureController;->q()F
 
@@ -2862,7 +2862,7 @@
     const/4 v1, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method

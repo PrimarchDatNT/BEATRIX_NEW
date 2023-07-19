@@ -19,7 +19,7 @@
 
     const v0, 0xba58
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lf/k/e0/b;
 
@@ -27,7 +27,7 @@
 
     sput-object v1, Lf/k/e0/b;->a:Lf/k/e0/b;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -67,7 +67,7 @@
 
     const v0, 0xba56
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-nez p2, :cond_0
 
@@ -267,7 +267,7 @@
     goto :goto_1
 
     :cond_6
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p2
 
@@ -279,12 +279,12 @@
 
     invoke-static {p1, p2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p10
 
     :cond_8
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p10
 .end method
@@ -294,7 +294,7 @@
 
     const v0, 0xba53
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;
 
@@ -306,7 +306,7 @@
 
     invoke-virtual {v1, p1}, Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;->setModelDirectory(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -316,7 +316,7 @@
 
     const v0, 0xba54
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p1}, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;->createImageFromBitmap(Landroid/graphics/Bitmap;)Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;
 
@@ -328,7 +328,7 @@
 
     iput-object p1, v1, Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineFrame;->colorImage:Lcom/meitu/mtlab/MTAiInterface/common/MTAiEngineImage;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -368,7 +368,7 @@
 
     const v0, 0xba52
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "context"
 
@@ -402,7 +402,7 @@
 
     move-result-object p0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -457,7 +457,7 @@
 
     const v0, 0xba52
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "context"
 
@@ -495,7 +495,7 @@
 
     move-result-object p0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -562,7 +562,7 @@
 
     const v12, 0xba52
 
-    invoke-static {v12}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v12}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v0, "context"
 
@@ -699,7 +699,7 @@
 
     move-result-object v0
 
-    invoke-static {v12}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v12}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 
@@ -720,7 +720,7 @@
 
     move-result-object v0
 
-    invoke-static {v12}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v12}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 .end method
@@ -730,7 +730,7 @@
 
     const v0, 0xba55
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceOption;
 
@@ -766,7 +766,7 @@
     const/4 p1, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -798,7 +798,7 @@
 
     const v13, 0xba57
 
-    invoke-static {v13}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v13}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct/range {p0 .. p1}, Lf/k/e0/b;->b(Landroid/content/Context;)Lcom/meitu/mtlab/MTAiInterface/MeituAiEngine;
 
@@ -1014,14 +1014,14 @@
 
     const v1, 0xba57
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 
     :cond_9
     const v1, 0xba57
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v10
 .end method

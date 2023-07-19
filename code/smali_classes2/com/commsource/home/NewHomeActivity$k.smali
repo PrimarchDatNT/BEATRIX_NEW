@@ -41,7 +41,7 @@
 
     const v0, 0xa281
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/home/NewHomeActivity$k;
 
@@ -49,7 +49,7 @@
 
     sput-object v1, Lcom/commsource/home/NewHomeActivity$k;->a:Lcom/commsource/home/NewHomeActivity$k;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -69,13 +69,13 @@
 
     const v0, 0xa280
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p2, Lcom/commsource/home/entity/ContentModule;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/home/NewHomeActivity$k;->b(Lcom/commsource/widget/h1/d;Lcom/commsource/home/entity/ContentModule;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -103,7 +103,7 @@
 
     const v0, 0xa280
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "baseItem"
 
@@ -380,7 +380,7 @@
     invoke-virtual {p1, p2}, Lcom/commsource/widget/h1/d;->j(I)V
 
     :cond_16
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

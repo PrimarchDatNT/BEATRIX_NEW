@@ -39,7 +39,7 @@
 
     const v0, 0xa43a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lf/d/k/m;->k:Ljava/lang/String;
 
@@ -58,7 +58,7 @@
     invoke-static {v1, p1}, Lf/d/k/m;->b(Lf/d/k/m;Lcom/meitu/mtmvcore/application/MTMVPlayer;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

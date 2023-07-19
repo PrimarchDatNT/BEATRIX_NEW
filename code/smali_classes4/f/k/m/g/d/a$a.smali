@@ -42,7 +42,7 @@
 
     const v0, 0xa6ef
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lf/k/m/g/d/a;->a()Lf/k/m/g/d/a;
 
@@ -85,7 +85,7 @@
 
     monitor-exit v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw v2
 
@@ -100,7 +100,7 @@
     invoke-static {}, Lcotlin/jvm/internal/f0;->L()V
 
     :cond_2
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

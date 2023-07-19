@@ -44,13 +44,13 @@
 
     const v0, 0xec09
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript$Model;
 
     invoke-virtual {p0, p1}, Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript$b;->d(Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript$Model;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -60,13 +60,13 @@
 
     const v0, 0xec08
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript$b;->c:Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript;
 
     invoke-static {v1, p1}, Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript;->Q(Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript;Lcom/meitu/webview/mtscript/MTCommandOpenCameraScript$Model;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

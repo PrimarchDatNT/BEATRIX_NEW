@@ -48,7 +48,7 @@
 
     const/16 p1, 0x3ad5
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/home/banner/HomeSmallBannerAdVH$g;->a:Lcom/commsource/home/banner/HomeSmallBannerAdVH;
 
@@ -83,7 +83,7 @@
 
     invoke-virtual {v0}, Landroid/app/Dialog;->dismiss()V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

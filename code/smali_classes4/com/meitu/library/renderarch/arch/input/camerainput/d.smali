@@ -58,11 +58,11 @@
 
     const v0, 0xb09b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p0, p0, Lcom/meitu/library/renderarch/arch/input/camerainput/d;->b:Lcom/meitu/library/n/a/p/c;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -74,13 +74,13 @@
 
     const v0, 0xb099
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/renderarch/arch/input/camerainput/d;->d:Lcom/meitu/library/n/a/m/d;
 
     invoke-virtual {v1, p1}, Lcom/meitu/library/n/a/m/d;->N(Lcom/meitu/library/n/a/m/c$a;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -90,7 +90,7 @@
 
     const v0, 0xb097
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/renderarch/arch/input/camerainput/d;->b:Lcom/meitu/library/n/a/p/c;
 
@@ -119,7 +119,7 @@
 
     :cond_1
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -129,11 +129,11 @@
 
     const v0, 0xb095
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/renderarch/arch/input/camerainput/d;->a:Lcom/meitu/library/renderarch/arch/input/camerainput/d$a;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -143,13 +143,13 @@
 
     const v0, 0xb09a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/renderarch/arch/input/camerainput/d;->d:Lcom/meitu/library/n/a/m/d;
 
     invoke-virtual {v1, p1}, Lcom/meitu/library/n/a/m/d;->b0(Lcom/meitu/library/n/a/m/c$a;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -159,7 +159,7 @@
 
     const v0, 0xb098
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/renderarch/arch/input/camerainput/d;->b:Lcom/meitu/library/n/a/p/c;
 
@@ -188,7 +188,7 @@
 
     :cond_1
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -198,13 +198,13 @@
 
     const v0, 0xb096
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/renderarch/arch/input/camerainput/d;->b:Lcom/meitu/library/n/a/p/c;
 
     invoke-virtual {v1, p1}, Lcom/meitu/library/n/a/p/c;->X(Z)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

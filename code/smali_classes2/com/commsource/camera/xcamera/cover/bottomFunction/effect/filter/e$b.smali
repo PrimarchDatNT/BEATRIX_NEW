@@ -40,7 +40,7 @@
 
     const/16 p1, 0x1947
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/e$b;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/e;
 
@@ -58,7 +58,7 @@
 
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

@@ -34,7 +34,7 @@
 
     const v1, 0xaab2
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v2, v0, Lcom/meitu/library/renderarch/arch/data/b/h;->g:Lcom/meitu/library/renderarch/arch/data/b/g;
 
@@ -94,7 +94,7 @@
 
     invoke-virtual/range {v3 .. v18}, Lcom/meitu/core/realtimesegment/MTRealtimeSegmentGPU;->RunWithGlTextureAndY(IIIII[BIZIIIZIFF)V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -104,13 +104,13 @@
 
     const v0, 0xaab3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/f/a/d;->a:Lcom/meitu/core/realtimesegment/MTRealtimeSegmentGPU;
 
     invoke-virtual {v1}, Lcom/meitu/core/realtimesegment/MTRealtimeSegmentGPU;->release()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

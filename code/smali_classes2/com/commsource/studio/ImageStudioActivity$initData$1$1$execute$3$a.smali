@@ -40,7 +40,7 @@
 
     const v0, 0x8537
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioActivity$initData$1$1$execute$3$a;->a:Lcom/commsource/studio/ImageStudioActivity$initData$1$1$execute$3;
 
@@ -56,7 +56,7 @@
 
     invoke-virtual {v1}, Lcom/commsource/home/homepagedialog/b;->d()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

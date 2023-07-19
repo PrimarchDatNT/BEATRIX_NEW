@@ -40,7 +40,7 @@
 
     const/16 p1, 0x4de1
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/widget/VideoPlayComponent$c;->a:Lcom/commsource/widget/VideoPlayComponent;
 
@@ -48,7 +48,7 @@
 
     invoke-static {v0, v1}, Lcom/commsource/widget/VideoPlayComponent;->m(Lcom/commsource/widget/VideoPlayComponent;I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

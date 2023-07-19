@@ -77,7 +77,7 @@
 
     const v1, 0xd981
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p2}, Lcom/meitu/mtuploader/bean/MtTokenBean;->getOrder()Ljava/util/List;
 
@@ -155,7 +155,7 @@
     invoke-interface {p1, v2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     :cond_1
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -165,7 +165,7 @@
 
     const v0, 0xd986
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "orders"
 
@@ -207,7 +207,7 @@
     invoke-interface {p1, p2}, Ljava/util/List;->add(Ljava/lang/Object;)Z
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -217,7 +217,7 @@
 
     const v0, 0xd982
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/mtuploader/bean/MtTokenItem;->getBackupUrl()Ljava/lang/String;
 
@@ -357,7 +357,7 @@
 
     invoke-virtual {v12, v1, v11}, Landroid/content/ContentValues;->put(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v12
 .end method
@@ -367,7 +367,7 @@
 
     const v0, 0xd987
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "groupid"
 
@@ -393,7 +393,7 @@
 
     invoke-direct {v2, p0, v1, p1}, Lcom/meitu/mtuploader/u/b$a;-><init>(Lcom/meitu/mtuploader/u/b;II)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v2
 .end method
@@ -403,7 +403,7 @@
 
     const v0, 0xd988
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/mtuploader/bean/MtTokenItem;
 
@@ -495,7 +495,7 @@
 
     invoke-virtual {v1, p2}, Lcom/meitu/mtuploader/bean/MtTokenItem;->setTtl(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -505,7 +505,7 @@
 
     const v0, 0xd983
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "groupid"
 
@@ -563,12 +563,12 @@
 
     move-result p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -578,7 +578,7 @@
 
     const v0, 0xd989
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -596,14 +596,14 @@
 
     const/4 p1, 0x0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 
     :cond_0
     const/4 p1, 0x1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -622,7 +622,7 @@
 
     const v0, 0xd98b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p2, :cond_0
 
@@ -674,7 +674,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -694,7 +694,7 @@
 
     const v0, 0xd985
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p2, :cond_0
 
@@ -709,7 +709,7 @@
     :cond_0
     invoke-direct {p0, p1, p3}, Lcom/meitu/mtuploader/u/b;->i(Landroid/content/Context;Ljava/util/List;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -725,7 +725,7 @@
 
     const v9, 0xd984
 
-    invoke-static {v9}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v9}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v10, Ljava/util/ArrayList;
 
@@ -955,7 +955,7 @@
 
     invoke-direct {v0, v8, v1, v10}, Lcom/meitu/mtuploader/u/b;->j(Landroid/content/Context;Landroid/database/Cursor;Ljava/util/List;)V
 
-    invoke-static {v9}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v9}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v2
 
@@ -1005,7 +1005,7 @@
 
     invoke-static {v3, v1}, Lcom/meitu/mtuploader/w/b;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v9}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v9}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v6
 
@@ -1036,7 +1036,7 @@
 
     invoke-static {v3, v1}, Lcom/meitu/mtuploader/w/b;->a(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v9}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v9}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v6
 
@@ -1058,7 +1058,7 @@
     :cond_9
     invoke-direct {v0, v8, v1, v10}, Lcom/meitu/mtuploader/u/b;->j(Landroid/content/Context;Landroid/database/Cursor;Ljava/util/List;)V
 
-    invoke-static {v9}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v9}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v2
 .end method
@@ -1083,7 +1083,7 @@
 
     const v2, 0xd980
 
-    invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v2}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz v1, :cond_1
 
@@ -1161,7 +1161,7 @@
     move-object/from16 v14, p0
 
     :goto_1
-    invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1171,7 +1171,7 @@
 
     const v0, 0xd98a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p1, :cond_1
 
@@ -1206,14 +1206,14 @@
     :cond_0
     const/4 p1, 0x1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 
     :cond_1
     const/4 p1, 0x0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method

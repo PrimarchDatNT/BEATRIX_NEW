@@ -51,7 +51,7 @@
 
     const v0, 0xc05d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lf/k/m/f/b$e;->d:Lf/k/m/f/b;
 
@@ -63,7 +63,7 @@
 
     invoke-static {v1, v2, v3, v4}, Lf/k/m/f/b;->j(Lf/k/m/f/b;Ljava/util/List;Ljava/lang/String;Lf/k/m/f/e/e;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

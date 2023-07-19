@@ -41,7 +41,7 @@
 
     const p3, 0x9631
 
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v0, "recyclerView"
 
@@ -63,7 +63,7 @@
 
     invoke-virtual {p1}, Landroid/view/View;->invalidate()V
 
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

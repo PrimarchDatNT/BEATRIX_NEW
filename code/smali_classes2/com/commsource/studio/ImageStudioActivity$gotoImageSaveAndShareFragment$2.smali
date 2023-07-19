@@ -37,7 +37,7 @@
 
     const v0, 0x9c56
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/studio/ImageStudioActivity$gotoImageSaveAndShareFragment$2;
 
@@ -45,7 +45,7 @@
 
     sput-object v1, Lcom/commsource/studio/ImageStudioActivity$gotoImageSaveAndShareFragment$2;->INSTANCE:Lcom/commsource/studio/ImageStudioActivity$gotoImageSaveAndShareFragment$2;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -67,13 +67,13 @@
 
     const v0, 0x9c54
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/commsource/studio/ImageStudioActivity$gotoImageSaveAndShareFragment$2;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -83,13 +83,13 @@
 
     const v0, 0x9c55
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x0
 
     invoke-static {v1}, Lcom/commsource/studio/m0;->e0(Z)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

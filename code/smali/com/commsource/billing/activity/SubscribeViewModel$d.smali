@@ -52,13 +52,13 @@
 
     const/16 v0, 0x1ce
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Lcom/commsource/billing/bean/ManualUnlockStatusInfo;
 
     invoke-virtual {p0, p1}, Lcom/commsource/billing/activity/SubscribeViewModel$d;->c(Lcom/commsource/billing/bean/ManualUnlockStatusInfo;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -68,7 +68,7 @@
 
     const/16 p1, 0x1cd
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     new-instance v0, Ljava/util/HashMap;
@@ -141,7 +141,7 @@
 
     invoke-static {v0}, Lcom/commsource/billing/activity/SubscribeViewModel;->O(Lcom/commsource/billing/activity/SubscribeViewModel;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -151,7 +151,7 @@
 
     const/16 v0, 0x1cc
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p1, :cond_0
 
@@ -227,7 +227,7 @@
     invoke-static {p1}, Lf/d/i/g;->I(Landroid/util/SparseArray;)V
 
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

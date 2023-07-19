@@ -87,11 +87,11 @@
 
     const v0, 0xcc8c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/meitu/library/analytics/consumer/EventUploader;->x:Ljava/lang/Thread;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -101,11 +101,11 @@
 
     const v0, 0xcc8d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0, p1, p2}, Lcom/meitu/library/analytics/consumer/EventUploader;->j(J)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -115,11 +115,11 @@
 
     const v0, 0xcc8e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-wide p1, p0, Lcom/meitu/library/analytics/consumer/EventUploader;->w:J
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-wide p1
 .end method
@@ -133,7 +133,7 @@
 
     const v0, 0xcc8b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/analytics/consumer/EventUploader;->A:Lcom/meitu/library/analytics/consumer/d;
 
@@ -148,7 +148,7 @@
     invoke-interface {v1, v2, v3, p3}, Lcom/meitu/library/analytics/consumer/d;->m(JLcom/meitu/library/analytics/y/k/a$a;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -158,13 +158,13 @@
 
     const v0, 0xcc86
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/analytics/consumer/EventUploader;->x:Ljava/lang/Thread;
 
     if-eqz v1, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -218,7 +218,7 @@
 
     invoke-direct {p0}, Lcom/meitu/library/analytics/consumer/EventUploader;->i()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -273,7 +273,7 @@
 
     invoke-direct {p0}, Lcom/meitu/library/analytics/consumer/EventUploader;->i()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -302,7 +302,7 @@
 
     if-gez p1, :cond_5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -364,7 +364,7 @@
 
     :cond_7
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -390,7 +390,7 @@
 
     invoke-direct {p0}, Lcom/meitu/library/analytics/consumer/EventUploader;->i()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -400,7 +400,7 @@
 
     const v0, 0xcc8a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -521,7 +521,7 @@
 
     invoke-static {v4, p1, p2}, Lcom/meitu/library/analytics/y/j/d;->h(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 
@@ -547,7 +547,7 @@
 
     invoke-static {v4, p1}, Lcom/meitu/library/analytics/y/j/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v2
 
@@ -557,7 +557,7 @@
 
     invoke-static {v4, p1}, Lcom/meitu/library/analytics/y/j/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v2
 
@@ -567,7 +567,7 @@
 
     invoke-static {v4, p1}, Lcom/meitu/library/analytics/y/j/d;->d(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const-string p1, "CONNECTION_TIMEOUT"
 
@@ -579,7 +579,7 @@
 
     const v0, 0xcc89
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0, p1, p2}, Lcom/meitu/library/analytics/consumer/EventUploader;->g(Lcom/meitu/library/analytics/sdk/content/f;[B)Ljava/lang/String;
 
@@ -597,7 +597,7 @@
 
     sget-object p1, Lcom/meitu/library/analytics/consumer/EventUploader$POST_RESULT;->SUCCEEDED:Lcom/meitu/library/analytics/consumer/EventUploader$POST_RESULT;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
@@ -624,7 +624,7 @@
 
     sget-object p1, Lcom/meitu/library/analytics/consumer/EventUploader$POST_RESULT;->SUCCEEDED:Lcom/meitu/library/analytics/consumer/EventUploader$POST_RESULT;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
@@ -639,7 +639,7 @@
 
     sget-object p1, Lcom/meitu/library/analytics/consumer/EventUploader$POST_RESULT;->FAILED_AND_TRASH:Lcom/meitu/library/analytics/consumer/EventUploader$POST_RESULT;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
@@ -648,7 +648,7 @@
 
     sget-object p1, Lcom/meitu/library/analytics/consumer/EventUploader$POST_RESULT;->FAILED:Lcom/meitu/library/analytics/consumer/EventUploader$POST_RESULT;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
@@ -676,7 +676,7 @@
 
     sget-object p1, Lcom/meitu/library/analytics/consumer/EventUploader$POST_RESULT;->FAILED:Lcom/meitu/library/analytics/consumer/EventUploader$POST_RESULT;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
@@ -696,7 +696,7 @@
 
     sget-object p1, Lcom/meitu/library/analytics/consumer/EventUploader$POST_RESULT;->SUCCEEDED:Lcom/meitu/library/analytics/consumer/EventUploader$POST_RESULT;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
@@ -711,7 +711,7 @@
 
     sget-object p1, Lcom/meitu/library/analytics/consumer/EventUploader$POST_RESULT;->FAILED_AND_TRASH:Lcom/meitu/library/analytics/consumer/EventUploader$POST_RESULT;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
@@ -720,7 +720,7 @@
 
     sget-object p1, Lcom/meitu/library/analytics/consumer/EventUploader$POST_RESULT;->FAILED:Lcom/meitu/library/analytics/consumer/EventUploader$POST_RESULT;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -730,7 +730,7 @@
 
     const v0, 0xcc87
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -759,7 +759,7 @@
     iput-object v1, p0, Lcom/meitu/library/analytics/consumer/EventUploader;->x:Ljava/lang/Thread;
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -769,7 +769,7 @@
 
     const v0, 0xcc88
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lcom/meitu/library/analytics/sdk/content/f;->S()Lcom/meitu/library/analytics/sdk/content/f;
 
@@ -848,7 +848,7 @@
 
     if-ne p1, p2, :cond_1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -868,12 +868,12 @@
 
     :cond_3
     :goto_2
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
     :cond_4
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -885,7 +885,7 @@
 
     const v0, 0xcc84
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/meitu/library/analytics/consumer/EventUploader;->y:I
 
@@ -920,13 +920,13 @@
 
     iput p1, p0, Lcom/meitu/library/analytics/consumer/EventUploader;->y:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
     :cond_2
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -936,7 +936,7 @@
 
     const v0, 0xcc85
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/meitu/library/analytics/consumer/EventUploader;->y:I
 
@@ -985,7 +985,7 @@
 
     const/4 v1, 0x1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method

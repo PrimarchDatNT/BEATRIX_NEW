@@ -30,13 +30,13 @@
 
     const/16 v0, 0x4b33
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p2, Landroid/graphics/Bitmap;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/processor/l;->V(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -54,7 +54,7 @@
 
     const/16 v0, 0x4b32
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "lastEffectBitmap"
 
@@ -74,7 +74,7 @@
 
     invoke-static {p1, p2, v1, v2}, Lcom/meitu/core/processor/WrinkleSmoothProcessor;->wrinkleCleanerManual(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;Landroid/graphics/Rect;I)Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

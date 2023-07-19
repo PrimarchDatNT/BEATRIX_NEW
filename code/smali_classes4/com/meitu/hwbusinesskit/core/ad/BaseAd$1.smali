@@ -39,7 +39,7 @@
 
     const v0, 0xed21
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -107,7 +107,7 @@
 
     invoke-virtual {p1, v1}, Landroid/os/Handler;->removeCallbacksAndMessages(Ljava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -117,7 +117,7 @@
 
     const v0, 0xed22
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -172,7 +172,7 @@
 
     invoke-virtual {p1, v1}, Landroid/os/Handler;->removeCallbacksAndMessages(Ljava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -182,7 +182,7 @@
 
     const v0, 0xed1d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/ad/BaseAd$1;->this$0:Lcom/meitu/hwbusinesskit/core/ad/BaseAd;
 
@@ -258,7 +258,7 @@
     :goto_0
     invoke-static {p1, p2, p3}, Lcom/meitu/hwbusinesskit/core/statistics/AnalyticsAgent;->loadFailedStatistics(Lcom/meitu/hwbusinesskit/core/bean/AdData;ILjava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -268,7 +268,7 @@
 
     const v0, 0xed1c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/bean/AdData;->getAdSlot()Lcom/meitu/hwbusinesskit/core/bean/AdSlot;
 
@@ -325,7 +325,7 @@
     :cond_2
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/statistics/AnalyticsAgent;->loadSuccessStatistics(Lcom/meitu/hwbusinesskit/core/bean/AdData;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -335,7 +335,7 @@
 
     const v0, 0xed1e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/ad/BaseAd$1;->this$0:Lcom/meitu/hwbusinesskit/core/ad/BaseAd;
 
@@ -445,7 +445,7 @@
     :goto_0
     invoke-static {p1, p2, p3}, Lcom/meitu/hwbusinesskit/core/statistics/AnalyticsAgent;->loadFailedStatistics(Lcom/meitu/hwbusinesskit/core/bean/AdData;ILjava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -455,7 +455,7 @@
 
     const v0, 0xed1f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/ad/BaseAd$1;->this$0:Lcom/meitu/hwbusinesskit/core/ad/BaseAd;
 
@@ -507,7 +507,7 @@
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/ad/BaseAd;->reshowWhenLoadFailed()V
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -517,13 +517,13 @@
 
     const p1, 0xed20
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/core/ad/BaseAd$1;->this$0:Lcom/meitu/hwbusinesskit/core/ad/BaseAd;
 
     invoke-virtual {v0, p2}, Lcom/meitu/hwbusinesskit/core/ad/BaseAd;->adShowFailed(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -533,7 +533,7 @@
 
     const v0, 0xed1a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -737,7 +737,7 @@
     invoke-virtual {p1}, Lcom/meitu/hwbusinesskit/core/ad/BaseAd;->reloadWhenShowSuccess()V
 
     :cond_4
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -747,7 +747,7 @@
 
     const v0, 0xed23
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -798,7 +798,7 @@
     :cond_0
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/statistics/AnalyticsAgent;->loadRequestStatistics(Lcom/meitu/hwbusinesskit/core/bean/AdData;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -808,7 +808,7 @@
 
     const v0, 0xed24
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "\u901a\u77e5\u9875\u9762\u56de\u8c03"
 
@@ -823,7 +823,7 @@
     invoke-virtual {v1, p1, p2}, Lcom/meitu/hwbusinesskit/core/listener/OnAdListener;->onAddThirdPartyNativeAdView(Lcom/meitu/hwbusinesskit/core/bean/AdData;Landroid/view/View;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -833,7 +833,7 @@
 
     const v0, 0xed25
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0, p1}, Lcom/meitu/hwbusinesskit/core/ad/BaseAd$1;->onAdShowSuccess(Lcom/meitu/hwbusinesskit/core/bean/AdData;)V
 
@@ -846,7 +846,7 @@
     invoke-virtual {v1, p1}, Lcom/meitu/hwbusinesskit/core/listener/OnAdListener;->onAppWallShowSuccess(Lcom/meitu/hwbusinesskit/core/bean/AdData;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -856,7 +856,7 @@
 
     const v0, 0xed1b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/ad/BaseAd$1;->this$0:Lcom/meitu/hwbusinesskit/core/ad/BaseAd;
 
@@ -867,7 +867,7 @@
     invoke-virtual {v1}, Lcom/meitu/hwbusinesskit/core/listener/OnAdListener;->onRewardedCompleted()V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

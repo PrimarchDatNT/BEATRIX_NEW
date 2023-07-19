@@ -48,7 +48,7 @@
 
     const v0, 0xa1b3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     invoke-static {}, Lcom/commsource/beautyplus/util/v;->m()Ljava/lang/String;
@@ -145,7 +145,7 @@
 
     invoke-virtual {p1}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

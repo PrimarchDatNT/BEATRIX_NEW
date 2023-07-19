@@ -81,7 +81,7 @@
 
     const/16 v0, 0x4f1a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p1}, Lcom/commsource/studio/bean/f;->f()Ljava/lang/String;
 
@@ -131,7 +131,7 @@
     sget-object p1, Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;->CRAYON:Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;
 
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
@@ -147,7 +147,7 @@
 
     const/16 v0, 0x4f18
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/processor/StyleProcessor$c;->d:Lcom/commsource/studio/bean/f;
 
@@ -157,7 +157,7 @@
 
     if-eqz v1, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -214,7 +214,7 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/commsource/camera/newrender/renderproxy/r;->V(Lcom/meitu/template/bean/Filter;I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -232,7 +232,7 @@
 
     const/16 v1, 0x4f16
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v2, "style"
 
@@ -246,7 +246,7 @@
 
     if-eqz v2, :cond_0
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -369,7 +369,7 @@
     check-cast p1, Lcotlin/t1;
 
     :cond_4
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -442,7 +442,7 @@
     check-cast p1, Lcotlin/t1;
 
     :cond_7
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -452,7 +452,7 @@
 
     const/16 v0, 0x4f19
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/processor/StyleProcessor$c;->g:Lcom/commsource/easyeditor/utils/opengl/f;
 
@@ -476,7 +476,7 @@
 
     invoke-virtual {v1}, Lcom/commsource/camera/newrender/renderproxy/r;->i()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -494,7 +494,7 @@
 
     const/16 v0, 0x4f17
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "style"
 
@@ -607,7 +607,7 @@
 
     invoke-static {p1}, Lcom/commsource/studio/processor/StyleProcessor;->L(Lcom/commsource/studio/processor/StyleProcessor;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

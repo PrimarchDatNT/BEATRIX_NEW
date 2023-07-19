@@ -36,7 +36,7 @@
 
     const v0, 0x905d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity$g;->d:Lcom/commsource/camera/ArVideoConfirmActivity;
 
@@ -56,7 +56,7 @@
 
     iput-boolean v2, v1, Lcom/commsource/camera/BaseCameraConfirmActivity;->Q:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

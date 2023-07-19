@@ -25,7 +25,7 @@
 
     const v0, 0xd080
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-class v1, Lcom/meitu/libmt3dface/MTFace2DInterface;
 
@@ -37,7 +37,7 @@
 
     invoke-static {}, Lcom/meitu/libmt3dface/MTFace2DInterface;->loadLibary()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -78,7 +78,7 @@
 
     const v0, 0xd07b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     invoke-static {}, Lcom/getkeepsafe/relinker/d;->g()Lcom/getkeepsafe/relinker/e;
@@ -123,7 +123,7 @@
     invoke-static {v2, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -150,7 +150,7 @@
 
     const v0, 0xd07c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v7, Lcom/meitu/libmt3dface/MTFace2DInterface$Reconstruct2DMode;->MT_FACE_25D:Lcom/meitu/libmt3dface/MTFace2DInterface$Reconstruct2DMode;
 
@@ -168,7 +168,7 @@
 
     move-result-object p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -178,7 +178,7 @@
 
     const v0, 0xd07d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v11, Lcom/meitu/libmt3dface/data/MTFace2DMesh;
 
@@ -213,7 +213,7 @@
     invoke-direct/range {v1 .. v10}, Lcom/meitu/libmt3dface/MTFace2DInterface;->nativeGetFace2DMesh(JJIIFILcom/meitu/libmt3dface/data/MTFace2DMesh;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v11
 .end method
@@ -223,7 +223,7 @@
 
     const v0, 0xd07e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v6, Lcom/meitu/libmt3dface/MTFace2DInterface$Reconstruct2DMode;->MT_FACE_25D:Lcom/meitu/libmt3dface/MTFace2DInterface$Reconstruct2DMode;
 
@@ -241,7 +241,7 @@
 
     move-result-object p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -251,7 +251,7 @@
 
     const v0, 0xd07e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v10, Lcom/meitu/libmt3dface/data/MTFace2DMesh;
 
@@ -286,7 +286,7 @@
     invoke-direct/range {v1 .. v9}, Lcom/meitu/libmt3dface/MTFace2DInterface;->nativeGetFace2DMeshWithFloatArray(J[FIIFILcom/meitu/libmt3dface/data/MTFace2DMesh;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v10
 .end method
@@ -296,7 +296,7 @@
 
     const v0, 0xd07f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/libmt3dface/MTFace2DInterface;->nativeInstance:J
 
@@ -311,7 +311,7 @@
     move-result-wide v3
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-wide v3
 .end method
@@ -326,7 +326,7 @@
 
     const v0, 0xd07a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
@@ -349,7 +349,7 @@
     invoke-static {v2, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -359,7 +359,7 @@
 
     const v0, 0xd079
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/libmt3dface/MTFace2DInterface;->nativeInstance:J
 
@@ -374,7 +374,7 @@
     iput-wide v3, p0, Lcom/meitu/libmt3dface/MTFace2DInterface;->nativeInstance:J
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

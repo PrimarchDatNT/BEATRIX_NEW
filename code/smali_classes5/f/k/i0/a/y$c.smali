@@ -44,7 +44,7 @@
 
     const v0, 0xa4ec
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p2}, Lcom/commsource/studio/formula/JsFormula;->getFormulaId()Ljava/lang/String;
 
@@ -314,7 +314,7 @@
     invoke-interface {p1, v2, p2}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindString(ILjava/lang/String;)V
 
     :goto_7
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -324,13 +324,13 @@
 
     const v0, 0xa4ed
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p2, Lcom/commsource/studio/formula/JsFormula;
 
     invoke-virtual {p0, p1, p2}, Lf/k/i0/a/y$c;->a(Landroidx/sqlite/db/SupportSQLiteStatement;Lcom/commsource/studio/formula/JsFormula;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -340,9 +340,9 @@
 
     const v0, 0xa4eb
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const-string v0, "UPDATE OR ABORT `FORMULA_MATERIAL_DUFFLE` SET `FormulaId` = ?,`FormulaThumbnail` = ?,`FormulaConfig` = ?,`PaidState` = ?,`ProductsInfo` = ?,`IconRatio` = ?,`CreateTime` = ?,`HotState` = ?,`HotSort` = ?,`RecommendState` = ?,`RecommendSort` = ?,`NewState` = ?,`EndedAt` = ?,`Sort` = ?,`RecentUseTime` = ?,`CategoryId` = ?,`DownloadState` = ?,`InternalState` = ? WHERE `FormulaId` = ?"
 

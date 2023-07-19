@@ -17,13 +17,13 @@
 
     const/16 v0, 0x2dec
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "SubsUtil"
 
     sput-object v1, Lcom/commsource/util/b2;->a:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -55,7 +55,7 @@
 
     const/16 v6, 0x2de7
 
-    invoke-static {v6}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v6}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v7, Lcom/commsource/util/b2;->a:Ljava/lang/String;
 
@@ -118,12 +118,12 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    invoke-static {v6}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v6}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
     :cond_0
-    invoke-static {v6}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v6}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
@@ -186,12 +186,12 @@
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_0
 
-    invoke-static {v6}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v6}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
     :cond_3
-    invoke-static {v6}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v6}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
@@ -229,12 +229,12 @@
     :try_end_2
     .catch Ljava/lang/Exception; {:try_start_2 .. :try_end_2} :catch_0
 
-    invoke-static {v6}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v6}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
     :cond_5
-    invoke-static {v6}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v6}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
@@ -246,7 +246,7 @@
     :cond_6
     const/4 p0, 0x0
 
-    invoke-static {v6}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v6}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -269,7 +269,7 @@
 
     const/16 v0, 0x2de6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p0, :cond_0
 
@@ -295,14 +295,14 @@
 
     check-cast p0, Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
     :cond_0
     const/4 p0, 0x0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -312,7 +312,7 @@
 
     const/16 v0, 0x2deb
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lf/d/i/o;->e0()I
 
@@ -342,7 +342,7 @@
 
     move-result-object v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 
@@ -357,7 +357,7 @@
 
     move-result-object v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -367,7 +367,7 @@
 
     const/16 v0, 0x2dea
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lf/d/i/o;->e0()I
 
@@ -397,7 +397,7 @@
 
     move-result-object v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 
@@ -412,7 +412,7 @@
 
     move-result-object v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -422,7 +422,7 @@
 
     const/16 v0, 0x2de9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     instance-of v1, p0, Lcom/commsource/studio/function/MosaicFragment;
 
@@ -460,7 +460,7 @@
     const/4 p0, 0x1
 
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p0
 .end method
@@ -470,7 +470,7 @@
 
     const/16 v0, 0x2de8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     instance-of v1, p0, Lcom/commsource/studio/function/SegmentFragment;
 
@@ -536,7 +536,7 @@
     const/4 p0, 0x1
 
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p0
 .end method

@@ -28,7 +28,7 @@
 
     const v0, 0x93e7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/helpcapture/l0;->f:Lcom/commsource/helpcapture/HelpSelfieViewModel$e;
 
@@ -193,7 +193,7 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/helpcapture/HelpSelfieAnchorView;->setAnchorPoints(Ljava/util/List;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -215,7 +215,7 @@
 
     const v1, 0x93e9
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     const-wide/16 v2, 0x64
 
@@ -258,7 +258,7 @@
 
     :cond_1
     :goto_0
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -282,7 +282,7 @@
 
     const p3, 0x93e4
 
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->e(I)V
 
     sget v0, Lcom/res/provider/ResLAYOUT;->fragment_help_selfie_confirm:I
 
@@ -327,7 +327,7 @@
 
     move-result-object p1
 
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -337,7 +337,7 @@
 
     const v0, 0x93e6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-super {p0}, Lcom/commsource/beautyplus/i0/a;->onResume()V
 
@@ -345,7 +345,7 @@
 
     invoke-static {v1}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -363,7 +363,7 @@
 
     const p1, 0x93e5
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p2, p0, Lcom/commsource/helpcapture/l0;->c:Lcom/commsource/beautyplus/f0/o8;
 
@@ -393,7 +393,7 @@
 
     invoke-virtual {p2, p0}, Landroid/widget/TextView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -403,11 +403,11 @@
 
     const v0, 0x93e8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/commsource/helpcapture/l0;->f:Lcom/commsource/helpcapture/HelpSelfieViewModel$e;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

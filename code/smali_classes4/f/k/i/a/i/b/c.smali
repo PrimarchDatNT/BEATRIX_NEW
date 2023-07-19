@@ -26,11 +26,11 @@
 
     const v0, 0xdaca
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lf/k/i/a/i/b/c;->a:Lf/k/i/a/h/d;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -45,7 +45,7 @@
 
     const v0, 0xdacb
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Ljava/lang/System;->nanoTime()J
 
@@ -109,7 +109,7 @@
     invoke-interface {v6, v5, v1}, Lf/k/i/a/h/d;->c(Ljava/lang/String;F)V
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
@@ -169,7 +169,7 @@
     invoke-interface {v7, v5, p1}, Lf/k/i/a/h/d;->b(Ljava/lang/String;Ljava/lang/Exception;)V
 
     :cond_3
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
     :try_end_2
@@ -214,7 +214,7 @@
     invoke-interface {v5, v6, v1}, Lf/k/i/a/h/d;->c(Ljava/lang/String;F)V
 
     :cond_5
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 .end method

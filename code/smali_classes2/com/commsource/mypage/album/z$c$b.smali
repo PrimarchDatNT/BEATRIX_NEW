@@ -52,13 +52,13 @@
 
     const/16 v0, 0x6dc8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/mypage/album/z$c$b;->c(Landroid/graphics/drawable/Drawable;Lcom/bumptech/glide/request/k/f;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -78,7 +78,7 @@
 
     const/16 p2, 0x6dc8
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/mypage/album/z$c$b;->g:Lcom/commsource/mypage/album/z$c;
 
@@ -215,7 +215,7 @@
     invoke-static {v0, p1, v1}, Lcom/commsource/mypage/album/z$c;->c(Lcom/commsource/mypage/album/z$c;Ljava/util/List;Ljava/lang/String;)V
 
     :cond_0
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

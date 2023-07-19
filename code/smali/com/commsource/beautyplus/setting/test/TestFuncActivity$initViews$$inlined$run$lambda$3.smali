@@ -40,7 +40,7 @@
 
     const/16 p1, 0x640d
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p2}, Lf/d/i/e;->G3(Z)V
 
@@ -74,7 +74,7 @@
     invoke-static {p2}, Lf/d/i/e;->m2(Lcom/commsource/camera/xcamera/bean/b;)V
 
     :goto_0
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

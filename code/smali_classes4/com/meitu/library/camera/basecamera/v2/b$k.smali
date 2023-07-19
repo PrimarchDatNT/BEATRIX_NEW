@@ -46,7 +46,7 @@
 
     const v0, 0xb4ac
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lcom/meitu/library/n/a/t/d;->a()Lcom/meitu/library/n/a/t/f/e;
 
@@ -74,7 +74,7 @@
 
     invoke-virtual {v1, v2, v3}, Lcom/meitu/library/camera/basecamera/v2/c/f;->b(IZ)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

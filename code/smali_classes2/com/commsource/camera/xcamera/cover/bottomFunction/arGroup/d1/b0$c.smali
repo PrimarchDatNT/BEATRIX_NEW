@@ -56,7 +56,7 @@
 
     const/16 p2, 0x305d
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/b0$c;->c:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/b0;
 
@@ -241,7 +241,7 @@
 
     invoke-static {p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/b0;->J(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/b0;)V
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -251,13 +251,13 @@
 
     const/16 v0, 0x305d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Lcom/giphy/sdk/core/network/response/ListMediaResponse;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/b0$c;->a(Lcom/giphy/sdk/core/network/response/ListMediaResponse;Ljava/lang/Throwable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

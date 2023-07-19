@@ -40,7 +40,7 @@
 
     const/16 v0, 0xe4b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/store/filter/b$n;->a:Lcom/commsource/store/filter/b;
 
@@ -76,7 +76,7 @@
 
     iput v2, v1, Landroid/view/ViewGroup$LayoutParams;->width:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

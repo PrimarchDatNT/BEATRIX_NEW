@@ -63,7 +63,7 @@
 
     const v0, 0xd287
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/libmtsns/framwork/i/a$a$a;->a:Lcom/meitu/libmtsns/framwork/i/a$a;
 
@@ -71,7 +71,7 @@
 
     iput-object p1, v1, Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$h;->j:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -81,7 +81,7 @@
 
     const v0, 0xd286
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/libmtsns/framwork/i/a$a$a;->a:Lcom/meitu/libmtsns/framwork/i/a$a;
 
@@ -89,7 +89,7 @@
 
     invoke-static {v1, p1}, Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$h;->f(Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$h;Lcom/meitu/libmtsns/framwork/i/c;)Lcom/meitu/libmtsns/framwork/i/c;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -99,7 +99,7 @@
 
     const v0, 0xd285
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/libmtsns/framwork/i/a$a$a;->a:Lcom/meitu/libmtsns/framwork/i/a$a;
 
@@ -107,7 +107,7 @@
 
     iput-object p1, v1, Lcom/meitu/libmtsns/framwork/i/d$l;->d:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -117,7 +117,7 @@
 
     const v0, 0xd284
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/libmtsns/framwork/i/a$a$a;->a:Lcom/meitu/libmtsns/framwork/i/a$a;
 
@@ -125,7 +125,7 @@
 
     invoke-static {v1, p1}, Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$h;->j(Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$h;Ljava/lang/String;)Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method

@@ -52,13 +52,13 @@
 
     const/16 v0, 0x15f8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Lcom/commsource/studio/r0/v;
 
     invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/studio/function/BrightenEyesFragment$b;->S(Lcom/commsource/studio/r0/v;ILcom/commsource/easyeditor/utils/opengl/f;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -76,7 +76,7 @@
 
     const/16 v0, 0x15f8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "renderProxy"
 
@@ -121,7 +121,7 @@
     invoke-virtual {p1, p3, p2}, Lcom/commsource/studio/r0/v;->y(Lcom/commsource/easyeditor/utils/opengl/f;Lcom/commsource/easyeditor/utils/opengl/f;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

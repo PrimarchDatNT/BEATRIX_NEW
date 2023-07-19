@@ -39,7 +39,7 @@
 
     const v0, 0xdb6c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/mtlab/g/c/c$a$a;->a:Lcom/meitu/mtlab/g/c/c$a;
 
@@ -97,7 +97,7 @@
 
     invoke-virtual/range {v2 .. v10}, Lcom/meitu/mtlab/g/g/d;->k(Ljava/lang/String;Ljava/lang/String;JLjava/lang/String;Ljava/lang/String;Ljava/lang/String;Lcom/meitu/mtlab/g/d/b;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

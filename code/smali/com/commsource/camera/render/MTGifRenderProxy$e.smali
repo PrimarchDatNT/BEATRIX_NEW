@@ -39,7 +39,7 @@
 
     const/16 v0, 0x4f02
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/camera/render/MTGifRenderProxy$e;->a:Lcom/commsource/camera/render/MTGifRenderProxy;
 
@@ -66,7 +66,7 @@
     invoke-static {v1, v3, v4}, Lcom/commsource/camera/render/MTGifRenderProxy;->e2(Lcom/commsource/camera/render/MTGifRenderProxy;J)J
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

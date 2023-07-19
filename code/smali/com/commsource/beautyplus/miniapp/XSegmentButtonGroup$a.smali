@@ -36,7 +36,7 @@
 
     const v0, 0xa324
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;->onAnimationCancel(Landroid/animation/Animator;)V
 
@@ -44,7 +44,7 @@
 
     invoke-static {p1}, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->access$000(Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -54,7 +54,7 @@
 
     const v0, 0xa325
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;->onAnimationEnd(Landroid/animation/Animator;)V
 
@@ -62,7 +62,7 @@
 
     invoke-static {p1}, Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;->access$000(Lcom/commsource/beautyplus/miniapp/XSegmentButtonGroup;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

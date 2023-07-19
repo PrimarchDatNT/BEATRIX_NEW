@@ -39,7 +39,7 @@
 
     const v0, 0xcaaf
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lcom/meitu/library/analytics/u/g;->a()Lcom/meitu/library/analytics/u/g;
 
@@ -58,7 +58,7 @@
     invoke-static {v1}, Lcom/meitu/library/analytics/u/g;->b(Lcom/meitu/library/analytics/u/g;)Lcom/meitu/library/analytics/u/g;
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

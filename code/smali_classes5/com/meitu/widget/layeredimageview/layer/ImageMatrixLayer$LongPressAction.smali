@@ -52,7 +52,7 @@
 
     const v0, 0xa6c6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$LongPressAction;
 
@@ -160,7 +160,7 @@
 
     const v0, 0xa6c6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -185,7 +185,7 @@
 
     const v0, 0xa6c4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x1
 
@@ -209,42 +209,42 @@
 
     sget-object p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$LongPressAction;->NONE:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$LongPressAction;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
     :cond_0
     sget-object p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$LongPressAction;->RESTORE:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$LongPressAction;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
     :cond_1
     sget-object p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$LongPressAction;->ZOOM_OUT_STEP_BY_STEP:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$LongPressAction;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
     :cond_2
     sget-object p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$LongPressAction;->ZOOM_IN_STEP_BY_STEP:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$LongPressAction;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
     :cond_3
     sget-object p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$LongPressAction;->ZOOM_OUT_TO_MIN_SCALE:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$LongPressAction;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
     :cond_4
     sget-object p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$LongPressAction;->ZOOM_IN_TO_MAX_SCALE:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$LongPressAction;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -254,7 +254,7 @@
 
     const v0, 0xa6c4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-class v1, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$LongPressAction;
 
@@ -264,7 +264,7 @@
 
     check-cast p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$LongPressAction;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -274,7 +274,7 @@
 
     const v0, 0xa6c3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$LongPressAction;->$VALUES:[Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$LongPressAction;
 
@@ -284,7 +284,7 @@
 
     check-cast v1, [Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$LongPressAction;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -296,11 +296,11 @@
 
     const v0, 0xa6c5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$LongPressAction;->mAction:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method

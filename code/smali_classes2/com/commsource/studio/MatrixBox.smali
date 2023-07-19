@@ -161,7 +161,7 @@
 
     const/16 p7, 0x6e9b
 
-    invoke-static {p7}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p7}, Lcom/res/ANRTrace;->e(I)V
 
     and-int/lit8 v0, p6, 0x2
 
@@ -204,7 +204,7 @@
 
     invoke-virtual/range {v0 .. v5}, Lcom/commsource/studio/MatrixBox;->animateByMatrix(Lcom/commsource/studio/MatrixBox;JLcotlin/jvm/u/a;Lcotlin/jvm/u/a;)V
 
-    invoke-static {p7}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p7}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -214,7 +214,7 @@
 
     const/16 v0, 0x6e9d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     and-int/lit8 v1, p7, 0x2
 
@@ -278,7 +278,7 @@
 
     invoke-virtual/range {p2 .. p8}, Lcom/commsource/studio/MatrixBox;->animateToMatrix(Lcom/commsource/studio/MatrixBox;Landroid/graphics/PointF;JLcotlin/jvm/u/a;Lcotlin/jvm/u/a;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -288,7 +288,7 @@
 
     const/16 p5, 0x6e93
 
-    invoke-static {p5}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p5}, Lcom/res/ANRTrace;->e(I)V
 
     and-int/lit8 v0, p4, 0x2
 
@@ -308,7 +308,7 @@
     :cond_1
     invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/studio/MatrixBox;->postRotate(FFF)V
 
-    invoke-static {p5}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p5}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -318,7 +318,7 @@
 
     const/16 p6, 0x6e8e
 
-    invoke-static {p6}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p6}, Lcom/res/ANRTrace;->e(I)V
 
     and-int/lit8 v0, p5, 0x4
 
@@ -338,7 +338,7 @@
     :cond_1
     invoke-virtual {p0, p1, p2, p3, p4}, Lcom/commsource/studio/MatrixBox;->postScale(FFFF)V
 
-    invoke-static {p6}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p6}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -348,7 +348,7 @@
 
     const/16 p5, 0x6e8c
 
-    invoke-static {p5}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p5}, Lcom/res/ANRTrace;->e(I)V
 
     and-int/lit8 v0, p4, 0x2
 
@@ -368,7 +368,7 @@
     :cond_1
     invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/studio/MatrixBox;->postScale(FFF)V
 
-    invoke-static {p5}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p5}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -409,7 +409,7 @@
 
     const/16 v10, 0x6e9a
 
-    invoke-static {v10}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v10}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "animateMatrixBox"
 
@@ -423,7 +423,7 @@
 
     if-eqz v1, :cond_0
 
-    invoke-static {v10}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v10}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -520,7 +520,7 @@
     :cond_2
     const/16 v0, 0x6e9a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -574,7 +574,7 @@
 
     const/16 v17, 0x6e9c
 
-    invoke-static/range {v17 .. v17}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static/range {v17 .. v17}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v2, "targetMatrix"
 
@@ -791,7 +791,7 @@
     invoke-virtual {v0}, Landroid/animation/ValueAnimator;->start()V
 
     :cond_2
-    invoke-static/range {v17 .. v17}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static/range {v17 .. v17}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -811,7 +811,7 @@
 
     const/16 v0, 0x6e96
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
@@ -821,7 +821,7 @@
 
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->invertMatrix:Landroid/graphics/Matrix;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -833,7 +833,7 @@
 
     const/16 v0, 0x6e97
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
@@ -847,7 +847,7 @@
 
     invoke-direct {v1, v2}, Lcom/commsource/studio/MatrixBox;-><init>(Landroid/graphics/Matrix;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -857,7 +857,7 @@
 
     const/16 v0, 0x6e9e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrixAnimator:Landroid/animation/ValueAnimator;
 
@@ -866,7 +866,7 @@
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->cancel()V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -878,7 +878,7 @@
 
     const/16 v0, 0x6e9f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/studio/MatrixBox;
 
@@ -914,7 +914,7 @@
 
     invoke-static {v2, v5, v3, v5, v4}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -928,13 +928,13 @@
 
     const/16 v0, 0x6ea0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x1
 
     if-ne p0, p1, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 
@@ -945,7 +945,7 @@
 
     if-nez v2, :cond_1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v3
 
@@ -964,7 +964,7 @@
 
     if-eqz v2, :cond_2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v3
 
@@ -979,12 +979,12 @@
 
     if-nez p1, :cond_3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v3
 
     :cond_3
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -994,11 +994,11 @@
 
     const/16 v0, 0x6e78
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean v1, p0, Lcom/commsource/studio/MatrixBox;->flipX:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -1008,11 +1008,11 @@
 
     const/16 v0, 0x6e7a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean v1, p0, Lcom/commsource/studio/MatrixBox;->flipY:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -1024,11 +1024,11 @@
 
     const/16 v0, 0x6e74
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -1040,11 +1040,11 @@
 
     const/16 v0, 0x6e76
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrixAnimator:Landroid/animation/ValueAnimator;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -1056,11 +1056,11 @@
 
     const/16 v0, 0x6e75
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrixFloat:[F
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -1072,7 +1072,7 @@
 
     const/16 v0, 0x6e98
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrixInOpenGL:[F
 
@@ -1132,7 +1132,7 @@
 
     aput v2, v1, p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -1144,7 +1144,7 @@
 
     const/16 v0, 0x6e99
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/16 v1, 0x10
 
@@ -1234,7 +1234,7 @@
 
     invoke-static {v1, v2, p2, p2, p1}, Landroid/opengl/Matrix;->scaleM([FIFFF)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -1244,7 +1244,7 @@
 
     const/16 v0, 0x6e88
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrixFloat:[F
 
@@ -1276,7 +1276,7 @@
 
     neg-float v1, v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -1286,7 +1286,7 @@
 
     const/16 v0, 0x6e85
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrixFloat:[F
 
@@ -1316,7 +1316,7 @@
 
     double-to-float v1, v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -1326,7 +1326,7 @@
 
     const/16 v0, 0x6e86
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean v1, p0, Lcom/commsource/studio/MatrixBox;->flipX:Z
 
@@ -1346,7 +1346,7 @@
     move-result v1
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -1356,7 +1356,7 @@
 
     const/16 v0, 0x6e87
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean v1, p0, Lcom/commsource/studio/MatrixBox;->flipY:Z
 
@@ -1376,7 +1376,7 @@
     move-result v1
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -1386,7 +1386,7 @@
 
     const/16 v0, 0x6e89
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrixFloat:[F
 
@@ -1394,7 +1394,7 @@
 
     aget v1, v1, v2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -1404,7 +1404,7 @@
 
     const/16 v0, 0x6e8a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrixFloat:[F
 
@@ -1412,7 +1412,7 @@
 
     aget v1, v1, v2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -1422,7 +1422,7 @@
 
     const/16 v0, 0x6ea1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
@@ -1440,7 +1440,7 @@
 
     add-int/2addr v1, v2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -1454,7 +1454,7 @@
 
     const/16 v0, 0x6e91
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "rectFloatArray"
 
@@ -1478,7 +1478,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1492,7 +1492,7 @@
 
     const/16 v0, 0x6e94
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "matrixBox"
 
@@ -1510,7 +1510,7 @@
 
     invoke-virtual {p1, v1}, Landroid/graphics/Matrix;->getValues([F)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1520,7 +1520,7 @@
 
     const/16 v0, 0x6e92
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
@@ -1532,7 +1532,7 @@
 
     invoke-virtual {p1, p2}, Landroid/graphics/Matrix;->getValues([F)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1542,7 +1542,7 @@
 
     const/16 v0, 0x6e8b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
@@ -1554,7 +1554,7 @@
 
     invoke-virtual {p1, p2}, Landroid/graphics/Matrix;->getValues([F)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1564,7 +1564,7 @@
 
     const/16 v0, 0x6e8d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
@@ -1576,7 +1576,7 @@
 
     invoke-virtual {p1, p2}, Landroid/graphics/Matrix;->getValues([F)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1586,7 +1586,7 @@
 
     const/16 v0, 0x6e8f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
@@ -1598,7 +1598,7 @@
 
     invoke-virtual {p1, p2}, Landroid/graphics/Matrix;->getValues([F)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1612,7 +1612,7 @@
 
     const/16 v0, 0x6e95
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "matrixBox"
 
@@ -1630,7 +1630,7 @@
 
     invoke-virtual {p1, v1}, Landroid/graphics/Matrix;->getValues([F)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1640,7 +1640,7 @@
 
     const/16 v0, 0x6e90
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
@@ -1652,7 +1652,7 @@
 
     invoke-virtual {p1, p2}, Landroid/graphics/Matrix;->getValues([F)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1662,7 +1662,7 @@
 
     const/16 v0, 0x6e80
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
@@ -1674,7 +1674,7 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/Matrix;->getValues([F)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1684,7 +1684,7 @@
 
     const/16 v0, 0x6e7e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
@@ -1730,7 +1730,7 @@
 
     invoke-virtual {p0}, Lcom/commsource/studio/MatrixBox;->updateMatrixFloat()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1744,7 +1744,7 @@
 
     const/16 v0, 0x6e7f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "position"
 
@@ -1816,7 +1816,7 @@
 
     invoke-virtual/range {v3 .. v9}, Lcom/commsource/studio/MatrixBox;->set(IIFFFF)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1830,7 +1830,7 @@
 
     const/16 v0, 0x6e7d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "matrix"
 
@@ -1852,7 +1852,7 @@
 
     iput-boolean p1, p0, Lcom/commsource/studio/MatrixBox;->flipY:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1866,7 +1866,7 @@
 
     const/16 v0, 0x6e7c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "matrixBox"
 
@@ -1892,7 +1892,7 @@
 
     iput-boolean p1, p0, Lcom/commsource/studio/MatrixBox;->flipY:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1902,11 +1902,11 @@
 
     const/16 v0, 0x6e79
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-boolean p1, p0, Lcom/commsource/studio/MatrixBox;->flipX:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1916,11 +1916,11 @@
 
     const/16 v0, 0x6e7b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-boolean p1, p0, Lcom/commsource/studio/MatrixBox;->flipY:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1934,11 +1934,11 @@
 
     const/16 v0, 0x6e77
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/commsource/studio/MatrixBox;->matrixAnimator:Landroid/animation/ValueAnimator;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1948,7 +1948,7 @@
 
     const/16 v0, 0x6e83
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrixFloat:[F
 
@@ -1964,7 +1964,7 @@
 
     invoke-virtual {p1, v1}, Landroid/graphics/Matrix;->setValues([F)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1974,7 +1974,7 @@
 
     const/16 v0, 0x6e81
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrixFloat:[F
 
@@ -1986,7 +1986,7 @@
 
     invoke-virtual {p1, v1}, Landroid/graphics/Matrix;->setValues([F)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1996,7 +1996,7 @@
 
     const/16 v0, 0x6e82
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrixFloat:[F
 
@@ -2008,7 +2008,7 @@
 
     invoke-virtual {p1, v1}, Landroid/graphics/Matrix;->setValues([F)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -2018,7 +2018,7 @@
 
     const/16 v0, 0x6e84
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/MatrixBox;->matrix:Landroid/graphics/Matrix;
 
@@ -2026,7 +2026,7 @@
 
     invoke-virtual {v1, v2}, Landroid/graphics/Matrix;->getValues([F)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

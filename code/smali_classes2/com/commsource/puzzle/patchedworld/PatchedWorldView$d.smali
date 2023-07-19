@@ -45,9 +45,9 @@
 
     const/16 p1, 0x36ca
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -57,7 +57,7 @@
 
     const/16 p1, 0x36c9
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/puzzle/patchedworld/PatchedWorldView$d;->b:Lcom/commsource/puzzle/patchedworld/PatchedWorldView;
 
@@ -94,7 +94,7 @@
 
     invoke-static {v0, v1}, Lcom/commsource/puzzle/patchedworld/PatchedWorldView;->u(Lcom/commsource/puzzle/patchedworld/PatchedWorldView;Z)Z
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -104,9 +104,9 @@
 
     const/16 p1, 0x36cb
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -116,7 +116,7 @@
 
     const/16 p1, 0x36c8
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/puzzle/patchedworld/PatchedWorldView$d;->b:Lcom/commsource/puzzle/patchedworld/PatchedWorldView;
 
@@ -136,7 +136,7 @@
 
     iput v0, p0, Lcom/commsource/puzzle/patchedworld/PatchedWorldView$d;->a:I
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

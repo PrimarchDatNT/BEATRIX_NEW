@@ -33,7 +33,7 @@
 
     const v0, 0xc4fd
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/library/abtest/h/f;
 
@@ -41,7 +41,7 @@
 
     invoke-static {v1, p0, p1}, Lcom/meitu/library/abtest/h/a;->c(Lcom/meitu/library/abtest/h/h;Lcom/meitu/library/abtest/h/g;Z)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -55,7 +55,7 @@
 
     const v0, 0xc4fe
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p2, :cond_5
 
@@ -87,7 +87,7 @@
     invoke-interface {p1, p0}, Lcom/meitu/library/abtest/h/g;->a(Ljava/lang/Exception;)V
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -161,7 +161,7 @@
     invoke-interface {p1, p0}, Lcom/meitu/library/abtest/h/g;->a(Ljava/lang/Exception;)V
 
     :cond_4
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -177,7 +177,7 @@
     invoke-interface {p2, v1}, Lcom/meitu/library/abtest/k/h;->post(Ljava/lang/Runnable;)V
 
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -189,7 +189,7 @@
 
     const v0, 0xc4fb
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/library/abtest/h/d;
 
@@ -197,7 +197,7 @@
 
     invoke-static {v1, p1, p2}, Lcom/meitu/library/abtest/h/a;->c(Lcom/meitu/library/abtest/h/h;Lcom/meitu/library/abtest/h/g;Z)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -207,13 +207,13 @@
 
     const v0, 0xc4fc
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/library/abtest/h/e;
 
     invoke-direct {v1, p1}, Lcom/meitu/library/abtest/h/e;-><init>([B)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

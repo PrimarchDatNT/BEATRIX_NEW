@@ -25,7 +25,7 @@
 
     const/16 v0, 0x1d74
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/util/ISO8061Period;
 
@@ -65,7 +65,7 @@
 
     sput-object v1, Lcom/commsource/util/ISO8061Period;->d:Lcotlin/w;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -83,7 +83,7 @@
 
     const/16 v0, 0x1d72
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/commsource/util/ISO8061Period;->d:Lcotlin/w;
 
@@ -93,7 +93,7 @@
 
     check-cast v1, Ljava/util/regex/Pattern;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -103,7 +103,7 @@
 
     const/16 v0, 0x1d70
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/commsource/util/ISO8061Period;->b:Lcotlin/w;
 
@@ -113,7 +113,7 @@
 
     check-cast v1, Ljava/util/regex/Pattern;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -123,7 +123,7 @@
 
     const/16 v0, 0x1d71
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/commsource/util/ISO8061Period;->c:Lcotlin/w;
 
@@ -133,7 +133,7 @@
 
     check-cast v1, Ljava/util/regex/Pattern;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -143,7 +143,7 @@
 
     const/16 v0, 0x1d6f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/commsource/util/ISO8061Period;->a:Lcotlin/w;
 
@@ -153,7 +153,7 @@
 
     check-cast v1, Ljava/util/regex/Pattern;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -169,7 +169,7 @@
 
     const/16 v1, 0x1d73
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p1, :cond_1c
 
@@ -590,7 +590,7 @@
     add-int/2addr v6, v0
 
     :cond_1a
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return v6
 
@@ -601,7 +601,7 @@
 
     invoke-direct {v0, v2}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     throw v0
     :try_end_0
@@ -613,7 +613,7 @@
     invoke-static {v0}, Lcom/meitu/library/util/Debug/Debug;->q(Ljava/lang/Throwable;)V
 
     :cond_1c
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return p2
 .end method

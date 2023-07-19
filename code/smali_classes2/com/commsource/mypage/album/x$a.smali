@@ -53,7 +53,7 @@
 
     const/16 v0, 0x5b5d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/mypage/album/x$a;
 
@@ -61,7 +61,7 @@
 
     sput-object v1, Lcom/commsource/mypage/album/x$a;->o:Lcom/commsource/mypage/album/x$a;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

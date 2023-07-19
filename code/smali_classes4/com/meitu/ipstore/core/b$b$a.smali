@@ -43,7 +43,7 @@
 
     const v0, 0xc8bd
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/ipstore/core/b$b$a;->a:Ljava/util/List;
 
@@ -152,7 +152,7 @@
 
     invoke-static {v1}, Lf/k/m/j/j;->i(Ljava/lang/Runnable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -164,7 +164,7 @@
 
     invoke-static {v1}, Lf/k/m/j/j;->i(Ljava/lang/Runnable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

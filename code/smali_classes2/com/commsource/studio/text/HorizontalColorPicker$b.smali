@@ -40,7 +40,7 @@
 
     const/16 p1, 0x1711
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/studio/text/HorizontalColorPicker$b;->a:Lcom/commsource/studio/text/HorizontalColorPicker;
 
@@ -65,7 +65,7 @@
     check-cast v0, Lcotlin/t1;
 
     :cond_0
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -141,7 +141,7 @@
     invoke-virtual {v0, v1}, Lcom/commsource/widget/h1/e;->G(I)V
 
     :cond_6
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

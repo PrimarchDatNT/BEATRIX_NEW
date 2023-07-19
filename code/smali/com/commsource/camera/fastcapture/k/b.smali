@@ -37,7 +37,7 @@
 
     const/16 v0, 0x7a38
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Landroid/graphics/Canvas;
 
@@ -65,7 +65,7 @@
 
     invoke-virtual {v1, v3}, Landroid/graphics/Paint;->setAlpha(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -75,7 +75,7 @@
 
     const/16 v0, 0x7a39
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p1}, Landroid/graphics/Bitmap;->createBitmap(Landroid/graphics/Bitmap;)Landroid/graphics/Bitmap;
 
@@ -193,7 +193,7 @@
 
     invoke-virtual {v1}, Landroid/graphics/Bitmap;->recycle()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -203,13 +203,13 @@
 
     const/16 v0, 0x7a3a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/camera/fastcapture/k/b;->a:Lcom/meitu/mtoilpainting/MeituOilPainting;
 
     invoke-virtual {v1}, Lcom/meitu/mtoilpainting/MeituOilPainting;->f()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

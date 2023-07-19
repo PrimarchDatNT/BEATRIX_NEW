@@ -15,7 +15,7 @@
 
     const v0, 0xc8b9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lf/k/m/i/d;->a()V
 
@@ -23,7 +23,7 @@
 
     sput-object v1, Lf/k/m/i/d;->a:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -41,7 +41,7 @@
 
     const v0, 0xc8bb
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v9, Ln/a/b/c/e;
 
@@ -81,7 +81,7 @@
 
     sput-object v1, Lf/k/m/i/d;->b:Lorg/aspectj/lang/c$b;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -110,7 +110,7 @@
 
     const v5, 0xc8b4
 
-    invoke-static {v5}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v5}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v7, 0x0
 
@@ -333,7 +333,7 @@
     :cond_3
     const v2, 0xc8b4
 
-    invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v2}, Lcom/res/ANRTrace;->a(I)V
 
     throw v0
     :try_end_6
@@ -505,14 +505,14 @@
     :cond_6
     const v1, 0xc8b4
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     throw v0
 
     :cond_7
     const v1, 0xc8b4
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -537,13 +537,13 @@
 
     const v0, 0xc8b6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "createTable"
 
     invoke-static {p0, v1, p1, p2}, Lf/k/m/i/d;->h(Lorg/greenrobot/greendao/database/f;Ljava/lang/String;Z[Ljava/lang/Class;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -568,13 +568,13 @@
 
     const v0, 0xc8b5    # 7.2E-41f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "dropTable"
 
     invoke-static {p0, v1, p1, p2}, Lf/k/m/i/d;->h(Lorg/greenrobot/greendao/database/f;Ljava/lang/String;Z[Ljava/lang/Class;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -595,7 +595,7 @@
 
     const v0, 0xc8b3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "createTable"
 
@@ -603,7 +603,7 @@
 
     invoke-static {p0, v1, v2, p1}, Lf/k/m/i/d;->h(Lorg/greenrobot/greendao/database/f;Ljava/lang/String;Z[Ljava/lang/Class;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -613,7 +613,7 @@
 
     const v0, 0xc8b8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p0, p0, Lorg/greenrobot/greendao/h;->b:Ljava/lang/Class;
 
@@ -700,7 +700,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const-string p0, "TEXT"
 
@@ -708,7 +708,7 @@
 
     :cond_1
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const-string p0, "INTEGER"
 
@@ -720,13 +720,13 @@
 
     const p3, 0xc8ba
 
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -752,7 +752,7 @@
 
     const v0, 0xc8b7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     array-length v1, p3
 
@@ -760,7 +760,7 @@
 
     if-ge v1, v2, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -870,7 +870,7 @@
 
     :cond_1
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -891,7 +891,7 @@
 
     const v0, 0xc8b2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lorg/greenrobot/greendao/database/f;
 
@@ -901,7 +901,7 @@
 
     invoke-static {v1, p1}, Lf/k/m/i/d;->b(Lorg/greenrobot/greendao/database/f;[Ljava/lang/Class;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

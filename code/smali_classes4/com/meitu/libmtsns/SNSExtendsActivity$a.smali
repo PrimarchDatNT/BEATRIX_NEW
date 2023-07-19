@@ -36,13 +36,13 @@
 
     const p1, 0xd339
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/meitu/libmtsns/SNSExtendsActivity$a;->a:Lcom/meitu/libmtsns/SNSExtendsActivity;
 
     invoke-virtual {v0, p2, p3}, Lcom/meitu/libmtsns/SNSExtendsActivity;->p0(II)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -52,7 +52,7 @@
 
     const p1, 0xd338
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     const v0, 0x10001
 
@@ -63,7 +63,7 @@
     invoke-virtual {p2}, Lcom/meitu/libmtsns/SNSExtendsActivity;->u0()V
 
     :cond_0
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -73,7 +73,7 @@
 
     const p1, 0xd337
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     const v0, 0x10001
 
@@ -144,7 +144,7 @@
 
     :cond_5
     :goto_0
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

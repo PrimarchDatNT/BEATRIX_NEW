@@ -52,7 +52,7 @@
 
     const/16 v0, 0xb7c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p2, Lcom/commsource/studio/effect/FlipFixRotateEnum;
 
@@ -60,7 +60,7 @@
 
     move-result p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -70,7 +70,7 @@
 
     const/16 p1, 0xb7c
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v0, Lcom/commsource/studio/effect/FlipFixRotateEnum;->Flip:Lcom/commsource/studio/effect/FlipFixRotateEnum;
 
@@ -112,7 +112,7 @@
 
     const/4 p2, 0x0
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return p2
 .end method

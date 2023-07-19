@@ -66,7 +66,7 @@
 
     const p1, 0xee4e
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     const-string p2, "S2sAdController"
 
@@ -85,7 +85,7 @@
     :cond_0
     const/4 p2, 0x1
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return p2
 .end method
@@ -107,7 +107,7 @@
 
     const p2, 0xee4f
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance p3, Ljava/lang/StringBuilder;
 
@@ -138,7 +138,7 @@
     :cond_0
     const/4 p1, 0x1
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -148,7 +148,7 @@
 
     const v0, 0xee4f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     move-object v2, p1
 
@@ -168,7 +168,7 @@
 
     move-result p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method

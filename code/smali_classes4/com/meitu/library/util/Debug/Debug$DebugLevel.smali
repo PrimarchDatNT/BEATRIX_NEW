@@ -52,7 +52,7 @@
 
     const/16 v0, 0x2719
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/library/util/Debug/Debug$DebugLevel;
 
@@ -134,7 +134,7 @@
 
     sput-object v10, Lcom/meitu/library/util/Debug/Debug$DebugLevel;->ALL:Lcom/meitu/library/util/Debug/Debug$DebugLevel;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -157,7 +157,7 @@
 
     const/16 v0, 0x2717
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-class v1, Lcom/meitu/library/util/Debug/Debug$DebugLevel;
 
@@ -167,7 +167,7 @@
 
     check-cast p0, Lcom/meitu/library/util/Debug/Debug$DebugLevel;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -177,7 +177,7 @@
 
     const/16 v0, 0x2716
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/library/util/Debug/Debug$DebugLevel;->$VALUES:[Lcom/meitu/library/util/Debug/Debug$DebugLevel;
 
@@ -187,7 +187,7 @@
 
     check-cast v1, [Lcom/meitu/library/util/Debug/Debug$DebugLevel;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -199,7 +199,7 @@
 
     const/16 v0, 0x2718
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0, p1}, Ljava/lang/Enum;->compareTo(Ljava/lang/Enum;)I
 
@@ -215,7 +215,7 @@
     const/4 p1, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method

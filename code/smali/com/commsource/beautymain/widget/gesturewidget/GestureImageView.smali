@@ -232,7 +232,7 @@
 
     const v0, 0x821f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-class v1, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;
 
@@ -242,7 +242,7 @@
 
     sput-object v1, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->e1:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -947,7 +947,7 @@
 
     const v0, 0x81de
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-lez p1, :cond_1
 
@@ -971,7 +971,7 @@
     iput-boolean p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->i0:Z
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -981,7 +981,7 @@
 
     const v0, 0x81d3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/high16 v1, 0x3f800000    # 1.0f
 
@@ -1008,7 +1008,7 @@
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->start()V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1018,7 +1018,7 @@
 
     const v0, 0x81e0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P0:Landroid/animation/ValueAnimator;
 
@@ -1028,7 +1028,7 @@
 
     if-eqz v1, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -1171,7 +1171,7 @@
 
     invoke-virtual {p0, p1, p2, v3}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->s(FFZ)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1181,7 +1181,7 @@
 
     const v0, 0x81df
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->o()Z
 
@@ -1214,7 +1214,7 @@
     invoke-virtual {p0, v1}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->t(Landroid/graphics/Matrix;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1224,7 +1224,7 @@
 
     const v0, 0x81e4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P:F
 
@@ -1238,7 +1238,7 @@
 
     iput p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Q:F
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1248,7 +1248,7 @@
 
     const v0, 0x81cd
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->getCurrentImageBounds()Landroid/graphics/RectF;
 
@@ -1360,7 +1360,7 @@
 
     invoke-virtual {p0, v2, v3, p1, p2}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->u(FFFF)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1370,7 +1370,7 @@
 
     const v0, 0x81da
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P0:Landroid/animation/ValueAnimator;
 
@@ -1415,7 +1415,7 @@
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->start()V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1425,7 +1425,7 @@
 
     const v0, 0x81d8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P0:Landroid/animation/ValueAnimator;
 
@@ -1470,7 +1470,7 @@
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->start()V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1480,7 +1480,7 @@
 
     const v0, 0x81db
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P0:Landroid/animation/ValueAnimator;
 
@@ -1525,7 +1525,7 @@
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->start()V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1535,7 +1535,7 @@
 
     const v0, 0x81d9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P0:Landroid/animation/ValueAnimator;
 
@@ -1580,7 +1580,7 @@
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->start()V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1590,7 +1590,7 @@
 
     const v0, 0x81cb
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->o()Z
 
@@ -2106,7 +2106,7 @@
     const/4 v2, 0x0
 
     :goto_6
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v2
 .end method
@@ -2116,7 +2116,7 @@
 
     const p3, 0x81cc
 
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->o()Z
 
@@ -2251,7 +2251,7 @@
     iput p2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->S:F
 
     :cond_4
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->a(I)V
 
     return v0
 .end method
@@ -2261,7 +2261,7 @@
 
     const v0, 0x81ce
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->getCurrentImageBounds()Landroid/graphics/RectF;
 
@@ -2333,7 +2333,7 @@
 
     if-gez v1, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v5
 
@@ -2342,7 +2342,7 @@
 
     if-lez p1, :cond_1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v5
 
@@ -2351,7 +2351,7 @@
 
     if-gez p1, :cond_2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v5
 
@@ -2363,7 +2363,7 @@
     const/4 v5, 0x1
 
     :cond_3
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v5
 .end method
@@ -2373,7 +2373,7 @@
 
     const v0, 0x81d6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/high16 v1, 0x43070000    # 135.0f
 
@@ -2389,7 +2389,7 @@
 
     const/high16 p1, 0x42b40000    # 90.0f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 
@@ -2408,7 +2408,7 @@
 
     const/high16 p1, -0x3d4c0000    # -90.0f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 
@@ -2423,14 +2423,14 @@
 
     const/high16 p1, 0x43340000    # 180.0f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 
     :cond_2
     const/4 p1, 0x0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -2440,7 +2440,7 @@
 
     const v0, 0x81d5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/high16 v1, 0x42340000    # 45.0f
 
@@ -2488,7 +2488,7 @@
 
     iput p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->x0:F
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 
@@ -2497,7 +2497,7 @@
 
     iput p2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->x0:F
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p2
 
@@ -2528,7 +2528,7 @@
     :goto_0
     iput p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->y0:F
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -2546,7 +2546,7 @@
 
     const v0, 0x81aa
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/beautymain/widget/gesturewidget/e;
 
@@ -2863,7 +2863,7 @@
 
     iput-boolean v2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->h0:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -2873,7 +2873,7 @@
 
     const p4, 0x81dd
 
-    invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p4}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->h0:Z
 
@@ -3151,7 +3151,7 @@
     invoke-virtual {p1, p2}, Landroid/graphics/Matrix;->mapRect(Landroid/graphics/RectF;)Z
 
     :cond_5
-    invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p4}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -3161,7 +3161,7 @@
 
     const v0, 0x81d7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Landroid/graphics/PointF;
 
@@ -3225,7 +3225,7 @@
 
     :cond_3
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -3235,7 +3235,7 @@
 
     const v0, 0x81e1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P0:Landroid/animation/ValueAnimator;
 
@@ -3245,7 +3245,7 @@
 
     if-eqz v1, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -3382,7 +3382,7 @@
 
     invoke-virtual {p0, p1, p2, v4}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->r(FFZ)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -3392,7 +3392,7 @@
 
     const v0, 0x81e2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P:F
 
@@ -3498,7 +3498,7 @@
 
     invoke-virtual {p0, p1, p2, v3}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->r(FFZ)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -3510,7 +3510,7 @@
 
     const v0, 0x8215
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Q0:Landroid/graphics/RectF;
 
@@ -3518,7 +3518,7 @@
 
     invoke-direct {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->C()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -3528,7 +3528,7 @@
 
     const v0, 0x81c8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$a;->e:[I
 
@@ -3558,7 +3558,7 @@
     invoke-direct {p0, v1, p1}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->x(FF)V
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v2
 .end method
@@ -3568,9 +3568,9 @@
 
     const p1, 0x81ca
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -3580,9 +3580,9 @@
 
     const p1, 0x81c9
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     const/4 p1, 0x1
 
@@ -3594,7 +3594,7 @@
 
     const v0, 0x8217
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
@@ -3614,7 +3614,7 @@
 
     float-to-int p1, p2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -3626,11 +3626,11 @@
 
     const v0, 0x8218
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->V0:Landroid/graphics/RectF;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -3640,11 +3640,11 @@
 
     const v0, 0x8206
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P:F
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -3654,11 +3654,11 @@
 
     const v0, 0x8207
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Q:F
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -3668,7 +3668,7 @@
 
     const v0, 0x8208
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->b1:Landroid/graphics/Matrix;
 
@@ -3732,7 +3732,7 @@
 
     sub-float/2addr v1, v2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -3742,7 +3742,7 @@
 
     const v0, 0x8209
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->b1:Landroid/graphics/Matrix;
 
@@ -3806,7 +3806,7 @@
 
     sub-float/2addr v1, v2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -3816,11 +3816,11 @@
 
     const v0, 0x8202
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->b:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$DoubleTapAction;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -3832,7 +3832,7 @@
 
     const v0, 0x81e7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Landroid/widget/ImageView;->getDrawable()Landroid/graphics/drawable/Drawable;
 
@@ -3850,14 +3850,14 @@
 
     move-result-object v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 
     :cond_0
     const/4 v1, 0x0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -3867,11 +3867,11 @@
 
     const v0, 0x820e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->e0:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -3881,7 +3881,7 @@
 
     const v0, 0x820c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->R0:Landroid/graphics/Matrix;
 
@@ -3891,7 +3891,7 @@
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->S0:Landroid/graphics/Matrix;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -3901,11 +3901,11 @@
 
     const v0, 0x820d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->d0:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -3917,11 +3917,11 @@
 
     const v0, 0x8219
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->U0:Landroid/graphics/RectF;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -3931,11 +3931,11 @@
 
     const v0, 0x820b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->a0:F
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -3945,11 +3945,11 @@
 
     const v0, 0x8203
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->c:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$LongPressAction;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -3961,11 +3961,11 @@
 
     const v0, 0x81d1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->W0:Landroid/graphics/PointF;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -3977,7 +3977,7 @@
 
     const v0, 0x81d2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->getImageInvertMatrix()Landroid/graphics/Matrix;
 
@@ -4011,7 +4011,7 @@
 
     invoke-direct {v1, v3, v2}, Landroid/graphics/PointF;-><init>(FF)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -4021,11 +4021,11 @@
 
     const v0, 0x8204
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->f:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$PinchAction;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -4035,7 +4035,7 @@
 
     const v0, 0x821a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->p0:Lcom/commsource/beautymain/widget/gesturewidget/e;
 
@@ -4043,7 +4043,7 @@
 
     move-result v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -4053,7 +4053,7 @@
 
     const v0, 0x820a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->b1:Landroid/graphics/Matrix;
 
@@ -4209,7 +4209,7 @@
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Y0:[F
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -4219,11 +4219,11 @@
 
     const v0, 0x8205
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->d:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -4233,11 +4233,11 @@
 
     const v0, 0x8201
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->a:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -4247,7 +4247,7 @@
 
     const v0, 0x81d4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     int-to-float p1, p1
 
@@ -4273,7 +4273,7 @@
     div-float p1, p2, p4
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -4283,13 +4283,13 @@
 
     const v0, 0x81dc
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->H0:Z
 
     if-eqz v1, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -4298,7 +4298,7 @@
 
     invoke-direct {p0, p1, p2, p3, v1}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->m(ZIIZ)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -4308,11 +4308,11 @@
 
     const v0, 0x81cf
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->j0:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -4322,7 +4322,7 @@
 
     const v0, 0x8216
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->e0:I
 
@@ -4340,7 +4340,7 @@
     const/4 v1, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -4350,9 +4350,9 @@
 
     const p1, 0x81b4
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -4362,7 +4362,7 @@
 
     const p1, 0x81b3
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->T:F
 
@@ -4415,7 +4415,7 @@
 
     iput-boolean v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->v0:Z
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -4425,9 +4425,9 @@
 
     const p1, 0x81b5
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -4437,7 +4437,7 @@
 
     const p1, 0x81b2
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->T0:Landroid/graphics/Matrix;
 
@@ -4449,7 +4449,7 @@
 
     iput-boolean v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->f0:Z
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -4459,7 +4459,7 @@
 
     const v0, 0x81b6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->f0:Z
 
@@ -4547,7 +4547,7 @@
     invoke-virtual {p0, v1, v3, p1}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->r(FFZ)V
 
     :cond_3
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -4557,7 +4557,7 @@
 
     const v0, 0x81ab
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x0
 
@@ -4565,7 +4565,7 @@
 
     invoke-super {p0}, Landroid/widget/ImageView;->onDetachedFromWindow()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -4575,7 +4575,7 @@
 
     const p1, 0x81be
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->m0:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$d;
 
@@ -4653,7 +4653,7 @@
     invoke-direct {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->I()V
 
     :goto_0
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return p3
 .end method
@@ -4663,7 +4663,7 @@
 
     const p1, 0x81c3
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean p2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->u0:Z
 
@@ -4944,7 +4944,7 @@
     invoke-virtual {p2}, Landroid/animation/ValueAnimator;->start()V
 
     :cond_4
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return v0
 .end method
@@ -4954,7 +4954,7 @@
 
     const p1, 0x81c7
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->n0:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$c;
 
@@ -4965,7 +4965,7 @@
     :cond_0
     const/4 p2, 0x1
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return p2
 .end method
@@ -4975,7 +4975,7 @@
 
     const p1, 0x81c4
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->n0:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$c;
 
@@ -4986,7 +4986,7 @@
     :cond_0
     const/4 p2, 0x1
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return p2
 .end method
@@ -4996,7 +4996,7 @@
 
     const p1, 0x81c5
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->n0:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$c;
 
@@ -5007,7 +5007,7 @@
     :cond_0
     const/4 p2, 0x1
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return p2
 .end method
@@ -5017,7 +5017,7 @@
 
     const p1, 0x81c6
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p2, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->n0:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$c;
 
@@ -5028,7 +5028,7 @@
     :cond_0
     const/4 p2, 0x1
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return p2
 .end method
@@ -5038,7 +5038,7 @@
 
     const p1, 0x81bf
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->k0:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$f;
 
@@ -5103,7 +5103,7 @@
     invoke-direct {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->I()V
 
     :goto_0
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -5113,7 +5113,7 @@
 
     const p1, 0x81c0
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->k0:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$f;
 
@@ -5124,7 +5124,7 @@
     :cond_0
     const/4 v0, 0x1
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return v0
 .end method
@@ -5134,7 +5134,7 @@
 
     const v0, 0x81b9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getX()F
 
@@ -5179,7 +5179,7 @@
     :cond_0
     const/4 p1, 0x1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -5189,7 +5189,7 @@
 
     const v0, 0x81ba
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->g0:Z
 
@@ -5222,7 +5222,7 @@
 
     const/4 p1, 0x1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -5232,7 +5232,7 @@
 
     const p1, 0x81c2
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getX()F
 
@@ -5244,7 +5244,7 @@
 
     invoke-direct {p0, p3, p2}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->G(FF)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     const/4 p1, 0x1
 
@@ -5256,7 +5256,7 @@
 
     const p1, 0x81bb
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->g0:Z
 
@@ -5279,7 +5279,7 @@
     :cond_0
     const/4 v0, 0x1
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return v0
 .end method
@@ -5289,9 +5289,9 @@
 
     const p1, 0x81bc
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     const/4 p1, 0x1
 
@@ -5303,7 +5303,7 @@
 
     const p1, 0x81c1
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$a;->d:[I
 
@@ -5355,7 +5355,7 @@
 
     :cond_2
     :goto_0
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -5365,9 +5365,9 @@
 
     const p1, 0x81b8
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -5377,7 +5377,7 @@
 
     const p2, 0x81bd
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->l0:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$i;
 
@@ -5442,7 +5442,7 @@
     invoke-direct {p0}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->I()V
 
     :goto_0
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -5452,7 +5452,7 @@
 
     const v0, 0x81ad
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-super {p0, p1, p2, p3, p4}, Landroid/widget/ImageView;->onSizeChanged(IIII)V
 
@@ -5470,7 +5470,7 @@
 
     invoke-virtual {p0, p3, p1, p2}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->l(ZII)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -5480,9 +5480,9 @@
 
     const p1, 0x81b7
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     const/4 p1, 0x1
 
@@ -5494,7 +5494,7 @@
 
     const v0, 0x81ac
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->p0:Lcom/commsource/beautymain/widget/gesturewidget/e;
 
@@ -5509,7 +5509,7 @@
     :cond_0
     const/4 p1, 0x1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -5519,7 +5519,7 @@
 
     const v0, 0x821c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->V0:Landroid/graphics/RectF;
 
@@ -5529,7 +5529,7 @@
 
     move-result v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -5539,7 +5539,7 @@
 
     const p3, 0x821d
 
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->r0:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$h;
 
@@ -5548,7 +5548,7 @@
     invoke-interface {v0, p1, p2}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$h;->a(FF)V
 
     :cond_0
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -5558,7 +5558,7 @@
 
     const p3, 0x821e
 
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->r0:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$h;
 
@@ -5567,7 +5567,7 @@
     invoke-interface {v0, p1, p2}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$h;->b(FF)V
 
     :cond_0
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -5577,7 +5577,7 @@
 
     const v0, 0x81f9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-gez p1, :cond_0
 
@@ -5590,7 +5590,7 @@
 
     invoke-virtual {v1, v2, v3}, Landroid/animation/ValueAnimator;->setDuration(J)Landroid/animation/ValueAnimator;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -5600,13 +5600,13 @@
 
     const v0, 0x8212
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P0:Landroid/animation/ValueAnimator;
 
     invoke-virtual {v1, p1}, Landroid/animation/ValueAnimator;->setInterpolator(Landroid/animation/TimeInterpolator;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -5616,7 +5616,7 @@
 
     const v0, 0x8214
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x5
 
@@ -5637,7 +5637,7 @@
     :goto_0
     iput p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->c0:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -5647,11 +5647,11 @@
 
     const v0, 0x81f5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->b:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$DoubleTapAction;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -5661,13 +5661,13 @@
 
     const v0, 0x8210
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->p0:Lcom/commsource/beautymain/widget/gesturewidget/e;
 
     invoke-virtual {v1, p1}, Lcom/commsource/beautymain/widget/gesturewidget/e;->K(F)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -5677,11 +5677,11 @@
 
     const v0, 0x81b1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->J0:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$b;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -5691,7 +5691,7 @@
 
     const v0, 0x81ae
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-super {p0, p1}, Landroid/widget/ImageView;->setImageBitmap(Landroid/graphics/Bitmap;)V
 
@@ -5720,7 +5720,7 @@
     invoke-virtual {p0, p1, v1, v2}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->l(ZII)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -5730,7 +5730,7 @@
 
     const v0, 0x81af
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-super {p0, p1}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
@@ -5759,7 +5759,7 @@
     invoke-virtual {p0, p1, v1, v2}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->l(ZII)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -5769,11 +5769,11 @@
 
     const v0, 0x81b0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-boolean p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->N0:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -5783,11 +5783,11 @@
 
     const v0, 0x81f6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->c:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$LongPressAction;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -5797,13 +5797,13 @@
 
     const v0, 0x820f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->p0:Lcom/commsource/beautymain/widget/gesturewidget/e;
 
     invoke-virtual {v1, p1}, Lcom/commsource/beautymain/widget/gesturewidget/e;->M(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -5813,11 +5813,11 @@
 
     const v0, 0x81fe
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->o0:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$g;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -5827,13 +5827,13 @@
 
     const v0, 0x81ec
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->setMaxScaleX(F)V
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->setMaxScaleY(F)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -5843,7 +5843,7 @@
 
     const v0, 0x81e8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/high16 v1, 0x3f800000    # 1.0f
 
@@ -5856,7 +5856,7 @@
     :cond_0
     iput p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->g:F
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -5866,7 +5866,7 @@
 
     const v0, 0x81e9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/high16 v1, 0x3f800000    # 1.0f
 
@@ -5879,7 +5879,7 @@
     :cond_0
     iput p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->p:F
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -5889,13 +5889,13 @@
 
     const v0, 0x81ed
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->setMinScaleX(F)V
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->setMinScaleY(F)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -5905,7 +5905,7 @@
 
     const v0, 0x81ea
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/high16 v1, 0x3f800000    # 1.0f
 
@@ -5925,7 +5925,7 @@
     :cond_1
     iput p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->J:F
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -5935,7 +5935,7 @@
 
     const v0, 0x81eb
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/high16 v1, 0x3f800000    # 1.0f
 
@@ -5955,7 +5955,7 @@
     :cond_1
     iput p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->K:F
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -5965,13 +5965,13 @@
 
     const v0, 0x8213
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->p0:Lcom/commsource/beautymain/widget/gesturewidget/e;
 
     invoke-virtual {v1, p1}, Lcom/commsource/beautymain/widget/gesturewidget/e;->N(Z)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -5981,11 +5981,11 @@
 
     const v0, 0x81fd
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->n0:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$c;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -5995,11 +5995,11 @@
 
     const v0, 0x81fc
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->m0:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$d;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -6009,11 +6009,11 @@
 
     const v0, 0x81ff
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->q0:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$e;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -6023,7 +6023,7 @@
 
     const v0, 0x81fa
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->p0:Lcom/commsource/beautymain/widget/gesturewidget/e;
 
@@ -6051,7 +6051,7 @@
 
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->k0:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$f;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -6061,11 +6061,11 @@
 
     const v0, 0x8200
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->r0:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$h;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -6075,11 +6075,11 @@
 
     const v0, 0x81fb
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->l0:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$i;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -6089,11 +6089,11 @@
 
     const v0, 0x81f8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->f:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$PinchAction;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -6103,7 +6103,7 @@
 
     const v0, 0x81e3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x0
 
@@ -6127,7 +6127,7 @@
 
     iput-boolean p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Z0:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -6137,11 +6137,11 @@
 
     const v0, 0x81f7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->d:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -6151,11 +6151,11 @@
 
     const v0, 0x81f4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->a:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -6165,13 +6165,13 @@
 
     const v0, 0x81f0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->setZoomInStepSizeX(F)V
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->setZoomInStepSizeY(F)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -6181,7 +6181,7 @@
 
     const v0, 0x81ee
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/high16 v1, 0x3f800000    # 1.0f
 
@@ -6194,7 +6194,7 @@
     :cond_0
     iput p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->L:F
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -6204,7 +6204,7 @@
 
     const v0, 0x81ef
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/high16 v1, 0x3f800000    # 1.0f
 
@@ -6217,7 +6217,7 @@
     :cond_0
     iput p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->M:F
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -6227,13 +6227,13 @@
 
     const v0, 0x81f3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->setZoomOutStepSizeX(F)V
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->setZoomOutStepSizeY(F)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -6243,7 +6243,7 @@
 
     const v0, 0x81f1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/high16 v1, 0x3f800000    # 1.0f
 
@@ -6263,7 +6263,7 @@
     :cond_1
     iput p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->N:F
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -6273,7 +6273,7 @@
 
     const v0, 0x81f2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/high16 v1, 0x3f800000    # 1.0f
 
@@ -6293,7 +6293,7 @@
     :cond_1
     iput p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->O:F
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -6307,7 +6307,7 @@
 
     const v0, 0x821b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->o0:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$g;
 
@@ -6320,7 +6320,7 @@
     invoke-interface {v1, p1, v2, v3}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$g;->a(Landroid/graphics/Matrix;Landroid/graphics/RectF;Landroid/graphics/RectF;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -6330,9 +6330,9 @@
 
     const p1, 0x81d0
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -6342,7 +6342,7 @@
 
     const v0, 0x81e5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->P0:Landroid/animation/ValueAnimator;
 
@@ -6385,7 +6385,7 @@
     invoke-virtual {v1}, Landroid/animation/ValueAnimator;->start()V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -6395,7 +6395,7 @@
 
     const v0, 0x81e6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Landroid/widget/ImageView;->getWidth()I
 
@@ -6409,7 +6409,7 @@
 
     invoke-virtual {p0, v3, v1, v2}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->l(ZII)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -6419,7 +6419,7 @@
 
     const v0, 0x8211
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p1, p2}, Landroid/view/animation/AnimationUtils;->loadInterpolator(Landroid/content/Context;I)Landroid/view/animation/Interpolator;
 
@@ -6427,7 +6427,7 @@
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->setAnimationInterpolator(Landroid/view/animation/Interpolator;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

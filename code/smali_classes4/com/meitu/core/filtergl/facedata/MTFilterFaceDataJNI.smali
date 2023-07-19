@@ -151,7 +151,7 @@
 
     const v0, 0xbf50
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeInstance:J
@@ -174,7 +174,7 @@
     invoke-static {p1, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -189,7 +189,7 @@
 
     const v0, 0xbf46
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeInstance:J
@@ -222,7 +222,7 @@
     goto :goto_0
 
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -231,7 +231,7 @@
 
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw v1
 .end method
@@ -241,7 +241,7 @@
 
     const v0, 0xbf49
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeInstance:J
@@ -252,7 +252,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 
@@ -271,7 +271,7 @@
 
     move-result v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -281,7 +281,7 @@
 
     const v0, 0xbf4b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeInstance:J
@@ -338,14 +338,14 @@
 
     invoke-direct {v1, v2, v3, v4, p1}, Landroid/graphics/RectF;-><init>(FFFF)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 
     :cond_0
     const/4 p1, 0x0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -355,7 +355,7 @@
 
     const v0, 0xbf4f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeInstance:J
@@ -366,7 +366,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
@@ -385,7 +385,7 @@
 
     move-result-object p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -395,11 +395,11 @@
 
     const v0, 0xbf47
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeInstance:J
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-wide v1
 .end method
@@ -409,7 +409,7 @@
 
     const v0, 0xbf4d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeInstance:J
@@ -420,7 +420,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 
@@ -439,7 +439,7 @@
 
     move-result p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -449,7 +449,7 @@
 
     const v0, 0xbf48
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeInstance:J
@@ -474,7 +474,7 @@
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeSetFaceCount(JI)V
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -484,7 +484,7 @@
 
     const v8, 0xbf4a
 
-    invoke-static {v8}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v8}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeInstance:J
@@ -533,7 +533,7 @@
     invoke-direct/range {v0 .. v7}, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeSetFaceRect(JIFFFF)V
 
     :goto_0
-    invoke-static {v8}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v8}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -543,7 +543,7 @@
 
     const v0, 0xbf4e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeInstance:J
@@ -568,7 +568,7 @@
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeSetFacialLandmark2D(JI[F)V
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -578,7 +578,7 @@
 
     const v0, 0xbf4c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     iget-wide v1, p0, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeInstance:J
@@ -603,7 +603,7 @@
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/core/filtergl/facedata/MTFilterFaceDataJNI;->nativeSetPointCount2D(JII)V
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

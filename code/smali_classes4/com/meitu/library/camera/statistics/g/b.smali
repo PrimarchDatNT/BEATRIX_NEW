@@ -40,7 +40,7 @@
 
     const v0, 0xa97d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/camera/statistics/g/b;->a:Lcom/meitu/library/camera/statistics/g/a;
 
@@ -79,7 +79,7 @@
     iput-object v1, p0, Lcom/meitu/library/camera/statistics/g/b;->a:Lcom/meitu/library/camera/statistics/g/a;
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -89,13 +89,13 @@
 
     const v0, 0xa973
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/camera/statistics/g/b;->a:Lcom/meitu/library/camera/statistics/g/a;
 
     invoke-virtual {v1, p1}, Lcom/meitu/library/camera/statistics/g/a;->a(Landroid/content/Context;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -105,13 +105,13 @@
 
     const v0, 0xa975
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/camera/statistics/g/b;->a:Lcom/meitu/library/camera/statistics/g/a;
 
     invoke-virtual {v1, p1}, Lcom/meitu/library/camera/statistics/g/a;->h(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -121,13 +121,13 @@
 
     const v0, 0xa974
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/camera/statistics/g/b;->a:Lcom/meitu/library/camera/statistics/g/a;
 
     invoke-virtual {v1, p1, p2}, Lcom/meitu/library/camera/statistics/g/a;->b(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -137,7 +137,7 @@
 
     const v0, 0xa97a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/camera/statistics/g/b;->a:Lcom/meitu/library/camera/statistics/g/a;
 
@@ -155,7 +155,7 @@
 
     invoke-virtual/range {v1 .. v7}, Lcom/meitu/library/camera/statistics/g/a;->c(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -174,13 +174,13 @@
 
     const v0, 0xa977
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/camera/statistics/g/b;->a:Lcom/meitu/library/camera/statistics/g/a;
 
     invoke-virtual {v1, p1, p2}, Lcom/meitu/library/camera/statistics/g/a;->d(Ljava/lang/String;Ljava/util/List;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -197,13 +197,13 @@
 
     const v0, 0xa976
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/camera/statistics/g/b;->a:Lcom/meitu/library/camera/statistics/g/a;
 
     invoke-virtual {v1, p1}, Lcom/meitu/library/camera/statistics/g/a;->e(Ljava/util/List;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -213,7 +213,7 @@
 
     const v0, 0xa972
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p1, :cond_0
 
@@ -229,7 +229,7 @@
     :goto_0
     iput-object p1, p0, Lcom/meitu/library/camera/statistics/g/b;->a:Lcom/meitu/library/camera/statistics/g/a;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -248,13 +248,13 @@
 
     const v0, 0xa978
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/camera/statistics/g/b;->a:Lcom/meitu/library/camera/statistics/g/a;
 
     invoke-virtual {v1, p1, p2}, Lcom/meitu/library/camera/statistics/g/a;->i(Ljava/lang/String;Ljava/util/List;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -264,13 +264,13 @@
 
     const v0, 0xa97b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/camera/statistics/g/b;->a:Lcom/meitu/library/camera/statistics/g/a;
 
     invoke-virtual {v1, p1}, Lcom/meitu/library/camera/statistics/g/a;->f(Z)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -280,7 +280,7 @@
 
     const v0, 0xa97c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/camera/statistics/g/b;->a:Lcom/meitu/library/camera/statistics/g/a;
 
@@ -288,7 +288,7 @@
 
     move-result p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -307,13 +307,13 @@
 
     const v0, 0xa979
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/camera/statistics/g/b;->a:Lcom/meitu/library/camera/statistics/g/a;
 
     invoke-virtual {v1, p1, p2}, Lcom/meitu/library/camera/statistics/g/a;->j(Ljava/lang/String;Ljava/util/List;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

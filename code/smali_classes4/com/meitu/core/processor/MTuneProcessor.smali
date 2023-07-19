@@ -39,11 +39,11 @@
 
     const v0, 0xbfc6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-wide p1, p0, Lcom/meitu/core/processor/MTuneProcessor;->nativeInstance:J
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-wide p1
 .end method
@@ -53,13 +53,13 @@
 
     const v0, 0xbfc7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lcom/meitu/core/processor/MTuneProcessor;->nCreate()J
 
     move-result-wide v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-wide v1
 .end method
@@ -101,7 +101,7 @@
 
     const v0, 0xbfc1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     move-object v1, p0
 
@@ -123,7 +123,7 @@
 
     invoke-static/range {v2 .. v10}, Lcom/meitu/core/processor/MTuneProcessor;->nDrawTexture(JIIIIIII)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -138,7 +138,7 @@
 
     const v0, 0xbfc5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/core/processor/MTuneProcessor;->nativeInstance:J
 
@@ -150,7 +150,7 @@
 
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -160,13 +160,13 @@
 
     const v0, 0xbfbe
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/core/processor/MTuneProcessor;->nativeInstance:J
 
     invoke-static {v1, v2}, Lcom/meitu/core/processor/MTuneProcessor;->nInitialize(J)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -176,7 +176,7 @@
 
     const v0, 0xbfc4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/core/processor/MTuneProcessor;->nativeInstance:J
 
@@ -189,7 +189,7 @@
     invoke-static {v1, v2, p1, p2}, Lcom/meitu/core/processor/MTuneProcessor;->nInit3DFaceWithModel(JLjava/lang/String;Ljava/lang/String;)Z
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -199,13 +199,13 @@
 
     const v0, 0xbfc3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/core/processor/MTuneProcessor;->nativeInstance:J
 
     invoke-static {v1, v2}, Lcom/meitu/core/processor/MTuneProcessor;->nRelease(J)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -215,13 +215,13 @@
 
     const v0, 0xbfbf
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/core/processor/MTuneProcessor;->nativeInstance:J
 
     invoke-static {v1, v2}, Lcom/meitu/core/processor/MTuneProcessor;->nReset(J)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -231,7 +231,7 @@
 
     const v0, 0xbfc2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/core/processor/MTuneProcessor;->nativeInstance:J
 
@@ -245,7 +245,7 @@
 
     invoke-static/range {v1 .. v6}, Lcom/meitu/core/processor/MTuneProcessor;->nSetFaceData(JJII)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -255,7 +255,7 @@
 
     const v0, 0xbfc0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/core/processor/MTuneProcessor;->nativeInstance:J
 
@@ -265,7 +265,7 @@
 
     invoke-static {v1, v2, p1, p2}, Lcom/meitu/core/processor/MTuneProcessor;->nSetParameterValues(JI[F)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

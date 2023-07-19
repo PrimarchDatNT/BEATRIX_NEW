@@ -57,7 +57,7 @@
 
     const/16 v0, 0x7c03
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Lcom/commsource/widget/dialog/delegate/d/g;
 
@@ -65,7 +65,7 @@
 
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -79,7 +79,7 @@
 
     const/16 v0, 0x7c04
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "$receiver"
 
@@ -545,7 +545,7 @@
     :goto_13
     invoke-static {p1, v4}, Lcom/commsource/widget/dialog/delegate/XDialogKt;->a(Lcom/commsource/widget/dialog/delegate/d/a;Z)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

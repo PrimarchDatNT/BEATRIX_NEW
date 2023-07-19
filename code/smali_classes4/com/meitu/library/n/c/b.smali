@@ -16,7 +16,7 @@
 
     const v0, 0xaed6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "invalid deviceOrientation"
 
@@ -90,7 +90,7 @@
     sget-object p0, Lcom/meitu/library/n/a/c;->x:[F
 
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -100,7 +100,7 @@
 
     const v0, 0xaed5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p0, :cond_4
 
@@ -152,7 +152,7 @@
     sget-object p0, Lcom/meitu/library/n/a/c;->k:[F
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method

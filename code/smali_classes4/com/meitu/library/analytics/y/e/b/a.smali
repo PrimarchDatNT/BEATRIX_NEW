@@ -17,7 +17,7 @@
 
     const v0, 0xd630
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p0, p1}, Ljava/lang/Double;->doubleToRawLongBits(D)J
 
@@ -105,7 +105,7 @@
 
     aput-byte p0, p2, p3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const/16 p0, 0x8
 
@@ -117,7 +117,7 @@
 
     const v0, 0xd62f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p0}, Ljava/lang/Float;->floatToRawIntBits(F)I
 
@@ -159,7 +159,7 @@
 
     aput-byte p0, p1, p2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const/4 p0, 0x4
 
@@ -171,7 +171,7 @@
 
     const v0, 0xd62d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     shl-int/lit8 v1, p0, 0x1
 
@@ -261,7 +261,7 @@
 
     sub-int/2addr v2, p2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v2
 .end method
@@ -271,7 +271,7 @@
 
     const v0, 0xd62e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x1
 
@@ -481,7 +481,7 @@
 
     sub-int/2addr v2, p3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v2
 .end method

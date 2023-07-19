@@ -45,7 +45,7 @@
 
     const/16 v0, 0x1593
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/function/ar/StudioArFragment$vpAdapter$2$a;->a:Lcom/commsource/studio/function/ar/StudioArFragment$vpAdapter$2;
 
@@ -85,7 +85,7 @@
     const/4 v1, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -97,7 +97,7 @@
 
     const/16 v0, 0x1594
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p1, :cond_0
 
@@ -123,7 +123,7 @@
     invoke-direct {v1}, Lcom/commsource/studio/function/ar/StudioMyArFragment;-><init>()V
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

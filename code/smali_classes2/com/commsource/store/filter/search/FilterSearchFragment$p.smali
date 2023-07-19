@@ -65,7 +65,7 @@
 
     const/16 p1, 0x78bd
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/store/filter/search/FilterSearchFragment$p;->a:Lcom/commsource/store/filter/search/FilterSearchFragment;
 
@@ -75,7 +75,7 @@
 
     invoke-virtual {v0}, Lcom/commsource/widget/h1/e;->p()V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -85,13 +85,13 @@
 
     const/16 v0, 0x78bc
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Ljava/util/ArrayList;
 
     invoke-virtual {p0, p1}, Lcom/commsource/store/filter/search/FilterSearchFragment$p;->a(Ljava/util/ArrayList;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

@@ -44,7 +44,7 @@
 
     const/16 v0, 0x7c98
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$l;->S:Lcom/commsource/studio/function/relight/NewRelightFragment;
 
@@ -72,7 +72,7 @@
 
     move-result p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method

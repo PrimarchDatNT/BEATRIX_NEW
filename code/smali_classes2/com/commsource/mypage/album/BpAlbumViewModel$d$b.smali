@@ -28,7 +28,7 @@
 
     const/16 v0, 0x72ed
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/mypage/album/BpAlbumViewModel$d$b;
 
@@ -36,7 +36,7 @@
 
     sput-object v1, Lcom/commsource/mypage/album/BpAlbumViewModel$d$b;->a:Lcom/commsource/mypage/album/BpAlbumViewModel$d$b;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -56,13 +56,13 @@
 
     const/16 v0, 0x72ec
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget v1, Lcom/res/provider/ResSTRING;->t_not_support_ratio:I
 
     invoke-static {v1}, Lf/k/c/c/f;->r(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

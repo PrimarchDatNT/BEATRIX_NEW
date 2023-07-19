@@ -39,7 +39,7 @@
 
     const/16 v0, 0x669
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GsensorImageView$a;->a:Lcom/commsource/beautymain/widget/gesturewidget/GsensorImageView;
 
@@ -83,7 +83,7 @@
 
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setImageMatrix(Landroid/graphics/Matrix;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -93,9 +93,9 @@
 
     const/16 v0, 0x66b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -105,7 +105,7 @@
 
     const/16 v0, 0x66c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GsensorImageView$a;->a:Lcom/commsource/beautymain/widget/gesturewidget/GsensorImageView;
 
@@ -116,7 +116,7 @@
     invoke-interface {v1}, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$b;->a()V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -126,7 +126,7 @@
 
     const/16 v0, 0x66a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GsensorImageView$a;->a:Lcom/commsource/beautymain/widget/gesturewidget/GsensorImageView;
 
@@ -314,7 +314,7 @@
 
     iput v2, v1, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView;->Q:F
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

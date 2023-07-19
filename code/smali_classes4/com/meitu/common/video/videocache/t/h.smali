@@ -40,7 +40,7 @@
 
     const p1, 0xf376
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v0, p0, Lcom/meitu/common/video/videocache/t/h;->c:J
 
@@ -56,7 +56,7 @@
     const/4 p2, 0x0
 
     :goto_0
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return p2
 .end method

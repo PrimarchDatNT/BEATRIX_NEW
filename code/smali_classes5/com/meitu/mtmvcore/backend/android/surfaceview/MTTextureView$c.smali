@@ -134,7 +134,7 @@
 
     const v0, 0xdf32
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/surfaceview/MTTextureView$c;->c:[I
 
@@ -150,12 +150,12 @@
 
     aget p1, p1, p2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p5
 .end method
@@ -171,7 +171,7 @@
 
     const v8, 0xdf31
 
-    invoke-static {v8}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v8}, Lcom/res/ANRTrace;->e(I)V
 
     array-length v9, v7
 
@@ -264,7 +264,7 @@
 
     if-ne v0, v1, :cond_0
 
-    invoke-static {v8}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v8}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v11
 
@@ -276,7 +276,7 @@
     :cond_1
     const/4 v0, 0x0
 
-    invoke-static {v8}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v8}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 .end method

@@ -36,13 +36,13 @@
 
     const v0, 0xf04f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/admob/DFPAdManager$6;->this$0:Lcom/meitu/hwbusinesskit/admob/DFPAdManager;
 
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/admob/DFPAdManager;->access$2500(Lcom/meitu/hwbusinesskit/admob/DFPAdManager;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -52,13 +52,13 @@
 
     const v0, 0xf04a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/admob/DFPAdManager$6;->this$0:Lcom/meitu/hwbusinesskit/admob/DFPAdManager;
 
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/admob/DFPAdManager;->access$2100(Lcom/meitu/hwbusinesskit/admob/DFPAdManager;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -68,7 +68,7 @@
 
     const v0, 0xf04b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/admob/DFPAdManager$6;->this$0:Lcom/meitu/hwbusinesskit/admob/DFPAdManager;
 
@@ -80,7 +80,7 @@
 
     invoke-static {v1, v2, p1}, Lcom/meitu/hwbusinesskit/admob/DFPAdManager;->access$2200(Lcom/meitu/hwbusinesskit/admob/DFPAdManager;ILjava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -90,13 +90,13 @@
 
     const v0, 0xf04c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/admob/DFPAdManager$6;->this$0:Lcom/meitu/hwbusinesskit/admob/DFPAdManager;
 
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/admob/DFPAdManager;->access$2300(Lcom/meitu/hwbusinesskit/admob/DFPAdManager;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -106,13 +106,13 @@
 
     const v0, 0xf04e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/admob/DFPAdManager$6;->this$0:Lcom/meitu/hwbusinesskit/admob/DFPAdManager;
 
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/admob/DFPAdManager;->access$2400(Lcom/meitu/hwbusinesskit/admob/DFPAdManager;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -122,9 +122,9 @@
 
     const v0, 0xf04d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

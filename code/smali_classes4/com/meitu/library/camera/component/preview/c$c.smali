@@ -103,11 +103,11 @@
 
     const v0, 0xb73f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0}, Lcom/meitu/library/camera/component/preview/c$c;->m()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -117,7 +117,7 @@
 
     const v0, 0xb739
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/camera/component/preview/c$c;->c:Ljava/util/concurrent/locks/ReadWriteLock;
 
@@ -140,7 +140,7 @@
 
     invoke-interface {v2}, Ljava/util/concurrent/locks/Lock;->unlock()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 
@@ -155,7 +155,7 @@
 
     invoke-interface {v2}, Ljava/util/concurrent/locks/Lock;->unlock()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw v1
 .end method
@@ -165,7 +165,7 @@
 
     const v0, 0xb73e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/camera/component/preview/c$c;->i:Lcom/meitu/library/n/a/h;
 
@@ -173,7 +173,7 @@
 
     invoke-virtual {v1, v2, v2}, Lcom/meitu/library/n/a/h;->b(II)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -185,7 +185,7 @@
 
     const v0, 0xb73a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/library/n/a/h;
 
@@ -199,7 +199,7 @@
 
     invoke-virtual {p1, p2}, Ljava/util/concurrent/atomic/AtomicBoolean;->set(Z)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -209,7 +209,7 @@
 
     const v0, 0xb737
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/camera/component/preview/c$c;->c:Ljava/util/concurrent/locks/ReadWriteLock;
 
@@ -236,7 +236,7 @@
 
     invoke-interface {p1}, Ljava/util/concurrent/locks/Lock;->unlock()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -246,7 +246,7 @@
 
     const v0, 0xb73f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/camera/component/preview/c$c;->h:Ljava/util/concurrent/locks/ReadWriteLock;
 
@@ -268,7 +268,7 @@
 
     invoke-interface {p1}, Ljava/util/concurrent/locks/Lock;->unlock()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -278,7 +278,7 @@
 
     const v0, 0xb73c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/camera/component/preview/c$c;->g:Ljava/util/concurrent/locks/ReadWriteLock;
 
@@ -329,7 +329,7 @@
 
     invoke-interface {p1}, Ljava/util/concurrent/locks/Lock;->unlock()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -339,11 +339,11 @@
 
     const v0, 0xb73d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/meitu/library/camera/component/preview/c$c;->d:Lcom/meitu/library/n/b/h;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -353,7 +353,7 @@
 
     const v0, 0xb738
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/camera/component/preview/c$c;->c:Ljava/util/concurrent/locks/ReadWriteLock;
 
@@ -400,7 +400,7 @@
 
     invoke-interface {p1}, Ljava/util/concurrent/locks/Lock;->unlock()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -410,7 +410,7 @@
 
     const v0, 0xb736
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/camera/component/preview/c$c;->c:Ljava/util/concurrent/locks/ReadWriteLock;
 
@@ -459,7 +459,7 @@
 
     invoke-interface {p1}, Ljava/util/concurrent/locks/Lock;->unlock()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -469,7 +469,7 @@
 
     const v0, 0xb73b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/camera/component/preview/c$c;->i:Lcom/meitu/library/n/a/h;
 
@@ -489,7 +489,7 @@
 
     move-result v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -499,7 +499,7 @@
 
     const p1, 0xb735
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/meitu/library/camera/component/preview/c$c;->j:Ljava/util/concurrent/atomic/AtomicBoolean;
 
@@ -603,7 +603,7 @@
     const/4 v1, 0x1
 
     :cond_3
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -613,7 +613,7 @@
 
     const v0, 0xb736
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/camera/component/preview/c$c;->c:Ljava/util/concurrent/locks/ReadWriteLock;
 
@@ -653,7 +653,7 @@
 
     invoke-interface {v1}, Ljava/util/concurrent/locks/Lock;->unlock()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 
@@ -669,7 +669,7 @@
 
     invoke-interface {v1}, Ljava/util/concurrent/locks/Lock;->unlock()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method

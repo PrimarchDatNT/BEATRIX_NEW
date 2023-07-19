@@ -88,7 +88,7 @@
 
     const v0, 0xcf6d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lf/k/g0/e/d/b;->d:Ljava/util/concurrent/atomic/AtomicInteger;
 
@@ -126,7 +126,7 @@
 
     invoke-virtual {v2, p1}, Ljava/lang/Thread;->setDaemon(Z)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v2
 .end method

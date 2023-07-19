@@ -40,7 +40,7 @@
 
     const p1, 0x8221
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lcom/commsource/util/common/k;->a()Z
 
@@ -48,7 +48,7 @@
 
     if-eqz v0, :cond_0
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -102,7 +102,7 @@
     invoke-static {v0, v1, v2, v3, v4}, Lcom/commsource/util/l0;->c(Landroid/view/View;ZJLcotlin/jvm/u/a;)V
 
     :goto_0
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

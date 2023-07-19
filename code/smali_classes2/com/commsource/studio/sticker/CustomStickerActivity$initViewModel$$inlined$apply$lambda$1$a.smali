@@ -40,7 +40,7 @@
 
     const v0, 0x87b0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget v1, Lcom/res/provider/ResSTRING;->image_bad:I
 
@@ -52,7 +52,7 @@
 
     invoke-virtual {v1}, Lcom/commsource/beautyplus/BaseActivity;->finish()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

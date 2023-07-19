@@ -38,7 +38,7 @@
 
     const v0, 0x8e9f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/home/NewHomeActivity$dialog$2$1$1;
 
@@ -46,7 +46,7 @@
 
     sput-object v1, Lcom/commsource/home/NewHomeActivity$dialog$2$1$1;->INSTANCE:Lcom/commsource/home/NewHomeActivity$dialog$2$1$1;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -68,7 +68,7 @@
 
     const v0, 0x8e9d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Lcom/commsource/widget/dialog/delegate/d/g;
 
@@ -76,7 +76,7 @@
 
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -90,7 +90,7 @@
 
     const v0, 0x8e9e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "$receiver"
 
@@ -112,7 +112,7 @@
 
     invoke-virtual {p1, v3}, Lcom/commsource/widget/dialog/delegate/d/a;->v(Z)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

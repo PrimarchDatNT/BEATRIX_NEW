@@ -36,7 +36,7 @@
 
     const/16 p1, 0x465d
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/widget/wheelview/WheelView$a;->a:Lcom/commsource/widget/wheelview/WheelView;
 
@@ -60,14 +60,14 @@
 
     invoke-static {v0}, Lcom/commsource/widget/wheelview/WheelView;->f(Lcom/commsource/widget/wheelview/WheelView;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 
     :cond_0
     const/4 v0, 0x0
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return v0
 .end method
@@ -77,7 +77,7 @@
 
     const/16 p1, 0x465f
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p2, p0, Lcom/commsource/widget/wheelview/WheelView$a;->a:Lcom/commsource/widget/wheelview/WheelView;
 
@@ -185,7 +185,7 @@
 
     const/4 p2, 0x1
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return p2
 .end method
@@ -195,7 +195,7 @@
 
     const/16 p1, 0x465e
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p2, p0, Lcom/commsource/widget/wheelview/WheelView$a;->a:Lcom/commsource/widget/wheelview/WheelView;
 
@@ -209,7 +209,7 @@
 
     invoke-static {p2, p3}, Lcom/commsource/widget/wheelview/WheelView;->h(Lcom/commsource/widget/wheelview/WheelView;I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     const/4 p1, 0x1
 

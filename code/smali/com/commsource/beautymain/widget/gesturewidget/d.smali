@@ -48,11 +48,11 @@
 
     const/16 v0, 0x3dbd
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p0, p0, Lcom/commsource/beautymain/widget/gesturewidget/d;->a:Ljava/util/Queue;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -62,7 +62,7 @@
 
     const/16 v0, 0x3dbb
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/d;->a:Ljava/util/Queue;
 
@@ -99,7 +99,7 @@
 
     if-ne v1, v2, :cond_1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -113,7 +113,7 @@
     invoke-interface {v1, p1}, Ljava/util/Queue;->add(Ljava/lang/Object;)Z
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -123,7 +123,7 @@
 
     const/16 v0, 0x3dba
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/d;->c:Lcom/commsource/beautymain/widget/gesturewidget/d$a;
 
@@ -175,7 +175,7 @@
     invoke-direct {p0, p1}, Lcom/commsource/beautymain/widget/gesturewidget/d;->b(Lcom/commsource/beautymain/widget/gesturewidget/d$a;)V
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -187,11 +187,11 @@
 
     const/16 v0, 0x3dbc
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/commsource/beautymain/widget/gesturewidget/d;->b:Lcom/commsource/beautymain/widget/gesturewidget/d$b;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -201,7 +201,7 @@
 
     const/16 v0, 0x3db8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/d;->a:Ljava/util/Queue;
 
@@ -228,7 +228,7 @@
     invoke-virtual {v1}, Lcom/commsource/beautymain/widget/gesturewidget/d$a;->b()V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -240,7 +240,7 @@
 
     const/16 v13, 0x3db9
 
-    invoke-static {v13}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v13}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v14, Lcom/commsource/beautymain/widget/gesturewidget/d$a;
 
@@ -298,7 +298,7 @@
     invoke-virtual {p0}, Lcom/commsource/beautymain/widget/gesturewidget/d;->d()V
 
     :goto_1
-    invoke-static {v13}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v13}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

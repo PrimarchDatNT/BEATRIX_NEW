@@ -40,7 +40,7 @@
 
     const v0, 0xf398
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/mtlab/beautyplus/imageproc/MTlabImageAiEnhance$EnhanceType;
 
@@ -76,7 +76,7 @@
 
     sput-object v4, Lcom/meitu/mtlab/beautyplus/imageproc/MTlabImageAiEnhance$EnhanceType;->$VALUES:[Lcom/meitu/mtlab/beautyplus/imageproc/MTlabImageAiEnhance$EnhanceType;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -103,7 +103,7 @@
 
     const v0, 0xf396
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-class v1, Lcom/meitu/mtlab/beautyplus/imageproc/MTlabImageAiEnhance$EnhanceType;
 
@@ -113,7 +113,7 @@
 
     check-cast p0, Lcom/meitu/mtlab/beautyplus/imageproc/MTlabImageAiEnhance$EnhanceType;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -123,7 +123,7 @@
 
     const v0, 0xf395
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/mtlab/beautyplus/imageproc/MTlabImageAiEnhance$EnhanceType;->$VALUES:[Lcom/meitu/mtlab/beautyplus/imageproc/MTlabImageAiEnhance$EnhanceType;
 
@@ -133,7 +133,7 @@
 
     check-cast v1, [Lcom/meitu/mtlab/beautyplus/imageproc/MTlabImageAiEnhance$EnhanceType;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -145,11 +145,11 @@
 
     const v0, 0xf397
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/mtlab/beautyplus/imageproc/MTlabImageAiEnhance$EnhanceType;->name:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

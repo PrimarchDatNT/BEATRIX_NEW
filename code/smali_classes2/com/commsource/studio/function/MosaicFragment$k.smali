@@ -40,7 +40,7 @@
 
     const v0, 0x80d8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/function/MosaicFragment$k;->a:Lcom/commsource/studio/function/MosaicFragment;
 
@@ -48,7 +48,7 @@
 
     invoke-static {v1, v2}, Lcom/commsource/studio/function/MosaicFragment;->N1(Lcom/commsource/studio/function/MosaicFragment;Lcom/commsource/widget/dialog/q0;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

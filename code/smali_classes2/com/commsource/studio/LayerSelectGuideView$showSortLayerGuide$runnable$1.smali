@@ -40,7 +40,7 @@
 
     const/16 v0, 0x189a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/LayerSelectGuideView$showSortLayerGuide$runnable$1;->a:Lcom/commsource/studio/LayerSelectGuideView;
 
@@ -70,7 +70,7 @@
 
     invoke-static/range {v2 .. v7}, Lcom/commsource/util/l0;->e(Landroid/view/View;FZJLcotlin/jvm/u/a;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

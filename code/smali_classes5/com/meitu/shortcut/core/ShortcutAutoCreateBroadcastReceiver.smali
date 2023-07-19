@@ -35,11 +35,11 @@
 
     const v0, 0xf411
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/meitu/shortcut/core/ShortcutAutoCreateBroadcastReceiver;->a:Lcom/meitu/shortcut/core/ShortcutAutoCreateBroadcastReceiver$a;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -49,7 +49,7 @@
 
     const v0, 0xf412
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p2}, Landroid/content/Intent;->getAction()Ljava/lang/String;
 
@@ -116,7 +116,7 @@
     invoke-interface {v1, p1, p2}, Lcom/meitu/shortcut/core/ShortcutAutoCreateBroadcastReceiver$a;->a(Landroid/content/Context;Landroid/content/Intent;)V
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

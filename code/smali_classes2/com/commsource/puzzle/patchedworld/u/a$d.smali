@@ -44,7 +44,7 @@
 
     const/16 v0, 0x6439
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean v1, p0, Lcom/commsource/puzzle/patchedworld/u/a$d;->g:Z
 
@@ -186,7 +186,7 @@
     invoke-interface {v1, v2, v3}, Lcom/commsource/puzzle/patchedworld/u/a$f;->a(ZLjava/lang/String;)V
 
     :cond_3
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

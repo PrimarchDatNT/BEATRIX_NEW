@@ -43,7 +43,7 @@
 
     const/16 v0, 0x2252
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/autocamera/i0$a;->a:Lcom/commsource/beautyplus/f0/g;
 
@@ -201,7 +201,7 @@
 
     invoke-static {v1, v2}, Lcom/commsource/autocamera/i0;->p(Lcom/commsource/autocamera/i0;Z)Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const/4 v0, 0x0
 

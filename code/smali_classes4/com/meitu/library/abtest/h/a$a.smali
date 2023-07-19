@@ -43,7 +43,7 @@
 
     const v0, 0xc534
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/abtest/h/a$a;->a:Lcom/meitu/library/abtest/h/h;
 
@@ -79,7 +79,7 @@
     invoke-interface {v1, v2}, Lcom/meitu/library/abtest/h/g;->a(Ljava/lang/Exception;)V
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -98,7 +98,7 @@
 
     invoke-interface {v1, v2}, Lokhttp3/Call;->enqueue(Lokhttp3/Callback;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -117,7 +117,7 @@
     invoke-interface {v1, v2}, Lcom/meitu/library/abtest/h/g;->a(Ljava/lang/Exception;)V
 
     :cond_4
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

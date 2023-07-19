@@ -59,13 +59,13 @@
 
     const v0, 0xc180
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/meitu/library/hwanalytics/spm/SPMManager$init$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -75,7 +75,7 @@
 
     const v0, 0xc181
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/library/k/e/a;->m:Lcom/meitu/library/k/e/a;
 
@@ -103,7 +103,7 @@
 
     invoke-static {v1, v2}, Lcom/meitu/library/hwanalytics/spm/SPMManager;->c(Lcom/meitu/library/hwanalytics/spm/SPMManager;Z)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

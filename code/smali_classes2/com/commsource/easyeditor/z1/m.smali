@@ -23,7 +23,7 @@
 
     const v0, 0x8b91
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p1, :cond_1
 
@@ -40,13 +40,13 @@
 
     invoke-virtual {v1, p1}, Lcom/meitu/core/MTFilterGLRender;->setBodyTexture(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
     :cond_1
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -58,7 +58,7 @@
 
     const v0, 0x8b8e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/render/b;
 
@@ -90,7 +90,7 @@
 
     invoke-virtual {p0, v2, v1}, Lcom/commsource/camera/newrender/renderproxy/n;->q(ZLjava/lang/Class;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -100,7 +100,7 @@
 
     const v0, 0x8b90
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/z1/m;->g:Lcom/meitu/render/b;
 
@@ -109,7 +109,7 @@
     invoke-virtual {v1}, Lcom/meitu/core/MTFilterGLRender;->releaseGL()V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -119,7 +119,7 @@
 
     const p7, 0x8b8f
 
-    invoke-static {p7}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p7}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/easyeditor/z1/m;->g:Lcom/meitu/render/b;
 
@@ -164,13 +164,13 @@
 
     move-result p1
 
-    invoke-static {p7}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p7}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 
     :cond_1
     :goto_0
-    invoke-static {p7}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p7}, Lcom/res/ANRTrace;->a(I)V
 
     return p3
 .end method
@@ -180,7 +180,7 @@
 
     const v0, 0x8b92
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput p1, p0, Lcom/commsource/easyeditor/z1/m;->h:F
 
@@ -188,7 +188,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -201,7 +201,7 @@
 
     invoke-virtual {v1, v2, v4, p1, v3}, Lcom/meitu/core/MTFilterGLRender;->changeUniformValue(ILjava/lang/String;FI)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

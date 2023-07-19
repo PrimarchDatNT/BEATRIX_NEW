@@ -50,13 +50,13 @@
 
     const/16 v0, 0x2fe7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Lcom/commsource/beautymain/utils/RelightModelHelper$a;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/RelightFragment$e;->e(Lcom/commsource/beautymain/utils/RelightModelHelper$a;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -70,7 +70,7 @@
 
     const/16 v0, 0x2fe6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-super {p0, p1}, Lcom/commsource/beautyfilter/NoStickLiveData$a;->b(Ljava/lang/Object;)V
 
@@ -99,7 +99,7 @@
 
     invoke-virtual {p1}, Lcom/commsource/studio/function/BaseSubFragment;->I0()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

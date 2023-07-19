@@ -30,13 +30,13 @@
 
     const v0, 0xee50
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
 
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->loadDefaultBusiness(Ljava/lang/Boolean;)Lcom/meitu/hwbusinesskit/core/bean/Business;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

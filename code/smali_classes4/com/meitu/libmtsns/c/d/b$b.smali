@@ -39,7 +39,7 @@
 
     const v0, 0xd2af
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/libmtsns/c/d/b$b;->a:Lcom/meitu/libmtsns/c/d/b;
 
@@ -58,7 +58,7 @@
     invoke-interface {v1, p1}, Lcom/meitu/libmtsns/c/d/b$c;->a(Landroid/content/DialogInterface;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

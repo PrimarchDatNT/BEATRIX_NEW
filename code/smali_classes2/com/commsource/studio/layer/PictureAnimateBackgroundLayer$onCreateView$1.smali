@@ -51,7 +51,7 @@
 
     const/16 v0, 0x5d76
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "canvas"
 
@@ -84,7 +84,7 @@
     invoke-virtual {p1, v1}, Lcom/commsource/studio/layer/PictureAnimateBackgroundLayer;->q0(Lcotlin/jvm/u/a;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

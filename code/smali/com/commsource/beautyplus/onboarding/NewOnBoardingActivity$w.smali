@@ -46,9 +46,9 @@
 
     const/16 p1, 0x604c
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -62,7 +62,7 @@
 
     const/16 p1, 0x604e
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$w;->a:Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;
 
@@ -88,7 +88,7 @@
     invoke-virtual {v0, v1}, Landroid/view/View;->setTranslationX(F)V
 
     :cond_1
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -98,7 +98,7 @@
 
     const/16 p1, 0x604d
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$w;->a:Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;
 
@@ -124,7 +124,7 @@
     invoke-virtual {v0, p2}, Landroid/view/View;->setTranslationX(F)V
 
     :cond_1
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

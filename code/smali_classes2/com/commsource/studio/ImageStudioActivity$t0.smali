@@ -44,7 +44,7 @@
 
     const/16 p1, 0x5f63
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/studio/ImageStudioActivity$t0;->a:Lcom/commsource/studio/ImageStudioActivity;
 
@@ -85,7 +85,7 @@
 
     invoke-virtual {v0}, Lcom/commsource/repository/c;->b()V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

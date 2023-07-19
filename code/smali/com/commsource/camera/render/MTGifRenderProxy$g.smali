@@ -39,9 +39,9 @@
 
     const v0, 0x9bc2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const-string v0, "MTGifRenderProxy"
 
@@ -59,7 +59,7 @@
 
     const v11, 0x9bc0
 
-    invoke-static {v11}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v11}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, v0, Lcom/commsource/camera/render/MTGifRenderProxy$g;->a:Lcom/commsource/camera/render/MTGifRenderProxy;
 
@@ -69,7 +69,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {v11}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v11}, Lcom/res/ANRTrace;->a(I)V
 
     return p3
 
@@ -241,13 +241,13 @@
     move-result v1
 
     :goto_1
-    invoke-static {v11}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v11}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 
     :cond_4
     :goto_2
-    invoke-static {v11}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v11}, Lcom/res/ANRTrace;->a(I)V
 
     return p3
 .end method
@@ -257,9 +257,9 @@
 
     const v0, 0x9bc3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const-string v0, "MTGifRenderProxyID"
 
@@ -271,13 +271,13 @@
 
     const v0, 0x9bc1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/camera/render/MTGifRenderProxy$g;->a:Lcom/commsource/camera/render/MTGifRenderProxy;
 
     iget-boolean v1, v1, Lcom/commsource/camera/render/c;->b:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method

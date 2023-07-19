@@ -43,7 +43,7 @@
 
     const v0, 0xc863
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lf/k/m/b;->i()Lf/k/m/b;
 
@@ -88,7 +88,7 @@
     invoke-interface {v1, v2, v3, v4}, Lf/k/m/d;->k(Landroid/app/Activity;Ljava/lang/String;Lf/k/m/d$b;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

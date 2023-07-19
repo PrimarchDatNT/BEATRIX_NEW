@@ -62,7 +62,7 @@
 
     const p1, 0xf100
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p2, p0, Lcom/meitu/hwbusinesskit/meituadx/MeituAdxAdManager$1$1;->this$1:Lcom/meitu/hwbusinesskit/meituadx/MeituAdxAdManager$1;
 
@@ -74,7 +74,7 @@
 
     invoke-static {p2, p3, p4}, Lcom/meitu/hwbusinesskit/meituadx/MeituAdxAdManager;->access$100(Lcom/meitu/hwbusinesskit/meituadx/MeituAdxAdManager;ILjava/lang/String;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     const/4 p1, 0x1
 
@@ -98,7 +98,7 @@
 
     const p1, 0xf101
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p2, p0, Lcom/meitu/hwbusinesskit/meituadx/MeituAdxAdManager$1$1;->this$1:Lcom/meitu/hwbusinesskit/meituadx/MeituAdxAdManager$1;
 
@@ -108,7 +108,7 @@
 
     invoke-static {p3, p2}, Lcom/meitu/hwbusinesskit/meituadx/MeituAdxAdManager;->access$200(Lcom/meitu/hwbusinesskit/meituadx/MeituAdxAdManager;Ljava/lang/Object;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     const/4 p1, 0x1
 
@@ -120,7 +120,7 @@
 
     const v0, 0xf101
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     move-object v2, p1
 
@@ -140,7 +140,7 @@
 
     move-result p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method

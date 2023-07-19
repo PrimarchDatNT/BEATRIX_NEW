@@ -60,7 +60,7 @@
 
     const v0, 0xb90e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p1}, Lcom/google/android/gms/tasks/k;->v()Z
 
@@ -158,7 +158,7 @@
     invoke-static {v2, v1, p1}, Lcom/meitu/library/camera/s/n/d;->f(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :cond_3
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -212,7 +212,7 @@
     invoke-static {v2, p1}, Lcom/meitu/library/camera/s/n/d;->a(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_6
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

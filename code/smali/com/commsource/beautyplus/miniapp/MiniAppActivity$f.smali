@@ -39,7 +39,7 @@
 
     const/16 v0, 0x1906
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/library/hwanalytics/spm/SPMManager;->h:Lcom/meitu/library/hwanalytics/spm/SPMManager$a;
 
@@ -106,7 +106,7 @@
     invoke-virtual {v2, v1, v3, v4, v5}, Lcom/commsource/beautyplus/miniapp/MiniAppViewModel;->P(ILcom/commsource/beautyplus/miniapp/k;Landroidx/fragment/app/FragmentActivity;I)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

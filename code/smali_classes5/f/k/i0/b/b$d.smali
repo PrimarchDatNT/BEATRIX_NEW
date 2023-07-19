@@ -40,7 +40,7 @@
 
     const/16 v0, 0x5a81
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lf/k/i0/b/b$d;->p:Lf/k/i0/b/b;
 
@@ -52,7 +52,7 @@
 
     invoke-interface {v1, v2}, Lf/k/i0/a/h;->g3(Lcom/meitu/template/bean/Chat;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

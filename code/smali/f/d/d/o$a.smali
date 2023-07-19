@@ -40,7 +40,7 @@
 
     const/16 v0, 0x462b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lf/d/d/o$a;->p:Lf/d/d/o;
 
@@ -62,7 +62,7 @@
 
     invoke-static {v1, v2}, Lf/d/d/o;->a(Lf/d/d/o;Lcom/airbnb/lottie/p;)Lcom/airbnb/lottie/p;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

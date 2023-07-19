@@ -44,7 +44,7 @@
 
     const/16 v0, 0x67e8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p2, Lcom/meitu/template/bean/ChatFiled;->id:Ljava/lang/Long;
 
@@ -144,7 +144,7 @@
     invoke-interface {p1, v1, v2, v3}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindLong(IJ)V
 
     :goto_5
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -154,13 +154,13 @@
 
     const/16 v0, 0x67e9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p2, Lcom/meitu/template/bean/ChatFiled;
 
     invoke-virtual {p0, p1, p2}, Lf/k/i0/a/k$b;->a(Landroidx/sqlite/db/SupportSQLiteStatement;Lcom/meitu/template/bean/ChatFiled;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -170,9 +170,9 @@
 
     const/16 v0, 0x67e7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const-string v0, "UPDATE OR ABORT `CHAT_FILED` SET `_id` = ?,`UID` = ?,`TOKEN` = ?,`IMAGE_PATH` = ?,`UPLOAD_STATE` = ? WHERE `_id` = ?"
 

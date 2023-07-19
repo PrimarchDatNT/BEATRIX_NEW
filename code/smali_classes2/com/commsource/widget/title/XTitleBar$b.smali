@@ -49,7 +49,7 @@
 
     const/16 p1, 0x51d7
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     const/16 p2, 0xa
 
@@ -75,7 +75,7 @@
 
     if-ne p3, p2, :cond_1
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -142,7 +142,7 @@
 
     invoke-virtual {p2}, Lcom/commsource/camera/f1/l;->j()V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

@@ -44,7 +44,7 @@
 
     const/16 v0, 0x524
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p2}, Lcom/commsource/home/entity/DialogDataEntity;->getRid()Ljava/lang/String;
 
@@ -66,7 +66,7 @@
     invoke-interface {p1, v2, p2}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindString(ILjava/lang/String;)V
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -76,13 +76,13 @@
 
     const/16 v0, 0x525
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p2, Lcom/commsource/home/entity/DialogDataEntity;
 
     invoke-virtual {p0, p1, p2}, Lf/k/i0/a/t0$b;->a(Landroidx/sqlite/db/SupportSQLiteStatement;Lcom/commsource/home/entity/DialogDataEntity;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -92,9 +92,9 @@
 
     const/16 v0, 0x523
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const-string v0, "DELETE FROM `ONLINE_DIALOG_ENTITY` WHERE `Rid` = ?"
 

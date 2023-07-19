@@ -42,7 +42,7 @@
 
     const v0, 0xaa6e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/camera/statistics/e$h;->b:Lcom/meitu/library/camera/statistics/e;
 
@@ -56,7 +56,7 @@
 
     invoke-virtual {v1, v3, v2}, Lcom/meitu/library/camera/statistics/i/b;->i(ZLjava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

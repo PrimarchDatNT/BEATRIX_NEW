@@ -40,7 +40,7 @@
 
     const p1, 0x8483
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$a0;->a:Lcom/commsource/beautyplus/setting/widget/SwitchView;
 
@@ -50,7 +50,7 @@
 
     invoke-static {v0, p2}, Lf/d/i/e;->v3(Landroid/content/Context;Z)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

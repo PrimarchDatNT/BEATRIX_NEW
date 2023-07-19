@@ -52,13 +52,13 @@
 
     const v0, 0xa21e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenAlbumScript$Model;
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenAlbumScript$b;->d(Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenAlbumScript$Model;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -72,7 +72,7 @@
 
     const v0, 0xa21e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "model"
 
@@ -82,7 +82,7 @@
 
     invoke-static {v1, p1}, Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenAlbumScript;->I(Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenAlbumScript;Lcom/commsource/beautyplus/web/mtscript/MTCommandOpenAlbumScript$Model;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

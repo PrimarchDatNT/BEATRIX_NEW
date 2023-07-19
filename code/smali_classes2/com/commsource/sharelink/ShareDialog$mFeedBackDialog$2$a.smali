@@ -46,7 +46,7 @@
 
     const/16 v0, 0x3ba7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/sharelink/ShareDialog$mFeedBackDialog$2$a;->a:Lcom/commsource/sharelink/ShareDialog$mFeedBackDialog$2;
 
@@ -90,7 +90,7 @@
 
     invoke-static {v1}, Lcom/commsource/util/l0;->w(Landroid/view/View;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -100,11 +100,11 @@
 
     const/16 v0, 0x3ba6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lcom/commsource/util/w0;->n()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -118,7 +118,7 @@
 
     const/16 v0, 0x3ba8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/sharelink/ShareDialog$mFeedBackDialog$2$a;->a:Lcom/commsource/sharelink/ShareDialog$mFeedBackDialog$2;
 
@@ -157,7 +157,7 @@
     invoke-virtual {v1, v8}, Lcom/commsource/util/p2/c;->c(Lcom/commsource/util/p2/b;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

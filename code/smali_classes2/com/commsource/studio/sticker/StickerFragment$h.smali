@@ -56,7 +56,7 @@
 
     const/16 v0, 0x23d1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/sticker/StickerFragment$h;->a:Lcom/commsource/studio/sticker/StickerFragment;
 
@@ -86,7 +86,7 @@
 
     if-eqz v1, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -258,7 +258,7 @@
 
     invoke-static {p1}, Lcom/commsource/studio/sticker/StickerFragment;->l0(Lcom/commsource/studio/sticker/StickerFragment;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -268,13 +268,13 @@
 
     const/16 v0, 0x23d0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Lcom/commsource/studio/bean/BaseLayerInfo;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/sticker/StickerFragment$h;->a(Lcom/commsource/studio/bean/BaseLayerInfo;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

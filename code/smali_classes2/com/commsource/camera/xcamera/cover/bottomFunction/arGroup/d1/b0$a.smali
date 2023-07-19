@@ -48,13 +48,13 @@
 
     const v0, 0x9c0c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Lcom/commsource/camera/ardata/h;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/b0$a;->c(Lcom/commsource/camera/ardata/h;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -64,7 +64,7 @@
 
     const p1, 0x9c0b
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/b0$a;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/b0;
 
@@ -80,7 +80,7 @@
 
     invoke-static {v0, v1, v2}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -90,7 +90,7 @@
 
     const v0, 0x9c0a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/b0$a;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/b0;
 
@@ -115,7 +115,7 @@
     invoke-static {v1, p1}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/b0;->B(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/b0;Lcom/commsource/camera/ardata/h;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

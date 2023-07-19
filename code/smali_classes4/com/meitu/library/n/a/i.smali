@@ -266,7 +266,7 @@
 
     const v0, 0xb2cc
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const v1, 0x8d40
 
@@ -350,7 +350,7 @@
 
     invoke-static {p1, p5, p2}, Landroid/opengl/GLES20;->glDrawArrays(III)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -360,7 +360,7 @@
 
     const v0, 0xb2cd
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/meitu/library/n/a/i;->a:I
 
@@ -373,7 +373,7 @@
     iput v1, p0, Lcom/meitu/library/n/a/i;->a:I
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

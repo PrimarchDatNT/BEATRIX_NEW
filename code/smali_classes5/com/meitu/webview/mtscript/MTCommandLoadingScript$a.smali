@@ -44,13 +44,13 @@
 
     const v0, 0xeb6f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Lcom/meitu/webview/mtscript/MTCommandLoadingScript$Model;
 
     invoke-virtual {p0, p1}, Lcom/meitu/webview/mtscript/MTCommandLoadingScript$a;->d(Lcom/meitu/webview/mtscript/MTCommandLoadingScript$Model;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -60,7 +60,7 @@
 
     const v0, 0xeb6e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/webview/mtscript/MTCommandLoadingScript$a;->c:Lcom/meitu/webview/mtscript/MTCommandLoadingScript;
 
@@ -70,7 +70,7 @@
 
     if-nez v1, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -94,7 +94,7 @@
 
     invoke-virtual {p1, v1}, Lcom/meitu/webview/mtscript/i;->k(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

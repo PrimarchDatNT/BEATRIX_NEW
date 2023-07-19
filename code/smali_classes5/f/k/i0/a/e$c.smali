@@ -44,7 +44,7 @@
 
     const/16 v0, 0x379a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p2, Lcom/meitu/template/bean/ArMaterialGroup;->id:Ljava/lang/Long;
 
@@ -272,7 +272,7 @@
     invoke-interface {p1, v1, v2, v3}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindLong(IJ)V
 
     :goto_9
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -282,13 +282,13 @@
 
     const/16 v0, 0x379b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p2, Lcom/meitu/template/bean/ArMaterialGroup;
 
     invoke-virtual {p0, p1, p2}, Lf/k/i0/a/e$c;->a(Landroidx/sqlite/db/SupportSQLiteStatement;Lcom/meitu/template/bean/ArMaterialGroup;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -298,9 +298,9 @@
 
     const/16 v0, 0x3799
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const-string v0, "UPDATE OR ABORT `AR_MATERIAL_GROUP` SET `_id` = ?,`NUMBER` = ?,`VERSION_CONTROL` = ?,`MIN_VERSION` = ?,`MAX_VERSION` = ?,`END_TIME` = ?,`ICON` = ?,`TITLE` = ?,`SORT` = ?,`GROUP_RED` = ?,`ONLINE_AT` = ?,`SEQUENCE` = ?,`IS_RED` = ?,`IS_IP` = ?,`AD_SLOT_ID` = ?,`IP_LOGO` = ?,`IP_GROUP_SORT` = ?,`LITERAL_ICON` = ?,`LITERAL` = ? WHERE `_id` = ?"
 

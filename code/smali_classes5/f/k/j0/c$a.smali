@@ -39,7 +39,7 @@
 
     const p2, 0xf44b
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lf/k/j0/c$a;->a:Lf/k/j0/c;
 
@@ -83,7 +83,7 @@
 
     invoke-static {p1, v0}, Lf/k/j0/c;->A(Lf/k/j0/c;Ljava/lang/CharSequence;)Ljava/lang/CharSequence;
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

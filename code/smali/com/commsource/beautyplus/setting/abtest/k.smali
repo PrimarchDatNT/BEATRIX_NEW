@@ -60,7 +60,7 @@
 
     const/16 p2, 0x1e77
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/beautyplus/setting/abtest/k;->r:Lcom/commsource/beautyplus/setting/abtest/k$a;
 
@@ -73,7 +73,7 @@
     invoke-interface {v0, p1}, Lcom/commsource/beautyplus/setting/abtest/k$a;->a(Ljava/util/List;)V
 
     :cond_0
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -85,13 +85,13 @@
 
     const/16 v0, 0x1e76
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p2, Lcom/commsource/beautyplus/setting/abtest/o;
 
     invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/beautyplus/setting/abtest/k;->D(Lf/k/c/b/f/c;Lcom/commsource/beautyplus/setting/abtest/o;I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -101,7 +101,7 @@
 
     const/16 p3, 0x1e74
 
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p1}, Lf/k/c/b/f/c;->c()Landroidx/databinding/ViewDataBinding;
 
@@ -176,7 +176,7 @@
 
     invoke-virtual {p1}, Landroidx/databinding/ViewDataBinding;->executePendingBindings()V
 
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -194,11 +194,11 @@
 
     const/16 v0, 0x1e75
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/commsource/beautyplus/setting/abtest/k;->r:Lcom/commsource/beautyplus/setting/abtest/k$a;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -208,11 +208,11 @@
 
     const/16 v0, 0x1e73
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/commsource/beautyplus/setting/abtest/k;->q:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

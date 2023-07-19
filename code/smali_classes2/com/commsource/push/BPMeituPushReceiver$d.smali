@@ -46,7 +46,7 @@
 
     const/16 v1, 0x5eca
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     iget-object v2, p0, Lcom/commsource/push/BPMeituPushReceiver$d;->g:Lcom/meitu/pushkit/sdk/info/PushInfo;
@@ -131,7 +131,7 @@
 
     if-eqz v3, :cond_2
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -266,7 +266,7 @@
 
     :cond_5
     :goto_0
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -283,7 +283,7 @@
 
     :cond_6
     :goto_1
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

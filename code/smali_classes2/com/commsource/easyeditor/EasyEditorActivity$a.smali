@@ -43,7 +43,7 @@
 
     const p1, 0x9b83
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p2, p0, Lcom/commsource/easyeditor/EasyEditorActivity$a;->b:Lcom/commsource/easyeditor/EasyEditorActivity;
 
@@ -51,7 +51,7 @@
 
     invoke-static {p2, v0}, Lcom/commsource/easyeditor/EasyEditorActivity;->O0(Lcom/commsource/easyeditor/EasyEditorActivity;Ljava/lang/String;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -61,7 +61,7 @@
 
     const v0, 0x9b85
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/EasyEditorActivity$a;->b:Lcom/commsource/easyeditor/EasyEditorActivity;
 
@@ -69,7 +69,7 @@
 
     invoke-static {v1, v2}, Lcom/commsource/easyeditor/EasyEditorActivity;->O0(Lcom/commsource/easyeditor/EasyEditorActivity;Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -79,7 +79,7 @@
 
     const v0, 0x9b84
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/EasyEditorActivity$a;->b:Lcom/commsource/easyeditor/EasyEditorActivity;
 
@@ -87,7 +87,7 @@
 
     invoke-static {v1, v2}, Lcom/commsource/easyeditor/EasyEditorActivity;->O0(Lcom/commsource/easyeditor/EasyEditorActivity;Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

@@ -32,7 +32,7 @@
 
     const v0, 0xe3a2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-class v1, Lcom/meitu/media/encoder/SegmentMuxer;
 
@@ -103,7 +103,7 @@
     :goto_1
     invoke-static {}, Lcom/meitu/media/encoder/SegmentMuxer;->native_init()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -147,7 +147,7 @@
 
     const v0, 0xe3a1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean v1, p0, Lcom/meitu/media/encoder/SegmentMuxer;->a:Z
 
@@ -164,7 +164,7 @@
 
     iput-wide v1, p0, Lcom/meitu/media/encoder/SegmentMuxer;->mNativeContext:J
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

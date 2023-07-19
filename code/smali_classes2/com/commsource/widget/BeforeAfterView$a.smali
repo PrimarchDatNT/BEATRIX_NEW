@@ -36,7 +36,7 @@
 
     const v0, 0xa036
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/widget/BeforeAfterView$a;->a:Lcom/commsource/widget/BeforeAfterView;
 
@@ -85,7 +85,7 @@
     invoke-interface {p1, v1}, Lcom/commsource/widget/BeforeAfterView$c;->a(Z)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -95,7 +95,7 @@
 
     const v0, 0xa037
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/widget/BeforeAfterView$a;->a:Lcom/commsource/widget/BeforeAfterView;
 
@@ -120,7 +120,7 @@
 
     move-result p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -130,7 +130,7 @@
 
     const p1, 0xa038
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p2, p0, Lcom/commsource/widget/BeforeAfterView$a;->a:Lcom/commsource/widget/BeforeAfterView;
 
@@ -238,7 +238,7 @@
     :cond_2
     const/4 p2, 0x1
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return p2
 .end method

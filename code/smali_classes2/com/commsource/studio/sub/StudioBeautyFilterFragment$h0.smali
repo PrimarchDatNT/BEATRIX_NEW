@@ -41,7 +41,7 @@
 
     const v0, 0x9097
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/sub/StudioBeautyFilterFragment$h0;->a:Lcom/commsource/studio/sub/StudioBeautyFilterFragment;
 
@@ -234,7 +234,7 @@
     invoke-virtual {v1, v9, v7, v9, v3}, Lcom/commsource/beautyfilter/NewBeautyFilterManager;->J(ZLcom/meitu/template/bean/Filter;ZLjava/lang/String;)V
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -250,7 +250,7 @@
 
     :cond_7
     :goto_2
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

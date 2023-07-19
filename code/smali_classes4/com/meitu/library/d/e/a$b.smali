@@ -37,7 +37,7 @@
 
     const v0, 0xa7bb
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/library/d/e/a;
 
@@ -45,7 +45,7 @@
 
     invoke-direct {v1, p0, v2}, Lcom/meitu/library/d/e/a;-><init>(Lcom/meitu/library/d/e/a$b;Lcom/meitu/library/d/e/a$a;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

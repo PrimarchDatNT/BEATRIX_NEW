@@ -40,7 +40,7 @@
 
     const/16 v0, 0x683
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/editengine/GLEraserRender$d;->a:Lcom/commsource/editengine/GLEraserRender;
 
@@ -116,7 +116,7 @@
 
     invoke-static {v1, v2, v3, v4, v3}, Lcom/commsource/editengine/d;->u(Lcom/commsource/editengine/d;ZLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

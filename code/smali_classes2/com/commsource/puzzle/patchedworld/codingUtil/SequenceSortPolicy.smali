@@ -37,7 +37,7 @@
 
     const/16 v0, 0x27e8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/puzzle/patchedworld/codingUtil/SequenceSortPolicy;
 
@@ -105,7 +105,7 @@
 
     sput-object v10, Lcom/commsource/puzzle/patchedworld/codingUtil/SequenceSortPolicy;->$VALUES:[Lcom/commsource/puzzle/patchedworld/codingUtil/SequenceSortPolicy;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -130,7 +130,7 @@
 
     const/16 v0, 0x27e7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lcom/commsource/puzzle/patchedworld/codingUtil/SequenceSortPolicy;->values()[Lcom/commsource/puzzle/patchedworld/codingUtil/SequenceSortPolicy;
 
@@ -151,7 +151,7 @@
 
     if-ne v5, p0, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v4
 
@@ -163,7 +163,7 @@
     :cond_1
     sget-object p0, Lcom/commsource/puzzle/patchedworld/codingUtil/SequenceSortPolicy;->FOLLOW_SEQUENCE:Lcom/commsource/puzzle/patchedworld/codingUtil/SequenceSortPolicy;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -173,7 +173,7 @@
 
     const/16 v0, 0x27e5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-class v1, Lcom/commsource/puzzle/patchedworld/codingUtil/SequenceSortPolicy;
 
@@ -183,7 +183,7 @@
 
     check-cast p0, Lcom/commsource/puzzle/patchedworld/codingUtil/SequenceSortPolicy;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -193,7 +193,7 @@
 
     const/16 v0, 0x27e4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/commsource/puzzle/patchedworld/codingUtil/SequenceSortPolicy;->$VALUES:[Lcom/commsource/puzzle/patchedworld/codingUtil/SequenceSortPolicy;
 
@@ -203,7 +203,7 @@
 
     check-cast v1, [Lcom/commsource/puzzle/patchedworld/codingUtil/SequenceSortPolicy;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -215,11 +215,11 @@
 
     const/16 v0, 0x27e6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/commsource/puzzle/patchedworld/codingUtil/SequenceSortPolicy;->policyInt:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method

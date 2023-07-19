@@ -45,7 +45,7 @@
 
     const v0, 0xc14f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/hwanalytics/firebase/b$d;->a:Landroid/database/sqlite/SQLiteDatabase;
 
@@ -136,7 +136,7 @@
     check-cast v1, Lcotlin/t1;
 
     :cond_2
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

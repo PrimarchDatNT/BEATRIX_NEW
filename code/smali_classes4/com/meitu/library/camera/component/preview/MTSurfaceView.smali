@@ -40,7 +40,7 @@
 
     const v0, 0xb3bf
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/camera/component/preview/MTSurfaceView;->a:Lcom/meitu/library/camera/component/preview/MTSurfaceView$a;
 
@@ -51,7 +51,7 @@
     :cond_0
     invoke-super {p0}, Landroid/view/SurfaceView;->onAttachedToWindow()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -61,7 +61,7 @@
 
     const v0, 0xb3c0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/camera/component/preview/MTSurfaceView;->a:Lcom/meitu/library/camera/component/preview/MTSurfaceView$a;
 
@@ -72,7 +72,7 @@
     :cond_0
     invoke-super {p0}, Landroid/view/SurfaceView;->onDetachedFromWindow()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -82,11 +82,11 @@
 
     const v0, 0xb3c1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/meitu/library/camera/component/preview/MTSurfaceView;->a:Lcom/meitu/library/camera/component/preview/MTSurfaceView$a;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

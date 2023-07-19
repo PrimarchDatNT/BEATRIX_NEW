@@ -46,7 +46,7 @@
 
     const/16 p1, 0x70ad
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0$a;->a:I
 
@@ -109,7 +109,7 @@
     :goto_0
     iput p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0$a;->a:I
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

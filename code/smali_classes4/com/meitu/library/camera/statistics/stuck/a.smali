@@ -18,7 +18,7 @@
 
     const v0, 0xa946
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/library/camera/statistics/stuck/e;
 
@@ -26,7 +26,7 @@
 
     sput-object v1, Lcom/meitu/library/camera/statistics/stuck/a;->a:Lcom/meitu/library/camera/statistics/stuck/e;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -44,13 +44,13 @@
 
     const v0, 0xa944
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/library/camera/statistics/stuck/a;->a:Lcom/meitu/library/camera/statistics/stuck/e;
 
     invoke-virtual {v1, p0}, Lcom/meitu/library/camera/statistics/stuck/e;->e(Landroid/app/Application;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -60,13 +60,13 @@
 
     const v0, 0xa945
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/library/camera/statistics/stuck/a;->a:Lcom/meitu/library/camera/statistics/stuck/e;
 
     invoke-virtual {v1, p0}, Lcom/meitu/library/camera/statistics/stuck/e;->f(Landroid/content/Context;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -76,13 +76,13 @@
 
     const v0, 0xa941
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/library/camera/statistics/stuck/a;->a:Lcom/meitu/library/camera/statistics/stuck/e;
 
     invoke-virtual {v1, p0}, Lcom/meitu/library/camera/statistics/stuck/e;->h(Z)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -92,13 +92,13 @@
 
     const v0, 0xa942
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/library/camera/statistics/stuck/a;->a:Lcom/meitu/library/camera/statistics/stuck/e;
 
     invoke-virtual {v1, p0}, Lcom/meitu/library/camera/statistics/stuck/e;->g(Lcom/meitu/library/camera/statistics/a;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -110,13 +110,13 @@
 
     const v0, 0xa943
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/library/camera/statistics/stuck/a;->a:Lcom/meitu/library/camera/statistics/stuck/e;
 
     invoke-virtual {v1, p1, p2}, Lcom/meitu/library/camera/statistics/stuck/e;->d(D)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

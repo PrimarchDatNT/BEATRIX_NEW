@@ -39,13 +39,13 @@
 
     const v0, 0xf0ec
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/meituadx/MeituAdxAdManager$8;->this$0:Lcom/meitu/hwbusinesskit/meituadx/MeituAdxAdManager;
 
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/meituadx/MeituAdxAdManager;->access$2900(Lcom/meitu/hwbusinesskit/meituadx/MeituAdxAdManager;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -55,13 +55,13 @@
 
     const v0, 0xf0ee
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/meituadx/MeituAdxAdManager$8;->this$0:Lcom/meitu/hwbusinesskit/meituadx/MeituAdxAdManager;
 
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/meituadx/MeituAdxAdManager;->access$3000(Lcom/meitu/hwbusinesskit/meituadx/MeituAdxAdManager;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -71,9 +71,9 @@
 
     const v0, 0xf0ed
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -83,7 +83,7 @@
 
     const v0, 0xf0ea
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/meituadx/MeituAdxAdManager$8;->this$0:Lcom/meitu/hwbusinesskit/meituadx/MeituAdxAdManager;
 
@@ -105,7 +105,7 @@
 
     invoke-static {v1, v2, p1}, Lcom/meitu/hwbusinesskit/meituadx/MeituAdxAdManager;->access$2700(Lcom/meitu/hwbusinesskit/meituadx/MeituAdxAdManager;ILjava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -115,13 +115,13 @@
 
     const v0, 0xf0eb
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/meituadx/MeituAdxAdManager$8;->this$0:Lcom/meitu/hwbusinesskit/meituadx/MeituAdxAdManager;
 
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/meituadx/MeituAdxAdManager;->access$2800(Lcom/meitu/hwbusinesskit/meituadx/MeituAdxAdManager;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

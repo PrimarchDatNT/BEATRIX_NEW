@@ -27,7 +27,7 @@
 
     const v0, 0xe5b7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-nez p0, :cond_0
 
@@ -39,7 +39,7 @@
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilterProgressListener;->a:J
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-wide v1
 .end method
@@ -51,7 +51,7 @@
 
     const v0, 0xe5ba
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilterProgressListener;->a:J
 
@@ -65,7 +65,7 @@
 
     invoke-static/range {v1 .. v6}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilterProgressListener_MediaFilterProgressBegan(JLcom/meitu/media/tools/filter/MediaFilterProgressListener;JLcom/meitu/media/tools/filter/MediaFilter;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -75,7 +75,7 @@
 
     const v0, 0xe5bd
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilterProgressListener;->a:J
 
@@ -89,7 +89,7 @@
 
     invoke-static/range {v1 .. v6}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilterProgressListener_MediaFilterProgressCanceled(JLcom/meitu/media/tools/filter/MediaFilterProgressListener;JLcom/meitu/media/tools/filter/MediaFilter;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -99,7 +99,7 @@
 
     const v0, 0xe5bb
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     move-object v11, p0
 
@@ -119,7 +119,7 @@
 
     invoke-static/range {v1 .. v10}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilterProgressListener_MediaFilterProgressChanged(JLcom/meitu/media/tools/filter/MediaFilterProgressListener;JLcom/meitu/media/tools/filter/MediaFilter;DD)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -129,7 +129,7 @@
 
     const v0, 0xe5bc
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilterProgressListener;->a:J
 
@@ -143,7 +143,7 @@
 
     invoke-static/range {v1 .. v6}, Lcom/meitu/media/tools/filter/MediaEditJNI;->MediaFilterProgressListener_MediaFilterProgressEnded(JLcom/meitu/media/tools/filter/MediaFilterProgressListener;JLcom/meitu/media/tools/filter/MediaFilter;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -156,7 +156,7 @@
     const v0, 0xe5b9
 
     :try_start_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/tools/filter/MediaFilterProgressListener;->a:J
 
@@ -180,7 +180,7 @@
     iput-wide v3, p0, Lcom/meitu/media/tools/filter/MediaFilterProgressListener;->a:J
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -201,11 +201,11 @@
 
     const v0, 0xe5b8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/meitu/media/tools/filter/MediaFilterProgressListener;->e()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

@@ -22,7 +22,7 @@
 
     const/16 v0, 0x68ee
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/util/y1;
 
@@ -30,7 +30,7 @@
 
     sput-object v1, Lcom/commsource/util/y1;->a:Lcom/commsource/util/y1;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -60,7 +60,7 @@
 
     const/16 v0, 0x68ed
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "str"
 
@@ -118,7 +118,7 @@
 
     invoke-virtual {v1, p2, v3, p1, p3}, Landroid/text/SpannableString;->setSpan(Ljava/lang/Object;III)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

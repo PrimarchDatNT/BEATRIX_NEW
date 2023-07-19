@@ -48,7 +48,7 @@
 
     const/16 v0, 0x7288
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-wide p1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$c;->a:J
 
@@ -63,7 +63,7 @@
     invoke-interface {v1, p1, p2}, Lcom/commsource/camera/xcamera/l;->b(J)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -77,7 +77,7 @@
 
     const/16 v0, 0x728a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$c;->b:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;
 
@@ -148,7 +148,7 @@
     check-cast p1, Lcotlin/t1;
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -162,7 +162,7 @@
 
     const/16 p1, 0x7289
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$c;->b:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;
 
@@ -192,7 +192,7 @@
     check-cast v0, Lcotlin/t1;
 
     :cond_1
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -202,7 +202,7 @@
 
     const/16 v0, 0x728b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel$c;->b:Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;
 
@@ -246,7 +246,7 @@
     check-cast v1, Lcotlin/t1;
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

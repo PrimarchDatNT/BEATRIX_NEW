@@ -48,7 +48,7 @@
 
     const/16 v0, 0x3926
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p2, Ljava/lang/String;
 
@@ -56,7 +56,7 @@
 
     move-result p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -66,7 +66,7 @@
 
     const/16 p1, 0x3925
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0$e;->a:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/a0;
 
@@ -92,7 +92,7 @@
 
     invoke-virtual {v0, p2}, Landroid/widget/EditText;->setSelection(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     const/4 p1, 0x0
 

@@ -36,9 +36,9 @@
 
     const/16 p1, 0x113f
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -48,7 +48,7 @@
 
     const/16 p1, 0x113e
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/advertisiting/ImageShareAdvertActivity$a;->a:Lcom/commsource/advertisiting/ImageShareAdvertActivity;
 
@@ -58,7 +58,7 @@
 
     invoke-virtual {v0}, Lcom/commsource/beautyplus/BaseActivity;->finish()V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -68,7 +68,7 @@
 
     const/16 p1, 0x113b
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/advertisiting/ImageShareAdvertActivity$a;->a:Lcom/commsource/advertisiting/ImageShareAdvertActivity;
 
@@ -97,7 +97,7 @@
 
     invoke-static {v0}, Lcom/commsource/advertisiting/ImageShareAdvertActivity;->N0(Lcom/commsource/advertisiting/ImageShareAdvertActivity;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -107,7 +107,7 @@
 
     const/16 p1, 0x113c
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/advertisiting/ImageShareAdvertActivity$a;->a:Lcom/commsource/advertisiting/ImageShareAdvertActivity;
 
@@ -171,7 +171,7 @@
 
     :cond_2
     :goto_0
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -181,7 +181,7 @@
 
     const/16 p1, 0x113d
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/advertisiting/ImageShareAdvertActivity$a;->a:Lcom/commsource/advertisiting/ImageShareAdvertActivity;
 
@@ -206,7 +206,7 @@
     invoke-virtual {v0, v1}, Landroid/os/Handler;->removeCallbacks(Ljava/lang/Runnable;)V
 
     :cond_0
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

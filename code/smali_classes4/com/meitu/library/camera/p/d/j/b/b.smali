@@ -50,7 +50,7 @@
 
     const v0, 0xac34
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p3, Landroid/media/MediaCodec$BufferInfo;->size:I
 
@@ -138,7 +138,7 @@
 
     :cond_0
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -150,13 +150,13 @@
 
     const v0, 0xac34
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Ljava/nio/channels/FileChannel;
 
     invoke-virtual {p0, p1, p2, p3}, Lcom/meitu/library/camera/p/d/j/b/b;->j(Ljava/nio/channels/FileChannel;Ljava/nio/ByteBuffer;Landroid/media/MediaCodec$BufferInfo;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -166,11 +166,11 @@
 
     const v0, 0xac33
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0, p1, p2, p3}, Lcom/meitu/library/camera/p/d/j/b/b;->k(Ljava/nio/channels/FileChannel;Ljava/nio/ByteBuffer;Landroid/media/MediaCodec$BufferInfo;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

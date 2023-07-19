@@ -39,7 +39,7 @@
 
     const/16 p1, 0xb1c
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/puzzle/patchedworld/PatchedWorldView$b;->a:Lcom/commsource/puzzle/patchedworld/PatchedWorldView;
 
@@ -61,7 +61,7 @@
 
     const/4 v0, 0x0
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return v0
 
@@ -91,7 +91,7 @@
 
     :cond_2
     :goto_0
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method

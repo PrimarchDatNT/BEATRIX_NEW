@@ -49,7 +49,7 @@
 
     const/16 v0, 0x30c7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "animation"
 
@@ -103,7 +103,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -117,7 +117,7 @@
 
     const/16 v0, 0x30c5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "animation"
 
@@ -149,7 +149,7 @@
 
     invoke-virtual {p1, v1, v2}, Lcom/commsource/camera/f1/n;->f(FF)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -171,7 +171,7 @@
 
     const/16 v0, 0x30c6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "animation"
 
@@ -225,7 +225,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -235,7 +235,7 @@
 
     const/16 p2, 0x30c4
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/studio/function/relight/ColorSeekBar$progressAnimator$2$a;->a:Lcom/commsource/studio/function/relight/ColorSeekBar$progressAnimator$2;
 
@@ -267,7 +267,7 @@
 
     invoke-static {v0, p1, v1}, Lcom/commsource/studio/function/relight/ColorSeekBar;->f(Lcom/commsource/studio/function/relight/ColorSeekBar;FZ)V
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

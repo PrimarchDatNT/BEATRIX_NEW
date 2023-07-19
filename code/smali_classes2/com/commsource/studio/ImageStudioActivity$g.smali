@@ -40,7 +40,7 @@
 
     const/16 p1, 0x4b4f
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v0, "beauty_add_photo_clk"
 
@@ -66,7 +66,7 @@
 
     invoke-static {v0}, Lf/k/c/c/f;->r(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -85,7 +85,7 @@
 
     invoke-static {v0, v1, v3, v2, v3}, Lcom/commsource/studio/ImageStudioViewModel;->H(Lcom/commsource/studio/ImageStudioViewModel;Landroidx/fragment/app/FragmentActivity;Lcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

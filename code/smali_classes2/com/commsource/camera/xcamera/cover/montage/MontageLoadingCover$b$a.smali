@@ -52,13 +52,13 @@
 
     const/16 v0, 0x28d2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Lcom/airbnb/lottie/g;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/montage/MontageLoadingCover$b$a;->b(Lcom/airbnb/lottie/g;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -72,7 +72,7 @@
 
     const/16 v0, 0x28d3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/montage/MontageLoadingCover$b$a;->a:Lcom/commsource/camera/xcamera/cover/montage/MontageLoadingCover$b;
 
@@ -138,7 +138,7 @@
     invoke-virtual {p1, v1}, Lcom/airbnb/lottie/LottieAnimationView;->setRepeatCount(I)V
 
     :cond_3
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

@@ -41,7 +41,7 @@
 
     const/16 p1, 0x583b
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/mypage/album/PuzzleComponent$d;->a:Lcom/commsource/mypage/album/PuzzleComponent;
 
@@ -102,7 +102,7 @@
     invoke-static {v1, v0, v2}, Lcom/commsource/mypage/album/PuzzleComponent;->j(Lcom/commsource/mypage/album/PuzzleComponent;Lcom/commsource/cloudalbum/bean/CAImageInfo;Z)V
 
     :cond_0
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

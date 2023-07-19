@@ -35,11 +35,11 @@
 
     const/16 v0, 0x33b1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0, p1, p2}, Lcom/commsource/beautyplus/base/b/b;->d(Ljava/lang/Integer;Lcom/commsource/beautyplus/base/b/a$c;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -49,7 +49,7 @@
 
     const/16 v0, 0x33ad
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/commsource/beautyplus/base/b/b;->b:Lcom/commsource/beautyplus/base/b/b;
 
@@ -86,7 +86,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw v2
 
@@ -94,7 +94,7 @@
     :goto_0
     sget-object v1, Lcom/commsource/beautyplus/base/b/b;->b:Lcom/commsource/beautyplus/base/b/b;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -114,13 +114,13 @@
 
     const/16 v0, 0x33ae
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautyplus/base/b/b;->a:Lcom/commsource/beautyplus/base/b/c;
 
     invoke-interface {v1, p1, p2}, Lcom/commsource/beautyplus/base/b/c;->a(Ljava/lang/Integer;Lcom/commsource/beautyplus/base/b/a$c;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -145,7 +145,7 @@
 
     const/16 v0, 0x33af
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p1, p2}, Lcom/commsource/beautyplus/base/b/a;->e(Lcom/commsource/beautyplus/base/b/a$a;)V
 
@@ -185,7 +185,7 @@
 
     invoke-interface {p2, p3}, Lcom/commsource/beautyplus/base/b/c;->b(Lcom/commsource/util/u2/a;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -204,13 +204,13 @@
 
     const/16 v0, 0x33b0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautyplus/base/b/b;->a:Lcom/commsource/beautyplus/base/b/c;
 
     invoke-interface {v1, p1, p2}, Lcom/commsource/beautyplus/base/b/c;->c(Lcom/commsource/beautyplus/base/b/a$b;Lcom/commsource/beautyplus/base/b/a$c;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

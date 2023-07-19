@@ -57,7 +57,7 @@
 
     const/16 v0, 0x49fe
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "downEvent"
 
@@ -177,7 +177,7 @@
 
     invoke-static {p1, v7}, Lcom/commsource/studio/function/bodyshape/ImageStretchView;->j(Lcom/commsource/studio/function/bodyshape/ImageStretchView;Z)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v7
 
@@ -276,7 +276,7 @@
 
     invoke-static {p1, v7}, Lcom/commsource/studio/function/bodyshape/ImageStretchView;->k(Lcom/commsource/studio/function/bodyshape/ImageStretchView;Z)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v7
 
@@ -285,7 +285,7 @@
 
     iput-boolean p1, p0, Lcom/commsource/studio/function/bodyshape/ImageStretchView$b;->d:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v7
 .end method
@@ -299,7 +299,7 @@
 
     const/16 v0, 0x4a00
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/function/bodyshape/ImageStretchView$b;->f:Lcom/commsource/studio/function/bodyshape/ImageStretchView;
 
@@ -352,7 +352,7 @@
 
     move-result p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -370,7 +370,7 @@
 
     const/16 v0, 0x49ff
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "downEvent"
 
@@ -578,7 +578,7 @@
 
     move-result p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method

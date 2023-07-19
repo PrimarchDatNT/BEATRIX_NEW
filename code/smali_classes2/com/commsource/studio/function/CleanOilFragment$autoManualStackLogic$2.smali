@@ -53,7 +53,7 @@
 
     const v0, 0x9a34
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
 
@@ -67,7 +67,7 @@
 
     invoke-direct {v1, v2, v3}, Lcom/commsource/studio/function/automanual/AutoManualStackLogic;-><init>(Lcom/commsource/studio/effect/c;Lcom/commsource/studio/function/BaseSubFragment;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -77,13 +77,13 @@
 
     const v0, 0x9a33
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/commsource/studio/function/CleanOilFragment$autoManualStackLogic$2;->invoke()Lcom/commsource/studio/function/automanual/AutoManualStackLogic;
 
     move-result-object v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

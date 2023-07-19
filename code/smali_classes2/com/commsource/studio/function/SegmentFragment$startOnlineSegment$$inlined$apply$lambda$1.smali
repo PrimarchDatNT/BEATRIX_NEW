@@ -51,13 +51,13 @@
 
     const/16 v0, 0x189
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/commsource/studio/function/SegmentFragment$startOnlineSegment$$inlined$apply$lambda$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -67,7 +67,7 @@
 
     const/16 v0, 0x18a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/function/SegmentFragment$startOnlineSegment$$inlined$apply$lambda$1;->this$0:Lcom/commsource/studio/function/SegmentFragment;
 
@@ -88,7 +88,7 @@
     invoke-virtual {v1}, Lcom/commsource/widget/dialog/i0;->dismiss()V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

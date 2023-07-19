@@ -53,7 +53,7 @@
 
     const/16 p3, 0x7a49
 
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lcom/commsource/util/x;->C()Z
 
@@ -92,7 +92,7 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;->o(I)V
 
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

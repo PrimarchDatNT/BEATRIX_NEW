@@ -71,7 +71,7 @@
 
     const v1, 0xd822
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v2, Lorg/json/JSONObject;
 
@@ -311,7 +311,7 @@
 
     move-result-object p0
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method

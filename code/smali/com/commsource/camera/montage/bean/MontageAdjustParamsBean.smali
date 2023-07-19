@@ -51,7 +51,7 @@
 
     const/16 v0, 0x185b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-nez p0, :cond_0
 
@@ -445,7 +445,7 @@
     iput-wide v4, p1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$Moustache2Params;->scaleFactorX:D
 
     :cond_7
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -457,7 +457,7 @@
 
     const/16 v0, 0x185a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     invoke-super {p0}, Ljava/lang/Object;->clone()Ljava/lang/Object;
@@ -478,7 +478,7 @@
     const/4 v1, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -488,7 +488,7 @@
 
     const/16 v0, 0x185c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean;->eyeParams:Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$EyeParams;
 
@@ -564,7 +564,7 @@
 
     iput-wide v2, v1, Lcom/commsource/camera/montage/bean/MontageAdjustParamsBean$Moustache2Params;->lastScaleFactorX:D
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

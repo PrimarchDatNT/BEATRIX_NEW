@@ -42,13 +42,13 @@
 
     const v0, 0x8be0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;
 
     invoke-direct {v1, p1}, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;-><init>(Landroid/os/Parcel;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -58,11 +58,11 @@
 
     const v0, 0x8be1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-array p1, p1, [Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -72,13 +72,13 @@
 
     const v0, 0x8be2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0, p1}, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex$a;->a(Landroid/os/Parcel;)Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;
 
     move-result-object p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -88,13 +88,13 @@
 
     const v0, 0x8be2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0, p1}, Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex$a;->b(I)[Lcom/commsource/puzzle/patchedworld/imageware/image_process/types/CacheIndex;
 
     move-result-object p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method

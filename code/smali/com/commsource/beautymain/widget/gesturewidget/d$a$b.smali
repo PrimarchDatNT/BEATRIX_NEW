@@ -39,7 +39,7 @@
 
     const/16 p1, 0x50b6
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/d$a$b;->a:Lcom/commsource/beautymain/widget/gesturewidget/d$a;
 
@@ -58,7 +58,7 @@
     invoke-interface {v0}, Lcom/commsource/beautymain/widget/gesturewidget/d$b;->b()V
 
     :cond_0
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -68,7 +68,7 @@
 
     const/16 p1, 0x50b5
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/d$a$b;->a:Lcom/commsource/beautymain/widget/gesturewidget/d$a;
 
@@ -114,7 +114,7 @@
 
     invoke-virtual {v0}, Lcom/commsource/beautymain/widget/gesturewidget/d;->d()V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -124,9 +124,9 @@
 
     const/16 p1, 0x50b7
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -136,7 +136,7 @@
 
     const/16 p1, 0x50b4
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/beautymain/widget/gesturewidget/d$a$b;->a:Lcom/commsource/beautymain/widget/gesturewidget/d$a;
 
@@ -149,7 +149,7 @@
     invoke-interface {v0}, Lcom/commsource/beautymain/widget/gesturewidget/d$b;->c()V
 
     :cond_0
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

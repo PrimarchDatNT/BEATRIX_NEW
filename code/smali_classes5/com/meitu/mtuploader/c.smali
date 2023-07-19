@@ -27,7 +27,7 @@
 
     const p2, 0xd9a3
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -97,14 +97,14 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 
     :cond_1
     new-array p1, v0, [Lcom/qiniu/android/dns/g;
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method

@@ -62,11 +62,11 @@
 
     const v0, 0xc89b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p0, p0, Lcom/meitu/ipstore/core/b$e;->b:Ljava/lang/ref/WeakReference;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -78,7 +78,7 @@
 
     const v0, 0xc89a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/ipstore/core/b$e;->a:Lcom/meitu/ipstore/core/a$a;
 
@@ -87,7 +87,7 @@
     invoke-interface {v1, p1, p2, p3}, Lcom/meitu/ipstore/core/a$a;->a(Ljava/lang/String;ILjava/lang/String;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -97,7 +97,7 @@
 
     const v0, 0xc899
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/ipstore/core/b$e;->a:Lcom/meitu/ipstore/core/a$a;
 
@@ -106,7 +106,7 @@
     invoke-interface {v1, p1}, Lcom/meitu/ipstore/core/a$a;->b(Ljava/lang/String;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -116,7 +116,7 @@
 
     const v0, 0xc898
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/ipstore/core/b$e;->a:Lcom/meitu/ipstore/core/a$a;
 
@@ -125,7 +125,7 @@
     invoke-interface {v1, p1}, Lcom/meitu/ipstore/core/a$a;->c(Ljava/lang/String;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -135,7 +135,7 @@
 
     const v0, 0xc897
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/ipstore/core/b$e;->a:Lcom/meitu/ipstore/core/a$a;
 
@@ -154,7 +154,7 @@
 
     if-nez v1, :cond_1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -165,7 +165,7 @@
 
     invoke-static {v2}, Lf/k/m/j/j;->g(Ljava/lang/Runnable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

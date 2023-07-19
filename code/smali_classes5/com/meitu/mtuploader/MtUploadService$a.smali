@@ -43,7 +43,7 @@
 
     const p1, 0xd950
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/meitu/mtuploader/MtUploadService$a;->a:Lcom/meitu/mtuploader/bean/MtUploadBean;
 
@@ -83,7 +83,7 @@
 
     invoke-static {v0, v1, p2}, Lcom/meitu/mtuploader/MtUploadService;->c(Lcom/meitu/mtuploader/MtUploadService;Lcom/meitu/mtuploader/bean/MtUploadBean;Ljava/lang/String;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -93,7 +93,7 @@
 
     const p1, 0xd94f
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/meitu/mtuploader/MtUploadService$a;->b:Lcom/meitu/mtuploader/MtUploadService;
 
@@ -109,7 +109,7 @@
 
     invoke-virtual {v0, p2}, Lcom/meitu/mtuploader/s/a;->s(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -119,7 +119,7 @@
 
     const v0, 0xd952
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -453,7 +453,7 @@
     invoke-static {p1, v1, p2, p3}, Lcom/meitu/mtuploader/MtUploadService;->d(Lcom/meitu/mtuploader/MtUploadService;Lcom/meitu/mtuploader/bean/MtUploadBean;ILjava/lang/String;)V
 
     :goto_3
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -463,7 +463,7 @@
 
     const p1, 0xd94e
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/meitu/mtuploader/MtUploadService$a;->b:Lcom/meitu/mtuploader/MtUploadService;
 
@@ -471,7 +471,7 @@
 
     invoke-static {v0, v1}, Lcom/meitu/mtuploader/MtUploadService;->p(Lcom/meitu/mtuploader/MtUploadService;Lcom/meitu/mtuploader/bean/MtUploadBean;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -481,9 +481,9 @@
 
     const p1, 0xd951
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -493,7 +493,7 @@
 
     const p1, 0xd94d
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/meitu/mtuploader/MtUploadService$a;->b:Lcom/meitu/mtuploader/MtUploadService;
 
@@ -501,7 +501,7 @@
 
     invoke-static {v0, v1, p2, p3}, Lcom/meitu/mtuploader/MtUploadService;->o(Lcom/meitu/mtuploader/MtUploadService;Lcom/meitu/mtuploader/bean/MtUploadBean;ILjava/lang/String;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

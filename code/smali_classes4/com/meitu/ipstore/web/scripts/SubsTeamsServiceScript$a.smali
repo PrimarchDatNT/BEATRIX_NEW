@@ -44,13 +44,13 @@
 
     const v0, 0xc865
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Lcom/meitu/ipstore/web/scripts/SubsTeamsServiceScript$Model;
 
     invoke-virtual {p0, p1}, Lcom/meitu/ipstore/web/scripts/SubsTeamsServiceScript$a;->d(Lcom/meitu/ipstore/web/scripts/SubsTeamsServiceScript$Model;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -60,7 +60,7 @@
 
     const p1, 0xc864
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v0, "subsTeamsService"
 
@@ -85,7 +85,7 @@
     invoke-interface {v0, v1}, Lf/k/m/d;->h(Landroid/app/Activity;)V
 
     :cond_0
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

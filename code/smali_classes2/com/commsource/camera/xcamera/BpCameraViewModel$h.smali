@@ -60,7 +60,7 @@
 
     const v0, 0x97a7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/camera/xcamera/BpCameraViewModel$h;->d:Lcom/commsource/camera/xcamera/BpCameraViewModel;
 
@@ -121,7 +121,7 @@
 
     invoke-static/range {v2 .. v8}, Lcom/commsource/camera/newrender/renderproxy/ARKernelUtils;->x(Lcom/meitu/mtlab/arkernelinterface/core/ARKernelInterfaceJNI;Lcom/meitu/mtlab/arkernelinterface/core/ARKernelPlistDataInterfaceJNI;IFFFF)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

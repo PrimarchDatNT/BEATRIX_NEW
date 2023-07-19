@@ -32,7 +32,7 @@
 
     const v0, 0xe106
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-nez p0, :cond_0
 
@@ -44,7 +44,7 @@
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTTextTemplateManager;->a:J
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-wide v1
 .end method
@@ -80,7 +80,7 @@
 
     const v0, 0xe108
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTTextTemplateManager;->a:J
 
@@ -90,7 +90,7 @@
 
     invoke-direct {p0, v1, v2, v3, v4}, Lcom/meitu/media/mtmvcore/MTTextTemplateManager;->addText(JJ)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -100,13 +100,13 @@
 
     const v0, 0xe105
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTTextTemplateManager;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/media/mtmvcore/MTTextTemplateManager;->native_cleanup(J)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -116,7 +116,7 @@
 
     const v0, 0xe109
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTTextTemplateManager;->a:J
 
@@ -124,7 +124,7 @@
 
     move-result v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -134,7 +134,7 @@
 
     const v0, 0xe104
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTTextTemplateManager;->a:J
 
@@ -148,7 +148,7 @@
 
     iput-boolean v1, p0, Lcom/meitu/media/mtmvcore/MTTextTemplateManager;->b:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -158,13 +158,13 @@
 
     const v0, 0xe10b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTTextTemplateManager;->a:J
 
     invoke-direct {p0, v1, v2}, Lcom/meitu/media/mtmvcore/MTTextTemplateManager;->removeAllTexts(J)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -179,7 +179,7 @@
 
     const v0, 0xe10c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean v1, p0, Lcom/meitu/media/mtmvcore/MTTextTemplateManager;->b:Z
 
@@ -187,7 +187,7 @@
 
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -198,7 +198,7 @@
 
     invoke-direct {v1, v2}, Ljava/lang/RuntimeException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw v1
 .end method
@@ -208,7 +208,7 @@
 
     const v0, 0xe107
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v2, p0, Lcom/meitu/media/mtmvcore/MTTextTemplateManager;->a:J
 
@@ -220,7 +220,7 @@
 
     invoke-direct/range {v1 .. v6}, Lcom/meitu/media/mtmvcore/MTTextTemplateManager;->setTextTemplateType(JIJ)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -230,7 +230,7 @@
 
     const v0, 0xe10a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p1, p2}, Lcom/meitu/media/mtmvcore/MTTextTemplateGroup;->p(Lcom/meitu/media/mtmvcore/a;)Z
 
@@ -252,7 +252,7 @@
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/media/mtmvcore/MTTextTemplateManager;->updateText(JJ)V
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

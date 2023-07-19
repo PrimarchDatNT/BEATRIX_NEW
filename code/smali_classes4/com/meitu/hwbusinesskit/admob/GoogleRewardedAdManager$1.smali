@@ -43,7 +43,7 @@
 
     const p1, 0xefd6
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v0, "Admob \u4e0b\u53d1\u5956\u52b1"
 
@@ -53,7 +53,7 @@
 
     invoke-static {v0}, Lcom/meitu/hwbusinesskit/admob/GoogleRewardedAdManager;->access$200(Lcom/meitu/hwbusinesskit/admob/GoogleRewardedAdManager;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -63,13 +63,13 @@
 
     const v0, 0xefd5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/admob/GoogleRewardedAdManager$1;->this$0:Lcom/meitu/hwbusinesskit/admob/GoogleRewardedAdManager;
 
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/admob/GoogleRewardedAdManager;->access$100(Lcom/meitu/hwbusinesskit/admob/GoogleRewardedAdManager;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -79,7 +79,7 @@
 
     const v0, 0xefd8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/admob/GoogleRewardedAdManager$1;->this$0:Lcom/meitu/hwbusinesskit/admob/GoogleRewardedAdManager;
 
@@ -101,7 +101,7 @@
 
     invoke-static {v1, v2, p1}, Lcom/meitu/hwbusinesskit/admob/GoogleRewardedAdManager;->access$400(Lcom/meitu/hwbusinesskit/admob/GoogleRewardedAdManager;ILjava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -111,13 +111,13 @@
 
     const v0, 0xefd7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/admob/GoogleRewardedAdManager$1;->this$0:Lcom/meitu/hwbusinesskit/admob/GoogleRewardedAdManager;
 
     invoke-static {v1}, Lcom/meitu/hwbusinesskit/admob/GoogleRewardedAdManager;->access$300(Lcom/meitu/hwbusinesskit/admob/GoogleRewardedAdManager;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -127,7 +127,7 @@
 
     const v0, 0xefd2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/admob/GoogleRewardedAdManager$1;->this$0:Lcom/meitu/hwbusinesskit/admob/GoogleRewardedAdManager;
 
@@ -135,7 +135,7 @@
 
     invoke-static {v1, v2}, Lcom/meitu/hwbusinesskit/admob/GoogleRewardedAdManager;->access$000(Lcom/meitu/hwbusinesskit/admob/GoogleRewardedAdManager;Ljava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -145,9 +145,9 @@
 
     const v0, 0xefd3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -157,9 +157,9 @@
 
     const v0, 0xefd9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -169,9 +169,9 @@
 
     const v0, 0xefd4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

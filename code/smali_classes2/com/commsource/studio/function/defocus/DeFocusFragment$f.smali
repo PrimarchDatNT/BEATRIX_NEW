@@ -66,7 +66,7 @@
 
     const/16 p1, 0x3b11
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/studio/function/defocus/DeFocusFragment$f;->a:Lcom/commsource/studio/function/defocus/DeFocusFragment;
 
@@ -137,7 +137,7 @@
 
     invoke-virtual {v1, v0}, Lcom/commsource/studio/effect/f;->w(Z)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -148,7 +148,7 @@
 
     invoke-direct {v0, v1}, Lcotlin/TypeCastException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     throw v0
 .end method
@@ -158,13 +158,13 @@
 
     const/16 v0, 0x3b10
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Lcotlin/Pair;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/function/defocus/DeFocusFragment$f;->a(Lcotlin/Pair;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

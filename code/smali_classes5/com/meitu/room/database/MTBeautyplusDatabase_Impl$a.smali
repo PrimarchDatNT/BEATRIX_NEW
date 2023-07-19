@@ -36,7 +36,7 @@
 
     const/16 v0, 0x5cf3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "CREATE TABLE IF NOT EXISTS `AR_MATERIAL` (`_id` INTEGER, `NUMBER` INTEGER NOT NULL, `SORT` INTEGER NOT NULL, `VERSION_CONTROL` INTEGER NOT NULL, `MIN_VERSION` TEXT, `MAX_VERSION` TEXT, `FILE_URL` TEXT, `FILE_SIZE` TEXT, `THUMBNAIL` TEXT, `PREVIEW_URL` TEXT, `IS_HOT` INTEGER NOT NULL, `HOT_SORT` INTEGER NOT NULL, `HOT_END_TIME` INTEGER NOT NULL, `INTERACTIVE` INTEGER NOT NULL, `AUTO_DOWNLOAD` INTEGER NOT NULL, `IS_NEW` INTEGER NOT NULL, `NEW_SORT` INTEGER NOT NULL, `RED_TIME` INTEGER NOT NULL, `NEW_END_TIME` INTEGER NOT NULL, `END_TIME` INTEGER NOT NULL, `WEIGHT` INTEGER NOT NULL, `AFTER_WEIGHT` INTEGER NOT NULL, `TITLE` TEXT, `BGM_FLAG` INTEGER NOT NULL, `DBG_ENABLE` INTEGER NOT NULL, `DBG_URL` TEXT, `DBG_NUMBER` TEXT, `IS_3D` INTEGER NOT NULL, `FEATURED_SORT` INTEGER NOT NULL, `IS_FEATURED` INTEGER NOT NULL, `IS_COLLECTED` INTEGER NOT NULL, `IS_DOWNLOAD` INTEGER NOT NULL, `IS_DOWNLOADING` INTEGER NOT NULL, `DOWNLOAD_TIME` INTEGER NOT NULL, `IS_HIDE_RED` INTEGER NOT NULL, `GROUP_NUMBER` INTEGER NOT NULL, `IS_BG_DOWNLOAD` INTEGER NOT NULL, `IS_BG_DOWNLOADING` INTEGER NOT NULL, `IS_3D_DOWNLOAD` INTEGER NOT NULL, `IS_3D_DOWNLOADING` INTEGER NOT NULL, `END_USE_TIME` INTEGER NOT NULL, `IS_DYE_HAIR` INTEGER NOT NULL, `IS_DYE_HAIR_DOWNLOAD` INTEGER NOT NULL, `IS_DYE_HAIR_DOWNLOADING` INTEGER NOT NULL, `COLLECTION_TIME` INTEGER NOT NULL, `IS_HUMAN_POSTURE` INTEGER NOT NULL, `IS_HUMAN_DOWNLOAD` INTEGER NOT NULL, `IS_HUMAN_DOWNLOADING` INTEGER NOT NULL, `AR_ONLINE_TEXT` TEXT, `IS_SWITCHING` INTEGER NOT NULL, `IS_PHYSICAL` INTEGER NOT NULL, `IS_TOUCH` INTEGER NOT NULL, `REGION_HOT_SORT` INTEGER NOT NULL, `IS_ANIMAL_DOWNLOAD` INTEGER NOT NULL, `IS_PET` INTEGER NOT NULL, `REDIRECT_TO` TEXT, `ENABLE_TEXT` INTEGER NOT NULL, `IS_AFTER_SHARE` INTEGER NOT NULL, `IS_SHARE_LOCK` INTEGER NOT NULL, `IS_SKELETAL` INTEGER NOT NULL, `IS_SKELETON_DOWNLOAD` INTEGER NOT NULL, `IS_FACE_3D_V2` INTEGER NOT NULL, `IS_NECK_LOCK_POINT` INTEGER NOT NULL, `IS_NECK_LOCK_DOWNLOAD` INTEGER NOT NULL, `IS_FACE_3D_V2_DOWNLOAD` INTEGER NOT NULL, `AR_CORE_TYPE` INTEGER NOT NULL, `HASH_TAG` TEXT, `MAKE_LEVEL` INTEGER NOT NULL, `BEAUTY_LEVEL` INTEGER NOT NULL, `AR_HELP_TITLE` TEXT, `AR_HELP_RULE` INTEGER NOT NULL, `AR_HELP_URL` TEXT, `AR_HELP_IS_DOWNLOAD` INTEGER NOT NULL, `AR_HELP_TIP_TYPE` INTEGER NOT NULL, `IP_COLOR_CODE` TEXT, `LOCATIONS` INTEGER NOT NULL, `IS_HAND_POSE` INTEGER NOT NULL, `IS_NEED_WATER_MARK` INTEGER NOT NULL, `IP_STROE_ID` INTEGER NOT NULL, `LOCK_CAMERA` INTEGER NOT NULL, `AR_CORE_ICON` TEXT, `ALLOW_MODELS` INTEGER NOT NULL, `LIMIT_SPECIFIC_MODELS` TEXT, `SHOW_AR_CORE_ICON` INTEGER NOT NULL, `PAID_TYPE` TEXT, `NEW_AR` TEXT, PRIMARY KEY(`_id`))"
 
@@ -158,7 +158,7 @@
 
     invoke-interface {p1, v1}, Landroidx/sqlite/db/SupportSQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -168,7 +168,7 @@
 
     const/16 v0, 0x5cf4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "DROP TABLE IF EXISTS `AR_MATERIAL`"
 
@@ -324,7 +324,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -334,7 +334,7 @@
 
     const/16 v0, 0x5cf5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl$a;->a:Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;
 
@@ -378,7 +378,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -388,7 +388,7 @@
 
     const/16 v0, 0x5cf6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/room/database/MTBeautyplusDatabase_Impl$a;->a:Lcom/meitu/room/database/MTBeautyplusDatabase_Impl;
 
@@ -440,7 +440,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -450,9 +450,9 @@
 
     const/16 p1, 0x5cf8
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -462,11 +462,11 @@
 
     const/16 v0, 0x5cf7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p1}, Landroidx/room/util/DBUtil;->dropFtsSyncTriggers(Landroidx/sqlite/db/SupportSQLiteDatabase;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -478,7 +478,7 @@
 
     const/16 v1, 0x5cf9
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v2, Ljava/util/HashMap;
 
@@ -1810,7 +1810,7 @@
 
     invoke-direct {v0, v5, v2}, Landroidx/room/RoomOpenHelper$ValidationResult;-><init>(ZLjava/lang/String;)V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 
@@ -2173,7 +2173,7 @@
 
     invoke-direct {v0, v5, v2}, Landroidx/room/RoomOpenHelper$ValidationResult;-><init>(ZLjava/lang/String;)V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 
@@ -2340,7 +2340,7 @@
 
     invoke-direct {v0, v5, v2}, Landroidx/room/RoomOpenHelper$ValidationResult;-><init>(ZLjava/lang/String;)V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 
@@ -2491,7 +2491,7 @@
 
     invoke-direct {v0, v5, v2}, Landroidx/room/RoomOpenHelper$ValidationResult;-><init>(ZLjava/lang/String;)V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 
@@ -2692,7 +2692,7 @@
 
     invoke-direct {v0, v5, v2}, Landroidx/room/RoomOpenHelper$ValidationResult;-><init>(ZLjava/lang/String;)V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 
@@ -3141,7 +3141,7 @@
 
     invoke-direct {v0, v5, v2}, Landroidx/room/RoomOpenHelper$ValidationResult;-><init>(ZLjava/lang/String;)V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 
@@ -3364,7 +3364,7 @@
 
     invoke-direct {v0, v5, v2}, Landroidx/room/RoomOpenHelper$ValidationResult;-><init>(ZLjava/lang/String;)V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 
@@ -3715,7 +3715,7 @@
 
     invoke-direct {v0, v5, v2}, Landroidx/room/RoomOpenHelper$ValidationResult;-><init>(ZLjava/lang/String;)V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 
@@ -3978,7 +3978,7 @@
 
     invoke-direct {v0, v5, v2}, Landroidx/room/RoomOpenHelper$ValidationResult;-><init>(ZLjava/lang/String;)V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 
@@ -4361,7 +4361,7 @@
 
     invoke-direct {v0, v5, v2}, Landroidx/room/RoomOpenHelper$ValidationResult;-><init>(ZLjava/lang/String;)V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 
@@ -4510,7 +4510,7 @@
 
     const/16 v1, 0x5cf9
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 
@@ -4841,7 +4841,7 @@
 
     const/16 v1, 0x5cf9
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 
@@ -5090,7 +5090,7 @@
 
     const/16 v1, 0x5cf9
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 
@@ -5465,7 +5465,7 @@
 
     const/16 v1, 0x5cf9
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 
@@ -5600,7 +5600,7 @@
 
     const/16 v1, 0x5cf9
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 
@@ -5975,7 +5975,7 @@
 
     const/16 v1, 0x5cf9
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 
@@ -6344,7 +6344,7 @@
 
     const/16 v1, 0x5cf9
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 
@@ -6725,7 +6725,7 @@
 
     const/16 v1, 0x5cf9
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 
@@ -6860,7 +6860,7 @@
 
     const/16 v1, 0x5cf9
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 
@@ -7147,7 +7147,7 @@
 
     const/16 v1, 0x5cf9
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 
@@ -7422,7 +7422,7 @@
 
     const/16 v1, 0x5cf9
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 
@@ -7697,7 +7697,7 @@
 
     const/16 v1, 0x5cf9
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 
@@ -7972,7 +7972,7 @@
 
     const/16 v1, 0x5cf9
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 
@@ -8363,7 +8363,7 @@
 
     const/16 v1, 0x5cf9
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 
@@ -8712,7 +8712,7 @@
 
     const/16 v1, 0x5cf9
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 
@@ -8959,7 +8959,7 @@
 
     const/16 v1, 0x5cf9
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 
@@ -9102,7 +9102,7 @@
 
     const/16 v1, 0x5cf9
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 
@@ -9235,7 +9235,7 @@
 
     const/16 v0, 0x5cf9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 
@@ -9250,7 +9250,7 @@
 
     invoke-direct {v1, v2, v3}, Landroidx/room/RoomOpenHelper$ValidationResult;-><init>(ZLjava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

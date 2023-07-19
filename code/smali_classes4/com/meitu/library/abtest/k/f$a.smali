@@ -39,13 +39,13 @@
 
     const p1, 0xc4f6
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/meitu/library/abtest/k/f$a;->a:Lcom/meitu/library/abtest/k/f;
 
     invoke-static {v0}, Lcom/meitu/library/abtest/k/f;->d(Lcom/meitu/library/abtest/k/f;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

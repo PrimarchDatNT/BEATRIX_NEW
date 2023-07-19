@@ -55,11 +55,11 @@
 
     const/16 v0, 0x101d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-wide p1, p0, Lcom/commsource/mypage/album/v;->b:J
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-wide p1
 .end method
@@ -69,11 +69,11 @@
 
     const/16 v0, 0x101e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-boolean p1, p0, Lcom/commsource/mypage/album/v;->c:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -83,7 +83,7 @@
 
     const/16 v0, 0x101a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p1, Lcom/commsource/mypage/album/v$b;->a:Landroidx/recyclerview/widget/RecyclerView$ViewHolder;
 
@@ -119,7 +119,7 @@
 
     invoke-virtual {p1}, Landroid/view/ViewPropertyAnimator;->start()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -129,7 +129,7 @@
 
     const/16 v0, 0x101c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/mypage/album/v;->a:Ljava/util/List;
 
@@ -159,7 +159,7 @@
 
     invoke-interface {v1}, Ljava/util/List;->clear()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -191,7 +191,7 @@
 
     const/16 v11, 0x1019
 
-    invoke-static {v11}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v11}, Lcom/res/ANRTrace;->e(I)V
 
     iget v0, v9, Landroidx/recyclerview/widget/RecyclerView$ItemAnimator$ItemHolderInfo;->right:I
 
@@ -308,7 +308,7 @@
     const/4 v12, 0x1
 
     :cond_3
-    invoke-static {v11}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v11}, Lcom/res/ANRTrace;->a(I)V
 
     return v12
 .end method
@@ -318,7 +318,7 @@
 
     const/16 v0, 0x1018
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean v1, p0, Lcom/commsource/mypage/album/v;->c:Z
 
@@ -335,7 +335,7 @@
 
     move-result p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -353,7 +353,7 @@
 
     const/16 v0, 0x101b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/mypage/album/v;->a:Ljava/util/List;
 
@@ -404,7 +404,7 @@
     :goto_0
     invoke-super {p0}, Landroidx/recyclerview/widget/DefaultItemAnimator;->runPendingAnimations()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

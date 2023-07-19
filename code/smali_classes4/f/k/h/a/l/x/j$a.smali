@@ -47,7 +47,7 @@
 
     const v0, 0xc6bb
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lf/k/h/a/l/x/j;->b()Ljava/lang/String;
 
@@ -112,7 +112,7 @@
     invoke-static {}, Lf/k/h/a/l/w;->d()V
 
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

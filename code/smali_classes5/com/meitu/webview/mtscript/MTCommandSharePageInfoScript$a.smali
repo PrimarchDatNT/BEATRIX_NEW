@@ -44,13 +44,13 @@
 
     const v0, 0xec10
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Lcom/meitu/webview/mtscript/MTCommandSharePageInfoScript$Model;
 
     invoke-virtual {p0, p1}, Lcom/meitu/webview/mtscript/MTCommandSharePageInfoScript$a;->d(Lcom/meitu/webview/mtscript/MTCommandSharePageInfoScript$Model;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -60,7 +60,7 @@
 
     const v0, 0xec0f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v5, p1, Lcom/meitu/webview/mtscript/MTCommandSharePageInfoScript$Model;->description:Ljava/lang/String;
 
@@ -139,7 +139,7 @@
     invoke-interface/range {v1 .. v7}, Lf/k/o0/c/c;->d(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lf/k/o0/c/c$b;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

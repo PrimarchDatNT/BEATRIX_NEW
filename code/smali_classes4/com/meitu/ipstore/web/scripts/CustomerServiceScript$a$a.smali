@@ -43,7 +43,7 @@
 
     const v0, 0xc927
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/ipstore/web/scripts/CustomerServiceScript$a$a;->a:Lf/k/m/d;
 
@@ -57,7 +57,7 @@
 
     invoke-interface {v1, v2}, Lf/k/m/d;->l(Landroid/app/Activity;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

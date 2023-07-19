@@ -28,13 +28,13 @@
 
     const v0, 0xae29
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "MTImageCapture"
 
     sput-object v1, Lcom/meitu/library/n/a/e;->d:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -54,7 +54,7 @@
 
     const v0, 0xae23
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     int-to-float p2, p2
 
@@ -62,7 +62,7 @@
 
     float-to-int p1, p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -72,7 +72,7 @@
 
     const v0, 0xae28
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p4}, Landroid/graphics/RectF;->width()F
 
@@ -150,7 +150,7 @@
 
     invoke-static/range {v2 .. v8}, Landroid/opengl/GLES20;->glReadPixels(IIIIIILjava/nio/Buffer;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -170,11 +170,11 @@
 
     const v5, 0xae26
 
-    invoke-static {v5}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v5}, Lcom/res/ANRTrace;->e(I)V
 
     if-nez p4, :cond_0
 
-    invoke-static {v5}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v5}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -230,7 +230,7 @@
     invoke-static {v1, v2}, Lcom/meitu/library/camera/util/h;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
-    invoke-static {v5}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v5}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -323,7 +323,7 @@
 
     const v0, 0xae25
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p1, :cond_1
 
@@ -376,7 +376,7 @@
 
     invoke-direct/range {v2 .. v7}, Lcom/meitu/library/n/a/e;->c(Lcom/meitu/library/n/a/e$a;IILcom/meitu/library/n/b/k/b;Landroid/graphics/RectF;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 
@@ -384,7 +384,7 @@
     :goto_0
     const/4 p1, 0x0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -394,7 +394,7 @@
 
     const v0, 0xae27
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p4}, Landroid/graphics/RectF;->width()F
 
@@ -424,7 +424,7 @@
 
     invoke-virtual {p1, p2}, Landroid/graphics/Bitmap;->copyPixelsFromBuffer(Ljava/nio/Buffer;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -434,7 +434,7 @@
 
     const v0, 0xae24
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p1, Lcom/meitu/library/n/a/e$a;->a:Lcom/meitu/library/n/b/k/b;
 
@@ -443,7 +443,7 @@
     const/4 p1, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 

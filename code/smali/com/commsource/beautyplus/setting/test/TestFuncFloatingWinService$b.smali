@@ -66,7 +66,7 @@
 
     const/16 p1, 0x1159
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService$b;->a:Ljava/lang/ref/WeakReference;
 
@@ -107,7 +107,7 @@
 
     :cond_3
     :goto_0
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

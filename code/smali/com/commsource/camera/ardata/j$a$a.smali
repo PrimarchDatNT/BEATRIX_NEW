@@ -44,7 +44,7 @@
 
     const/16 v0, 0x2012
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/camera/ardata/j$a$a;->e:Lcom/commsource/camera/ardata/j$a;
 
@@ -63,7 +63,7 @@
     invoke-virtual {p2, p1}, Lcom/commsource/camera/ardata/j;->k(Landroid/content/Context;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -85,7 +85,7 @@
 
     const/16 p1, 0x2013
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     iget-object p2, p0, Lcom/commsource/camera/ardata/j$a$a;->c:Landroid/content/Context;
@@ -167,7 +167,7 @@
 
     :cond_2
     :goto_0
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

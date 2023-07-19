@@ -44,7 +44,7 @@
 
     const/16 v0, 0x4284
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p2}, Lcom/commsource/home/entity/DialogDataEntity;->getRid()Ljava/lang/String;
 
@@ -188,7 +188,7 @@
 
     invoke-interface {p1, v1, v2, v3}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindLong(IJ)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -198,13 +198,13 @@
 
     const/16 v0, 0x4285
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p2, Lcom/commsource/home/entity/DialogDataEntity;
 
     invoke-virtual {p0, p1, p2}, Lf/k/i0/a/t0$a;->a(Landroidx/sqlite/db/SupportSQLiteStatement;Lcom/commsource/home/entity/DialogDataEntity;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -214,9 +214,9 @@
 
     const/16 v0, 0x4283
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const-string v0, "INSERT OR REPLACE INTO `ONLINE_DIALOG_ENTITY` (`Rid`,`SubStatus`,`UserStatus`,`DeviceLevel`,`Weight`,`Bout`,`Number`,`TriggerType`,`PopupType`,`PopupConfig`,`createdAt`,`updateAt`) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)"
 

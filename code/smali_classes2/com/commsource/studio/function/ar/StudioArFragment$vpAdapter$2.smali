@@ -53,7 +53,7 @@
 
     const v0, 0x8786
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/studio/function/ar/StudioArFragment$vpAdapter$2$a;
 
@@ -65,7 +65,7 @@
 
     invoke-direct {v1, p0, v2}, Lcom/commsource/studio/function/ar/StudioArFragment$vpAdapter$2$a;-><init>(Lcom/commsource/studio/function/ar/StudioArFragment$vpAdapter$2;Landroidx/fragment/app/FragmentManager;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -75,13 +75,13 @@
 
     const v0, 0x8785
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/commsource/studio/function/ar/StudioArFragment$vpAdapter$2;->invoke()Lcom/commsource/studio/function/ar/StudioArFragment$vpAdapter$2$a;
 
     move-result-object v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

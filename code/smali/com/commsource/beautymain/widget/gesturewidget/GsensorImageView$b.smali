@@ -39,7 +39,7 @@
 
     const v0, 0x938e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GsensorImageView$b;->a:Lcom/commsource/beautymain/widget/gesturewidget/GsensorImageView;
 
@@ -59,7 +59,7 @@
 
     invoke-static {v1, v4, v2, v3, v5}, Lcom/commsource/beautymain/widget/gesturewidget/GsensorImageView;->V(Lcom/commsource/beautymain/widget/gesturewidget/GsensorImageView;ZIIZ)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

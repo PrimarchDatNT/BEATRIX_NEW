@@ -40,7 +40,7 @@
 
     const v0, 0xeec5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdController$1;->val$adSlot:Lcom/meitu/hwbusinesskit/core/bean/AdSlot;
 
@@ -137,7 +137,7 @@
     invoke-interface {v1, v2}, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdListener;->onLoaded(Lcom/meitu/hwbusinesskit/core/s2s/bean/S2sAd;)V
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -218,7 +218,7 @@
 
     invoke-static {v1, v2}, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdController;->access$100(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;Lcom/meitu/hwbusinesskit/core/s2s/S2sAdListener;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -230,7 +230,7 @@
 
     invoke-static {v1, v2}, Lcom/meitu/hwbusinesskit/core/s2s/S2sAdController;->access$100(Lcom/meitu/hwbusinesskit/core/bean/AdSlot;Lcom/meitu/hwbusinesskit/core/s2s/S2sAdListener;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

@@ -59,7 +59,7 @@
 
     const p1, 0x8a31
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p2, p0, Lcom/commsource/util/common/n$b;->a:Ljava/lang/ref/WeakReference;
 
@@ -120,7 +120,7 @@
     invoke-virtual {p2, p3}, Lcom/commsource/util/common/n;->e(I)V
 
     :cond_0
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

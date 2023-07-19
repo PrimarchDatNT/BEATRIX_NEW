@@ -53,7 +53,7 @@
 
     const/16 v0, 0x3901
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p1}, Lcom/commsource/studio/function/background/GradientMaterial;->isDownloading()Z
 
@@ -197,7 +197,7 @@
     invoke-virtual {p1, p2}, Lcom/commsource/studio/function/background/GradientDrawer;->s(Z)V
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -228,7 +228,7 @@
 
     const/16 v0, 0x3900
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "item"
 
@@ -349,7 +349,7 @@
 
     invoke-direct {p0, p1, p2}, Lcom/commsource/studio/function/background/GradientViewHolder;->x(Lcom/commsource/studio/function/background/GradientMaterial;Z)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -359,7 +359,7 @@
 
     const/16 v0, 0x38ff
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/function/background/GradientViewHolder;->p:Lcotlin/w;
 
@@ -369,7 +369,7 @@
 
     check-cast v1, Lcom/commsource/beautyplus/f0/od;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

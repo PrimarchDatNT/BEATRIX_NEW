@@ -17,7 +17,7 @@
 
     const v0, 0x8b25
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     invoke-static {p0, p2, p1}, Lcom/commsource/util/common/m;->h(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
@@ -48,7 +48,7 @@
     invoke-static {p0}, Lf/k/c/c/f;->y(Ljava/lang/CharSequence;)V
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -58,7 +58,7 @@
 
     const v0, 0x8b24
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p2}, Ljava/lang/String;->hashCode()I
 
@@ -307,7 +307,7 @@
     invoke-static {p0, p1, p2, v10}, Lcom/commsource/util/x1;->a(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 

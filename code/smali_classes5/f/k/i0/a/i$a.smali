@@ -44,7 +44,7 @@
 
     const/16 v0, 0x3554
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p2, Lcom/meitu/template/bean/Chat;->id:Ljava/lang/Float;
 
@@ -218,7 +218,7 @@
     invoke-interface {p1, v1, v2, v3}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindLong(IJ)V
 
     :goto_9
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -228,13 +228,13 @@
 
     const/16 v0, 0x3555
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p2, Lcom/meitu/template/bean/Chat;
 
     invoke-virtual {p0, p1, p2}, Lf/k/i0/a/i$a;->a(Landroidx/sqlite/db/SupportSQLiteStatement;Lcom/meitu/template/bean/Chat;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -244,9 +244,9 @@
 
     const/16 v0, 0x3553
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const-string v0, "INSERT OR REPLACE INTO `CHAT` (`ID`,`UID`,`CONTENT`,`ROLE`,`TIME`,`CHAT_FAIL`,`IMAGE`,`HASIMG`,`UPLOAD_STATE`) VALUES (?,?,?,?,?,?,?,?,?)"
 

@@ -37,7 +37,7 @@
 
     const v0, 0x9720
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/http/api/ArApi$giphyClient$2;
 
@@ -45,7 +45,7 @@
 
     sput-object v1, Lcom/meitu/http/api/ArApi$giphyClient$2;->INSTANCE:Lcom/meitu/http/api/ArApi$giphyClient$2;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -69,7 +69,7 @@
 
     const v0, 0x971f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/giphy/sdk/core/network/api/GPHApiClient;
 
@@ -77,7 +77,7 @@
 
     invoke-direct {v1, v2}, Lcom/giphy/sdk/core/network/api/GPHApiClient;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -87,13 +87,13 @@
 
     const v0, 0x971e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/meitu/http/api/ArApi$giphyClient$2;->invoke()Lcom/giphy/sdk/core/network/api/GPHApiClient;
 
     move-result-object v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

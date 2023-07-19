@@ -54,7 +54,7 @@
 
     const/16 v0, 0x58c6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p1}, Ljava/lang/Integer;->intValue()I
 
@@ -62,7 +62,7 @@
 
     invoke-virtual {p0, p1}, Lcom/commsource/home/banner/HomeBannerAdModuleVH$b;->b(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -72,9 +72,9 @@
 
     const/16 p1, 0x58c5
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -88,7 +88,7 @@
 
     const/16 v0, 0x58c7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/home/banner/HomeBannerAdModuleVH$b;->a:Lcom/commsource/home/banner/HomeBannerAdModuleVH;
 
@@ -106,7 +106,7 @@
     :goto_0
     invoke-static {v1, p1}, Lcom/commsource/home/banner/HomeBannerAdModuleVH;->W(Lcom/commsource/home/banner/HomeBannerAdModuleVH;Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -116,13 +116,13 @@
 
     const/16 v0, 0x58c8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Lcom/commsource/beautyplus/j0/c/a$b;
 
     invoke-virtual {p0, p1}, Lcom/commsource/home/banner/HomeBannerAdModuleVH$b;->c(Lcom/commsource/beautyplus/j0/c/a$b;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

@@ -56,13 +56,13 @@
 
     const/16 v0, 0x30b7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity$e;->o(Landroid/graphics/drawable/Drawable;Lcom/bumptech/glide/request/k/f;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -76,13 +76,13 @@
 
     const/16 v0, 0x30b7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Landroid/graphics/drawable/Drawable;
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity$e;->p(Landroid/graphics/drawable/Drawable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -110,7 +110,7 @@
 
     const/16 p2, 0x30b6
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     instance-of v0, p1, Lcom/bumptech/glide/integration/webp/decoder/k;
@@ -150,7 +150,7 @@
 
     :cond_0
     :goto_0
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -164,7 +164,7 @@
 
     const/16 v0, 0x30b5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity$e;->N:Lcom/commsource/beautyplus/miniapp/MiniAppActivity;
 
@@ -176,7 +176,7 @@
 
     invoke-virtual {v1, p1}, Landroid/widget/ImageView;->setImageDrawable(Landroid/graphics/drawable/Drawable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

@@ -66,7 +66,7 @@
 
     const v0, 0xa0c7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p1, :cond_7
 
@@ -249,7 +249,7 @@
     invoke-virtual {v1, p1, v5}, Landroidx/viewpager2/widget/ViewPager2;->setCurrentItem(IZ)V
 
     :cond_7
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -259,13 +259,13 @@
 
     const v0, 0xa0c6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Ljava/util/ArrayList;
 
     invoke-virtual {p0, p1}, Lcom/commsource/store/filter/FilterStoreActivity$e;->a(Ljava/util/ArrayList;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

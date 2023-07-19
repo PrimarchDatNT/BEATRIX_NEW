@@ -40,7 +40,7 @@
 
     const v0, 0x9167
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0$d;->p:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;
 
@@ -61,7 +61,7 @@
     invoke-interface {v1, v2}, Lf/k/i0/a/d;->T(Lcom/meitu/template/bean/ArMaterialGroup;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

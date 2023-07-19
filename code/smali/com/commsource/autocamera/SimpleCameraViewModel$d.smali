@@ -38,7 +38,7 @@
 
     const p1, 0xa4dc
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p2, p0, Lcom/commsource/autocamera/SimpleCameraViewModel$d;->g:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
@@ -46,7 +46,7 @@
 
     move-result-object p2
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p2
 .end method
@@ -60,7 +60,7 @@
 
     const p1, 0xa4dd
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/autocamera/SimpleCameraViewModel$d;->g:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
@@ -68,7 +68,7 @@
 
     move-result-object v0
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 .end method
@@ -82,7 +82,7 @@
 
     const v0, 0xa4de
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/autocamera/SimpleCameraViewModel$d;->g:Lcom/commsource/autocamera/SimpleCameraViewModel;
 
@@ -112,7 +112,7 @@
 
     iput v1, p1, Lcom/meitu/library/camera/MTCamera$r;->h:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -122,11 +122,11 @@
 
     const v0, 0xa4df
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput p1, p0, Lcom/commsource/autocamera/SimpleCameraViewModel$d;->f:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

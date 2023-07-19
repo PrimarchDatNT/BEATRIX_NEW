@@ -50,7 +50,7 @@
 
     const v0, 0xd36b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/analytics/w/a$b;->a:Lcom/meitu/library/analytics/w/a;
 
@@ -62,7 +62,7 @@
 
     invoke-static {v1, v2}, Lcom/meitu/library/analytics/w/a;->c(Lcom/meitu/library/analytics/w/a;Lcom/meitu/library/analytics/w/a$b;)Lcom/meitu/library/analytics/w/a$b;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

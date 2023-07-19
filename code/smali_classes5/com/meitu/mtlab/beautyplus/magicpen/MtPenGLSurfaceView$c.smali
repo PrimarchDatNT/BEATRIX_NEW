@@ -55,7 +55,7 @@
 
     const v0, 0xf3ae
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$c;->f:Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;
 
@@ -73,7 +73,7 @@
 
     invoke-virtual {v1, v2, v3, v4, v5}, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->z(IIII)Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

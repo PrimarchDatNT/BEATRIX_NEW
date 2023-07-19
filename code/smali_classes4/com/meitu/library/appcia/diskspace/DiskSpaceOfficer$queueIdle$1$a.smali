@@ -49,7 +49,7 @@
 
     const v0, 0xcd5a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x0
 
@@ -71,7 +71,7 @@
 
     invoke-virtual {p1, v1}, Ljava/util/concurrent/atomic/AtomicBoolean;->set(Z)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -94,7 +94,7 @@
 
     const v0, 0xcd59
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer$queueIdle$1$a;->a:Lcom/meitu/library/appcia/diskspace/DiskSpaceOfficer$queueIdle$1;
 
@@ -208,7 +208,7 @@
     invoke-interface {p1}, Lcom/meitu/library/appcia/f/e/d;->b()V
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

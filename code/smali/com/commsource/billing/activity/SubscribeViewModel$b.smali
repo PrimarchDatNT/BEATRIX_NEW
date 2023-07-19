@@ -40,13 +40,13 @@
 
     const v0, 0x8d3f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/billing/activity/SubscribeViewModel$b;->b:Lcom/commsource/billing/activity/SubscribeViewModel;
 
     invoke-static {v1, p1}, Lcom/commsource/billing/activity/SubscribeViewModel;->H(Lcom/commsource/billing/activity/SubscribeViewModel;Lcom/commsource/billing/bean/subsconfig/Config;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

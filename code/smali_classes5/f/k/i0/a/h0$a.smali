@@ -44,7 +44,7 @@
 
     const/16 v0, 0x2389
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p2}, Lcom/commsource/repository/child/makeup/h;->v()I
 
@@ -318,7 +318,7 @@
     invoke-interface {p1, v1, p2}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindString(ILjava/lang/String;)V
 
     :goto_6
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -328,13 +328,13 @@
 
     const/16 v0, 0x238a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p2, Lcom/commsource/repository/child/makeup/h;
 
     invoke-virtual {p0, p1, p2}, Lf/k/i0/a/h0$a;->a(Landroidx/sqlite/db/SupportSQLiteStatement;Lcom/commsource/repository/child/makeup/h;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -344,9 +344,9 @@
 
     const/16 v0, 0x2388
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const-string v0, "INSERT OR REPLACE INTO `MAKEUP_MATERIAL` (`id`,`onlineId`,`isInside`,`makeupType`,`name`,`icon`,`configType`,`styleConfig`,`url`,`color`,`paidType`,`defaultAlpha`,`downloadType`,`isDownloaded`,`sort`,`isSupportGl3`,`isNew`,`isNewTime`,`endedAt`,`recommends`) VALUES (nullif(?, 0),?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)"
 

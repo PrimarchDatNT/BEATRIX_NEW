@@ -52,7 +52,7 @@
 
     const v0, 0xc79d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p1}, Lcom/android/billingclient/api/h;->b()I
 
@@ -96,7 +96,7 @@
 
     invoke-interface {v1, v2, p1, p2}, Lf/k/h/a/k/e/b;->a(ILjava/lang/String;Ljava/util/List;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

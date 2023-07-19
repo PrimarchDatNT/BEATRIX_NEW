@@ -47,7 +47,7 @@
 
     const p1, 0xda80
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/meitu/mtuploader/m$b;->a:Lcom/meitu/mtuploader/h;
 
@@ -61,7 +61,7 @@
 
     invoke-interface {v0, v1, p2}, Lcom/meitu/mtuploader/h;->b(Ljava/lang/String;I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

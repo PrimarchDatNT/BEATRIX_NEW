@@ -39,13 +39,13 @@
 
     const p1, 0xf11a
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/spotx/SpotXAdManager$2;->this$0:Lcom/meitu/hwbusinesskit/spotx/SpotXAdManager;
 
     invoke-static {v0}, Lcom/meitu/hwbusinesskit/spotx/SpotXAdManager;->access$1700(Lcom/meitu/hwbusinesskit/spotx/SpotXAdManager;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -55,13 +55,13 @@
 
     const p1, 0xf11b
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/spotx/SpotXAdManager$2;->this$0:Lcom/meitu/hwbusinesskit/spotx/SpotXAdManager;
 
     invoke-static {v0}, Lcom/meitu/hwbusinesskit/spotx/SpotXAdManager;->access$1800(Lcom/meitu/hwbusinesskit/spotx/SpotXAdManager;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -71,7 +71,7 @@
 
     const p1, 0xf11e
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/spotx/SpotXAdManager$2;->this$0:Lcom/meitu/hwbusinesskit/spotx/SpotXAdManager;
 
@@ -97,7 +97,7 @@
 
     invoke-static {v0, v1, p2}, Lcom/meitu/hwbusinesskit/spotx/SpotXAdManager;->access$2000(Lcom/meitu/hwbusinesskit/spotx/SpotXAdManager;ILjava/lang/String;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -107,9 +107,9 @@
 
     const p1, 0xf11f
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -119,9 +119,9 @@
 
     const p1, 0xf115
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -131,7 +131,7 @@
 
     const p3, 0xf114
 
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p2, :cond_1
 
@@ -186,7 +186,7 @@
     invoke-static {p1, p2, v0}, Lcom/meitu/hwbusinesskit/spotx/SpotXAdManager;->access$1600(Lcom/meitu/hwbusinesskit/spotx/SpotXAdManager;ILjava/lang/String;)V
 
     :goto_0
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -196,9 +196,9 @@
 
     const p1, 0xf118
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -208,9 +208,9 @@
 
     const p1, 0xf117
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -220,9 +220,9 @@
 
     const p1, 0xf11c
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -232,9 +232,9 @@
 
     const p1, 0xf116
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -244,9 +244,9 @@
 
     const p1, 0xf119
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -256,13 +256,13 @@
 
     const p1, 0xf11d
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/spotx/SpotXAdManager$2;->this$0:Lcom/meitu/hwbusinesskit/spotx/SpotXAdManager;
 
     invoke-static {v0}, Lcom/meitu/hwbusinesskit/spotx/SpotXAdManager;->access$1900(Lcom/meitu/hwbusinesskit/spotx/SpotXAdManager;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -276,7 +276,7 @@
 
     const p1, 0xf113
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v0, Lcom/spotxchange/v4/b;
 
@@ -292,7 +292,7 @@
 
     iput-object v1, v0, Lcom/spotxchange/v4/b;->f:Ljava/lang/String;
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 .end method

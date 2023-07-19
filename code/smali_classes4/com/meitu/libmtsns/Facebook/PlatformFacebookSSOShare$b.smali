@@ -50,11 +50,11 @@
 
     const v0, 0xd261
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p0, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare$b;->a:Landroid/content/Context;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -66,7 +66,7 @@
 
     const p2, 0xd260
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v0, "com.facebook.platform.status.ERROR_TYPE"
 
@@ -135,7 +135,7 @@
     invoke-static {p1, p3, v0, v1}, Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare;->W(Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare;ILcom/meitu/libmtsns/c/c/b;[Ljava/lang/Object;)V
 
     :cond_0
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -145,7 +145,7 @@
 
     const p2, 0xd25f
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance p3, Ljava/lang/StringBuilder;
 
@@ -198,7 +198,7 @@
     invoke-static {p1, p3, v0, v1}, Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare;->U(Lcom/meitu/libmtsns/Facebook/PlatformFacebookSSOShare;ILcom/meitu/libmtsns/c/c/b;[Ljava/lang/Object;)V
 
     :cond_0
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

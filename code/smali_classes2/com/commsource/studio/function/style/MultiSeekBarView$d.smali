@@ -51,7 +51,7 @@
 
     const/16 v0, 0x6d04
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p0, p1, p2}, Lcom/commsource/studio/function/style/MultiSeekBarView$c$a;->c(Lcom/commsource/studio/function/style/MultiSeekBarView$c;IF)V
 
@@ -70,7 +70,7 @@
     invoke-interface {v1, v2, p1, p2}, Lcom/commsource/studio/function/style/MultiSeekBarView$b;->b(Landroid/view/View;IF)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -80,7 +80,7 @@
 
     const/16 v0, 0x6d06
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/studio/function/style/MultiSeekBarView$c$a;->a(Lcom/commsource/studio/function/style/MultiSeekBarView$c;IFZ)V
 
@@ -99,7 +99,7 @@
     invoke-interface {v1, v2, p1, p2, p3}, Lcom/commsource/studio/function/style/MultiSeekBarView$b;->a(Landroid/view/View;IFZ)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -109,7 +109,7 @@
 
     const/16 v0, 0x6d05
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/studio/function/style/MultiSeekBarView$c$a;->b(Lcom/commsource/studio/function/style/MultiSeekBarView$c;IFZ)V
 
@@ -128,7 +128,7 @@
     invoke-interface {v1, v2, p1, p2, p3}, Lcom/commsource/studio/function/style/MultiSeekBarView$b;->a(Landroid/view/View;IFZ)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -140,11 +140,11 @@
 
     const/16 v0, 0x6d03
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/function/style/MultiSeekBarView$d;->b:Landroid/view/View;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -154,7 +154,7 @@
 
     const/16 v0, 0x6d07
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p0, p1, p2, p3}, Lcom/commsource/studio/function/style/MultiSeekBarView$c$a;->d(Lcom/commsource/studio/function/style/MultiSeekBarView$c;IFZ)V
 
@@ -173,7 +173,7 @@
     invoke-interface {v1, v2, p1, p2, p3}, Lcom/commsource/studio/function/style/MultiSeekBarView$b;->c(Landroid/view/View;IFZ)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

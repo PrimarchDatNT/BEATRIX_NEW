@@ -28,7 +28,7 @@
 
     const/16 v0, 0x74c6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$j;
 
@@ -36,7 +36,7 @@
 
     sput-object v1, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$j;->a:Lcom/commsource/beautyplus/setting/test/TestFuncActivity$j;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -56,11 +56,11 @@
 
     const/16 p1, 0x74c5
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p2}, Lf/d/i/e;->A2(Z)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

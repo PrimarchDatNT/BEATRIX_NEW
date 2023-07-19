@@ -76,7 +76,7 @@
 
     const v0, 0xe463
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/media/tools/editor/av/b$c;->i:Landroid/media/MediaCodec$BufferInfo;
 
@@ -103,7 +103,7 @@
 
     sget-object v1, Lcom/meitu/media/tools/editor/av/b$c;->i:Landroid/media/MediaCodec$BufferInfo;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

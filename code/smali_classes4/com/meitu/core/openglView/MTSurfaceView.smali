@@ -61,7 +61,7 @@
 
     const v0, 0xbb90
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x2
 
@@ -89,7 +89,7 @@
 
     invoke-virtual {v1, v2}, Lcom/meitu/core/openglView/MTListener;->setMTuneRender(Lcom/meitu/core/openglView/MTRenderer;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -101,7 +101,7 @@
 
     const v0, 0xbb9c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/core/openglView/MTSurfaceView;->mListener:Lcom/meitu/core/openglView/MTListener;
 
@@ -111,14 +111,14 @@
 
     move-result-object v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 
     :cond_0
     const/4 v1, 0x0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -128,7 +128,7 @@
 
     const v0, 0xbb97
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/core/openglView/MTSurfaceView;->mRenderer:Lcom/meitu/core/openglView/MTRenderer;
 
@@ -141,7 +141,7 @@
     invoke-virtual {p0}, Landroid/opengl/GLSurfaceView;->requestRender()V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -151,7 +151,7 @@
 
     const v0, 0xbb99
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/core/openglView/MTSurfaceView;->mListener:Lcom/meitu/core/openglView/MTListener;
 
@@ -160,7 +160,7 @@
     invoke-virtual {v1, p1}, Lcom/meitu/core/openglView/MTListener;->initMid(Landroid/view/MotionEvent;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -170,7 +170,7 @@
 
     const v0, 0xbb9a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/core/openglView/MTSurfaceView;->mListener:Lcom/meitu/core/openglView/MTListener;
 
@@ -179,7 +179,7 @@
     invoke-virtual {v1, p1}, Lcom/meitu/core/openglView/MTListener;->translateZoom(Landroid/view/MotionEvent;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -189,7 +189,7 @@
 
     const v0, 0xbb9b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/core/openglView/MTSurfaceView;->mListener:Lcom/meitu/core/openglView/MTListener;
 
@@ -198,7 +198,7 @@
     invoke-virtual {v1}, Lcom/meitu/core/openglView/MTListener;->touchUpAnim()V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -208,7 +208,7 @@
 
     const v0, 0xbb98
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/core/openglView/MTSurfaceView;->mRenderer:Lcom/meitu/core/openglView/MTRenderer;
 
@@ -219,7 +219,7 @@
     invoke-virtual {p0}, Landroid/opengl/GLSurfaceView;->requestRender()V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -229,7 +229,7 @@
 
     const v0, 0xbb9e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/core/openglView/MTSurfaceView;->mRenderer:Lcom/meitu/core/openglView/MTRenderer;
 
@@ -248,7 +248,7 @@
     invoke-virtual {p0}, Landroid/opengl/GLSurfaceView;->requestRender()V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -258,7 +258,7 @@
 
     const v0, 0xbb95
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/core/openglView/MTSurfaceView;->mRenderer:Lcom/meitu/core/openglView/MTRenderer;
 
@@ -269,7 +269,7 @@
     invoke-virtual {p0}, Landroid/opengl/GLSurfaceView;->requestRender()V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -279,7 +279,7 @@
 
     const v0, 0xbb93
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/core/openglView/MTSurfaceView;->mRenderer:Lcom/meitu/core/openglView/MTRenderer;
 
@@ -294,7 +294,7 @@
     invoke-virtual {p0}, Landroid/opengl/GLSurfaceView;->requestRender()V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -304,7 +304,7 @@
 
     const v0, 0xbb93
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/core/openglView/MTSurfaceView;->mRenderer:Lcom/meitu/core/openglView/MTRenderer;
 
@@ -317,7 +317,7 @@
     invoke-virtual {p0}, Landroid/opengl/GLSurfaceView;->requestRender()V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -327,7 +327,7 @@
 
     const v0, 0xbb9d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/core/openglView/MTSurfaceView;->mListener:Lcom/meitu/core/openglView/MTListener;
 
@@ -338,7 +338,7 @@
     invoke-virtual {v1, p1}, Lcom/meitu/core/openglView/MTListener;->setHandleChangeMatrix([F)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -348,7 +348,7 @@
 
     const v0, 0xbb92
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/core/openglView/MTSurfaceView;->mRenderer:Lcom/meitu/core/openglView/MTRenderer;
 
@@ -359,7 +359,7 @@
     invoke-virtual {v1, p1}, Lcom/meitu/core/openglView/MTRenderer;->setRenderComplete(Lcom/meitu/core/openglView/MTRenderer$RenderComplete;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -369,7 +369,7 @@
 
     const v0, 0xbb91
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/core/openglView/MTSurfaceView;->mRenderer:Lcom/meitu/core/openglView/MTRenderer;
 
@@ -403,7 +403,7 @@
     invoke-virtual {p1, v1}, Lcom/meitu/core/openglView/MTEffectBase;->setRenderer(Lcom/meitu/core/openglView/MTRenderer;)V
 
     :cond_2
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -413,7 +413,7 @@
 
     const v0, 0xbb96
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/core/openglView/MTSurfaceView;->mRenderer:Lcom/meitu/core/openglView/MTRenderer;
 
@@ -424,7 +424,7 @@
     invoke-virtual {p0}, Landroid/opengl/GLSurfaceView;->requestRender()V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -434,7 +434,7 @@
 
     const v0, 0xbb94
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/core/openglView/MTSurfaceView;->mRenderer:Lcom/meitu/core/openglView/MTRenderer;
 
@@ -445,7 +445,7 @@
     invoke-virtual {p0}, Landroid/opengl/GLSurfaceView;->requestRender()V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

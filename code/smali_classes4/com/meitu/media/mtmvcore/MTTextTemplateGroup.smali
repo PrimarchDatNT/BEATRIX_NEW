@@ -51,7 +51,7 @@
 
     const v0, 0xdf66
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/meitu/media/mtmvcore/a;->j()I
 
@@ -83,7 +83,7 @@
     const/4 v3, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v3
 .end method
@@ -95,7 +95,7 @@
 
     const v1, 0xdf67
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual/range {p1 .. p1}, Lcom/meitu/media/mtmvcore/a;->i()[F
 
@@ -389,7 +389,7 @@
     :cond_4
     const v3, 0xdf67
 
-    invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v3}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -399,13 +399,13 @@
 
     const v0, 0xdf69
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTMVGroup;->mNativeContext:J
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/media/mtmvcore/MTTextTemplateGroup;->setCenter(JFF)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -415,7 +415,7 @@
 
     const v0, 0xdf6d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v2, p0, Lcom/meitu/media/mtmvcore/MTMVGroup;->mNativeContext:J
 
@@ -435,7 +435,7 @@
 
     invoke-direct/range {v1 .. v6}, Lcom/meitu/media/mtmvcore/MTTextTemplateGroup;->setTextColorRGB(JFFF)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -445,13 +445,13 @@
 
     const v0, 0xdf6b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTMVGroup;->mNativeContext:J
 
     invoke-direct {p0, v1, v2, p1}, Lcom/meitu/media/mtmvcore/MTTextTemplateGroup;->setTextLines(JI)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -461,13 +461,13 @@
 
     const v0, 0xdf6c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTMVGroup;->mNativeContext:J
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/media/mtmvcore/MTTextTemplateGroup;->setTextNums(JII)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -477,13 +477,13 @@
 
     const v0, 0xdf6a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTMVGroup;->mNativeContext:J
 
     invoke-direct {p0, v1, v2, p1, p2}, Lcom/meitu/media/mtmvcore/MTTextTemplateGroup;->setWidthAndHeight(JII)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -493,7 +493,7 @@
 
     const v0, 0xdf70
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p1}, Lcom/meitu/media/mtmvcore/a;->i()[F
 
@@ -621,7 +621,7 @@
     goto :goto_1
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -631,7 +631,7 @@
 
     const v0, 0xdf68
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p2}, Lcom/meitu/media/mtmvcore/b;->e()Ljava/lang/String;
 
@@ -671,7 +671,7 @@
 
     invoke-virtual {p1, v1, p2}, Lcom/meitu/media/mtmvcore/MTITrack;->setWidthAndHeight(FF)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -698,7 +698,7 @@
 
     const v0, 0xdf65
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/media/mtmvcore/MTTextTemplateGroup;->d:Ljava/util/List;
 
@@ -708,7 +708,7 @@
 
     move-result p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -718,7 +718,7 @@
 
     const v0, 0xdf6e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/media/mtmvcore/MTMVGroup;->mNativeContext:J
 
@@ -726,7 +726,7 @@
 
     move-result v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -736,7 +736,7 @@
 
     const v0, 0xdf6f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p1}, Lcom/meitu/media/mtmvcore/a;->g()I
 
@@ -801,7 +801,7 @@
 
     :cond_2
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method

@@ -43,7 +43,7 @@
 
     const v0, 0xc79a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/global/billing/net/i;->a:Ljava/lang/String;
 
@@ -109,7 +109,7 @@
     invoke-interface {v1, v2, v4, v5, v3}, Lcom/meitu/global/billing/net/i;->b(ZLjava/lang/String;Ljava/lang/String;Lcom/meitu/global/billing/net/DataModel;)V
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

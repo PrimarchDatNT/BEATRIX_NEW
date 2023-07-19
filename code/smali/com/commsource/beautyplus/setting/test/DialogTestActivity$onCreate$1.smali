@@ -40,7 +40,7 @@
 
     const/16 p1, 0x1275
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v0, Lcom/commsource/beautyplus/setting/test/DialogTestActivity$onCreate$1$1;
 
@@ -52,7 +52,7 @@
 
     invoke-virtual {v0}, Lf/d/a;->F()V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

@@ -74,7 +74,7 @@
 
     const/16 v0, 0x5b3c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/formula/FormulaFragment$k;->a:Lcom/commsource/studio/formula/FormulaFragment;
 
@@ -266,7 +266,7 @@
     invoke-virtual {p1, v6}, Lcom/commsource/widget/h1/e;->G(I)V
 
     :cond_5
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -276,13 +276,13 @@
 
     const/16 v0, 0x5b3b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Lcotlin/Pair;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/formula/FormulaFragment$k;->a(Lcotlin/Pair;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

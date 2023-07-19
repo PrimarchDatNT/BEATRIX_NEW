@@ -31,7 +31,7 @@
 
     const v0, 0xd900
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Ljava/util/concurrent/atomic/AtomicInteger;
 
@@ -41,7 +41,7 @@
 
     sput-object v1, Lcom/meitu/library/optimus/apm/x/j$a;->b:Ljava/util/concurrent/atomic/AtomicInteger;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -69,7 +69,7 @@
 
     const v0, 0xd8ff
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Ljava/lang/StringBuffer;
 
@@ -137,7 +137,7 @@
     invoke-virtual {v2, v1}, Ljava/lang/Thread;->setPriority(I)V
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v2
 .end method

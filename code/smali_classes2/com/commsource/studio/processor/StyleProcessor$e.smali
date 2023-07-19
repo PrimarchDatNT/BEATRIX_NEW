@@ -101,7 +101,7 @@
 
     const v0, 0x8ad4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p1}, Lcom/commsource/studio/bean/f;->f()Ljava/lang/String;
 
@@ -214,7 +214,7 @@
     sget-object p1, Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;->CRAYON:Lcom/meitu/mtoilpainting/MeituOilPainting$OilPaintType;
 
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
@@ -235,7 +235,7 @@
 
     const p4, 0x8ad5
 
-    invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p4}, Lcom/res/ANRTrace;->e(I)V
 
     and-int/lit8 p3, p3, 0x2
 
@@ -248,7 +248,7 @@
 
     move-result-object p0
 
-    invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p4}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -260,7 +260,7 @@
 
     const v1, 0x8ad3
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean v2, v0, Lcom/commsource/studio/processor/StyleProcessor$e;->a:Z
 
@@ -481,7 +481,7 @@
 
     invoke-direct {v2, v3}, Ljava/lang/NullPointerException;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     throw v2
 
@@ -589,7 +589,7 @@
     invoke-virtual {v4}, Lcom/meitu/core/types/NativeBitmap;->recycle()V
 
     :cond_8
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -601,7 +601,7 @@
 
     const v1, 0x8ad0
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v2, p0, Lcom/commsource/studio/processor/StyleProcessor$e;->b:Lcom/commsource/studio/bean/f;
 
@@ -611,7 +611,7 @@
 
     if-eqz v2, :cond_0
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -705,7 +705,7 @@
     check-cast p1, Lcotlin/t1;
 
     :cond_3
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -850,7 +850,7 @@
     check-cast p1, Lcotlin/t1;
 
     :cond_d
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -862,7 +862,7 @@
 
     const v0, 0x8ad2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/processor/StyleProcessor$e;->c:Lcom/meitu/mtoilpainting/MeituOilPainting;
 
@@ -875,7 +875,7 @@
     invoke-virtual {v1}, Lcom/commsource/easyeditor/utils/opengl/f;->k()V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -893,7 +893,7 @@
 
     const v0, 0x8ad1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "style"
 
@@ -932,7 +932,7 @@
 
     invoke-static {p1}, Lcom/commsource/studio/processor/StyleProcessor;->L(Lcom/commsource/studio/processor/StyleProcessor;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

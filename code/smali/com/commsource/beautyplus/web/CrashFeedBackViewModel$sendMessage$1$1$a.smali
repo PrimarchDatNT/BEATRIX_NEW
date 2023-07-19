@@ -37,7 +37,7 @@
 
     const/16 v0, 0x4e69
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lf/k/i0/b/b;
 
@@ -51,7 +51,7 @@
 
     invoke-virtual {v1, v2}, Lf/k/i0/b/b;->h(Lcom/meitu/template/bean/Chat;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

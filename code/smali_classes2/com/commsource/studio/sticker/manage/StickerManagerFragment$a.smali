@@ -40,7 +40,7 @@
 
     const/16 v0, 0x1303
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/studio/sticker/manage/StickerManagerFragment$a;
 
@@ -48,7 +48,7 @@
 
     sput-object v1, Lcom/commsource/studio/sticker/manage/StickerManagerFragment$a;->a:Lcom/commsource/studio/sticker/manage/StickerManagerFragment$a;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -68,13 +68,13 @@
 
     const/16 v0, 0x1302
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p2, Lcom/meitu/template/bean/StickerGroup;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/sticker/manage/StickerManagerFragment$a;->b(Lcom/commsource/widget/h1/d;Lcom/meitu/template/bean/StickerGroup;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -102,7 +102,7 @@
 
     const/16 v0, 0x1302
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "baseItem"
 
@@ -116,7 +116,7 @@
 
     invoke-virtual {p1, p2}, Lcom/commsource/widget/h1/d;->m(Ljava/lang/Class;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

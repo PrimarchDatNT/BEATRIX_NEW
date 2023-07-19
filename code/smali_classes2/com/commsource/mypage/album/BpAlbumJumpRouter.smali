@@ -17,7 +17,7 @@
 
     const/16 v0, 0x4233
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/mypage/album/BpAlbumJumpRouter;
 
@@ -25,7 +25,7 @@
 
     sput-object v1, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->a:Lcom/commsource/mypage/album/BpAlbumJumpRouter;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -43,7 +43,7 @@
 
     const/16 p5, 0x4232
 
-    invoke-static {p5}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p5}, Lcom/res/ANRTrace;->e(I)V
 
     and-int/lit8 p4, p4, 0x4
 
@@ -54,7 +54,7 @@
     :cond_0
     invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->b(Landroid/app/Activity;Lcom/commsource/mypage/album/AlbumSetting;Z)V
 
-    invoke-static {p5}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p5}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -64,7 +64,7 @@
 
     const/16 p5, 0x422f
 
-    invoke-static {p5}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p5}, Lcom/res/ANRTrace;->e(I)V
 
     and-int/lit8 p4, p4, 0x4
 
@@ -75,7 +75,7 @@
     :cond_0
     invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->n(Landroid/app/Activity;Lcom/commsource/beautyplus/router/RouterEntity;Z)V
 
-    invoke-static {p5}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p5}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -85,7 +85,7 @@
 
     const/16 p4, 0x4225
 
-    invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p4}, Lcom/res/ANRTrace;->e(I)V
 
     and-int/lit8 p3, p3, 0x2
 
@@ -96,7 +96,7 @@
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->s(Landroid/app/Activity;Z)V
 
-    invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p4}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -106,7 +106,7 @@
 
     const/16 p4, 0x422c
 
-    invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p4}, Lcom/res/ANRTrace;->e(I)V
 
     and-int/lit8 p3, p3, 0x2
 
@@ -117,7 +117,7 @@
     :cond_0
     invoke-virtual {p0, p1, p2}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->u(Landroid/app/Activity;Lcom/commsource/beautyplus/router/RouterEntity;)V
 
-    invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p4}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -148,7 +148,7 @@
 
     const/16 v0, 0x422d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "activity"
 
@@ -218,7 +218,7 @@
 
     invoke-static/range {v2 .. v7}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->c(Lcom/commsource/mypage/album/BpAlbumJumpRouter;Landroid/app/Activity;Lcom/commsource/mypage/album/AlbumSetting;ZILjava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -236,7 +236,7 @@
 
     const/16 v0, 0x4231
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "activity"
 
@@ -263,7 +263,7 @@
 
     :cond_1
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -277,7 +277,7 @@
 
     const/16 v0, 0x4220
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "activity"
 
@@ -327,7 +327,7 @@
 
     invoke-static/range {v2 .. v7}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->c(Lcom/commsource/mypage/album/BpAlbumJumpRouter;Landroid/app/Activity;Lcom/commsource/mypage/album/AlbumSetting;ZILjava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -341,7 +341,7 @@
 
     const/16 v0, 0x421f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "activity"
 
@@ -397,7 +397,7 @@
 
     invoke-static/range {v2 .. v7}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->c(Lcom/commsource/mypage/album/BpAlbumJumpRouter;Landroid/app/Activity;Lcom/commsource/mypage/album/AlbumSetting;ZILjava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -411,7 +411,7 @@
 
     const/16 v0, 0x4230
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "activity"
 
@@ -471,7 +471,7 @@
 
     invoke-static/range {v2 .. v7}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->c(Lcom/commsource/mypage/album/BpAlbumJumpRouter;Landroid/app/Activity;Lcom/commsource/mypage/album/AlbumSetting;ZILjava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -506,7 +506,7 @@
 
     const/16 v0, 0x422a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "activity"
 
@@ -594,7 +594,7 @@
 
     invoke-static/range {v2 .. v7}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->c(Lcom/commsource/mypage/album/BpAlbumJumpRouter;Landroid/app/Activity;Lcom/commsource/mypage/album/AlbumSetting;ZILjava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -612,7 +612,7 @@
 
     const/16 v0, 0x4221
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "activity"
 
@@ -680,7 +680,7 @@
 
     invoke-static/range {v2 .. v7}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->c(Lcom/commsource/mypage/album/BpAlbumJumpRouter;Landroid/app/Activity;Lcom/commsource/mypage/album/AlbumSetting;ZILjava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -694,7 +694,7 @@
 
     const/16 v0, 0x421e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "activity"
 
@@ -738,7 +738,7 @@
 
     invoke-static/range {v2 .. v7}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->c(Lcom/commsource/mypage/album/BpAlbumJumpRouter;Landroid/app/Activity;Lcom/commsource/mypage/album/AlbumSetting;ZILjava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -767,7 +767,7 @@
 
     const/16 v0, 0x4228
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "activity"
 
@@ -839,7 +839,7 @@
 
     invoke-static/range {v2 .. v7}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->c(Lcom/commsource/mypage/album/BpAlbumJumpRouter;Landroid/app/Activity;Lcom/commsource/mypage/album/AlbumSetting;ZILjava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -870,7 +870,7 @@
 
     const/16 v0, 0x4227
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "activity"
 
@@ -958,7 +958,7 @@
 
     invoke-static/range {v2 .. v7}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->c(Lcom/commsource/mypage/album/BpAlbumJumpRouter;Landroid/app/Activity;Lcom/commsource/mypage/album/AlbumSetting;ZILjava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -972,7 +972,7 @@
 
     const/16 v0, 0x4223
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "activity"
 
@@ -1006,7 +1006,7 @@
 
     invoke-virtual {p1, v2}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1035,7 +1035,7 @@
 
     const/16 v0, 0x4226
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "activity"
 
@@ -1111,7 +1111,7 @@
 
     invoke-static/range {v2 .. v7}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->c(Lcom/commsource/mypage/album/BpAlbumJumpRouter;Landroid/app/Activity;Lcom/commsource/mypage/album/AlbumSetting;ZILjava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1129,7 +1129,7 @@
 
     const/16 v0, 0x422e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "activity"
 
@@ -1231,7 +1231,7 @@
 
     invoke-static/range {v2 .. v7}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->c(Lcom/commsource/mypage/album/BpAlbumJumpRouter;Landroid/app/Activity;Lcom/commsource/mypage/album/AlbumSetting;ZILjava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1260,7 +1260,7 @@
 
     const/16 v0, 0x4229
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "activity"
 
@@ -1330,7 +1330,7 @@
 
     invoke-static/range {v2 .. v7}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->c(Lcom/commsource/mypage/album/BpAlbumJumpRouter;Landroid/app/Activity;Lcom/commsource/mypage/album/AlbumSetting;ZILjava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1344,7 +1344,7 @@
 
     const/16 v0, 0x4222
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "activity"
 
@@ -1378,7 +1378,7 @@
 
     invoke-virtual {p1, v2}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1392,7 +1392,7 @@
 
     const/16 v0, 0x421d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "activity"
 
@@ -1464,7 +1464,7 @@
 
     invoke-static/range {v3 .. v8}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->c(Lcom/commsource/mypage/album/BpAlbumJumpRouter;Landroid/app/Activity;Lcom/commsource/mypage/album/AlbumSetting;ZILjava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1478,7 +1478,7 @@
 
     const/16 v0, 0x4224
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "activity"
 
@@ -1538,7 +1538,7 @@
 
     invoke-static/range {v2 .. v7}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->c(Lcom/commsource/mypage/album/BpAlbumJumpRouter;Landroid/app/Activity;Lcom/commsource/mypage/album/AlbumSetting;ZILjava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1556,7 +1556,7 @@
 
     const/16 v0, 0x422b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "activity"
 
@@ -1606,7 +1606,7 @@
 
     invoke-static/range {v2 .. v7}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->c(Lcom/commsource/mypage/album/BpAlbumJumpRouter;Landroid/app/Activity;Lcom/commsource/mypage/album/AlbumSetting;ZILjava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

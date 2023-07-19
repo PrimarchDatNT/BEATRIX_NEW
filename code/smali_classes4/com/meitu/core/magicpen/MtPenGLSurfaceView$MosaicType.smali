@@ -48,7 +48,7 @@
 
     const v0, 0xdce4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$MosaicType;
 
@@ -134,7 +134,7 @@
 
     sput-object v10, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$MosaicType;->$VALUES:[Lcom/meitu/core/magicpen/MtPenGLSurfaceView$MosaicType;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -159,7 +159,7 @@
 
     const v0, 0xdce3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-class v1, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$MosaicType;
 
@@ -169,7 +169,7 @@
 
     check-cast p0, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$MosaicType;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -179,7 +179,7 @@
 
     const v0, 0xdce2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/core/magicpen/MtPenGLSurfaceView$MosaicType;->$VALUES:[Lcom/meitu/core/magicpen/MtPenGLSurfaceView$MosaicType;
 
@@ -189,7 +189,7 @@
 
     check-cast v1, [Lcom/meitu/core/magicpen/MtPenGLSurfaceView$MosaicType;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

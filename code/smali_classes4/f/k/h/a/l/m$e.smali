@@ -43,7 +43,7 @@
 
     const v0, 0xc675
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p1}, Lcom/android/billingclient/api/h;->b()I
 
@@ -144,7 +144,7 @@
 
     invoke-static {v1, p1}, Lf/k/h/a/l/m;->x(Lf/k/h/a/l/m;I)I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -154,7 +154,7 @@
 
     const v0, 0xc676
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lf/k/h/a/l/m$e;->b:Lf/k/h/a/l/m;
 
@@ -162,7 +162,7 @@
 
     invoke-static {v1, v2}, Lf/k/h/a/l/m;->w(Lf/k/h/a/l/m;Z)Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

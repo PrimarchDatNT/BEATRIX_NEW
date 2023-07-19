@@ -46,7 +46,7 @@
 
     const v0, 0x8b1e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x3
 
@@ -96,7 +96,7 @@
 
     sput-object v1, Lcom/commsource/util/delegate/process/PaidFilterProcess$ModuleEnum;->$VALUES:[Lcom/commsource/util/delegate/process/PaidFilterProcess$ModuleEnum;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -123,7 +123,7 @@
 
     const v0, 0x8b21
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-class v1, Lcom/commsource/util/delegate/process/PaidFilterProcess$ModuleEnum;
 
@@ -133,7 +133,7 @@
 
     check-cast p0, Lcom/commsource/util/delegate/process/PaidFilterProcess$ModuleEnum;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -143,7 +143,7 @@
 
     const v0, 0x8b20
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/commsource/util/delegate/process/PaidFilterProcess$ModuleEnum;->$VALUES:[Lcom/commsource/util/delegate/process/PaidFilterProcess$ModuleEnum;
 
@@ -153,7 +153,7 @@
 
     check-cast v1, [Lcom/commsource/util/delegate/process/PaidFilterProcess$ModuleEnum;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -167,11 +167,11 @@
 
     const v0, 0x8b1f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/util/delegate/process/PaidFilterProcess$ModuleEnum;->moduleName:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

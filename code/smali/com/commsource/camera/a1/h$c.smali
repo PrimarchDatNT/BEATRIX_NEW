@@ -63,7 +63,7 @@
 
     const/16 v0, 0x36a6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p1}, Lcom/google/android/gms/common/util/h;->a(Ljava/util/Collection;)Z
 
@@ -151,7 +151,7 @@
 
     invoke-virtual {v1, p1, p2, p3}, Lcom/commsource/camera/a1/h;->s(Ljava/util/List;Ljava/util/List;Ljava/util/List;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -161,7 +161,7 @@
 
     const/16 v0, 0x36a7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Ljava/util/List;
 
@@ -171,7 +171,7 @@
 
     invoke-virtual {p0, p1, p2, p3}, Lcom/commsource/camera/a1/h$c;->a(Ljava/util/List;Ljava/util/List;Ljava/util/List;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

@@ -38,7 +38,7 @@
 
     const/16 v0, 0x1bb4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/http/api/a$a;
 
@@ -48,7 +48,7 @@
 
     sput-object v1, Lcom/meitu/http/api/a;->d:Lcom/meitu/http/api/a$a;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -79,7 +79,7 @@
 
     const/16 v0, 0x1bad
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lf/k/k/s;->l()Lf/k/k/s;
 
@@ -192,7 +192,7 @@
     :cond_0
     invoke-virtual {p1, p4}, Lf/k/k/d;->j(Lf/k/k/p;)Lf/k/k/d;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -217,7 +217,7 @@
 
     const/16 v0, 0x1bae
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lf/k/k/s;->l()Lf/k/k/s;
 
@@ -351,7 +351,7 @@
     invoke-virtual {p1, p5}, Lf/k/k/d;->j(Lf/k/k/p;)Lf/k/k/d;
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -361,7 +361,7 @@
 
     const/16 p8, 0x1baf
 
-    invoke-static {p8}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p8}, Lcom/res/ANRTrace;->e(I)V
 
     and-int/lit8 p7, p7, 0x20
 
@@ -386,7 +386,7 @@
 
     invoke-direct/range {v0 .. v6}, Lcom/meitu/http/api/a;->f(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lf/k/k/p;Ljava/lang/String;)V
 
-    invoke-static {p8}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p8}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -421,7 +421,7 @@
 
     const/16 v0, 0x1bb3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "update"
 
@@ -552,7 +552,7 @@
 
     invoke-virtual {p1, p3}, Lf/k/k/d;->j(Lf/k/k/p;)Lf/k/k/d;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -568,7 +568,7 @@
 
     const/16 v0, 0x1bb2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "update"
 
@@ -612,7 +612,7 @@
 
     check-cast p1, Lcom/commsource/beautyfilter/NewFilterConfig$FilterOnlineInfo;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -628,7 +628,7 @@
 
     const/16 v0, 0x1bb1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "update"
 
@@ -668,7 +668,7 @@
 
     check-cast p1, Lcom/commsource/studio/sticker/StickerConfig$StickerOnlineInfo;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -697,7 +697,7 @@
 
     const/16 v0, 0x1bb0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "update"
 
@@ -713,7 +713,7 @@
 
     invoke-direct {p0, v1, p1, v2, p2}, Lcom/meitu/http/api/a;->b(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lf/k/k/p;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

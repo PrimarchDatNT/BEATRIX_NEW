@@ -52,7 +52,7 @@
 
     const v1, 0xcbdd
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v2, 0x0
 
@@ -136,7 +136,7 @@
 
     invoke-static {v0, v2}, Lcom/meitu/library/analytics/x/a;->b(Lcom/meitu/library/analytics/x/a;Lcom/meitu/library/analytics/x/a$a;)Lcom/meitu/library/analytics/x/a$a;
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -145,7 +145,7 @@
 
     invoke-static {v3, v2}, Lcom/meitu/library/analytics/x/a;->b(Lcom/meitu/library/analytics/x/a;Lcom/meitu/library/analytics/x/a$a;)Lcom/meitu/library/analytics/x/a$a;
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     throw v0
 .end method

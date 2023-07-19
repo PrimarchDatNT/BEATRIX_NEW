@@ -59,7 +59,7 @@
 
     const p1, 0xc7fd
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/meitu/ipstore/web/scripts/UseMaterialScript$b;->b:Ljava/lang/ref/WeakReference;
 
@@ -91,7 +91,7 @@
     invoke-static {v0}, Lf/k/m/j/e;->o(Ljava/lang/String;)V
 
     :goto_0
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -101,7 +101,7 @@
 
     const p1, 0xc7fe
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/meitu/ipstore/web/scripts/UseMaterialScript$b;->b:Ljava/lang/ref/WeakReference;
 
@@ -135,7 +135,7 @@
     invoke-static {p2}, Lf/k/m/j/e;->o(Ljava/lang/String;)V
 
     :goto_0
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

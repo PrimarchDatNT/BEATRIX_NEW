@@ -61,7 +61,7 @@
 
     const/16 p2, 0x26bf
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/mypage/album/BpAlbumActivity$b$a;->a:Lcom/commsource/mypage/album/BpAlbumActivity$b;
 
@@ -71,7 +71,7 @@
 
     if-eqz p1, :cond_0
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -206,7 +206,7 @@
 
     invoke-static {p1}, Lf/k/c/c/f;->w(I)V
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -261,7 +261,7 @@
 
     :cond_8
     :goto_2
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

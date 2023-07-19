@@ -27,7 +27,7 @@
 
     const v0, 0xdd84
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lcom/meitu/core/realtimesegment/MTRealtimeSegmentGPU;->ajc$preClinit()V
 
@@ -45,7 +45,7 @@
 
     invoke-static {v1}, Lcom/meitu/core/realtimesegment/MTRealtimeSegmentGPU;->loadSegmentLibrary(Landroid/content/Context;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -85,7 +85,7 @@
 
     const v0, 0xdd79
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     invoke-static {p0, p1, p2}, Lcom/meitu/core/realtimesegment/MTRealtimeSegmentGPU;->nativePrepareShader(Ljava/lang/String;Ljava/lang/String;Landroid/content/res/AssetManager;)Z
@@ -94,7 +94,7 @@
     :try_end_0
     .catch Ljava/lang/UnsatisfiedLinkError; {:try_start_0 .. :try_end_0} :catch_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p0
 
@@ -105,7 +105,7 @@
 
     move-result p0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p0
 .end method
@@ -115,13 +115,13 @@
 
     const v0, 0xdd7e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p0, p1, p2}, Lcom/meitu/core/realtimesegment/MTRealtimeSegmentGPU;->nativeCreate(Ljava/lang/String;Ljava/lang/String;Landroid/content/res/AssetManager;)J
 
     move-result-wide p0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-wide p0
 .end method
@@ -131,11 +131,11 @@
 
     const v0, 0xdd7f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p0}, Lcom/meitu/core/realtimesegment/MTRealtimeSegmentGPU;->loadSegmentLibrary(Landroid/content/Context;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -145,11 +145,11 @@
 
     const v0, 0xdd80
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget v1, Lcom/meitu/core/realtimesegment/MTRealtimeSegmentGPU;->check_status_:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -159,11 +159,11 @@
 
     const v0, 0xdd83
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sput p0, Lcom/meitu/core/realtimesegment/MTRealtimeSegmentGPU;->check_status_:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p0
 .end method
@@ -173,13 +173,13 @@
 
     const v0, 0xdd81
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lcom/meitu/core/realtimesegment/MTRealtimeSegmentGPU;->nativeGl3stubInit()Z
 
     move-result v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -189,13 +189,13 @@
 
     const v0, 0xdd82
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lcom/meitu/core/realtimesegment/MTRealtimeSegmentGPU;->nativeCheckGL3Support()Z
 
     move-result v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -205,7 +205,7 @@
 
     const v0, 0xdd86
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v9, Ln/a/b/c/e;
 
@@ -245,7 +245,7 @@
 
     sput-object v1, Lcom/meitu/core/realtimesegment/MTRealtimeSegmentGPU;->ajc$tjp_0:Lorg/aspectj/lang/c$b;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -255,7 +255,7 @@
 
     const v0, 0xdd7a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/core/realtimesegment/MTRealtimeSegmentGPU$3;
 
@@ -275,7 +275,7 @@
     const/4 v2, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v2
 .end method
@@ -285,13 +285,13 @@
 
     const p3, 0xdd85
 
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0, p1, p2}, Ljava/lang/reflect/Method;->invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object p0
 
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -301,7 +301,7 @@
 
     const v0, 0xdd77
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "mtphotosegment"
 
@@ -471,7 +471,7 @@
     invoke-static {v1}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
 
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -502,7 +502,7 @@
 
     const v0, 0xdd7d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     invoke-interface {p0}, Ljava/lang/Runnable;->run()V
@@ -519,7 +519,7 @@
     invoke-interface {p0}, Ljava/lang/Runnable;->run()V
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -561,7 +561,7 @@
 
     const v17, 0xdd78
 
-    invoke-static/range {v17 .. v17}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static/range {v17 .. v17}, Lcom/res/ANRTrace;->e(I)V
 
     move-object/from16 v0, p0
 
@@ -573,7 +573,7 @@
 
     invoke-static/range {v0 .. v16}, Lcom/meitu/core/realtimesegment/MTRealtimeSegmentGPU;->nativeRunWithGlTextureAndY(JIIIII[BIZIIIZIFF)V
 
-    invoke-static/range {v17 .. v17}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static/range {v17 .. v17}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -588,7 +588,7 @@
 
     const v0, 0xdd7c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/core/realtimesegment/MTRealtimeSegmentGPU;->mNativeInstance:J
 
@@ -605,7 +605,7 @@
     :cond_0
     invoke-super {p0}, Ljava/lang/Object;->finalize()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -615,7 +615,7 @@
 
     const v0, 0xdd7b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/core/realtimesegment/MTRealtimeSegmentGPU;->mNativeInstance:J
 
@@ -630,7 +630,7 @@
     iput-wide v3, p0, Lcom/meitu/core/realtimesegment/MTRealtimeSegmentGPU;->mNativeInstance:J
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

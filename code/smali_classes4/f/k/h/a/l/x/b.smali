@@ -25,13 +25,13 @@
 
     const v0, 0xc616
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lf/k/h/a/l/x/b;->a:Lf/k/h/a/l/x/k;
 
     invoke-virtual {v1, p1}, Lf/k/h/a/l/x/k;->a(Lf/k/h/a/l/y/m;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

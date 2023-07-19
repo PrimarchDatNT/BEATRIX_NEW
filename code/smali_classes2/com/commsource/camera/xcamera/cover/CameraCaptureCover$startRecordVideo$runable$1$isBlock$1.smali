@@ -51,13 +51,13 @@
 
     const v0, 0x9439
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$startRecordVideo$runable$1$isBlock$1;->invoke()V
 
     sget-object v1, Lcotlin/t1;->a:Lcotlin/t1;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -67,7 +67,7 @@
 
     const v0, 0x943a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$startRecordVideo$runable$1$isBlock$1;->this$0:Lcom/commsource/camera/xcamera/cover/CameraCaptureCover$startRecordVideo$runable$1;
 
@@ -205,7 +205,7 @@
 
     invoke-virtual {v2, v4, v3, v1, v5}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->V0(IIILjava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

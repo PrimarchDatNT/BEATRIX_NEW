@@ -47,7 +47,7 @@
 
     const v0, 0xbc15
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/core/processor/BlurProcessor$1;->val$bitmap:Landroid/graphics/Bitmap;
 
@@ -61,7 +61,7 @@
 
     invoke-static {v1}, Lcom/meitu/core/processor/BlurProcessor;->access$002(Z)Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

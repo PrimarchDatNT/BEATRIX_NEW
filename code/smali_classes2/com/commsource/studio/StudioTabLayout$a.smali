@@ -42,7 +42,7 @@
 
     const/16 v0, 0x57d2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/StudioTabLayout$a;->c:Lcom/commsource/studio/StudioTabLayout;
 
@@ -80,7 +80,7 @@
 
     invoke-virtual {v1, p1, v2, v4, v3}, Lcom/commsource/util/p0;->f(IIII)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -98,7 +98,7 @@
 
     const/16 v0, 0x57d0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0, p3}, Lcom/commsource/studio/StudioTabLayout$a;->c(F)V
 
@@ -106,7 +106,7 @@
 
     move-result p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -124,7 +124,7 @@
 
     const/16 v0, 0x57d1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0, p3}, Lcom/commsource/studio/StudioTabLayout$a;->c(F)V
 
@@ -132,7 +132,7 @@
 
     move-result p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -150,7 +150,7 @@
 
     const/16 p4, 0x57cf
 
-    invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p4}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v0, "downEvent"
 
@@ -241,7 +241,7 @@
 
     const/4 p1, 0x1
 
-    invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p4}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method

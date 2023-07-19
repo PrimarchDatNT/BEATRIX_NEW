@@ -32,7 +32,7 @@
 
     const v0, 0xa601
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$PinchAction;->values()[Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$PinchAction;
 
@@ -510,7 +510,7 @@
     .catch Ljava/lang/NoSuchFieldError; {:try_start_1d .. :try_end_1d} :catch_1d
 
     :catch_1d
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

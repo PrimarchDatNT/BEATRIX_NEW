@@ -27,7 +27,7 @@
 
     const v0, 0xe0ea
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Ljava/util/HashMap;
 
@@ -35,7 +35,7 @@
 
     sput-object v1, Lcom/meitu/flymedia/glx/graphics/freetype/GLXTypefaces;->sTypefaceCache:Ljava/util/HashMap;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -58,7 +58,7 @@
     const v1, 0xe0e9
 
     :try_start_0
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v2, Lcom/meitu/flymedia/glx/graphics/freetype/GLXTypefaces;->sTypefaceCache:Ljava/util/HashMap;
 
@@ -101,7 +101,7 @@
 
     check-cast p0, Landroid/graphics/Typeface;
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

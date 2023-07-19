@@ -44,13 +44,13 @@
 
     const v0, 0xc840
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Lcom/meitu/ipstore/web/scripts/SubsPrivacyPolicyScript$Model;
 
     invoke-virtual {p0, p1}, Lcom/meitu/ipstore/web/scripts/SubsPrivacyPolicyScript$a;->d(Lcom/meitu/ipstore/web/scripts/SubsPrivacyPolicyScript$Model;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -60,7 +60,7 @@
 
     const p1, 0xc83f
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v0, "subsPrivacyPolicy"
 
@@ -85,7 +85,7 @@
     invoke-interface {v0, v1}, Lf/k/m/d;->m(Landroid/app/Activity;)V
 
     :cond_0
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

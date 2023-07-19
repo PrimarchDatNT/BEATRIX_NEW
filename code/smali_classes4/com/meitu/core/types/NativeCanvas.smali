@@ -18,11 +18,11 @@
 
     const v0, 0xd062
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lcom/meitu/core/MteApplication;->loadLibrary()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -53,7 +53,7 @@
 
     const v0, 0xd05f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p1, p2, p3, p4}, Landroid/graphics/Color;->argb(IIII)I
 
@@ -63,7 +63,7 @@
 
     invoke-virtual {p0, p2, p1}, Lcom/meitu/core/types/NativeCanvas;->drawColor(Landroid/graphics/RectF;I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -73,7 +73,7 @@
 
     const v0, 0xd05e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p2, p3, p4, p5}, Landroid/graphics/Color;->argb(IIII)I
 
@@ -81,7 +81,7 @@
 
     invoke-virtual {p0, p1, p2}, Lcom/meitu/core/types/NativeCanvas;->drawColor(Landroid/graphics/RectF;I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -91,7 +91,7 @@
 
     const v0, 0xd05b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/core/types/NativeCanvas;->mBitmap:Lcom/meitu/core/types/NativeBitmap;
 
@@ -191,7 +191,7 @@
 
     :cond_2
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v2
 
@@ -223,7 +223,7 @@
 
     const v3, 0xd05a
 
-    invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v3}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v4, v0, Lcom/meitu/core/types/NativeCanvas;->mBitmap:Lcom/meitu/core/types/NativeBitmap;
 
@@ -339,7 +339,7 @@
 
     :cond_2
     :goto_0
-    invoke-static {v3}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v3}, Lcom/res/ANRTrace;->a(I)V
 
     return v5
 
@@ -365,13 +365,13 @@
 
     const v0, 0xd061
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x0
 
     invoke-virtual {p0, v1, p1}, Lcom/meitu/core/types/NativeCanvas;->drawColor(Landroid/graphics/RectF;I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -381,7 +381,7 @@
 
     const v0, 0xd060
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/core/types/NativeCanvas;->mBitmap:Lcom/meitu/core/types/NativeBitmap;
 
@@ -450,7 +450,7 @@
 
     :cond_1
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -470,7 +470,7 @@
 
     const v0, 0xd05d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p1, p2, p3}, Landroid/graphics/Color;->rgb(III)I
 
@@ -480,7 +480,7 @@
 
     invoke-virtual {p0, p2, p1}, Lcom/meitu/core/types/NativeCanvas;->drawColor(Landroid/graphics/RectF;I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -490,7 +490,7 @@
 
     const v0, 0xd05c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p2, p3, p4}, Landroid/graphics/Color;->rgb(III)I
 
@@ -498,7 +498,7 @@
 
     invoke-virtual {p0, p1, p2}, Lcom/meitu/core/types/NativeCanvas;->drawColor(Landroid/graphics/RectF;I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

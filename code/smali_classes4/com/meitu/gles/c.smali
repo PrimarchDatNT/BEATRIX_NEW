@@ -35,7 +35,7 @@
 
     const v0, 0xdf74
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/gles/c;->b:Lcom/meitu/gles/Texture2dProgram;
 
@@ -43,7 +43,7 @@
 
     iput-object p1, p0, Lcom/meitu/gles/c;->b:Lcom/meitu/gles/Texture2dProgram;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -53,7 +53,7 @@
 
     const v0, 0xdf75
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/gles/c;->b:Lcom/meitu/gles/Texture2dProgram;
 
@@ -61,7 +61,7 @@
 
     move-result v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -71,7 +71,7 @@
 
     const v0, 0xdf76
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/gles/c;->b:Lcom/meitu/gles/Texture2dProgram;
 
@@ -121,7 +121,7 @@
 
     invoke-virtual/range {v1 .. v11}, Lcom/meitu/gles/Texture2dProgram;->b([FLjava/nio/FloatBuffer;IIII[FLjava/nio/FloatBuffer;II)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -131,11 +131,11 @@
 
     const v0, 0xdf73
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/gles/c;->b:Lcom/meitu/gles/Texture2dProgram;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -145,13 +145,13 @@
 
     const v0, 0xdf72
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x1
 
     invoke-virtual {p0, v1}, Lcom/meitu/gles/c;->f(Z)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -161,7 +161,7 @@
 
     const v0, 0xdf71
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/gles/c;->b:Lcom/meitu/gles/Texture2dProgram;
 
@@ -177,7 +177,7 @@
     iput-object p1, p0, Lcom/meitu/gles/c;->b:Lcom/meitu/gles/Texture2dProgram;
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

@@ -21,7 +21,7 @@
 
     const p0, 0x99d3
 
-    invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lcom/commsource/material/ImageSegmentExecutor;->D()Z
 
@@ -40,7 +40,7 @@
 
     const/4 v0, 0x1
 
-    invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p0}, Lcom/res/ANRTrace;->a(I)V
 
     return v0
 
@@ -52,7 +52,7 @@
     :cond_0
     const/4 v0, 0x0
 
-    invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p0}, Lcom/res/ANRTrace;->a(I)V
 
     return v0
 .end method

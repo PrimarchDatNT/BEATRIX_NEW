@@ -51,7 +51,7 @@
 
     const v0, 0xe2f9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/mtmvcore/application/MTMVCoreApplication$l;->d:Lcom/meitu/mtmvcore/application/MTMVCoreApplication;
 
@@ -97,7 +97,7 @@
 
     invoke-virtual {v1}, Ljava/util/concurrent/Semaphore;->release()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

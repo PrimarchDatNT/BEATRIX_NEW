@@ -50,7 +50,7 @@
 
     const v2, 0xaab7
 
-    invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v2}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean v3, v1, Lcom/meitu/library/renderarch/arch/data/b/h;->m:Z
 
@@ -119,7 +119,7 @@
     invoke-static {v1, v3}, Lcom/meitu/library/camera/util/h;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_2
-    invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -404,7 +404,7 @@
     invoke-virtual/range {v3 .. v17}, Lcom/meitu/core/realtimesegment/MTRealtimeSegmentCPU;->RunWithNV21([BIIIIIZIIIZIFF)V
 
     :goto_1
-    invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -414,7 +414,7 @@
 
     const v0, 0xaab8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/f/a/c;->b:Lcom/meitu/library/f/a/c$b;
 
@@ -431,7 +431,7 @@
 
     invoke-virtual {v1}, Lcom/meitu/core/realtimesegment/MTRealtimeSegmentCPU;->release()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

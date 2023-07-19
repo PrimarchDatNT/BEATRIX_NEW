@@ -62,7 +62,7 @@
 
     const/16 v0, 0x5953
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p2, Landroid/graphics/PointF;->x:F
 
@@ -92,7 +92,7 @@
 
     iget-object p1, p0, Lcom/commsource/beautymain/widget/BeautyTipsAnimatorView$k;->a:Landroid/graphics/PointF;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 
@@ -101,7 +101,7 @@
 
     invoke-direct {p1, v1, p2}, Landroid/graphics/PointF;-><init>(FF)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -111,7 +111,7 @@
 
     const/16 v0, 0x5953
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p2, Landroid/graphics/PointF;
 
@@ -121,7 +121,7 @@
 
     move-result-object p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method

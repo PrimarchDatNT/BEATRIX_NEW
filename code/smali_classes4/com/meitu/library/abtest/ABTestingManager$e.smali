@@ -63,7 +63,7 @@
 
     const v0, 0xc5d0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/abtest/ABTestingManager$e;->b:Lcom/meitu/library/abtest/f/a;
 
@@ -199,7 +199,7 @@
     invoke-interface {v1}, Ljava/lang/Runnable;->run()V
 
     :cond_3
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

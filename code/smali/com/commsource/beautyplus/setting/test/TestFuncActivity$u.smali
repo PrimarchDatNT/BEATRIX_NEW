@@ -40,7 +40,7 @@
 
     const p1, 0x8fb3
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/beautyplus/setting/test/TestFuncActivity$u;->a:Lcom/commsource/beautyplus/setting/test/TestFuncActivity;
 
@@ -58,7 +58,7 @@
 
     invoke-virtual {v0, v1, v3, v2}, Lcom/commsource/beautyplus/setting/test/TestFuncViewModel;->I(Landroid/app/Activity;Ljava/lang/String;Lcom/commsource/billing/pro/e;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

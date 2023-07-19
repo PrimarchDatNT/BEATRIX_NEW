@@ -51,7 +51,7 @@
 
     const/16 v0, 0x5052
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/commsource/easyeditor/utils/opengl/b;->b:I
 
@@ -59,7 +59,7 @@
 
     iput v1, p0, Lcom/commsource/easyeditor/utils/opengl/b;->b:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -69,7 +69,7 @@
 
     const/16 v0, 0x5053
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/utils/opengl/b;->a:[Lcom/commsource/easyeditor/utils/opengl/f;
 
@@ -77,7 +77,7 @@
 
     aget-object v1, v1, v2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -87,7 +87,7 @@
 
     const/16 v0, 0x5051
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/utils/opengl/b;->a:[Lcom/commsource/easyeditor/utils/opengl/f;
 
@@ -107,7 +107,7 @@
     const/4 v1, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -117,7 +117,7 @@
 
     const/16 v0, 0x5054
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/utils/opengl/b;->a:[Lcom/commsource/easyeditor/utils/opengl/f;
 
@@ -127,7 +127,7 @@
 
     aget-object v1, v1, v2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -137,7 +137,7 @@
 
     const/16 v0, 0x5050
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/utils/opengl/b;->a:[Lcom/commsource/easyeditor/utils/opengl/f;
 
@@ -152,7 +152,7 @@
     iget v2, v1, Lcom/commsource/easyeditor/utils/opengl/f;->c:I
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v2
 .end method
@@ -162,7 +162,7 @@
 
     const/16 v0, 0x5055
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/easyeditor/utils/opengl/b;->a:[Lcom/commsource/easyeditor/utils/opengl/f;
 
@@ -190,7 +190,7 @@
     invoke-virtual {v1}, Lcom/commsource/easyeditor/utils/opengl/f;->k()V
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

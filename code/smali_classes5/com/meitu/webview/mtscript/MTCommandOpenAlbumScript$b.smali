@@ -44,13 +44,13 @@
 
     const v0, 0xec2b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Lcom/meitu/webview/mtscript/MTCommandOpenAlbumScript$Model;
 
     invoke-virtual {p0, p1}, Lcom/meitu/webview/mtscript/MTCommandOpenAlbumScript$b;->d(Lcom/meitu/webview/mtscript/MTCommandOpenAlbumScript$Model;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -60,13 +60,13 @@
 
     const v0, 0xec2a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/webview/mtscript/MTCommandOpenAlbumScript$b;->c:Lcom/meitu/webview/mtscript/MTCommandOpenAlbumScript;
 
     invoke-static {v1, p1}, Lcom/meitu/webview/mtscript/MTCommandOpenAlbumScript;->O(Lcom/meitu/webview/mtscript/MTCommandOpenAlbumScript;Lcom/meitu/webview/mtscript/MTCommandOpenAlbumScript$Model;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

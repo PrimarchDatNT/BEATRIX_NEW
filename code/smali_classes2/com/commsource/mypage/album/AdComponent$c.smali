@@ -40,13 +40,13 @@
 
     const/16 p1, 0x7277
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/mypage/album/AdComponent$c;->a:Lcom/commsource/mypage/album/AdComponent;
 
     invoke-static {v0}, Lcom/commsource/mypage/album/AdComponent;->p(Lcom/commsource/mypage/album/AdComponent;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

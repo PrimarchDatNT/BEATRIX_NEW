@@ -43,13 +43,13 @@
 
     const p1, 0xf0a3
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/mopub/MopubRewardedAdManager$2;->this$0:Lcom/meitu/hwbusinesskit/mopub/MopubRewardedAdManager;
 
     invoke-static {v0}, Lcom/meitu/hwbusinesskit/mopub/MopubRewardedAdManager;->access$200(Lcom/meitu/hwbusinesskit/mopub/MopubRewardedAdManager;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -59,13 +59,13 @@
 
     const p1, 0xf0a4
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/mopub/MopubRewardedAdManager$2;->this$0:Lcom/meitu/hwbusinesskit/mopub/MopubRewardedAdManager;
 
     invoke-static {v0}, Lcom/meitu/hwbusinesskit/mopub/MopubRewardedAdManager;->access$300(Lcom/meitu/hwbusinesskit/mopub/MopubRewardedAdManager;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -93,13 +93,13 @@
 
     const p1, 0xf0a5
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p2, p0, Lcom/meitu/hwbusinesskit/mopub/MopubRewardedAdManager$2;->this$0:Lcom/meitu/hwbusinesskit/mopub/MopubRewardedAdManager;
 
     invoke-static {p2}, Lcom/meitu/hwbusinesskit/mopub/MopubRewardedAdManager;->access$400(Lcom/meitu/hwbusinesskit/mopub/MopubRewardedAdManager;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -109,7 +109,7 @@
 
     const p1, 0xf0a0
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/meitu/hwbusinesskit/mopub/MopubRewardedAdManager$2;->this$0:Lcom/meitu/hwbusinesskit/mopub/MopubRewardedAdManager;
 
@@ -121,7 +121,7 @@
 
     invoke-static {v0, v1, p2}, Lcom/meitu/hwbusinesskit/mopub/MopubRewardedAdManager;->access$100(Lcom/meitu/hwbusinesskit/mopub/MopubRewardedAdManager;ILjava/lang/String;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -131,13 +131,13 @@
 
     const v0, 0xf09f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/mopub/MopubRewardedAdManager$2;->this$0:Lcom/meitu/hwbusinesskit/mopub/MopubRewardedAdManager;
 
     invoke-static {v1, p1}, Lcom/meitu/hwbusinesskit/mopub/MopubRewardedAdManager;->access$000(Lcom/meitu/hwbusinesskit/mopub/MopubRewardedAdManager;Ljava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -147,9 +147,9 @@
 
     const p1, 0xf0a2
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -159,9 +159,9 @@
 
     const p1, 0xf0a1
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

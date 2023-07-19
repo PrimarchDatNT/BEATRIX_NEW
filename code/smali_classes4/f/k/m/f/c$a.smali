@@ -39,7 +39,7 @@
 
     const v0, 0xc0a5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lf/k/m/f/b;->u()Lf/k/m/f/b;
 
@@ -51,7 +51,7 @@
 
     invoke-virtual {v1, v2, v3}, Lf/k/m/f/b;->D(Ljava/lang/String;Lf/k/m/f/e/d;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const/4 v0, 0x0
 

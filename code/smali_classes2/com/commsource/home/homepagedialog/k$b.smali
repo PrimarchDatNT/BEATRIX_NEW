@@ -28,7 +28,7 @@
 
     const v0, 0xa4d4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/home/homepagedialog/k$b;
 
@@ -36,7 +36,7 @@
 
     sput-object v1, Lcom/commsource/home/homepagedialog/k$b;->a:Lcom/commsource/home/homepagedialog/k$b;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -56,11 +56,11 @@
 
     const p2, 0xa4d3
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-interface {p1}, Landroid/content/DialogInterface;->dismiss()V
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

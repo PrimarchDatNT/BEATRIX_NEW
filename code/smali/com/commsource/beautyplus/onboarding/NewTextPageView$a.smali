@@ -50,9 +50,9 @@
 
     const p1, 0x9bf8
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -66,9 +66,9 @@
 
     const p1, 0x9bf6
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -90,7 +90,7 @@
 
     const p1, 0x9bf7
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/beautyplus/onboarding/NewTextPageView$a;->a:Lcom/commsource/beautyplus/onboarding/NewTextPageView;
 
@@ -115,7 +115,7 @@
 
     invoke-static {v0, v1}, Lcom/commsource/beautyplus/onboarding/NewTextPageView;->g(Lcom/commsource/beautyplus/onboarding/NewTextPageView;Lcom/commsource/beautyplus/f0/em;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -125,7 +125,7 @@
 
     const p2, 0x9bf5
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/beautyplus/onboarding/NewTextPageView$a;->a:Lcom/commsource/beautyplus/onboarding/NewTextPageView;
 
@@ -180,7 +180,7 @@
 
     invoke-virtual {v0, p1}, Landroid/view/View;->setAlpha(F)V
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

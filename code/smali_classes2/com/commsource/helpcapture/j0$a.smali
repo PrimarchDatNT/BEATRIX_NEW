@@ -36,7 +36,7 @@
 
     const/16 v0, 0x1d7d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     iget-object v1, p0, Lcom/commsource/helpcapture/j0$a;->g:Lcom/commsource/helpcapture/j0;
@@ -113,7 +113,7 @@
     invoke-static {v1, v2}, Lcom/commsource/helpcapture/j0;->z0(Lcom/commsource/helpcapture/j0;Lcom/meitu/core/mtanchorgeneration/MTAnchorGeneration;)Lcom/meitu/core/mtanchorgeneration/MTAnchorGeneration;
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

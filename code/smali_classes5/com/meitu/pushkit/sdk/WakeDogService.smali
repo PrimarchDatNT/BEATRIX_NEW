@@ -21,9 +21,9 @@
 
     const p1, 0xb94b
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     const/4 p1, 0x0
 
@@ -35,7 +35,7 @@
 
     const v0, 0xb94c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-super {p0}, Landroid/app/Service;->onCreate()V
 
@@ -45,7 +45,7 @@
 
     invoke-static {v1}, Lcom/meitu/pushkit/y;->d(Landroid/content/Context;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -55,7 +55,7 @@
 
     const p2, 0xb94d
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v0, Lcom/meitu/pushkit/x;->a:Landroid/content/Context;
 
@@ -84,7 +84,7 @@
 
     invoke-virtual {p0}, Landroid/app/Service;->stopSelf()V
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 
@@ -156,7 +156,7 @@
     :cond_4
     invoke-virtual {p0}, Landroid/app/Service;->stopSelf()V
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method

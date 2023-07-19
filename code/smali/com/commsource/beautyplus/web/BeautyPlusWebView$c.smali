@@ -47,7 +47,7 @@
 
     const/16 p2, 0x6f62
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p3, p0, Lcom/commsource/beautyplus/web/BeautyPlusWebView$c;->a:Lcom/commsource/beautyplus/web/BeautyPlusWebView;
 
@@ -63,7 +63,7 @@
 
     invoke-static {p1}, Lf/k/c/c/f;->w(I)V
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -129,7 +129,7 @@
     invoke-static {p1}, Lf/k/c/c/f;->w(I)V
 
     :goto_1
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

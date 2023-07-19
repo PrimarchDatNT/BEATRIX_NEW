@@ -53,13 +53,13 @@
 
     const/16 v0, 0x3b3e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Lf/k/k/h;
 
     invoke-virtual {p0, p1}, Lcom/commsource/beautyplus/j0/c/b$a;->c(Lf/k/k/h;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -69,7 +69,7 @@
 
     const/16 p1, 0x3b3d
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/beautyplus/j0/c/b$a;->b:Lcom/commsource/beautyplus/j0/c/b;
 
@@ -89,7 +89,7 @@
 
     invoke-interface {v0, v1}, Lcom/commsource/beautyplus/base/b/a$c;->a(Ljava/lang/Integer;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -107,7 +107,7 @@
 
     const/16 v0, 0x3b3c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p1, :cond_0
 
@@ -142,7 +142,7 @@
     invoke-static {v1, p1}, Lcom/commsource/beautyplus/j0/c/b;->j(Lcom/commsource/beautyplus/j0/c/b;Lcom/commsource/push/bean/i;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

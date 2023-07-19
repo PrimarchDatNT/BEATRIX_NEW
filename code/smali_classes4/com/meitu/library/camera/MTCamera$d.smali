@@ -39,7 +39,7 @@
 
     const v0, 0xae46
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/library/camera/MTCamera$c;
 
@@ -131,7 +131,7 @@
 
     sput-object v1, Lcom/meitu/library/camera/MTCamera$d;->i:Lcom/meitu/library/camera/MTCamera$c;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -154,7 +154,7 @@
 
     const v0, 0xae45
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p0, p1}, Ljava/lang/Math;->min(II)I
 
@@ -176,7 +176,7 @@
 
     invoke-virtual {p1, p0}, Lcom/meitu/library/camera/MTCamera$c;->a(F)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

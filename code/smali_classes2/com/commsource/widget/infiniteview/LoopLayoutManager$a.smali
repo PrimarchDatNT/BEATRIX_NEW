@@ -36,7 +36,7 @@
 
     const/16 v0, 0x1b09
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget p1, p1, Landroid/util/DisplayMetrics;->density:F
 
@@ -44,7 +44,7 @@
 
     div-float/2addr v1, p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -56,7 +56,7 @@
 
     const/16 v0, 0x1b08
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/widget/infiniteview/LoopLayoutManager$a;->a:Lcom/commsource/widget/infiniteview/LoopLayoutManager;
 
@@ -64,7 +64,7 @@
 
     move-result-object p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method

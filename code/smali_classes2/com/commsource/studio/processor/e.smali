@@ -30,13 +30,13 @@
 
     const/16 v0, 0x1482
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p2, Lcom/commsource/studio/layer/EyeEnlargeLayer$a;
 
     invoke-virtual {p0, p1, p2}, Lcom/commsource/studio/processor/e;->V(Landroid/graphics/Bitmap;Lcom/commsource/studio/layer/EyeEnlargeLayer$a;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -54,7 +54,7 @@
 
     const/16 v0, 0x1481
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "lastEffectBitmap"
 
@@ -78,7 +78,7 @@
 
     invoke-static {p1, v1, v2, p2}, Lcom/meitu/core/processor/EyeZoomProcessor;->renderProc(Landroid/graphics/Bitmap;Landroid/graphics/PointF;FI)Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

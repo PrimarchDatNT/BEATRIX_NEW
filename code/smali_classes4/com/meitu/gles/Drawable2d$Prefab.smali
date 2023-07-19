@@ -38,7 +38,7 @@
 
     const v0, 0xe05e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/gles/Drawable2d$Prefab;
 
@@ -82,7 +82,7 @@
 
     sput-object v6, Lcom/meitu/gles/Drawable2d$Prefab;->$VALUES:[Lcom/meitu/gles/Drawable2d$Prefab;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -105,7 +105,7 @@
 
     const v0, 0xe05d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-class v1, Lcom/meitu/gles/Drawable2d$Prefab;
 
@@ -115,7 +115,7 @@
 
     check-cast p0, Lcom/meitu/gles/Drawable2d$Prefab;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -125,7 +125,7 @@
 
     const v0, 0xe05c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/gles/Drawable2d$Prefab;->$VALUES:[Lcom/meitu/gles/Drawable2d$Prefab;
 
@@ -135,7 +135,7 @@
 
     check-cast v1, [Lcom/meitu/gles/Drawable2d$Prefab;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

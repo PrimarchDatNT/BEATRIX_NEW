@@ -63,7 +63,7 @@
 
     const/16 v0, 0x5b55
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/uxkit/widget/color/b$c;->a:Lcom/meitu/library/uxkit/widget/color/b;
 
@@ -157,7 +157,7 @@
     invoke-virtual {p1, p2}, Landroid/widget/ImageView;->setVisibility(I)V
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -183,7 +183,7 @@
 
     const/16 p2, 0x5b54
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p1}, Landroid/view/ViewGroup;->getContext()Landroid/content/Context;
 
@@ -223,7 +223,7 @@
 
     invoke-static {v0, p1}, Lcom/meitu/library/uxkit/widget/color/b$d;->e(Lcom/meitu/library/uxkit/widget/color/b$d;Landroid/widget/ImageView;)Landroid/widget/ImageView;
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 .end method
@@ -233,7 +233,7 @@
 
     const/16 v0, 0x5b56
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/uxkit/widget/color/b$c;->a:Lcom/meitu/library/uxkit/widget/color/b;
 
@@ -243,7 +243,7 @@
 
     move-result v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -257,13 +257,13 @@
 
     const/16 v0, 0x5b56
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Lcom/meitu/library/uxkit/widget/color/b$d;
 
     invoke-virtual {p0, p1, p2}, Lcom/meitu/library/uxkit/widget/color/b$c;->a(Lcom/meitu/library/uxkit/widget/color/b$d;I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -279,13 +279,13 @@
 
     const/16 v0, 0x5b56
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0, p1, p2}, Lcom/meitu/library/uxkit/widget/color/b$c;->b(Landroid/view/ViewGroup;I)Lcom/meitu/library/uxkit/widget/color/b$d;
 
     move-result-object p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method

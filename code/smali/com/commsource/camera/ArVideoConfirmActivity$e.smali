@@ -42,7 +42,7 @@
 
     const/16 v0, 0x12ff
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity$e;->J:Lcom/commsource/camera/ArVideoConfirmActivity;
 
@@ -52,7 +52,7 @@
 
     if-eqz v1, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -359,7 +359,7 @@
 
     invoke-static {p1, v1}, Lcom/commsource/camera/ArVideoConfirmActivity;->g1(Lcom/commsource/camera/ArVideoConfirmActivity;Z)Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -371,7 +371,7 @@
 
     const/16 v0, 0x12fe
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/camera/ArVideoConfirmActivity$e;->J:Lcom/commsource/camera/ArVideoConfirmActivity;
 
@@ -515,7 +515,7 @@
 
     invoke-virtual {v1, v2}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

@@ -44,7 +44,7 @@
 
     const v0, 0xa5b4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$ScrollAction;
 
@@ -100,7 +100,7 @@
 
     sput-object v8, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$ScrollAction;->$VALUES:[Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$ScrollAction;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -125,7 +125,7 @@
 
     const v0, 0xa5b2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x1
 
@@ -141,28 +141,28 @@
 
     sget-object p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$ScrollAction;->NONE:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$ScrollAction;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
     :cond_0
     sget-object p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$ScrollAction;->BOTH_SINGLE_AND_MULTIPLE:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$ScrollAction;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
     :cond_1
     sget-object p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$ScrollAction;->MULTIPLE_POINTERS_DRAG:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$ScrollAction;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
     :cond_2
     sget-object p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$ScrollAction;->SINGLE_POINTER_DRAG:Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$ScrollAction;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -172,7 +172,7 @@
 
     const v0, 0xa5b2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-class v1, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$ScrollAction;
 
@@ -182,7 +182,7 @@
 
     check-cast p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$ScrollAction;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -192,7 +192,7 @@
 
     const v0, 0xa5b1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$ScrollAction;->$VALUES:[Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$ScrollAction;
 
@@ -202,7 +202,7 @@
 
     check-cast v1, [Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$ScrollAction;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -214,11 +214,11 @@
 
     const v0, 0xa5b3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/meitu/widget/layeredimageview/layer/ImageMatrixLayer$ScrollAction;->mAction:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method

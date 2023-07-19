@@ -39,7 +39,7 @@
 
     const v0, 0xbb6a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/core/processor/ImageSegment$1;->this$0:Lcom/meitu/core/processor/ImageSegment;
 
@@ -49,7 +49,7 @@
 
     iput-wide v2, v1, Lcom/meitu/core/processor/ImageSegment;->nativeImageSegment:J
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

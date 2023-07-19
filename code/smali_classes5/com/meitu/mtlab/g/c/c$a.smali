@@ -47,7 +47,7 @@
 
     const v2, 0xdc49
 
-    invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v2}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz v1, :cond_4
 
@@ -262,7 +262,7 @@
 
     :cond_3
     :goto_2
-    invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -298,7 +298,7 @@
 
     invoke-interface {v1, v3, v4}, Lcom/meitu/mtlab/g/d/b;->b(ILjava/lang/Object;)V
 
-    invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

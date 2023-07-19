@@ -64,13 +64,13 @@
 
     const v0, 0xce5a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0, p1}, Lcom/meitu/remote/config/c$b;->b(Lcom/google/android/gms/tasks/k;)Lcom/meitu/remote/config/f;
 
     move-result-object p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -100,7 +100,7 @@
 
     const p1, 0xce59
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/meitu/remote/config/c$b;->a:Lcom/google/android/gms/tasks/k;
 
@@ -110,7 +110,7 @@
 
     check-cast v0, Lcom/meitu/remote/config/f;
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 .end method

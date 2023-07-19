@@ -40,7 +40,7 @@
 
     const v0, 0x8d79
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/function/BaseSubFragment$l;->a:Lcom/commsource/studio/function/BaseSubFragment;
 
@@ -113,7 +113,7 @@
 
     invoke-virtual {v1}, Lcom/commsource/studio/gesture/LayerSelectComponent;->p()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

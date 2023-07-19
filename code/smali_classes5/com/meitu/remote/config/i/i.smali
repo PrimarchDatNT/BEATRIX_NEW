@@ -53,7 +53,7 @@
 
     const v1, 0xced5
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v2, 0x0
 
@@ -75,7 +75,7 @@
     .catch Lorg/xmlpull/v1/XmlPullParserException; {:try_start_0 .. :try_end_0} :catch_7
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_6
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
@@ -239,7 +239,7 @@
 
     invoke-direct {p0, v3, p1, v2}, Lcom/meitu/remote/config/i/i$b;-><init>(Ljava/util/Map;Lcom/meitu/remote/config/g;Lcom/meitu/remote/config/i/i$a;)V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -263,7 +263,7 @@
 
     const v0, 0xced7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-interface {p0}, Ljava/util/Map;->size()I
 
@@ -352,7 +352,7 @@
     const/4 p0, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -374,7 +374,7 @@
 
     const v1, 0xced8
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     invoke-interface {p0}, Landroid/content/res/XmlResourceParser;->getEventType()I
@@ -572,7 +572,7 @@
 
     :cond_b
     :goto_7
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -594,7 +594,7 @@
 
     const v1, 0xced6
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     invoke-interface {p0}, Landroid/content/res/XmlResourceParser;->getEventType()I
@@ -770,7 +770,7 @@
 
     :cond_9
     :goto_5
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

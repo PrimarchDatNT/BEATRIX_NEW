@@ -54,7 +54,7 @@
 
     const p4, 0xc700
 
-    invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p4}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p1, :cond_0
 
@@ -96,7 +96,7 @@
     invoke-static {p1, p2}, Lf/k/h/a/c;->d(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_0
-    invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p4}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

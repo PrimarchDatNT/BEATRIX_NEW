@@ -33,7 +33,7 @@
 
     const v8, 0xc047
 
-    invoke-static {v8}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v8}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v9, Lcom/meitu/core/parse/MtePlistParser;
 
@@ -485,7 +485,7 @@
     :cond_12
     const v1, 0xc047
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v11
 
@@ -493,7 +493,7 @@
     :goto_a
     const v1, 0xc047
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     const/4 v2, 0x0
 
@@ -508,7 +508,7 @@
 
     invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v2
 .end method

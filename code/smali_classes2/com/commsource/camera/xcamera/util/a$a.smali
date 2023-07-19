@@ -59,7 +59,7 @@
 
     const p3, 0x8fd2
 
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/camera/xcamera/util/a$a;->a:Lcom/commsource/camera/xcamera/bean/a;
 
@@ -451,7 +451,7 @@
     invoke-virtual {v0, p2}, Lcom/commsource/camera/xcamera/bean/a;->r(I)V
 
     :cond_10
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method

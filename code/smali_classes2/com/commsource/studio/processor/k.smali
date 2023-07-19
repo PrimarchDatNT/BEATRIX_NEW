@@ -27,7 +27,7 @@
 
     const/16 v0, 0x52bc
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/studio/processor/k$a;
 
@@ -37,7 +37,7 @@
 
     sput-object v1, Lcom/commsource/studio/processor/k;->N:Lcom/commsource/studio/processor/k$a;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -57,7 +57,7 @@
 
     const/16 v0, 0x52b8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/processor/k;->M:Lcom/meitu/core/processor/Light3DProcessor;
 
@@ -66,7 +66,7 @@
     invoke-virtual {v1, p1, p2}, Lcom/meitu/core/processor/Light3DProcessor;->light3dChangeLightPos(FF)Z
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -76,7 +76,7 @@
 
     const/16 v0, 0x52b9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/processor/k;->M:Lcom/meitu/core/processor/Light3DProcessor;
 
@@ -85,7 +85,7 @@
     invoke-virtual {v1, p1}, Lcom/meitu/core/processor/Light3DProcessor;->light3dChangeMixParam(F)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -95,7 +95,7 @@
 
     const/16 v0, 0x52b7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-super {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->a()V
 
@@ -265,13 +265,13 @@
     :goto_0
     iput-object v2, p0, Lcom/commsource/studio/processor/k;->M:Lcom/meitu/core/processor/Light3DProcessor;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
     :cond_3
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -281,7 +281,7 @@
 
     const/16 v0, 0x52ba
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-super {p0}, Lcom/commsource/studio/processor/BaseEffectProcessor;->c()V
 
@@ -292,7 +292,7 @@
     invoke-virtual {v1}, Lcom/meitu/core/processor/Light3DProcessor;->light3dRelease()V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -306,7 +306,7 @@
 
     const/16 v0, 0x52bb
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "disFBO"
 
@@ -319,7 +319,7 @@
     invoke-virtual {p1}, Lcom/meitu/core/processor/Light3DProcessor;->light3dDrawLight()Z
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

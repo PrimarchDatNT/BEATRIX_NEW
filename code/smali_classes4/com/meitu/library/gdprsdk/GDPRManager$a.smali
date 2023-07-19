@@ -33,7 +33,7 @@
 
     const p1, 0xf199
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -69,7 +69,7 @@
 
     move-result v0
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return v0
 .end method

@@ -44,7 +44,7 @@
 
     const v0, 0x8146
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p2}, Lcom/commsource/camera/a1/f;->n()I
 
@@ -344,7 +344,7 @@
 
     invoke-interface {p1, v1, v2, v3}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindLong(IJ)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -354,13 +354,13 @@
 
     const v0, 0x8147
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p2, Lcom/commsource/camera/a1/f;
 
     invoke-virtual {p0, p1, p2}, Lf/k/i0/a/e0$a;->a(Landroidx/sqlite/db/SupportSQLiteStatement;Lcom/commsource/camera/a1/f;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -370,9 +370,9 @@
 
     const v0, 0x8145
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const-string v0, "INSERT OR REPLACE INTO `MAKEUP_ENTITY` (`_id`,`name`,`type`,`alpha`,`default_alpha`,`is_internal`,`version_control`,`min_version`,`max_version`,`red_end_time`,`auto_download`,`sort`,`category_id`,`icon`,`file`,`is_downloaded`,`apply_model`,`material_type`,`is_default`,`theme_color`,`suit_default_alpha`,`filter_default_alpha`,`corner_marker`,`gender`) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)"
 

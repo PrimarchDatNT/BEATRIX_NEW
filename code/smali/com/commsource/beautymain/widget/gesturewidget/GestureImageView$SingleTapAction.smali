@@ -48,7 +48,7 @@
 
     const/16 v0, 0x3dc3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
@@ -128,7 +128,7 @@
 
     sput-object v12, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;->$VALUES:[Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -153,7 +153,7 @@
 
     const/16 v0, 0x3dc1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x1
 
@@ -177,42 +177,42 @@
 
     sget-object p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;->NONE:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
     :cond_0
     sget-object p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;->RESTORE:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
     :cond_1
     sget-object p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;->ZOOM_OUT_STEP_BY_STEP:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
     :cond_2
     sget-object p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;->ZOOM_IN_STEP_BY_STEP:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
     :cond_3
     sget-object p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;->ZOOM_OUT_TO_MIN_SCALE:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
     :cond_4
     sget-object p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;->ZOOM_IN_TO_MAX_SCALE:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -222,7 +222,7 @@
 
     const/16 v0, 0x3dc1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-class v1, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
@@ -232,7 +232,7 @@
 
     check-cast p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -242,7 +242,7 @@
 
     const/16 v0, 0x3dc0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;->$VALUES:[Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
@@ -252,7 +252,7 @@
 
     check-cast v1, [Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -264,11 +264,11 @@
 
     const/16 v0, 0x3dc2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$SingleTapAction;->mAction:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method

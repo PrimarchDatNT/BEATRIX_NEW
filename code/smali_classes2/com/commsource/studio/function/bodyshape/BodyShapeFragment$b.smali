@@ -56,7 +56,7 @@
 
     const/16 v0, 0x657b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p2, Lcom/commsource/studio/effect/bodyshape/a;
 
@@ -64,7 +64,7 @@
 
     move-result p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -74,7 +74,7 @@
 
     const/16 p1, 0x657c
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment$b;->b:Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;
 
@@ -121,7 +121,7 @@
     invoke-static {v0, p2}, Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;->D1(Lcom/commsource/studio/function/bodyshape/BodyShapeFragment;Lcom/commsource/studio/effect/bodyshape/a;)V
 
     :cond_0
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method

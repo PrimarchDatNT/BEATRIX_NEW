@@ -38,7 +38,7 @@
 
     const v0, 0x9a94
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c$a;->p:Lcom/commsource/camera/montage/bean/c;
 
@@ -63,7 +63,7 @@
     invoke-static {v1, v2}, Lcom/commsource/camera/montage/bean/c;->h(Lcom/commsource/camera/montage/bean/c;Lcom/commsource/widget/s0;)Lcom/commsource/widget/s0;
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -75,7 +75,7 @@
 
     const v0, 0x9a93
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/camera/montage/bean/c$a;->p:Lcom/commsource/camera/montage/bean/c;
 
@@ -372,7 +372,7 @@
 
     invoke-static {v1, v2}, Lcom/commsource/camera/montage/bean/c;->f(Lcom/commsource/camera/montage/bean/c;Z)Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

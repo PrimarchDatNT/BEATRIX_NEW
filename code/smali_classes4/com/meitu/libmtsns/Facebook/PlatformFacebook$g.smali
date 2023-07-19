@@ -52,7 +52,7 @@
 
     const p1, 0xd268
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$g;->b:Lcom/meitu/libmtsns/Facebook/PlatformFacebook;
 
@@ -102,7 +102,7 @@
 
     invoke-interface {v0}, Landroid/content/SharedPreferences$Editor;->apply()V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -112,7 +112,7 @@
 
     const v0, 0xd269
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$g;->b:Lcom/meitu/libmtsns/Facebook/PlatformFacebook;
 
@@ -138,7 +138,7 @@
 
     invoke-static {v1, v2, v3, v4, v5}, Lcom/meitu/libmtsns/Facebook/PlatformFacebook;->H(Lcom/meitu/libmtsns/Facebook/PlatformFacebook;ILcom/meitu/libmtsns/c/c/b;Lcom/meitu/libmtsns/framwork/i/e;[Ljava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -148,7 +148,7 @@
 
     const p1, 0xd26a
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$g;->b:Lcom/meitu/libmtsns/Facebook/PlatformFacebook;
 
@@ -174,7 +174,7 @@
 
     invoke-static {v0, v1, v2, v3, v4}, Lcom/meitu/libmtsns/Facebook/PlatformFacebook;->S(Lcom/meitu/libmtsns/Facebook/PlatformFacebook;ILcom/meitu/libmtsns/c/c/b;Lcom/meitu/libmtsns/framwork/i/e;[Ljava/lang/Object;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -184,13 +184,13 @@
 
     const v0, 0xd26b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Lcom/facebook/share/Sharer$Result;
 
     invoke-virtual {p0, p1}, Lcom/meitu/libmtsns/Facebook/PlatformFacebook$g;->a(Lcom/facebook/share/Sharer$Result;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

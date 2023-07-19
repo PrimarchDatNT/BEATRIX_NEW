@@ -40,7 +40,7 @@
 
     const p1, 0x928b
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/tips/ArCorePaintCover$b$a;->a:Lcom/commsource/camera/xcamera/cover/tips/ArCorePaintCover$b;
 
@@ -52,7 +52,7 @@
 
     invoke-virtual {v0}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->X2()V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

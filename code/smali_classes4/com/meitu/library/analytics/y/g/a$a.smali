@@ -40,7 +40,7 @@
 
     const p1, 0xd65a
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p2, p0, Lcom/meitu/library/analytics/y/g/a$a;->a:Lcom/meitu/library/analytics/y/g/a;
 
@@ -89,7 +89,7 @@
     invoke-interface {p2, v0, v1, v2}, Lcom/meitu/library/analytics/y/h/h;->c(Ljava/lang/Runnable;J)V
 
     :cond_0
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

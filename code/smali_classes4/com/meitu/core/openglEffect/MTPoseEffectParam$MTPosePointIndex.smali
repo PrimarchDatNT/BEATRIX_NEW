@@ -62,7 +62,7 @@
 
     const v0, 0xbfa4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;
 
@@ -282,7 +282,7 @@
 
     const v0, 0xbfa4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -305,7 +305,7 @@
 
     const v0, 0xbfa3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-class v1, Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;
 
@@ -315,7 +315,7 @@
 
     check-cast p0, Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -325,7 +325,7 @@
 
     const v0, 0xbfa2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;->$VALUES:[Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;
 
@@ -335,7 +335,7 @@
 
     check-cast v1, [Lcom/meitu/core/openglEffect/MTPoseEffectParam$MTPosePointIndex;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

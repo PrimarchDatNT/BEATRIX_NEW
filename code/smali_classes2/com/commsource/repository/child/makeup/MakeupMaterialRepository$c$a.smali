@@ -29,7 +29,7 @@
 
     const/16 v0, 0x1e15
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository$c$a;
 
@@ -37,7 +37,7 @@
 
     sput-object v1, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository$c$a;->a:Lcom/commsource/repository/child/makeup/MakeupMaterialRepository$c$a;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -57,7 +57,7 @@
 
     const/16 v0, 0x1e14
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;->E:Lcom/commsource/repository/child/makeup/MakeupMaterialRepository;
 
@@ -143,7 +143,7 @@
 
     invoke-interface {v1, v3}, Lf/k/i0/a/g0;->R2([Lcom/commsource/repository/child/makeup/h;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

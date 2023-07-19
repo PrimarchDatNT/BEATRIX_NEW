@@ -17,7 +17,7 @@
 
     const v0, 0xcd04
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "T_MDID_CHANGED_EVENT"
 
@@ -31,7 +31,7 @@
 
     sput-object v1, Lcom/meitu/library/analytics/gid/l;->c:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

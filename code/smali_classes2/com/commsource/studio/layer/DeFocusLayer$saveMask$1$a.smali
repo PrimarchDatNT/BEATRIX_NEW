@@ -28,7 +28,7 @@
 
     const/16 v0, 0x3fff
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/studio/layer/DeFocusLayer$saveMask$1$a;
 
@@ -36,7 +36,7 @@
 
     sput-object v1, Lcom/commsource/studio/layer/DeFocusLayer$saveMask$1$a;->a:Lcom/commsource/studio/layer/DeFocusLayer$saveMask$1$a;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -56,13 +56,13 @@
 
     const/16 v0, 0x3ffe
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget v1, Lcom/res/provider/ResSTRING;->space_unable_to_edit:I
 
     invoke-static {v1}, Lf/k/c/c/f;->h(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

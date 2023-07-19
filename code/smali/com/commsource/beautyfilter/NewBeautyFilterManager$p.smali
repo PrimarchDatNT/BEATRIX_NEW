@@ -49,7 +49,7 @@
 
     const/16 v0, 0x36bf
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/beautyfilter/NewBeautyFilterManager$p;->g:Lcom/commsource/beautyfilter/NewBeautyFilterManager;
 
@@ -61,7 +61,7 @@
 
     invoke-virtual {v1, v2}, Lcom/commsource/beautyfilter/NewFilterRepository;->w(Lcom/meitu/template/bean/j;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

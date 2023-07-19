@@ -27,7 +27,7 @@
 
     const v0, 0xee44
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->mHWBusinessExecutor:Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;
 
@@ -36,7 +36,7 @@
     invoke-virtual {v1, p0}, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->clearIntervalTime(Ljava/lang/String;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -46,11 +46,11 @@
 
     const v0, 0xee49
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/mt/MTAdManager;->clearMtAdData()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -60,7 +60,7 @@
 
     const v0, 0xee43
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->mHWBusinessExecutor:Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;
 
@@ -69,7 +69,7 @@
     invoke-virtual {v1, p0}, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->countIntervalTime(Ljava/lang/String;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -79,13 +79,13 @@
 
     const v0, 0xee29
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->mBusiness:Lcom/meitu/hwbusinesskit/core/bean/Business;
 
     invoke-static {v1, p0}, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->filterBusinessIfNeed(Lcom/meitu/hwbusinesskit/core/bean/Business;Lcom/meitu/hwbusinesskit/core/utils/AdSlotFilter;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -95,7 +95,7 @@
 
     const v0, 0xee2a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p1, :cond_3
 
@@ -217,7 +217,7 @@
     invoke-static {p0}, Lcom/meitu/hwbusinesskit/core/utils/TestLog;->log(Ljava/lang/Throwable;)V
 
     :cond_3
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -227,7 +227,7 @@
 
     const v0, 0xee32
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->mHWBusinessExecutor:Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;
 
@@ -238,7 +238,7 @@
     invoke-virtual {v1, p0, v2}, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->preloadAdvert(Ljava/lang/String;Z)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -248,7 +248,7 @@
 
     const v0, 0xee34
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->mHWBusinessExecutor:Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;
 
@@ -259,7 +259,7 @@
     invoke-virtual {v1, p0, v2}, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->preloadInterstitialAdvert(Ljava/lang/String;Z)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -269,7 +269,7 @@
 
     const v0, 0xee38
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->mHWBusinessExecutor:Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;
 
@@ -280,7 +280,7 @@
     invoke-virtual {v1, p0, v2}, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->preloadMixAdvert(Ljava/lang/String;Z)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -290,7 +290,7 @@
 
     const v0, 0xee36
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->mHWBusinessExecutor:Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;
 
@@ -301,7 +301,7 @@
     invoke-virtual {v1, p0, v2}, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->preloadRewardedVideoAdvert(Ljava/lang/String;Z)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -311,7 +311,7 @@
 
     const v0, 0xee3f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->mHWBusinessExecutor:Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;
 
@@ -321,14 +321,14 @@
 
     move-result p0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p0
 
     :cond_0
     const/4 p0, 0x2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p0
 .end method
@@ -338,7 +338,7 @@
 
     const v0, 0xee27
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lcom/meitu/library/application/BaseApplication;->getApplication()Landroid/app/Application;
 
@@ -392,7 +392,7 @@
     invoke-static {v2}, Lcom/meitu/hwbusinesskit/core/utils/thread/HwbThreadExecutor;->executorSlowTask(Lcom/meitu/hwbusinesskit/core/utils/thread/AbsNamedRunnable;)V
 
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -404,13 +404,13 @@
 
     const p0, 0xee3a
 
-    invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p1}, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->getInterstitialAd(Ljava/lang/String;)Lcom/meitu/hwbusinesskit/core/ad/InterstitialAd;
 
     move-result-object p1
 
-    invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -420,7 +420,7 @@
 
     const v0, 0xee3a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->mHWBusinessExecutor:Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;
 
@@ -430,7 +430,7 @@
 
     move-result-object p0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
@@ -439,7 +439,7 @@
 
     invoke-direct {v1, p0}, Lcom/meitu/hwbusinesskit/core/ad/InterstitialAd;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -449,7 +449,7 @@
 
     const v0, 0xee3d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->mHWBusinessExecutor:Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;
 
@@ -459,7 +459,7 @@
 
     move-result-object p0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
@@ -468,7 +468,7 @@
 
     invoke-direct {v1, p0}, Lcom/meitu/hwbusinesskit/core/ad/MixAd;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -478,7 +478,7 @@
 
     const v0, 0xee39
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->mHWBusinessExecutor:Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;
 
@@ -488,7 +488,7 @@
 
     move-result-object p0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
@@ -497,7 +497,7 @@
 
     invoke-direct {v1, p0}, Lcom/meitu/hwbusinesskit/core/ad/NativeAd;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -507,7 +507,7 @@
 
     const v0, 0xee3b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->mHWBusinessExecutor:Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;
 
@@ -517,7 +517,7 @@
 
     move-result-object p0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
@@ -526,7 +526,7 @@
 
     invoke-direct {p0}, Lcom/meitu/hwbusinesskit/core/ad/ProtocolAd;-><init>()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -536,7 +536,7 @@
 
     const v0, 0xee3c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->mHWBusinessExecutor:Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;
 
@@ -546,7 +546,7 @@
 
     move-result-object p0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
@@ -555,7 +555,7 @@
 
     invoke-direct {v1, p0}, Lcom/meitu/hwbusinesskit/core/ad/RewardedVideoAd;-><init>(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -565,7 +565,7 @@
 
     const v0, 0xee41
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->mHWBusinessExecutor:Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;
 
@@ -585,7 +585,7 @@
     const/4 p0, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p0
 .end method
@@ -600,7 +600,7 @@
     const v1, 0xee24
 
     :try_start_0
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v2, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;
 
@@ -608,7 +608,7 @@
 
     sput-object v2, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->mHWBusinessExecutor:Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -634,7 +634,7 @@
     const v1, 0xee23
 
     :try_start_0
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v2, Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig$Builder;
 
@@ -650,7 +650,7 @@
 
     invoke-static {p0}, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->init(Lcom/meitu/hwbusinesskit/core/MTHWBusinessConfig;)V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -676,7 +676,7 @@
     const v1, 0xee25
 
     :try_start_0
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v2, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK$1;
 
@@ -694,7 +694,7 @@
 
     invoke-static {v2}, Lcom/meitu/hwbusinesskit/core/utils/thread/HwbThreadExecutor;->executorFastTask(Lcom/meitu/hwbusinesskit/core/utils/thread/AbsNamedRunnable;)V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
@@ -715,7 +715,7 @@
 
     const v0, 0xee40
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->mHWBusinessExecutor:Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;
 
@@ -735,7 +735,7 @@
     const/4 p0, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p0
 .end method
@@ -745,7 +745,7 @@
 
     const v0, 0xee47
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->mHWBusinessExecutor:Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;
 
@@ -765,7 +765,7 @@
     const/4 v1, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -775,7 +775,7 @@
 
     const v0, 0xee45
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->mHWBusinessExecutor:Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;
 
@@ -792,7 +792,7 @@
     const/4 v2, 0x1
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v2
 .end method
@@ -802,7 +802,7 @@
 
     const v0, 0xee46
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->mHWBusinessExecutor:Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;
 
@@ -822,7 +822,7 @@
     const/4 v2, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v2
 .end method
@@ -832,7 +832,7 @@
 
     const v0, 0xee42
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->mHWBusinessExecutor:Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;
 
@@ -852,7 +852,7 @@
     const/4 p0, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p0
 .end method
@@ -862,11 +862,11 @@
 
     const v0, 0xee30
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-boolean v1, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->mIsVip:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -876,7 +876,7 @@
 
     const v0, 0xee26
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->mBusiness:Lcom/meitu/hwbusinesskit/core/bean/Business;
 
@@ -917,7 +917,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw v2
 
@@ -925,7 +925,7 @@
     :goto_0
     sget-object v1, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->mBusiness:Lcom/meitu/hwbusinesskit/core/bean/Business;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -935,7 +935,7 @@
 
     const v0, 0xee28
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->mDefaultBusiness:Lcom/meitu/hwbusinesskit/core/bean/Business;
 
@@ -998,7 +998,7 @@
     :cond_3
     sget-object p0, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->mDefaultBusiness:Lcom/meitu/hwbusinesskit/core/bean/Business;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
@@ -1010,7 +1010,7 @@
     :try_end_1
     .catchall {:try_start_1 .. :try_end_1} :catchall_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p0
 .end method
@@ -1020,7 +1020,7 @@
 
     const v0, 0xee2c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->mHWBusinessExecutor:Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;
 
@@ -1031,7 +1031,7 @@
     invoke-virtual {v1, p0, v2}, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->loadRemoteData(Landroid/app/Activity;Lcom/meitu/hwbusinesskit/core/listener/FirebaseListener;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1041,7 +1041,7 @@
 
     const v0, 0xee2d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->mHWBusinessExecutor:Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;
 
@@ -1050,7 +1050,7 @@
     invoke-virtual {v1, p0, p1}, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->loadRemoteData(Landroid/app/Activity;Lcom/meitu/hwbusinesskit/core/listener/FirebaseListener;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1060,7 +1060,7 @@
 
     const v0, 0xee31
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->mHWBusinessExecutor:Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;
 
@@ -1071,7 +1071,7 @@
     invoke-virtual {v1, p0, v2}, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->preloadAdvert(Ljava/lang/String;Z)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1081,7 +1081,7 @@
 
     const v0, 0xee33
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->mHWBusinessExecutor:Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;
 
@@ -1092,7 +1092,7 @@
     invoke-virtual {v1, p0, v2}, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->preloadInterstitialAdvert(Ljava/lang/String;Z)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1102,7 +1102,7 @@
 
     const v0, 0xee37
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->mHWBusinessExecutor:Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;
 
@@ -1113,7 +1113,7 @@
     invoke-virtual {v1, p0, v2}, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->preloadMixAdvert(Ljava/lang/String;Z)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1123,7 +1123,7 @@
 
     const v0, 0xee35
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->mHWBusinessExecutor:Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;
 
@@ -1134,7 +1134,7 @@
     invoke-virtual {v1, p0, v2}, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->preloadRewardedVideoAdvert(Ljava/lang/String;Z)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1144,7 +1144,7 @@
 
     const v0, 0xee2e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->mHWBusinessExecutor:Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;
 
@@ -1153,7 +1153,7 @@
     invoke-virtual {v1, p0, p1, p2}, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->refreshBusinessData(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1163,7 +1163,7 @@
 
     const v0, 0xee2b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->mDefaultBusiness:Lcom/meitu/hwbusinesskit/core/bean/Business;
 
@@ -1245,7 +1245,7 @@
 
     sget-object p0, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->mDefaultBusiness:Lcom/meitu/hwbusinesskit/core/bean/Business;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
@@ -1257,7 +1257,7 @@
     :try_end_3
     .catchall {:try_start_3 .. :try_end_3} :catchall_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p0
 .end method
@@ -1267,7 +1267,7 @@
 
     const v0, 0xee48
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->mHWBusinessExecutor:Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;
 
@@ -1276,7 +1276,7 @@
     invoke-virtual {v1, p0}, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->setGlobalAdListener(Lcom/meitu/hwbusinesskit/core/listener/GlobalAdListener;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1286,11 +1286,11 @@
 
     const v0, 0xee2f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sput-boolean p0, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->mIsVip:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1300,7 +1300,7 @@
 
     const v0, 0xee3e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/hwbusinesskit/core/HWBusinessSDK;->mHWBusinessExecutor:Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;
 
@@ -1309,7 +1309,7 @@
     invoke-virtual {v1, p0}, Lcom/meitu/hwbusinesskit/core/HWBusinessExecutor;->setLocationCountryCode(Ljava/lang/String;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1319,11 +1319,11 @@
 
     const v0, 0xee4a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p0}, Lcom/meitu/hwbusinesskit/core/mt/MTAdManager;->setMtData(Lcom/meitu/hwbusinesskit/core/mt/bean/HWBusinessMtAdCollection;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

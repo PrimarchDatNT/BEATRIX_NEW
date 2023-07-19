@@ -114,11 +114,11 @@
 
     const v0, 0xf3da
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p0, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;->b:Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -128,11 +128,11 @@
 
     const v0, 0xf3db
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p0, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;->c:Lcom/meitu/mtlab/beautyplus/magicpen/b;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -142,7 +142,7 @@
 
     const p1, 0xf3bf
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v0, 0x2
 
@@ -168,7 +168,7 @@
 
     invoke-virtual {p0, v0}, Landroid/opengl/GLSurfaceView;->setRenderMode(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -180,7 +180,7 @@
 
     const v0, 0xf3cf
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$d;
 
@@ -188,7 +188,7 @@
 
     invoke-virtual {p0, v1}, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;->p(Ljava/lang/Runnable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -198,7 +198,7 @@
 
     const v0, 0xf3d2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;->b:Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;
 
@@ -206,7 +206,7 @@
 
     move-result v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -216,7 +216,7 @@
 
     const v0, 0xf3c8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$m;
 
@@ -224,7 +224,7 @@
 
     invoke-virtual {p0, v1}, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;->o(Ljava/lang/Runnable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -234,7 +234,7 @@
 
     const v0, 0xf3d3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$f;
 
@@ -242,7 +242,7 @@
 
     invoke-virtual {p0, v1}, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;->p(Ljava/lang/Runnable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -252,7 +252,7 @@
 
     const v0, 0xf3c9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v9, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$n;
 
@@ -278,7 +278,7 @@
 
     invoke-virtual {p0, v9}, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;->p(Ljava/lang/Runnable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -288,7 +288,7 @@
 
     const v0, 0xf3cb
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-nez p1, :cond_0
 
@@ -298,7 +298,7 @@
 
     invoke-virtual {p0, p1}, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;->p(Ljava/lang/Runnable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -321,7 +321,7 @@
 
     invoke-virtual {p0, v7}, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;->p(Ljava/lang/Runnable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -331,7 +331,7 @@
 
     const v0, 0xf3d1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$e;
 
@@ -339,7 +339,7 @@
 
     invoke-virtual {p0, v1}, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;->p(Ljava/lang/Runnable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -349,11 +349,11 @@
 
     const v0, 0xf3d9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;->p:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -363,11 +363,11 @@
 
     const v0, 0xf3d6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;->a:Lcom/meitu/mtlab/beautyplus/magicpen/c;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -377,7 +377,7 @@
 
     const v0, 0xf3ca
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v7, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$o;
 
@@ -397,7 +397,7 @@
 
     invoke-virtual {p0, v7}, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;->p(Ljava/lang/Runnable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -407,7 +407,7 @@
 
     const v0, 0xf3d4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$g;
 
@@ -415,7 +415,7 @@
 
     invoke-virtual {p0, v1}, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;->p(Ljava/lang/Runnable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -425,7 +425,7 @@
 
     const v0, 0xf3d0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;->b:Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;
 
@@ -433,7 +433,7 @@
 
     move-result v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -443,7 +443,7 @@
 
     const v0, 0xf3ce
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;->b:Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;
 
@@ -451,7 +451,7 @@
 
     move-result v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -461,7 +461,7 @@
 
     const v0, 0xf3c7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$l;
 
@@ -469,7 +469,7 @@
 
     invoke-virtual {p0, v1}, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;->o(Ljava/lang/Runnable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -479,13 +479,13 @@
 
     const v0, 0xf3c8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;->b:Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;
 
     invoke-virtual {v1, p1}, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->H(Z)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -495,13 +495,13 @@
 
     const v0, 0xf3d8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;->a:Lcom/meitu/mtlab/beautyplus/magicpen/c;
 
     invoke-virtual {v1, p1}, Lcom/meitu/mtlab/beautyplus/magicpen/c;->g(Ljava/lang/Runnable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -511,7 +511,7 @@
 
     const v0, 0xf3c2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$h;
 
@@ -519,7 +519,7 @@
 
     invoke-virtual {p0, v1}, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;->p(Ljava/lang/Runnable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -529,7 +529,7 @@
 
     const v0, 0xf3c3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$i;
 
@@ -537,7 +537,7 @@
 
     invoke-virtual {p0, v1}, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;->p(Ljava/lang/Runnable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -547,7 +547,7 @@
 
     const p1, 0xf3c4
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance p2, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$j;
 
@@ -555,7 +555,7 @@
 
     invoke-virtual {p0, p2}, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;->p(Ljava/lang/Runnable;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -565,7 +565,7 @@
 
     const v0, 0xf3c1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;->d:Landroid/view/ScaleGestureDetector;
 
@@ -791,7 +791,7 @@
 
     :cond_9
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v2
 .end method
@@ -801,13 +801,13 @@
 
     const v0, 0xf3d7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;->a:Lcom/meitu/mtlab/beautyplus/magicpen/c;
 
     invoke-virtual {v1, p1}, Lcom/meitu/mtlab/beautyplus/magicpen/c;->i(Ljava/lang/Runnable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -817,13 +817,13 @@
 
     const v0, 0xf3d5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;->a:Lcom/meitu/mtlab/beautyplus/magicpen/c;
 
     invoke-virtual {v1}, Lcom/meitu/mtlab/beautyplus/magicpen/c;->b()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -835,7 +835,7 @@
 
     const v7, 0xf3c6
 
-    invoke-static {v7}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v7}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, v6, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;->a:Lcom/meitu/mtlab/beautyplus/magicpen/c;
 
@@ -883,7 +883,7 @@
 
     invoke-virtual {p0, v9}, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;->p(Ljava/lang/Runnable;)V
 
-    invoke-static {v7}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v7}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -893,7 +893,7 @@
 
     const v0, 0xf3be
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;->c:Lcom/meitu/mtlab/beautyplus/magicpen/b;
 
@@ -904,7 +904,7 @@
     invoke-virtual {v1, p1}, Lcom/meitu/mtlab/beautyplus/magicpen/c;->k(Lcom/meitu/mtlab/beautyplus/magicpen/b;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -914,13 +914,13 @@
 
     const v0, 0xf3c5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;->b:Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;
 
     invoke-virtual {v1, p1}, Lcom/meitu/mtlab/beautyplus/magicpen/NativeGLMagicPen;->w(F)Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -930,7 +930,7 @@
 
     const v0, 0xf3cd
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v7, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$c;
 
@@ -950,7 +950,7 @@
 
     invoke-virtual {p0, v7}, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;->p(Ljava/lang/Runnable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -960,7 +960,7 @@
 
     const v0, 0xf3cc
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView$b;
 
@@ -968,7 +968,7 @@
 
     invoke-virtual {p0, v1}, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;->p(Ljava/lang/Runnable;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -978,7 +978,7 @@
 
     const v0, 0xf3c0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/meitu/mtlab/beautyplus/magicpen/MtPenGLSurfaceView;->d:Landroid/view/ScaleGestureDetector;
 
@@ -993,7 +993,7 @@
     invoke-virtual {p1, v1}, Landroid/view/ScaleGestureDetector;->setQuickScaleEnabled(Z)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

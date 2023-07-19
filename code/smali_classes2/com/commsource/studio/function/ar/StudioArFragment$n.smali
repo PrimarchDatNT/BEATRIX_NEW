@@ -41,7 +41,7 @@
 
     const/16 p1, 0x7db1
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/studio/function/ar/StudioArFragment$n;->a:Lcom/commsource/studio/function/ar/StudioArFragment;
 
@@ -98,7 +98,7 @@
 
     :cond_1
     :goto_0
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

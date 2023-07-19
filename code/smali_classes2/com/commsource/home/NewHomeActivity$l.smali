@@ -53,7 +53,7 @@
 
     const/16 v0, 0x2a8e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/home/NewHomeActivity$l;->a:Lcom/commsource/home/NewHomeActivity;
 
@@ -237,7 +237,7 @@
     invoke-virtual {v1, v3}, Landroid/widget/RelativeLayout;->setBackgroundColor(I)V
 
     :cond_5
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -247,13 +247,13 @@
 
     const/16 v0, 0x2a8d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Lcom/commsource/home/entity/e;
 
     invoke-virtual {p0, p1}, Lcom/commsource/home/NewHomeActivity$l;->a(Lcom/commsource/home/entity/e;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

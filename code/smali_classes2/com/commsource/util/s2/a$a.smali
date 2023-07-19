@@ -40,13 +40,13 @@
 
     const v0, 0x8eec
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/util/s2/a$a;->a:Lcom/commsource/util/s2/a;
 
     invoke-virtual {v1}, Lcom/commsource/util/s2/a;->h()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

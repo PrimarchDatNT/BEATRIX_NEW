@@ -40,13 +40,13 @@
 
     const/16 p1, 0x2572
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/confirm/ConfirmCover$t;->a:Lcom/commsource/widget/dialog/g0;
 
     invoke-virtual {v0}, Lcom/commsource/widget/dialog/i0;->dismissAllowingStateLoss()V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

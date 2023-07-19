@@ -65,7 +65,7 @@
 
     const v0, 0xcf11
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/remote/abt/a;
 
@@ -75,7 +75,7 @@
 
     invoke-direct {v1, v2, v3, p1}, Lcom/meitu/remote/abt/a;-><init>(Landroid/content/Context;Lf/k/g0/g/d/d;Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -88,7 +88,7 @@
     const v0, 0xcf10
 
     :try_start_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/remote/abt/c/a;->a:Ljava/util/Map;
 
@@ -115,7 +115,7 @@
 
     check-cast p1, Lcom/meitu/remote/abt/a;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 

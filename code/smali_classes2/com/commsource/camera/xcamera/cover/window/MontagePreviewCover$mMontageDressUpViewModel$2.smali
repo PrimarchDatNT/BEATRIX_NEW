@@ -53,7 +53,7 @@
 
     const v0, 0x87ce
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$mMontageDressUpViewModel$2;->this$0:Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover;
 
@@ -65,7 +65,7 @@
 
     check-cast v1, Lcom/commsource/camera/montage/w;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -75,13 +75,13 @@
 
     const v0, 0x87cd
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/commsource/camera/xcamera/cover/window/MontagePreviewCover$mMontageDressUpViewModel$2;->invoke()Lcom/commsource/camera/montage/w;
 
     move-result-object v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

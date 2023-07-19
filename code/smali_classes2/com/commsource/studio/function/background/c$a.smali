@@ -38,7 +38,7 @@
 
     const p4, 0x9bae
 
-    invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p4}, Lcom/res/ANRTrace;->e(I)V
 
     and-int/lit8 p3, p3, 0x2
 
@@ -51,7 +51,7 @@
 
     move-result-object p0
 
-    invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p4}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -65,7 +65,7 @@
 
     const v0, 0x9bad
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v9, Lcom/commsource/studio/function/background/BackgroundType;
 
@@ -101,7 +101,7 @@
 
     invoke-direct/range {v1 .. v8}, Lcom/commsource/studio/function/background/BackgroundType;-><init>(I[F[F[I[FZI)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v9
 
@@ -139,7 +139,7 @@
 
     const v2, 0x9baf
 
-    invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v2}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v3, "backgroundColor"
 
@@ -411,7 +411,7 @@
     const/4 v1, 0x0
 
     :goto_4
-    invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v2}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

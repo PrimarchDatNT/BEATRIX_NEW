@@ -42,7 +42,7 @@
 
     const p2, 0xb4cf
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/meitu/library/camera/basecamera/f$h$b;->b:Lcom/meitu/library/camera/basecamera/f$h;
 
@@ -52,7 +52,7 @@
 
     invoke-interface {v0, p1}, Lcom/meitu/library/camera/o/c$a;->a(Z)V
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

@@ -36,7 +36,7 @@
 
     const v0, 0xa665
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/widget/layeredimageview/layer/MirrorWindowLayer$Mode;
 
@@ -68,7 +68,7 @@
 
     sput-object v4, Lcom/meitu/widget/layeredimageview/layer/MirrorWindowLayer$Mode;->$VALUES:[Lcom/meitu/widget/layeredimageview/layer/MirrorWindowLayer$Mode;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -91,7 +91,7 @@
 
     const v0, 0xa664
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-class v1, Lcom/meitu/widget/layeredimageview/layer/MirrorWindowLayer$Mode;
 
@@ -101,7 +101,7 @@
 
     check-cast p0, Lcom/meitu/widget/layeredimageview/layer/MirrorWindowLayer$Mode;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -111,7 +111,7 @@
 
     const v0, 0xa663
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/widget/layeredimageview/layer/MirrorWindowLayer$Mode;->$VALUES:[Lcom/meitu/widget/layeredimageview/layer/MirrorWindowLayer$Mode;
 
@@ -121,7 +121,7 @@
 
     check-cast v1, [Lcom/meitu/widget/layeredimageview/layer/MirrorWindowLayer$Mode;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

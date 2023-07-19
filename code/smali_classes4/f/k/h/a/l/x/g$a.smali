@@ -47,7 +47,7 @@
 
     const v0, 0xc7c4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-nez p1, :cond_0
 
@@ -67,7 +67,7 @@
     invoke-static {p1}, Lf/k/h/a/l/x/g;->g(Lf/k/h/a/l/x/g;)V
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

@@ -40,7 +40,7 @@
 
     const/16 p1, 0x5d61
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/studio/text/TextTabView$d;->a:Lcom/commsource/studio/text/TextTabView;
 
@@ -57,7 +57,7 @@
     invoke-static {v0}, Lcom/commsource/studio/text/TextTabView;->c(Lcom/commsource/studio/text/TextTabView;)V
 
     :cond_0
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

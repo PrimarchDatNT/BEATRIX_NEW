@@ -37,7 +37,7 @@
 
     const/16 v0, 0x55e4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Landroid/graphics/Rect;
 
@@ -71,7 +71,7 @@
 
     invoke-virtual {p2, p1, v1}, Landroid/graphics/Outline;->setRoundRect(Landroid/graphics/Rect;F)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

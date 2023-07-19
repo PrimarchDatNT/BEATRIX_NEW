@@ -48,7 +48,7 @@
 
     const v0, 0xb93b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/library/h/f$a;->b:J
 
@@ -71,7 +71,7 @@
 
     invoke-static {v1, v2}, Lcom/meitu/library/h/f;->a(Lcom/meitu/library/h/f;Landroid/content/Context;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

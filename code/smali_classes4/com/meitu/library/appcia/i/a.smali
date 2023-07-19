@@ -71,7 +71,7 @@
 
     const v0, 0xcad5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/appcia/i/a;->a:Lcom/meitu/library/optimus/apm/a;
 
@@ -126,7 +126,7 @@
     iput-object v1, p0, Lcom/meitu/library/appcia/i/a;->a:Lcom/meitu/library/optimus/apm/a;
 
     :cond_4
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -140,7 +140,7 @@
 
     const v0, 0xcad2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/meitu/library/appcia/i/a;->d:Ljava/lang/String;
 
@@ -157,7 +157,7 @@
     invoke-virtual {v1, p1}, Lcom/meitu/library/optimus/apm/e;->J(Ljava/lang/String;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -171,7 +171,7 @@
 
     const v0, 0xcad3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/meitu/library/appcia/i/a;->e:Ljava/lang/String;
 
@@ -188,7 +188,7 @@
     invoke-virtual {v1, p1}, Lcom/meitu/library/optimus/apm/e;->Q(Ljava/lang/String;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -202,7 +202,7 @@
 
     const v0, 0xcad4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/meitu/library/appcia/i/a;->f:Ljava/lang/String;
 
@@ -219,7 +219,7 @@
     invoke-virtual {v1, p1}, Lcom/meitu/library/optimus/apm/e;->g0(Ljava/lang/String;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

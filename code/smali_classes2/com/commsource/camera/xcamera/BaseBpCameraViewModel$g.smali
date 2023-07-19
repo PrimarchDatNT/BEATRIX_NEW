@@ -50,7 +50,7 @@
 
     const/16 v0, 0x1141
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-super {p0, p1, p2}, Lcom/commsource/camera/xcamera/p/a;->F(Lcom/google/ar/core/TrackingState;Lcom/google/ar/core/TrackingState;)V
 
@@ -58,7 +58,7 @@
 
     invoke-virtual {v1, p1, p2}, Lcom/commsource/camera/xcamera/BaseBpCameraViewModel;->C0(Lcom/google/ar/core/TrackingState;Lcom/google/ar/core/TrackingState;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -80,7 +80,7 @@
 
     const/16 v0, 0x1140
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-super {p0, p1, p2, p3}, Lcom/commsource/camera/xcamera/p/a;->h1(Lcom/meitu/library/d/a/a;Lcom/google/ar/core/Session;Lcom/meitu/library/d/a/a$c;)V
 
@@ -108,7 +108,7 @@
     :goto_0
     invoke-virtual {p1, p2}, Landroidx/lifecycle/MutableLiveData;->postValue(Ljava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

@@ -53,7 +53,7 @@
 
     const/16 v0, 0x191
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/function/relight/NewRelightFragment$relightViewModel$2;->this$0:Lcom/commsource/studio/function/relight/NewRelightFragment;
 
@@ -65,7 +65,7 @@
 
     check-cast v1, Lcom/commsource/studio/function/relight/g;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -75,13 +75,13 @@
 
     const/16 v0, 0x190
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/commsource/studio/function/relight/NewRelightFragment$relightViewModel$2;->invoke()Lcom/commsource/studio/function/relight/g;
 
     move-result-object v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

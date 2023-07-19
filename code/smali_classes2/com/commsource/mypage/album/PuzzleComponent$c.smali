@@ -40,7 +40,7 @@
 
     const/16 p1, 0x617d
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/mypage/album/PuzzleComponent$c;->a:Lcom/commsource/mypage/album/PuzzleComponent;
 
@@ -72,7 +72,7 @@
 
     invoke-static {v0}, Lcom/commsource/statistics/i;->p(Ljava/lang/String;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

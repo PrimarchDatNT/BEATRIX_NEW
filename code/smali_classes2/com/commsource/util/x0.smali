@@ -17,7 +17,7 @@
 
     const/16 v0, 0x847
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lcom/google/android/gms/common/d;->v()Lcom/google/android/gms/common/d;
 
@@ -37,7 +37,7 @@
     const/4 p0, 0x1
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p0
 .end method

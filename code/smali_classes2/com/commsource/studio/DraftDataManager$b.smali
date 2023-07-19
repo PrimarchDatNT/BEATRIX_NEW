@@ -57,7 +57,7 @@
 
     const v0, 0x959a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "msg"
 
@@ -118,7 +118,7 @@
     invoke-static {p1, v1}, Lcom/commsource/studio/DraftDataManager;->e(Lcom/commsource/studio/DraftDataManager;Ljava/lang/String;)V
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -127,7 +127,7 @@
 
     monitor-exit p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw v1
 .end method

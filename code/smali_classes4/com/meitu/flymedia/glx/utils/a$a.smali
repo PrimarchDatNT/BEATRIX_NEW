@@ -96,7 +96,7 @@
 
     const v0, 0xe18f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/flymedia/glx/utils/a$a;->c:Lcom/meitu/flymedia/glx/utils/a$b;
 
@@ -141,7 +141,7 @@
 
     iput-boolean v4, v2, Lcom/meitu/flymedia/glx/utils/a$b;->d:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 
@@ -154,7 +154,7 @@
 
     iput-boolean v4, v1, Lcom/meitu/flymedia/glx/utils/a$b;->d:Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v2
 .end method

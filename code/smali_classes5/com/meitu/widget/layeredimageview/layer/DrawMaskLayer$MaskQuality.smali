@@ -44,7 +44,7 @@
 
     const v0, 0xa6cf
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$MaskQuality;
 
@@ -108,7 +108,7 @@
 
     sput-object v7, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$MaskQuality;->$VALUES:[Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$MaskQuality;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -135,7 +135,7 @@
 
     const v0, 0xa6ce
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p0, :cond_2
 
@@ -149,28 +149,28 @@
 
     sget-object p0, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$MaskQuality;->ARGB_8888:Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$MaskQuality;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
     :cond_0
     sget-object p0, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$MaskQuality;->ARGB_4444:Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$MaskQuality;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
     :cond_1
     sget-object p0, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$MaskQuality;->RGB_565:Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$MaskQuality;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
     :cond_2
     sget-object p0, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$MaskQuality;->ALPHA_8:Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$MaskQuality;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -180,7 +180,7 @@
 
     const v0, 0xa6cd
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-class v1, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$MaskQuality;
 
@@ -190,7 +190,7 @@
 
     check-cast p0, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$MaskQuality;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -200,7 +200,7 @@
 
     const v0, 0xa6cc
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$MaskQuality;->$VALUES:[Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$MaskQuality;
 
@@ -210,7 +210,7 @@
 
     check-cast v1, [Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$MaskQuality;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -222,11 +222,11 @@
 
     const v0, 0xa6ce
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/widget/layeredimageview/layer/DrawMaskLayer$MaskQuality;->mConfig:Landroid/graphics/Bitmap$Config;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

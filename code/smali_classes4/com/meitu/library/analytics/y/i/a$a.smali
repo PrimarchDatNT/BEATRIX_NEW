@@ -59,7 +59,7 @@
 
     const v0, 0xd5f9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/meitu/library/analytics/y/i/a$a;->b:I
 
@@ -73,7 +73,7 @@
 
     invoke-static {v1, v2}, Lcom/meitu/library/analytics/y/i/a;->a(Lcom/meitu/library/analytics/y/i/a;Lcom/meitu/library/analytics/y/l/d;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -88,7 +88,7 @@
 
     invoke-static {v1, v2}, Lcom/meitu/library/analytics/y/i/a;->b(Lcom/meitu/library/analytics/y/i/a;Lcom/meitu/library/analytics/y/l/d;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -103,7 +103,7 @@
 
     invoke-static {v1, v2}, Lcom/meitu/library/analytics/y/i/a;->c(Lcom/meitu/library/analytics/y/i/a;Lcom/meitu/library/analytics/y/l/d;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -118,7 +118,7 @@
 
     invoke-static {v1, v2}, Lcom/meitu/library/analytics/y/i/a;->d(Lcom/meitu/library/analytics/y/i/a;Lcom/meitu/library/analytics/y/l/d;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -129,7 +129,7 @@
 
     invoke-static {v1, v2}, Lcom/meitu/library/analytics/y/j/d;->j(Ljava/lang/String;Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

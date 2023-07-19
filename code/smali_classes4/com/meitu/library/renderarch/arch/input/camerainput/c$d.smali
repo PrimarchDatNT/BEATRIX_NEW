@@ -48,7 +48,7 @@
 
     const p1, 0xaf9d
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-boolean v0, p0, Lcom/meitu/library/renderarch/arch/input/camerainput/c$d;->a:Z
 
@@ -87,7 +87,7 @@
 
     invoke-virtual {v0}, Lcom/meitu/library/renderarch/arch/input/camerainput/c;->Q()V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

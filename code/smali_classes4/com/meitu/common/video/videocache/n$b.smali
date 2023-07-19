@@ -47,13 +47,13 @@
 
     const v0, 0xf1ff
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/common/video/videocache/n$b;->a:Lcom/meitu/common/video/videocache/n;
 
     invoke-static {v1}, Lcom/meitu/common/video/videocache/n;->a(Lcom/meitu/common/video/videocache/n;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

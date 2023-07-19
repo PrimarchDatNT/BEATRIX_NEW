@@ -73,7 +73,7 @@
 
     const/16 v0, 0x541
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/billing/pro/i/b$d;->a:Lcom/commsource/billing/pro/i/b;
 
@@ -160,7 +160,7 @@
     invoke-interface {v1, p1}, Lcom/commsource/billing/pro/a;->a(Ljava/lang/Object;)V
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -170,7 +170,7 @@
 
     const/16 v0, 0x542
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/billing/pro/i/b$d;->a:Lcom/commsource/billing/pro/i/b;
 
@@ -199,7 +199,7 @@
     invoke-interface {v1, p1, v2}, Lcom/commsource/billing/pro/a;->onError(ILjava/lang/String;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

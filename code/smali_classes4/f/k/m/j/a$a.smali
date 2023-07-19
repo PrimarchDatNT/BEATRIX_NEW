@@ -39,7 +39,7 @@
 
     const p1, 0xc841
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lf/k/m/b;->i()Lf/k/m/b;
 
@@ -56,7 +56,7 @@
     invoke-interface {v0, v1}, Lf/k/m/d;->l(Landroid/app/Activity;)V
 
     :cond_0
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

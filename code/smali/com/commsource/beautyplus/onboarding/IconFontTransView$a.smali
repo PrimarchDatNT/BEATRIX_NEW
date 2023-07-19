@@ -52,7 +52,7 @@
 
     const p1, 0x8c4c
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p2, p0, Lcom/commsource/beautyplus/onboarding/IconFontTransView$a;->b:Lcom/commsource/beautyplus/onboarding/IconFontTransView;
 
@@ -66,7 +66,7 @@
 
     invoke-static {p2, p3}, Lcom/commsource/beautyplus/onboarding/IconFontTransView;->d(Lcom/commsource/beautyplus/onboarding/IconFontTransView;Lcom/commsource/widget/IconFrontView;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

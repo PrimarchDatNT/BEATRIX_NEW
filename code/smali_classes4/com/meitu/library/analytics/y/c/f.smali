@@ -56,7 +56,7 @@
 
     const v0, 0xd6ea
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/analytics/y/c/f;->a:Lcom/meitu/library/analytics/y/n/i;
 
@@ -118,7 +118,7 @@
     :cond_1
     iget-object v1, p0, Lcom/meitu/library/analytics/y/c/f;->b:Lcom/meitu/library/analytics/y/o/p$a;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -130,7 +130,7 @@
 
     const v0, 0xd6eb
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0}, Lcom/meitu/library/analytics/y/c/f;->b()Lcom/meitu/library/analytics/y/o/p$a;
 
@@ -149,7 +149,7 @@
     const/4 v3, 0x1
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v3
 .end method

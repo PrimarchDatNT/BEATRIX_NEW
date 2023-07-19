@@ -33,11 +33,11 @@
 
     const v0, 0xb832
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iput-object p1, p0, Lcom/meitu/library/n/a/k/a/a;->a:Lcom/meitu/library/n/a/k/a/a$a;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -49,7 +49,7 @@
 
     const p2, 0xb833
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/meitu/library/n/a/k/a/a;->a:Lcom/meitu/library/n/a/k/a/a$a;
 
@@ -62,7 +62,7 @@
     invoke-interface {v0, p1}, Lcom/meitu/library/n/a/k/a/a$a;->a(Lcom/meitu/library/renderarch/arch/data/b/h;)V
 
     :cond_0
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

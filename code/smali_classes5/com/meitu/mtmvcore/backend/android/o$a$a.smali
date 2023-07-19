@@ -39,7 +39,7 @@
 
     const v0, 0xde21
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/mtmvcore/backend/android/o$a$a;->a:Lcom/meitu/mtmvcore/backend/android/o$a;
 
@@ -49,7 +49,7 @@
 
     invoke-interface {v1, v2}, Lcom/meitu/mtmvcore/backend/android/g;->v(Z)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

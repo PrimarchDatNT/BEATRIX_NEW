@@ -45,7 +45,7 @@
 
     const v0, 0xd877
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/library/optimus/apm/v/f;->b:Lcom/meitu/library/optimus/apm/v/f;
 
@@ -66,7 +66,7 @@
 
     invoke-virtual {v1}, Landroid/database/sqlite/SQLiteDatabase;->close()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -77,7 +77,7 @@
 
     invoke-virtual {v1}, Landroid/database/sqlite/SQLiteDatabase;->close()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p0
 .end method
@@ -87,7 +87,7 @@
 
     const v0, 0xd876
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/library/optimus/apm/v/f;->b:Lcom/meitu/library/optimus/apm/v/f;
 
@@ -122,7 +122,7 @@
 
     invoke-virtual {v1}, Landroid/database/sqlite/SQLiteDatabase;->close()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -133,7 +133,7 @@
 
     invoke-virtual {v1}, Landroid/database/sqlite/SQLiteDatabase;->close()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p0
 .end method
@@ -151,7 +151,7 @@
 
     const v0, 0xd870
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/library/optimus/apm/v/f;
 
@@ -159,7 +159,7 @@
 
     sput-object v1, Lcom/meitu/library/optimus/apm/v/f;->b:Lcom/meitu/library/optimus/apm/v/f;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -178,7 +178,7 @@
 
     const v0, 0xd871
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/library/optimus/apm/v/f;->b:Lcom/meitu/library/optimus/apm/v/f;
 
@@ -244,7 +244,7 @@
 
     invoke-virtual {v1}, Landroid/database/sqlite/SQLiteDatabase;->close()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -255,7 +255,7 @@
 
     invoke-virtual {v1}, Landroid/database/sqlite/SQLiteDatabase;->close()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p0
 .end method
@@ -275,7 +275,7 @@
 
     const v0, 0xd872
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/library/optimus/apm/v/f;->b:Lcom/meitu/library/optimus/apm/v/f;
 
@@ -359,7 +359,7 @@
 
     invoke-virtual {v1}, Landroid/database/sqlite/SQLiteDatabase;->close()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -370,7 +370,7 @@
 
     invoke-virtual {v1}, Landroid/database/sqlite/SQLiteDatabase;->close()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p0
 .end method
@@ -380,7 +380,7 @@
 
     const v0, 0xd878
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/library/optimus/apm/v/f;->b:Lcom/meitu/library/optimus/apm/v/f;
 
@@ -401,7 +401,7 @@
 
     invoke-virtual {v1}, Landroid/database/sqlite/SQLiteDatabase;->close()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -412,7 +412,7 @@
 
     invoke-virtual {v1}, Landroid/database/sqlite/SQLiteDatabase;->close()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p0
 .end method
@@ -448,7 +448,7 @@
 
     const v0, 0xd874
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/library/optimus/apm/v/f;->b:Lcom/meitu/library/optimus/apm/v/f;
 
@@ -502,7 +502,7 @@
 
     invoke-virtual {v1}, Landroid/database/sqlite/SQLiteDatabase;->close()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p2
 
@@ -513,7 +513,7 @@
 
     invoke-virtual {v1}, Landroid/database/sqlite/SQLiteDatabase;->close()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p0
 .end method
@@ -531,7 +531,7 @@
 
     const v0, 0xd875
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/library/optimus/apm/v/f;->b:Lcom/meitu/library/optimus/apm/v/f;
 
@@ -563,7 +563,7 @@
 
     invoke-virtual {v1}, Landroid/database/sqlite/SQLiteDatabase;->close()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v2
 
@@ -574,7 +574,7 @@
 
     invoke-virtual {v1}, Landroid/database/sqlite/SQLiteDatabase;->close()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p1
 .end method
@@ -597,7 +597,7 @@
 
     const v0, 0xd873
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/library/optimus/apm/v/f;->b:Lcom/meitu/library/optimus/apm/v/f;
 
@@ -630,7 +630,7 @@
 
     invoke-virtual {v1}, Landroid/database/sqlite/SQLiteDatabase;->close()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -641,7 +641,7 @@
 
     invoke-virtual {v1}, Landroid/database/sqlite/SQLiteDatabase;->close()V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p0
 .end method
@@ -653,7 +653,7 @@
 
     const v0, 0xd879
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/v/f;->a:Lcom/meitu/library/optimus/apm/v/f$a;
 
@@ -683,7 +683,7 @@
     goto :goto_0
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -693,13 +693,13 @@
 
     const v0, 0xd87a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/optimus/apm/v/f;->a:Lcom/meitu/library/optimus/apm/v/f$a;
 
     invoke-interface {v1, p1, p2, p3}, Lcom/meitu/library/optimus/apm/v/f$a;->b(Landroid/database/sqlite/SQLiteDatabase;II)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

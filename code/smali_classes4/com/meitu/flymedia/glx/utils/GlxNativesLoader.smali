@@ -21,13 +21,13 @@
 
     const v0, 0xe297
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x0
 
     sput-object v1, Lcom/meitu/flymedia/glx/utils/GlxNativesLoader;->a:Lcom/meitu/flymedia/glx/utils/GlxNativesLoader$LoadLibraryDelegate;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -50,7 +50,7 @@
     const v1, 0xe295
 
     :try_start_0
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v2, Lcom/meitu/flymedia/glx/utils/GlxNativesLoader;->a:Lcom/meitu/flymedia/glx/utils/GlxNativesLoader$LoadLibraryDelegate;
 
@@ -222,7 +222,7 @@
     invoke-virtual {v2}, Ljava/lang/UnsatisfiedLinkError;->printStackTrace()V
 
     :goto_2
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
     :try_end_8
     .catchall {:try_start_8 .. :try_end_8} :catchall_0
 
@@ -243,11 +243,11 @@
 
     const v0, 0xe296
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sput-object p0, Lcom/meitu/flymedia/glx/utils/GlxNativesLoader;->a:Lcom/meitu/flymedia/glx/utils/GlxNativesLoader$LoadLibraryDelegate;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

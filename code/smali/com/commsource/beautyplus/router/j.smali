@@ -746,7 +746,7 @@
 
     const v0, 0x907d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/beautyplus/router/j;
 
@@ -754,7 +754,7 @@
 
     sput-object v1, Lcom/commsource/beautyplus/router/j;->Q1:Lcom/commsource/beautyplus/router/j;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

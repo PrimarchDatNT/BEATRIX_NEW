@@ -44,13 +44,13 @@
 
     const p1, 0x8faa
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p2, p0, Lcom/commsource/beautyplus/start/StartUpAdvertActivity$c;->a:Lcom/commsource/beautyplus/start/StartUpAdvertActivity;
 
     invoke-virtual {p2}, Lcom/commsource/beautyplus/start/StartUpAdvertActivity;->finish()V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

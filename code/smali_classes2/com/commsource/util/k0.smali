@@ -15,7 +15,7 @@
 
     const v0, 0x84a8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lcom/meitu/library/util/Debug/Debug$DebugLevel;->values()[Lcom/meitu/library/util/Debug/Debug$DebugLevel;
 
@@ -67,7 +67,7 @@
 
     aput v3, v1, v2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

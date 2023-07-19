@@ -40,7 +40,7 @@
 
     const p1, 0x91e4
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p2}, Lf/d/i/e;->a4(Z)V
 
@@ -80,7 +80,7 @@
 
     invoke-virtual {p2}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/z0;->n()V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

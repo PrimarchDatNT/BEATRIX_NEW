@@ -53,7 +53,7 @@
 
     const v0, 0x8d7b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/video/cover/VideoControllCover$positionTimer$2$a;
 
@@ -61,7 +61,7 @@
 
     invoke-direct {v1, p0, v2, v3}, Lcom/commsource/video/cover/VideoControllCover$positionTimer$2$a;-><init>(Lcom/commsource/video/cover/VideoControllCover$positionTimer$2;J)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -71,13 +71,13 @@
 
     const v0, 0x8d7a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/commsource/video/cover/VideoControllCover$positionTimer$2;->invoke()Lcom/commsource/video/cover/VideoControllCover$positionTimer$2$a;
 
     move-result-object v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

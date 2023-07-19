@@ -31,7 +31,7 @@
 
     const v0, 0xd9bd
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/mtuploader/u/c;->g:Lcom/meitu/mtuploader/u/c;
 
@@ -70,7 +70,7 @@
     :try_end_0
     .catchall {:try_start_0 .. :try_end_0} :catchall_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     throw p0
 
@@ -78,7 +78,7 @@
     :goto_0
     sget-object p0, Lcom/meitu/mtuploader/u/c;->g:Lcom/meitu/mtuploader/u/c;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -90,13 +90,13 @@
 
     const v0, 0xd9be
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "create table token (id integer primary key autoincrement, orders varchar(20) not null, groupid integer not null, sequence integer not null, starttime long not null, token varchar(100) not null, key varchar(60) not null, url varchar(100) not null, backup_url varchar(100) not null, ttl integer not null, chunk_size integer not null, connect_timeout integer not null, socket_timeout integer not null, uploadkey varchar(100) not null, filetype varchar(10) not null, suffix varchar(10) not null);"
 
     invoke-virtual {p1, v1}, Landroid/database/sqlite/SQLiteDatabase;->execSQL(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -106,7 +106,7 @@
 
     const p2, 0xd9bf
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     const-string p3, "drop table if existstoken"
 
@@ -114,7 +114,7 @@
 
     invoke-virtual {p0, p1}, Lcom/meitu/mtuploader/u/c;->onCreate(Landroid/database/sqlite/SQLiteDatabase;)V
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

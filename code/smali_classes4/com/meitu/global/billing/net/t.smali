@@ -94,7 +94,7 @@
 
     const v0, 0xc6b8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v7, Ljava/lang/Thread;
 
@@ -150,7 +150,7 @@
     invoke-virtual {v7, v1}, Ljava/lang/Thread;->setPriority(I)V
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v7
 .end method

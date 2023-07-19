@@ -42,7 +42,7 @@
 
     const v2, 0xacd1
 
-    invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v2}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     iget-object v3, p0, Lcom/meitu/library/camera/p/d/j/f$b;->a:Lcom/meitu/library/camera/p/d/j/f;
@@ -214,7 +214,7 @@
 
     :cond_5
     :goto_3
-    invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

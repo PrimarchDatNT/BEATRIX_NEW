@@ -39,13 +39,13 @@
 
     const p1, 0xc8ce
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity$a;->a:Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;
 
     invoke-virtual {v0}, Lcom/meitu/ipstore/web/IPStoreInternalWebViewActivity;->finish()V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

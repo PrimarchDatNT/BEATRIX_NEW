@@ -62,7 +62,7 @@
 
     const v0, 0xb52c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/camera/basecamera/e$k;->p:Lcom/meitu/library/camera/basecamera/e;
 
@@ -93,7 +93,7 @@
     invoke-interface/range {v2 .. v8}, Lcom/meitu/library/camera/basecamera/b;->d(IILandroid/graphics/Rect;IIZ)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

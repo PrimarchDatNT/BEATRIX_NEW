@@ -52,7 +52,7 @@
 
     const/16 p1, 0x4c41
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/aieditor/AiEditorProcessActivity$i;->a:Lcom/commsource/aieditor/AiEditorProcessActivity;
 
@@ -60,7 +60,7 @@
 
     invoke-static {v0, v1}, Lcom/commsource/aieditor/AiEditorProcessActivity;->Q0(Lcom/commsource/aieditor/AiEditorProcessActivity;I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -74,13 +74,13 @@
 
     const/16 v0, 0x4c42
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/aieditor/AiEditorProcessActivity$i;->a(Ljava/lang/Boolean;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

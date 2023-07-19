@@ -29,7 +29,7 @@
 
     const v0, 0xc00c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-wide v1, p0, Lcom/meitu/filterglextension/MTABSkinFilter;->a:J
 
@@ -47,7 +47,7 @@
     const/4 v1, 0x0
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -57,7 +57,7 @@
 
     const v0, 0xc024
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     const-string v1, "gnustl_shared"
@@ -164,7 +164,7 @@
     invoke-virtual {v1}, Ljava/lang/Throwable;->printStackTrace()V
 
     :goto_6
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -245,7 +245,7 @@
 
     const v0, 0xc01c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0}, Lcom/meitu/filterglextension/MTABSkinFilter;->e()Z
 
@@ -259,14 +259,14 @@
 
     move-result v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 
     :cond_0
     const/4 v1, 0x0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -276,7 +276,7 @@
 
     const v0, 0xc01b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0}, Lcom/meitu/filterglextension/MTABSkinFilter;->e()Z
 
@@ -290,14 +290,14 @@
 
     move-result v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 
     :cond_0
     const/4 v1, 0x0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -307,7 +307,7 @@
 
     const v0, 0xc020
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0}, Lcom/meitu/filterglextension/MTABSkinFilter;->e()Z
 
@@ -321,14 +321,14 @@
 
     move-result v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 
     :cond_0
     const/4 v1, 0x0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -338,7 +338,7 @@
 
     const v0, 0xc021
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0}, Lcom/meitu/filterglextension/MTABSkinFilter;->e()Z
 
@@ -368,7 +368,7 @@
 
     move-result v2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v2
 
@@ -377,7 +377,7 @@
 
     const/4 v2, 0x0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v2
 .end method
@@ -387,7 +387,7 @@
 
     const v0, 0xc00d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     invoke-static {}, Lcom/meitu/filterglextension/MTABSkinFilter;->f()V
@@ -414,7 +414,7 @@
     iput-wide v1, p0, Lcom/meitu/filterglextension/MTABSkinFilter;->a:J
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -424,7 +424,7 @@
 
     const v0, 0xc00e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0}, Lcom/meitu/filterglextension/MTABSkinFilter;->e()Z
 
@@ -441,7 +441,7 @@
     iput-wide v1, p0, Lcom/meitu/filterglextension/MTABSkinFilter;->a:J
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -451,7 +451,7 @@
 
     const v0, 0xc01a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0}, Lcom/meitu/filterglextension/MTABSkinFilter;->e()Z
 
@@ -464,7 +464,7 @@
     invoke-static {v1, v2}, Lcom/meitu/filterglextension/MTABSkinFilter;->nRedo(J)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -474,7 +474,7 @@
 
     const v0, 0xc01d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0}, Lcom/meitu/filterglextension/MTABSkinFilter;->e()Z
 
@@ -502,14 +502,14 @@
 
     move-result v2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v2
 
     :cond_0
     move-object v1, p0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p2
 .end method
@@ -519,7 +519,7 @@
 
     const v0, 0xc018
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0}, Lcom/meitu/filterglextension/MTABSkinFilter;->e()Z
 
@@ -545,7 +545,7 @@
     invoke-static {v1, v2, p1}, Lcom/meitu/filterglextension/MTABSkinFilter;->nSetBrushCachingSteps(JLjava/lang/String;)V
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -555,7 +555,7 @@
 
     const v0, 0xc010
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0}, Lcom/meitu/filterglextension/MTABSkinFilter;->e()Z
 
@@ -568,7 +568,7 @@
     invoke-static {v1, v2, p1, p2, p3}, Lcom/meitu/filterglextension/MTABSkinFilter;->nSetBrushColor(JIII)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -578,7 +578,7 @@
 
     const v0, 0xc016
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0}, Lcom/meitu/filterglextension/MTABSkinFilter;->e()Z
 
@@ -591,7 +591,7 @@
     invoke-static {v1, v2, p1}, Lcom/meitu/filterglextension/MTABSkinFilter;->nSetBrushMode(JI)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -601,7 +601,7 @@
 
     const v0, 0xc01f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0}, Lcom/meitu/filterglextension/MTABSkinFilter;->e()Z
 
@@ -622,7 +622,7 @@
     invoke-static/range {v2 .. v7}, Lcom/meitu/filterglextension/MTABSkinFilter;->nSetBrushParam(JFFFI)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -632,7 +632,7 @@
 
     const v0, 0xc017
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0}, Lcom/meitu/filterglextension/MTABSkinFilter;->e()Z
 
@@ -645,7 +645,7 @@
     invoke-static {v1, v2, p1, p2}, Lcom/meitu/filterglextension/MTABSkinFilter;->nSetBrushSize(JII)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -655,7 +655,7 @@
 
     const v0, 0xc00f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0}, Lcom/meitu/filterglextension/MTABSkinFilter;->e()Z
 
@@ -668,7 +668,7 @@
     invoke-static {v1, v2, p1}, Lcom/meitu/filterglextension/MTABSkinFilter;->nSetInputImage(JLandroid/graphics/Bitmap;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -678,7 +678,7 @@
 
     const v0, 0xc01e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0}, Lcom/meitu/filterglextension/MTABSkinFilter;->e()Z
 
@@ -691,7 +691,7 @@
     invoke-static {v1, v2, p1, p2}, Lcom/meitu/filterglextension/MTABSkinFilter;->nSetInputMask(JLandroid/graphics/Bitmap;I)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -701,7 +701,7 @@
 
     const v0, 0xc023
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0}, Lcom/meitu/filterglextension/MTABSkinFilter;->e()Z
 
@@ -714,7 +714,7 @@
     invoke-static {v1, v2, p1}, Lcom/meitu/filterglextension/MTABSkinFilter;->nSetPointDensity(JF)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -724,7 +724,7 @@
 
     const v0, 0xc022
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0}, Lcom/meitu/filterglextension/MTABSkinFilter;->e()Z
 
@@ -737,7 +737,7 @@
     invoke-static {v1, v2, p1}, Lcom/meitu/filterglextension/MTABSkinFilter;->nSetShouldRestBrushColor(JZ)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -747,7 +747,7 @@
 
     const v0, 0xc015
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0}, Lcom/meitu/filterglextension/MTABSkinFilter;->e()Z
 
@@ -760,7 +760,7 @@
     invoke-static {v1, v2, p1}, Lcom/meitu/filterglextension/MTABSkinFilter;->nSetSkinAlpha(JF)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -770,7 +770,7 @@
 
     const v0, 0xc014
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0}, Lcom/meitu/filterglextension/MTABSkinFilter;->e()Z
 
@@ -791,7 +791,7 @@
     invoke-static/range {v2 .. v7}, Lcom/meitu/filterglextension/MTABSkinFilter;->nTouchesCancelled(JFFFF)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -801,7 +801,7 @@
 
     const v0, 0xc011
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0}, Lcom/meitu/filterglextension/MTABSkinFilter;->e()Z
 
@@ -822,7 +822,7 @@
     invoke-static/range {v2 .. v7}, Lcom/meitu/filterglextension/MTABSkinFilter;->nTouchesBegan(JFFFF)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -832,7 +832,7 @@
 
     const v0, 0xc012
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0}, Lcom/meitu/filterglextension/MTABSkinFilter;->e()Z
 
@@ -853,7 +853,7 @@
     invoke-static/range {v2 .. v7}, Lcom/meitu/filterglextension/MTABSkinFilter;->nTouchesMoved(JFFFF)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -863,7 +863,7 @@
 
     const v0, 0xc013
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0}, Lcom/meitu/filterglextension/MTABSkinFilter;->e()Z
 
@@ -884,7 +884,7 @@
     invoke-static/range {v2 .. v7}, Lcom/meitu/filterglextension/MTABSkinFilter;->nTouchesEnded(JFFFF)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -894,7 +894,7 @@
 
     const v0, 0xc019
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-direct {p0}, Lcom/meitu/filterglextension/MTABSkinFilter;->e()Z
 
@@ -907,7 +907,7 @@
     invoke-static {v1, v2}, Lcom/meitu/filterglextension/MTABSkinFilter;->nUndo(J)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

@@ -40,7 +40,7 @@
 
     const/16 p1, 0x4972
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/studio/function/StyleFragment$showPrismAnimation$1$b;->a:Lcom/commsource/studio/function/StyleFragment$showPrismAnimation$1;
 
@@ -48,7 +48,7 @@
 
     invoke-static {v0}, Lcom/commsource/studio/function/StyleFragment;->K1(Lcom/commsource/studio/function/StyleFragment;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

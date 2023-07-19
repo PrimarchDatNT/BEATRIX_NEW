@@ -56,13 +56,13 @@
 
     const/16 v0, 0x50e1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/mypage/album/MoreComponent$l;->a:Lcom/commsource/mypage/album/MoreComponent;
 
     invoke-static {v1, p1}, Lcom/commsource/mypage/album/MoreComponent;->n(Lcom/commsource/mypage/album/MoreComponent;Lcom/commsource/mypage/album/z$g;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -72,13 +72,13 @@
 
     const/16 v0, 0x50e0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Lcom/commsource/mypage/album/z$g;
 
     invoke-virtual {p0, p1}, Lcom/commsource/mypage/album/MoreComponent$l;->a(Lcom/commsource/mypage/album/z$g;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

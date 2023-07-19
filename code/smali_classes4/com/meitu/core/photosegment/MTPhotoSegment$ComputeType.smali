@@ -42,7 +42,7 @@
 
     const v0, 0xd069
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/core/photosegment/MTPhotoSegment$ComputeType;
 
@@ -86,7 +86,7 @@
 
     sput-object v6, Lcom/meitu/core/photosegment/MTPhotoSegment$ComputeType;->$VALUES:[Lcom/meitu/core/photosegment/MTPhotoSegment$ComputeType;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -111,7 +111,7 @@
 
     const v0, 0xd068
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-class v1, Lcom/meitu/core/photosegment/MTPhotoSegment$ComputeType;
 
@@ -121,7 +121,7 @@
 
     check-cast p0, Lcom/meitu/core/photosegment/MTPhotoSegment$ComputeType;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -131,7 +131,7 @@
 
     const v0, 0xd067
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/core/photosegment/MTPhotoSegment$ComputeType;->$VALUES:[Lcom/meitu/core/photosegment/MTPhotoSegment$ComputeType;
 
@@ -141,7 +141,7 @@
 
     check-cast v1, [Lcom/meitu/core/photosegment/MTPhotoSegment$ComputeType;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

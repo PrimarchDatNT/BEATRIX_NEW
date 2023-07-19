@@ -40,7 +40,7 @@
 
     const/16 v0, 0x3a36
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-super {p0, p1, p2}, Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;->onScrollStateChanged(Landroidx/recyclerview/widget/RecyclerView;I)V
 
@@ -88,7 +88,7 @@
     invoke-static {p1, p2}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->P0(Lcom/commsource/beautyplus/miniapp/MiniAppActivity;Z)Z
 
     :cond_2
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -102,7 +102,7 @@
 
     const/16 p1, 0x3a37
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/beautyplus/miniapp/MiniAppActivity$d;->a:Lcom/commsource/beautyplus/miniapp/MiniAppActivity;
 
@@ -130,7 +130,7 @@
     :goto_1
     invoke-static {v0, p2}, Lcom/commsource/beautyplus/miniapp/MiniAppActivity;->P0(Lcom/commsource/beautyplus/miniapp/MiniAppActivity;Z)Z
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

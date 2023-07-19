@@ -44,11 +44,11 @@
 
     const v0, 0xea9e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-nez p1, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -83,7 +83,7 @@
     :catch_0
     invoke-virtual {p0, v1}, Lcom/meitu/webview/mtscript/MTCommandStorageScript$a;->d(Lcom/meitu/webview/mtscript/MTCommandStorageScript$Model;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -93,13 +93,13 @@
 
     const v0, 0xeaa0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Lcom/meitu/webview/mtscript/MTCommandStorageScript$Model;
 
     invoke-virtual {p0, p1}, Lcom/meitu/webview/mtscript/MTCommandStorageScript$a;->d(Lcom/meitu/webview/mtscript/MTCommandStorageScript$Model;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -109,13 +109,13 @@
 
     const v0, 0xea9f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/webview/mtscript/MTCommandStorageScript$a;->c:Lcom/meitu/webview/mtscript/MTCommandStorageScript;
 
     invoke-virtual {v1, p1}, Lcom/meitu/webview/mtscript/MTCommandStorageScript;->I(Lcom/meitu/webview/mtscript/MTCommandStorageScript$Model;)Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

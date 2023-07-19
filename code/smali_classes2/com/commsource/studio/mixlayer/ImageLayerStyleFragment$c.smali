@@ -53,7 +53,7 @@
 
     const/16 v0, 0x30b9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment$c;->a:Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment;
 
@@ -118,7 +118,7 @@
     invoke-virtual {v2, v1, p1}, Lcom/commsource/studio/mixlayer/ShadowPosLayer;->K0(Lcom/commsource/studio/bean/FocusLayerInfo;[F)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -128,13 +128,13 @@
 
     const/16 v0, 0x30b8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Ljava/lang/Boolean;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/mixlayer/ImageLayerStyleFragment$c;->a(Ljava/lang/Boolean;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

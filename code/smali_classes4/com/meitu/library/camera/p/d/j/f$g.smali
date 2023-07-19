@@ -38,13 +38,13 @@
 
     const v0, 0xab1c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/camera/p/d/j/f$g;->a:Lcom/meitu/library/camera/p/d/j/f;
 
     invoke-static {v1}, Lcom/meitu/library/camera/p/d/j/f;->Q(Lcom/meitu/library/camera/p/d/j/f;)Z
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

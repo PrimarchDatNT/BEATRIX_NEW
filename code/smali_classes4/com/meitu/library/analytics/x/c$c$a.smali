@@ -28,7 +28,7 @@
 
     const v0, 0xcb54
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Ljava/lang/String;->hashCode()I
 
@@ -264,7 +264,7 @@
     invoke-direct {p0}, Lcom/meitu/library/analytics/x/c$m;-><init>()V
 
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 

@@ -46,7 +46,7 @@
 
     const/16 v1, 0x6794
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     iget-object v2, p0, Lcom/meitu/template/feedback/util/e$a;->g:Ljava/lang/String;
@@ -284,7 +284,7 @@
 
     :cond_4
     :goto_3
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -296,7 +296,7 @@
     invoke-interface {v2}, Lcom/meitu/template/feedback/util/e$b;->a()V
 
     :cond_5
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     throw v0
 .end method

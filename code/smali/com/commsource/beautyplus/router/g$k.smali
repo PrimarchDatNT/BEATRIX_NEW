@@ -42,7 +42,7 @@
 
     const/16 v0, 0x5bfb
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "activity"
 
@@ -62,7 +62,7 @@
 
     invoke-static {p2, p1, v1, v2, v3}, Lcom/commsource/mypage/album/BpAlbumJumpRouter;->t(Lcom/commsource/mypage/album/BpAlbumJumpRouter;Landroid/app/Activity;ZILjava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const/4 p1, 0x1
 

@@ -42,7 +42,7 @@
 
     const v0, 0xe601
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/core/MTRtEffectRender$MTFilterScaleType;
 
@@ -110,7 +110,7 @@
 
     sput-object v10, Lcom/meitu/core/MTRtEffectRender$MTFilterScaleType;->$VALUES:[Lcom/meitu/core/MTRtEffectRender$MTFilterScaleType;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -133,7 +133,7 @@
 
     const v0, 0xe600
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-class v1, Lcom/meitu/core/MTRtEffectRender$MTFilterScaleType;
 
@@ -143,7 +143,7 @@
 
     check-cast p0, Lcom/meitu/core/MTRtEffectRender$MTFilterScaleType;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -153,7 +153,7 @@
 
     const v0, 0xe5ff
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/core/MTRtEffectRender$MTFilterScaleType;->$VALUES:[Lcom/meitu/core/MTRtEffectRender$MTFilterScaleType;
 
@@ -163,7 +163,7 @@
 
     check-cast v1, [Lcom/meitu/core/MTRtEffectRender$MTFilterScaleType;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

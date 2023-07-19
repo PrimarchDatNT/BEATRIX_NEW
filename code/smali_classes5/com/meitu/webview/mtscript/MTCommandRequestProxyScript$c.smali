@@ -39,7 +39,7 @@
 
     const v0, 0xeb7a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript$c;->a:Lcom/meitu/webview/mtscript/MTCommandRequestProxyScript;
 
@@ -56,7 +56,7 @@
     invoke-interface {v2, v1, v3}, Lf/k/o0/c/c;->a(Landroid/content/Context;Z)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

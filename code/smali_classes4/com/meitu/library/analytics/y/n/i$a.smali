@@ -47,7 +47,7 @@
 
     const p1, 0xd6e9
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v0, "StorageManager"
 
@@ -79,7 +79,7 @@
 
     invoke-virtual {v1, v0, v2, v3}, Lcom/meitu/library/analytics/y/n/b;->d(Ljava/lang/String;J)Lcom/meitu/library/analytics/y/n/h;
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

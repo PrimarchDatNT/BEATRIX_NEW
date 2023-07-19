@@ -56,7 +56,7 @@
 
     const/16 v0, 0x7d60
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p2, Ljava/lang/Integer;
 
@@ -64,7 +64,7 @@
 
     move-result p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -74,7 +74,7 @@
 
     const/16 v0, 0x7d60
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/mixlayer/ImageStyleSubFragment$colorAdapter$2$a;->a:Lcom/commsource/widget/h1/e;
 
@@ -245,7 +245,7 @@
     invoke-virtual {p1, p2, v1}, Lcom/commsource/studio/mixlayer/ImageStyleViewModel;->h0(Ljava/lang/Integer;I)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v3
 .end method

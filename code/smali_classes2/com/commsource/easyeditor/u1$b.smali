@@ -42,7 +42,7 @@
 
     const/16 v0, 0x43bd
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "\u00b0"
 
@@ -162,7 +162,7 @@
 
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setTranslationX(F)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -174,7 +174,7 @@
 
     const/16 v0, 0x43bc
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/high16 v1, 0x41200000    # 10.0f
 
@@ -227,7 +227,7 @@
 
     invoke-static {p1}, Lcom/commsource/easyeditor/u1;->z(Lcom/commsource/easyeditor/u1;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -237,7 +237,7 @@
 
     const/16 p1, 0x43bb
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p2, p0, Lcom/commsource/easyeditor/u1$b;->a:Lcom/commsource/easyeditor/u1;
 
@@ -263,7 +263,7 @@
 
     invoke-static {p2}, Lcom/commsource/util/j2;->c(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -273,13 +273,13 @@
 
     const/16 p1, 0x43ba
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     const/16 v0, 0xa
 
     invoke-static {v0}, Lcom/commsource/util/j2;->c(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

@@ -51,7 +51,7 @@
 
     const v0, 0xd336
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/libmtsns/framwork/i/d$d;->d:Lcom/meitu/libmtsns/framwork/i/d;
 
@@ -78,7 +78,7 @@
     invoke-virtual {v1, v2, v3, v4, v5}, Lcom/meitu/libmtsns/framwork/i/e;->c(Lcom/meitu/libmtsns/framwork/i/d;ILcom/meitu/libmtsns/c/c/b;[Ljava/lang/Object;)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

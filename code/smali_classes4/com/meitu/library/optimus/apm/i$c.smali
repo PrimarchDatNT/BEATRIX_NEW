@@ -62,13 +62,13 @@
 
     const p1, 0xd929
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/meitu/library/optimus/apm/i$c;->L:Lcom/meitu/library/optimus/apm/v/c$a;
 
     iget-object v0, v0, Lcom/meitu/library/optimus/apm/v/c$a;->b:[B
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 .end method
@@ -78,7 +78,7 @@
 
     const p2, 0xd92a
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p1, :cond_0
 
@@ -97,7 +97,7 @@
     invoke-virtual {p1, v0}, Lcom/meitu/library/optimus/apm/v/c;->f(Lcom/meitu/library/optimus/apm/v/c$a;)V
 
     :cond_0
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

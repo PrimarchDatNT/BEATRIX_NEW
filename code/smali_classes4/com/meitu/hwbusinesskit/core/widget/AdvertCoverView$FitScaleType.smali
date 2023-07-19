@@ -42,7 +42,7 @@
 
     const v0, 0xef66
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/hwbusinesskit/core/widget/AdvertCoverView$FitScaleType;
 
@@ -88,7 +88,7 @@
 
     sput-object v6, Lcom/meitu/hwbusinesskit/core/widget/AdvertCoverView$FitScaleType;->$VALUES:[Lcom/meitu/hwbusinesskit/core/widget/AdvertCoverView$FitScaleType;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -113,7 +113,7 @@
 
     const v0, 0xef65
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lcom/meitu/hwbusinesskit/core/widget/AdvertCoverView$FitScaleType;->values()[Lcom/meitu/hwbusinesskit/core/widget/AdvertCoverView$FitScaleType;
 
@@ -132,7 +132,7 @@
 
     if-ne v5, p0, :cond_0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v4
 
@@ -144,7 +144,7 @@
     :cond_1
     sget-object p0, Lcom/meitu/hwbusinesskit/core/widget/AdvertCoverView$FitScaleType;->UNDEFINED:Lcom/meitu/hwbusinesskit/core/widget/AdvertCoverView$FitScaleType;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -154,7 +154,7 @@
 
     const v0, 0xef63
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-class v1, Lcom/meitu/hwbusinesskit/core/widget/AdvertCoverView$FitScaleType;
 
@@ -164,7 +164,7 @@
 
     check-cast p0, Lcom/meitu/hwbusinesskit/core/widget/AdvertCoverView$FitScaleType;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -174,7 +174,7 @@
 
     const v0, 0xef62
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/hwbusinesskit/core/widget/AdvertCoverView$FitScaleType;->$VALUES:[Lcom/meitu/hwbusinesskit/core/widget/AdvertCoverView$FitScaleType;
 
@@ -184,7 +184,7 @@
 
     check-cast v1, [Lcom/meitu/hwbusinesskit/core/widget/AdvertCoverView$FitScaleType;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -196,11 +196,11 @@
 
     const v0, 0xef64
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/meitu/hwbusinesskit/core/widget/AdvertCoverView$FitScaleType;->mType:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method

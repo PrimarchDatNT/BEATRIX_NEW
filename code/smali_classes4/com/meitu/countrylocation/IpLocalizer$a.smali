@@ -38,7 +38,7 @@
 
     const v1, 0xe9e5
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v2, p0, Lcom/meitu/countrylocation/IpLocalizer$a;->a:Lcom/meitu/countrylocation/IpLocalizer;
 
@@ -54,7 +54,7 @@
 
     invoke-virtual {v0}, Lcom/meitu/countrylocation/Localizer;->e()V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -111,7 +111,7 @@
 
     if-eqz v3, :cond_1
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -126,7 +126,7 @@
 
     invoke-virtual {v0}, Lcom/meitu/countrylocation/Localizer;->e()V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -148,7 +148,7 @@
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -190,7 +190,7 @@
     invoke-virtual {v0}, Lcom/meitu/countrylocation/Localizer;->e()V
 
     :goto_0
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

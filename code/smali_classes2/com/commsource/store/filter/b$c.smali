@@ -41,7 +41,7 @@
 
     const p1, 0x8a4e
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/store/filter/b$c;->a:Lcom/commsource/store/filter/b;
 
@@ -230,7 +230,7 @@
 
     :cond_6
     :goto_3
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

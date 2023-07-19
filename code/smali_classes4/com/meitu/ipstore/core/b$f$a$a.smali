@@ -51,7 +51,7 @@
 
     const v0, 0xc7ff
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/ipstore/core/b$f$a$a;->b:Lcom/meitu/ipstore/core/b$f$a;
 
@@ -63,7 +63,7 @@
 
     invoke-interface {v2, v3, v1, p1}, Lf/k/m/d;->n(Landroid/app/Activity;Ljava/lang/String;Ljava/util/List;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -73,7 +73,7 @@
 
     const p1, 0xc800
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/meitu/ipstore/core/b$f$a$a;->b:Lcom/meitu/ipstore/core/b$f$a;
 
@@ -87,7 +87,7 @@
 
     invoke-interface {v1, v2, v0, v3}, Lf/k/m/d;->n(Landroid/app/Activity;Ljava/lang/String;Ljava/util/List;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

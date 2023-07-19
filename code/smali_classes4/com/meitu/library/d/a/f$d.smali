@@ -38,7 +38,7 @@
 
     const v0, 0xa8a8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/d/a/f$d;->c:Lcom/meitu/library/d/a/f;
 
@@ -48,7 +48,7 @@
 
     invoke-virtual {v1, p1, p2}, Lcom/meitu/library/d/a/e;->e(Landroid/graphics/RectF;Landroid/graphics/Rect;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -58,7 +58,7 @@
 
     const v0, 0xa8a7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/d/a/f$d;->c:Lcom/meitu/library/d/a/f;
 
@@ -86,7 +86,7 @@
 
     invoke-virtual/range {v2 .. v7}, Lcom/meitu/library/d/a/e;->f(Landroid/graphics/RectF;ZLandroid/graphics/Rect;ZLandroid/graphics/Rect;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

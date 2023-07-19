@@ -40,13 +40,13 @@
 
     const/16 p1, 0x5cbc
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/sharelink/ShareDialog$f;->a:Lcom/commsource/sharelink/ShareDialog;
 
     invoke-static {v0}, Lcom/commsource/sharelink/ShareDialog;->M(Lcom/commsource/sharelink/ShareDialog;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

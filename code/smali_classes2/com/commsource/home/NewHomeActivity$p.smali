@@ -53,7 +53,7 @@
 
     const/16 v0, 0x79a8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     if-nez p1, :cond_0
 
@@ -192,7 +192,7 @@
     invoke-static {p1, v1, v2}, Lcom/commsource/home/NewHomeActivity;->g1(Lcom/commsource/home/NewHomeActivity;J)V
 
     :cond_7
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -202,13 +202,13 @@
 
     const/16 v0, 0x79a7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Lcom/commsource/billing/bean/subsconfig/Config;
 
     invoke-virtual {p0, p1}, Lcom/commsource/home/NewHomeActivity$p;->a(Lcom/commsource/billing/bean/subsconfig/Config;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

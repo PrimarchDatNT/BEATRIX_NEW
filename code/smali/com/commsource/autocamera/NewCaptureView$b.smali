@@ -36,7 +36,7 @@
 
     const/16 v0, 0x7511
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;->onAnimationCancel(Landroid/animation/Animator;)V
 
@@ -68,7 +68,7 @@
 
     invoke-static {p1, v1}, Lcom/commsource/autocamera/NewCaptureView;->g(Lcom/commsource/autocamera/NewCaptureView;I)I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -78,7 +78,7 @@
 
     const/16 v0, 0x7512
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;->onAnimationEnd(Landroid/animation/Animator;)V
 
@@ -110,7 +110,7 @@
 
     invoke-static {p1, v1}, Lcom/commsource/autocamera/NewCaptureView;->g(Lcom/commsource/autocamera/NewCaptureView;I)I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -120,7 +120,7 @@
 
     const/16 v0, 0x7513
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-super {p0, p1}, Landroid/animation/AnimatorListenerAdapter;->onAnimationStart(Landroid/animation/Animator;)V
 
@@ -360,7 +360,7 @@
     invoke-static {p1, v1}, Lcom/commsource/autocamera/NewCaptureView;->f(Lcom/commsource/autocamera/NewCaptureView;F)F
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

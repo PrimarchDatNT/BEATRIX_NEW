@@ -44,7 +44,7 @@
 
     const/16 p1, 0x4f20
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lf/d/d/p;->L()V
 
@@ -60,7 +60,7 @@
 
     invoke-interface {v0}, Ljava/lang/Runnable;->run()V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

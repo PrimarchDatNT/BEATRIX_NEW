@@ -44,13 +44,13 @@
 
     const v0, 0xec00
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Lcom/meitu/webview/mtscript/MTCommandOpenWebViewScript$Model;
 
     invoke-virtual {p0, p1}, Lcom/meitu/webview/mtscript/MTCommandOpenWebViewScript$a;->d(Lcom/meitu/webview/mtscript/MTCommandOpenWebViewScript$Model;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -60,13 +60,13 @@
 
     const v0, 0xebff
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/webview/mtscript/MTCommandOpenWebViewScript$a;->c:Lcom/meitu/webview/mtscript/MTCommandOpenWebViewScript;
 
     invoke-virtual {v1, p1}, Lcom/meitu/webview/mtscript/MTCommandOpenWebViewScript;->I(Lcom/meitu/webview/mtscript/MTCommandOpenWebViewScript$Model;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

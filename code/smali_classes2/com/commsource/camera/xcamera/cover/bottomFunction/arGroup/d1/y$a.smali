@@ -64,7 +64,7 @@
 
     const p1, 0x9751
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p2, p0, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/y$a;->b:Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/y;
 
@@ -125,7 +125,7 @@
 
     invoke-static {p2, p4}, Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/y;->x(Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/d1/y;Z)Z
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return p3
 .end method
@@ -149,9 +149,9 @@
 
     const p1, 0x9750
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     const/4 p1, 0x0
 
@@ -163,7 +163,7 @@
 
     const v0, 0x9751
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     move-object v2, p1
 
@@ -183,7 +183,7 @@
 
     move-result p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method

@@ -52,7 +52,7 @@
 
     const p1, 0x86ec
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/camera/xcamera/cover/tips/ArCoreTipsCover$a;->a:Lcom/commsource/camera/xcamera/cover/tips/ArCoreTipsCover;
 
@@ -60,7 +60,7 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/camera/xcamera/cover/tips/ArCoreTipsCover;->G(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -70,13 +70,13 @@
 
     const v0, 0x86eb
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Lcom/meitu/template/bean/ArMaterial;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/cover/tips/ArCoreTipsCover$a;->a(Lcom/meitu/template/bean/ArMaterial;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

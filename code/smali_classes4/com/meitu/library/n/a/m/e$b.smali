@@ -45,7 +45,7 @@
 
     const v1, 0xb09c
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     invoke-static {}, Lcom/meitu/library/camera/util/h;->h()Z
@@ -119,7 +119,7 @@
     invoke-virtual {v2}, Ljava/lang/InterruptedException;->printStackTrace()V
 
     :goto_0
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -153,7 +153,7 @@
     invoke-virtual {v3}, Ljava/lang/InterruptedException;->printStackTrace()V
 
     :goto_1
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     throw v2
 .end method

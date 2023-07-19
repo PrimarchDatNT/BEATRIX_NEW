@@ -42,7 +42,7 @@
 
     const v0, 0xc32f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/gid/base/i;->d:Ljava/util/concurrent/atomic/AtomicInteger;
 
@@ -50,7 +50,7 @@
 
     move-result v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method
@@ -60,7 +60,7 @@
 
     const v0, 0xc32c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p1, Lcom/meitu/library/gid/base/g;->b:I
 
@@ -79,7 +79,7 @@
     :cond_0
     iget p1, p0, Lcom/meitu/library/gid/base/i;->e:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -89,7 +89,7 @@
 
     const p1, 0xc32e
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/meitu/library/gid/base/i;->d:Ljava/util/concurrent/atomic/AtomicInteger;
 
@@ -106,7 +106,7 @@
     :cond_0
     iget v0, p0, Lcom/meitu/library/gid/base/i;->e:I
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return v0
 .end method
@@ -116,7 +116,7 @@
 
     const p1, 0xc32d
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/meitu/library/gid/base/i;->d:Ljava/util/concurrent/atomic/AtomicInteger;
 
@@ -135,7 +135,7 @@
     :cond_0
     iget v0, p0, Lcom/meitu/library/gid/base/i;->e:I
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return v0
 .end method
@@ -145,7 +145,7 @@
 
     const v0, 0xc32b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p1, Lcom/meitu/library/gid/base/g;->a:I
 
@@ -162,7 +162,7 @@
     :cond_0
     iget p1, p0, Lcom/meitu/library/gid/base/i;->e:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method

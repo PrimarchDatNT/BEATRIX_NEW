@@ -46,7 +46,7 @@
 
     const/16 p2, 0x3ad3
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     const-string p3, "recyclerView"
 
@@ -60,7 +60,7 @@
 
     invoke-static {p1}, Lcom/commsource/studio/formula/FormulaFragment;->U(Lcom/commsource/studio/formula/FormulaFragment;)V
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

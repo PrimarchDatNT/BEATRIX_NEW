@@ -44,7 +44,7 @@
 
     const v0, 0x99f9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lf/k/c/a;->b()Landroid/content/Context;
 
@@ -58,7 +58,7 @@
 
     invoke-static {v1, v2}, Lf/d/i/n;->N1(Landroid/content/Context;Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/FilterIndex;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

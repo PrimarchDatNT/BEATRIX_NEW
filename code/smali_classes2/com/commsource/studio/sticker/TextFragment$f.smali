@@ -52,7 +52,7 @@
 
     const/16 v0, 0x272a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/sticker/TextFragment$f;->a:Lcom/commsource/studio/sticker/TextFragment;
 
@@ -66,7 +66,7 @@
 
     invoke-static {v1, p1, v2, v3, v2}, Lcom/commsource/studio/sticker/TextFragment;->d0(Lcom/commsource/studio/sticker/TextFragment;Lcom/commsource/studio/text/TextGroupParam;Lcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -76,13 +76,13 @@
 
     const/16 v0, 0x2729
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Lcom/commsource/studio/text/TextGroupParam;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/sticker/TextFragment$f;->a(Lcom/commsource/studio/text/TextGroupParam;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

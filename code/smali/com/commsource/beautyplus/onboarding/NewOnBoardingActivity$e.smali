@@ -41,7 +41,7 @@
 
     const p1, 0x83d7
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity$e;->a:Lcom/commsource/beautyplus/onboarding/NewOnBoardingActivity;
 
@@ -71,7 +71,7 @@
 
     invoke-virtual {v1, v0}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

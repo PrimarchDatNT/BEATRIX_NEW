@@ -126,11 +126,11 @@
 
     const/16 v0, 0x698b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p0, p0, Lcom/commsource/studio/gesture/GroupContainerViewHolder;->L:Landroid/graphics/drawable/GradientDrawable;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -142,7 +142,7 @@
 
     const/16 v0, 0x6987
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/gesture/GroupContainerViewHolder;->N:Lcom/commsource/util/o2/a;
 
@@ -160,7 +160,7 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/util/o2/c;->k(Ljava/lang/Object;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -172,7 +172,7 @@
 
     const/16 v1, 0x6989
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v2, v0, Lcom/commsource/studio/gesture/GroupContainerViewHolder;->M:Lcom/commsource/util/o2/b;
 
@@ -234,7 +234,7 @@
 
     invoke-static/range {v10 .. v17}, Lcom/commsource/util/o2/c;->b(Lcom/commsource/util/o2/c;Ljava/lang/Object;ZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -258,7 +258,7 @@
 
     const/16 v1, 0x6986
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual/range {p0 .. p0}, Lcom/commsource/studio/gesture/GroupContainerViewHolder;->L()Lcom/commsource/beautyplus/f0/mg;
 
@@ -326,7 +326,7 @@
 
     invoke-static/range {v18 .. v25}, Lcom/commsource/util/o2/c;->b(Lcom/commsource/util/o2/c;Ljava/lang/Object;ZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -336,7 +336,7 @@
 
     const/16 v0, 0x698a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-super {p0, p1}, Lcom/commsource/studio/gesture/a;->F(Z)V
 
@@ -416,7 +416,7 @@
     invoke-virtual {p1, v1}, Landroid/widget/TextView;->setTextColor(I)V
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -428,7 +428,7 @@
 
     const/16 v1, 0x6985
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual/range {p0 .. p0}, Lcom/commsource/studio/gesture/GroupContainerViewHolder;->L()Lcom/commsource/beautyplus/f0/mg;
 
@@ -542,7 +542,7 @@
 
     invoke-static/range {v12 .. v19}, Lcom/commsource/util/o2/c;->b(Lcom/commsource/util/o2/c;Ljava/lang/Object;ZJLcotlin/jvm/u/a;ILjava/lang/Object;)V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -552,7 +552,7 @@
 
     const/16 v0, 0x6988
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/commsource/studio/gesture/GroupContainerViewHolder;->L()Lcom/commsource/beautyplus/f0/mg;
 
@@ -590,7 +590,7 @@
 
     invoke-virtual {v1, p1}, Landroid/widget/TextView;->setAlpha(F)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -600,7 +600,7 @@
 
     const/16 v0, 0x6983
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/gesture/GroupContainerViewHolder;->K:Lcotlin/w;
 
@@ -610,7 +610,7 @@
 
     check-cast v1, Lcom/commsource/beautyplus/f0/mg;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -645,7 +645,7 @@
 
     const/16 v0, 0x6984
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "item"
 
@@ -669,7 +669,7 @@
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/gesture/GroupContainerViewHolder;->F(Z)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

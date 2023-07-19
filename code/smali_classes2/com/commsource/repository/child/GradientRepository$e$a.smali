@@ -28,7 +28,7 @@
 
     const/16 v0, 0x26b7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/repository/child/GradientRepository$e$a;
 
@@ -36,7 +36,7 @@
 
     sput-object v1, Lcom/commsource/repository/child/GradientRepository$e$a;->a:Lcom/commsource/repository/child/GradientRepository$e$a;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -56,13 +56,13 @@
 
     const/16 v0, 0x26b6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/commsource/repository/child/GradientRepository;->s:Lcom/commsource/repository/child/GradientRepository;
 
     invoke-static {v1}, Lcom/commsource/repository/child/GradientRepository;->r(Lcom/commsource/repository/child/GradientRepository;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

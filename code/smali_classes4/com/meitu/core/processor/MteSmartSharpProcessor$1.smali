@@ -39,7 +39,7 @@
 
     const v0, 0xbb2a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/core/processor/MteSmartSharpProcessor$1;->this$0:Lcom/meitu/core/processor/MteSmartSharpProcessor;
 
@@ -49,7 +49,7 @@
 
     invoke-static {v1, v2, v3}, Lcom/meitu/core/processor/MteSmartSharpProcessor;->access$002(Lcom/meitu/core/processor/MteSmartSharpProcessor;J)J
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

@@ -44,7 +44,7 @@
 
     const v0, 0x981d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/billing/pro/GmsManager$j$a$a;->a:Lcom/commsource/billing/pro/GmsManager$j$a;
 
@@ -78,7 +78,7 @@
     invoke-interface {v2, v1}, Lcom/commsource/billing/pro/a;->a(Ljava/lang/Object;)V
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -109,7 +109,7 @@
     invoke-virtual {v1, v2}, Lcom/commsource/billing/pro/GmsManager$b;->s(I)V
 
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

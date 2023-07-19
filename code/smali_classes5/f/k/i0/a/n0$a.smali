@@ -44,7 +44,7 @@
 
     const/16 v0, 0x32a0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p2}, Lcom/commsource/beautymain/data/c;->l()Ljava/lang/String;
 
@@ -236,7 +236,7 @@
     invoke-interface {p1, v2, p2}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindString(ILjava/lang/String;)V
 
     :goto_6
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -246,13 +246,13 @@
 
     const/16 v0, 0x32a1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p2, Lcom/commsource/beautymain/data/c;
 
     invoke-virtual {p0, p1, p2}, Lf/k/i0/a/n0$a;->a(Landroidx/sqlite/db/SupportSQLiteStatement;Lcom/commsource/beautymain/data/c;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -262,9 +262,9 @@
 
     const/16 v0, 0x329f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const-string v0, "INSERT OR REPLACE INTO `MOSAIC_LOCAL_ENTITY` (`mosaic_id`,`download_type`,`mosaic_name`,`mosaic_thumbnail`,`is_available`,`status`,`file`,`material_md5`,`sort`,`is_paid`,`goods_id`,`paid_icon`) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)"
 

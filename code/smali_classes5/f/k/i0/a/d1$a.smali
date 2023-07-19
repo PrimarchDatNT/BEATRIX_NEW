@@ -44,7 +44,7 @@
 
     const v0, 0xa43c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p2}, Lcom/commsource/studio/text/TextTemplateMaterial;->getId()Ljava/lang/String;
 
@@ -234,7 +234,7 @@
 
     invoke-interface {p1, v1, v2, v3}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindLong(IJ)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -244,13 +244,13 @@
 
     const v0, 0xa43d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p2, Lcom/commsource/studio/text/TextTemplateMaterial;
 
     invoke-virtual {p0, p1, p2}, Lf/k/i0/a/d1$a;->a(Landroidx/sqlite/db/SupportSQLiteStatement;Lcom/commsource/studio/text/TextTemplateMaterial;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -260,9 +260,9 @@
 
     const v0, 0xa43b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const-string v0, "INSERT OR REPLACE INTO `TEXT_TEMPLATE_MATERIAL` (`m_id`,`icon`,`name`,`file`,`is_new`,`is_new_time`,`ended_at`,`download_type`,`paid_type`,`sort`,`downloadState`,`config`,`internalState`) VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)"
 

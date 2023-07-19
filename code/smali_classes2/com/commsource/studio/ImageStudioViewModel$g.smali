@@ -69,7 +69,7 @@
 
     const/16 v0, 0x20c7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/ImageStudioViewModel$g;->a:Lcom/commsource/studio/ImageStudioViewModel;
 
@@ -85,7 +85,7 @@
 
     invoke-virtual {v1, p1}, Lcom/commsource/studio/ImageStudioViewModel;->d2(Z)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -95,13 +95,13 @@
 
     const/16 v0, 0x20c6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Lcotlin/Pair;
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/ImageStudioViewModel$g;->a(Lcotlin/Pair;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

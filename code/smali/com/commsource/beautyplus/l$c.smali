@@ -33,7 +33,7 @@
 
     const/16 p2, 0x3d21
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v0, Lcom/commsource/widget/LoadMoreFooter;
 
@@ -43,7 +43,7 @@
 
     invoke-direct {v0, p1, v1, v2}, Lcom/commsource/widget/LoadMoreFooter;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v0
 .end method

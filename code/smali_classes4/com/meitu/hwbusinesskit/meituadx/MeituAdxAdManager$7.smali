@@ -74,7 +74,7 @@
 
     const p1, 0xf0fe
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p2, p0, Lcom/meitu/hwbusinesskit/meituadx/MeituAdxAdManager$7;->this$0:Lcom/meitu/hwbusinesskit/meituadx/MeituAdxAdManager;
 
@@ -84,7 +84,7 @@
 
     invoke-static {p2, p3, p4}, Lcom/meitu/hwbusinesskit/meituadx/MeituAdxAdManager;->access$2500(Lcom/meitu/hwbusinesskit/meituadx/MeituAdxAdManager;ILjava/lang/String;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     const/4 p1, 0x0
 
@@ -108,7 +108,7 @@
 
     const p2, 0xf0ff
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p3, p0, Lcom/meitu/hwbusinesskit/meituadx/MeituAdxAdManager$7;->val$ivBackground:Landroid/widget/ImageView;
 
@@ -140,7 +140,7 @@
 
     invoke-static {p1, p3, p4}, Lcom/meitu/hwbusinesskit/meituadx/MeituAdxAdManager;->access$2600(Lcom/meitu/hwbusinesskit/meituadx/MeituAdxAdManager;Ljava/lang/Object;Lcom/meitu/hwbusinesskit/core/widget/BaseAdView;)V
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     const/4 p1, 0x0
 
@@ -152,7 +152,7 @@
 
     const v0, 0xf0ff
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     move-object v2, p1
 
@@ -172,7 +172,7 @@
 
     move-result p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method

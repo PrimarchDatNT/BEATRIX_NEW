@@ -61,7 +61,7 @@
 
     const/16 v0, 0x57d3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Ljava/lang/Number;
 
@@ -79,7 +79,7 @@
 
     sget-object p1, Lcotlin/t1;->a:Lcotlin/t1;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method
@@ -89,7 +89,7 @@
 
     const/16 p2, 0x57d4
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/studio/function/StyleFragment$createSeekWrappers$$inlined$forEach$lambda$1;->this$0:Lcom/commsource/studio/function/StyleFragment;
 
@@ -105,7 +105,7 @@
 
     invoke-static {v0, v1, p1, v2}, Lcom/commsource/studio/function/StyleFragment;->V1(Lcom/commsource/studio/function/StyleFragment;Ljava/lang/String;IZ)V
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

@@ -43,7 +43,7 @@
 
     const v0, 0xe4b5
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     :goto_0
     iget-object v1, p0, Lcom/meitu/media/tools/editor/p$a$a;->b:Lcom/meitu/media/tools/editor/p$a;
@@ -119,7 +119,7 @@
 
     :cond_1
     :goto_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

@@ -52,7 +52,7 @@
 
     const/16 p4, 0x2189
 
-    invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p4}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lcom/meitu/library/p/f/i;->z()I
 
@@ -90,7 +90,7 @@
 
     invoke-virtual {p1, p2, v2, v2, v2}, Landroid/graphics/Rect;->set(IIII)V
 
-    invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p4}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -123,7 +123,7 @@
     invoke-virtual {p1, p2, v2, p2, v2}, Landroid/graphics/Rect;->set(IIII)V
 
     :goto_0
-    invoke-static {p4}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p4}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

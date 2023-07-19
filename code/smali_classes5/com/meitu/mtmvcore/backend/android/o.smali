@@ -19,7 +19,7 @@
 
     const v0, 0xe219
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     invoke-interface {p1}, Lcom/meitu/mtmvcore/backend/android/g;->e()Landroid/view/Window;
@@ -50,7 +50,7 @@
     invoke-interface {p1, v2, v3, v1}, Lf/k/g/b/a;->z(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Throwable;)V
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

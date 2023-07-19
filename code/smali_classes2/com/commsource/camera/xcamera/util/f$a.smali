@@ -73,7 +73,7 @@
 
     const/16 v2, 0x706b
 
-    invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v2}, Lcom/res/ANRTrace;->e(I)V
 
     if-eqz p1, :cond_7
 
@@ -366,7 +366,7 @@
     :cond_4
     const/16 v2, 0x706b
 
-    invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v2}, Lcom/res/ANRTrace;->a(I)V
     :try_end_0
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
@@ -392,7 +392,7 @@
     const/16 v2, 0x706b
 
     :cond_7
-    invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -406,7 +406,7 @@
 
     const/16 p1, 0x706d
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/camera/xcamera/util/f$a;->a:Lcom/commsource/camera/xcamera/util/f;
 
@@ -414,7 +414,7 @@
 
     invoke-static {v0, v1}, Lcom/commsource/camera/xcamera/util/f;->b(Lcom/commsource/camera/xcamera/util/f;I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -424,13 +424,13 @@
 
     const/16 v0, 0x706c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p1, Lcom/commsource/camera/ardata/n;
 
     invoke-virtual {p0, p1}, Lcom/commsource/camera/xcamera/util/f$a;->a(Lcom/commsource/camera/ardata/n;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

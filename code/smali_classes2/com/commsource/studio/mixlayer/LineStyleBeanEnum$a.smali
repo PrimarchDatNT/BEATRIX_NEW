@@ -42,7 +42,7 @@
 
     const/16 v0, 0x709d
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/commsource/studio/mixlayer/LineStyleBeanEnum;->STYLE1:Lcom/commsource/studio/mixlayer/LineStyleBeanEnum;
 
@@ -80,7 +80,7 @@
     sget-object v1, Lcom/commsource/studio/mixlayer/LineStyleBeanEnum;->STYLE4:Lcom/commsource/studio/mixlayer/LineStyleBeanEnum;
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -92,7 +92,7 @@
 
     const/16 v0, 0x709e
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0, p1}, Lcom/commsource/studio/mixlayer/LineStyleBeanEnum$a;->a(I)Lcom/commsource/studio/mixlayer/LineStyleBeanEnum;
 
@@ -154,7 +154,7 @@
 
     move-result-object p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p1
 .end method

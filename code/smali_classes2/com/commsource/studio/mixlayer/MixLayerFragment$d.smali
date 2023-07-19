@@ -44,7 +44,7 @@
 
     const/16 v0, 0x3ca2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Landroid/graphics/Rect;
 
@@ -111,7 +111,7 @@
     invoke-virtual {v3, v4, v1}, Landroid/widget/ScrollView;->smoothScrollBy(II)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

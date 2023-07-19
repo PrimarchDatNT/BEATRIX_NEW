@@ -38,7 +38,7 @@
 
     const v0, 0xaaa7
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/camera/statistics/stuck/e$b;->a:Lcom/meitu/library/camera/statistics/stuck/e;
 
@@ -122,7 +122,7 @@
     invoke-virtual {p1}, Lcom/meitu/library/camera/statistics/stuck/d;->c()V
 
     :goto_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

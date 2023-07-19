@@ -23,7 +23,7 @@
 
     const v0, 0x8ba3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "AIBeauty_switch"
 
@@ -55,7 +55,7 @@
     invoke-static {v4, v3, v1}, Lcom/commsource/statistics/i;->r(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 
     :cond_1
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -65,7 +65,7 @@
 
     const v0, 0x8ba0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "abcode"
 
@@ -85,7 +85,7 @@
 
     invoke-static {v2}, Lcom/commsource/beautyplus/util/k;->f(Ljava/util/Map;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -352,7 +352,7 @@
     :goto_3
     invoke-static {v2}, Lcom/commsource/beautyplus/util/k;->f(Ljava/util/Map;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -394,7 +394,7 @@
 
     const v16, 0x8b9f
 
-    invoke-static/range {v16 .. v16}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static/range {v16 .. v16}, Lcom/res/ANRTrace;->e(I)V
 
     :try_start_0
     invoke-static {}, Lf/d/i/o;->o0()Z
@@ -942,7 +942,7 @@
     invoke-static {v1, v0}, Lcom/meitu/library/util/Debug/Debug;->P(Ljava/lang/String;Ljava/lang/String;)V
 
     :goto_5
-    invoke-static/range {v16 .. v16}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static/range {v16 .. v16}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -954,7 +954,7 @@
 
     const v1, 0x8ba1
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v2, "business_saleOff_activity"
 
@@ -1018,7 +1018,7 @@
 
     :cond_1
     :goto_1
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -1028,7 +1028,7 @@
 
     const p0, 0x8ba2
 
-    invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v0, "AIBeauty_switch"
 
@@ -1064,7 +1064,7 @@
 
     invoke-static {}, Lcom/commsource/advertisiting/e;->a()V
 
-    invoke-static {p0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

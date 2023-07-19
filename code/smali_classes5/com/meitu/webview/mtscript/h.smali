@@ -23,9 +23,9 @@
 
     const v0, 0xeb05
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const-string v0, "javascript:document.body.innerHTML=\"\";"
 
@@ -42,7 +42,7 @@
 
     const v0, 0xeb03
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p1}, Lcom/meitu/library/p/e/a;->u(Ljava/lang/String;)[I
 
@@ -195,7 +195,7 @@
 
     move-result-object p0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -205,7 +205,7 @@
 
     const v0, 0xeb02
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p1}, Lcom/meitu/library/p/e/a;->u(Ljava/lang/String;)[I
 
@@ -446,7 +446,7 @@
 
     aput-object p0, p2, v4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p2
 .end method
@@ -456,7 +456,7 @@
 
     const v0, 0xeafc
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p0}, Lcom/meitu/webview/core/CommonWebView;->getExtraData()Ljava/lang/String;
 
@@ -474,7 +474,7 @@
 
     move-result-object p0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -498,7 +498,7 @@
 
     const v0, 0xeafe
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-string v1, "language"
 
@@ -831,7 +831,7 @@
 
     move-result-object p0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -852,7 +852,7 @@
 
     const v0, 0xeafd
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lcom/meitu/webview/utils/g;->j()Ljava/lang/String;
 
@@ -864,7 +864,7 @@
 
     move-result-object p0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -874,9 +874,9 @@
 
     const v0, 0xeafb
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const-string v0, "javascript:!function(a,b){function c(a,b){b=b?f(JSON.stringify(b)):\"\",a=y(a)?w(a,null,\"://\"):\"mtcommand://\"+a;var c=a+(b?\"?\"+b:\"\"),e=d(c,b);return a+=\"?handler=\"+e,{scheme:a,cmd:c,params:b,handler:e}}function d(a,b){var c=G[a];return c||(c=D++),G[a]=c,G[\"__\"+c]=b,c}function e(a){return\"MTJsWebviewConnect\"+a}function f(a){try{a=decodeURIComponent(a)}catch(b){}return a}function g(a){return a&&x(a)&&(a=encodeURIComponent(f(a))),a}function h(b,c){i(b);var d=e(b);c&&(F[d]=c,a.addEventListener(d,c,!1))}function i(b){var c=e(b),d=F[c];d&&(delete F[c],a.removeEventListener(c,d,!1))}function j(a,b,d){var e=c(a,b);return z(d)&&h(e.handler,function(a){var b=a.data,c=b.handler;i(c),d.call(MTJs,b)}),m(e.scheme),e}function k(a){var b=e(a.handler);return l(b,a),this}function l(c,d){var e=E[c];return e||(z(b.CustomEvent)?e=new b.CustomEvent(c,{bubbles:!0,cancelable:!0}):z(b.createEvent)&&(e=b.createEvent(\"Event\"),e.initEvent(c,!0,!0)),E[c]=e),d&&e&&(e.data=d),e?a.dispatchEvent(e):alert(\"MTJs Error: dispatchEvent\"),this}function m(a){return setTimeout(function(){var c=b.createElement(\"iframe\");c.src=a,c.style.display=\"none\",b.body.appendChild(c),setTimeout(function(){c.parentNode.removeChild(c)},300)},0),this}function n(a){if(!a)return\"\";a=\"__\"+a;var b;return b=G[a]?G[a]:\"\"}function o(a){if(!y(a))return this;var b={img_url:\"image\",content:\"description\",url:\"link\"};return Object.keys(b).forEach(function(c){if(a[c]){var d=a[c];delete a[c],a[b[c]]=d}}),J=a,this}function p(a){if(K)return K;var c=200,d=200,e=10;return y(a)&&(a.width&&(c=parseInt(a.width,10)||c),a.height&&(d=parseInt(a.height,10)||d),a[\"byte\"]&&(e=parseInt(a[\"byte\"],10)||e)),K={title:J.title||q(\"title\")||b.title,image:J.image||q(\"image\")||r(c,d),description:J.description||q(\"description\")||s(e),link:J.link||q(\"link\")||location.href}}function q(a){var c=b.querySelector(\'meta[property=\"og:\'+a+\'\"]\');return c?c.getAttribute(\"content\")||\"\":\"\"}function r(a,c){var d=b.querySelectorAll(\"img\");if(d.length)for(var e=0,f=d.length;e<f;e++){var g=d[e],h=g.width,i=g.height;if(h>=a&&i>=c)return g.src}return\"\"}function s(a){var c=b.querySelector(\'meta[name=\"description\"]\');if(c)return c.getAttribute(\"content\")||\"\";for(var d=\"h1,h2,h3,h4,h5,p\".split(\",\"),e=0,f=d.length;e<f;e++){var g=b.querySelectorAll(d[e]);if(g.length)for(var h=0,i=g.length;h<i;h++){var j=g[h],k=j.innerText;if(A(k)>=a)return k}}return\"\"}function t(a){var b={},c=\"sharePageInfo\",d=p(a);for(var e in d)d.hasOwnProperty(e)&&(J[e]?b[e]=encodeURIComponent(f(J[e])):b[e]=encodeURIComponent(d[e]));return z(J.success)?j(c,b,function(a){J.success(a)}):j(c,b),this}function u(b){return a.postImageData=function(){return L?b:void androidPostImageData.saveShareImage(b)},this}function v(b){return L?(a.postImageData=function(){return b},j(\"postImageData\")):(androidresult.saveToClient(b),this)}function w(a,b,c,d,e){return a?(b=b||\"&\",c=c||\"=\",y(a)?Object.keys(a).map(function(b){return!d&&e&&Array.isArray(a[b])&&(a[b]=a[b].map(function(a){return JSON.stringify(a)}).join(\",\")),d?b+c+g(\"\"+(y(a[b])||Array.isArray(a[b])?JSON.stringify(a[b]):a[b])):b+c+g(\"\"+(y(a[b])?JSON.stringify(a[b]):a[b]))}).join(b):a):\"\"}function x(a){return\"string\"==typeof a}function y(a){return\"[object Object]\"==Object.prototype.toString.call(a)}function z(a){return\"function\"==typeof a}function A(a){a=a.toString().trim();for(var b=0,c=0,d=a.length;c<d;c++)b+=a.charCodeAt(c)>0&&a.charCodeAt(c)<128?1:2;return Math.ceil(b/2)}function B(b,c){switch(b){case\"back\":O.needControlBack=!0;break;case\"close\":O.needControlClose=!0;break;default:return!1}var d=\"_mtjs_webview_\"+b+\"_\";a.addEventListener(d,c,!1)}var C=578,D=1,E={},F={},G={},H=!1,I=!1,J={},K=null,L=/(iPhone|iPad|iPod|iOS)/gi.test(navigator.userAgent),M=a.androidPostImageData;M=y(M)?M:{},M.saveShareImage=function(a){return prompt(\"MTJs:saveShareImage\",a)},a.androidPostImageData=M;var N=a.androidresult;N=y(N)?N:{},N.saveToClient=function(a){return prompt(\"MTJs:saveToClient\",a)},a.androidresult=N;var O={v:C,nativeCall:j,postMessage:k,dispatchEvent:l,send:m,getParams:n,onSharePageInfo:o,getSharePageInfo:p,callSharePageInfo:t,saveShareImage:u,saveToClient:v,stringify:w,isString:x,isObject:y,isFn:z,getByte:A,needControlBack:H,needControlClose:I,setNeedControl:B};a.MTJs=O,a.WebviewJsBridge=O,a.MPJs=O,[\"Webview\",\"Meipai\"].forEach(function(a,b){O.dispatchEvent(a+\"JsBridgeReady\")})}(window,document);"
 
@@ -888,7 +888,7 @@
 
     const v0, 0xeb01
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -914,7 +914,7 @@
 
     move-result-object p0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -924,7 +924,7 @@
 
     const v0, 0xeb00
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -959,7 +959,7 @@
 
     move-result-object p0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -969,9 +969,9 @@
 
     const v0, 0xeb04
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const-string v0, "window.MTJs === undefined"
 
@@ -983,9 +983,9 @@
 
     const v0, 0xeaff
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const-string v0, "MTJs.dispatchEvent(\'_onResume_\');"
 

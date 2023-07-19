@@ -44,7 +44,7 @@
 
     const/16 v0, 0x1a73
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p2}, Lcom/commsource/repository/child/makeup/h;->v()I
 
@@ -328,7 +328,7 @@
 
     invoke-interface {p1, v1, v2, v3}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindLong(IJ)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -338,13 +338,13 @@
 
     const/16 v0, 0x1a74
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p2, Lcom/commsource/repository/child/makeup/h;
 
     invoke-virtual {p0, p1, p2}, Lf/k/i0/a/h0$c;->a(Landroidx/sqlite/db/SupportSQLiteStatement;Lcom/commsource/repository/child/makeup/h;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -354,9 +354,9 @@
 
     const/16 v0, 0x1a72
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const-string v0, "UPDATE OR ABORT `MAKEUP_MATERIAL` SET `id` = ?,`onlineId` = ?,`isInside` = ?,`makeupType` = ?,`name` = ?,`icon` = ?,`configType` = ?,`styleConfig` = ?,`url` = ?,`color` = ?,`paidType` = ?,`defaultAlpha` = ?,`downloadType` = ?,`isDownloaded` = ?,`sort` = ?,`isSupportGl3` = ?,`isNew` = ?,`isNewTime` = ?,`endedAt` = ?,`recommends` = ? WHERE `id` = ?"
 

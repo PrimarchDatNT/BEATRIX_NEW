@@ -27,7 +27,7 @@
 
     const v0, 0xe1ef
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/flymedia/glx/utils/j;->c:Lcom/meitu/flymedia/glx/utils/j;
 
@@ -42,7 +42,7 @@
     :cond_0
     sget-object v1, Lcom/meitu/flymedia/glx/utils/j;->c:Lcom/meitu/flymedia/glx/utils/j;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -63,7 +63,7 @@
 
     const v0, 0xe1e9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/flymedia/glx/utils/j;->b:Lcom/meitu/flymedia/glx/utils/b;
 
@@ -86,7 +86,7 @@
 
     invoke-virtual {v1, v2, v3, p1}, Lcom/meitu/flymedia/glx/utils/b;->c([Ljava/lang/Object;II)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -107,7 +107,7 @@
 
     const v0, 0xe1ec
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/flymedia/glx/utils/j;->a:Lcom/meitu/flymedia/glx/utils/l;
 
@@ -130,7 +130,7 @@
 
     invoke-virtual {v1, v2, p2, v3, p1}, Lcom/meitu/flymedia/glx/utils/l;->c([Ljava/lang/Object;Ljava/util/Comparator;II)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -147,7 +147,7 @@
 
     const v0, 0xe1ea
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/flymedia/glx/utils/j;->b:Lcom/meitu/flymedia/glx/utils/b;
 
@@ -168,7 +168,7 @@
 
     invoke-virtual {v1, p1, v2, v3}, Lcom/meitu/flymedia/glx/utils/b;->c([Ljava/lang/Object;II)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -185,7 +185,7 @@
 
     const v0, 0xe1eb
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/flymedia/glx/utils/j;->b:Lcom/meitu/flymedia/glx/utils/b;
 
@@ -202,7 +202,7 @@
 
     invoke-virtual {v1, p1, p2, p3}, Lcom/meitu/flymedia/glx/utils/b;->c([Ljava/lang/Object;II)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -221,7 +221,7 @@
 
     const v0, 0xe1ed
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/flymedia/glx/utils/j;->a:Lcom/meitu/flymedia/glx/utils/l;
 
@@ -242,7 +242,7 @@
 
     invoke-virtual {v1, p1, p2, v2, v3}, Lcom/meitu/flymedia/glx/utils/l;->c([Ljava/lang/Object;Ljava/util/Comparator;II)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -261,7 +261,7 @@
 
     const v0, 0xe1ee
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/flymedia/glx/utils/j;->a:Lcom/meitu/flymedia/glx/utils/l;
 
@@ -278,7 +278,7 @@
 
     invoke-virtual {v1, p1, p2, p3, p4}, Lcom/meitu/flymedia/glx/utils/l;->c([Ljava/lang/Object;Ljava/util/Comparator;II)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

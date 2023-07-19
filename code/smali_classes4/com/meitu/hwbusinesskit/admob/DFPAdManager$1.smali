@@ -44,7 +44,7 @@
 
     const v0, 0xefee
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/hwbusinesskit/admob/DFPAdManager$1;->this$0:Lcom/meitu/hwbusinesskit/admob/DFPAdManager;
 
@@ -54,7 +54,7 @@
 
     invoke-static {v1, v2, v3}, Lcom/meitu/hwbusinesskit/admob/DFPAdManager;->access$000(Lcom/meitu/hwbusinesskit/admob/DFPAdManager;Landroid/content/Context;Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

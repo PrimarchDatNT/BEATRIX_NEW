@@ -42,7 +42,7 @@
 
     const/16 v0, 0x747c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;
 
@@ -86,7 +86,7 @@
 
     sput-object v6, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;->$VALUES:[Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -111,7 +111,7 @@
 
     const/16 v0, 0x747a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x1
 
@@ -123,21 +123,21 @@
 
     sget-object p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;->NONE:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
     :cond_0
     sget-object p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;->MULTIPLE_POINTERS_DRAG:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 
     :cond_1
     sget-object p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;->SINGLE_POINTER_DRAG:Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -147,7 +147,7 @@
 
     const/16 v0, 0x747a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-class v1, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;
 
@@ -157,7 +157,7 @@
 
     check-cast p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -167,7 +167,7 @@
 
     const/16 v0, 0x7479
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;->$VALUES:[Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;
 
@@ -177,7 +177,7 @@
 
     check-cast v1, [Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -189,11 +189,11 @@
 
     const/16 v0, 0x747b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/commsource/beautymain/widget/gesturewidget/GestureImageView$ScrollAction;->mAction:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method

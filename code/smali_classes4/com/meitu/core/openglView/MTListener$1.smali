@@ -59,7 +59,7 @@
 
     const v0, 0xbacc
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 v1, 0x0
 
@@ -179,7 +179,7 @@
 
     invoke-static {v1}, Lcom/meitu/core/openglView/MTListener;->access$700(Lcom/meitu/core/openglView/MTListener;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

@@ -19,7 +19,7 @@
 
     const p2, 0xc91f
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     const/4 p3, 0x2
 
@@ -39,7 +39,7 @@
 
     invoke-static {p1, p3}, Lf/k/m/i/d;->i(Landroid/database/sqlite/SQLiteDatabase;[Ljava/lang/Class;)V
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

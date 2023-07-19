@@ -40,7 +40,7 @@
 
     const/16 p1, 0x310a
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object p2, p0, Lcom/commsource/studio/sticker/manage/StickerManagerFragment$c;->a:Lcom/commsource/studio/sticker/manage/StickerManagerFragment;
 
@@ -105,7 +105,7 @@
     :cond_0
     const/4 p2, 0x0
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return p2
 .end method

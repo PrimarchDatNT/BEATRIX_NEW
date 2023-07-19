@@ -66,7 +66,7 @@
 
     const v0, 0xd6d4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
@@ -372,7 +372,7 @@
 
     const v0, 0xd6d4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -399,7 +399,7 @@
 
     const v0, 0xd6d3
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->C_GPS:Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
@@ -547,7 +547,7 @@
 
     aput-boolean v2, p0, v1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -557,7 +557,7 @@
 
     const v0, 0xd6d1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-class v1, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
@@ -567,7 +567,7 @@
 
     check-cast p0, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -577,7 +577,7 @@
 
     const v0, 0xd6d0
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->$VALUES:[Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
@@ -587,7 +587,7 @@
 
     check-cast v1, [Lcom/meitu/library/analytics/sdk/content/PrivacyControl;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -599,11 +599,11 @@
 
     const v0, 0xd6d2
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/analytics/sdk/content/PrivacyControl;->name:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

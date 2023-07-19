@@ -42,7 +42,7 @@
 
     const v1, 0xdafd
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v2, v0, Lf/k/i/a/i/e$a;->l:Lf/k/i/a/i/e;
 
@@ -62,7 +62,7 @@
 
     invoke-virtual/range {v4 .. v11}, Lf/k/i/a/i/e;->e(Lf/k/i/a/d;JJJ)V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -72,7 +72,7 @@
 
     const p1, 0xdaf9
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lf/k/i/a/i/e$a;->l:Lf/k/i/a/i/e;
 
@@ -86,7 +86,7 @@
 
     invoke-virtual {v0, v1, p2, p3}, Lf/k/i/a/i/e;->f(Lf/k/i/a/d;ILjava/lang/Exception;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -96,7 +96,7 @@
 
     const v0, 0xdafb
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lf/k/i/a/i/e$a;->l:Lf/k/i/a/i/e;
 
@@ -110,7 +110,7 @@
 
     invoke-virtual/range {v1 .. v8}, Lf/k/i/a/i/e;->g(Lf/k/i/a/d;JJJ)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -122,7 +122,7 @@
 
     const v1, 0xdafc
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v2, v0, Lf/k/i/a/i/e$a;->l:Lf/k/i/a/i/e;
 
@@ -142,7 +142,7 @@
 
     invoke-virtual/range {v4 .. v11}, Lf/k/i/a/i/e;->h(Lf/k/i/a/d;JJJ)V
 
-    invoke-static {v1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -152,7 +152,7 @@
 
     const v0, 0xdafa
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lf/k/i/a/i/e$a;->l:Lf/k/i/a/i/e;
 
@@ -164,7 +164,7 @@
 
     invoke-virtual/range {v1 .. v6}, Lf/k/i/a/i/e;->i(Lf/k/i/a/d;JJ)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

@@ -41,7 +41,7 @@
 
     const/16 v0, 0x6d0b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/widget/VideoPlayComponent$h;->a:Lcom/commsource/widget/VideoPlayComponent;
 
@@ -71,7 +71,7 @@
     :goto_0
     if-gez v1, :cond_1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -87,7 +87,7 @@
     invoke-interface {v2, v1}, Lcom/commsource/widget/VideoPlayComponent$a;->b(I)V
 
     :cond_2
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

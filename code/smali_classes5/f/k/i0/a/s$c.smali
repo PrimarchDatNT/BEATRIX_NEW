@@ -44,7 +44,7 @@
 
     const/16 v0, 0x709b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p2}, Lcom/meitu/template/bean/Filter;->getFilterId()I
 
@@ -314,7 +314,7 @@
 
     invoke-interface {p1, v1, v2, v3}, Landroidx/sqlite/db/SupportSQLiteProgram;->bindLong(IJ)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -324,13 +324,13 @@
 
     const/16 v0, 0x709c
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p2, Lcom/meitu/template/bean/Filter;
 
     invoke-virtual {p0, p1, p2}, Lf/k/i0/a/s$c;->a(Landroidx/sqlite/db/SupportSQLiteStatement;Lcom/meitu/template/bean/Filter;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -340,9 +340,9 @@
 
     const/16 v0, 0x709a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const-string v0, "UPDATE OR ABORT `NEW_FILTER` SET `FilterId` = ?,`FilterThumbnail` = ?,`FilterNewName` = ?,`FilterOldName` = ?,`FilterShopThumbnail` = ?,`IsFilterRecommend` = ?,`FilterFileUrl` = ?,`DisplayInList` = ?,`FilterSort` = ?,`CollectedState` = ?,`CollectedTime` = ?,`InternalState` = ?,`DownloadState` = ?,`GroupId` = ?,`FilterDefaultAlpha` = ?,`AlphaInCamera` = ?,`NeedNewMode` = ?,`NeedBodyMask` = ?,`NeedHairMode` = ?,`ShowState` = ?,`tag` = ? WHERE `FilterId` = ?"
 

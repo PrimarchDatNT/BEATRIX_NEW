@@ -51,7 +51,7 @@
 
     const/16 p2, 0x41ae
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v0, Lcom/commsource/camera/mvp/helper/XSpanUtils$f;->f:Landroid/graphics/Paint$FontMetricsInt;
 
@@ -218,7 +218,7 @@
     sput-object p1, Lcom/commsource/camera/mvp/helper/XSpanUtils$f;->f:Landroid/graphics/Paint$FontMetricsInt;
 
     :cond_7
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

@@ -40,7 +40,7 @@
 
     const v0, 0x8d40
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/camera/montage/d0$a$a;->b:Lcom/commsource/camera/montage/d0$a;
 
@@ -56,7 +56,7 @@
 
     div-int/lit8 p1, p1, 0x4
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 
@@ -65,7 +65,7 @@
 
     div-int/lit8 p1, p1, 0x6
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method

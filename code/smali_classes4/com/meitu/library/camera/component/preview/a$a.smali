@@ -51,13 +51,13 @@
 
     const p3, 0xb4d0
 
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/meitu/library/camera/component/preview/a$a;->a:Lcom/meitu/library/camera/component/preview/a;
 
     invoke-static {v0, p1, p2}, Lcom/meitu/library/camera/component/preview/a;->i2(Lcom/meitu/library/camera/component/preview/a;J)V
 
-    invoke-static {p3}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p3}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

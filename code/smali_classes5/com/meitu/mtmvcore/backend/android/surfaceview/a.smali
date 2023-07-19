@@ -22,7 +22,7 @@
 
     const v0, 0xdf8f
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {p1}, Landroid/view/View$MeasureSpec;->getSize(I)I
 
@@ -36,7 +36,7 @@
 
     invoke-direct {v1, p1, p2}, Lcom/meitu/mtmvcore/backend/android/surfaceview/c$a;-><init>(II)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method

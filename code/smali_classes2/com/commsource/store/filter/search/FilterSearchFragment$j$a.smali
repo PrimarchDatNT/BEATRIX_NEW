@@ -48,7 +48,7 @@
 
     const p1, 0x9096
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/store/filter/search/FilterSearchFragment$j$a;->c:Lcom/commsource/store/filter/search/FilterSearchFragment$j;
 
@@ -96,7 +96,7 @@
 
     invoke-static {v0}, Lcom/commsource/camera/f1/r;->a(Landroid/view/View;)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

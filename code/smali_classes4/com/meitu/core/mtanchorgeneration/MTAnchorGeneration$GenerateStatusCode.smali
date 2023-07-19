@@ -44,7 +44,7 @@
 
     const v0, 0xdd2b
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     new-instance v1, Lcom/meitu/core/mtanchorgeneration/MTAnchorGeneration$GenerateStatusCode;
 
@@ -100,7 +100,7 @@
 
     sput-object v8, Lcom/meitu/core/mtanchorgeneration/MTAnchorGeneration$GenerateStatusCode;->$VALUES:[Lcom/meitu/core/mtanchorgeneration/MTAnchorGeneration$GenerateStatusCode;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
@@ -125,7 +125,7 @@
 
     const v0, 0xdd29
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     const-class v1, Lcom/meitu/core/mtanchorgeneration/MTAnchorGeneration$GenerateStatusCode;
 
@@ -135,7 +135,7 @@
 
     check-cast p0, Lcom/meitu/core/mtanchorgeneration/MTAnchorGeneration$GenerateStatusCode;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p0
 .end method
@@ -145,7 +145,7 @@
 
     const v0, 0xdd28
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     sget-object v1, Lcom/meitu/core/mtanchorgeneration/MTAnchorGeneration$GenerateStatusCode;->$VALUES:[Lcom/meitu/core/mtanchorgeneration/MTAnchorGeneration$GenerateStatusCode;
 
@@ -155,7 +155,7 @@
 
     check-cast v1, [Lcom/meitu/core/mtanchorgeneration/MTAnchorGeneration$GenerateStatusCode;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object v1
 .end method
@@ -167,11 +167,11 @@
 
     const v0, 0xdd2a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget v1, p0, Lcom/meitu/core/mtanchorgeneration/MTAnchorGeneration$GenerateStatusCode;->status:I
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return v1
 .end method

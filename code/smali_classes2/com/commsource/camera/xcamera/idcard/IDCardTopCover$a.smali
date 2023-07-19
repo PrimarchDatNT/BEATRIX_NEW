@@ -45,7 +45,7 @@
 
     const/16 p1, 0x4a35
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/camera/xcamera/idcard/IDCardTopCover$a;->a:Lcom/commsource/camera/xcamera/idcard/IDCardTopCover;
 
@@ -108,7 +108,7 @@
     :cond_0
     invoke-virtual {v0, v2, v3, v1}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->U2(Lcom/commsource/camera/xcamera/n;Ljava/lang/Runnable;Z)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

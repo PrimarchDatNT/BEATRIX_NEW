@@ -43,7 +43,7 @@
 
     const/16 v0, 0xec1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/autocamera/m0$a;->b:Lcom/commsource/autocamera/m0;
 
@@ -92,7 +92,7 @@
     invoke-static {v1, v2}, Lcom/commsource/autocamera/m0;->c(Lcom/commsource/autocamera/m0;Z)V
 
     :cond_0
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

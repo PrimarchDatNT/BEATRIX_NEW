@@ -40,7 +40,7 @@
 
     const p2, 0x956b
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/widget/u0$a;->b:Lcom/commsource/widget/u0;
 
@@ -168,7 +168,7 @@
     invoke-virtual {v1, p1}, Lcom/commsource/widget/u0;->h(F)V
 
     :goto_0
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

@@ -40,7 +40,7 @@
 
     const/16 v0, 0x2a55
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Ljava/util/Calendar;->getInstance()Ljava/util/Calendar;
 
@@ -123,7 +123,7 @@
 
     invoke-virtual {p1, v1}, Lcom/commsource/camera/xcamera/BpCameraViewModel;->N2(Ljava/util/Calendar;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

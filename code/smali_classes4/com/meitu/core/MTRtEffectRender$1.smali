@@ -24,7 +24,7 @@
 
     const v0, 0xe656
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Lcom/meitu/core/MTRtEffectRender$RtEffectExternDataType;->values()[Lcom/meitu/core/MTRtEffectRender$RtEffectExternDataType;
 
@@ -130,7 +130,7 @@
     .catch Ljava/lang/NoSuchFieldError; {:try_start_5 .. :try_end_5} :catch_5
 
     :catch_5
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

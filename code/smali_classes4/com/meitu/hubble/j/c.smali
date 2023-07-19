@@ -53,7 +53,7 @@
 
     const/16 v2, 0xa9
 
-    invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v2}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, v1, Lcom/meitu/hubble/j/c;->a:Lokhttp3/OkHttpClient;
 
@@ -120,7 +120,7 @@
     invoke-interface {v3, v5, v4, v6}, Lcom/meitu/hubble/j/b;->a(ZLjava/lang/String;Ljava/lang/Throwable;)V
 
     :cond_0
-    invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -178,7 +178,7 @@
     invoke-interface {v3, v5, v4, v6}, Lcom/meitu/hubble/j/b;->a(ZLjava/lang/String;Ljava/lang/Throwable;)V
 
     :cond_2
-    invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -351,7 +351,7 @@
     .catchall {:try_start_4 .. :try_end_4} :catchall_0
 
     :try_start_5
-    invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v2}, Lcom/res/ANRTrace;->a(I)V
 
     throw v0
     :try_end_5
@@ -438,7 +438,7 @@
     invoke-virtual {v0, v3}, Lcom/meitu/library/m/a/b;->a(Ljava/lang/String;)V
 
     :cond_7
-    invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 
@@ -484,7 +484,7 @@
     invoke-virtual {v5, v3}, Lcom/meitu/library/m/a/b;->a(Ljava/lang/String;)V
 
     :cond_8
-    invoke-static {v2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v2}, Lcom/res/ANRTrace;->a(I)V
 
     throw v0
 .end method
@@ -494,7 +494,7 @@
 
     const/16 v0, 0xa8
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-static {}, Ljava/lang/Thread;->currentThread()Ljava/lang/Thread;
 
@@ -585,7 +585,7 @@
 
     invoke-virtual {v2, v1}, Ljava/lang/Thread;->setName(Ljava/lang/String;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

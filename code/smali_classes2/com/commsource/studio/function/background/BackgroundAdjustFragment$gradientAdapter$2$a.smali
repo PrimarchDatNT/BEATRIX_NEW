@@ -52,7 +52,7 @@
 
     const/16 v0, 0x157
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     check-cast p2, Lcom/commsource/studio/function/background/GradientMaterial;
 
@@ -60,7 +60,7 @@
 
     move-result p1
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return p1
 .end method
@@ -70,7 +70,7 @@
 
     const/16 v0, 0x157
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/commsource/studio/function/background/BackgroundAdjustFragment$gradientAdapter$2$a;->a:Lcom/commsource/studio/function/background/BackgroundAdjustFragment$gradientAdapter$2;
 
@@ -100,7 +100,7 @@
 
     invoke-static {p1, p2}, Lcom/commsource/studio/function/background/BackgroundAdjustFragment;->A(Lcom/commsource/studio/function/background/BackgroundAdjustFragment;Lcom/commsource/studio/function/background/GradientMaterial;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     const/4 p1, 0x0
 

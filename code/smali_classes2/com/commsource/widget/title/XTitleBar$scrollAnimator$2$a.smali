@@ -42,7 +42,7 @@
 
     const/16 p2, 0x73c5
 
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/widget/title/XTitleBar$scrollAnimator$2$a;->a:Lcom/commsource/widget/title/XTitleBar$scrollAnimator$2;
 
@@ -123,7 +123,7 @@
     goto :goto_0
 
     :cond_3
-    invoke-static {p2}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p2}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

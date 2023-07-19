@@ -56,13 +56,13 @@
 
     const v0, 0xc280
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lcom/meitu/library/gid/base/j$b;->w:Lcom/meitu/library/gid/base/j;
 
     invoke-static {v1, p1}, Lcom/meitu/library/gid/base/j;->b(Lcom/meitu/library/gid/base/j;Lcom/meitu/library/gid/base/p0/d;)Lcom/meitu/library/gid/base/p0/d;
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

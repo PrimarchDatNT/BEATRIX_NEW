@@ -40,7 +40,7 @@
 
     const p1, 0x9ee5    # 5.7E-41f
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v0, p0, Lcom/commsource/video/decoder/SysMediaPlayer$onCompleteListener$2$a;->a:Lcom/commsource/video/decoder/SysMediaPlayer$onCompleteListener$2;
 
@@ -56,7 +56,7 @@
 
     invoke-virtual {v0, v1}, Lcom/commsource/video/decoder/SysMediaPlayer;->e0(I)V
 
-    invoke-static {p1}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {p1}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method

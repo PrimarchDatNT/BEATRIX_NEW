@@ -45,7 +45,7 @@
 
     const v0, 0xa48a
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     invoke-virtual {p1, p0, p2}, Lcom/google/gson/Gson;->getDelegateAdapter(Lcom/google/gson/TypeAdapterFactory;Lcom/google/gson/reflect/TypeToken;)Lcom/google/gson/TypeAdapter;
 
@@ -55,7 +55,7 @@
 
     invoke-direct {p2, p0, p1}, Lcom/commsource/util/z0$a$a;-><init>(Lcom/commsource/util/z0$a;Lcom/google/gson/TypeAdapter;)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-object p2
 .end method

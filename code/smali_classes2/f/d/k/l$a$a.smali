@@ -36,7 +36,7 @@
 
     const/16 v0, 0x20f9
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->e(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->e(I)V
 
     iget-object v1, p0, Lf/d/k/l$a$a;->g:Lf/d/k/l$a;
 
@@ -89,7 +89,7 @@
 
     invoke-virtual {v1, v2, v3}, Lf/d/k/m;->J(Lcom/meitu/media/mtmvcore/MTMVTimeLine;Z)V
 
-    invoke-static {v0}, Lcom/meitu/library/appcia/h/a;->a(I)V
+    invoke-static {v0}, Lcom/res/ANRTrace;->a(I)V
 
     return-void
 .end method
