@@ -4,31 +4,6 @@
 
 
 # annotations
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000\u0010\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u000e\n\u0002\u0008\u0003\u001a\u0017\u0010\u0003\u001a\u00020\u0002*\u00060\u0000j\u0002`\u0001H\u0001\u00a2\u0006\u0004\u0008\u0003\u0010\u0004\u00a8\u0006\u0005"
-    }
-    d2 = {
-        "Ljava/util/concurrent/TimeUnit;",
-        "Lcotlin/time/DurationUnit;",
-        "",
-        "c",
-        "(Ljava/util/concurrent/TimeUnit;)Ljava/lang/String;",
-        "kotlin-stdlib"
-    }
-    k = 0x5
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-    xs = "kotlin/time/DurationUnitKt"
-.end annotation
 
 
 # direct methods

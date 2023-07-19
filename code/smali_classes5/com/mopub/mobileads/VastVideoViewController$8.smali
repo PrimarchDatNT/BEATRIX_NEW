@@ -16,37 +16,7 @@
     name = null
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nVastVideoViewController.kt\nKotlin\n*S Kotlin\n*F\n+ 1 VastVideoViewController.kt\ncom/mopub/mobileads/VastVideoViewController$8\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,772:1\n1#2:773\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000\u0016\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000b\n\u0002\u0008\u0003\u0010\u0008\u001a\u00020\u00052\u000e\u0010\u0002\u001a\n \u0001*\u0004\u0018\u00010\u00000\u00002\u000e\u0010\u0004\u001a\n \u0001*\u0004\u0018\u00010\u00030\u0003H\n\u00a2\u0006\u0004\u0008\u0006\u0010\u0007"
-    }
-    d2 = {
-        "Landroid/view/View;",
-        "kotlin.jvm.PlatformType",
-        "<anonymous parameter 0>",
-        "Landroid/view/MotionEvent;",
-        "event",
-        "",
-        "onTouch",
-        "(Landroid/view/View;Landroid/view/MotionEvent;)Z",
-        "<anonymous>"
-    }
-    k = 0x3
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

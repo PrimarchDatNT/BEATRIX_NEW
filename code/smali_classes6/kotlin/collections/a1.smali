@@ -18,77 +18,7 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nSlidingWindow.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SlidingWindow.kt\nkotlin/collections/RingBuffer\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,207:1\n205#1:208\n205#1:209\n205#1:211\n1#2:210\n*E\n*S KotlinDebug\n*F\n+ 1 SlidingWindow.kt\nkotlin/collections/RingBuffer\n*L\n106#1:208\n176#1:209\n189#1:211\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000B\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0006\n\u0002\u0010\u000b\n\u0002\u0008\u0002\n\u0002\u0010(\n\u0002\u0008\u0002\n\u0002\u0010\u0011\n\u0002\u0008\u0003\n\u0002\u0010\u0000\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0014\u0008\u0002\u0018\u0000*\u0004\u0008\u0000\u0010\u00012\u0008\u0012\u0004\u0012\u00028\u00000\u00022\u00060\u0003j\u0002`\u0004B\u001f\u0012\u000e\u0010&\u001a\n\u0012\u0006\u0012\u0004\u0018\u00010\u00160\u0012\u0012\u0006\u0010-\u001a\u00020\u0005\u00a2\u0006\u0004\u0008.\u0010/B\u0011\u0008\u0016\u0012\u0006\u0010#\u001a\u00020\u0005\u00a2\u0006\u0004\u0008.\u0010 J\u001c\u0010\u0007\u001a\u00020\u0005*\u00020\u00052\u0006\u0010\u0006\u001a\u00020\u0005H\u0082\u0008\u00a2\u0006\u0004\u0008\u0007\u0010\u0008J\u0018\u0010\n\u001a\u00028\u00002\u0006\u0010\t\u001a\u00020\u0005H\u0096\u0002\u00a2\u0006\u0004\u0008\n\u0010\u000bJ\r\u0010\r\u001a\u00020\u000c\u00a2\u0006\u0004\u0008\r\u0010\u000eJ\u0016\u0010\u0010\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u000fH\u0096\u0002\u00a2\u0006\u0004\u0008\u0010\u0010\u0011J)\u0010\u0014\u001a\u0008\u0012\u0004\u0012\u00028\u00010\u0012\"\u0004\u0008\u0001\u0010\u00012\u000c\u0010\u0013\u001a\u0008\u0012\u0004\u0012\u00028\u00010\u0012H\u0014\u00a2\u0006\u0004\u0008\u0014\u0010\u0015J\u0017\u0010\u0014\u001a\n\u0012\u0006\u0012\u0004\u0018\u00010\u00160\u0012H\u0014\u00a2\u0006\u0004\u0008\u0014\u0010\u0017J\u001b\u0010\u0019\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u00002\u0006\u0010\u0018\u001a\u00020\u0005\u00a2\u0006\u0004\u0008\u0019\u0010\u001aJ\u0015\u0010\u001d\u001a\u00020\u001c2\u0006\u0010\u001b\u001a\u00028\u0000\u00a2\u0006\u0004\u0008\u001d\u0010\u001eJ\u0015\u0010\u001f\u001a\u00020\u001c2\u0006\u0010\u0006\u001a\u00020\u0005\u00a2\u0006\u0004\u0008\u001f\u0010 R\u0016\u0010#\u001a\u00020\u00058\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008!\u0010\"R\u001e\u0010&\u001a\n\u0012\u0006\u0012\u0004\u0018\u00010\u00160\u00128\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008$\u0010%R\u0016\u0010(\u001a\u00020\u00058\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\'\u0010\"R$\u0010,\u001a\u00020\u00052\u0006\u0010)\u001a\u00020\u00058\u0016@RX\u0096\u000e\u00a2\u0006\u000c\n\u0004\u0008*\u0010\"\u001a\u0004\u0008!\u0010+\u00a8\u00060"
-    }
-    d2 = {
-        "Lcotlin/collections/a1;",
-        "T",
-        "Lcotlin/collections/c;",
-        "Ljava/util/RandomAccess;",
-        "Lcotlin/collections/RandomAccess;",
-        "",
-        "n",
-        "r",
-        "(II)I",
-        "index",
-        "get",
-        "(I)Ljava/lang/Object;",
-        "",
-        "s",
-        "()Z",
-        "",
-        "iterator",
-        "()Ljava/util/Iterator;",
-        "",
-        "array",
-        "toArray",
-        "([Ljava/lang/Object;)[Ljava/lang/Object;",
-        "",
-        "()[Ljava/lang/Object;",
-        "maxCapacity",
-        "q",
-        "(I)Lcotlin/collections/a1;",
-        "element",
-        "Lcotlin/t1;",
-        "m",
-        "(Ljava/lang/Object;)V",
-        "u",
-        "(I)V",
-        "b",
-        "I",
-        "capacity",
-        "f",
-        "[Ljava/lang/Object;",
-        "buffer",
-        "c",
-        "startIndex",
-        "<set-?>",
-        "d",
-        "()I",
-        "size",
-        "filledSize",
-        "<init>",
-        "([Ljava/lang/Object;I)V",
-        "kotlin-stdlib"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

@@ -13,54 +13,7 @@
     name = "SubCloudProcessor"
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nStyleProcessor.kt\nKotlin\n*S Kotlin\n*F\n+ 1 StyleProcessor.kt\ncom/commsource/studio/processor/StyleProcessor$SubCloudProcessor\n*L\n1#1,944:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000&\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0010\u000b\n\u0002\u0008\u000c\u0008\u0082\u0004\u0018\u00002\u00020\u0001B\u0007\u00a2\u0006\u0004\u0008\u0017\u0010\u0018J\u0015\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J\u001d\u0010\t\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00022\u0006\u0010\u0008\u001a\u00020\u0007\u00a2\u0006\u0004\u0008\t\u0010\nJ\r\u0010\u000b\u001a\u00020\u0004\u00a2\u0006\u0004\u0008\u000b\u0010\u000cR\u0016\u0010\u0010\u001a\u00020\r8\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u000e\u0010\u000fR\u0018\u0010\u0013\u001a\u0004\u0018\u00010\u00028\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u0011\u0010\u0012R\u0018\u0010\u0016\u001a\u0004\u0018\u00010\u00078\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u0014\u0010\u0015\u00a8\u0006\u0019"
-    }
-    d2 = {
-        "Lcom/commsource/studio/processor/StyleProcessor$SubCloudProcessor;",
-        "",
-        "Lcom/commsource/studio/bean/f;",
-        "style",
-        "Lcotlin/t1;",
-        "e",
-        "(Lcom/commsource/studio/bean/f;)V",
-        "Lcom/commsource/easyeditor/utils/opengl/f;",
-        "disFBO",
-        "g",
-        "(Lcom/commsource/studio/bean/f;Lcom/commsource/easyeditor/utils/opengl/f;)V",
-        "f",
-        "()V",
-        "",
-        "c",
-        "Z",
-        "hasProcessCloudEffect",
-        "b",
-        "Lcom/commsource/studio/bean/f;",
-        "lastUseStyle",
-        "a",
-        "Lcom/commsource/easyeditor/utils/opengl/f;",
-        "processFbo",
-        "<init>",
-        "(Lcom/commsource/studio/processor/StyleProcessor;)V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

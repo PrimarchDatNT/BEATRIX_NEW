@@ -4,67 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nLanguageConfig.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LanguageConfig.kt\ncom/commsource/beautyplus/setting/language/LanguageConfig\n*L\n1#1,157:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000D\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000e\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u0007\u0008\u00c6\u0002\u0018\u00002\u00020\u0001B\t\u0008\u0002\u00a2\u0006\u0004\u0008$\u0010%J\u001f\u0010\u0007\u001a\u00020\u00062\u0006\u0010\u0003\u001a\u00020\u00022\u0006\u0010\u0005\u001a\u00020\u0004H\u0002\u00a2\u0006\u0004\u0008\u0007\u0010\u0008J\u0015\u0010\u000b\u001a\u00020\u00062\u0006\u0010\n\u001a\u00020\t\u00a2\u0006\u0004\u0008\u000b\u0010\u000cJ\u0015\u0010\u000f\u001a\u00020\u00062\u0006\u0010\u000e\u001a\u00020\r\u00a2\u0006\u0004\u0008\u000f\u0010\u0010J\u0015\u0010\u0011\u001a\u00020\r2\u0006\u0010\u000e\u001a\u00020\r\u00a2\u0006\u0004\u0008\u0011\u0010\u0012J\u0015\u0010\u0013\u001a\u00020\r2\u0006\u0010\u000e\u001a\u00020\r\u00a2\u0006\u0004\u0008\u0013\u0010\u0012J\u0015\u0010\u0015\u001a\u00020\u00142\u0006\u0010\u0005\u001a\u00020\u0004\u00a2\u0006\u0004\u0008\u0015\u0010\u0016J\u0015\u0010\u0018\u001a\u00020\u00172\u0006\u0010\u000e\u001a\u00020\r\u00a2\u0006\u0004\u0008\u0018\u0010\u0019J\r\u0010\u001a\u001a\u00020\u0017\u00a2\u0006\u0004\u0008\u001a\u0010\u001bJ\u0015\u0010\u001d\u001a\u00020\u00062\u0006\u0010\u001c\u001a\u00020\u0017\u00a2\u0006\u0004\u0008\u001d\u0010\u001eR\u001d\u0010#\u001a\u00020\u001f8F@\u0006X\u0086\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0013\u0010 \u001a\u0004\u0008!\u0010\"\u00a8\u0006&"
-    }
-    d2 = {
-        "Lcom/commsource/beautyplus/setting/language/LanguageConfig;",
-        "",
-        "Landroid/content/res/Configuration;",
-        "configuration",
-        "Ljava/util/Locale;",
-        "locale",
-        "Lcotlin/t1;",
-        "h",
-        "(Landroid/content/res/Configuration;Ljava/util/Locale;)V",
-        "Landroid/app/Application;",
-        "application",
-        "g",
-        "(Landroid/app/Application;)V",
-        "Landroid/content/Context;",
-        "context",
-        "b",
-        "(Landroid/content/Context;)V",
-        "i",
-        "(Landroid/content/Context;)Landroid/content/Context;",
-        "a",
-        "Landroid/content/res/Resources;",
-        "e",
-        "(Ljava/util/Locale;)Landroid/content/res/Resources;",
-        "",
-        "d",
-        "(Landroid/content/Context;)Ljava/lang/String;",
-        "c",
-        "()Ljava/lang/String;",
-        "language",
-        "j",
-        "(Ljava/lang/String;)V",
-        "Lcom/commsource/util/common/l;",
-        "Lcotlin/w;",
-        "f",
-        "()Lcom/commsource/util/common/l;",
-        "spConfig",
-        "<init>",
-        "()V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # static fields

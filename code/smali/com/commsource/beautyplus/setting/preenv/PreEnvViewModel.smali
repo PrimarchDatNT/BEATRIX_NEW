@@ -4,59 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nPreEnvViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 PreEnvViewModel.kt\ncom/commsource/beautyplus/setting/preenv/PreEnvViewModel\n*L\n1#1,78:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000>\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u0008\n\u0000\n\u0002\u0010\u000e\n\u0002\u0008\u0003\n\u0002\u0010\u000b\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u0018\u00002\u00020\u0001B\u000f\u0012\u0006\u0010\u001b\u001a\u00020\u001a\u00a2\u0006\u0004\u0008\u001c\u0010\u001dJ\u0017\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u0002H\u0002\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J\u0017\u0010\t\u001a\u00020\u00082\u0006\u0010\u0007\u001a\u00020\u0004H\u0002\u00a2\u0006\u0004\u0008\t\u0010\nJ\u0017\u0010\u000c\u001a\u00020\u000b2\u0006\u0010\u0007\u001a\u00020\u0004H\u0002\u00a2\u0006\u0004\u0008\u000c\u0010\rJ\u0015\u0010\u000e\u001a\u00020\u000b2\u0006\u0010\u0007\u001a\u00020\u0004\u00a2\u0006\u0004\u0008\u000e\u0010\rR#\u0010\u0014\u001a\u0008\u0012\u0004\u0012\u00020\u00080\u000f8F@\u0006X\u0086\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0010\u0010\u0011\u001a\u0004\u0008\u0012\u0010\u0013R#\u0010\u0019\u001a\u0008\u0012\u0004\u0012\u00020\u00040\u00158F@\u0006X\u0086\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0016\u0010\u0011\u001a\u0004\u0008\u0017\u0010\u0018\u00a8\u0006\u001e"
-    }
-    d2 = {
-        "Lcom/commsource/beautyplus/setting/preenv/PreEnvViewModel;",
-        "Landroidx/lifecycle/AndroidViewModel;",
-        "",
-        "resId",
-        "",
-        "C",
-        "(I)Ljava/lang/String;",
-        "msg",
-        "",
-        "D",
-        "(Ljava/lang/String;)Z",
-        "Lcotlin/t1;",
-        "E",
-        "(Ljava/lang/String;)V",
-        "z",
-        "Landroidx/lifecycle/MutableLiveData;",
-        "a",
-        "Lcotlin/w;",
-        "A",
-        "()Landroidx/lifecycle/MutableLiveData;",
-        "showLoading",
-        "Lcom/commsource/beautyfilter/NoStickLiveData;",
-        "b",
-        "B",
-        "()Lcom/commsource/beautyfilter/NoStickLiveData;",
-        "showToast",
-        "Landroid/app/Application;",
-        "application",
-        "<init>",
-        "(Landroid/app/Application;)V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

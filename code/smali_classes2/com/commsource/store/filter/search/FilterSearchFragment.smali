@@ -4,75 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nFilterSearchFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FilterSearchFragment.kt\ncom/commsource/store/filter/search/FilterSearchFragment\n*L\n1#1,335:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000R\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0006\u0018\u00002\u00020\u0001B\u0007\u00a2\u0006\u0004\u0008-\u0010\u0004J\u000f\u0010\u0003\u001a\u00020\u0002H\u0002\u00a2\u0006\u0004\u0008\u0003\u0010\u0004J\u000f\u0010\u0005\u001a\u00020\u0002H\u0002\u00a2\u0006\u0004\u0008\u0005\u0010\u0004J\u000f\u0010\u0006\u001a\u00020\u0002H\u0002\u00a2\u0006\u0004\u0008\u0006\u0010\u0004J-\u0010\u000e\u001a\u0004\u0018\u00010\r2\u0006\u0010\u0008\u001a\u00020\u00072\u0008\u0010\n\u001a\u0004\u0018\u00010\t2\u0008\u0010\u000c\u001a\u0004\u0018\u00010\u000bH\u0016\u00a2\u0006\u0004\u0008\u000e\u0010\u000fJ!\u0010\u0011\u001a\u00020\u00022\u0006\u0010\u0010\u001a\u00020\r2\u0008\u0010\u000c\u001a\u0004\u0018\u00010\u000bH\u0016\u00a2\u0006\u0004\u0008\u0011\u0010\u0012R\u0016\u0010\u0016\u001a\u00020\u00138\u0002@\u0002X\u0082.\u00a2\u0006\u0006\n\u0004\u0008\u0014\u0010\u0015R\u001d\u0010\u001c\u001a\u00020\u00178B@\u0002X\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0018\u0010\u0019\u001a\u0004\u0008\u001a\u0010\u001bR\u0019\u0010\"\u001a\u00020\u001d8\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u001e\u0010\u001f\u001a\u0004\u0008 \u0010!R\u001d\u0010\'\u001a\u00020#8B@\u0002X\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008$\u0010\u0019\u001a\u0004\u0008%\u0010&R\u001d\u0010,\u001a\u00020(8B@\u0002X\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008)\u0010\u0019\u001a\u0004\u0008*\u0010+\u00a8\u0006."
-    }
-    d2 = {
-        "Lcom/commsource/store/filter/search/FilterSearchFragment;",
-        "Lcom/commsource/beautyplus/i0/a;",
-        "Lcotlin/t1;",
-        "I",
-        "()V",
-        "J",
-        "H",
-        "Landroid/view/LayoutInflater;",
-        "inflater",
-        "Landroid/view/ViewGroup;",
-        "container",
-        "Landroid/os/Bundle;",
-        "savedInstanceState",
-        "Landroid/view/View;",
-        "onCreateView",
-        "(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;",
-        "view",
-        "onViewCreated",
-        "(Landroid/view/View;Landroid/os/Bundle;)V",
-        "Lcom/commsource/beautyplus/f0/e8;",
-        "c",
-        "Lcom/commsource/beautyplus/f0/e8;",
-        "viewBinding",
-        "Lcom/commsource/store/filter/FilterStoreViewModel;",
-        "g",
-        "Lcotlin/w;",
-        "F",
-        "()Lcom/commsource/store/filter/FilterStoreViewModel;",
-        "filterStoreViewModel",
-        "Ljava/lang/Runnable;",
-        "p",
-        "Ljava/lang/Runnable;",
-        "D",
-        "()Ljava/lang/Runnable;",
-        "dismissLoading",
-        "Lcom/commsource/widget/h1/e;",
-        "d",
-        "G",
-        "()Lcom/commsource/widget/h1/e;",
-        "mAdapter",
-        "Lcom/commsource/store/filter/search/FilterSearchViewModel;",
-        "f",
-        "E",
-        "()Lcom/commsource/store/filter/search/FilterSearchViewModel;",
-        "filterSearchViewModel",
-        "<init>",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

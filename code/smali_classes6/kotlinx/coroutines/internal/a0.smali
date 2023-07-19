@@ -13,54 +13,7 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nSegmentQueue.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SegmentQueue.kt\nkotlinx/coroutines/internal/SegmentQueue\n+ 2 AtomicFU.common.kt\nkotlinx/atomicfu/AtomicFU_commonKt\n*L\n1#1,180:1\n92#2,2:181\n92#2,2:183\n*E\n*S KotlinDebug\n*F\n+ 1 SegmentQueue.kt\nkotlinx/coroutines/internal/SegmentQueue\n*L\n90#1,2:181\n104#1,2:183\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000 \n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0000\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\t\n\u0002\u0008\u0010\u0008 \u0018\u0000*\u000e\u0008\u0000\u0010\u0002*\u0008\u0012\u0004\u0012\u00028\u00000\u00012\u00020\u0003B\u0007\u00a2\u0006\u0004\u0008\u0017\u0010\u0018J\u0017\u0010\u0006\u001a\u00020\u00052\u0006\u0010\u0004\u001a\u00028\u0000H\u0002\u00a2\u0006\u0004\u0008\u0006\u0010\u0007J\u0017\u0010\u0008\u001a\u00020\u00052\u0006\u0010\u0004\u001a\u00028\u0000H\u0002\u00a2\u0006\u0004\u0008\u0008\u0010\u0007J#\u0010\u000c\u001a\u00028\u00002\u0006\u0010\n\u001a\u00020\t2\n\u0008\u0002\u0010\u000b\u001a\u0004\u0018\u00018\u0000H&\u00a2\u0006\u0004\u0008\u000c\u0010\rJ!\u0010\u000f\u001a\u0004\u0018\u00018\u00002\u0006\u0010\u000e\u001a\u00028\u00002\u0006\u0010\n\u001a\u00020\tH\u0004\u00a2\u0006\u0004\u0008\u000f\u0010\u0010J!\u0010\u0011\u001a\u0004\u0018\u00018\u00002\u0006\u0010\u000e\u001a\u00028\u00002\u0006\u0010\n\u001a\u00020\tH\u0004\u00a2\u0006\u0004\u0008\u0011\u0010\u0010R\u0016\u0010\u0014\u001a\u00028\u00008D@\u0004X\u0084\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u0012\u0010\u0013R\u0016\u0010\u0016\u001a\u00028\u00008D@\u0004X\u0084\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u0015\u0010\u0013\u00a8\u0006\u0019"
-    }
-    d2 = {
-        "Lcotlinx/coroutines/internal/a0;",
-        "Lcotlinx/coroutines/internal/z;",
-        "S",
-        "",
-        "new",
-        "Lcotlin/t1;",
-        "h",
-        "(Lcotlinx/coroutines/internal/z;)V",
-        "i",
-        "",
-        "id",
-        "prev",
-        "j",
-        "(JLcotlinx/coroutines/internal/z;)Lcotlinx/coroutines/internal/z;",
-        "startFrom",
-        "e",
-        "(Lcotlinx/coroutines/internal/z;J)Lcotlinx/coroutines/internal/z;",
-        "f",
-        "d",
-        "()Lcotlinx/coroutines/internal/z;",
-        "head",
-        "g",
-        "tail",
-        "<init>",
-        "()V",
-        "kotlinx-coroutines-core"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # static fields

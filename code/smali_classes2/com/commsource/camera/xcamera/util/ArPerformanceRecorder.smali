@@ -4,78 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nArPerformanceRecorder.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ArPerformanceRecorder.kt\ncom/commsource/camera/xcamera/util/ArPerformanceRecorder\n*L\n1#1,99:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000B\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0010\u0008\n\u0000\n\u0002\u0010\t\n\u0000\n\u0002\u0010\u000e\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0008\n\u0002\u0010\u000b\n\u0002\u0008\r\n\u0002\u0010!\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0008\u0018\u00002\u00020\u0001B\u0007\u00a2\u0006\u0004\u0008/\u00100J\'\u0010\t\u001a\u00020\u00082\u0006\u0010\u0003\u001a\u00020\u00022\u0006\u0010\u0005\u001a\u00020\u00042\u0008\u0010\u0007\u001a\u0004\u0018\u00010\u0006\u00a2\u0006\u0004\u0008\t\u0010\nJ\u0015\u0010\u000c\u001a\u00020\u00082\u0006\u0010\u000b\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u000c\u0010\rR\u0018\u0010\u0010\u001a\u0004\u0018\u00010\u00068\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u000e\u0010\u000fR\u0016\u0010\u0014\u001a\u00020\u00118\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u0012\u0010\u0013R\u0016\u0010\u0017\u001a\u00020\u00048\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u0015\u0010\u0016R\u0016\u0010\u0019\u001a\u00020\u00048\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u0018\u0010\u0016R\u0016\u0010\u001b\u001a\u00020\u00118\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u001a\u0010\u0013R\u0016\u0010\u001e\u001a\u00020\u00028\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u001c\u0010\u001dR\u001c\u0010\"\u001a\u0008\u0012\u0004\u0012\u00020\u00020\u001f8\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008 \u0010!R\u001d\u0010(\u001a\u00020#8B@\u0002X\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008$\u0010%\u001a\u0004\u0008&\u0010\'R\u0019\u0010.\u001a\u00020)8\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008*\u0010+\u001a\u0004\u0008,\u0010-\u00a8\u00061"
-    }
-    d2 = {
-        "Lcom/commsource/camera/xcamera/util/ArPerformanceRecorder;",
-        "",
-        "",
-        "arId",
-        "",
-        "arMemory",
-        "",
-        "arUrl",
-        "Lcotlin/t1;",
-        "n",
-        "(IJLjava/lang/String;)V",
-        "fps",
-        "o",
-        "(I)V",
-        "a",
-        "Ljava/lang/String;",
-        "arMaterialUrl",
-        "",
-        "e",
-        "Z",
-        "isNeedStartRecordNextFrame",
-        "d",
-        "J",
-        "startTime",
-        "c",
-        "arMaterialMemory",
-        "f",
-        "isNeedRecordFps",
-        "b",
-        "I",
-        "arMaterialId",
-        "",
-        "g",
-        "Ljava/util/List;",
-        "fpsArray",
-        "Landroid/os/Handler;",
-        "h",
-        "Lcotlin/w;",
-        "l",
-        "()Landroid/os/Handler;",
-        "handler",
-        "Ljava/lang/Runnable;",
-        "i",
-        "Ljava/lang/Runnable;",
-        "m",
-        "()Ljava/lang/Runnable;",
-        "recordFpsTask",
-        "<init>",
-        "()V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

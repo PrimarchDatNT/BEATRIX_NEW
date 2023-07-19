@@ -4,54 +4,6 @@
 
 
 # annotations
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000.\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0002\u0008\u0008\u0008&\u0018\u00002\u00020\u0001B\u000f\u0012\u0006\u0010\u0014\u001a\u00020\u000e\u00a2\u0006\u0004\u0008\u001c\u0010\u0013J\u000f\u0010\u0003\u001a\u00020\u0002H&\u00a2\u0006\u0004\u0008\u0003\u0010\u0004J\u0017\u0010\u0008\u001a\u00020\u00072\u0006\u0010\u0006\u001a\u00020\u0005H\u0016\u00a2\u0006\u0004\u0008\u0008\u0010\tJ\u0017\u0010\u000b\u001a\u00020\u00072\u0006\u0010\n\u001a\u00020\u0002H&\u00a2\u0006\u0004\u0008\u000b\u0010\u000cJ\u0019\u0010\r\u001a\u00020\u00072\u0008\u0010\n\u001a\u0004\u0018\u00010\u0002H&\u00a2\u0006\u0004\u0008\r\u0010\u000cR\"\u0010\u0014\u001a\u00020\u000e8\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0003\u0010\u000f\u001a\u0004\u0008\u0010\u0010\u0011\"\u0004\u0008\u0012\u0010\u0013R\"\u0010\u001b\u001a\u00020\u00158\u0006@\u0006X\u0086.\u00a2\u0006\u0012\n\u0004\u0008\r\u0010\u0016\u001a\u0004\u0008\u0017\u0010\u0018\"\u0004\u0008\u0019\u0010\u001a\u00a8\u0006\u001d"
-    }
-    d2 = {
-        "Lcom/commsource/studio/function/automanual/d;",
-        "",
-        "Lcom/commsource/studio/e;",
-        "b",
-        "()Lcom/commsource/studio/e;",
-        "Lcom/commsource/easyeditor/utils/opengl/f;",
-        "fboEntity",
-        "Lcotlin/t1;",
-        "e",
-        "(Lcom/commsource/easyeditor/utils/opengl/f;)V",
-        "autoManualState",
-        "f",
-        "(Lcom/commsource/studio/e;)V",
-        "a",
-        "Lcom/commsource/studio/processor/BaseEffectProcessor;",
-        "Lcom/commsource/studio/processor/BaseEffectProcessor;",
-        "d",
-        "()Lcom/commsource/studio/processor/BaseEffectProcessor;",
-        "h",
-        "(Lcom/commsource/studio/processor/BaseEffectProcessor;)V",
-        "effectProcessor",
-        "Lcom/commsource/studio/function/automanual/AutoManualStackLogic;",
-        "Lcom/commsource/studio/function/automanual/AutoManualStackLogic;",
-        "c",
-        "()Lcom/commsource/studio/function/automanual/AutoManualStackLogic;",
-        "g",
-        "(Lcom/commsource/studio/function/automanual/AutoManualStackLogic;)V",
-        "autoManualStackLogic",
-        "<init>",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

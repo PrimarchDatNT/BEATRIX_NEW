@@ -13,57 +13,7 @@
     name = null
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nBackgroundAdjustFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BackgroundAdjustFragment.kt\ncom/commsource/studio/function/background/BackgroundAdjustFragment$onViewCreated$1$1\n*L\n1#1,494:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u00004\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u000b\u0008\n\u0018\u00002\u00020\u0001J/\u0010\u000b\u001a\u00020\n2\u0006\u0010\u0003\u001a\u00020\u00022\u0006\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0007\u001a\u00020\u00062\u0006\u0010\t\u001a\u00020\u0008H\u0016\u00a2\u0006\u0004\u0008\u000b\u0010\u000cJ\'\u0010\u000f\u001a\u00020\n2\u0006\u0010\u000e\u001a\u00020\r2\u0006\u0010\u0007\u001a\u00020\u00062\u0006\u0010\t\u001a\u00020\u0008H\u0016\u00a2\u0006\u0004\u0008\u000f\u0010\u0010R\u001d\u0010\u0016\u001a\u00020\u00118F@\u0006X\u0086\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0012\u0010\u0013\u001a\u0004\u0008\u0014\u0010\u0015R\"\u0010\u0017\u001a\u00020\n8\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0017\u0010\u0018\u001a\u0004\u0008\u0012\u0010\u0019\"\u0004\u0008\u000e\u0010\u001a\u00a8\u0006\u001b\u00b8\u0006\u001c"
-    }
-    d2 = {
-        "com/commsource/studio/function/background/BackgroundAdjustFragment$a",
-        "Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;",
-        "LLandroid/graphics/Rect;;",
-        "outRect",
-        "LLandroid/view/View;;",
-        "view",
-        "LLandroidx/recyclerview/widget/RecyclerView;;",
-        "parent",
-        "Landroidx/recyclerview/widget/RecyclerView$State;",
-        "state",
-        "L;",
-        "getItemOffsets",
-        "(LLandroid/graphics/Rect;;LLandroid/view/View;;LLandroidx/recyclerview/widget/RecyclerView;;LLandroidx/recyclerview/widget/RecyclerView$State;;)L;",
-        "LLandroid/graphics/Canvas;;",
-        "c",
-        "onDrawOver",
-        "(LLandroid/graphics/Canvas;;LLandroidx/recyclerview/widget/RecyclerView;;LLandroidx/recyclerview/widget/RecyclerView$State;;)L;",
-        "Landroid/graphics/Paint;",
-        "b",
-        "Lcotlin/w;",
-        "a",
-        "()Landroid/graphics/Paint;",
-        "paint",
-        "space",
-        "L;",
-        "()F",
-        "(F)V",
-        "app_googleplayRelease",
-        "com/commsource/studio/function/background/BackgroundAdjustFragment$onViewCreated$1$1"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

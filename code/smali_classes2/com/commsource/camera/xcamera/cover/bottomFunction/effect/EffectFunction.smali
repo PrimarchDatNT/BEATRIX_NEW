@@ -12,58 +12,6 @@
     }
 .end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000$\n\u0002\u0018\u0002\n\u0002\u0010\u0010\n\u0002\u0010\u0008\n\u0002\u0008\u0006\n\u0002\u0010\u000e\n\u0002\u0008\t\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\r\u0008\u0086\u0001\u0018\u00002\u0008\u0012\u0004\u0012\u00020\u00000\u0001B1\u0008\u0002\u0012\u0006\u0010\n\u001a\u00020\t\u0012\u0006\u0010\u0010\u001a\u00020\u0002\u0012\u0006\u0010\u0003\u001a\u00020\u0002\u0012\u000e\u0010\u0015\u001a\n\u0012\u0006\u0008\u0001\u0012\u00020\u00140\u0013\u00a2\u0006\u0004\u0008\u001b\u0010\u001cR\"\u0010\u0003\u001a\u00020\u00028\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0003\u0010\u0004\u001a\u0004\u0008\u0005\u0010\u0006\"\u0004\u0008\u0007\u0010\u0008R\"\u0010\n\u001a\u00020\t8\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\n\u0010\u000b\u001a\u0004\u0008\u000c\u0010\r\"\u0004\u0008\u000e\u0010\u000fR\"\u0010\u0010\u001a\u00020\u00028\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0010\u0010\u0004\u001a\u0004\u0008\u0011\u0010\u0006\"\u0004\u0008\u0012\u0010\u0008R*\u0010\u0015\u001a\n\u0012\u0006\u0008\u0001\u0012\u00020\u00140\u00138\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0015\u0010\u0016\u001a\u0004\u0008\u0017\u0010\u0018\"\u0004\u0008\u0019\u0010\u001aj\u0002\u0008\u001dj\u0002\u0008\u001ej\u0002\u0008\u001fj\u0002\u0008 \u00a8\u0006!"
-    }
-    d2 = {
-        "Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/EffectFunction;",
-        "",
-        "",
-        "nameResId",
-        "I",
-        "getNameResId",
-        "()I",
-        "setNameResId",
-        "(I)V",
-        "",
-        "tag",
-        "Ljava/lang/String;",
-        "getTag",
-        "()Ljava/lang/String;",
-        "setTag",
-        "(Ljava/lang/String;)V",
-        "drawableResId",
-        "getDrawableResId",
-        "setDrawableResId",
-        "Ljava/lang/Class;",
-        "Lcom/commsource/camera/xcamera/cover/bottomFunction/a;",
-        "fgClass",
-        "Ljava/lang/Class;",
-        "getFgClass",
-        "()Ljava/lang/Class;",
-        "setFgClass",
-        "(Ljava/lang/Class;)V",
-        "<init>",
-        "(Ljava/lang/String;ILjava/lang/String;IILjava/lang/Class;)V",
-        "Look",
-        "Beauty",
-        "Makeup",
-        "Filter",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # static fields

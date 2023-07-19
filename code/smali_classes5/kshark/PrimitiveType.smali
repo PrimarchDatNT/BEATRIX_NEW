@@ -18,50 +18,7 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nPrimitiveType.kt\nKotlin\n*S Kotlin\n*F\n+ 1 PrimitiveType.kt\nkshark/PrimitiveType\n+ 2 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n*L\n1#1,35:1\n8888#2:36\n9221#2,3:37\n8888#2:40\n9221#2,3:41\n*E\n*S KotlinDebug\n*F\n+ 1 PrimitiveType.kt\nkshark/PrimitiveType\n*L\n31#1:36\n31#1,3:37\n33#1:40\n33#1,3:41\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000\u0010\n\u0002\u0018\u0002\n\u0002\u0010\u0010\n\u0002\u0010\u0008\n\u0002\u0008\u0013\u0008\u0086\u0001\u0018\u0000 \u000b2\u0008\u0012\u0004\u0012\u00020\u00000\u0001:\u0001\u000cB\u0019\u0008\u0002\u0012\u0006\u0010\u0007\u001a\u00020\u0002\u0012\u0006\u0010\u0003\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\t\u0010\nR\u0019\u0010\u0003\u001a\u00020\u00028\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u0003\u0010\u0004\u001a\u0004\u0008\u0005\u0010\u0006R\u0019\u0010\u0007\u001a\u00020\u00028\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u0007\u0010\u0004\u001a\u0004\u0008\u0008\u0010\u0006j\u0002\u0008\rj\u0002\u0008\u000ej\u0002\u0008\u000fj\u0002\u0008\u0010j\u0002\u0008\u0011j\u0002\u0008\u0012j\u0002\u0008\u0013j\u0002\u0008\u0014\u00a8\u0006\u0015"
-    }
-    d2 = {
-        "Lkshark/PrimitiveType;",
-        "",
-        "",
-        "byteSize",
-        "I",
-        "getByteSize",
-        "()I",
-        "hprofType",
-        "getHprofType",
-        "<init>",
-        "(Ljava/lang/String;III)V",
-        "Companion",
-        "a",
-        "BOOLEAN",
-        "CHAR",
-        "FLOAT",
-        "DOUBLE",
-        "BYTE",
-        "SHORT",
-        "INT",
-        "LONG",
-        "shark"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # static fields

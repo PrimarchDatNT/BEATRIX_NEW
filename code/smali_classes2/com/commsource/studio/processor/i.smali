@@ -11,79 +11,7 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nOneTouchBeautyProcessor.kt\nKotlin\n*S Kotlin\n*F\n+ 1 OneTouchBeautyProcessor.kt\ncom/commsource/studio/processor/OneTouchBeautyProcessor\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,171:1\n1819#2,2:172\n1819#2,2:174\n*E\n*S KotlinDebug\n*F\n+ 1 OneTouchBeautyProcessor.kt\ncom/commsource/studio/processor/OneTouchBeautyProcessor\n*L\n44#1,2:172\n49#1,2:174\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000B\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u0007\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0015\u0008\u0016\u0018\u0000 -2\u00020\u0001:\u0002\u00121B\u0007\u00a2\u0006\u0004\u00080\u0010\u0013J\u000f\u0010\u0003\u001a\u00020\u0002H\u0002\u00a2\u0006\u0004\u0008\u0003\u0010\u0004J\u000f\u0010\u0006\u001a\u00020\u0005H\u0002\u00a2\u0006\u0004\u0008\u0006\u0010\u0007J\u0017\u0010\u000b\u001a\u00020\n2\u0006\u0010\t\u001a\u00020\u0008H\u0002\u00a2\u0006\u0004\u0008\u000b\u0010\u000cJ\u001f\u0010\u0010\u001a\u00020\u00082\u0006\u0010\u000e\u001a\u00020\r2\u0006\u0010\u000f\u001a\u00020\u0008H\u0002\u00a2\u0006\u0004\u0008\u0010\u0010\u0011J\u000f\u0010\u0012\u001a\u00020\nH\u0016\u00a2\u0006\u0004\u0008\u0012\u0010\u0013J\u000f\u0010\u0014\u001a\u00020\nH\u0016\u00a2\u0006\u0004\u0008\u0014\u0010\u0013J\u0017\u0010\u0017\u001a\u00020\n2\u0006\u0010\u0016\u001a\u00020\u0015H\u0016\u00a2\u0006\u0004\u0008\u0017\u0010\u0018J\u0017\u0010\u001a\u001a\u00020\u00082\u0006\u0010\u0019\u001a\u00020\u0008H\u0016\u00a2\u0006\u0004\u0008\u001a\u0010\u001bR\u001c\u0010\u001f\u001a\u0008\u0012\u0004\u0012\u00020\u001d0\u001c8\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u001a\u0010\u001eR*\u0010%\u001a\u00020\u00082\u0006\u0010 \u001a\u00020\u00088\u0006@FX\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0003\u0010!\u001a\u0004\u0008\"\u0010#\"\u0004\u0008$\u0010\u000cR\"\u0010*\u001a\u00020\u00058\u0006@\u0006X\u0086.\u00a2\u0006\u0012\n\u0004\u0008&\u0010\'\u001a\u0004\u0008&\u0010\u0007\"\u0004\u0008(\u0010)R\"\u0010/\u001a\u00020\u00028\u0006@\u0006X\u0086.\u00a2\u0006\u0012\n\u0004\u0008\u0010\u0010+\u001a\u0004\u0008,\u0010\u0004\"\u0004\u0008-\u0010.\u00a8\u00062"
-    }
-    d2 = {
-        "Lcom/commsource/studio/processor/i;",
-        "Lcom/commsource/studio/processor/BaseEffectProcessor;",
-        "Lcom/commsource/camera/newrender/renderproxy/m;",
-        "P",
-        "()Lcom/commsource/camera/newrender/renderproxy/m;",
-        "Lcom/commsource/studio/r0/x;",
-        "Q",
-        "()Lcom/commsource/studio/r0/x;",
-        "",
-        "percentage",
-        "Lcotlin/t1;",
-        "J",
-        "(F)V",
-        "",
-        "type",
-        "percent",
-        "M",
-        "(IF)F",
-        "a",
-        "()V",
-        "c",
-        "Lcom/commsource/easyeditor/utils/opengl/f;",
-        "disFBO",
-        "s",
-        "(Lcom/commsource/easyeditor/utils/opengl/f;)V",
-        "oriValue",
-        "O",
-        "(F)F",
-        "Ljava/util/LinkedList;",
-        "Lcom/commsource/camera/newrender/renderproxy/n;",
-        "Ljava/util/LinkedList;",
-        "renderProxies",
-        "value",
-        "F",
-        "L",
-        "()F",
-        "S",
-        "effectAlpha",
-        "N",
-        "Lcom/commsource/studio/r0/x;",
-        "T",
-        "(Lcom/commsource/studio/r0/x;)V",
-        "rtEfRenderProxy",
-        "Lcom/commsource/camera/newrender/renderproxy/m;",
-        "K",
-        "R",
-        "(Lcom/commsource/camera/newrender/renderproxy/m;)V",
-        "arRenderProxy",
-        "<init>",
-        "b",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # static fields

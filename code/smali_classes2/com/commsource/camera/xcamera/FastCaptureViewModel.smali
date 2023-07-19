@@ -4,75 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nFastCaptureViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FastCaptureViewModel.kt\ncom/commsource/camera/xcamera/FastCaptureViewModel\n*L\n1#1,73:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000F\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000b\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0010\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u0018\u00002\u00020\u0001B\u000f\u0012\u0006\u0010+\u001a\u00020*\u00a2\u0006\u0004\u0008,\u0010-J\u0015\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J\r\u0010\u0008\u001a\u00020\u0007\u00a2\u0006\u0004\u0008\u0008\u0010\tJ\r\u0010\n\u001a\u00020\u0007\u00a2\u0006\u0004\u0008\n\u0010\tR\u001f\u0010\u0011\u001a\u0008\u0012\u0004\u0012\u00020\u000c0\u000b8\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\r\u0010\u000e\u001a\u0004\u0008\u000f\u0010\u0010R\u001f\u0010\u0018\u001a\u0008\u0012\u0004\u0012\u00020\u00130\u00128\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u0014\u0010\u0015\u001a\u0004\u0008\u0016\u0010\u0017R\u001e\u0010\u001d\u001a\n \u001a*\u0004\u0018\u00010\u00190\u00198\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u001b\u0010\u001cR$\u0010#\u001a\u0004\u0018\u00010\u00028\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u001e\u0010\u001f\u001a\u0004\u0008 \u0010!\"\u0004\u0008\"\u0010\u0006R\"\u0010)\u001a\u00020\u00078\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008$\u0010%\u001a\u0004\u0008&\u0010\t\"\u0004\u0008\'\u0010(\u00a8\u0006."
-    }
-    d2 = {
-        "Lcom/commsource/camera/xcamera/FastCaptureViewModel;",
-        "Lcom/commsource/beautyplus/base/BaseVm;",
-        "Lcom/commsource/camera/fastcapture/SelfiePhotoData;",
-        "selfiePhotoData",
-        "Lcotlin/t1;",
-        "y",
-        "(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)V",
-        "",
-        "C",
-        "()Z",
-        "D",
-        "Landroidx/lifecycle/MediatorLiveData;",
-        "Lcom/commsource/camera/fastcapture/j/a;",
-        "d",
-        "Landroidx/lifecycle/MediatorLiveData;",
-        "A",
-        "()Landroidx/lifecycle/MediatorLiveData;",
-        "readInfoEvent",
-        "Landroidx/lifecycle/MutableLiveData;",
-        "",
-        "b",
-        "Landroidx/lifecycle/MutableLiveData;",
-        "B",
-        "()Landroidx/lifecycle/MutableLiveData;",
-        "showSScoreEvent",
-        "Lcom/commsource/camera/fastcapture/i;",
-        "kotlin.jvm.PlatformType",
-        "f",
-        "Lcom/commsource/camera/fastcapture/i;",
-        "fastCaptureController",
-        "c",
-        "Lcom/commsource/camera/fastcapture/SelfiePhotoData;",
-        "z",
-        "()Lcom/commsource/camera/fastcapture/SelfiePhotoData;",
-        "F",
-        "fastCaptureSelfiePhotoData",
-        "a",
-        "Z",
-        "E",
-        "G",
-        "(Z)V",
-        "isOpen",
-        "Landroid/app/Application;",
-        "application",
-        "<init>",
-        "(Landroid/app/Application;)V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

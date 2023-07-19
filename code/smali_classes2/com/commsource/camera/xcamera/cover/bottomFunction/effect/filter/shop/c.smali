@@ -4,70 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nRepeatAnimator.kt\nKotlin\n*S Kotlin\n*F\n+ 1 RepeatAnimator.kt\ncom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/RepeatAnimator\n*L\n1#1,87:1\n26#1,21:88\n*E\n*S KotlinDebug\n*F\n+ 1 RepeatAnimator.kt\ncom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/RepeatAnimator\n*L\n55#1,21:88\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u00006\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0010\u000b\n\u0000\n\u0002\u0018\u0002\n\u0002\u0010\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0010\t\n\u0002\u0008\u0012\n\u0002\u0018\u0002\n\u0002\u0008\u0007\u0018\u00002\u00020\u0001B\u0007\u00a2\u0006\u0004\u0008(\u0010\u0019J=\u0010\u000b\u001a\u00020\t2\u0006\u0010\u0003\u001a\u00020\u00022#\u0008\u0004\u0010\n\u001a\u001d\u0012\u0013\u0012\u00110\u0005\u00a2\u0006\u000c\u0008\u0006\u0012\u0008\u0008\u0007\u0012\u0004\u0008\u0008(\u0008\u0012\u0004\u0012\u00020\t0\u0004H\u0082\u0008\u00a2\u0006\u0004\u0008\u000b\u0010\u000cJ8\u0010\u000e\u001a\u00020\t2\u0006\u0010\r\u001a\u00020\u00022!\u0010\n\u001a\u001d\u0012\u0013\u0012\u00110\u0005\u00a2\u0006\u000c\u0008\u0006\u0012\u0008\u0008\u0007\u0012\u0004\u0008\u0008(\u0008\u0012\u0004\u0012\u00020\t0\u0004\u00a2\u0006\u0004\u0008\u000e\u0010\u000cJ\u0015\u0010\u0011\u001a\u00020\u00002\u0006\u0010\u0010\u001a\u00020\u000f\u00a2\u0006\u0004\u0008\u0011\u0010\u0012J\u0015\u0010\u0014\u001a\u00020\t2\u0006\u0010\u0013\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0014\u0010\u0015J\r\u0010\u0016\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0016\u0010\u0017J\r\u0010\u0018\u001a\u00020\t\u00a2\u0006\u0004\u0008\u0018\u0010\u0019R\u0016\u0010\u001c\u001a\u00020\u00058\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u001a\u0010\u001bR\u0016\u0010\u001e\u001a\u00020\u00058\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u001d\u0010\u001bR\u0016\u0010!\u001a\u00020\u000f8\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u001f\u0010 R\u0018\u0010%\u001a\u0004\u0018\u00010\"8\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008#\u0010$R\u0016\u0010\'\u001a\u00020\u00058\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008&\u0010\u001b\u00a8\u0006)"
-    }
-    d2 = {
-        "Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;",
-        "",
-        "",
-        "isGoEnd",
-        "Lcotlin/Function1;",
-        "",
-        "Lcotlin/k0;",
-        "name",
-        "value",
-        "Lcotlin/t1;",
-        "block",
-        "m",
-        "(ZLcotlin/jvm/u/l;)V",
-        "formStartOrEnd",
-        "k",
-        "",
-        "time",
-        "o",
-        "(J)Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/c;",
-        "isEndState",
-        "p",
-        "(Z)V",
-        "n",
-        "()Z",
-        "l",
-        "()V",
-        "e",
-        "F",
-        "curEndPosition",
-        "c",
-        "startPosition",
-        "a",
-        "J",
-        "animatorTime",
-        "Landroid/animation/ValueAnimator;",
-        "b",
-        "Landroid/animation/ValueAnimator;",
-        "animator",
-        "d",
-        "endPosition",
-        "<init>",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

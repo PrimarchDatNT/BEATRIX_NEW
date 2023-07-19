@@ -10,54 +10,6 @@
     }
 .end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u00008\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0005\u0018\u00002\u00020\u0001:\u0001\u001cB\u000f\u0012\u0006\u0010\u0019\u001a\u00020\u0018\u00a2\u0006\u0004\u0008\u001a\u0010\u001bJ\u000f\u0010\u0003\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\u0003\u0010\u0004J\u001f\u0010\t\u001a\u00020\u00082\u0006\u0010\u0006\u001a\u00020\u00052\u0008\u0010\u0007\u001a\u0004\u0018\u00010\u0005\u00a2\u0006\u0004\u0008\t\u0010\nJ\r\u0010\u000b\u001a\u00020\u0008\u00a2\u0006\u0004\u0008\u000b\u0010\u000cR\u0018\u0010\u0006\u001a\u0004\u0018\u00010\u00058\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\r\u0010\u000eR\u0018\u0010\u0007\u001a\u0004\u0018\u00010\u00058\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u000f\u0010\u000eR\u001a\u0010\u0013\u001a\u00060\u0010R\u00020\u00008\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0011\u0010\u0012R\u0016\u0010\u0017\u001a\u00020\u00148\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0015\u0010\u0016\u00a8\u0006\u001d"
-    }
-    d2 = {
-        "Lcom/commsource/studio/layer/ContrastLayer;",
-        "Lcom/commsource/studio/layer/d;",
-        "Landroid/view/View;",
-        "c0",
-        "()Landroid/view/View;",
-        "Landroid/graphics/Bitmap;",
-        "oriBitmap",
-        "maskBitmap",
-        "Lcotlin/t1;",
-        "v0",
-        "(Landroid/graphics/Bitmap;Landroid/graphics/Bitmap;)V",
-        "u0",
-        "()V",
-        "N",
-        "Landroid/graphics/Bitmap;",
-        "O",
-        "Lcom/commsource/studio/layer/ContrastLayer$ContrastView;",
-        "Q",
-        "Lcom/commsource/studio/layer/ContrastLayer$ContrastView;",
-        "contrastView",
-        "Landroid/graphics/Rect;",
-        "P",
-        "Landroid/graphics/Rect;",
-        "dstRect",
-        "Landroid/content/Context;",
-        "context",
-        "<init>",
-        "(Landroid/content/Context;)V",
-        "ContrastView",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

@@ -8,71 +8,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nStep.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Step.kt\ncom/commsource/studio/bean/Step\n+ 2 _Maps.kt\nkotlin/collections/MapsKt___MapsKt\n+ 3 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,73:1\n181#2,2:74\n1819#3,2:76\n*E\n*S KotlinDebug\n*F\n+ 1 Step.kt\ncom/commsource/studio/bean/Step\n*L\n36#1,2:74\n26#1,2:76\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000T\n\u0002\u0018\u0002\n\u0002\u0010\u001a\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000b\n\u0002\u0008\u0004\n\u0002\u0010\u000e\n\u0002\u0008\u0003\n\u0002\u0010$\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0010 \n\u0002\u0008\u0003\u0018\u00002\u00020\u00012\u00020\u0002B\u0007\u00a2\u0006\u0004\u0008%\u0010&B\u0017\u0008\u0016\u0012\u000c\u0010(\u001a\u0008\u0012\u0004\u0012\u00020\u00140\'\u00a2\u0006\u0004\u0008%\u0010)J\u0015\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u0000\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J\r\u0010\u0007\u001a\u00020\u0000\u00a2\u0006\u0004\u0008\u0007\u0010\u0008J\u0017\u0010\u000b\u001a\u0004\u0018\u00010\t2\u0006\u0010\n\u001a\u00020\t\u00a2\u0006\u0004\u0008\u000b\u0010\u000cJ%\u0010\u000f\u001a\u00020\u00002\u0016\u0008\u0002\u0010\u000e\u001a\u0010\u0012\u0004\u0012\u00020\t\u0012\u0004\u0012\u00020\t\u0018\u00010\r\u00a2\u0006\u0004\u0008\u000f\u0010\u0010J)\u0010\u000b\u001a\u001e\u0012\u0004\u0012\u00020\t\u0012\u0004\u0012\u00020\t0\u0011j\u000e\u0012\u0004\u0012\u00020\t\u0012\u0004\u0012\u00020\t`\u0012\u00a2\u0006\u0004\u0008\u000b\u0010\u0013R2\u0010\u0015\u001a\u001e\u0012\u0004\u0012\u00020\t\u0012\u0004\u0012\u00020\u00140\u0011j\u000e\u0012\u0004\u0012\u00020\t\u0012\u0004\u0012\u00020\u0014`\u00128\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0015\u0010\u0016R\"\u0010\u0018\u001a\u00020\u00178\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0018\u0010\u0019\u001a\u0004\u0008\u001a\u0010\u001b\"\u0004\u0008\u001c\u0010\u001dR2\u0010\u001e\u001a\u001e\u0012\u0004\u0012\u00020\t\u0012\u0004\u0012\u00020\t0\u0011j\u000e\u0012\u0004\u0012\u00020\t\u0012\u0004\u0012\u00020\t`\u00128\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u001e\u0010\u0016R)\u0010!\u001a\u0012\u0012\u0004\u0012\u00020\u00140\u001fj\u0008\u0012\u0004\u0012\u00020\u0014` 8\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008!\u0010\"\u001a\u0004\u0008#\u0010$\u00a8\u0006*"
-    }
-    d2 = {
-        "Lcom/commsource/studio/bean/Step;",
-        "",
-        "Ljava/io/Serializable;",
-        "step",
-        "",
-        "isTextureChange",
-        "(Lcom/commsource/studio/bean/Step;)Z",
-        "copyStep",
-        "()Lcom/commsource/studio/bean/Step;",
-        "",
-        "key",
-        "getExtraInfo",
-        "(Ljava/lang/String;)Ljava/lang/String;",
-        "",
-        "map",
-        "setExtraInfo",
-        "(Ljava/util/Map;)Lcom/commsource/studio/bean/Step;",
-        "Ljava/util/HashMap;",
-        "Lcotlin/collections/HashMap;",
-        "()Ljava/util/HashMap;",
-        "Lcom/commsource/studio/bean/BaseLayerInfo;",
-        "keyObjMap",
-        "Ljava/util/HashMap;",
-        "",
-        "layerSize",
-        "I",
-        "getLayerSize",
-        "()I",
-        "setLayerSize",
-        "(I)V",
-        "extraInfo",
-        "Ljava/util/ArrayList;",
-        "Lcotlin/collections/ArrayList;",
-        "layerInfos",
-        "Ljava/util/ArrayList;",
-        "getLayerInfos",
-        "()Ljava/util/ArrayList;",
-        "<init>",
-        "()V",
-        "",
-        "chain",
-        "(Ljava/util/List;)V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

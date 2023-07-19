@@ -4,41 +4,6 @@
 
 
 # annotations
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000\u0014\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0010$\n\u0002\u0010\u000e\n\u0002\u0008\r\u0018\u00002\u00020\u0001B%\u0012\u0006\u0010\r\u001a\u00020\u0003\u0012\u0014\u0010\t\u001a\u0010\u0012\u0004\u0012\u00020\u0003\u0012\u0004\u0012\u00020\u0003\u0018\u00010\u0002\u00a2\u0006\u0004\u0008\u000e\u0010\u000fR0\u0010\t\u001a\u0010\u0012\u0004\u0012\u00020\u0003\u0012\u0004\u0012\u00020\u0003\u0018\u00010\u00028\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0004\u0010\u0005\u001a\u0004\u0008\u0004\u0010\u0006\"\u0004\u0008\u0007\u0010\u0008R\u0019\u0010\r\u001a\u00020\u00038\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\n\u0010\u000b\u001a\u0004\u0008\n\u0010\u000c\u00a8\u0006\u0010"
-    }
-    d2 = {
-        "Lcom/commsource/statistics/f;",
-        "",
-        "",
-        "",
-        "b",
-        "Ljava/util/Map;",
-        "()Ljava/util/Map;",
-        "c",
-        "(Ljava/util/Map;)V",
-        "map",
-        "a",
-        "Ljava/lang/String;",
-        "()Ljava/lang/String;",
-        "event",
-        "<init>",
-        "(Ljava/lang/String;Ljava/util/Map;)V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

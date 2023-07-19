@@ -18,74 +18,7 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nEvenlyFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 EvenlyFragment.kt\ncom/commsource/studio/function/EvenlyFragment\n*L\n1#1,158:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000J\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\n\n\u0002\u0010\u0007\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0007\u0018\u0000 +2\u0008\u0012\u0004\u0012\u00020\u00020\u0001:\u0001,B\u0007\u00a2\u0006\u0004\u0008*\u0010\u000eJ-\u0010\n\u001a\u0004\u0018\u00010\t2\u0006\u0010\u0004\u001a\u00020\u00032\u0008\u0010\u0006\u001a\u0004\u0018\u00010\u00052\u0008\u0010\u0008\u001a\u0004\u0018\u00010\u0007H\u0016\u00a2\u0006\u0004\u0008\n\u0010\u000bJ\u000f\u0010\r\u001a\u00020\u000cH\u0016\u00a2\u0006\u0004\u0008\r\u0010\u000eJ\u000f\u0010\u000f\u001a\u00020\u000cH\u0016\u00a2\u0006\u0004\u0008\u000f\u0010\u000eJ\u000f\u0010\u0010\u001a\u00020\u000cH\u0016\u00a2\u0006\u0004\u0008\u0010\u0010\u000eJ\u000f\u0010\u0011\u001a\u00020\u000cH\u0016\u00a2\u0006\u0004\u0008\u0011\u0010\u000eR\u0016\u0010\u0015\u001a\u00020\u00128\u0002@\u0002X\u0082.\u00a2\u0006\u0006\n\u0004\u0008\u0013\u0010\u0014R\"\u0010\u001c\u001a\u00020\u00028\u0016@\u0016X\u0096\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0016\u0010\u0017\u001a\u0004\u0008\u0018\u0010\u0019\"\u0004\u0008\u001a\u0010\u001bR\"\u0010$\u001a\u00020\u001d8\u0016@\u0016X\u0096\u000e\u00a2\u0006\u0012\n\u0004\u0008\u001e\u0010\u001f\u001a\u0004\u0008 \u0010!\"\u0004\u0008\"\u0010#R\u001e\u0010)\u001a\n\u0012\u0004\u0012\u00020&\u0018\u00010%8\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\'\u0010(\u00a8\u0006-"
-    }
-    d2 = {
-        "Lcom/commsource/studio/function/EvenlyFragment;",
-        "Lcom/commsource/studio/function/BaseSubFragment;",
-        "Lcom/commsource/studio/effect/c;",
-        "Landroid/view/LayoutInflater;",
-        "inflater",
-        "Landroid/view/ViewGroup;",
-        "container",
-        "Landroid/os/Bundle;",
-        "savedInstanceState",
-        "Landroid/view/View;",
-        "onCreateView",
-        "(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;",
-        "Lcotlin/t1;",
-        "K0",
-        "()V",
-        "L0",
-        "M0",
-        "G0",
-        "Lcom/commsource/beautyplus/f0/ab;",
-        "d0",
-        "Lcom/commsource/beautyplus/f0/ab;",
-        "mViewBinding",
-        "f0",
-        "Lcom/commsource/studio/effect/c;",
-        "B1",
-        "()Lcom/commsource/studio/effect/c;",
-        "C1",
-        "(Lcom/commsource/studio/effect/c;)V",
-        "effectResult",
-        "",
-        "c0",
-        "F",
-        "l0",
-        "()F",
-        "n1",
-        "(F)V",
-        "panelHeight",
-        "Lcom/commsource/studio/processor/m;",
-        "Lcom/commsource/studio/r0/v;",
-        "e0",
-        "Lcom/commsource/studio/processor/m;",
-        "autoProcessor",
-        "<init>",
-        "j0",
-        "a",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # static fields

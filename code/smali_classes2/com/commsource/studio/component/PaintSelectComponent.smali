@@ -11,78 +11,7 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nPaintSelectComponent.kt\nKotlin\n*S Kotlin\n*F\n+ 1 PaintSelectComponent.kt\ncom/commsource/studio/component/PaintSelectComponent\n*L\n1#1,115:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000P\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000b\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u000b\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0008\n\u0002\u0008\u0008\u0018\u00002\u00020\u0001:\u0002/0B\'\u0008\u0016\u0012\u0006\u0010&\u001a\u00020%\u0012\n\u0008\u0002\u0010(\u001a\u0004\u0018\u00010\'\u0012\u0008\u0008\u0002\u0010*\u001a\u00020)\u00a2\u0006\u0004\u0008+\u0010,B\u001d\u0008\u0016\u0012\u0006\u0010&\u001a\u00020%\u0012\n\u0008\u0002\u0010(\u001a\u0004\u0018\u00010\'\u00a2\u0006\u0004\u0008+\u0010-B\u0011\u0008\u0016\u0012\u0006\u0010&\u001a\u00020%\u00a2\u0006\u0004\u0008+\u0010.J\u0015\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J\u0015\u0010\t\u001a\u00020\u00042\u0006\u0010\u0008\u001a\u00020\u0007\u00a2\u0006\u0004\u0008\t\u0010\nJ\u001f\u0010\u000f\u001a\u00020\u00042\u0006\u0010\u000c\u001a\u00020\u000b2\u0006\u0010\u000e\u001a\u00020\rH\u0016\u00a2\u0006\u0004\u0008\u000f\u0010\u0010R\u0016\u0010\u0012\u001a\u00020\u00078\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u0005\u0010\u0011R\"\u0010\u0018\u001a\u00020\u00028\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0013\u0010\u0014\u001a\u0004\u0008\u0015\u0010\u0016\"\u0004\u0008\u0017\u0010\u0006R\u0019\u0010\u001d\u001a\u00020\u00198\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u000f\u0010\u001a\u001a\u0004\u0008\u001b\u0010\u001cR\"\u0010$\u001a\u00020\u001e8\u0006@\u0006X\u0086.\u00a2\u0006\u0012\n\u0004\u0008\t\u0010\u001f\u001a\u0004\u0008 \u0010!\"\u0004\u0008\"\u0010#\u00a8\u00061"
-    }
-    d2 = {
-        "Lcom/commsource/studio/component/PaintSelectComponent;",
-        "Lcom/commsource/studio/component/ComponentView;",
-        "Lcom/commsource/studio/component/PaintSelectComponent$c;",
-        "penMode",
-        "Lcotlin/t1;",
-        "g",
-        "(Lcom/commsource/studio/component/PaintSelectComponent$c;)V",
-        "",
-        "show",
-        "f",
-        "(Z)V",
-        "Landroidx/lifecycle/ViewModelStoreOwner;",
-        "storeOwner",
-        "Landroidx/lifecycle/LifecycleOwner;",
-        "lifecycleOwner",
-        "p",
-        "(Landroidx/lifecycle/ViewModelStoreOwner;Landroidx/lifecycle/LifecycleOwner;)V",
-        "Z",
-        "isFirstSetPenMode",
-        "d",
-        "Lcom/commsource/studio/component/PaintSelectComponent$c;",
-        "getCurrentUsePenMode",
-        "()Lcom/commsource/studio/component/PaintSelectComponent$c;",
-        "setCurrentUsePenMode",
-        "currentUsePenMode",
-        "Lcom/commsource/beautyplus/f0/g2;",
-        "Lcom/commsource/beautyplus/f0/g2;",
-        "getViewBinding",
-        "()Lcom/commsource/beautyplus/f0/g2;",
-        "viewBinding",
-        "Lcom/commsource/studio/component/PaintSelectComponent$b;",
-        "Lcom/commsource/studio/component/PaintSelectComponent$b;",
-        "getPaintSelectViewModel",
-        "()Lcom/commsource/studio/component/PaintSelectComponent$b;",
-        "setPaintSelectViewModel",
-        "(Lcom/commsource/studio/component/PaintSelectComponent$b;)V",
-        "paintSelectViewModel",
-        "Landroid/content/Context;",
-        "context",
-        "Landroid/util/AttributeSet;",
-        "attrs",
-        "",
-        "defStyleAttr",
-        "<init>",
-        "(Landroid/content/Context;Landroid/util/AttributeSet;I)V",
-        "(Landroid/content/Context;Landroid/util/AttributeSet;)V",
-        "(Landroid/content/Context;)V",
-        "b",
-        "c",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

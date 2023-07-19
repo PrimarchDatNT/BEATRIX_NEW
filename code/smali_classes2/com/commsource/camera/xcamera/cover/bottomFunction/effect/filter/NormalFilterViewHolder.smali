@@ -18,66 +18,7 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nNormalFilterViewHolder.kt\nKotlin\n*S Kotlin\n*F\n+ 1 NormalFilterViewHolder.kt\ncom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/NormalFilterViewHolder\n*L\n1#1,167:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000L\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0010\u000b\n\u0002\u0008\u0003\n\u0002\u0010\u0008\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010!\n\u0002\u0010\u0000\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0006\u0008\u0016\u0018\u0000 #2\u0008\u0012\u0004\u0012\u00020\u00020\u0001:\u0001$B\u0017\u0012\u0006\u0010\u001e\u001a\u00020\u001d\u0012\u0006\u0010 \u001a\u00020\u001f\u00a2\u0006\u0004\u0008!\u0010\"J\u0017\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u0002H\u0002\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J\u0017\u0010\u0007\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u0002H\u0002\u00a2\u0006\u0004\u0008\u0007\u0010\u0006J\u0017\u0010\u0008\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u0002H\u0002\u00a2\u0006\u0004\u0008\u0008\u0010\u0006J\u001f\u0010\u000b\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00022\u0006\u0010\n\u001a\u00020\tH\u0002\u00a2\u0006\u0004\u0008\u000b\u0010\u000cJ7\u0010\u0014\u001a\u00020\u00042\u0006\u0010\u000e\u001a\u00020\r2\u000e\u0010\u0010\u001a\n\u0012\u0004\u0012\u00020\u0002\u0018\u00010\u000f2\u000e\u0010\u0013\u001a\n\u0012\u0004\u0012\u00020\u0012\u0018\u00010\u0011H\u0016\u00a2\u0006\u0004\u0008\u0014\u0010\u0015R%\u0010\u001c\u001a\n \u0017*\u0004\u0018\u00010\u00160\u00168F@\u0006X\u0086\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0018\u0010\u0019\u001a\u0004\u0008\u001a\u0010\u001b\u00a8\u0006%"
-    }
-    d2 = {
-        "Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/NormalFilterViewHolder;",
-        "Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/a;",
-        "Lcom/meitu/template/bean/Filter;",
-        "filter",
-        "Lcotlin/t1;",
-        "y",
-        "(Lcom/meitu/template/bean/Filter;)V",
-        "C",
-        "B",
-        "",
-        "isSelected",
-        "A",
-        "(Lcom/meitu/template/bean/Filter;Z)V",
-        "",
-        "position",
-        "Lcom/commsource/widget/h1/d;",
-        "item",
-        "",
-        "",
-        "payloads",
-        "k",
-        "(ILcom/commsource/widget/h1/d;Ljava/util/List;)V",
-        "Lcom/commsource/beautyplus/f0/ee;",
-        "kotlin.jvm.PlatformType",
-        "K",
-        "Lcotlin/w;",
-        "z",
-        "()Lcom/commsource/beautyplus/f0/ee;",
-        "mViewBinding",
-        "Landroid/content/Context;",
-        "context",
-        "Landroid/view/ViewGroup;",
-        "parent",
-        "<init>",
-        "(Landroid/content/Context;Landroid/view/ViewGroup;)V",
-        "Q",
-        "a",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # static fields

@@ -16,40 +16,7 @@
     name = null
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nBpAlbumViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BpAlbumViewModel.kt\ncom/commsource/mypage/album/BpAlbumViewModel$onSelectImage$1$1\n*L\n1#1,688:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000\u001c\n\u0002\u0010\u0008\n\u0000\n\u0002\u0010\u000e\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0010\t\u001a\u00020\u00082\u0006\u0010\u0001\u001a\u00020\u00002\u0008\u0010\u0003\u001a\u0004\u0018\u00010\u00022\u0008\u0010\u0005\u001a\u0004\u0018\u00010\u00042\u0006\u0010\u0006\u001a\u00020\u00002\u0006\u0010\u0007\u001a\u00020\u0000H\n\u00a2\u0006\u0004\u0008\t\u0010\n\u00a8\u0006\u000b"
-    }
-    d2 = {
-        "",
-        "result",
-        "",
-        "path",
-        "Lcom/meitu/core/types/FaceData;",
-        "faceData",
-        "w",
-        "h",
-        "Lcotlin/t1;",
-        "a",
-        "(ILjava/lang/String;Lcom/meitu/core/types/FaceData;II)V",
-        "com/commsource/mypage/album/BpAlbumViewModel$onSelectImage$1$1"
-    }
-    k = 0x3
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

@@ -20,56 +20,6 @@
     }
 .end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000\"\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\n\n\u0002\u0018\u0002\n\u0002\u0008\u000b\n\u0002\u0018\u0002\n\u0002\u0008\u0005\u0018\u0000 \u001d*\u0008\u0008\u0000\u0010\u0002*\u00020\u00012\u00020\u0001:\u0002\u001d\u001eB\u0011\u0008\u0012\u0012\u0006\u0010\u0016\u001a\u00020\u000e\u00a2\u0006\u0004\u0008\u0017\u0010\u0018B\u001b\u0008\u0012\u0012\u0006\u0010\u0019\u001a\u00028\u0000\u0012\u0008\u0010\u001b\u001a\u0004\u0018\u00010\u001a\u00a2\u0006\u0004\u0008\u0017\u0010\u001cJ\u0015\u0010\u0006\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u0003H\u0000\u00a2\u0006\u0004\u0008\u0004\u0010\u0005R.\u0010\u0008\u001a\u0004\u0018\u00018\u00002\u0008\u0010\u0007\u001a\u0004\u0018\u00018\u00008\u0006@BX\u0087\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0008\u0010\t\u0012\u0004\u0008\u000c\u0010\r\u001a\u0004\u0008\n\u0010\u000bR.\u0010\u000f\u001a\u0004\u0018\u00010\u000e2\u0008\u0010\u0007\u001a\u0004\u0018\u00010\u000e8\u0006@BX\u0087\u000e\u00a2\u0006\u0012\n\u0004\u0008\u000f\u0010\u0010\u0012\u0004\u0008\u0013\u0010\r\u001a\u0004\u0008\u0011\u0010\u0012R\u001c\u0010\u0014\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u00038\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u0014\u0010\u0015\u00a8\u0006\u001f"
-    }
-    d2 = {
-        "Lcom/mopub/network/MoPubResponse;",
-        "",
-        "T",
-        "Lcom/mopub/volley/Response;",
-        "getVolleyResponse$mopub_sdk_networking_release",
-        "()Lcom/mopub/volley/Response;",
-        "getVolleyResponse",
-        "<set-?>",
-        "moPubResult",
-        "Ljava/lang/Object;",
-        "getMoPubResult",
-        "()Ljava/lang/Object;",
-        "getMoPubResult$annotations",
-        "()V",
-        "Lcom/mopub/network/MoPubNetworkError;",
-        "moPubNetworkError",
-        "Lcom/mopub/network/MoPubNetworkError;",
-        "getMoPubNetworkError",
-        "()Lcom/mopub/network/MoPubNetworkError;",
-        "getMoPubNetworkError$annotations",
-        "volleyResponse",
-        "Lcom/mopub/volley/Response;",
-        "networkError",
-        "<init>",
-        "(Lcom/mopub/network/MoPubNetworkError;)V",
-        "result",
-        "Lcom/mopub/volley/Cache$Entry;",
-        "cacheEntry",
-        "(Ljava/lang/Object;Lcom/mopub/volley/Cache$Entry;)V",
-        "Companion",
-        "Listener",
-        "mopub-sdk-networking_release"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # static fields

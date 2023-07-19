@@ -13,69 +13,7 @@
     name = null
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nBaseScrollLayer.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BaseScrollLayer.kt\ncom/commsource/studio/layer/BaseScrollLayer$onCreateGestureListener$1\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,223:1\n1819#2,2:224\n1819#2,2:226\n1819#2,2:228\n1819#2,2:230\n1819#2,2:232\n1819#2,2:234\n*E\n*S KotlinDebug\n*F\n+ 1 BaseScrollLayer.kt\ncom/commsource/studio/layer/BaseScrollLayer$onCreateGestureListener$1\n*L\n83#1,2:224\n115#1,2:226\n137#1,2:228\n145#1,2:230\n162#1,2:232\n178#1,2:234\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000$\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000b\n\u0002\u0008\u0006\n\u0002\u0010\u0007\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u001a\u0008\n\u0018\u00002\u00020\u0001J\u0017\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J\u0017\u0010\u0008\u001a\u00020\u00042\u0006\u0010\u0007\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\u0008\u0010\u0006J\u001f\u0010\t\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00022\u0006\u0010\u0007\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\t\u0010\nJ\'\u0010\u0010\u001a\u00020\u00042\u0006\u0010\u000c\u001a\u00020\u000b2\u0006\u0010\r\u001a\u00020\u000b2\u0006\u0010\u000f\u001a\u00020\u000eH\u0016\u00a2\u0006\u0004\u0008\u0010\u0010\u0011J\'\u0010\u0014\u001a\u00020\u00042\u0006\u0010\u0012\u001a\u00020\u000e2\u0006\u0010\u0013\u001a\u00020\u000e2\u0006\u0010\u000f\u001a\u00020\u000eH\u0016\u00a2\u0006\u0004\u0008\u0014\u0010\u0015J3\u0010\u0019\u001a\u00020\u00042\u0008\u0010\u0003\u001a\u0004\u0018\u00010\u00022\u0008\u0010\u0016\u001a\u0004\u0018\u00010\u00022\u0006\u0010\u0017\u001a\u00020\u000b2\u0006\u0010\u0018\u001a\u00020\u000bH\u0016\u00a2\u0006\u0004\u0008\u0019\u0010\u001aJ\u0017\u0010\u001c\u001a\u00020\u00042\u0006\u0010\u001b\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\u001c\u0010\u0006J\u0019\u0010\u001d\u001a\u00020\u00042\u0008\u0010\u0007\u001a\u0004\u0018\u00010\u0002H\u0016\u00a2\u0006\u0004\u0008\u001d\u0010\u0006J/\u0010\u001e\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00022\u0006\u0010\u0016\u001a\u00020\u00022\u0006\u0010\u0017\u001a\u00020\u000b2\u0006\u0010\u0018\u001a\u00020\u000bH\u0016\u00a2\u0006\u0004\u0008\u001e\u0010\u001aJ\u0017\u0010\u001f\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\u001f\u0010\u0006J\u0019\u0010 \u001a\u00020\u00042\u0008\u0010\u0003\u001a\u0004\u0018\u00010\u0002H\u0016\u00a2\u0006\u0004\u0008 \u0010\u0006R\"\u0010\'\u001a\u00020\u00048\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008!\u0010\"\u001a\u0004\u0008#\u0010$\"\u0004\u0008%\u0010&\u00a8\u0006("
-    }
-    d2 = {
-        "com/commsource/studio/layer/c$b",
-        "Lcom/commsource/studio/i$c;",
-        "Landroid/view/MotionEvent;",
-        "downEvent",
-        "",
-        "onLongPress",
-        "(Landroid/view/MotionEvent;)Z",
-        "upEvent",
-        "onLongPressUp",
-        "onTap",
-        "(Landroid/view/MotionEvent;Landroid/view/MotionEvent;)Z",
-        "",
-        "scale",
-        "angle",
-        "Landroid/graphics/PointF;",
-        "focus",
-        "onDoubleGestureMove",
-        "(FFLandroid/graphics/PointF;)Z",
-        "firstDownEvent",
-        "secondDownEvent",
-        "onDoubleGestureStart",
-        "(Landroid/graphics/PointF;Landroid/graphics/PointF;Landroid/graphics/PointF;)Z",
-        "moveEvent",
-        "distanceX",
-        "distanceY",
-        "onScroll",
-        "(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z",
-        "touchEvent",
-        "onGestureEnd",
-        "onMajorFingerUp",
-        "onMajorScroll",
-        "onMajorFingerDown",
-        "onMinorFingerDown",
-        "d",
-        "Z",
-        "f",
-        "()Z",
-        "g",
-        "(Z)V",
-        "isLastSingleFinger",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

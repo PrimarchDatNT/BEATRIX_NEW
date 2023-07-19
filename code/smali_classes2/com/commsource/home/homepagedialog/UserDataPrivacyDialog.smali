@@ -10,59 +10,7 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nUserDataPrivacyDialog.kt\nKotlin\n*S Kotlin\n*F\n+ 1 UserDataPrivacyDialog.kt\ncom/commsource/home/homepagedialog/UserDataPrivacyDialog\n*L\n1#1,114:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u00000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u000b\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u000e\u0018\u0000 \u001c2\u00020\u0001:\u0001\u001dB\u000f\u0012\u0006\u0010\u0015\u001a\u00020\u0010\u00a2\u0006\u0004\u0008\u001a\u0010\u001bJ\u000f\u0010\u0003\u001a\u00020\u0002H\u0002\u00a2\u0006\u0004\u0008\u0003\u0010\u0004J\u000f\u0010\u0005\u001a\u00020\u0002H\u0002\u00a2\u0006\u0004\u0008\u0005\u0010\u0004J\u000f\u0010\u0007\u001a\u00020\u0006H\u0016\u00a2\u0006\u0004\u0008\u0007\u0010\u0008J\u000f\u0010\n\u001a\u00020\tH\u0016\u00a2\u0006\u0004\u0008\n\u0010\u000bJ\u000f\u0010\r\u001a\u00020\u000cH\u0016\u00a2\u0006\u0004\u0008\r\u0010\u000eJ\u000f\u0010\u000f\u001a\u00020\u0006H\u0016\u00a2\u0006\u0004\u0008\u000f\u0010\u0008R\u0019\u0010\u0015\u001a\u00020\u00108\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u0011\u0010\u0012\u001a\u0004\u0008\u0013\u0010\u0014R\u0018\u0010\u0017\u001a\u0004\u0018\u00010\u00028\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u0007\u0010\u0016R\u0018\u0010\u0019\u001a\u0004\u0018\u00010\u00028\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u0018\u0010\u0016\u00a8\u0006\u001e"
-    }
-    d2 = {
-        "Lcom/commsource/home/homepagedialog/UserDataPrivacyDialog;",
-        "Lcom/commsource/home/homepagedialog/d;",
-        "Lcom/commsource/widget/dialog/delegate/b;",
-        "n",
-        "()Lcom/commsource/widget/dialog/delegate/b;",
-        "m",
-        "",
-        "c",
-        "()Z",
-        "",
-        "b",
-        "()I",
-        "Lcotlin/t1;",
-        "i",
-        "()V",
-        "f",
-        "Lcom/commsource/beautyplus/BaseActivity;",
-        "e",
-        "Lcom/commsource/beautyplus/BaseActivity;",
-        "o",
-        "()Lcom/commsource/beautyplus/BaseActivity;",
-        "context",
-        "Lcom/commsource/widget/dialog/delegate/b;",
-        "userDataPrivacyDialog",
-        "d",
-        "privacyConfirmDialog",
-        "<init>",
-        "(Lcom/commsource/beautyplus/BaseActivity;)V",
-        "h",
-        "a",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # static fields

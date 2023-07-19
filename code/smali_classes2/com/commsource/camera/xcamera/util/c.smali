@@ -11,56 +11,7 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nEffectUseLogger.kt\nKotlin\n*S Kotlin\n*F\n+ 1 EffectUseLogger.kt\ncom/commsource/camera/xcamera/util/EffectUseLogger\n*L\n1#1,302:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000:\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0010\u000e\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u0008\n\u0000\n\u0002\u0010$\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\n\u0018\u0000 \u00072\u00020\u0001:\u0002\u0016\u000bB\t\u0008\u0002\u00a2\u0006\u0004\u0008\u0019\u0010\u001aJ3\u0010\u0007\u001a\u001e\u0012\u0004\u0012\u00020\u0005\u0012\u0004\u0012\u00020\u00050\u0004j\u000e\u0012\u0004\u0012\u00020\u0005\u0012\u0004\u0012\u00020\u0005`\u00062\u0006\u0010\u0003\u001a\u00020\u0002H\u0002\u00a2\u0006\u0004\u0008\u0007\u0010\u0008J3\u0010\u000b\u001a\u001e\u0012\u0004\u0012\u00020\u0005\u0012\u0004\u0012\u00020\u00050\u0004j\u000e\u0012\u0004\u0012\u00020\u0005\u0012\u0004\u0012\u00020\u0005`\u00062\u0006\u0010\n\u001a\u00020\tH\u0002\u00a2\u0006\u0004\u0008\u000b\u0010\u000cJ5\u0010\u0012\u001a\u00020\u00112\u0006\u0010\u000e\u001a\u00020\r2\n\u0008\u0002\u0010\n\u001a\u0004\u0018\u00010\t2\u0012\u0010\u0010\u001a\u000e\u0012\u0004\u0012\u00020\u0005\u0012\u0004\u0012\u00020\u00050\u000f\u00a2\u0006\u0004\u0008\u0012\u0010\u0013J\u0015\u0010\u0014\u001a\u00020\u00112\u0006\u0010\n\u001a\u00020\t\u00a2\u0006\u0004\u0008\u0014\u0010\u0015R2\u0010\u0018\u001a\u001e\u0012\u0004\u0012\u00020\u0005\u0012\u0004\u0012\u00020\u00050\u0004j\u000e\u0012\u0004\u0012\u00020\u0005\u0012\u0004\u0012\u00020\u0005`\u00068\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0016\u0010\u0017\u00a8\u0006\u001b"
-    }
-    d2 = {
-        "Lcom/commsource/camera/xcamera/util/c;",
-        "",
-        "Lcom/commsource/camera/xcamera/h;",
-        "params",
-        "Ljava/util/HashMap;",
-        "",
-        "Lcotlin/collections/HashMap;",
-        "c",
-        "(Lcom/commsource/camera/xcamera/h;)Ljava/util/HashMap;",
-        "Lcom/commsource/camera/fastcapture/SelfiePhotoData;",
-        "selfiePhotoData",
-        "b",
-        "(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)Ljava/util/HashMap;",
-        "",
-        "mode",
-        "",
-        "imageRecognition",
-        "Lcotlin/t1;",
-        "d",
-        "(ILcom/commsource/camera/fastcapture/SelfiePhotoData;Ljava/util/Map;)V",
-        "f",
-        "(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)V",
-        "a",
-        "Ljava/util/HashMap;",
-        "paramsMapForSelfie",
-        "<init>",
-        "()V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # static fields

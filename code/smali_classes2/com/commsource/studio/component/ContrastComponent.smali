@@ -10,59 +10,7 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nContrastComponent.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ContrastComponent.kt\ncom/commsource/studio/component/ContrastComponent\n*L\n1#1,68:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000@\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0008\n\u0002\u0008\u0007\u0018\u00002\u00020\u0001:\u0001\u001dB\'\u0008\u0016\u0012\u0006\u0010\u0014\u001a\u00020\u0013\u0012\n\u0008\u0002\u0010\u0016\u001a\u0004\u0018\u00010\u0015\u0012\u0008\u0008\u0002\u0010\u0018\u001a\u00020\u0017\u00a2\u0006\u0004\u0008\u0019\u0010\u001aB\u001d\u0008\u0016\u0012\u0006\u0010\u0014\u001a\u00020\u0013\u0012\n\u0008\u0002\u0010\u0016\u001a\u0004\u0018\u00010\u0015\u00a2\u0006\u0004\u0008\u0019\u0010\u001bB\u0011\u0008\u0016\u0012\u0006\u0010\u0014\u001a\u00020\u0013\u00a2\u0006\u0004\u0008\u0019\u0010\u001cJ\u001f\u0010\u0007\u001a\u00020\u00062\u0006\u0010\u0003\u001a\u00020\u00022\u0006\u0010\u0005\u001a\u00020\u0004H\u0017\u00a2\u0006\u0004\u0008\u0007\u0010\u0008J\r\u0010\t\u001a\u00020\u0006\u00a2\u0006\u0004\u0008\t\u0010\nR\u0016\u0010\u000e\u001a\u00020\u000b8\u0002@\u0002X\u0082.\u00a2\u0006\u0006\n\u0004\u0008\u000c\u0010\rR\u0016\u0010\u0012\u001a\u00020\u000f8\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0010\u0010\u0011\u00a8\u0006\u001e"
-    }
-    d2 = {
-        "Lcom/commsource/studio/component/ContrastComponent;",
-        "Lcom/commsource/studio/component/ComponentView;",
-        "Landroidx/lifecycle/ViewModelStoreOwner;",
-        "storeOwner",
-        "Landroidx/lifecycle/LifecycleOwner;",
-        "lifecycleOwner",
-        "Lcotlin/t1;",
-        "p",
-        "(Landroidx/lifecycle/ViewModelStoreOwner;Landroidx/lifecycle/LifecycleOwner;)V",
-        "h",
-        "()V",
-        "Lcom/commsource/studio/component/ContrastComponent$a;",
-        "d",
-        "Lcom/commsource/studio/component/ContrastComponent$a;",
-        "viewModel",
-        "Lcom/commsource/beautyplus/f0/y1;",
-        "f",
-        "Lcom/commsource/beautyplus/f0/y1;",
-        "viewBinding",
-        "Landroid/content/Context;",
-        "context",
-        "Landroid/util/AttributeSet;",
-        "attrs",
-        "",
-        "defStyleAttr",
-        "<init>",
-        "(Landroid/content/Context;Landroid/util/AttributeSet;I)V",
-        "(Landroid/content/Context;Landroid/util/AttributeSet;)V",
-        "(Landroid/content/Context;)V",
-        "a",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

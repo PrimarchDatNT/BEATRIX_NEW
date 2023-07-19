@@ -16,69 +16,6 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000$\n\u0000\n\u0002\u0018\u0002\n\u0002\u0010\u0008\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u001e\u0008\u0086\u0004\u0018\u00002\u00020\u0001B\u0007\u00a2\u0006\u0004\u0008*\u0010+J\u0017\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u0002H\u0002\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J\u0017\u0010\u0008\u001a\u00020\u00042\u0006\u0010\u0007\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\u0008\u0010\u0006J\u001f\u0010\u000c\u001a\u00020\u00042\u0006\u0010\t\u001a\u00020\u00022\u0006\u0010\u000b\u001a\u00020\nH\u0016\u00a2\u0006\u0004\u0008\u000c\u0010\rJ\u0017\u0010\u0010\u001a\u00020\u00042\u0006\u0010\u000f\u001a\u00020\u000eH\u0016\u00a2\u0006\u0004\u0008\u0010\u0010\u0011R\u0016\u0010\u0014\u001a\u00020\u00028\u0002@\u0002X\u0082D\u00a2\u0006\u0006\n\u0004\u0008\u0012\u0010\u0013R\u0016\u0010\u0016\u001a\u00020\u00028\u0002@\u0002X\u0082D\u00a2\u0006\u0006\n\u0004\u0008\u0015\u0010\u0013R\u0016\u0010\u0017\u001a\u00020\u00028\u0002@\u0002X\u0082D\u00a2\u0006\u0006\n\u0004\u0008\u000c\u0010\u0013R\u0016\u0010\u0019\u001a\u00020\u00028\u0002@\u0002X\u0082D\u00a2\u0006\u0006\n\u0004\u0008\u0018\u0010\u0013R\u0016\u0010\u001b\u001a\u00020\u00028\u0002@\u0002X\u0082D\u00a2\u0006\u0006\n\u0004\u0008\u001a\u0010\u0013R\u0016\u0010\u001d\u001a\u00020\u00028\u0002@\u0002X\u0082D\u00a2\u0006\u0006\n\u0004\u0008\u001c\u0010\u0013R\u0016\u0010\u001f\u001a\u00020\u00028\u0002@\u0002X\u0082D\u00a2\u0006\u0006\n\u0004\u0008\u001e\u0010\u0013R\u0016\u0010!\u001a\u00020\u00028\u0002@\u0002X\u0082D\u00a2\u0006\u0006\n\u0004\u0008 \u0010\u0013R\u0016\u0010\"\u001a\u00020\u00028\u0002@\u0002X\u0082D\u00a2\u0006\u0006\n\u0004\u0008\u0008\u0010\u0013R\u0016\u0010$\u001a\u00020\u00028\u0002@\u0002X\u0082D\u00a2\u0006\u0006\n\u0004\u0008#\u0010\u0013R\u0016\u0010%\u001a\u00020\u00028\u0002@\u0002X\u0082D\u00a2\u0006\u0006\n\u0004\u0008\u0005\u0010\u0013R\u0016\u0010\'\u001a\u00020\u00028\u0002@\u0002X\u0082D\u00a2\u0006\u0006\n\u0004\u0008&\u0010\u0013R\u0016\u0010)\u001a\u00020\u00028\u0002@\u0002X\u0082D\u00a2\u0006\u0006\n\u0004\u0008(\u0010\u0013\u00a8\u0006,"
-    }
-    d2 = {
-        "com/commsource/camera/xcamera/cover/tips/ArHelperCover$a",
-        "Lcom/commsource/camera/l0;",
-        "",
-        "currentRule",
-        "Lcotlin/t1;",
-        "c",
-        "(I)V",
-        "animalType",
-        "b",
-        "gestureType",
-        "Landroid/graphics/RectF;",
-        "rectF",
-        "a",
-        "(ILandroid/graphics/RectF;)V",
-        "Landroid/view/MotionEvent;",
-        "event",
-        "onTouchEvent",
-        "(Landroid/view/MotionEvent;)V",
-        "f",
-        "I",
-        "HANDACTION_LOVE",
-        "k",
-        "ANIMAL_DOG_FACE",
-        "HANDACTION_OK",
-        "h",
-        "HANDACTION_CONGRATULATE",
-        "m",
-        "ANIMAL_ALL_FACE",
-        "l",
-        "ANIMAL_CAT_FACE",
-        "j",
-        "HANDACTION_FINGERINDEX",
-        "e",
-        "HANDACTION_PISTOL",
-        "HANDACTION_SCISSOR",
-        "g",
-        "HANDACTION_HOLDUP",
-        "HANDACTION_GOOD",
-        "d",
-        "HANDACTION_PALM",
-        "i",
-        "HANDACTION_FINGERHEART",
-        "<init>",
-        "(Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;)V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

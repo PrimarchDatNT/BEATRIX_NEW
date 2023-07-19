@@ -4,37 +4,6 @@
 
 
 # annotations
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000\"\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\u001a\u001c\u0010\u0002\u001a\u00020\u0001*\u0008\u0012\u0004\u0012\u00020\u00010\u0000H\u0007\u00f8\u0001\u0000\u00a2\u0006\u0004\u0008\u0002\u0010\u0003\u001a\u001c\u0010\u0005\u001a\u00020\u0004*\u0008\u0012\u0004\u0012\u00020\u00040\u0000H\u0007\u00f8\u0001\u0000\u00a2\u0006\u0004\u0008\u0005\u0010\u0006\u001a\u001c\u0010\u0008\u001a\u00020\u0001*\u0008\u0012\u0004\u0012\u00020\u00070\u0000H\u0007\u00f8\u0001\u0000\u00a2\u0006\u0004\u0008\u0008\u0010\u0003\u001a\u001c\u0010\n\u001a\u00020\u0001*\u0008\u0012\u0004\u0012\u00020\t0\u0000H\u0007\u00f8\u0001\u0000\u00a2\u0006\u0004\u0008\n\u0010\u0003\u0082\u0002\u0004\n\u0002\u0008\u0019\u00a8\u0006\u000b"
-    }
-    d2 = {
-        "Lcotlin/sequences/m;",
-        "Lcotlin/f1;",
-        "b",
-        "(Lcotlin/sequences/m;)I",
-        "Lcotlin/j1;",
-        "c",
-        "(Lcotlin/sequences/m;)J",
-        "Lcotlin/b1;",
-        "a",
-        "Lcotlin/p1;",
-        "d",
-        "kotlin-stdlib"
-    }
-    k = 0x5
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-    xs = "kotlin/sequences/USequencesKt"
-.end annotation
 
 
 # direct methods

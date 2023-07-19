@@ -18,71 +18,7 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nArHelperCover.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ArHelperCover.kt\ncom/commsource/camera/xcamera/cover/tips/ArHelperCover\n*L\n1#1,251:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000B\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0008\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000e\n\u0002\u0008\r\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0007\u0018\u00002\u0008\u0012\u0004\u0012\u00020\u00020\u0001:\u0001)B\u0007\u00a2\u0006\u0004\u0008(\u0010\u0010J)\u0010\t\u001a\u00020\u00082\u0008\u0010\u0004\u001a\u0004\u0018\u00010\u00032\u0006\u0010\u0006\u001a\u00020\u00052\u0006\u0010\u0007\u001a\u00020\u0005H\u0002\u00a2\u0006\u0004\u0008\t\u0010\nJ\u0019\u0010\r\u001a\u0004\u0018\u00010\u000b2\u0006\u0010\u000c\u001a\u00020\u000bH\u0002\u00a2\u0006\u0004\u0008\r\u0010\u000eJ\u000f\u0010\u000f\u001a\u00020\u0008H\u0016\u00a2\u0006\u0004\u0008\u000f\u0010\u0010J\u0015\u0010\u0012\u001a\u00020\u00082\u0006\u0010\u0011\u001a\u00020\u0005\u00a2\u0006\u0004\u0008\u0012\u0010\u0013J\u000f\u0010\u0014\u001a\u00020\u0005H\u0016\u00a2\u0006\u0004\u0008\u0014\u0010\u0015J\u000f\u0010\u0016\u001a\u00020\u0008H\u0016\u00a2\u0006\u0004\u0008\u0016\u0010\u0010J\u000f\u0010\u0007\u001a\u00020\u0008H\u0016\u00a2\u0006\u0004\u0008\u0007\u0010\u0010J\u0015\u0010\u0018\u001a\u00020\u00082\u0006\u0010\u0017\u001a\u00020\u0005\u00a2\u0006\u0004\u0008\u0018\u0010\u0013R\u001d\u0010\u001e\u001a\u00020\u00198B@\u0002X\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u001a\u0010\u001b\u001a\u0004\u0008\u001c\u0010\u001dR\u0016\u0010\"\u001a\u00020\u001f8\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008 \u0010!R\u001d\u0010\'\u001a\u00020#8B@\u0002X\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008$\u0010\u001b\u001a\u0004\u0008%\u0010&\u00a8\u0006*"
-    }
-    d2 = {
-        "Lcom/commsource/camera/xcamera/cover/tips/ArHelperCover;",
-        "Lcom/commsource/camera/xcamera/cover/AbsLazyCover;",
-        "Lcom/commsource/beautyplus/f0/s2;",
-        "Landroid/view/View;",
-        "view",
-        "",
-        "y",
-        "x",
-        "Lcotlin/t1;",
-        "M",
-        "(Landroid/view/View;II)V",
-        "",
-        "filePath",
-        "K",
-        "(Ljava/lang/String;)Ljava/lang/String;",
-        "o",
-        "()V",
-        "ratio",
-        "L",
-        "(I)V",
-        "q",
-        "()I",
-        "v",
-        "hideType",
-        "J",
-        "Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;",
-        "d",
-        "Lcotlin/w;",
-        "H",
-        "()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;",
-        "arViewModel",
-        "Landroid/os/Handler;",
-        "g",
-        "Landroid/os/Handler;",
-        "mHandler",
-        "Lcom/commsource/camera/xcamera/BpCameraViewModel;",
-        "f",
-        "I",
-        "()Lcom/commsource/camera/xcamera/BpCameraViewModel;",
-        "bpCameraViewModel",
-        "<init>",
-        "a",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

@@ -27,50 +27,7 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nFormulaRepo.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FormulaRepo.kt\ncom/commsource/studio/formula/FormulaRepo$formulaComparator$2$1\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 3 ArraysJVM.kt\nkotlin/collections/ArraysKt__ArraysJVMKt\n*L\n1#1,427:1\n1828#2,2:428\n1828#2,3:430\n1830#2:433\n1623#2,8:434\n1819#2,2:442\n37#3,2:444\n37#3,2:446\n37#3,2:448\n*E\n*S KotlinDebug\n*F\n+ 1 FormulaRepo.kt\ncom/commsource/studio/formula/FormulaRepo$formulaComparator$2$1\n*L\n69#1,2:428\n69#1,3:430\n69#1:433\n95#1,8:434\n99#1,2:442\n114#1,2:444\n117#1,2:446\n118#1,2:448\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000*\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010 \n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u0003\n\u0002\u0008\u0004\u0008\n\u0018\u00002 \u0012\u0010\u0012\u000e\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\u00040\u00030\u0002\u0012\u0004\u0012\u00020\u0004\u0012\u0004\u0012\u00020\u00050\u0001J\u0015\u0010\u0006\u001a\u0008\u0012\u0004\u0012\u00020\u00050\u0003H\u0016\u00a2\u0006\u0004\u0008\u0006\u0010\u0007J#\u0010\t\u001a\u0008\u0012\u0004\u0012\u00020\u00050\u00032\u000c\u0010\u0008\u001a\u0008\u0012\u0004\u0012\u00020\u00040\u0003H\u0016\u00a2\u0006\u0004\u0008\t\u0010\nJ?\u0010\u000f\u001a\u00020\u000e2\u000e\u0010\u000b\u001a\n\u0012\u0004\u0012\u00020\u0005\u0018\u00010\u00032\u000e\u0010\u000c\u001a\n\u0012\u0004\u0012\u00020\u0005\u0018\u00010\u00032\u000e\u0010\r\u001a\n\u0012\u0004\u0012\u00020\u0005\u0018\u00010\u0003H\u0016\u00a2\u0006\u0004\u0008\u000f\u0010\u0010J\u0019\u0010\u0013\u001a\u00020\u000e2\u0008\u0010\u0012\u001a\u0004\u0018\u00010\u0011H\u0016\u00a2\u0006\u0004\u0008\u0013\u0010\u0014\u00a8\u0006\u0015"
-    }
-    d2 = {
-        "com/commsource/studio/formula/FormulaRepo$formulaComparator$2$a",
-        "Lcom/commsource/repository/OnlineLocalMaterialCompator;",
-        "Lf/k/k/h;",
-        "",
-        "Lcom/commsource/studio/formula/FormulaCategory;",
-        "Lcom/commsource/studio/formula/JsFormula;",
-        "j",
-        "()Ljava/util/List;",
-        "onlineData",
-        "f",
-        "(Ljava/util/List;)Ljava/util/List;",
-        "inserts",
-        "update",
-        "remove",
-        "Lcotlin/t1;",
-        "s",
-        "(Ljava/util/List;Ljava/util/List;Ljava/util/List;)V",
-        "",
-        "throwable",
-        "t",
-        "(Ljava/lang/Throwable;)V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

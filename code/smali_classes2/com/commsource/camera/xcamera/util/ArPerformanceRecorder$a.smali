@@ -16,32 +16,7 @@
     name = null
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nArPerformanceRecorder.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ArPerformanceRecorder.kt\ncom/commsource/camera/xcamera/util/ArPerformanceRecorder$recordFpsTask$1\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,99:1\n1819#2,2:100\n1819#2,2:102\n*E\n*S KotlinDebug\n*F\n+ 1 ArPerformanceRecorder.kt\ncom/commsource/camera/xcamera/util/ArPerformanceRecorder$recordFpsTask$1\n*L\n64#1,2:100\n69#1,2:102\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0010\u0003\u001a\u00020\u0000H\n\u00a2\u0006\u0004\u0008\u0001\u0010\u0002"
-    }
-    d2 = {
-        "Lcotlin/t1;",
-        "run",
-        "()V",
-        "<anonymous>"
-    }
-    k = 0x3
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

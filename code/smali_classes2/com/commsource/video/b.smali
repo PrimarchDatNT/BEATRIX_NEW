@@ -4,74 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nFullScreenTransitionAnimation.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FullScreenTransitionAnimation.kt\ncom/commsource/video/FullScreenTransitionAnimation\n*L\n1#1,123:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000@\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u000b\n\u0002\u0008\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u000b\u0018\u00002\u00020\u0001B\u000f\u0012\u0006\u0010(\u001a\u00020\u0006\u00a2\u0006\u0004\u0008+\u0010,J\r\u0010\u0003\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0003\u0010\u0004J\r\u0010\u0005\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0005\u0010\u0004R\u0016\u0010\t\u001a\u00020\u00068\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0007\u0010\u0008R\u0016\u0010\r\u001a\u00020\n8\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u000b\u0010\u000cR\u0016\u0010\u000f\u001a\u00020\n8\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u000e\u0010\u000cR\u0016\u0010\u0010\u001a\u00020\n8\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0005\u0010\u000cR\u0016\u0010\u0014\u001a\u00020\u00118\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0012\u0010\u0013R\u0016\u0010\u0018\u001a\u00020\u00158\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u0016\u0010\u0017R\u0016\u0010\u001a\u001a\u00020\n8\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0019\u0010\u000cR\u0016\u0010\u001b\u001a\u00020\n8\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0003\u0010\u000cR\u0016\u0010\u001d\u001a\u00020\n8\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u001c\u0010\u000cR\u0018\u0010!\u001a\u0004\u0018\u00010\u001e8\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u001f\u0010 R\u0016\u0010%\u001a\u00020\"8\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008#\u0010$R\u0019\u0010(\u001a\u00020\u00068\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008&\u0010\u0008\u001a\u0004\u0008\u001f\u0010\'R\u0016\u0010*\u001a\u00020\u00118\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008)\u0010\u0013\u00a8\u0006-"
-    }
-    d2 = {
-        "Lcom/commsource/video/b;",
-        "",
-        "Lcotlin/t1;",
-        "i",
-        "()V",
-        "j",
-        "Lcom/commsource/video/view/XVideoContainer;",
-        "b",
-        "Lcom/commsource/video/view/XVideoContainer;",
-        "animationContainer",
-        "Lcom/commsource/camera/f1/n;",
-        "g",
-        "Lcom/commsource/camera/f1/n;",
-        "widthValuer",
-        "h",
-        "heightValuer",
-        "translateXValuer",
-        "Landroid/graphics/Rect;",
-        "d",
-        "Landroid/graphics/Rect;",
-        "fullRect",
-        "",
-        "l",
-        "Z",
-        "isHorizontal",
-        "e",
-        "marginTopValuer",
-        "rotateValuer",
-        "f",
-        "marginLeftValuer",
-        "Lcom/commsource/camera/f1/l;",
-        "k",
-        "Lcom/commsource/camera/f1/l;",
-        "animator",
-        "Landroid/view/ViewGroup;",
-        "a",
-        "Landroid/view/ViewGroup;",
-        "rootContent",
-        "m",
-        "()Lcom/commsource/video/view/XVideoContainer;",
-        "originContainer",
-        "c",
-        "originVisibleRect",
-        "<init>",
-        "(Lcom/commsource/video/view/XVideoContainer;)V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

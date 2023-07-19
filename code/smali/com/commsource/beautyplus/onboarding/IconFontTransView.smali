@@ -4,57 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nIconFontTransView.kt\nKotlin\n*S Kotlin\n*F\n+ 1 IconFontTransView.kt\ncom/commsource/beautyplus/onboarding/IconFontTransView\n+ 2 ViewGroup.kt\nandroidx/core/view/ViewGroupKt\n*L\n1#1,90:1\n87#2,2:91\n*E\n*S KotlinDebug\n*F\n+ 1 IconFontTransView.kt\ncom/commsource/beautyplus/onboarding/IconFontTransView\n*L\n42#1,2:91\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u00006\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0005\u0018\u00002\u00020\u0001B\u0011\u0008\u0016\u0012\u0006\u0010\u0014\u001a\u00020\u0013\u00a2\u0006\u0004\u0008\u0015\u0010\u0016B\u001b\u0008\u0016\u0012\u0006\u0010\u0014\u001a\u00020\u0013\u0012\u0008\u0010\u0018\u001a\u0004\u0018\u00010\u0017\u00a2\u0006\u0004\u0008\u0015\u0010\u0019B#\u0008\u0016\u0012\u0006\u0010\u0014\u001a\u00020\u0013\u0012\u0008\u0010\u0018\u001a\u0004\u0018\u00010\u0017\u0012\u0006\u0010\u001a\u001a\u00020\u0005\u00a2\u0006\u0004\u0008\u0015\u0010\u001bJ\u000f\u0010\u0003\u001a\u00020\u0002H\u0002\u00a2\u0006\u0004\u0008\u0003\u0010\u0004J\u0015\u0010\u0008\u001a\u00020\u00072\u0006\u0010\u0006\u001a\u00020\u0005\u00a2\u0006\u0004\u0008\u0008\u0010\tJ\u0015\u0010\n\u001a\u00020\u00072\u0006\u0010\u0006\u001a\u00020\u0005\u00a2\u0006\u0004\u0008\n\u0010\tR\u0016\u0010\u000e\u001a\u00020\u000b8\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u000c\u0010\rR\u0016\u0010\u0006\u001a\u00020\u00058\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u000f\u0010\u0010R\u0018\u0010\u0012\u001a\u0004\u0018\u00010\u000b8\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u0011\u0010\r\u00a8\u0006\u001c"
-    }
-    d2 = {
-        "Lcom/commsource/beautyplus/onboarding/IconFontTransView;",
-        "Landroid/widget/FrameLayout;",
-        "Landroid/widget/FrameLayout$LayoutParams;",
-        "e",
-        "()Landroid/widget/FrameLayout$LayoutParams;",
-        "",
-        "textRes",
-        "Lcotlin/t1;",
-        "setIconFontRes",
-        "(I)V",
-        "setIconFontResWithAnim",
-        "Lcom/commsource/widget/IconFrontView;",
-        "a",
-        "Lcom/commsource/widget/IconFrontView;",
-        "showView",
-        "c",
-        "I",
-        "b",
-        "hideView",
-        "Landroid/content/Context;",
-        "context",
-        "<init>",
-        "(Landroid/content/Context;)V",
-        "Landroid/util/AttributeSet;",
-        "attrs",
-        "(Landroid/content/Context;Landroid/util/AttributeSet;)V",
-        "defStyleAttr",
-        "(Landroid/content/Context;Landroid/util/AttributeSet;I)V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

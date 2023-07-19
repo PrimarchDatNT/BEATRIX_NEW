@@ -13,63 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nCommonMatrixVertexShader.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CommonMatrixVertexShader.kt\ncom/commsource/studio/shader/CommonMatrixVertexShader$ParamsCollection\n*L\n1#1,138:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000\u001e\n\u0000\n\u0002\u0010\u0000\n\u0002\u0010\u0014\n\u0002\u0008\n\n\u0002\u0018\u0002\n\u0002\u0008\u000b\n\u0002\u0010\u000b\n\u0002\u0008\t\u0018\u00002\u00020\u0001B\u0007\u00a2\u0006\u0004\u0008 \u0010!R$\u0010\t\u001a\u0004\u0018\u00010\u00028F@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0003\u0010\u0004\u001a\u0004\u0008\u0005\u0010\u0006\"\u0004\u0008\u0007\u0010\u0008R$\u0010\u000c\u001a\u0004\u0018\u00010\u00028F@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\n\u0010\u0004\u001a\u0004\u0008\n\u0010\u0006\"\u0004\u0008\u000b\u0010\u0008R$\u0010\u0013\u001a\u0004\u0018\u00010\r8F@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0005\u0010\u000e\u001a\u0004\u0008\u000f\u0010\u0010\"\u0004\u0008\u0011\u0010\u0012R$\u0010\u0016\u001a\u0004\u0018\u00010\r8F@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u000f\u0010\u000e\u001a\u0004\u0008\u0014\u0010\u0010\"\u0004\u0008\u0015\u0010\u0012R$\u0010\u0018\u001a\u0004\u0018\u00010\u00028F@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0014\u0010\u0004\u001a\u0004\u0008\u0003\u0010\u0006\"\u0004\u0008\u0017\u0010\u0008R\"\u0010\u001f\u001a\u00020\u00198\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u001a\u0010\u001b\u001a\u0004\u0008\u001a\u0010\u001c\"\u0004\u0008\u001d\u0010\u001e\u00a8\u0006\""
-    }
-    d2 = {
-        "com/commsource/studio/shader/d$a",
-        "",
-        "",
-        "f",
-        "[F",
-        "b",
-        "()[F",
-        "h",
-        "([F)V",
-        "matrix",
-        "d",
-        "j",
-        "positionFloatArray",
-        "Ljava/nio/FloatBuffer;",
-        "Ljava/nio/FloatBuffer;",
-        "c",
-        "()Ljava/nio/FloatBuffer;",
-        "i",
-        "(Ljava/nio/FloatBuffer;)V",
-        "positionBuffer",
-        "e",
-        "k",
-        "textureCoordinateBuffer",
-        "l",
-        "textureCoordinateFloatArray",
-        "",
-        "a",
-        "Z",
-        "()Z",
-        "g",
-        "(Z)V",
-        "inFBO",
-        "<init>",
-        "()V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

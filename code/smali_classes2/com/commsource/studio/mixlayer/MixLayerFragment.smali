@@ -10,75 +10,7 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nMixLayerFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MixLayerFragment.kt\ncom/commsource/studio/mixlayer/MixLayerFragment\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 3 ViewGroup.kt\nandroidx/core/view/ViewGroupKt\n*L\n1#1,153:1\n1819#2,2:154\n54#3,4:156\n*E\n*S KotlinDebug\n*F\n+ 1 MixLayerFragment.kt\ncom/commsource/studio/mixlayer/MixLayerFragment\n*L\n67#1,2:154\n127#1,4:156\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000T\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0007\u0018\u0000 \u00032\u00020\u0001:\u0001-B\u0007\u00a2\u0006\u0004\u0008,\u0010\u0004J\u000f\u0010\u0003\u001a\u00020\u0002H\u0002\u00a2\u0006\u0004\u0008\u0003\u0010\u0004J\u0017\u0010\u0007\u001a\u00020\u00022\u0006\u0010\u0006\u001a\u00020\u0005H\u0002\u00a2\u0006\u0004\u0008\u0007\u0010\u0008J+\u0010\u000f\u001a\u00020\u00052\u0006\u0010\n\u001a\u00020\t2\u0008\u0010\u000c\u001a\u0004\u0018\u00010\u000b2\u0008\u0010\u000e\u001a\u0004\u0018\u00010\rH\u0016\u00a2\u0006\u0004\u0008\u000f\u0010\u0010J\u000f\u0010\u0011\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\u0011\u0010\u0004J!\u0010\u0013\u001a\u00020\u00022\u0006\u0010\u0012\u001a\u00020\u00052\u0008\u0010\u000e\u001a\u0004\u0018\u00010\rH\u0016\u00a2\u0006\u0004\u0008\u0013\u0010\u0014R\u001d\u0010\u001a\u001a\u00020\u00158B@\u0002X\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0016\u0010\u0017\u001a\u0004\u0008\u0018\u0010\u0019R\u0018\u0010\u001e\u001a\u0004\u0018\u00010\u001b8\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u001c\u0010\u001dR\u0018\u0010\"\u001a\u0004\u0018\u00010\u001f8\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008 \u0010!R\u0016\u0010&\u001a\u00020#8\u0002@\u0002X\u0082.\u00a2\u0006\u0006\n\u0004\u0008$\u0010%R\u001d\u0010+\u001a\u00020\'8B@\u0002X\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008(\u0010\u0017\u001a\u0004\u0008)\u0010*\u00a8\u0006."
-    }
-    d2 = {
-        "Lcom/commsource/studio/mixlayer/MixLayerFragment;",
-        "Lcom/commsource/beautyplus/i0/a;",
-        "Lcotlin/t1;",
-        "L",
-        "()V",
-        "Landroid/view/View;",
-        "hitView",
-        "M",
-        "(Landroid/view/View;)V",
-        "Landroid/view/LayoutInflater;",
-        "inflater",
-        "Landroid/view/ViewGroup;",
-        "container",
-        "Landroid/os/Bundle;",
-        "savedInstanceState",
-        "onCreateView",
-        "(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;",
-        "onResume",
-        "view",
-        "onViewCreated",
-        "(Landroid/view/View;Landroid/os/Bundle;)V",
-        "Lcom/commsource/studio/ImageStudioViewModel;",
-        "f",
-        "Lcotlin/w;",
-        "K",
-        "()Lcom/commsource/studio/ImageStudioViewModel;",
-        "studioViewModel",
-        "Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;",
-        "p",
-        "Lcom/meitu/mtpasterrender/MTPasterRenderFilter$MtPsBlendType;",
-        "currentMixMode",
-        "Lcom/commsource/studio/bean/FocusLayerInfo;",
-        "d",
-        "Lcom/commsource/studio/bean/FocusLayerInfo;",
-        "focusLayerInfo",
-        "Lcom/commsource/beautyplus/f0/g9;",
-        "c",
-        "Lcom/commsource/beautyplus/f0/g9;",
-        "mViewBinding",
-        "Lcom/commsource/studio/mixlayer/ImageStyleViewModel;",
-        "g",
-        "J",
-        "()Lcom/commsource/studio/mixlayer/ImageStyleViewModel;",
-        "imageStyleViewModel",
-        "<init>",
-        "a",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # static fields

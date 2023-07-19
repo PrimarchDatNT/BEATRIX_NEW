@@ -31,79 +31,7 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nEventLoop.common.kt\nKotlin\n*S Kotlin\n*F\n+ 1 EventLoop.common.kt\nkotlinx/coroutines/EventLoopImplBase$DelayedTask\n+ 2 ThreadSafeHeap.kt\nkotlinx/coroutines/internal/ThreadSafeHeap\n+ 3 Synchronized.kt\nkotlinx/coroutines/internal/SynchronizedKt\n*L\n1#1,525:1\n64#2:526\n65#2,7:528\n20#3:527\n*E\n*S KotlinDebug\n*F\n+ 1 EventLoop.common.kt\nkotlinx/coroutines/EventLoopImplBase$DelayedTask\n*L\n429#1:526\n429#1,7:528\n429#1:527\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000`\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u000f\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0008\n\u0002\u0008\u0002\n\u0002\u0010\t\n\u0000\n\u0002\u0010\u000b\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000e\n\u0002\u0008\t\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0010\u0000\n\u0002\u0008\u0008\u0008 \u0018\u00002\u00060\u0001j\u0002`\u00022\u0008\u0012\u0004\u0012\u00020\u00040\u00032\u00020\u00052\u00020\u0006B\u000f\u0012\u0006\u0010/\u001a\u00020\u000b\u00a2\u0006\u0004\u00080\u00101J\u0018\u0010\t\u001a\u00020\u00082\u0006\u0010\u0007\u001a\u00020\u0004H\u0096\u0002\u00a2\u0006\u0004\u0008\t\u0010\nJ\u0015\u0010\u000e\u001a\u00020\r2\u0006\u0010\u000c\u001a\u00020\u000b\u00a2\u0006\u0004\u0008\u000e\u0010\u000fJ%\u0010\u0014\u001a\u00020\u00082\u0006\u0010\u000c\u001a\u00020\u000b2\u0006\u0010\u0011\u001a\u00020\u00102\u0006\u0010\u0013\u001a\u00020\u0012\u00a2\u0006\u0004\u0008\u0014\u0010\u0015J\r\u0010\u0017\u001a\u00020\u0016\u00a2\u0006\u0004\u0008\u0017\u0010\u0018J\u000f\u0010\u001a\u001a\u00020\u0019H\u0016\u00a2\u0006\u0004\u0008\u001a\u0010\u001bR\"\u0010\"\u001a\u00020\u00088\u0016@\u0016X\u0096\u000e\u00a2\u0006\u0012\n\u0004\u0008\u001c\u0010\u001d\u001a\u0004\u0008\u001e\u0010\u001f\"\u0004\u0008 \u0010!R0\u0010)\u001a\u0008\u0012\u0002\u0008\u0003\u0018\u00010#2\u000c\u0010$\u001a\u0008\u0012\u0002\u0008\u0003\u0018\u00010#8V@VX\u0096\u000e\u00a2\u0006\u000c\u001a\u0004\u0008%\u0010&\"\u0004\u0008\'\u0010(R\u0018\u0010,\u001a\u0004\u0018\u00010*8\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u001e\u0010+R\u0016\u0010/\u001a\u00020\u000b8\u0006@\u0006X\u0087\u000e\u00a2\u0006\u0006\n\u0004\u0008-\u0010.\u00a8\u00062"
-    }
-    d2 = {
-        "kotlinx/coroutines/k1$c",
-        "Ljava/lang/Runnable;",
-        "Lcotlinx/coroutines/Runnable;",
-        "",
-        "Lcotlinx/coroutines/k1$c;",
-        "Lcotlinx/coroutines/f1;",
-        "Lcotlinx/coroutines/internal/l0;",
-        "other",
-        "",
-        "o",
-        "(Lcotlinx/coroutines/k1$c;)I",
-        "",
-        "now",
-        "",
-        "s",
-        "(J)Z",
-        "Lcotlinx/coroutines/k1$d;",
-        "delayed",
-        "Lcotlinx/coroutines/k1;",
-        "eventLoop",
-        "p",
-        "(JLcotlinx/coroutines/k1$d;Lcotlinx/coroutines/k1;)I",
-        "Lcotlin/t1;",
-        "dispose",
-        "()V",
-        "",
-        "toString",
-        "()Ljava/lang/String;",
-        "b",
-        "I",
-        "a",
-        "()I",
-        "setIndex",
-        "(I)V",
-        "index",
-        "Lcotlinx/coroutines/internal/k0;",
-        "value",
-        "n",
-        "()Lcotlinx/coroutines/internal/k0;",
-        "g",
-        "(Lcotlinx/coroutines/internal/k0;)V",
-        "heap",
-        "",
-        "Ljava/lang/Object;",
-        "_heap",
-        "c",
-        "J",
-        "nanoTime",
-        "<init>",
-        "(J)V",
-        "kotlinx-coroutines-core"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

@@ -4,76 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nBackgroundTextureFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BackgroundTextureFragment.kt\ncom/commsource/studio/function/background/BackgroundTextureFragment\n*L\n1#1,200:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000T\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0010\u000e\n\u0002\u0008\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0006\u0018\u00002\u00020\u0001B\u0007\u00a2\u0006\u0004\u0008.\u0010\u0011J\u0017\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u0002H\u0002\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J-\u0010\u000e\u001a\u0004\u0018\u00010\r2\u0006\u0010\u0008\u001a\u00020\u00072\u0008\u0010\n\u001a\u0004\u0018\u00010\t2\u0008\u0010\u000c\u001a\u0004\u0018\u00010\u000bH\u0016\u00a2\u0006\u0004\u0008\u000e\u0010\u000fJ\u000f\u0010\u0010\u001a\u00020\u0004H\u0016\u00a2\u0006\u0004\u0008\u0010\u0010\u0011J!\u0010\u0013\u001a\u00020\u00042\u0006\u0010\u0012\u001a\u00020\r2\u0008\u0010\u000c\u001a\u0004\u0018\u00010\u000bH\u0016\u00a2\u0006\u0004\u0008\u0013\u0010\u0014R#\u0010\u001b\u001a\u0008\u0012\u0004\u0012\u00020\u00160\u00158F@\u0006X\u0086\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0017\u0010\u0018\u001a\u0004\u0008\u0019\u0010\u001aR\u0018\u0010\u001e\u001a\u0004\u0018\u00010\u00028\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u001c\u0010\u001dR\u001d\u0010#\u001a\u00020\u001f8F@\u0006X\u0086\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008 \u0010\u0018\u001a\u0004\u0008!\u0010\"R\u001d\u0010(\u001a\u00020$8F@\u0006X\u0086\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008%\u0010\u0018\u001a\u0004\u0008&\u0010\'R\u001d\u0010-\u001a\u00020)8F@\u0006X\u0086\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008*\u0010\u0018\u001a\u0004\u0008+\u0010,\u00a8\u0006/"
-    }
-    d2 = {
-        "Lcom/commsource/studio/function/background/BackgroundTextureFragment;",
-        "Lcom/commsource/beautyplus/i0/a;",
-        "Lcom/commsource/studio/function/background/TextureMaterial;",
-        "textureMaterial",
-        "Lcotlin/t1;",
-        "H",
-        "(Lcom/commsource/studio/function/background/TextureMaterial;)V",
-        "Landroid/view/LayoutInflater;",
-        "inflater",
-        "Landroid/view/ViewGroup;",
-        "container",
-        "Landroid/os/Bundle;",
-        "savedInstanceState",
-        "Landroid/view/View;",
-        "onCreateView",
-        "(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;",
-        "m",
-        "()V",
-        "view",
-        "onViewCreated",
-        "(Landroid/view/View;Landroid/os/Bundle;)V",
-        "Lcom/commsource/util/h1;",
-        "",
-        "p",
-        "Lcotlin/w;",
-        "G",
-        "()Lcom/commsource/util/h1;",
-        "tracker",
-        "g",
-        "Lcom/commsource/studio/function/background/TextureMaterial;",
-        "shouldApplyTexture",
-        "Lcom/commsource/beautyplus/f0/e7;",
-        "c",
-        "F",
-        "()Lcom/commsource/beautyplus/f0/e7;",
-        "mViewBinding",
-        "Lcom/commsource/studio/function/background/BackgroundViewModel;",
-        "f",
-        "D",
-        "()Lcom/commsource/studio/function/background/BackgroundViewModel;",
-        "backgroundViewModel",
-        "Lcom/commsource/widget/h1/e;",
-        "d",
-        "E",
-        "()Lcom/commsource/widget/h1/e;",
-        "mAdapter",
-        "<init>",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

@@ -7,34 +7,6 @@
 
 
 # annotations
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000\u0010\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0007\u0008\'\u0018\u00002\u00020\u0001B\u0013\u0012\n\u0010\u0003\u001a\u0006\u0012\u0002\u0008\u00030\u0002\u00a2\u0006\u0004\u0008\u0007\u0010\u0008R \u0010\u0003\u001a\u0006\u0012\u0002\u0008\u00030\u00028\u0016@\u0016X\u0096\u0004\u00a2\u0006\u000c\n\u0004\u0008\u0003\u0010\u0004\u001a\u0004\u0008\u0005\u0010\u0006\u00a8\u0006\t"
-    }
-    d2 = {
-        "Lcotlin/coroutines/a;",
-        "Lcotlin/coroutines/CoroutineContext$a;",
-        "Lcotlin/coroutines/CoroutineContext$b;",
-        "key",
-        "Lcotlin/coroutines/CoroutineContext$b;",
-        "getKey",
-        "()Lcotlin/coroutines/CoroutineContext$b;",
-        "<init>",
-        "(Lcotlin/coroutines/CoroutineContext$b;)V",
-        "kotlin-stdlib"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 .annotation build Lcotlin/s0;
     version = "1.3"

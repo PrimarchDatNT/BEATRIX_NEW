@@ -13,53 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nEffectUseLogger.kt\nKotlin\n*S Kotlin\n*F\n+ 1 EffectUseLogger.kt\ncom/commsource/camera/xcamera/util/EffectUseLogger$Companion\n*L\n1#1,302:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u00008\n\u0000\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0000\n\u0002\u0018\u0002\n\u0002\u0010\u000e\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0007\u0008\u0086\u0003\u0018\u00002\u00020\u0001B\t\u0008\u0002\u00a2\u0006\u0004\u0008\u0016\u0010\u0017JS\u0010\u000b\u001a\u001e\u0012\u0004\u0012\u00020\t\u0012\u0004\u0012\u00020\t0\u0008j\u000e\u0012\u0004\u0012\u00020\t\u0012\u0004\u0012\u00020\t`\n2\u000e\u0010\u0004\u001a\n\u0012\u0004\u0012\u00020\u0003\u0018\u00010\u00022\u000e\u0010\u0005\u001a\n\u0012\u0004\u0012\u00020\u0003\u0018\u00010\u00022\u0008\u0008\u0002\u0010\u0007\u001a\u00020\u0006\u00a2\u0006\u0004\u0008\u000b\u0010\u000cJ3\u0010\u000f\u001a\u001e\u0012\u0004\u0012\u00020\t\u0012\u0004\u0012\u00020\t0\u0008j\u000e\u0012\u0004\u0012\u00020\t\u0012\u0004\u0012\u00020\t`\n2\u0008\u0010\u000e\u001a\u0004\u0018\u00010\r\u00a2\u0006\u0004\u0008\u000f\u0010\u0010R\u0019\u0010\u0012\u001a\u00020\u00118\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u0012\u0010\u0013\u001a\u0004\u0008\u0014\u0010\u0015\u00a8\u0006\u0018"
-    }
-    d2 = {
-        "com/commsource/camera/xcamera/util/c$a",
-        "",
-        "Landroid/util/SparseArray;",
-        "Lcom/commsource/repository/child/makeup/h;",
-        "makeupMaterials",
-        "colorMaterials",
-        "",
-        "faceIndex",
-        "Ljava/util/HashMap;",
-        "",
-        "Lcotlin/collections/HashMap;",
-        "b",
-        "(Landroid/util/SparseArray;Landroid/util/SparseArray;I)Ljava/util/HashMap;",
-        "Lcom/commsource/camera/fastcapture/SelfiePhotoData;",
-        "selfiePhotoData",
-        "c",
-        "(Lcom/commsource/camera/fastcapture/SelfiePhotoData;)Ljava/util/HashMap;",
-        "Lcom/commsource/camera/xcamera/util/c;",
-        "instance",
-        "Lcom/commsource/camera/xcamera/util/c;",
-        "a",
-        "()Lcom/commsource/camera/xcamera/util/c;",
-        "<init>",
-        "()V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # direct methods

@@ -7,55 +7,6 @@
 .annotation runtime Lcom/mopub/common/Mockable;
 .end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000:\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0010\u000e\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u0008\u0017\u0018\u00002\u00020\u0001B+\u0008\u0000\u0012\u0008\u0010\u0015\u001a\u0004\u0018\u00010\u0014\u0012\u0006\u0010\u0017\u001a\u00020\u0016\u0012\u0006\u0010\u0019\u001a\u00020\u0018\u0012\u0006\u0010\u001b\u001a\u00020\u001a\u00a2\u0006\u0004\u0008\u001c\u0010\u001dJ\u000f\u0010\u0003\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\u0003\u0010\u0004J\'\u0010\u0008\u001a\u00020\u0002\"\u0008\u0008\u0000\u0010\u0005*\u00020\u00012\u000c\u0010\u0007\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u0006H\u0016\u00a2\u0006\u0004\u0008\u0008\u0010\tJ\'\u0010\n\u001a\u00020\u0002\"\u0008\u0008\u0000\u0010\u0005*\u00020\u00012\u000c\u0010\u0007\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u0006H\u0016\u00a2\u0006\u0004\u0008\n\u0010\tJ\u0017\u0010\u000c\u001a\u00020\u00022\u0006\u0010\u000b\u001a\u00020\u0001H\u0016\u00a2\u0006\u0004\u0008\u000c\u0010\rJ\u000f\u0010\u0011\u001a\u00020\u000eH\u0010\u00a2\u0006\u0004\u0008\u000f\u0010\u0010R\u0016\u0010\u0012\u001a\u00020\u000e8\u0012@\u0012X\u0092\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0012\u0010\u0013\u00a8\u0006\u001e"
-    }
-    d2 = {
-        "Lcom/mopub/network/MoPubRequestQueue;",
-        "",
-        "Lcotlin/t1;",
-        "start",
-        "()V",
-        "T",
-        "Lcom/mopub/network/MoPubRequest;",
-        "request",
-        "add",
-        "(Lcom/mopub/network/MoPubRequest;)V",
-        "cancel",
-        "tag",
-        "cancelAll",
-        "(Ljava/lang/Object;)V",
-        "Lcom/mopub/volley/RequestQueue;",
-        "getVolleyRequestQueue$mopub_sdk_networking_release",
-        "()Lcom/mopub/volley/RequestQueue;",
-        "getVolleyRequestQueue",
-        "volleyRequestQueue",
-        "Lcom/mopub/volley/RequestQueue;",
-        "",
-        "userAgent",
-        "Ljavax/net/ssl/SSLSocketFactory;",
-        "sslSocketFactory",
-        "Lcom/mopub/network/MoPubUrlRewriter;",
-        "moPubUrlRewriter",
-        "Ljava/io/File;",
-        "volleyCacheDir",
-        "<init>",
-        "(Ljava/lang/String;Ljavax/net/ssl/SSLSocketFactory;Lcom/mopub/network/MoPubUrlRewriter;Ljava/io/File;)V",
-        "mopub-sdk-networking_release"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

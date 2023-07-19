@@ -11,75 +11,7 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nDownloadTask.kt\nKotlin\n*S Kotlin\n*F\n+ 1 DownloadTask.kt\ncom/commsource/material/DownloadTask\n*L\n1#1,114:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u00008\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u0008\n\u0002\u0008\n\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0010\u000e\n\u0002\u0008\u0005\n\u0002\u0010\u000b\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u000b\u0008\u0016\u0018\u0000 &2\u00020\u0001:\u0002\u0012$B\u0017\u0012\u0006\u0010\u001e\u001a\u00020\u0019\u0012\u0006\u0010+\u001a\u00020\u0019\u00a2\u0006\u0004\u0008,\u0010-J\u000f\u0010\u0003\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\u0003\u0010\u0004J\r\u0010\u0005\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0005\u0010\u0004R\u001c\u0010\n\u001a\u00020\u00068\u0002@\u0002X\u0083\u000e\u00a2\u0006\u000c\n\u0004\u0008\u0007\u0010\u0008\u0012\u0004\u0008\t\u0010\u0004R\"\u0010\u0010\u001a\u00020\u00068\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u000b\u0010\u0008\u001a\u0004\u0008\u000c\u0010\r\"\u0004\u0008\u000e\u0010\u000fR$\u0010\u0018\u001a\u0004\u0018\u00010\u00118\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0012\u0010\u0013\u001a\u0004\u0008\u0014\u0010\u0015\"\u0004\u0008\u0016\u0010\u0017R\u0019\u0010\u001e\u001a\u00020\u00198\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u001a\u0010\u001b\u001a\u0004\u0008\u001c\u0010\u001dR\u0013\u0010\"\u001a\u00020\u001f8F@\u0006\u00a2\u0006\u0006\u001a\u0004\u0008 \u0010!R\u001d\u0010(\u001a\u00020#8F@\u0006X\u0086\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008$\u0010%\u001a\u0004\u0008&\u0010\'R\u0019\u0010+\u001a\u00020\u00198\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008)\u0010\u001b\u001a\u0004\u0008*\u0010\u001d\u00a8\u0006."
-    }
-    d2 = {
-        "Lcom/commsource/material/DownloadTask;",
-        "",
-        "Lcotlin/t1;",
-        "q",
-        "()V",
-        "r",
-        "",
-        "c",
-        "I",
-        "mTaskState$annotations",
-        "mTaskState",
-        "d",
-        "k",
-        "()I",
-        "p",
-        "(I)V",
-        "tag",
-        "Lcom/commsource/material/b;",
-        "a",
-        "Lcom/commsource/material/b;",
-        "h",
-        "()Lcom/commsource/material/b;",
-        "o",
-        "(Lcom/commsource/material/b;)V",
-        "downloadListener",
-        "",
-        "e",
-        "Ljava/lang/String;",
-        "i",
-        "()Ljava/lang/String;",
-        "downloadUrl",
-        "",
-        "m",
-        "()Z",
-        "isDownloading",
-        "Lf/k/k/f;",
-        "b",
-        "Lcotlin/w;",
-        "j",
-        "()Lf/k/k/f;",
-        "httpRequest",
-        "f",
-        "l",
-        "targetPath",
-        "<init>",
-        "(Ljava/lang/String;Ljava/lang/String;)V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # static fields

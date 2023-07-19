@@ -14,39 +14,6 @@
     }
 .end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000&\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0010\u0003\n\u0000\n\u0002\u0010\u000b\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u0008\u0002\u0018\u0000*\u0004\u0008\u0000\u0010\u00012\u0008\u0012\u0004\u0012\u00028\u00000\u0002B\u001d\u0012\u0006\u0010\t\u001a\u00020\u0008\u0012\u000c\u0010\u000b\u001a\u0008\u0012\u0004\u0012\u00028\u00000\n\u00a2\u0006\u0004\u0008\u000c\u0010\rJ\u0017\u0010\u0006\u001a\u00020\u00052\u0006\u0010\u0004\u001a\u00020\u0003H\u0016\u00a2\u0006\u0004\u0008\u0006\u0010\u0007\u00a8\u0006\u000e"
-    }
-    d2 = {
-        "Lcotlinx/coroutines/flow/internal/f;",
-        "T",
-        "Lcotlinx/coroutines/channels/v;",
-        "",
-        "cause",
-        "",
-        "m0",
-        "(Ljava/lang/Throwable;)Z",
-        "Lcotlin/coroutines/CoroutineContext;",
-        "parentContext",
-        "Lcotlinx/coroutines/channels/l;",
-        "channel",
-        "<init>",
-        "(Lcotlin/coroutines/CoroutineContext;Lcotlinx/coroutines/channels/l;)V",
-        "kotlinx-coroutines-core"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # direct methods

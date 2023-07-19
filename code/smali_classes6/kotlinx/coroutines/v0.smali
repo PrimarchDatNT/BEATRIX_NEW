@@ -4,45 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nDelay.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Delay.kt\nkotlinx/coroutines/DelayKt\n+ 2 CancellableContinuation.kt\nkotlinx/coroutines/CancellableContinuationKt\n*L\n1#1,102:1\n197#2,8:103\n*E\n*S KotlinDebug\n*F\n+ 1 Delay.kt\nkotlinx/coroutines/DelayKt\n*L\n74#1,8:103\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000\"\n\u0002\u0010\t\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u001a\u001b\u0010\u0003\u001a\u00020\u00022\u0006\u0010\u0001\u001a\u00020\u0000H\u0086@\u00f8\u0001\u0000\u00a2\u0006\u0004\u0008\u0003\u0010\u0004\u001a\u001e\u0010\u0007\u001a\u00020\u00022\u0006\u0010\u0006\u001a\u00020\u0005H\u0087@\u00f8\u0001\u0000\u00f8\u0001\u0000\u00a2\u0006\u0004\u0008\u0007\u0010\u0008\u001a\u0016\u0010\t\u001a\u00020\u0000*\u00020\u0005H\u0001\u00f8\u0001\u0000\u00a2\u0006\u0004\u0008\t\u0010\n\"\u001a\u0010\u000f\u001a\u00020\u000c*\u00020\u000b8@@\u0000X\u0080\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\r\u0010\u000e\u0082\u0002\u0004\n\u0002\u0008\u0019\u00a8\u0006\u0010"
-    }
-    d2 = {
-        "",
-        "timeMillis",
-        "Lcotlin/t1;",
-        "a",
-        "(JLcotlin/coroutines/c;)Ljava/lang/Object;",
-        "Lcotlin/i2/d;",
-        "duration",
-        "b",
-        "(DLcotlin/coroutines/c;)Ljava/lang/Object;",
-        "d",
-        "(D)J",
-        "Lcotlin/coroutines/CoroutineContext;",
-        "Lcotlinx/coroutines/u0;",
-        "c",
-        "(Lcotlin/coroutines/CoroutineContext;)Lcotlinx/coroutines/u0;",
-        "delay",
-        "kotlinx-coroutines-core"
-    }
-    k = 0x2
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # direct methods

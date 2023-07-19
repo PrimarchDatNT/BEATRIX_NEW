@@ -4,77 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nAutoManualStack.kt\nKotlin\n*S Kotlin\n*F\n+ 1 AutoManualStack.kt\ncom/commsource/studio/AutoManualState\n*L\n1#1,138:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000.\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0010\u000e\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\n\n\u0002\u0018\u0002\n\u0002\u0008\u0013\n\u0002\u0010\u000b\n\u0002\u0008\u0008\u0018\u00002\u00020\u0001B\u0007\u00a2\u0006\u0004\u0008/\u0010\u0008J\u0015\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J\r\u0010\u0007\u001a\u00020\u0004\u00a2\u0006\u0004\u0008\u0007\u0010\u0008R$\u0010\u000f\u001a\u0004\u0018\u00010\t8\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\n\u0010\u000b\u001a\u0004\u0008\n\u0010\u000c\"\u0004\u0008\r\u0010\u000eR$\u0010\u0013\u001a\u0004\u0018\u00010\t8\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0010\u0010\u000b\u001a\u0004\u0008\u0011\u0010\u000c\"\u0004\u0008\u0012\u0010\u000eR$\u0010\u001a\u001a\u0004\u0018\u00010\u00148\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0015\u0010\u0016\u001a\u0004\u0008\u0010\u0010\u0017\"\u0004\u0008\u0018\u0010\u0019R$\u0010\u001e\u001a\u0004\u0018\u00010\t8\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u001b\u0010\u000b\u001a\u0004\u0008\u001c\u0010\u000c\"\u0004\u0008\u001d\u0010\u000eR$\u0010\"\u001a\u0004\u0018\u00010\u00028\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u001c\u0010\u001f\u001a\u0004\u0008\u001b\u0010 \"\u0004\u0008!\u0010\u0006R$\u0010$\u001a\u0004\u0018\u00010\t8\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0011\u0010\u000b\u001a\u0004\u0008\u0015\u0010\u000c\"\u0004\u0008#\u0010\u000eR$\u0010\'\u001a\u0004\u0018\u00010\t8\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008%\u0010\u000b\u001a\u0004\u0008%\u0010\u000c\"\u0004\u0008&\u0010\u000eR\"\u0010.\u001a\u00020(8\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0005\u0010)\u001a\u0004\u0008*\u0010+\"\u0004\u0008,\u0010-\u00a8\u00060"
-    }
-    d2 = {
-        "Lcom/commsource/studio/e;",
-        "",
-        "",
-        "cachePath",
-        "Lcotlin/t1;",
-        "a",
-        "(Ljava/lang/String;)V",
-        "j",
-        "()V",
-        "Lcom/commsource/studio/g;",
-        "b",
-        "Lcom/commsource/studio/g;",
-        "()Lcom/commsource/studio/g;",
-        "k",
-        "(Lcom/commsource/studio/g;)V",
-        "autoEffectBitmap",
-        "d",
-        "f",
-        "p",
-        "manualEffectBitmap",
-        "Landroid/util/SparseIntArray;",
-        "h",
-        "Landroid/util/SparseIntArray;",
-        "()Landroid/util/SparseIntArray;",
-        "n",
-        "(Landroid/util/SparseIntArray;)V",
-        "autoParams",
-        "e",
-        "g",
-        "q",
-        "manualMaskBitmap",
-        "Ljava/lang/String;",
-        "()Ljava/lang/String;",
-        "o",
-        "cacheDir",
-        "r",
-        "manualOriginBitmap",
-        "c",
-        "m",
-        "autoOriginBitmap",
-        "",
-        "Z",
-        "i",
-        "()Z",
-        "l",
-        "(Z)V",
-        "isAutoMode",
-        "<init>",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

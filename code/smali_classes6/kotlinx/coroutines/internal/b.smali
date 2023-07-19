@@ -4,43 +4,6 @@
 
 
 # annotations
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000\u0018\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u000b\u0008&\u0018\u00002\u00020\u0001B\u0007\u00a2\u0006\u0004\u0008\u0010\u0010\u0011J\u001d\u0010\u0004\u001a\u0004\u0018\u00010\u00012\n\u0010\u0003\u001a\u0006\u0012\u0002\u0008\u00030\u0002H&\u00a2\u0006\u0004\u0008\u0004\u0010\u0005J%\u0010\u0008\u001a\u00020\u00072\n\u0010\u0003\u001a\u0006\u0012\u0002\u0008\u00030\u00022\u0008\u0010\u0006\u001a\u0004\u0018\u00010\u0001H&\u00a2\u0006\u0004\u0008\u0008\u0010\tR&\u0010\u000f\u001a\u0006\u0012\u0002\u0008\u00030\u00028\u0006@\u0006X\u0086.\u00a2\u0006\u0012\n\u0004\u0008\u0008\u0010\n\u001a\u0004\u0008\u000b\u0010\u000c\"\u0004\u0008\r\u0010\u000e\u00a8\u0006\u0012"
-    }
-    d2 = {
-        "Lcotlinx/coroutines/internal/b;",
-        "",
-        "Lcotlinx/coroutines/internal/d;",
-        "op",
-        "c",
-        "(Lcotlinx/coroutines/internal/d;)Ljava/lang/Object;",
-        "failure",
-        "Lcotlin/t1;",
-        "a",
-        "(Lcotlinx/coroutines/internal/d;Ljava/lang/Object;)V",
-        "Lcotlinx/coroutines/internal/d;",
-        "b",
-        "()Lcotlinx/coroutines/internal/d;",
-        "d",
-        "(Lcotlinx/coroutines/internal/d;)V",
-        "atomicOp",
-        "<init>",
-        "()V",
-        "kotlinx-coroutines-core"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

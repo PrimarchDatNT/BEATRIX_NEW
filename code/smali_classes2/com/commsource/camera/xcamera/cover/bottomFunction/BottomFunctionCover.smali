@@ -12,77 +12,7 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nBottomFunctionCover.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BottomFunctionCover.kt\ncom/commsource/camera/xcamera/cover/bottomFunction/BottomFunctionCover\n*L\n1#1,120:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000Z\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0005\n\u0002\u0010\u000b\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u0018\u00002\u0008\u0012\u0004\u0012\u00020\u00020\u0001B\u0007\u00a2\u0006\u0004\u0008/\u0010\u000cJ\u0019\u0010\u0006\u001a\u00020\u00052\u0008\u0010\u0004\u001a\u0004\u0018\u00010\u0003H\u0002\u00a2\u0006\u0004\u0008\u0006\u0010\u0007J\u000f\u0010\t\u001a\u00020\u0008H\u0016\u00a2\u0006\u0004\u0008\t\u0010\nJ\u000f\u0010\u000b\u001a\u00020\u0005H\u0016\u00a2\u0006\u0004\u0008\u000b\u0010\u000cJ\u000f\u0010\r\u001a\u00020\u0005H\u0016\u00a2\u0006\u0004\u0008\r\u0010\u000cJ\u000f\u0010\u000f\u001a\u00020\u000eH\u0016\u00a2\u0006\u0004\u0008\u000f\u0010\u0010J\u000f\u0010\u0011\u001a\u00020\u0005H\u0016\u00a2\u0006\u0004\u0008\u0011\u0010\u000cR\u001d\u0010\u0017\u001a\u00020\u00128F@\u0006X\u0086\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0013\u0010\u0014\u001a\u0004\u0008\u0015\u0010\u0016R\u001d\u0010\u001c\u001a\u00020\u00188F@\u0006X\u0086\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0019\u0010\u0014\u001a\u0004\u0008\u001a\u0010\u001bR\u001d\u0010!\u001a\u00020\u001d8F@\u0006X\u0086\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u001e\u0010\u0014\u001a\u0004\u0008\u001f\u0010 R\u001d\u0010&\u001a\u00020\"8B@\u0002X\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008#\u0010\u0014\u001a\u0004\u0008$\u0010%R\u001d\u0010+\u001a\u00020\'8F@\u0006X\u0086\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008(\u0010\u0014\u001a\u0004\u0008)\u0010*R\u001d\u0010.\u001a\u00020,8F@\u0006X\u0086\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u001f\u0010\u0014\u001a\u0004\u0008#\u0010-\u00a8\u00060"
-    }
-    d2 = {
-        "Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunctionCover;",
-        "Lcom/commsource/camera/xcamera/cover/AbsLazyCover;",
-        "Lcom/commsource/beautyplus/f0/a3;",
-        "Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;",
-        "function",
-        "Lcotlin/t1;",
-        "L",
-        "(Lcom/commsource/camera/xcamera/cover/bottomFunction/BottomFunction;)V",
-        "",
-        "q",
-        "()I",
-        "v",
-        "()V",
-        "x",
-        "",
-        "l",
-        "()Z",
-        "o",
-        "Lcom/commsource/beautyplus/armaterial/ArGiphyMaterialViewModel;",
-        "g",
-        "Lcotlin/w;",
-        "F",
-        "()Lcom/commsource/beautyplus/armaterial/ArGiphyMaterialViewModel;",
-        "arGiphyMaterialViewModel",
-        "Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;",
-        "f",
-        "I",
-        "()Lcom/commsource/camera/xcamera/cover/CameraCaptureViewModel;",
-        "cameraCaptureViewModel",
-        "Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;",
-        "p",
-        "J",
-        "()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/c;",
-        "cameraFilterViewModel",
-        "Lcom/commsource/util/XFunctionFragmentHelper;",
-        "K",
-        "G",
-        "()Lcom/commsource/util/XFunctionFragmentHelper;",
-        "bottomFunctionHelper",
-        "Lcom/commsource/camera/xcamera/cover/bottomFunction/b;",
-        "d",
-        "H",
-        "()Lcom/commsource/camera/xcamera/cover/bottomFunction/b;",
-        "bottomFunctionViewModel",
-        "Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;",
-        "()Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/i;",
-        "makeupViewModel",
-        "<init>",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

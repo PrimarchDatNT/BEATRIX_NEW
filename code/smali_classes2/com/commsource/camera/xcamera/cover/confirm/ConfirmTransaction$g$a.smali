@@ -16,38 +16,6 @@
     name = null
 .end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000\u001c\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0005\u0008\n\u0018\u00002\u00020\u0001J\u000f\u0010\u0003\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\u0003\u0010\u0004J\u000f\u0010\u0005\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\u0005\u0010\u0004J\u001f\u0010\n\u001a\u00020\u00022\u0006\u0010\u0007\u001a\u00020\u00062\u0006\u0010\t\u001a\u00020\u0008H\u0016\u00a2\u0006\u0004\u0008\n\u0010\u000b\u00a8\u0006\u000c\u00b8\u0006\r"
-    }
-    d2 = {
-        "com/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$g$a",
-        "Lcom/commsource/widget/dialog/j0$b;",
-        "Lcotlin/t1;",
-        "c",
-        "()V",
-        "b",
-        "LLandroid/content/Context;;",
-        "context",
-        "L;",
-        "score",
-        "onClickSubmit",
-        "(LLandroid/content/Context;;L;)V",
-        "app_googleplayRelease",
-        "com/commsource/camera/xcamera/cover/confirm/ConfirmTransaction$onAttachTransaction$4$1$1"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

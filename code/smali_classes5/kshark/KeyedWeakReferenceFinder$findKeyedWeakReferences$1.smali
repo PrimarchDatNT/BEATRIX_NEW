@@ -27,33 +27,7 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nKeyedWeakReferenceFinder.kt\nKotlin\n*S Kotlin\n*F\n+ 1 KeyedWeakReferenceFinder.kt\nkshark/KeyedWeakReferenceFinder$findKeyedWeakReferences$1\n+ 2 SharkLog.kt\nkshark/SharkLog\n*L\n1#1,48:1\n32#2,3:49\n*E\n*S KotlinDebug\n*F\n+ 1 KeyedWeakReferenceFinder.kt\nkshark/KeyedWeakReferenceFinder$findKeyedWeakReferences$1\n*L\n26#1,3:49\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000\u000c\n\u0002\u0010 \n\u0002\u0018\u0002\n\u0002\u0008\u0003\u0010\u0004\u001a\u0008\u0012\u0004\u0012\u00020\u00010\u0000H\n\u00a2\u0006\u0004\u0008\u0002\u0010\u0003"
-    }
-    d2 = {
-        "",
-        "Lkshark/internal/e;",
-        "invoke",
-        "()Ljava/util/List;",
-        "<anonymous>"
-    }
-    k = 0x3
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

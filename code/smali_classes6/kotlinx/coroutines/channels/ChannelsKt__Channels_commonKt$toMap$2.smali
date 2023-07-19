@@ -13,35 +13,6 @@
     name = null
 .end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000 \n\u0002\u0008\u0002\n\u0002\u0010%\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0000\n\u0000\u0010\n\u001a\u0004\u0018\u00010\t\"\u0004\u0008\u0000\u0010\u0000\"\u0004\u0008\u0001\u0010\u0001\"\u0018\u0008\u0002\u0010\u0003*\u0012\u0012\u0006\u0008\u0000\u0012\u00028\u0000\u0012\u0006\u0008\u0000\u0012\u00028\u00010\u0002*\u0014\u0012\u0010\u0012\u000e\u0012\u0004\u0012\u00028\u0000\u0012\u0004\u0012\u00028\u00010\u00050\u00042\u0006\u0010\u0006\u001a\u00028\u00022\u000c\u0010\u0008\u001a\u0008\u0012\u0004\u0012\u00028\u00020\u0007H\u0087@"
-    }
-    d2 = {
-        "K",
-        "V",
-        "",
-        "M",
-        "Lcotlinx/coroutines/channels/y;",
-        "Lcotlin/Pair;",
-        "destination",
-        "Lcotlin/coroutines/c;",
-        "continuation",
-        "",
-        "toMap"
-    }
-    k = 0x3
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 .annotation runtime Lcotlin/coroutines/jvm/internal/d;
     c = "kotlinx.coroutines.channels.ChannelsKt__Channels_commonKt"

@@ -7,62 +7,6 @@
 
 
 # annotations
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u00008\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0012\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u0008&\u0018\u00002\u00020\u00012\u00020\u0002B\u000f\u0012\u0006\u0010\"\u001a\u00020!\u00a2\u0006\u0004\u0008#\u0010$J\u0017\u0010\u0006\u001a\u00020\u00052\u0006\u0010\u0004\u001a\u00020\u0003H\u0016\u00a2\u0006\u0004\u0008\u0006\u0010\u0007J\u0017\u0010\n\u001a\u00020\u00052\u0006\u0010\t\u001a\u00020\u0008H\u0016\u00a2\u0006\u0004\u0008\n\u0010\u000bJ\u001f\u0010\u0010\u001a\u00020\u00052\u0006\u0010\r\u001a\u00020\u000c2\u0006\u0010\u000f\u001a\u00020\u000eH\u0016\u00a2\u0006\u0004\u0008\u0010\u0010\u0011J\u000f\u0010\u0012\u001a\u00020\u0005H\u0016\u00a2\u0006\u0004\u0008\u0012\u0010\u0013R\"\u0010\r\u001a\u00020\u000c8\u0016@\u0016X\u0096.\u00a2\u0006\u0012\n\u0004\u0008\u0014\u0010\u0015\u001a\u0004\u0008\u0016\u0010\u0017\"\u0004\u0008\u0018\u0010\u0019R\"\u0010 \u001a\u00020\u000e8\u0016@\u0016X\u0096.\u00a2\u0006\u0012\n\u0004\u0008\u001a\u0010\u001b\u001a\u0004\u0008\u001c\u0010\u001d\"\u0004\u0008\u001e\u0010\u001f\u00a8\u0006%"
-    }
-    d2 = {
-        "Lcom/commsource/studio/layer/d;",
-        "Lcom/commsource/studio/layer/BaseLayer;",
-        "Lcom/commsource/studio/component/c;",
-        "Landroidx/fragment/app/Fragment;",
-        "fragment",
-        "Lcotlin/t1;",
-        "a",
-        "(Landroidx/fragment/app/Fragment;)V",
-        "Landroidx/fragment/app/FragmentActivity;",
-        "activity",
-        "c",
-        "(Landroidx/fragment/app/FragmentActivity;)V",
-        "Landroidx/lifecycle/ViewModelStoreOwner;",
-        "storeOwner",
-        "Landroidx/lifecycle/LifecycleOwner;",
-        "lifecycleOwner",
-        "p",
-        "(Landroidx/lifecycle/ViewModelStoreOwner;Landroidx/lifecycle/LifecycleOwner;)V",
-        "o0",
-        "()V",
-        "L",
-        "Landroidx/lifecycle/ViewModelStoreOwner;",
-        "getStoreOwner",
-        "()Landroidx/lifecycle/ViewModelStoreOwner;",
-        "setStoreOwner",
-        "(Landroidx/lifecycle/ViewModelStoreOwner;)V",
-        "M",
-        "Landroidx/lifecycle/LifecycleOwner;",
-        "getLifeOwner",
-        "()Landroidx/lifecycle/LifecycleOwner;",
-        "setLifeOwner",
-        "(Landroidx/lifecycle/LifecycleOwner;)V",
-        "lifeOwner",
-        "Landroid/content/Context;",
-        "context",
-        "<init>",
-        "(Landroid/content/Context;)V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

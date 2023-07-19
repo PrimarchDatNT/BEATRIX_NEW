@@ -12,62 +12,7 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nArCorePaintCover.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ArCorePaintCover.kt\ncom/commsource/camera/xcamera/cover/tips/ArCorePaintCover\n*L\n1#1,58:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000<\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0006\u0018\u00002\u0008\u0012\u0004\u0012\u00020\u00020\u0001B\u0007\u00a2\u0006\u0004\u0008 \u0010\u0005J\u000f\u0010\u0004\u001a\u00020\u0003H\u0016\u00a2\u0006\u0004\u0008\u0004\u0010\u0005J\u000f\u0010\u0007\u001a\u00020\u0006H\u0016\u00a2\u0006\u0004\u0008\u0007\u0010\u0008J\u000f\u0010\t\u001a\u00020\u0003H\u0016\u00a2\u0006\u0004\u0008\t\u0010\u0005J\u000f\u0010\n\u001a\u00020\u0003H\u0016\u00a2\u0006\u0004\u0008\n\u0010\u0005R\u001d\u0010\u0010\u001a\u00020\u000b8B@\u0002X\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u000c\u0010\r\u001a\u0004\u0008\u000e\u0010\u000fR\u001d\u0010\u0015\u001a\u00020\u00118B@\u0002X\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0012\u0010\r\u001a\u0004\u0008\u0013\u0010\u0014R\u001d\u0010\u001a\u001a\u00020\u00168B@\u0002X\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0017\u0010\r\u001a\u0004\u0008\u0018\u0010\u0019R\u001d\u0010\u001f\u001a\u00020\u001b8B@\u0002X\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u001c\u0010\r\u001a\u0004\u0008\u001d\u0010\u001e\u00a8\u0006!"
-    }
-    d2 = {
-        "Lcom/commsource/camera/xcamera/cover/tips/ArCorePaintCover;",
-        "Lcom/commsource/camera/xcamera/cover/AbsLazyCover;",
-        "Lcom/commsource/beautyplus/f0/wk;",
-        "Lcotlin/t1;",
-        "o",
-        "()V",
-        "",
-        "q",
-        "()I",
-        "v",
-        "x",
-        "Lcom/commsource/camera/xcamera/cover/bottomFunction/b;",
-        "p",
-        "Lcotlin/w;",
-        "H",
-        "()Lcom/commsource/camera/xcamera/cover/bottomFunction/b;",
-        "bottomViewModel",
-        "Lcom/commsource/camera/xcamera/BpCameraViewModel;",
-        "g",
-        "I",
-        "()Lcom/commsource/camera/xcamera/BpCameraViewModel;",
-        "bpCameraViewModel",
-        "Lcom/commsource/camera/xcamera/cover/tips/a;",
-        "d",
-        "J",
-        "()Lcom/commsource/camera/xcamera/cover/tips/a;",
-        "tipsViewModel",
-        "Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;",
-        "f",
-        "G",
-        "()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;",
-        "arViewModel",
-        "<init>",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

@@ -3,32 +3,6 @@
 
 
 # annotations
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "kotlin/collections/t",
-        "kotlin/collections/CollectionsKt__CollectionsKt",
-        "kotlin/collections/u",
-        "kotlin/collections/v",
-        "kotlin/collections/w",
-        "kotlin/collections/x",
-        "kotlin/collections/y",
-        "kotlin/collections/z",
-        "kotlin/collections/a0",
-        "kotlin/collections/CollectionsKt___CollectionsKt"
-    }
-    d2 = {}
-    k = 0x4
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # direct methods

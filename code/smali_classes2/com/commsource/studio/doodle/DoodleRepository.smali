@@ -4,73 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nDoodleRepository.kt\nKotlin\n*S Kotlin\n*F\n+ 1 DoodleRepository.kt\ncom/commsource/studio/doodle/DoodleRepository\n+ 2 ArraysJVM.kt\nkotlin/collections/ArraysKt__ArraysJVMKt\n*L\n1#1,73:1\n37#2,2:74\n37#2,2:76\n37#2,2:78\n37#2,2:80\n37#2,2:82\n37#2,2:84\n*E\n*S KotlinDebug\n*F\n+ 1 DoodleRepository.kt\ncom/commsource/studio/doodle/DoodleRepository\n*L\n21#1,2:74\n25#1,2:76\n29#1,2:78\n51#1,2:80\n55#1,2:82\n59#1,2:84\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000B\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0010 \n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010!\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0010\u0008\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u000b\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0006\u0008\u00c6\u0002\u0018\u00002\u00020\u0001B\t\u0008\u0002\u00a2\u0006\u0004\u0008*\u0010+J\u0013\u0010\u0004\u001a\u0008\u0012\u0004\u0012\u00020\u00030\u0002\u00a2\u0006\u0004\u0008\u0004\u0010\u0005J\u001b\u0010\t\u001a\u00020\u00082\u000c\u0010\u0007\u001a\u0008\u0012\u0004\u0012\u00020\u00030\u0006\u00a2\u0006\u0004\u0008\t\u0010\nJ\u001b\u0010\u000b\u001a\u00020\u00082\u000c\u0010\u0007\u001a\u0008\u0012\u0004\u0012\u00020\u00030\u0006\u00a2\u0006\u0004\u0008\u000b\u0010\nJ\u001b\u0010\u000c\u001a\u00020\u00082\u000c\u0010\u0007\u001a\u0008\u0012\u0004\u0012\u00020\u00030\u0006\u00a2\u0006\u0004\u0008\u000c\u0010\nJ\u0017\u0010\u000f\u001a\u0004\u0018\u00010\u00032\u0006\u0010\u000e\u001a\u00020\r\u00a2\u0006\u0004\u0008\u000f\u0010\u0010J\u0015\u0010\u0012\u001a\u00020\u00082\u0006\u0010\u0011\u001a\u00020\u0003\u00a2\u0006\u0004\u0008\u0012\u0010\u0013J\u0015\u0010\u0014\u001a\u00020\u00082\u0006\u0010\u0011\u001a\u00020\u0003\u00a2\u0006\u0004\u0008\u0014\u0010\u0013J\u0013\u0010\u0016\u001a\u0008\u0012\u0004\u0012\u00020\u00150\u0002\u00a2\u0006\u0004\u0008\u0016\u0010\u0005J\u001b\u0010\u0017\u001a\u00020\u00082\u000c\u0010\u0007\u001a\u0008\u0012\u0004\u0012\u00020\u00150\u0006\u00a2\u0006\u0004\u0008\u0017\u0010\nJ\u001b\u0010\u0018\u001a\u00020\u00082\u000c\u0010\u0007\u001a\u0008\u0012\u0004\u0012\u00020\u00150\u0006\u00a2\u0006\u0004\u0008\u0018\u0010\nJ\u001b\u0010\u0019\u001a\u00020\u00082\u000c\u0010\u0007\u001a\u0008\u0012\u0004\u0012\u00020\u00150\u0006\u00a2\u0006\u0004\u0008\u0019\u0010\nJ\u0017\u0010\u001b\u001a\u0004\u0018\u00010\u00152\u0006\u0010\u001a\u001a\u00020\r\u00a2\u0006\u0004\u0008\u001b\u0010\u001cJ\u0015\u0010\u001e\u001a\u00020\u00082\u0006\u0010\u001d\u001a\u00020\u0015\u00a2\u0006\u0004\u0008\u001e\u0010\u001fJ\u0015\u0010 \u001a\u00020\u00082\u0006\u0010\u001d\u001a\u00020\u0015\u00a2\u0006\u0004\u0008 \u0010\u001fR\u001d\u0010%\u001a\u00020!8B@\u0002X\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0019\u0010\"\u001a\u0004\u0008#\u0010$R\u001d\u0010)\u001a\u00020&8B@\u0002X\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u000c\u0010\"\u001a\u0004\u0008\'\u0010(\u00a8\u0006,"
-    }
-    d2 = {
-        "Lcom/commsource/studio/doodle/DoodleRepository;",
-        "",
-        "",
-        "Lcom/meitu/template/bean/f;",
-        "c",
-        "()Ljava/util/List;",
-        "",
-        "entities",
-        "Lcotlin/t1;",
-        "j",
-        "(Ljava/util/List;)V",
-        "n",
-        "b",
-        "",
-        "categoryId",
-        "g",
-        "(I)Lcom/meitu/template/bean/f;",
-        "categoryInfo",
-        "o",
-        "(Lcom/meitu/template/bean/f;)V",
-        "k",
-        "Lcom/meitu/template/bean/Doodle;",
-        "d",
-        "i",
-        "m",
-        "a",
-        "filterId",
-        "h",
-        "(I)Lcom/meitu/template/bean/Doodle;",
-        "Doodle",
-        "p",
-        "(Lcom/meitu/template/bean/Doodle;)V",
-        "l",
-        "Lf/k/i0/a/n;",
-        "Lcotlin/w;",
-        "f",
-        "()Lf/k/i0/a/n;",
-        "doodleDao",
-        "Lf/k/i0/a/l;",
-        "e",
-        "()Lf/k/i0/a/l;",
-        "doodleCategoryDao",
-        "<init>",
-        "()V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # static fields

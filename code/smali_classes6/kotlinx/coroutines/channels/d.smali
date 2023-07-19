@@ -19,49 +19,7 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nActor.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Actor.kt\nkotlinx/coroutines/channels/ActorCoroutine\n*L\n1#1,184:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u00002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u0003\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u000b\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0005\u0008\u0012\u0018\u0000*\u0004\u0008\u0000\u0010\u00012\u0008\u0012\u0004\u0012\u00028\u00000\u00022\u0008\u0012\u0004\u0012\u00028\u00000\u0003B%\u0012\u0006\u0010\u000e\u001a\u00020\r\u0012\u000c\u0010\u0010\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u000f\u0012\u0006\u0010\u0011\u001a\u00020\n\u00a2\u0006\u0004\u0008\u0012\u0010\u0013J\u0019\u0010\u0007\u001a\u00020\u00062\u0008\u0010\u0005\u001a\u0004\u0018\u00010\u0004H\u0014\u00a2\u0006\u0004\u0008\u0007\u0010\u0008J\u0017\u0010\u000b\u001a\u00020\n2\u0006\u0010\t\u001a\u00020\u0004H\u0014\u00a2\u0006\u0004\u0008\u000b\u0010\u000c\u00a8\u0006\u0014"
-    }
-    d2 = {
-        "Lcotlinx/coroutines/channels/d;",
-        "E",
-        "Lcotlinx/coroutines/channels/m;",
-        "Lcotlinx/coroutines/channels/f;",
-        "",
-        "cause",
-        "Lcotlin/t1;",
-        "W0",
-        "(Ljava/lang/Throwable;)V",
-        "exception",
-        "",
-        "E0",
-        "(Ljava/lang/Throwable;)Z",
-        "Lcotlin/coroutines/CoroutineContext;",
-        "parentContext",
-        "Lcotlinx/coroutines/channels/l;",
-        "channel",
-        "active",
-        "<init>",
-        "(Lcotlin/coroutines/CoroutineContext;Lcotlinx/coroutines/channels/l;Z)V",
-        "kotlinx-coroutines-core"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # direct methods

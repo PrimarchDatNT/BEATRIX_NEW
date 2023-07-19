@@ -10,77 +10,7 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nBackgroundLayer.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BackgroundLayer.kt\ncom/commsource/studio/layer/BackgroundLayer\n*L\n1#1,104:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000H\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u0007\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u0006\u0018\u0000 .2\u00020\u0001:\u0001/B\u000f\u0012\u0006\u0010+\u001a\u00020*\u00a2\u0006\u0004\u0008,\u0010-J\u000f\u0010\u0003\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\u0003\u0010\u0004J/\u0010\u000b\u001a\u00020\n2\u0006\u0010\u0006\u001a\u00020\u00052\u0006\u0010\u0007\u001a\u00020\u00052\u0006\u0010\u0008\u001a\u00020\u00052\u0006\u0010\t\u001a\u00020\u0005H\u0016\u00a2\u0006\u0004\u0008\u000b\u0010\u000cR\"\u0010\u0014\u001a\u00020\r8\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u000e\u0010\u000f\u001a\u0004\u0008\u0010\u0010\u0011\"\u0004\u0008\u0012\u0010\u0013R.\u0010\u001d\u001a\u0004\u0018\u00010\u00152\u0008\u0010\u0016\u001a\u0004\u0018\u00010\u00158\u0006@FX\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0017\u0010\u0018\u001a\u0004\u0008\u0019\u0010\u001a\"\u0004\u0008\u001b\u0010\u001cR\u0016\u0010!\u001a\u00020\u001e8\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u001f\u0010 R*\u0010)\u001a\u00020\"2\u0006\u0010\u0016\u001a\u00020\"8\u0006@FX\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008#\u0010$\u001a\u0004\u0008%\u0010&\"\u0004\u0008\'\u0010(\u00a8\u00060"
-    }
-    d2 = {
-        "Lcom/commsource/studio/layer/b;",
-        "Lcom/commsource/studio/layer/BaseLayer;",
-        "Landroid/view/View;",
-        "c0",
-        "()Landroid/view/View;",
-        "",
-        "left",
-        "top",
-        "right",
-        "bottom",
-        "Lcotlin/t1;",
-        "Y",
-        "(FFFF)V",
-        "Lcom/commsource/easyeditor/entity/CropEnum;",
-        "O",
-        "Lcom/commsource/easyeditor/entity/CropEnum;",
-        "p0",
-        "()Lcom/commsource/easyeditor/entity/CropEnum;",
-        "s0",
-        "(Lcom/commsource/easyeditor/entity/CropEnum;)V",
-        "aspectRatio",
-        "Lcom/commsource/studio/function/background/BackgroundTexture;",
-        "value",
-        "N",
-        "Lcom/commsource/studio/function/background/BackgroundTexture;",
-        "q0",
-        "()Lcom/commsource/studio/function/background/BackgroundTexture;",
-        "t0",
-        "(Lcom/commsource/studio/function/background/BackgroundTexture;)V",
-        "backgroundTexture",
-        "Landroid/graphics/RectF;",
-        "L",
-        "Landroid/graphics/RectF;",
-        "backgroundRectF",
-        "Lcom/commsource/studio/function/background/BackgroundType;",
-        "M",
-        "Lcom/commsource/studio/function/background/BackgroundType;",
-        "r0",
-        "()Lcom/commsource/studio/function/background/BackgroundType;",
-        "u0",
-        "(Lcom/commsource/studio/function/background/BackgroundType;)V",
-        "backgroundType",
-        "Landroid/content/Context;",
-        "context",
-        "<init>",
-        "(Landroid/content/Context;)V",
-        "Q",
-        "b",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # static fields

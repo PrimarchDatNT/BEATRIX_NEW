@@ -3,38 +3,6 @@
 
 
 # annotations
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "kotlinx/coroutines/flow/FlowKt__BuildersKt",
-        "kotlinx/coroutines/flow/FlowKt__ChannelsKt",
-        "kotlinx/coroutines/flow/FlowKt__CollectKt",
-        "kotlinx/coroutines/flow/FlowKt__CollectionKt",
-        "kotlinx/coroutines/flow/g",
-        "kotlinx/coroutines/flow/FlowKt__CountKt",
-        "kotlinx/coroutines/flow/FlowKt__DelayKt",
-        "kotlinx/coroutines/flow/FlowKt__DistinctKt",
-        "kotlinx/coroutines/flow/FlowKt__EmittersKt",
-        "kotlinx/coroutines/flow/FlowKt__ErrorsKt",
-        "kotlinx/coroutines/flow/FlowKt__LimitKt",
-        "kotlinx/coroutines/flow/FlowKt__MergeKt",
-        "kotlinx/coroutines/flow/FlowKt__MigrationKt",
-        "kotlinx/coroutines/flow/FlowKt__ReduceKt",
-        "kotlinx/coroutines/flow/FlowKt__TransformKt",
-        "kotlinx/coroutines/flow/FlowKt__ZipKt"
-    }
-    d2 = {}
-    k = 0x4
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # static fields

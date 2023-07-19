@@ -4,37 +4,6 @@
 
 
 # annotations
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000 \n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u0008\u0016\u0018\u00002\u00020\u0001B\u0017\u0012\u0006\u0010\u0006\u001a\u00020\u0005\u0012\u0006\u0010\t\u001a\u00020\u0008\u00a2\u0006\u0004\u0008\n\u0010\u000bJ\u000f\u0010\u0003\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\u0003\u0010\u0004R\u0016\u0010\u0006\u001a\u00020\u00058\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0006\u0010\u0007\u00a8\u0006\u000c"
-    }
-    d2 = {
-        "Lcom/mopub/mobileads/VastVideoViewCountdownRunnable;",
-        "Lcom/mopub/mobileads/RepeatingHandlerRunnable;",
-        "Lcotlin/t1;",
-        "doWork",
-        "()V",
-        "Lcom/mopub/mobileads/VastVideoViewController;",
-        "videoViewController",
-        "Lcom/mopub/mobileads/VastVideoViewController;",
-        "Landroid/os/Handler;",
-        "handler",
-        "<init>",
-        "(Lcom/mopub/mobileads/VastVideoViewController;Landroid/os/Handler;)V",
-        "mopub-sdk-base_release"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

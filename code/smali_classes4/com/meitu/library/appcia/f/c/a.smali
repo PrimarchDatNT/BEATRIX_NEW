@@ -4,40 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nAppCIAScope.kt\nKotlin\n*S Kotlin\n*F\n+ 1 AppCIAScope.kt\ncom/meitu/library/appcia/base/coroutine/AppCIAScopeKt\n+ 2 CoroutineExceptionHandler.kt\nkotlinx/coroutines/CoroutineExceptionHandlerKt\n*L\n1#1,51:1\n49#2,4:52\n*E\n*S KotlinDebug\n*F\n+ 1 AppCIAScope.kt\ncom/meitu/library/appcia/base/coroutine/AppCIAScopeKt\n*L\n12#1,4:52\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000\u0010\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0005\u001a\u000f\u0010\u0001\u001a\u00020\u0000H\u0007\u00a2\u0006\u0004\u0008\u0001\u0010\u0002\"\u001c\u0010\u0005\u001a\u00020\u00008\u0006@\u0007X\u0087\u0004\u00a2\u0006\u000c\n\u0004\u0008\u0003\u0010\u0004\u001a\u0004\u0008\u0003\u0010\u0002\"\u001c\u0010\n\u001a\u00020\u00068\u0006@\u0007X\u0087\u0004\u00a2\u0006\u000c\n\u0004\u0008\u0001\u0010\u0007\u001a\u0004\u0008\u0008\u0010\t\u00a8\u0006\u000b"
-    }
-    d2 = {
-        "Lcotlinx/coroutines/m0;",
-        "a",
-        "()Lcotlinx/coroutines/m0;",
-        "b",
-        "Lcotlinx/coroutines/m0;",
-        "AppCIAWorkScope",
-        "Lcotlinx/coroutines/CoroutineExceptionHandler;",
-        "Lcotlinx/coroutines/CoroutineExceptionHandler;",
-        "c",
-        "()Lcotlinx/coroutines/CoroutineExceptionHandler;",
-        "exceptionHandler",
-        "appcia.base_release"
-    }
-    k = 0x2
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # static fields

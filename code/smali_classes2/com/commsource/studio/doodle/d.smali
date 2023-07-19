@@ -4,71 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nDoodleManager.kt\nKotlin\n*S Kotlin\n*F\n+ 1 DoodleManager.kt\ncom/commsource/studio/doodle/DoodleManager\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,109:1\n734#2:110\n825#2,2:111\n734#2:113\n825#2,2:114\n734#2:116\n825#2,2:117\n734#2:119\n825#2,2:120\n734#2:122\n825#2,2:123\n734#2:125\n825#2,2:126\n*E\n*S KotlinDebug\n*F\n+ 1 DoodleManager.kt\ncom/commsource/studio/doodle/DoodleManager\n*L\n27#1:110\n27#1,2:111\n35#1:113\n35#1,2:114\n44#1:116\n44#1,2:117\n52#1:119\n52#1,2:120\n83#1:122\n83#1,2:123\n90#1:125\n90#1,2:126\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000L\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0010\u000b\n\u0002\u0008\u0002\n\u0002\u0010 \n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u000c\u0008\u00c6\u0002\u0018\u00002\u00020\u0001B\t\u0008\u0002\u00a2\u0006\u0004\u0008(\u0010)J\u0017\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u0002H\u0002\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J%\u0010\u000b\u001a\u0012\u0012\u0004\u0012\u00020\u00020\tj\u0008\u0012\u0004\u0012\u00020\u0002`\n2\u0006\u0010\u0008\u001a\u00020\u0007\u00a2\u0006\u0004\u0008\u000b\u0010\u000cJ\u0015\u0010\r\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\r\u0010\u0006J\u0015\u0010\u000e\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u000e\u0010\u0006J\r\u0010\u0010\u001a\u00020\u000f\u00a2\u0006\u0004\u0008\u0010\u0010\u0011J\u0013\u0010\u0014\u001a\u0008\u0012\u0004\u0012\u00020\u00130\u0012\u00a2\u0006\u0004\u0008\u0014\u0010\u0015J\u0017\u0010\u0017\u001a\u0004\u0018\u00010\u00022\u0006\u0010\u0016\u001a\u00020\u0007\u00a2\u0006\u0004\u0008\u0017\u0010\u0018R\u001c\u0010\u001b\u001a\u0008\u0012\u0004\u0012\u00020\u00020\u00198\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u0014\u0010\u001aR&\u0010\u001d\u001a\u0012\u0012\u0004\u0012\u00020\u00020\tj\u0008\u0012\u0004\u0012\u00020\u0002`\n8\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u0010\u0010\u001cR\u001f\u0010\"\u001a\u0008\u0012\u0004\u0012\u00020\u00020\u001e8\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u0017\u0010\u001f\u001a\u0004\u0008 \u0010!R\u001c\u0010$\u001a\u0008\u0012\u0004\u0012\u00020\u000f0\u001e8\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008#\u0010\u001fR\u001c\u0010%\u001a\u0008\u0012\u0004\u0012\u00020\u00020\u001e8\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u000e\u0010\u001fR\u001c\u0010&\u001a\u0008\u0012\u0004\u0012\u00020\u00130\u00198\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008 \u0010\u001aR&\u0010\'\u001a\u0012\u0012\u0004\u0012\u00020\u00130\tj\u0008\u0012\u0004\u0012\u00020\u0013`\n8\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u000b\u0010\u001c\u00a8\u0006*"
-    }
-    d2 = {
-        "Lcom/commsource/studio/doodle/d;",
-        "",
-        "Lcom/meitu/template/bean/Doodle;",
-        "doodle",
-        "Lcotlin/t1;",
-        "h",
-        "(Lcom/meitu/template/bean/Doodle;)V",
-        "",
-        "categoryId",
-        "Ljava/util/ArrayList;",
-        "Lcotlin/collections/ArrayList;",
-        "f",
-        "(I)Ljava/util/ArrayList;",
-        "i",
-        "b",
-        "",
-        "g",
-        "()Z",
-        "",
-        "Lcom/meitu/template/bean/f;",
-        "d",
-        "()Ljava/util/List;",
-        "doodleId",
-        "c",
-        "(I)Lcom/meitu/template/bean/Doodle;",
-        "Landroid/util/SparseArray;",
-        "Landroid/util/SparseArray;",
-        "mDoodleMap",
-        "Ljava/util/ArrayList;",
-        "allDoodleSortList",
-        "Lcom/commsource/beautyfilter/NoStickLiveData;",
-        "Lcom/commsource/beautyfilter/NoStickLiveData;",
-        "e",
-        "()Lcom/commsource/beautyfilter/NoStickLiveData;",
-        "downloadSuccessEvent",
-        "a",
-        "mDataChangeEvent",
-        "mProgressChangeEvent",
-        "mDoodleCategoryMap",
-        "mAllCategories",
-        "<init>",
-        "()V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # static fields

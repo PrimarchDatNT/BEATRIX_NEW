@@ -4,64 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nCoroutineScope.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CoroutineScope.kt\nkotlinx/coroutines/CoroutineScopeKt\n*L\n1#1,224:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000H\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000e\n\u0000\n\u0002\u0010\u0003\n\u0002\u0008\u0004\n\u0002\u0010\u000b\n\u0002\u0008\u0005\u001a\u001c\u0010\u0003\u001a\u00020\u0000*\u00020\u00002\u0006\u0010\u0002\u001a\u00020\u0001H\u0086\u0002\u00a2\u0006\u0004\u0008\u0003\u0010\u0004\u001a\r\u0010\u0005\u001a\u00020\u0000\u00a2\u0006\u0004\u0008\u0005\u0010\u0006\u001aB\u0010\r\u001a\u00028\u0000\"\u0004\u0008\u0000\u0010\u00072\'\u0010\u000c\u001a#\u0008\u0001\u0012\u0004\u0012\u00020\u0000\u0012\n\u0012\u0008\u0012\u0004\u0012\u00028\u00000\t\u0012\u0006\u0012\u0004\u0018\u00010\n0\u0008\u00a2\u0006\u0002\u0008\u000bH\u0086@\u00f8\u0001\u0000\u00a2\u0006\u0004\u0008\r\u0010\u000e\u001a\u0015\u0010\u000f\u001a\u00020\u00002\u0006\u0010\u0002\u001a\u00020\u0001\u00a2\u0006\u0004\u0008\u000f\u0010\u0010\u001a#\u0010\u0015\u001a\u00020\u0014*\u00020\u00002\u0010\u0008\u0002\u0010\u0013\u001a\n\u0018\u00010\u0011j\u0004\u0018\u0001`\u0012\u00a2\u0006\u0004\u0008\u0015\u0010\u0016\u001a%\u0010\u001a\u001a\u00020\u0014*\u00020\u00002\u0006\u0010\u0018\u001a\u00020\u00172\n\u0008\u0002\u0010\u0013\u001a\u0004\u0018\u00010\u0019\u00a2\u0006\u0004\u0008\u001a\u0010\u001b\u001a\u0011\u0010\u001c\u001a\u00020\u0014*\u00020\u0000\u00a2\u0006\u0004\u0008\u001c\u0010\u001d\"\u001d\u0010\"\u001a\u00020\u001e*\u00020\u00008F@\u0006\u00a2\u0006\u000c\u0012\u0004\u0008!\u0010\u001d\u001a\u0004\u0008\u001f\u0010 \u0082\u0002\u0004\n\u0002\u0008\u0019\u00a8\u0006#"
-    }
-    d2 = {
-        "Lcotlinx/coroutines/m0;",
-        "Lcotlin/coroutines/CoroutineContext;",
-        "context",
-        "k",
-        "(Lcotlinx/coroutines/m0;Lcotlin/coroutines/CoroutineContext;)Lcotlinx/coroutines/m0;",
-        "b",
-        "()Lcotlinx/coroutines/m0;",
-        "R",
-        "Lcotlin/Function2;",
-        "Lcotlin/coroutines/c;",
-        "",
-        "Lcotlin/q;",
-        "block",
-        "g",
-        "(Lcotlin/jvm/u/p;Lcotlin/coroutines/c;)Ljava/lang/Object;",
-        "a",
-        "(Lcotlin/coroutines/CoroutineContext;)Lcotlinx/coroutines/m0;",
-        "Ljava/util/concurrent/CancellationException;",
-        "Lcotlinx/coroutines/CancellationException;",
-        "cause",
-        "Lcotlin/t1;",
-        "d",
-        "(Lcotlinx/coroutines/m0;Ljava/util/concurrent/CancellationException;)V",
-        "",
-        "message",
-        "",
-        "c",
-        "(Lcotlinx/coroutines/m0;Ljava/lang/String;Ljava/lang/Throwable;)V",
-        "h",
-        "(Lcotlinx/coroutines/m0;)V",
-        "",
-        "i",
-        "(Lcotlinx/coroutines/m0;)Z",
-        "isActive$annotations",
-        "isActive",
-        "kotlinx-coroutines-core"
-    }
-    k = 0x2
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # direct methods

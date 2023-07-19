@@ -12,74 +12,7 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nOneTouchBeautyFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 OneTouchBeautyFragment.kt\ncom/commsource/studio/function/OneTouchBeautyFragment\n*L\n1#1,123:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000N\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\n\n\u0002\u0010\u0007\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0005\u0018\u00002\u0008\u0012\u0004\u0012\u00020\u00020\u0001B\u0007\u00a2\u0006\u0004\u0008,\u0010\u000eJ-\u0010\n\u001a\u0004\u0018\u00010\t2\u0006\u0010\u0004\u001a\u00020\u00032\u0008\u0010\u0006\u001a\u0004\u0018\u00010\u00052\u0008\u0010\u0008\u001a\u0004\u0018\u00010\u0007H\u0016\u00a2\u0006\u0004\u0008\n\u0010\u000bJ\u000f\u0010\r\u001a\u00020\u000cH\u0016\u00a2\u0006\u0004\u0008\r\u0010\u000eJ\u000f\u0010\u000f\u001a\u00020\u000cH\u0016\u00a2\u0006\u0004\u0008\u000f\u0010\u000eJ\u000f\u0010\u0010\u001a\u00020\u000cH\u0016\u00a2\u0006\u0004\u0008\u0010\u0010\u000eJ\u0017\u0010\u0013\u001a\u00020\u000c2\u0006\u0010\u0012\u001a\u00020\u0011H\u0016\u00a2\u0006\u0004\u0008\u0013\u0010\u0014R\"\u0010\u001b\u001a\u00020\u00028\u0016@\u0016X\u0096\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0015\u0010\u0016\u001a\u0004\u0008\u0017\u0010\u0018\"\u0004\u0008\u0019\u0010\u001aR\"\u0010#\u001a\u00020\u001c8\u0016@\u0016X\u0096\u000e\u00a2\u0006\u0012\n\u0004\u0008\u001d\u0010\u001e\u001a\u0004\u0008\u001f\u0010 \"\u0004\u0008!\u0010\"R\u0018\u0010\'\u001a\u0004\u0018\u00010$8\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008%\u0010&R\u0016\u0010+\u001a\u00020(8\u0002@\u0002X\u0082.\u00a2\u0006\u0006\n\u0004\u0008)\u0010*\u00a8\u0006-"
-    }
-    d2 = {
-        "Lcom/commsource/studio/function/k;",
-        "Lcom/commsource/studio/function/BaseSubFragment;",
-        "Lcom/commsource/studio/effect/c;",
-        "Landroid/view/LayoutInflater;",
-        "inflater",
-        "Landroid/view/ViewGroup;",
-        "container",
-        "Landroid/os/Bundle;",
-        "savedInstanceState",
-        "Landroid/view/View;",
-        "onCreateView",
-        "(Landroid/view/LayoutInflater;Landroid/view/ViewGroup;Landroid/os/Bundle;)Landroid/view/View;",
-        "Lcotlin/t1;",
-        "K0",
-        "()V",
-        "M0",
-        "G0",
-        "Lcom/commsource/beautyplus/router/RouterEntity;",
-        "routerEntity",
-        "g1",
-        "(Lcom/commsource/beautyplus/router/RouterEntity;)V",
-        "f0",
-        "Lcom/commsource/studio/effect/c;",
-        "B1",
-        "()Lcom/commsource/studio/effect/c;",
-        "C1",
-        "(Lcom/commsource/studio/effect/c;)V",
-        "effectResult",
-        "",
-        "d0",
-        "F",
-        "l0",
-        "()F",
-        "n1",
-        "(F)V",
-        "panelHeight",
-        "Lcom/commsource/studio/processor/i;",
-        "e0",
-        "Lcom/commsource/studio/processor/i;",
-        "autoProcessor",
-        "Lcom/commsource/beautyplus/f0/ab;",
-        "c0",
-        "Lcom/commsource/beautyplus/f0/ab;",
-        "mViewBinding",
-        "<init>",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

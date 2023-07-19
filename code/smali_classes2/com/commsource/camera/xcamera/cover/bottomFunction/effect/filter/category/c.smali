@@ -18,58 +18,7 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nFilterCategoryViewHolder.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FilterCategoryViewHolder.kt\ncom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/category/FilterCategoryViewHolder\n*L\n1#1,77:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000@\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u000b\n\u0000\n\u0002\u0010\u0008\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010!\n\u0002\u0010\u0000\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0006\u0018\u0000 \u001b2\u0008\u0012\u0004\u0012\u00020\u00020\u0001:\u0001\u001cB\u0017\u0012\u0006\u0010\u0016\u001a\u00020\u0015\u0012\u0006\u0010\u0018\u001a\u00020\u0017\u00a2\u0006\u0004\u0008\u0019\u0010\u001aJ\u0017\u0010\u0006\u001a\u00020\u00052\u0006\u0010\u0004\u001a\u00020\u0003H\u0002\u00a2\u0006\u0004\u0008\u0006\u0010\u0007J\u000f\u0010\u0008\u001a\u00020\u0003H\u0002\u00a2\u0006\u0004\u0008\u0008\u0010\tJ\u000f\u0010\n\u001a\u00020\u0005H\u0002\u00a2\u0006\u0004\u0008\n\u0010\u000bJ7\u0010\u0013\u001a\u00020\u00122\u0006\u0010\u000c\u001a\u00020\u00052\u000e\u0010\u000e\u001a\n\u0012\u0004\u0012\u00020\u0002\u0018\u00010\r2\u000e\u0010\u0011\u001a\n\u0012\u0004\u0012\u00020\u0010\u0018\u00010\u000fH\u0016\u00a2\u0006\u0004\u0008\u0013\u0010\u0014\u00a8\u0006\u001d"
-    }
-    d2 = {
-        "Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/category/c;",
-        "Lcom/commsource/widget/h1/f;",
-        "Lcom/commsource/beautyfilter/a;",
-        "",
-        "isSelect",
-        "",
-        "x",
-        "(Z)I",
-        "y",
-        "()Z",
-        "v",
-        "()I",
-        "position",
-        "Lcom/commsource/widget/h1/d;",
-        "item",
-        "",
-        "",
-        "payloads",
-        "Lcotlin/t1;",
-        "k",
-        "(ILcom/commsource/widget/h1/d;Ljava/util/List;)V",
-        "Landroid/content/Context;",
-        "context",
-        "Landroid/view/ViewGroup;",
-        "parent",
-        "<init>",
-        "(Landroid/content/Context;Landroid/view/ViewGroup;)V",
-        "J",
-        "a",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # static fields

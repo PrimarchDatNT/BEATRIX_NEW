@@ -20,69 +20,6 @@
     }
 .end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u00008\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0010\u0008\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u000b\n\u0002\u0008\u000e\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0010\u0008&\u0018\u0000*\u0004\u0008\u0000\u0010\u00012\u000e\u0012\u0004\u0012\u00020\u0003\u0012\u0004\u0012\u00020\u00040\u00022\u00020\u0005B7\u0012$\u0008\u0002\u0010#\u001a\u001e\u0012\u0004\u0012\u00028\u0000\u0012\u0004\u0012\u00020\u00030\u001bj\u000e\u0012\u0004\u0012\u00028\u0000\u0012\u0004\u0012\u00020\u0003`\u001c\u0012\u0008\u0008\u0002\u0010)\u001a\u00020\u000c\u00a2\u0006\u0004\u0008*\u0010+J\u0015\u0010\t\u001a\u00020\u00082\u0006\u0010\u0007\u001a\u00020\u0006\u00a2\u0006\u0004\u0008\t\u0010\nJ\u0015\u0010\r\u001a\u00020\u000c2\u0006\u0010\u000b\u001a\u00028\u0000\u00a2\u0006\u0004\u0008\r\u0010\u000eJ\r\u0010\u000f\u001a\u00020\u0008\u00a2\u0006\u0004\u0008\u000f\u0010\u0010J\u000f\u0010\u0011\u001a\u00020\u000cH&\u00a2\u0006\u0004\u0008\u0011\u0010\u0012J\'\u0010\u0015\u001a\u00020\u00082\u0006\u0010\u0007\u001a\u00020\u00062\u0006\u0010\u0013\u001a\u00020\u00032\u0006\u0010\u0014\u001a\u00020\u0003H\u0016\u00a2\u0006\u0004\u0008\u0015\u0010\u0016J\u001f\u0010\u0018\u001a\u00020\u00082\u0006\u0010\u0007\u001a\u00020\u00062\u0006\u0010\u0017\u001a\u00020\u0003H\u0016\u00a2\u0006\u0004\u0008\u0018\u0010\u0019J\u0015\u0010\u001a\u001a\u00020\u00082\u0006\u0010\u0007\u001a\u00020\u0006\u00a2\u0006\u0004\u0008\u001a\u0010\nR>\u0010#\u001a\u001e\u0012\u0004\u0012\u00028\u0000\u0012\u0004\u0012\u00020\u00030\u001bj\u000e\u0012\u0004\u0012\u00028\u0000\u0012\u0004\u0012\u00020\u0003`\u001c8\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u001d\u0010\u001e\u001a\u0004\u0008\u001f\u0010 \"\u0004\u0008!\u0010\"R\"\u0010)\u001a\u00020\u000c8\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008$\u0010%\u001a\u0004\u0008&\u0010\u0012\"\u0004\u0008\'\u0010(\u00a8\u0006,"
-    }
-    d2 = {
-        "Lcom/commsource/util/h1;",
-        "T",
-        "Lcom/commsource/util/common/b;",
-        "",
-        "Landroidx/recyclerview/widget/RecyclerView$ViewHolder;",
-        "Landroidx/recyclerview/widget/RecyclerView$OnScrollListener;",
-        "Landroidx/recyclerview/widget/RecyclerView;",
-        "recyclerView",
-        "Lcotlin/t1;",
-        "f",
-        "(Landroidx/recyclerview/widget/RecyclerView;)V",
-        "id",
-        "",
-        "j",
-        "(Ljava/lang/Object;)Z",
-        "h",
-        "()V",
-        "l",
-        "()Z",
-        "dx",
-        "dy",
-        "onScrolled",
-        "(Landroidx/recyclerview/widget/RecyclerView;II)V",
-        "newState",
-        "onScrollStateChanged",
-        "(Landroidx/recyclerview/widget/RecyclerView;I)V",
-        "g",
-        "Ljava/util/HashMap;",
-        "Lcotlin/collections/HashMap;",
-        "a",
-        "Ljava/util/HashMap;",
-        "i",
-        "()Ljava/util/HashMap;",
-        "n",
-        "(Ljava/util/HashMap;)V",
-        "visibleArray",
-        "b",
-        "Z",
-        "k",
-        "m",
-        "(Z)V",
-        "isHorizon",
-        "<init>",
-        "(Ljava/util/HashMap;Z)V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

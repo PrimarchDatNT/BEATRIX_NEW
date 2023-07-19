@@ -11,44 +11,6 @@
     }
 .end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000$\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0006\n\u0002\u0010\u000e\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000b\n\u0002\u0008\u0006\u0008\u0016\u0018\u0000 \u00112\u00020\u0001:\u0002\u0012\u0011B/\u0012\u0006\u0010\u0003\u001a\u00020\u0002\u0012\u0006\u0010\u0007\u001a\u00020\u0002\u0012\u0006\u0010\n\u001a\u00020\t\u0012\u0006\u0010\u000c\u001a\u00020\u000b\u0012\u0006\u0010\u000e\u001a\u00020\r\u00a2\u0006\u0004\u0008\u000f\u0010\u0010R\u001c\u0010\u0003\u001a\u00020\u00028\u0006@\u0007X\u0087\u0004\u00a2\u0006\u000c\n\u0004\u0008\u0003\u0010\u0004\u001a\u0004\u0008\u0005\u0010\u0006R\u001c\u0010\u0007\u001a\u00020\u00028\u0006@\u0007X\u0087\u0004\u00a2\u0006\u000c\n\u0004\u0008\u0007\u0010\u0004\u001a\u0004\u0008\u0008\u0010\u0006\u00a8\u0006\u0013"
-    }
-    d2 = {
-        "Lcom/mopub/mobileads/VideoViewabilityTracker;",
-        "Lcom/mopub/mobileads/VastTracker;",
-        "",
-        "viewablePlaytimeMS",
-        "I",
-        "getViewablePlaytimeMS",
-        "()I",
-        "percentViewable",
-        "getPercentViewable",
-        "",
-        "content",
-        "Lcom/mopub/mobileads/VastTracker$MessageType;",
-        "messageType",
-        "",
-        "isRepeatable",
-        "<init>",
-        "(IILjava/lang/String;Lcom/mopub/mobileads/VastTracker$MessageType;Z)V",
-        "Companion",
-        "Builder",
-        "mopub-sdk-base_release"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # static fields

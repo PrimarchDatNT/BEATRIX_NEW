@@ -14,65 +14,7 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nHprof.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Hprof.kt\nkshark/Hprof\n+ 2 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n*L\n1#1,101:1\n8888#2:102\n9221#2,3:103\n*E\n*S KotlinDebug\n*F\n+ 1 Hprof.kt\nkshark/Hprof\n*L\n59#1:102\n59#1,3:103\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u00008\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\t\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0002\u0008\u0006\u0018\u0000 \u00142\u00020\u0001:\u0002\u0010#B9\u0008\u0002\u0012\u0006\u0010\u0012\u001a\u00020\u000f\u0012\u0006\u0010 \u001a\u00020\u001e\u0012\u0006\u0010\u000e\u001a\u00020\t\u0012\u0006\u0010\u0016\u001a\u00020\u0005\u0012\u0006\u0010\u001a\u001a\u00020\u0017\u0012\u0006\u0010\u001d\u001a\u00020\u0005\u00a2\u0006\u0004\u0008!\u0010\"J\u000f\u0010\u0003\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\u0003\u0010\u0004J\u0015\u0010\u0007\u001a\u00020\u00022\u0006\u0010\u0006\u001a\u00020\u0005\u00a2\u0006\u0004\u0008\u0007\u0010\u0008R\u0019\u0010\u000e\u001a\u00020\t8\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\n\u0010\u000b\u001a\u0004\u0008\u000c\u0010\rR\u0016\u0010\u0012\u001a\u00020\u000f8\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0010\u0010\u0011R\u0019\u0010\u0016\u001a\u00020\u00058\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u0013\u0010\u0014\u001a\u0004\u0008\n\u0010\u0015R\u0019\u0010\u001a\u001a\u00020\u00178\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u0007\u0010\u0018\u001a\u0004\u0008\u0013\u0010\u0019R\u0019\u0010\u001d\u001a\u00020\u00058\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u001b\u0010\u0014\u001a\u0004\u0008\u001c\u0010\u0015R\u0016\u0010 \u001a\u00020\u001e8\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u001c\u0010\u001f\u00a8\u0006$"
-    }
-    d2 = {
-        "Lkshark/Hprof;",
-        "Ljava/io/Closeable;",
-        "Lcotlin/t1;",
-        "close",
-        "()V",
-        "",
-        "newPosition",
-        "f",
-        "(J)V",
-        "Lkshark/l;",
-        "c",
-        "Lkshark/l;",
-        "e",
-        "()Lkshark/l;",
-        "reader",
-        "Ljava/nio/channels/FileChannel;",
-        "a",
-        "Ljava/nio/channels/FileChannel;",
-        "channel",
-        "d",
-        "J",
-        "()J",
-        "heapDumpTimestamp",
-        "Lkshark/Hprof$HprofVersion;",
-        "Lkshark/Hprof$HprofVersion;",
-        "()Lkshark/Hprof$HprofVersion;",
-        "hprofVersion",
-        "g",
-        "b",
-        "fileLength",
-        "Lokio/BufferedSource;",
-        "Lokio/BufferedSource;",
-        "source",
-        "<init>",
-        "(Ljava/nio/channels/FileChannel;Lokio/BufferedSource;Lkshark/l;JLkshark/Hprof$HprofVersion;J)V",
-        "HprofVersion",
-        "shark"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # static fields

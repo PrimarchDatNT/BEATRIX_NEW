@@ -4,49 +4,6 @@
 
 
 # annotations
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u00002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u000e\n\u0000\n\u0002\u0010\u000b\n\u0002\u0008\u0004\n\u0002\u0010\u0008\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0008\u0018\u00002\u00020\u0001B\u0007\u00a2\u0006\u0004\u0008\u0016\u0010\u0017J\u0015\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J-\u0010\u000e\u001a\u00020\r2\u0006\u0010\u0007\u001a\u00020\u00022\u0006\u0010\u0008\u001a\u00020\u00022\u0006\u0010\n\u001a\u00020\t2\u0006\u0010\u000c\u001a\u00020\u000b\u00a2\u0006\u0004\u0008\u000e\u0010\u000fR\u001f\u0010\u0015\u001a\u0008\u0012\u0004\u0012\u00020\u00040\u00108\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u0011\u0010\u0012\u001a\u0004\u0008\u0013\u0010\u0014\u00a8\u0006\u0018"
-    }
-    d2 = {
-        "Lcom/commsource/beautyplus/web/CrashFeedBackViewModel;",
-        "Landroidx/lifecycle/ViewModel;",
-        "",
-        "email",
-        "",
-        "z",
-        "(Ljava/lang/String;)Z",
-        "editContent",
-        "contact",
-        "",
-        "score",
-        "Landroidx/fragment/app/FragmentManager;",
-        "supportFragmentManager",
-        "Lcotlin/t1;",
-        "A",
-        "(Ljava/lang/String;Ljava/lang/String;ILandroidx/fragment/app/FragmentManager;)V",
-        "Landroidx/lifecycle/MutableLiveData;",
-        "a",
-        "Landroidx/lifecycle/MutableLiveData;",
-        "y",
-        "()Landroidx/lifecycle/MutableLiveData;",
-        "sendStatusEvent",
-        "<init>",
-        "()V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

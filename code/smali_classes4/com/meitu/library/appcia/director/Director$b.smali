@@ -16,38 +16,6 @@
     name = "b"
 .end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000\u0016\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0007\u0008\u0002\u0018\u00002\u00020\u0001B\u000f\u0012\u0006\u0010\n\u001a\u00020\u0006\u00a2\u0006\u0004\u0008\u000b\u0010\u000cJ\u000f\u0010\u0003\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\u0003\u0010\u0004J\u000f\u0010\u0005\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\u0005\u0010\u0004R\u0019\u0010\n\u001a\u00020\u00068\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u0005\u0010\u0007\u001a\u0004\u0008\u0008\u0010\t\u00a8\u0006\r"
-    }
-    d2 = {
-        "com/meitu/library/appcia/director/Director$b",
-        "Lcom/meitu/library/appcia/f/e/d;",
-        "Lcotlin/t1;",
-        "b",
-        "()V",
-        "a",
-        "Lcom/meitu/library/appcia/director/Director;",
-        "Lcom/meitu/library/appcia/director/Director;",
-        "c",
-        "()Lcom/meitu/library/appcia/director/Director;",
-        "director",
-        "<init>",
-        "(Lcom/meitu/library/appcia/director/Director;)V",
-        "appcia_release"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

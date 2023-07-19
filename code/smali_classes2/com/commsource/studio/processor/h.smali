@@ -13,49 +13,7 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nMultiEffectProcessor.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MultiEffectProcessor.kt\ncom/commsource/studio/processor/MultiEffectProcessor\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,45:1\n1819#2,2:46\n1819#2,2:48\n1819#2,2:50\n*E\n*S KotlinDebug\n*F\n+ 1 MultiEffectProcessor.kt\ncom/commsource/studio/processor/MultiEffectProcessor\n*L\n20#1,2:46\n26#1,2:48\n33#1,2:50\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000.\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u000e\n\u0002\u0008\u0002\n\u0002\u0010 \n\u0002\u0008\u0005\u0008&\u0018\u0000*\u0008\u0008\u0000\u0010\u0002*\u00020\u00012\u00020\u0003B\u0007\u00a2\u0006\u0004\u0008\u0013\u0010\u0006J\u000f\u0010\u0005\u001a\u00020\u0004H\u0016\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J\u000f\u0010\u0007\u001a\u00020\u0004H\u0016\u00a2\u0006\u0004\u0008\u0007\u0010\u0006J\u0017\u0010\n\u001a\u00020\u00042\u0006\u0010\t\u001a\u00020\u0008H\u0016\u00a2\u0006\u0004\u0008\n\u0010\u000bJ\u000f\u0010\r\u001a\u00020\u000cH\u0016\u00a2\u0006\u0004\u0008\r\u0010\u000eR\u001c\u0010\u0012\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u000f8&@&X\u00a6\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u0010\u0010\u0011\u00a8\u0006\u0014"
-    }
-    d2 = {
-        "Lcom/commsource/studio/processor/h;",
-        "Lcom/commsource/camera/newrender/renderproxy/n;",
-        "R",
-        "Lcom/commsource/studio/processor/BaseEffectProcessor;",
-        "Lcotlin/t1;",
-        "a",
-        "()V",
-        "c",
-        "Lcom/commsource/easyeditor/utils/opengl/f;",
-        "disFBO",
-        "s",
-        "(Lcom/commsource/easyeditor/utils/opengl/f;)V",
-        "",
-        "toString",
-        "()Ljava/lang/String;",
-        "",
-        "J",
-        "()Ljava/util/List;",
-        "renderProxys",
-        "<init>",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # direct methods

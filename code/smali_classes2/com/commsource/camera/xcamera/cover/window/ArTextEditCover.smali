@@ -16,71 +16,7 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nArTextEditCover.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ArTextEditCover.kt\ncom/commsource/camera/xcamera/cover/window/ArTextEditCover\n*L\n1#1,134:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000H\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0010\u0008\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0006\u0018\u00002\u0008\u0012\u0004\u0012\u00020\u00020\u00012\u00020\u0003B\u0007\u00a2\u0006\u0004\u0008)\u0010\u0006J\u000f\u0010\u0005\u001a\u00020\u0004H\u0002\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J\u000f\u0010\u0007\u001a\u00020\u0004H\u0002\u00a2\u0006\u0004\u0008\u0007\u0010\u0006J\u000f\u0010\u0008\u001a\u00020\u0004H\u0016\u00a2\u0006\u0004\u0008\u0008\u0010\u0006J\u000f\u0010\n\u001a\u00020\tH\u0016\u00a2\u0006\u0004\u0008\n\u0010\u000bJ\u000f\u0010\u000c\u001a\u00020\u0004H\u0016\u00a2\u0006\u0004\u0008\u000c\u0010\u0006J\u000f\u0010\r\u001a\u00020\u0004H\u0016\u00a2\u0006\u0004\u0008\r\u0010\u0006J\u0019\u0010\u000f\u001a\u00020\u00042\u0008\u0010\u000c\u001a\u0004\u0018\u00010\u000eH\u0016\u00a2\u0006\u0004\u0008\u000f\u0010\u0010R$\u0010\u0018\u001a\u0004\u0018\u00010\u00118\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0012\u0010\u0013\u001a\u0004\u0008\u0014\u0010\u0015\"\u0004\u0008\u0016\u0010\u0017R\u001d\u0010\u001e\u001a\u00020\u00198F@\u0006X\u0086\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u001a\u0010\u001b\u001a\u0004\u0008\u001c\u0010\u001dR\u001d\u0010#\u001a\u00020\u001f8F@\u0006X\u0086\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008 \u0010\u001b\u001a\u0004\u0008!\u0010\"R\u001d\u0010(\u001a\u00020$8F@\u0006X\u0086\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008%\u0010\u001b\u001a\u0004\u0008&\u0010\'\u00a8\u0006*"
-    }
-    d2 = {
-        "Lcom/commsource/camera/xcamera/cover/window/ArTextEditCover;",
-        "Lcom/commsource/camera/xcamera/cover/AbsLazyCover;",
-        "Lcom/commsource/beautyplus/f0/w2;",
-        "Landroid/view/View$OnClickListener;",
-        "Lcotlin/t1;",
-        "K",
-        "()V",
-        "J",
-        "o",
-        "",
-        "q",
-        "()I",
-        "v",
-        "x",
-        "Landroid/view/View;",
-        "onClick",
-        "(Landroid/view/View;)V",
-        "Lcom/commsource/camera/i0;",
-        "p",
-        "Lcom/commsource/camera/i0;",
-        "F",
-        "()Lcom/commsource/camera/i0;",
-        "I",
-        "(Lcom/commsource/camera/i0;)V",
-        "mArTextEditFragment",
-        "Lcom/commsource/camera/xcamera/BpCameraViewModel;",
-        "f",
-        "Lcotlin/w;",
-        "H",
-        "()Lcom/commsource/camera/xcamera/BpCameraViewModel;",
-        "mBpCameraViewModel",
-        "Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;",
-        "g",
-        "E",
-        "()Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;",
-        "cameraConfigViewModel",
-        "Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;",
-        "d",
-        "G",
-        "()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;",
-        "mArViewModel",
-        "<init>",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

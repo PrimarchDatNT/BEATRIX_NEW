@@ -12,34 +12,6 @@
     name = null
 .end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000\u001a\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0000\n\u0002\u0008\u0003\u0010\u0007\u001a\u0004\u0018\u00010\u0006\"\u0004\u0008\u0000\u0010\u00002\u000c\u0010\u0002\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u00012\u000c\u0010\u0005\u001a\u0008\u0012\u0004\u0012\u00020\u00040\u0003H\u0096@\u00a2\u0006\u0004\u0008\u0007\u0010\u0008\u00a8\u0006\t"
-    }
-    d2 = {
-        "T",
-        "LLcotlinx/coroutines/flow/FlowCollector;;",
-        "collector",
-        "Lcotlin/coroutines/c;",
-        "L;",
-        "continuation",
-        "",
-        "collect",
-        "(LLcotlinx/coroutines/flow/FlowCollector;;Lcotlin/coroutines/Continuation;)Ljava/lang/Object;",
-        "otlinx/coroutines/flow/internal/SafeCollector_commonKt.unsafeFlow.1.collect."
-    }
-    k = 0x3
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 .annotation runtime Lcotlin/coroutines/jvm/internal/d;
     c = "kotlinx.coroutines.flow.FlowKt__BuildersKt$asFlow$$inlined$unsafeFlow$6"

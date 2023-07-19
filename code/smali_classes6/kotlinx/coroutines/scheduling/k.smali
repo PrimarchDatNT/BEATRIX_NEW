@@ -4,55 +4,6 @@
 
 
 # annotations
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000,\n\u0002\u0010\u0008\n\u0002\u0008\u0003\n\u0002\u0010\u000e\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0010\u000b\n\u0002\u0008\u0002\n\u0002\u0010\t\n\u0002\u0008\t\n\u0002\u0018\u0002\n\u0002\u0008\u0006\"\u0016\u0010\u0003\u001a\u00020\u00008\u0000@\u0001X\u0081\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0001\u0010\u0002\"\u0016\u0010\u0007\u001a\u00020\u00048\u0000@\u0000X\u0080T\u00a2\u0006\u0006\n\u0004\u0008\u0005\u0010\u0006\"\u0016\u0010\t\u001a\u00020\u00008\u0000@\u0000X\u0080T\u00a2\u0006\u0006\n\u0004\u0008\u0008\u0010\u0002\"\u001b\u0010\r\u001a\u00020\u000b*\u00020\n8\u00c0\u0002@\u0000X\u0080\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u0005\u0010\u000c\"\u0016\u0010\u0011\u001a\u00020\u000e8\u0000@\u0001X\u0081\u0004\u00a2\u0006\u0006\n\u0004\u0008\u000f\u0010\u0010\"\u0016\u0010\u0013\u001a\u00020\u00008\u0000@\u0000X\u0080T\u00a2\u0006\u0006\n\u0004\u0008\u0012\u0010\u0002\"\u0016\u0010\u0015\u001a\u00020\u00008\u0000@\u0001X\u0081\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0014\u0010\u0002\"\u0016\u0010\u0017\u001a\u00020\u00008\u0000@\u0001X\u0081\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0016\u0010\u0002\"\u0016\u0010\u001b\u001a\u00020\u00188\u0000@\u0000X\u0081\u000e\u00a2\u0006\u0006\n\u0004\u0008\u0019\u0010\u001a\"\u0016\u0010\u001d\u001a\u00020\u000e8\u0000@\u0001X\u0081\u0004\u00a2\u0006\u0006\n\u0004\u0008\u001c\u0010\u0010\u00a8\u0006\u001e"
-    }
-    d2 = {
-        "",
-        "c",
-        "I",
-        "BLOCKING_DEFAULT_PARALLELISM",
-        "",
-        "a",
-        "Ljava/lang/String;",
-        "DEFAULT_SCHEDULER_NAME",
-        "i",
-        "TASK_PROBABLY_BLOCKING",
-        "Lcotlinx/coroutines/scheduling/h;",
-        "",
-        "(Lcotlinx/coroutines/scheduling/h;)Z",
-        "isBlocking",
-        "",
-        "b",
-        "J",
-        "WORK_STEALING_TIME_RESOLUTION_NS",
-        "h",
-        "TASK_NON_BLOCKING",
-        "e",
-        "MAX_POOL_SIZE",
-        "d",
-        "CORE_POOL_SIZE",
-        "Lcotlinx/coroutines/scheduling/l;",
-        "g",
-        "Lcotlinx/coroutines/scheduling/l;",
-        "schedulerTimeSource",
-        "f",
-        "IDLE_WORKER_KEEP_ALIVE_NS",
-        "kotlinx-coroutines-core"
-    }
-    k = 0x2
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # static fields

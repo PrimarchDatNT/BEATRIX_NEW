@@ -18,74 +18,7 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nSubTabEnum.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SubTabEnum.kt\ncom/commsource/studio/sub/SubTabEnum\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,235:1\n1819#2,2:236\n*E\n*S KotlinDebug\n*F\n+ 1 SubTabEnum.kt\ncom/commsource/studio/sub/SubTabEnum\n*L\n222#1,2:236\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000,\n\u0002\u0018\u0002\n\u0002\u0010\u0010\n\u0002\u0010\u000b\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\n\n\u0002\u0010\u000e\n\u0002\u0008\u0015\u0008\u0086\u0001\u0018\u0000 #2\u0008\u0012\u0004\u0012\u00020\u00000\u0001:\u0001$BK\u0008\u0002\u0012\u0006\u0010\u0006\u001a\u00020\u0005\u0012\u0006\u0010\u0012\u001a\u00020\u0005\u0012\u0006\u0010\u0015\u001a\u00020\u0005\u0012\u0006\u0010\u0019\u001a\u00020\u0018\u0012\u000e\u0010\u000e\u001a\n\u0012\u0006\u0008\u0001\u0012\u00020\r0\u000c\u0012\u0006\u0010\u001d\u001a\u00020\u0005\u0012\u0008\u0010\u001f\u001a\u0004\u0018\u00010\u0018\u00a2\u0006\u0004\u0008!\u0010\"J\r\u0010\u0003\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0003\u0010\u0004R\"\u0010\u0006\u001a\u00020\u00058\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0006\u0010\u0007\u001a\u0004\u0008\u0008\u0010\t\"\u0004\u0008\n\u0010\u000bR!\u0010\u000e\u001a\n\u0012\u0006\u0008\u0001\u0012\u00020\r0\u000c8\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u000e\u0010\u000f\u001a\u0004\u0008\u0010\u0010\u0011R\"\u0010\u0012\u001a\u00020\u00058\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0012\u0010\u0007\u001a\u0004\u0008\u0013\u0010\t\"\u0004\u0008\u0014\u0010\u000bR\"\u0010\u0015\u001a\u00020\u00058\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0015\u0010\u0007\u001a\u0004\u0008\u0016\u0010\t\"\u0004\u0008\u0017\u0010\u000bR\u0019\u0010\u0019\u001a\u00020\u00188\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u0019\u0010\u001a\u001a\u0004\u0008\u001b\u0010\u001cR\u0019\u0010\u001d\u001a\u00020\u00058\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u001d\u0010\u0007\u001a\u0004\u0008\u001e\u0010\tR\u001b\u0010\u001f\u001a\u0004\u0018\u00010\u00188\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u001f\u0010\u001a\u001a\u0004\u0008 \u0010\u001cj\u0002\u0008%j\u0002\u0008&j\u0002\u0008\'j\u0002\u0008(j\u0002\u0008)j\u0002\u0008*j\u0002\u0008+j\u0002\u0008,\u00a8\u0006-"
-    }
-    d2 = {
-        "Lcom/commsource/studio/sub/SubTabEnum;",
-        "",
-        "",
-        "needShowNewTag",
-        "()Z",
-        "",
-        "id",
-        "I",
-        "getId",
-        "()I",
-        "setId",
-        "(I)V",
-        "Ljava/lang/Class;",
-        "Lcom/commsource/studio/sub/BaseSubTabFragment;",
-        "fgClass",
-        "Ljava/lang/Class;",
-        "getFgClass",
-        "()Ljava/lang/Class;",
-        "drawableResId",
-        "getDrawableResId",
-        "setDrawableResId",
-        "nameResId",
-        "getNameResId",
-        "setNameResId",
-        "",
-        "statisticName",
-        "Ljava/lang/String;",
-        "getStatisticName",
-        "()Ljava/lang/String;",
-        "index",
-        "getIndex",
-        "dictValue",
-        "getDictValue",
-        "<init>",
-        "(Ljava/lang/String;IIIILjava/lang/String;Ljava/lang/Class;ILjava/lang/String;)V",
-        "Companion",
-        "a",
-        "Formula",
-        "Beauty",
-        "Edit",
-        "Filter",
-        "Stickers",
-        "Doodle",
-        "Text",
-        "Background",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # static fields

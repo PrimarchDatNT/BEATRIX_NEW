@@ -4,66 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nCleanOilProxy.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CleanOilProxy.kt\ncom/commsource/studio/render/CleanOilProxy\n*L\n1#1,51:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u00006\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0006\n\u0002\u0010\u000b\n\u0002\u0008\n\n\u0002\u0010\u0007\n\u0002\u0008\u0007\n\u0002\u0010\u000e\n\u0002\u0008\u0004\u0018\u00002\u00020\u0001B\u000f\u0012\u0006\u0010\"\u001a\u00020!\u00a2\u0006\u0004\u0008#\u0010$J\u0019\u0010\u0005\u001a\u00020\u00042\u0008\u0010\u0003\u001a\u0004\u0018\u00010\u0002H\u0002\u00a2\u0006\u0004\u0008\u0005\u0010\u0006JG\u0010\u0010\u001a\u00020\u00072\u0006\u0010\u0008\u001a\u00020\u00072\u0006\u0010\t\u001a\u00020\u00072\u0006\u0010\n\u001a\u00020\u00072\u0006\u0010\u000b\u001a\u00020\u00072\u0006\u0010\u000c\u001a\u00020\u00072\u0006\u0010\r\u001a\u00020\u00072\u0006\u0010\u000f\u001a\u00020\u000eH\u0016\u00a2\u0006\u0004\u0008\u0010\u0010\u0011R\"\u0010\u0018\u001a\u00020\u000e8\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0012\u0010\u0013\u001a\u0004\u0008\u0014\u0010\u0015\"\u0004\u0008\u0016\u0010\u0017R*\u0010 \u001a\u00020\u00192\u0006\u0010\u001a\u001a\u00020\u00198\u0006@FX\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u001b\u0010\u001c\u001a\u0004\u0008\u001c\u0010\u001d\"\u0004\u0008\u001e\u0010\u001f\u00a8\u0006%"
-    }
-    d2 = {
-        "Lcom/commsource/studio/r0/g;",
-        "Lcom/commsource/studio/r0/x;",
-        "Lcom/commsource/camera/d1/g/l;",
-        "hairMaskData",
-        "Lcotlin/t1;",
-        "J",
-        "(Lcom/commsource/camera/d1/g/l;)V",
-        "",
-        "fboA",
-        "fboB",
-        "texA",
-        "texB",
-        "width",
-        "height",
-        "",
-        "isCaptureFrame",
-        "j",
-        "(IIIIIIZ)I",
-        "k",
-        "Z",
-        "G",
-        "()Z",
-        "I",
-        "(Z)V",
-        "isEnableHairMask",
-        "",
-        "value",
-        "l",
-        "F",
-        "()F",
-        "H",
-        "(F)V",
-        "effectAlpha",
-        "",
-        "configPath",
-        "<init>",
-        "(Ljava/lang/String;)V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

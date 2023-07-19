@@ -10,74 +10,7 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nSeekComponent.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SeekComponent.kt\ncom/commsource/studio/component/SeekComponent\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,239:1\n1819#2,2:240\n1828#2,3:242\n*E\n*S KotlinDebug\n*F\n+ 1 SeekComponent.kt\ncom/commsource/studio/component/SeekComponent\n*L\n125#1,2:240\n177#1,3:242\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000T\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000b\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0002\u0010\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u000c\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0005\u0018\u00002\u00020\u0001:\u0001,B\u001d\u0008\u0007\u0012\u0006\u0010\'\u001a\u00020&\u0012\n\u0008\u0002\u0010)\u001a\u0004\u0018\u00010(\u00a2\u0006\u0004\u0008*\u0010+J\u000f\u0010\u0003\u001a\u00020\u0002H\u0002\u00a2\u0006\u0004\u0008\u0003\u0010\u0004J\u0019\u0010\u0007\u001a\u00020\u00022\u0008\u0010\u0006\u001a\u0004\u0018\u00010\u0005H\u0016\u00a2\u0006\u0004\u0008\u0007\u0010\u0008J)\u0010\u000e\u001a\u00020\r2\u001a\u0010\u000c\u001a\u0016\u0012\u0004\u0012\u00020\n\u0018\u00010\tj\n\u0012\u0004\u0012\u00020\n\u0018\u0001`\u000b\u00a2\u0006\u0004\u0008\u000e\u0010\u000fR\u0016\u0010\u0013\u001a\u00020\u00108\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0011\u0010\u0012R&\u0010\u0016\u001a\u0012\u0012\u0004\u0012\u00020\n0\tj\u0008\u0012\u0004\u0012\u00020\n`\u000b8\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u0014\u0010\u0015R?\u0010\"\u001a\u001f\u0012\u0013\u0012\u00110\u0018\u00a2\u0006\u000c\u0008\u0019\u0012\u0008\u0008\u001a\u0012\u0004\u0008\u0008(\u001b\u0012\u0004\u0012\u00020\u0002\u0018\u00010\u00178\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u001c\u0010\u001d\u001a\u0004\u0008\u001e\u0010\u001f\"\u0004\u0008 \u0010!R?\u0010%\u001a\u001f\u0012\u0013\u0012\u00110\u0018\u00a2\u0006\u000c\u0008\u0019\u0012\u0008\u0008\u001a\u0012\u0004\u0008\u0008(\u001b\u0012\u0004\u0012\u00020\u0002\u0018\u00010\u00178\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0003\u0010\u001d\u001a\u0004\u0008#\u0010\u001f\"\u0004\u0008$\u0010!\u00a8\u0006-"
-    }
-    d2 = {
-        "Lcom/commsource/studio/component/SeekComponent;",
-        "Lcom/commsource/studio/component/ComponentView;",
-        "Lcotlin/t1;",
-        "g",
-        "()V",
-        "Landroid/view/ViewGroup$LayoutParams;",
-        "params",
-        "setLayoutParams",
-        "(Landroid/view/ViewGroup$LayoutParams;)V",
-        "Ljava/util/ArrayList;",
-        "Lcom/commsource/studio/component/SeekComponent$b;",
-        "Lcotlin/collections/ArrayList;",
-        "seekwrappers",
-        "",
-        "h",
-        "(Ljava/util/ArrayList;)Z",
-        "Lcom/commsource/camera/f1/n;",
-        "p",
-        "Lcom/commsource/camera/f1/n;",
-        "radiusValuer",
-        "d",
-        "Ljava/util/ArrayList;",
-        "seekWrappers",
-        "Lcotlin/Function1;",
-        "",
-        "Lcotlin/k0;",
-        "name",
-        "transitionY",
-        "f",
-        "Lcotlin/jvm/u/l;",
-        "getOnTransitionYChange",
-        "()Lcotlin/jvm/u/l;",
-        "setOnTransitionYChange",
-        "(Lcotlin/jvm/u/l;)V",
-        "onTransitionYChange",
-        "getOnTargetTransitionYChange",
-        "setOnTargetTransitionYChange",
-        "onTargetTransitionYChange",
-        "Landroid/content/Context;",
-        "context",
-        "Landroid/util/AttributeSet;",
-        "attrs",
-        "<init>",
-        "(Landroid/content/Context;Landroid/util/AttributeSet;)V",
-        "b",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

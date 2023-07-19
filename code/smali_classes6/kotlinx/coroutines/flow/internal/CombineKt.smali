@@ -4,78 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nCombine.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Combine.kt\nkotlinx/coroutines/flow/internal/CombineKt\n+ 2 SafeCollector.common.kt\nkotlinx/coroutines/flow/internal/SafeCollector_commonKt\n*L\n1#1,142:1\n106#2:143\n*E\n*S KotlinDebug\n*F\n+ 1 Combine.kt\nkotlinx/coroutines/flow/internal/CombineKt\n*L\n101#1:143\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000j\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0010\u0011\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u000b\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0008\u001a\u000f\u0010\u0001\u001a\u00020\u0000H\u0000\u00a2\u0006\u0004\u0008\u0001\u0010\u0002\u001a\u00a4\u0001\u0010\u0014\u001a\u00020\u0010\"\u0004\u0008\u0000\u0010\u0003\"\u0004\u0008\u0001\u0010\u0004\"\u0004\u0008\u0002\u0010\u0005*\u0008\u0012\u0004\u0012\u00028\u00020\u00062\u000c\u0010\u0008\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u00072\u000c\u0010\t\u001a\u0008\u0012\u0004\u0012\u00028\u00010\u00072W\u0010\u0013\u001aS\u0008\u0001\u0012\n\u0012\u0008\u0012\u0004\u0012\u00028\u00020\u0006\u0012\u0013\u0012\u00118\u0000\u00a2\u0006\u000c\u0008\u000b\u0012\u0008\u0008\u000c\u0012\u0004\u0008\u0008(\r\u0012\u0013\u0012\u00118\u0001\u00a2\u0006\u000c\u0008\u000b\u0012\u0008\u0008\u000c\u0012\u0004\u0008\u0008(\u000e\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\u00100\u000f\u0012\u0006\u0012\u0004\u0018\u00010\u00110\n\u00a2\u0006\u0002\u0008\u0012H\u0080@\u00f8\u0001\u0000\u00a2\u0006\u0004\u0008\u0014\u0010\u0015\u001a\u0090\u0001\u0010\u001c\u001a\u00020\u0010\"\u0004\u0008\u0000\u0010\u0005\"\u0004\u0008\u0001\u0010\u0016*\u0008\u0012\u0004\u0012\u00028\u00000\u00062\u0014\u0010\u0018\u001a\u0010\u0012\u000c\u0008\u0001\u0012\u0008\u0012\u0004\u0012\u00028\u00010\u00070\u00172\u0014\u0010\u001a\u001a\u0010\u0012\u000c\u0012\n\u0012\u0006\u0012\u0004\u0018\u00018\u00010\u00170\u001929\u0010\u0013\u001a5\u0008\u0001\u0012\n\u0012\u0008\u0012\u0004\u0012\u00028\u00000\u0006\u0012\n\u0012\u0008\u0012\u0004\u0012\u00028\u00010\u0017\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\u00100\u000f\u0012\u0006\u0012\u0004\u0018\u00010\u00110\u001b\u00a2\u0006\u0002\u0008\u0012H\u0081@\u00f8\u0001\u0000\u00a2\u0006\u0004\u0008\u001c\u0010\u001d\u001ax\u0010\'\u001a\u00020\u0010*\u0008\u0012\u0004\u0012\u00020\u00100\u001e2\u0006\u0010 \u001a\u00020\u001f2\u000c\u0010\"\u001a\u0008\u0012\u0004\u0012\u00020\u00110!2\u000e\u0008\u0004\u0010#\u001a\u0008\u0012\u0004\u0012\u00020\u00100\u001923\u0008\u0008\u0010&\u001a-\u0008\u0001\u0012\u0013\u0012\u00110\u0011\u00a2\u0006\u000c\u0008\u000b\u0012\u0008\u0008\u000c\u0012\u0004\u0008\u0008(%\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\u00100\u000f\u0012\u0006\u0012\u0004\u0018\u00010\u00110$H\u0082\u0008\u00f8\u0001\u0000\u00a2\u0006\u0004\u0008\'\u0010(\u001a%\u0010+\u001a\u0008\u0012\u0004\u0012\u00020\u00110!*\u00020)2\n\u0010*\u001a\u0006\u0012\u0002\u0008\u00030\u0007H\u0002\u00a2\u0006\u0004\u0008+\u0010,\u001ap\u0010.\u001a\u0008\u0012\u0004\u0012\u00028\u00020\u0007\"\u0004\u0008\u0000\u0010\u0003\"\u0004\u0008\u0001\u0010\u0004\"\u0004\u0008\u0002\u0010\u00052\u000c\u0010*\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u00072\u000c\u0010-\u001a\u0008\u0012\u0004\u0012\u00028\u00010\u00072(\u0010\u0013\u001a$\u0008\u0001\u0012\u0004\u0012\u00028\u0000\u0012\u0004\u0012\u00028\u0001\u0012\n\u0012\u0008\u0012\u0004\u0012\u00028\u00020\u000f\u0012\u0006\u0012\u0004\u0018\u00010\u00110\u001bH\u0000\u00f8\u0001\u0000\u00a2\u0006\u0004\u0008.\u0010/\u001a%\u00100\u001a\u0008\u0012\u0004\u0012\u00020\u00110!*\u00020)2\n\u0010*\u001a\u0006\u0012\u0002\u0008\u00030\u0007H\u0002\u00a2\u0006\u0004\u00080\u0010,\u0082\u0002\u0004\n\u0002\u0008\u0019\u00a8\u00061"
-    }
-    d2 = {
-        "Lcotlinx/coroutines/internal/c0;",
-        "h",
-        "()Lcotlinx/coroutines/internal/c0;",
-        "T1",
-        "T2",
-        "R",
-        "Lcotlinx/coroutines/flow/e;",
-        "Lcotlinx/coroutines/flow/d;",
-        "first",
-        "second",
-        "Lcotlin/Function4;",
-        "Lcotlin/k0;",
-        "name",
-        "a",
-        "b",
-        "Lcotlin/coroutines/c;",
-        "Lcotlin/t1;",
-        "",
-        "Lcotlin/q;",
-        "transform",
-        "g",
-        "(Lcotlinx/coroutines/flow/e;Lcotlinx/coroutines/flow/d;Lcotlinx/coroutines/flow/d;Lcotlin/jvm/u/r;Lcotlin/coroutines/c;)Ljava/lang/Object;",
-        "T",
-        "",
-        "flows",
-        "Lcotlin/Function0;",
-        "arrayFactory",
-        "Lcotlin/Function3;",
-        "f",
-        "(Lcotlinx/coroutines/flow/e;[Lcotlinx/coroutines/flow/Flow;Lcotlin/jvm/u/a;Lcotlin/jvm/u/q;Lcotlin/coroutines/c;)Ljava/lang/Object;",
-        "Lcotlinx/coroutines/selects/a;",
-        "",
-        "isClosed",
-        "Lcotlinx/coroutines/channels/y;",
-        "channel",
-        "onClosed",
-        "Lcotlin/Function2;",
-        "value",
-        "onReceive",
-        "i",
-        "(Lcotlinx/coroutines/selects/a;ZLcotlinx/coroutines/channels/y;Lcotlin/jvm/u/a;Lcotlin/jvm/u/p;)V",
-        "Lcotlinx/coroutines/m0;",
-        "flow",
-        "e",
-        "(Lcotlinx/coroutines/m0;Lcotlinx/coroutines/flow/d;)Lcotlinx/coroutines/channels/y;",
-        "flow2",
-        "j",
-        "(Lcotlinx/coroutines/flow/d;Lcotlinx/coroutines/flow/d;Lcotlin/jvm/u/q;)Lcotlinx/coroutines/flow/d;",
-        "d",
-        "kotlinx-coroutines-core"
-    }
-    k = 0x2
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # direct methods

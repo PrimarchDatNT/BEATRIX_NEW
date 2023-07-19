@@ -4,60 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nBackgroundView.kt\nKotlin\n*S Kotlin\n*F\n+ 1 BackgroundView.kt\ncom/commsource/studio/function/background/BackgroundView\n*L\n1#1,73:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000<\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u0008\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0005\u0018\u00002\u00020\u0001B\'\u0008\u0007\u0012\u0006\u0010\u0019\u001a\u00020\u0018\u0012\n\u0008\u0002\u0010\u001b\u001a\u0004\u0018\u00010\u001a\u0012\u0008\u0008\u0002\u0010\u001c\u001a\u00020\u000b\u00a2\u0006\u0004\u0008\u001d\u0010\u001eJ\u0017\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u0002H\u0014\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J\u0015\u0010\t\u001a\u00020\u00042\u0006\u0010\u0008\u001a\u00020\u0007\u00a2\u0006\u0004\u0008\t\u0010\nJ/\u0010\u0010\u001a\u00020\u00042\u0006\u0010\u000c\u001a\u00020\u000b2\u0006\u0010\r\u001a\u00020\u000b2\u0006\u0010\u000e\u001a\u00020\u000b2\u0006\u0010\u000f\u001a\u00020\u000bH\u0014\u00a2\u0006\u0004\u0008\u0010\u0010\u0011R\u0019\u0010\u0017\u001a\u00020\u00128\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u0013\u0010\u0014\u001a\u0004\u0008\u0015\u0010\u0016\u00a8\u0006\u001f"
-    }
-    d2 = {
-        "Lcom/commsource/studio/function/background/BackgroundView;",
-        "Landroid/view/View;",
-        "Landroid/graphics/Canvas;",
-        "canvas",
-        "Lcotlin/t1;",
-        "onDraw",
-        "(Landroid/graphics/Canvas;)V",
-        "Lcom/commsource/studio/bean/BgLayerInfo;",
-        "info",
-        "setBackgroundInfo",
-        "(Lcom/commsource/studio/bean/BgLayerInfo;)V",
-        "",
-        "w",
-        "h",
-        "oldw",
-        "oldh",
-        "onSizeChanged",
-        "(IIII)V",
-        "Lcom/commsource/studio/function/background/BackgroundDrawer;",
-        "a",
-        "Lcom/commsource/studio/function/background/BackgroundDrawer;",
-        "getBackgroundDrawer",
-        "()Lcom/commsource/studio/function/background/BackgroundDrawer;",
-        "backgroundDrawer",
-        "Landroid/content/Context;",
-        "context",
-        "Landroid/util/AttributeSet;",
-        "attrs",
-        "defStyleAttr",
-        "<init>",
-        "(Landroid/content/Context;Landroid/util/AttributeSet;I)V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

@@ -10,72 +10,7 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nCropPhotoActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CropPhotoActivity.kt\ncom/commsource/beautyplus/web/CropPhotoActivity\n*L\n1#1,143:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000@\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u000e\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u000b\u0018\u0000 )2\u00020\u0001:\u0001*B\u0007\u00a2\u0006\u0004\u0008(\u0010\u000bJ/\u0010\u0008\u001a\u00020\u00072\u0006\u0010\u0003\u001a\u00020\u00022\u0006\u0010\u0004\u001a\u00020\u00022\u0006\u0010\u0005\u001a\u00020\u00022\u0006\u0010\u0006\u001a\u00020\u0002H\u0002\u00a2\u0006\u0004\u0008\u0008\u0010\tJ\u000f\u0010\n\u001a\u00020\u0007H\u0002\u00a2\u0006\u0004\u0008\n\u0010\u000bJ\u0019\u0010\u000e\u001a\u00020\u00072\u0008\u0010\r\u001a\u0004\u0018\u00010\u000cH\u0014\u00a2\u0006\u0004\u0008\u000e\u0010\u000fR\"\u0010\u0017\u001a\u00020\u00108\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0011\u0010\u0012\u001a\u0004\u0008\u0013\u0010\u0014\"\u0004\u0008\u0015\u0010\u0016R\u0018\u0010\u001b\u001a\u0004\u0018\u00010\u00188\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u0019\u0010\u001aR\u0018\u0010\u001f\u001a\u0004\u0018\u00010\u001c8\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u001d\u0010\u001eR$\u0010\'\u001a\u0004\u0018\u00010 8\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008!\u0010\"\u001a\u0004\u0008#\u0010$\"\u0004\u0008%\u0010&\u00a8\u0006+"
-    }
-    d2 = {
-        "Lcom/commsource/beautyplus/web/CropPhotoActivity;",
-        "Lcom/commsource/beautyplus/BaseActivity;",
-        "",
-        "maxWidth",
-        "maxHeight",
-        "picWidth",
-        "picHeight",
-        "Lcotlin/t1;",
-        "W0",
-        "(IIII)V",
-        "V0",
-        "()V",
-        "Landroid/os/Bundle;",
-        "savedInstanceState",
-        "onCreate",
-        "(Landroid/os/Bundle;)V",
-        "",
-        "N",
-        "Ljava/lang/String;",
-        "T0",
-        "()Ljava/lang/String;",
-        "X0",
-        "(Ljava/lang/String;)V",
-        "mRatioString",
-        "Lcom/commsource/cloudalbum/bean/CAImageInfo;",
-        "P",
-        "Lcom/commsource/cloudalbum/bean/CAImageInfo;",
-        "mImageInfo",
-        "Landroid/graphics/Bitmap;",
-        "Q",
-        "Landroid/graphics/Bitmap;",
-        "mSourceBitmap",
-        "Lcom/commsource/beautyplus/f0/o;",
-        "O",
-        "Lcom/commsource/beautyplus/f0/o;",
-        "U0",
-        "()Lcom/commsource/beautyplus/f0/o;",
-        "Y0",
-        "(Lcom/commsource/beautyplus/f0/o;)V",
-        "mViewBinding",
-        "<init>",
-        "U",
-        "a",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # static fields

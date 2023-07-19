@@ -3,27 +3,6 @@
 
 
 # annotations
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "kotlin/sequences/q",
-        "kotlin/sequences/r",
-        "kotlin/sequences/SequencesKt__SequencesKt",
-        "kotlin/sequences/SequencesKt___SequencesJvmKt",
-        "kotlin/sequences/SequencesKt___SequencesKt"
-    }
-    d2 = {}
-    k = 0x4
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # direct methods

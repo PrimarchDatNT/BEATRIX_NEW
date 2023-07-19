@@ -13,33 +13,6 @@
     name = null
 .end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000\u001a\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\u001f\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\u0010\u0008\u001a\u0004\u0018\u00010\u0000\"\u0008\u0008\u0000\u0010\u0001*\u00020\u0000\"\u0010\u0008\u0001\u0010\u0003*\n\u0012\u0006\u0008\u0000\u0012\u00028\u00000\u0002*\n\u0012\u0006\u0012\u0004\u0018\u00018\u00000\u00042\u0006\u0010\u0005\u001a\u00028\u00012\u000c\u0010\u0007\u001a\u0008\u0012\u0004\u0012\u00028\u00010\u0006H\u0087@"
-    }
-    d2 = {
-        "",
-        "E",
-        "",
-        "C",
-        "Lcotlinx/coroutines/channels/y;",
-        "destination",
-        "Lcotlin/coroutines/c;",
-        "continuation",
-        "filterNotNullTo"
-    }
-    k = 0x3
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 .annotation runtime Lcotlin/coroutines/jvm/internal/d;
     c = "kotlinx.coroutines.channels.ChannelsKt__Channels_commonKt"

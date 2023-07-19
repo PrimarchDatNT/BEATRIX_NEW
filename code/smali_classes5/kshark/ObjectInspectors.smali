@@ -27,51 +27,7 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nObjectInspectors.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ObjectInspectors.kt\nkshark/ObjectInspectors\n*L\n1#1,156:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000$\n\u0002\u0018\u0002\n\u0002\u0010\u0010\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000b\n\u0002\u0008\u000e\u0008\u0086\u0001\u0018\u0000 \u000f2\u0008\u0012\u0004\u0012\u00020\u00000\u00012\u00020\u0002:\u0001\u0010B\t\u0008\u0002\u00a2\u0006\u0004\u0008\r\u0010\u000eR9\u0010\t\u001a\u001f\u0012\u0013\u0012\u00110\u0004\u00a2\u0006\u000c\u0008\u0005\u0012\u0008\u0008\u0006\u0012\u0004\u0008\u0008(\u0007\u0012\u0004\u0012\u00020\u0008\u0018\u00010\u00038\u0010@\u0010X\u0090\u0004\u00a2\u0006\u000c\n\u0004\u0008\t\u0010\n\u001a\u0004\u0008\u000b\u0010\u000cj\u0002\u0008\u0011j\u0002\u0008\u0012j\u0002\u0008\u0013j\u0002\u0008\u0014j\u0002\u0008\u0015\u00a8\u0006\u0016"
-    }
-    d2 = {
-        "Lkshark/ObjectInspectors;",
-        "",
-        "Lkshark/u;",
-        "Lcotlin/Function1;",
-        "Lkshark/HeapObject;",
-        "Lcotlin/k0;",
-        "name",
-        "heapObject",
-        "",
-        "leakingObjectFilter",
-        "Lcotlin/jvm/u/l;",
-        "getLeakingObjectFilter$shark",
-        "()Lcotlin/jvm/u/l;",
-        "<init>",
-        "(Ljava/lang/String;I)V",
-        "Companion",
-        "a",
-        "KEYED_WEAK_REFERENCE",
-        "CLASSLOADER",
-        "CLASS",
-        "ANONYMOUS_CLASS",
-        "THREAD",
-        "shark"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # static fields

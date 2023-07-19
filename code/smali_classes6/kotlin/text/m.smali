@@ -3,34 +3,6 @@
 
 
 # annotations
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "kotlin/text/n",
-        "kotlin/text/StringsKt__IndentKt",
-        "kotlin/text/o",
-        "kotlin/text/p",
-        "kotlin/text/q",
-        "kotlin/text/r",
-        "kotlin/text/s",
-        "kotlin/text/t",
-        "kotlin/text/u",
-        "kotlin/text/StringsKt__StringsKt",
-        "kotlin/text/v",
-        "kotlin/text/StringsKt___StringsKt"
-    }
-    d2 = {}
-    k = 0x4
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # direct methods

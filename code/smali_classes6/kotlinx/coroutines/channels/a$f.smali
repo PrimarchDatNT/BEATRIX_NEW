@@ -24,48 +24,7 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nAbstractChannel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 AbstractChannel.kt\nkotlinx/coroutines/channels/AbstractChannel$TryPollDesc\n*L\n1#1,1075:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u00002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0000\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u0008\u0004\u0018\u0000*\u0004\u0008\u0001\u0010\u00012\u0012\u0012\u0004\u0012\u00020\u00030\u0002j\u0008\u0012\u0004\u0012\u00020\u0003`\u0004B\u000f\u0012\u0006\u0010\u0010\u001a\u00020\u000f\u00a2\u0006\u0004\u0008\u0011\u0010\u0012J\u0019\u0010\u0008\u001a\u0004\u0018\u00010\u00072\u0006\u0010\u0006\u001a\u00020\u0005H\u0014\u00a2\u0006\u0004\u0008\u0008\u0010\tJ\u001d\u0010\r\u001a\u0004\u0018\u00010\u00072\n\u0010\u000c\u001a\u00060\nj\u0002`\u000bH\u0016\u00a2\u0006\u0004\u0008\r\u0010\u000e\u00a8\u0006\u0013"
-    }
-    d2 = {
-        "kotlinx/coroutines/channels/a$f",
-        "E",
-        "Lcotlinx/coroutines/internal/m$e;",
-        "Lcotlinx/coroutines/channels/b0;",
-        "Lcotlinx/coroutines/internal/RemoveFirstDesc;",
-        "Lcotlinx/coroutines/internal/m;",
-        "affected",
-        "",
-        "e",
-        "(Lcotlinx/coroutines/internal/m;)Ljava/lang/Object;",
-        "Lcotlinx/coroutines/internal/m$d;",
-        "Lcotlinx/coroutines/internal/PrepareOp;",
-        "prepareOp",
-        "j",
-        "(Lcotlinx/coroutines/internal/m$d;)Ljava/lang/Object;",
-        "Lcotlinx/coroutines/internal/k;",
-        "queue",
-        "<init>",
-        "(Lcotlinx/coroutines/internal/k;)V",
-        "kotlinx-coroutines-core"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # direct methods

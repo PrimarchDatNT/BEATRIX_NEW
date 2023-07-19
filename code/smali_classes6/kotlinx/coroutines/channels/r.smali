@@ -20,79 +20,7 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nConflatedChannel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ConflatedChannel.kt\nkotlinx/coroutines/channels/ConflatedChannel\n+ 2 Concurrent.kt\nkotlinx/coroutines/internal/ConcurrentKt\n*L\n1#1,141:1\n17#2:142\n17#2:143\n17#2:144\n17#2:145\n17#2:146\n17#2:147\n17#2:148\n*E\n*S KotlinDebug\n*F\n+ 1 ConflatedChannel.kt\nkotlinx/coroutines/channels/ConflatedChannel\n*L\n27#1:142\n41#1:143\n69#1:144\n102#1:145\n113#1:146\n125#1:147\n132#1:148\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000F\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0000\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0010\u000b\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0010\u000e\n\u0002\u0008\r\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0008\u0008\u0010\u0018\u0000 0*\u0004\u0008\u0000\u0010\u00012\u0008\u0012\u0004\u0012\u00028\u00000\u0002:\u00011B\u0007\u00a2\u0006\u0004\u0008.\u0010/J\u0017\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00028\u0000H\u0014\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J#\u0010\t\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00028\u00002\n\u0010\u0008\u001a\u0006\u0012\u0002\u0008\u00030\u0007H\u0014\u00a2\u0006\u0004\u0008\t\u0010\nJ\u0011\u0010\u000b\u001a\u0004\u0018\u00010\u0004H\u0014\u00a2\u0006\u0004\u0008\u000b\u0010\u000cJ\u001d\u0010\r\u001a\u0004\u0018\u00010\u00042\n\u0010\u0008\u001a\u0006\u0012\u0002\u0008\u00030\u0007H\u0014\u00a2\u0006\u0004\u0008\r\u0010\u000eJ\u0017\u0010\u0012\u001a\u00020\u00112\u0006\u0010\u0010\u001a\u00020\u000fH\u0014\u00a2\u0006\u0004\u0008\u0012\u0010\u0013J\u001d\u0010\u0016\u001a\u00020\u000f2\u000c\u0010\u0015\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u0014H\u0014\u00a2\u0006\u0004\u0008\u0016\u0010\u0017R\u0016\u0010\u001a\u001a\u00020\u000f8D@\u0004X\u0084\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u0018\u0010\u0019R\u0016\u0010\u001e\u001a\u00020\u001b8T@\u0014X\u0094\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u001c\u0010\u001dR\u0016\u0010\u001f\u001a\u00020\u000f8V@\u0016X\u0096\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u001f\u0010\u0019R\u0018\u0010\"\u001a\u0004\u0018\u00010\u00048\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008 \u0010!R\u0016\u0010$\u001a\u00020\u000f8D@\u0004X\u0084\u0004\u00a2\u0006\u0006\u001a\u0004\u0008#\u0010\u0019R\u0016\u0010&\u001a\u00020\u000f8D@\u0004X\u0084\u0004\u00a2\u0006\u0006\u001a\u0004\u0008%\u0010\u0019R\u0016\u0010(\u001a\u00020\u000f8D@\u0004X\u0084\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\'\u0010\u0019R\u001a\u0010-\u001a\u00060)j\u0002`*8\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008+\u0010,\u00a8\u00062"
-    }
-    d2 = {
-        "Lcotlinx/coroutines/channels/r;",
-        "E",
-        "Lcotlinx/coroutines/channels/a;",
-        "element",
-        "",
-        "z",
-        "(Ljava/lang/Object;)Ljava/lang/Object;",
-        "Lcotlinx/coroutines/selects/f;",
-        "select",
-        "B",
-        "(Ljava/lang/Object;Lcotlinx/coroutines/selects/f;)Ljava/lang/Object;",
-        "i0",
-        "()Ljava/lang/Object;",
-        "j0",
-        "(Lcotlinx/coroutines/selects/f;)Ljava/lang/Object;",
-        "",
-        "wasClosed",
-        "Lcotlin/t1;",
-        "f0",
-        "(Z)V",
-        "Lcotlinx/coroutines/channels/x;",
-        "receive",
-        "Z",
-        "(Lcotlinx/coroutines/channels/x;)Z",
-        "w",
-        "()Z",
-        "isBufferFull",
-        "",
-        "k",
-        "()Ljava/lang/String;",
-        "bufferDebugString",
-        "isEmpty",
-        "d",
-        "Ljava/lang/Object;",
-        "value",
-        "c0",
-        "isBufferAlwaysEmpty",
-        "d0",
-        "isBufferEmpty",
-        "u",
-        "isBufferAlwaysFull",
-        "Ljava/util/concurrent/locks/ReentrantLock;",
-        "Lcotlinx/coroutines/internal/ReentrantLock;",
-        "c",
-        "Ljava/util/concurrent/locks/ReentrantLock;",
-        "lock",
-        "<init>",
-        "()V",
-        "g",
-        "a",
-        "kotlinx-coroutines-core"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # static fields

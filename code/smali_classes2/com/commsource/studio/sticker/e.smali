@@ -18,46 +18,6 @@
     }
 .end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u00008\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u0008\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010!\n\u0002\u0010\u0000\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0006\u0018\u0000 \u00132\u0008\u0012\u0004\u0012\u00020\u00020\u0001:\u0001\u0014B\u0019\u0008\u0016\u0012\u0006\u0010\u000e\u001a\u00020\r\u0012\u0006\u0010\u0010\u001a\u00020\u000f\u00a2\u0006\u0004\u0008\u0011\u0010\u0012J5\u0010\u000b\u001a\u00020\n2\u0006\u0010\u0004\u001a\u00020\u00032\u000c\u0010\u0006\u001a\u0008\u0012\u0004\u0012\u00020\u00020\u00052\u000e\u0010\t\u001a\n\u0012\u0004\u0012\u00020\u0008\u0018\u00010\u0007H\u0016\u00a2\u0006\u0004\u0008\u000b\u0010\u000c\u00a8\u0006\u0015"
-    }
-    d2 = {
-        "Lcom/commsource/studio/sticker/e;",
-        "Lcom/commsource/widget/h1/f;",
-        "Lcom/commsource/studio/sticker/c;",
-        "",
-        "position",
-        "Lcom/commsource/widget/h1/d;",
-        "item",
-        "",
-        "",
-        "payloads",
-        "Lcotlin/t1;",
-        "k",
-        "(ILcom/commsource/widget/h1/d;Ljava/util/List;)V",
-        "Landroid/content/Context;",
-        "context",
-        "Landroid/view/ViewGroup;",
-        "parent",
-        "<init>",
-        "(Landroid/content/Context;Landroid/view/ViewGroup;)V",
-        "J",
-        "a",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # static fields

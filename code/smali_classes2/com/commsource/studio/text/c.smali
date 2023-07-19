@@ -7,71 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nTextEditPage.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TextEditPage.kt\ncom/commsource/studio/text/FitTextWatcher\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,224:1\n1819#2,2:225\n*E\n*S KotlinDebug\n*F\n+ 1 TextEditPage.kt\ncom/commsource/studio/text/FitTextWatcher\n*L\n195#1,2:225\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000@\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u000e\n\u0000\n\u0002\u0010\u0007\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\r\n\u0002\u0010\u0008\n\u0002\u0008\n\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0002\u0008\t\u0018\u00002\u00020\u0001B\u000f\u0012\u0006\u0010%\u001a\u00020!\u00a2\u0006\u0004\u0008(\u0010)J\'\u0010\u0007\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u00022\u0006\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0006\u001a\u00020\u0004H\u0002\u00a2\u0006\u0004\u0008\u0007\u0010\u0008J\u0019\u0010\u000c\u001a\u00020\u000b2\u0008\u0010\n\u001a\u0004\u0018\u00010\tH\u0016\u00a2\u0006\u0004\u0008\u000c\u0010\rJ1\u0010\u0013\u001a\u00020\u000b2\u0008\u0010\n\u001a\u0004\u0018\u00010\u000e2\u0006\u0010\u0010\u001a\u00020\u000f2\u0006\u0010\u0011\u001a\u00020\u000f2\u0006\u0010\u0012\u001a\u00020\u000fH\u0016\u00a2\u0006\u0004\u0008\u0013\u0010\u0014J1\u0010\u0016\u001a\u00020\u000b2\u0008\u0010\n\u001a\u0004\u0018\u00010\u000e2\u0006\u0010\u0010\u001a\u00020\u000f2\u0006\u0010\u0015\u001a\u00020\u000f2\u0006\u0010\u0011\u001a\u00020\u000fH\u0016\u00a2\u0006\u0004\u0008\u0016\u0010\u0014J\u0015\u0010\u0018\u001a\u00020\u00042\u0006\u0010\u0017\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0018\u0010\u0019R\u0016\u0010\u001c\u001a\u00020\u001a8\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0007\u0010\u001bR\u0016\u0010\u001e\u001a\u00020\u00048\u0002@\u0002X\u0082D\u00a2\u0006\u0006\n\u0004\u0008\u0018\u0010\u001dR\u0016\u0010 \u001a\u00020\u00048\u0002@\u0002X\u0082D\u00a2\u0006\u0006\n\u0004\u0008\u001f\u0010\u001dR\u0019\u0010%\u001a\u00020!8\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\"\u0010#\u001a\u0004\u0008\u001f\u0010$R\u0016\u0010\'\u001a\u00020\u00048\u0002@\u0002X\u0082D\u00a2\u0006\u0006\n\u0004\u0008&\u0010\u001d\u00a8\u0006*"
-    }
-    d2 = {
-        "Lcom/commsource/studio/text/c;",
-        "Landroid/text/TextWatcher;",
-        "",
-        "text",
-        "",
-        "largeSize",
-        "smallSize",
-        "a",
-        "(Ljava/lang/String;FF)F",
-        "Landroid/text/Editable;",
-        "s",
-        "Lcotlin/t1;",
-        "afterTextChanged",
-        "(Landroid/text/Editable;)V",
-        "",
-        "",
-        "start",
-        "count",
-        "after",
-        "beforeTextChanged",
-        "(Ljava/lang/CharSequence;III)V",
-        "before",
-        "onTextChanged",
-        "str",
-        "b",
-        "(Ljava/lang/String;)F",
-        "Landroid/text/TextPaint;",
-        "Landroid/text/TextPaint;",
-        "paint",
-        "F",
-        "MAX_TEXT_SIZE",
-        "c",
-        "MIN_TEXT_SIZE",
-        "Landroid/widget/EditText;",
-        "f",
-        "Landroid/widget/EditText;",
-        "()Landroid/widget/EditText;",
-        "textEdit",
-        "d",
-        "OFFSET",
-        "<init>",
-        "(Landroid/widget/EditText;)V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

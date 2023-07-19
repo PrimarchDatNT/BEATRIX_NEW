@@ -4,54 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nIndent.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Indent.kt\nkotlin/text/StringsKt__IndentKt\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n+ 3 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 4 _Strings.kt\nkotlin/text/StringsKt___StringsKt\n*L\n1#1,121:1\n111#1,9:123\n111#1,9:161\n1#2:122\n1#2:151\n1#2:183\n1#2:205\n1537#3,11:132\n1828#3,2:143\n1830#3:152\n1548#3:153\n734#3:154\n825#3,2:155\n1517#3:157\n1588#3,3:158\n1537#3,11:170\n1828#3,2:181\n1830#3:184\n1548#3:185\n1537#3,11:192\n1828#3,2:203\n1830#3:206\n1548#3:207\n120#4,6:145\n120#4,6:186\n*E\n*S KotlinDebug\n*F\n+ 1 Indent.kt\nkotlin/text/StringsKt__IndentKt\n*L\n37#1,9:123\n76#1,9:161\n37#1:151\n76#1:183\n112#1:205\n37#1,11:132\n37#1,2:143\n37#1:152\n37#1:153\n72#1:154\n72#1,2:155\n73#1:157\n73#1,3:158\n76#1,11:170\n76#1,2:181\n76#1:184\n76#1:185\n112#1,11:192\n112#1,2:203\n112#1:206\n112#1:207\n38#1,6:145\n99#1,6:186\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000 \n\u0002\u0010\u000e\n\u0002\u0008\u000b\n\u0002\u0010\u0008\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010 \n\u0002\u0008\u0006\u001a\u001b\u0010\u0002\u001a\u00020\u0000*\u00020\u00002\u0008\u0008\u0002\u0010\u0001\u001a\u00020\u0000\u00a2\u0006\u0004\u0008\u0002\u0010\u0003\u001a%\u0010\u0005\u001a\u00020\u0000*\u00020\u00002\u0008\u0008\u0002\u0010\u0004\u001a\u00020\u00002\u0008\u0008\u0002\u0010\u0001\u001a\u00020\u0000\u00a2\u0006\u0004\u0008\u0005\u0010\u0006\u001a\u0011\u0010\u0007\u001a\u00020\u0000*\u00020\u0000\u00a2\u0006\u0004\u0008\u0007\u0010\u0008\u001a\u001b\u0010\t\u001a\u00020\u0000*\u00020\u00002\u0008\u0008\u0002\u0010\u0004\u001a\u00020\u0000\u00a2\u0006\u0004\u0008\t\u0010\u0003\u001a\u001b\u0010\u000b\u001a\u00020\u0000*\u00020\u00002\u0008\u0008\u0002\u0010\n\u001a\u00020\u0000\u00a2\u0006\u0004\u0008\u000b\u0010\u0003\u001a\u0013\u0010\r\u001a\u00020\u000c*\u00020\u0000H\u0002\u00a2\u0006\u0004\u0008\r\u0010\u000e\u001a#\u0010\u0010\u001a\u000e\u0012\u0004\u0012\u00020\u0000\u0012\u0004\u0012\u00020\u00000\u000f2\u0006\u0010\n\u001a\u00020\u0000H\u0002\u00a2\u0006\u0004\u0008\u0010\u0010\u0011\u001aL\u0010\u0016\u001a\u00020\u0000*\u0008\u0012\u0004\u0012\u00020\u00000\u00122\u0006\u0010\u0013\u001a\u00020\u000c2\u0012\u0010\u0014\u001a\u000e\u0012\u0004\u0012\u00020\u0000\u0012\u0004\u0012\u00020\u00000\u000f2\u0014\u0010\u0015\u001a\u0010\u0012\u0004\u0012\u00020\u0000\u0012\u0006\u0012\u0004\u0018\u00010\u00000\u000fH\u0082\u0008\u00a2\u0006\u0004\u0008\u0016\u0010\u0017\u00a8\u0006\u0018"
-    }
-    d2 = {
-        "",
-        "marginPrefix",
-        "q",
-        "(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;",
-        "newIndent",
-        "n",
-        "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;",
-        "p",
-        "(Ljava/lang/String;)Ljava/lang/String;",
-        "l",
-        "indent",
-        "i",
-        "",
-        "h",
-        "(Ljava/lang/String;)I",
-        "Lcotlin/Function1;",
-        "g",
-        "(Ljava/lang/String;)Lcotlin/jvm/u/l;",
-        "",
-        "resultSizeEstimate",
-        "indentAddFunction",
-        "indentCutFunction",
-        "k",
-        "(Ljava/util/List;ILcotlin/jvm/u/l;Lcotlin/jvm/u/l;)Ljava/lang/String;",
-        "kotlin-stdlib"
-    }
-    k = 0x5
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-    xs = "kotlin/text/StringsKt"
-.end annotation
 
 
 # direct methods

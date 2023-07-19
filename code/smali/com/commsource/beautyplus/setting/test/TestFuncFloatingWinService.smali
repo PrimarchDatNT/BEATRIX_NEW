@@ -11,68 +11,7 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nTestFuncFloatingWinService.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TestFuncFloatingWinService.kt\ncom/commsource/beautyplus/setting/test/TestFuncFloatingWinService\n*L\n1#1,149:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000F\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0006\u0018\u00002\u00020\u0001:\u0002\u0018\u001dB\u0007\u00a2\u0006\u0004\u0008&\u0010\u0004J\u000f\u0010\u0003\u001a\u00020\u0002H\u0003\u00a2\u0006\u0004\u0008\u0003\u0010\u0004J\u000f\u0010\u0005\u001a\u00020\u0002H\u0002\u00a2\u0006\u0004\u0008\u0005\u0010\u0004J\u000f\u0010\u0006\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\u0006\u0010\u0004J\u000f\u0010\u0007\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\u0007\u0010\u0004J\u001b\u0010\u000b\u001a\u0004\u0018\u00010\n2\u0008\u0010\t\u001a\u0004\u0018\u00010\u0008H\u0016\u00a2\u0006\u0004\u0008\u000b\u0010\u000cJ)\u0010\u0010\u001a\u00020\r2\u0008\u0010\t\u001a\u0004\u0018\u00010\u00082\u0006\u0010\u000e\u001a\u00020\r2\u0006\u0010\u000f\u001a\u00020\rH\u0016\u00a2\u0006\u0004\u0008\u0010\u0010\u0011R\u001d\u0010\u0016\u001a\u00020\u00128B@\u0002X\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0005\u0010\u0013\u001a\u0004\u0008\u0014\u0010\u0015R\u001d\u0010\u001b\u001a\u00020\u00178B@\u0002X\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0018\u0010\u0013\u001a\u0004\u0008\u0019\u0010\u001aR\u001d\u0010 \u001a\u00020\u001c8B@\u0002X\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u001d\u0010\u0013\u001a\u0004\u0008\u001e\u0010\u001fR\u0018\u0010#\u001a\u0004\u0018\u00010!8\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u001e\u0010\"R\u0016\u0010%\u001a\u00020\r8\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0014\u0010$\u00a8\u0006\'"
-    }
-    d2 = {
-        "Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService;",
-        "Landroid/app/Service;",
-        "Lcotlin/t1;",
-        "g",
-        "()V",
-        "f",
-        "onCreate",
-        "onDestroy",
-        "Landroid/content/Intent;",
-        "intent",
-        "Landroid/os/IBinder;",
-        "onBind",
-        "(Landroid/content/Intent;)Landroid/os/IBinder;",
-        "",
-        "flags",
-        "startId",
-        "onStartCommand",
-        "(Landroid/content/Intent;II)I",
-        "Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService$b;",
-        "Lcotlin/w;",
-        "d",
-        "()Lcom/commsource/beautyplus/setting/test/TestFuncFloatingWinService$b;",
-        "processStatusChangeBroadcastReceiver",
-        "Landroid/view/WindowManager;",
-        "a",
-        "e",
-        "()Landroid/view/WindowManager;",
-        "windowManager",
-        "Landroid/view/WindowManager$LayoutParams;",
-        "b",
-        "c",
-        "()Landroid/view/WindowManager$LayoutParams;",
-        "layoutParams",
-        "Lcom/commsource/widget/CircleImageView;",
-        "Lcom/commsource/widget/CircleImageView;",
-        "vIvFloating",
-        "I",
-        "size",
-        "<init>",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

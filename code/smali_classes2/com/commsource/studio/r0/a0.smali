@@ -4,63 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nSharpnessRenderProxy.kt\nKotlin\n*S Kotlin\n*F\n+ 1 SharpnessRenderProxy.kt\ncom/commsource/studio/render/SharpnessRenderProxy\n*L\n1#1,72:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u00000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u0008\n\u0002\u0008\u0006\n\u0002\u0010\u000b\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0002\u0008\n\u0018\u00002\u00020\u0001B\u000f\u0012\u0006\u0010\u001b\u001a\u00020\u0018\u00a2\u0006\u0004\u0008 \u0010!J\u000f\u0010\u0003\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\u0003\u0010\u0004J\u000f\u0010\u0005\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\u0005\u0010\u0004JG\u0010\u000f\u001a\u00020\u00062\u0006\u0010\u0007\u001a\u00020\u00062\u0006\u0010\u0008\u001a\u00020\u00062\u0006\u0010\t\u001a\u00020\u00062\u0006\u0010\n\u001a\u00020\u00062\u0006\u0010\u000b\u001a\u00020\u00062\u0006\u0010\u000c\u001a\u00020\u00062\u0006\u0010\u000e\u001a\u00020\rH\u0016\u00a2\u0006\u0004\u0008\u000f\u0010\u0010R\"\u0010\u0017\u001a\u00020\u00118\u0006@\u0006X\u0086.\u00a2\u0006\u0012\n\u0004\u0008\u000f\u0010\u0012\u001a\u0004\u0008\u0013\u0010\u0014\"\u0004\u0008\u0015\u0010\u0016R\u0016\u0010\u001b\u001a\u00020\u00188\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0019\u0010\u001aR\"\u0010\u001f\u001a\u00020\u00118\u0006@\u0006X\u0086.\u00a2\u0006\u0012\n\u0004\u0008\u001c\u0010\u0012\u001a\u0004\u0008\u001d\u0010\u0014\"\u0004\u0008\u001e\u0010\u0016\u00a8\u0006\""
-    }
-    d2 = {
-        "Lcom/commsource/studio/r0/a0;",
-        "Lcom/commsource/studio/r0/s;",
-        "Lcotlin/t1;",
-        "h",
-        "()V",
-        "i",
-        "",
-        "fboA",
-        "fboB",
-        "texA",
-        "texB",
-        "width",
-        "height",
-        "",
-        "isCaptureFrame",
-        "j",
-        "(IIIIIIZ)I",
-        "Lcom/commsource/easyeditor/utils/opengl/m;",
-        "Lcom/commsource/easyeditor/utils/opengl/m;",
-        "z",
-        "()Lcom/commsource/easyeditor/utils/opengl/m;",
-        "B",
-        "(Lcom/commsource/easyeditor/utils/opengl/m;)V",
-        "grayTextureEntity",
-        "Lcom/commsource/studio/effect/d;",
-        "l",
-        "Lcom/commsource/studio/effect/d;",
-        "colourResult",
-        "k",
-        "A",
-        "C",
-        "structHistogramTextureEntity",
-        "<init>",
-        "(Lcom/commsource/studio/effect/d;)V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

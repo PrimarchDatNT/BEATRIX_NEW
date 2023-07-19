@@ -4,49 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nMoPubNetworkUtils.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MoPubNetworkUtils.kt\ncom/mopub/network/MoPubNetworkUtils\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 3 ArraysJVM.kt\nkotlin/collections/ArraysKt__ArraysJVMKt\n+ 4 Strings.kt\nkotlin/text/StringsKt__StringsKt\n*L\n1#1,77:1\n699#2,9:78\n699#2,9:112\n37#3,2:87\n37#3,2:121\n99#4:89\n71#4,22:90\n*E\n*S KotlinDebug\n*F\n+ 1 MoPubNetworkUtils.kt\ncom/mopub/network/MoPubNetworkUtils\n*L\n26#1,9:78\n31#1,9:112\n26#1,2:87\n32#1,2:121\n29#1:89\n29#1,22:90\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000\u001c\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0010$\n\u0002\u0010\u000e\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0002\u0008\n\u0008\u00c6\u0002\u0018\u00002\u00020\u0001B\t\u0008\u0002\u00a2\u0006\u0004\u0008\u0012\u0010\u0013J%\u0010\u0005\u001a\u00020\u00032\u0014\u0010\u0004\u001a\u0010\u0012\u0004\u0012\u00020\u0003\u0012\u0004\u0012\u00020\u0003\u0018\u00010\u0002H\u0007\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J#\u0010\u0008\u001a\u000e\u0012\u0004\u0012\u00020\u0003\u0012\u0004\u0012\u00020\u00030\u00022\u0006\u0010\u0007\u001a\u00020\u0003H\u0007\u00a2\u0006\u0004\u0008\u0008\u0010\tJ#\u0010\u000c\u001a\u000e\u0012\u0004\u0012\u00020\u0003\u0012\u0004\u0012\u00020\u00030\u00022\u0006\u0010\u000b\u001a\u00020\nH\u0007\u00a2\u0006\u0004\u0008\u000c\u0010\rJ\'\u0010\u000f\u001a\u0004\u0018\u00010\u00032\u0014\u0010\u000e\u001a\u0010\u0012\u0004\u0012\u00020\u0003\u0012\u0004\u0012\u00020\u0003\u0018\u00010\u0002H\u0007\u00a2\u0006\u0004\u0008\u000f\u0010\u0006R\u0016\u0010\u0010\u001a\u00020\u00038\u0002@\u0002X\u0082T\u00a2\u0006\u0006\n\u0004\u0008\u0010\u0010\u0011\u00a8\u0006\u0014"
-    }
-    d2 = {
-        "Lcom/mopub/network/MoPubNetworkUtils;",
-        "",
-        "",
-        "",
-        "headers",
-        "parseCharsetFromContentType",
-        "(Ljava/util/Map;)Ljava/lang/String;",
-        "url",
-        "convertQueryToMap",
-        "(Ljava/lang/String;)Ljava/util/Map;",
-        "Landroid/net/Uri;",
-        "uri",
-        "getQueryParamMap",
-        "(Landroid/net/Uri;)Ljava/util/Map;",
-        "params",
-        "generateBodyFromParams",
-        "DEFAULT_CONTENT_CHARSET",
-        "Ljava/lang/String;",
-        "<init>",
-        "()V",
-        "mopub-sdk-networking_release"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # static fields

@@ -4,43 +4,6 @@
 
 
 # annotations
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000.\n\u0002\u0010\r\n\u0002\u0010\u0008\n\u0000\n\u0002\u0010\u000c\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u001a\u001c\u0010\u0004\u001a\u00020\u0003*\u00020\u00002\u0006\u0010\u0002\u001a\u00020\u0001H\u0087\u0008\u00a2\u0006\u0004\u0008\u0004\u0010\u0005\u001a\u0017\u0010\u0007\u001a\u0008\u0012\u0004\u0012\u00020\u00030\u0006*\u00020\u0000\u00a2\u0006\u0004\u0008\u0007\u0010\u0008\u001a+\u0010\u000c\u001a\u00020\n*\u00020\u00002\u0012\u0010\u000b\u001a\u000e\u0012\u0004\u0012\u00020\u0003\u0012\u0004\u0012\u00020\n0\tH\u0087\u0008\u00f8\u0001\u0000\u00a2\u0006\u0004\u0008\u000c\u0010\r\u001a+\u0010\u000f\u001a\u00020\u000e*\u00020\u00002\u0012\u0010\u000b\u001a\u000e\u0012\u0004\u0012\u00020\u0003\u0012\u0004\u0012\u00020\u000e0\tH\u0087\u0008\u00f8\u0001\u0000\u00a2\u0006\u0004\u0008\u000f\u0010\u0010\u0082\u0002\u0007\n\u0005\u0008\u009920\u0001\u00a8\u0006\u0011"
-    }
-    d2 = {
-        "",
-        "",
-        "index",
-        "",
-        "N5",
-        "(Ljava/lang/CharSequence;I)C",
-        "Ljava/util/SortedSet;",
-        "Q5",
-        "(Ljava/lang/CharSequence;)Ljava/util/SortedSet;",
-        "Lcotlin/Function1;",
-        "Ljava/math/BigDecimal;",
-        "selector",
-        "O5",
-        "(Ljava/lang/CharSequence;Lcotlin/jvm/u/l;)Ljava/math/BigDecimal;",
-        "Ljava/math/BigInteger;",
-        "P5",
-        "(Ljava/lang/CharSequence;Lcotlin/jvm/u/l;)Ljava/math/BigInteger;",
-        "kotlin-stdlib"
-    }
-    k = 0x5
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-    xs = "kotlin/text/StringsKt"
-.end annotation
 
 
 # direct methods

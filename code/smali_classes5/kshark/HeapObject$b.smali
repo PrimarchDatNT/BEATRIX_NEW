@@ -13,72 +13,7 @@
     name = "b"
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nHeapObject.kt\nKotlin\n*S Kotlin\n*F\n+ 1 HeapObject.kt\nkshark/HeapObject$HeapPrimitiveArray\n*L\n1#1,610:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000N\n\u0000\n\u0002\u0018\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000e\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\t\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0008\u0018\u00002\u00020\u0001B!\u0008\u0000\u0012\u0006\u0010\u001c\u001a\u00020\u0019\u0012\u0006\u0010\"\u001a\u00020\u001f\u0012\u0006\u0010\u0018\u001a\u00020\u0013\u00a2\u0006\u0004\u0008)\u0010*J\r\u0010\u0003\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0003\u0010\u0004J\u000f\u0010\u0006\u001a\u00020\u0005H\u0016\u00a2\u0006\u0004\u0008\u0006\u0010\u0007J\u000f\u0010\t\u001a\u00020\u0008H\u0016\u00a2\u0006\u0004\u0008\t\u0010\nR\u0013\u0010\u000e\u001a\u00020\u000b8F@\u0006\u00a2\u0006\u0006\u001a\u0004\u0008\u000c\u0010\rR\u0016\u0010\u0012\u001a\u00020\u000f8V@\u0016X\u0096\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u0010\u0010\u0011R\u001c\u0010\u0018\u001a\u00020\u00138\u0016@\u0016X\u0096\u0004\u00a2\u0006\u000c\n\u0004\u0008\u0014\u0010\u0015\u001a\u0004\u0008\u0016\u0010\u0017R\u0016\u0010\u001c\u001a\u00020\u00198\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u001a\u0010\u001bR\u0013\u0010\u001e\u001a\u00020\u00028F@\u0006\u00a2\u0006\u0006\u001a\u0004\u0008\u001d\u0010\u0004R\u0016\u0010\"\u001a\u00020\u001f8\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008 \u0010!R\u0013\u0010&\u001a\u00020#8F@\u0006\u00a2\u0006\u0006\u001a\u0004\u0008$\u0010%R\u0013\u0010(\u001a\u00020\u00088F@\u0006\u00a2\u0006\u0006\u001a\u0004\u0008\'\u0010\n\u00a8\u0006+"
-    }
-    d2 = {
-        "kshark/HeapObject$b",
-        "Lkshark/HeapObject;",
-        "",
-        "m",
-        "()I",
-        "Lkshark/m$b$c$g;",
-        "n",
-        "()Lkshark/m$b$c$g;",
-        "",
-        "toString",
-        "()Ljava/lang/String;",
-        "Lkshark/HeapObject$HeapClass;",
-        "i",
-        "()Lkshark/HeapObject$HeapClass;",
-        "arrayClass",
-        "Lkshark/i;",
-        "f",
-        "()Lkshark/i;",
-        "graph",
-        "",
-        "e",
-        "J",
-        "g",
-        "()J",
-        "objectId",
-        "Lkshark/HprofHeapGraph;",
-        "c",
-        "Lkshark/HprofHeapGraph;",
-        "hprofGraph",
-        "k",
-        "arrayLength",
-        "Lkshark/internal/d$d;",
-        "d",
-        "Lkshark/internal/d$d;",
-        "indexedObject",
-        "Lkshark/PrimitiveType;",
-        "l",
-        "()Lkshark/PrimitiveType;",
-        "primitiveType",
-        "j",
-        "arrayClassName",
-        "<init>",
-        "(Lkshark/HprofHeapGraph;Lkshark/internal/d$d;J)V",
-        "shark"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

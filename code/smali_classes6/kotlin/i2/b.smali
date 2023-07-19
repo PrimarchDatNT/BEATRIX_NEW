@@ -13,41 +13,6 @@
     }
 .end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000$\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\t\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0007\u0008\'\u0018\u00002\u00020\u0001:\u0001\u0006B\u0013\u0012\n\u0010\r\u001a\u00060\u0008j\u0002`\t\u00a2\u0006\u0004\u0008\u000e\u0010\u000fJ\u000f\u0010\u0003\u001a\u00020\u0002H$\u00a2\u0006\u0004\u0008\u0003\u0010\u0004J\u000f\u0010\u0006\u001a\u00020\u0005H\u0016\u00a2\u0006\u0004\u0008\u0006\u0010\u0007R \u0010\r\u001a\u00060\u0008j\u0002`\t8\u0004@\u0004X\u0084\u0004\u00a2\u0006\u000c\n\u0004\u0008\n\u0010\u000b\u001a\u0004\u0008\n\u0010\u000c\u00a8\u0006\u0010"
-    }
-    d2 = {
-        "Lcotlin/i2/b;",
-        "Lcotlin/i2/p;",
-        "",
-        "c",
-        "()J",
-        "Lcotlin/i2/o;",
-        "a",
-        "()Lcotlin/i2/o;",
-        "Ljava/util/concurrent/TimeUnit;",
-        "Lcotlin/time/DurationUnit;",
-        "b",
-        "Ljava/util/concurrent/TimeUnit;",
-        "()Ljava/util/concurrent/TimeUnit;",
-        "unit",
-        "<init>",
-        "(Ljava/util/concurrent/TimeUnit;)V",
-        "kotlin-stdlib"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 .annotation build Lcotlin/i2/j;
 .end annotation

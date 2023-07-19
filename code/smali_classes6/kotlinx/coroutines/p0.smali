@@ -4,60 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nDebug.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Debug.kt\nkotlinx/coroutines/DebugKt\n*L\n1#1,96:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000$\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u000b\n\u0002\u0008\u0003\n\u0002\u0010\u000e\n\u0002\u0008\r\n\u0002\u0018\u0002\n\u0002\u0008\t\u001a\u000f\u0010\u0001\u001a\u00020\u0000H\u0000\u00a2\u0006\u0004\u0008\u0001\u0010\u0002\u001a\u001e\u0010\u0006\u001a\u00020\u00002\u000c\u0010\u0005\u001a\u0008\u0012\u0004\u0012\u00020\u00040\u0003H\u0081\u0008\u00a2\u0006\u0004\u0008\u0006\u0010\u0007\"\u0016\u0010\n\u001a\u00020\u00088\u0006@\u0006X\u0086T\u00a2\u0006\u0006\n\u0004\u0008\u0006\u0010\t\"\u0016\u0010\u000c\u001a\u00020\u00088\u0006@\u0006X\u0086T\u00a2\u0006\u0006\n\u0004\u0008\u000b\u0010\t\"\u001c\u0010\u0010\u001a\u00020\u00048\u0000@\u0000X\u0080\u0004\u00a2\u0006\u000c\n\u0004\u0008\u0001\u0010\r\u001a\u0004\u0008\u000e\u0010\u000f\"\u0016\u0010\u0012\u001a\u00020\u00088\u0006@\u0006X\u0086T\u00a2\u0006\u0006\n\u0004\u0008\u0011\u0010\t\"\u001c\u0010\u0014\u001a\u00020\u00048\u0000@\u0000X\u0080\u0004\u00a2\u0006\u000c\n\u0004\u0008\u0013\u0010\r\u001a\u0004\u0008\u000b\u0010\u000f\"\u0016\u0010\u0015\u001a\u00020\u00088\u0000@\u0000X\u0080T\u00a2\u0006\u0006\n\u0004\u0008\u000e\u0010\t\"\u001c\u0010\u001a\u001a\u00020\u00168\u0000@\u0000X\u0080\u0004\u00a2\u0006\u000c\n\u0004\u0008\u0017\u0010\u0018\u001a\u0004\u0008\u0011\u0010\u0019\"\u001c\u0010\u001d\u001a\u00020\u00048\u0000@\u0000X\u0080\u0004\u00a2\u0006\u000c\n\u0004\u0008\u001b\u0010\r\u001a\u0004\u0008\u001c\u0010\u000f\"\u0016\u0010\u001e\u001a\u00020\u00088\u0006@\u0006X\u0086T\u00a2\u0006\u0006\n\u0004\u0008\u001c\u0010\t\u00a8\u0006\u001f"
-    }
-    d2 = {
-        "Lcotlin/t1;",
-        "f",
-        "()V",
-        "Lcotlin/Function0;",
-        "",
-        "value",
-        "a",
-        "(Lcotlin/jvm/u/a;)V",
-        "",
-        "Ljava/lang/String;",
-        "DEBUG_PROPERTY_NAME",
-        "e",
-        "DEBUG_PROPERTY_VALUE_OFF",
-        "Z",
-        "b",
-        "()Z",
-        "ASSERTIONS_ENABLED",
-        "c",
-        "DEBUG_PROPERTY_VALUE_AUTO",
-        "h",
-        "RECOVER_STACK_TRACES",
-        "STACKTRACE_RECOVERY_PROPERTY_NAME",
-        "Ljava/util/concurrent/atomic/AtomicLong;",
-        "i",
-        "Ljava/util/concurrent/atomic/AtomicLong;",
-        "()Ljava/util/concurrent/atomic/AtomicLong;",
-        "COROUTINE_ID",
-        "g",
-        "d",
-        "DEBUG",
-        "DEBUG_PROPERTY_VALUE_ON",
-        "kotlinx-coroutines-core"
-    }
-    k = 0x2
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # static fields

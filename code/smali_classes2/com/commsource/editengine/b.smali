@@ -4,70 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nHWGLContext.kt\nKotlin\n*S Kotlin\n*F\n+ 1 HWGLContext.kt\ncom/commsource/editengine/HWGLContext\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,71:1\n1819#2,2:72\n*E\n*S KotlinDebug\n*F\n+ 1 HWGLContext.kt\ncom/commsource/editengine/HWGLContext\n*L\n45#1,2:72\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000H\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0006\u0018\u00002\u00020\u0001B\u0007\u00a2\u0006\u0004\u0008(\u0010\u0004J\r\u0010\u0003\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0003\u0010\u0004J\r\u0010\u0005\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0005\u0010\u0004J\u0015\u0010\u0008\u001a\u00020\u00022\u0006\u0010\u0007\u001a\u00020\u0006\u00a2\u0006\u0004\u0008\u0008\u0010\tJ\u0017\u0010\n\u001a\u00020\u00022\u0008\u0010\u0007\u001a\u0004\u0018\u00010\u0006\u00a2\u0006\u0004\u0008\n\u0010\tJ\u0019\u0010\r\u001a\u0004\u0018\u00010\u000b2\u0008\u0010\u000c\u001a\u0004\u0018\u00010\u000b\u00a2\u0006\u0004\u0008\r\u0010\u000eR\u0019\u0010\u0014\u001a\u00020\u000f8\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u0010\u0010\u0011\u001a\u0004\u0008\u0012\u0010\u0013R\u0019\u0010\u0019\u001a\u00020\u00158\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\r\u0010\u0016\u001a\u0004\u0008\u0017\u0010\u0018R\u001c\u0010\u001c\u001a\u0008\u0012\u0004\u0012\u00020\u00060\u001a8\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0017\u0010\u001bR$\u0010\"\u001a\u0004\u0018\u00010\u001d8\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0008\u0010\u001e\u001a\u0004\u0008\u0010\u0010\u001f\"\u0004\u0008 \u0010!R\u0019\u0010\'\u001a\u00020#8\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u0012\u0010$\u001a\u0004\u0008%\u0010&\u00a8\u0006)"
-    }
-    d2 = {
-        "Lcom/commsource/editengine/b;",
-        "",
-        "Lcotlin/t1;",
-        "g",
-        "()V",
-        "h",
-        "Lcom/commsource/editengine/a;",
-        "observer",
-        "a",
-        "(Lcom/commsource/editengine/a;)V",
-        "i",
-        "Lcom/commsource/easyeditor/utils/opengl/f;",
-        "srcFBOEntity",
-        "b",
-        "(Lcom/commsource/easyeditor/utils/opengl/f;)Lcom/commsource/easyeditor/utils/opengl/f;",
-        "Lcom/commsource/studio/s;",
-        "c",
-        "Lcom/commsource/studio/s;",
-        "d",
-        "()Lcom/commsource/studio/s;",
-        "fboPool",
-        "Lcom/commsource/studio/shader/n;",
-        "Lcom/commsource/studio/shader/n;",
-        "e",
-        "()Lcom/commsource/studio/shader/n;",
-        "textureCopyProgram",
-        "Ljava/util/LinkedList;",
-        "Ljava/util/LinkedList;",
-        "glLifecycleObserver",
-        "Lcom/commsource/easyeditor/utils/opengl/e;",
-        "Lcom/commsource/easyeditor/utils/opengl/e;",
-        "()Lcom/commsource/easyeditor/utils/opengl/e;",
-        "j",
-        "(Lcom/commsource/easyeditor/utils/opengl/e;)V",
-        "eglProvider",
-        "Lcom/commsource/editengine/h;",
-        "Lcom/commsource/editengine/h;",
-        "f",
-        "()Lcom/commsource/editengine/h;",
-        "texturePool",
-        "<init>",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

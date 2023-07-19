@@ -12,63 +12,7 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nAutoManualStack.kt\nKotlin\n*S Kotlin\n*F\n+ 1 AutoManualStack.kt\ncom/commsource/studio/AutoManualStack\n*L\n1#1,138:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000,\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0010\u000e\n\u0002\u0008\r\u0018\u00002\u0008\u0012\u0004\u0012\u00020\u00020\u0001B\u0017\u0012\u0006\u0010\u001e\u001a\u00020\u0003\u0012\u0006\u0010\u001f\u001a\u00020\u0015\u00a2\u0006\u0004\u0008 \u0010!J)\u0010\u0008\u001a\u00020\u00072\u0006\u0010\u0004\u001a\u00020\u00032\u0006\u0010\u0005\u001a\u00020\u00032\u0008\u0010\u0006\u001a\u0004\u0018\u00010\u0002H\u0016\u00a2\u0006\u0004\u0008\u0008\u0010\tJ!\u0010\n\u001a\u0004\u0018\u00010\u00022\u0006\u0010\u0004\u001a\u00020\u00032\u0006\u0010\u0005\u001a\u00020\u0003H\u0016\u00a2\u0006\u0004\u0008\n\u0010\u000bJ\u001f\u0010\u000c\u001a\u00020\u00072\u0006\u0010\u0004\u001a\u00020\u00032\u0006\u0010\u0005\u001a\u00020\u0003H\u0016\u00a2\u0006\u0004\u0008\u000c\u0010\rR(\u0010\u0014\u001a\u0008\u0012\u0004\u0012\u00020\u00020\u000e8\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u000c\u0010\u000f\u001a\u0004\u0008\u0010\u0010\u0011\"\u0004\u0008\u0012\u0010\u0013R*\u0010\u001d\u001a\n \u0016*\u0004\u0018\u00010\u00150\u00158\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0017\u0010\u0018\u001a\u0004\u0008\u0019\u0010\u001a\"\u0004\u0008\u001b\u0010\u001c\u00a8\u0006\""
-    }
-    d2 = {
-        "Lcom/commsource/studio/d;",
-        "Lcom/commsource/studio/e0;",
-        "Lcom/commsource/studio/e;",
-        "",
-        "startPosition",
-        "offset",
-        "obj",
-        "Lcotlin/t1;",
-        "p",
-        "(IILcom/commsource/studio/e;)V",
-        "s",
-        "(II)Lcom/commsource/studio/e;",
-        "e",
-        "(II)V",
-        "Landroid/util/SparseArray;",
-        "Landroid/util/SparseArray;",
-        "q",
-        "()Landroid/util/SparseArray;",
-        "t",
-        "(Landroid/util/SparseArray;)V",
-        "autoManualStateCache",
-        "",
-        "kotlin.jvm.PlatformType",
-        "f",
-        "Ljava/lang/String;",
-        "r",
-        "()Ljava/lang/String;",
-        "u",
-        "(Ljava/lang/String;)V",
-        "cachePath",
-        "maxSize",
-        "cacheName",
-        "<init>",
-        "(ILjava/lang/String;)V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

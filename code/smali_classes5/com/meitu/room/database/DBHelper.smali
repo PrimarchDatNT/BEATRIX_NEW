@@ -4,52 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nDBHelper.kt\nKotlin\n*S Kotlin\n*F\n+ 1 DBHelper.kt\ncom/meitu/room/database/DBHelper\n*L\n1#1,505:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u00000\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0010 \n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000e\n\u0000\n\u0002\u0010\u0011\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\n\u0008\u00c6\u0002\u0018\u00002\u00020\u0001B\t\u0008\u0002\u00a2\u0006\u0004\u0008\u0015\u0010\u0016J\u0015\u0010\u0004\u001a\u0008\u0012\u0004\u0012\u00020\u00030\u0002H\u0002\u00a2\u0006\u0004\u0008\u0004\u0010\u0005J\'\u0010\u000b\u001a\u00020\n2\u0008\u0010\u0007\u001a\u0004\u0018\u00010\u00062\u000e\u0010\t\u001a\n\u0012\u0004\u0012\u00020\u0001\u0018\u00010\u0008\u00a2\u0006\u0004\u0008\u000b\u0010\u000cR\u001d\u0010\u0011\u001a\u00020\r8F@\u0006X\u0086\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0004\u0010\u000e\u001a\u0004\u0008\u000f\u0010\u0010R\u0016\u0010\u0014\u001a\u00020\u00068\u0002@\u0002X\u0082T\u00a2\u0006\u0006\n\u0004\u0008\u0012\u0010\u0013\u00a8\u0006\u0017"
-    }
-    d2 = {
-        "Lcom/meitu/room/database/DBHelper;",
-        "",
-        "",
-        "Landroidx/room/migration/Migration;",
-        "b",
-        "()Ljava/util/List;",
-        "",
-        "sql",
-        "",
-        "args",
-        "Landroid/database/Cursor;",
-        "d",
-        "(Ljava/lang/String;[Ljava/lang/Object;)Landroid/database/Cursor;",
-        "Lcom/meitu/room/database/MTBeautyplusDatabase;",
-        "Lcotlin/w;",
-        "c",
-        "()Lcom/meitu/room/database/MTBeautyplusDatabase;",
-        "dataBase",
-        "a",
-        "Ljava/lang/String;",
-        "DB_NAME",
-        "<init>",
-        "()V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # static fields

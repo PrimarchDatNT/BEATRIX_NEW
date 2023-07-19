@@ -4,69 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nTextFontPage.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TextFontPage.kt\ncom/commsource/studio/text/TextFontPage\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,243:1\n318#2,7:244\n*E\n*S KotlinDebug\n*F\n+ 1 TextFontPage.kt\ncom/commsource/studio/text/TextFontPage\n*L\n222#1,7:244\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000G\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0010\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0006*\u0001\u0015\u0018\u00002\u00020\u0001B\u000f\u0012\u0006\u0010\u001f\u001a\u00020\u001a\u00a2\u0006\u0004\u0008&\u0010\'J\u000f\u0010\u0003\u001a\u00020\u0002H\u0002\u00a2\u0006\u0004\u0008\u0003\u0010\u0004J\u000f\u0010\u0005\u001a\u00020\u0002H\u0002\u00a2\u0006\u0004\u0008\u0005\u0010\u0004J\r\u0010\u0006\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0006\u0010\u0004J\r\u0010\u0008\u001a\u00020\u0007\u00a2\u0006\u0004\u0008\u0008\u0010\tJ\r\u0010\n\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\n\u0010\u0004R\u001d\u0010\u0010\u001a\u00020\u000b8B@\u0002X\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u000c\u0010\r\u001a\u0004\u0008\u000e\u0010\u000fR\u0016\u0010\u0014\u001a\u00020\u00118\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0012\u0010\u0013R\u001d\u0010\u0019\u001a\u00020\u00158B@\u0002X\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0016\u0010\r\u001a\u0004\u0008\u0017\u0010\u0018R\u0019\u0010\u001f\u001a\u00020\u001a8\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u001b\u0010\u001c\u001a\u0004\u0008\u001d\u0010\u001eR(\u0010%\u001a\u0014\u0012\u0004\u0012\u00020!\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\u00010\"0 8\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008#\u0010$\u00a8\u0006("
-    }
-    d2 = {
-        "Lcom/commsource/studio/text/TextFontPage;",
-        "",
-        "Lcotlin/t1;",
-        "j",
-        "()V",
-        "m",
-        "k",
-        "Landroid/view/View;",
-        "i",
-        "()Landroid/view/View;",
-        "l",
-        "Lcom/commsource/studio/text/TextViewModel;",
-        "b",
-        "Lcotlin/w;",
-        "h",
-        "()Lcom/commsource/studio/text/TextViewModel;",
-        "mViewModel",
-        "Lcom/commsource/beautyplus/f0/ef;",
-        "c",
-        "Lcom/commsource/beautyplus/f0/ef;",
-        "viewBinding",
-        "com/commsource/studio/text/TextFontPage$fontAdapter$2$a",
-        "a",
-        "f",
-        "()Lcom/commsource/studio/text/TextFontPage$fontAdapter$2$a;",
-        "fontAdapter",
-        "Lcom/commsource/studio/sticker/TextFragment;",
-        "e",
-        "Lcom/commsource/studio/sticker/TextFragment;",
-        "g",
-        "()Lcom/commsource/studio/sticker/TextFragment;",
-        "fragment",
-        "Lcom/commsource/util/common/b;",
-        "",
-        "Lcom/commsource/widget/h1/f;",
-        "d",
-        "Lcom/commsource/util/common/b;",
-        "visibleCallback",
-        "<init>",
-        "(Lcom/commsource/studio/sticker/TextFragment;)V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

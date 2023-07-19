@@ -4,73 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nGLPaintProcessor.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GLPaintProcessor.kt\ncom/commsource/studio/processor/GLPaintProcessor\n*L\n1#1,133:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000>\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u0007\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0010\u0008\n\u0002\u0008\u000c\n\u0002\u0018\u0002\n\u0002\u0008\u0005\u0018\u00002\u00020\u0001B\u0017\u0012\u0006\u0010 \u001a\u00020\u001a\u0012\u0006\u0010\"\u001a\u00020\u001a\u00a2\u0006\u0004\u0008*\u0010+J\u0015\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J\u000f\u0010\u0007\u001a\u00020\u0004H\u0016\u00a2\u0006\u0004\u0008\u0007\u0010\u0008J\u000f\u0010\t\u001a\u00020\u0004H\u0016\u00a2\u0006\u0004\u0008\t\u0010\u0008J\u0017\u0010\u000c\u001a\u00020\u00042\u0006\u0010\u000b\u001a\u00020\nH\u0016\u00a2\u0006\u0004\u0008\u000c\u0010\rR\u0016\u0010\u0011\u001a\u00020\u000e8\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u000f\u0010\u0010R\"\u0010\u0019\u001a\u00020\u00128\u0006@\u0006X\u0086.\u00a2\u0006\u0012\n\u0004\u0008\u0013\u0010\u0014\u001a\u0004\u0008\u0015\u0010\u0016\"\u0004\u0008\u0017\u0010\u0018R\"\u0010 \u001a\u00020\u001a8\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u001b\u0010\u001c\u001a\u0004\u0008\u000f\u0010\u001d\"\u0004\u0008\u001e\u0010\u001fR\"\u0010\"\u001a\u00020\u001a8\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008!\u0010\u001c\u001a\u0004\u0008\u0013\u0010\u001d\"\u0004\u0008\u001b\u0010\u001fR\"\u0010&\u001a\u00020\n8\u0006@\u0006X\u0086.\u00a2\u0006\u0012\n\u0004\u0008\u0015\u0010#\u001a\u0004\u0008$\u0010%\"\u0004\u0008!\u0010\rR\u0016\u0010)\u001a\u00020\'8\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008$\u0010(\u00a8\u0006,"
-    }
-    d2 = {
-        "Lcom/commsource/studio/processor/f;",
-        "Lcom/commsource/studio/processor/BaseEffectProcessor;",
-        "Landroidx/fragment/app/Fragment;",
-        "fragment",
-        "Lcotlin/t1;",
-        "L",
-        "(Landroidx/fragment/app/Fragment;)V",
-        "a",
-        "()V",
-        "c",
-        "Lcom/commsource/easyeditor/utils/opengl/f;",
-        "disFBO",
-        "s",
-        "(Lcom/commsource/easyeditor/utils/opengl/f;)V",
-        "",
-        "P",
-        "F",
-        "paintSizeInViewPort",
-        "Lcom/commsource/studio/shader/m;",
-        "M",
-        "Lcom/commsource/studio/shader/m;",
-        "O",
-        "()Lcom/commsource/studio/shader/m;",
-        "S",
-        "(Lcom/commsource/studio/shader/m;)V",
-        "paintPathProgram",
-        "",
-        "Q",
-        "I",
-        "()I",
-        "T",
-        "(I)V",
-        "width",
-        "R",
-        "height",
-        "Lcom/commsource/easyeditor/utils/opengl/f;",
-        "N",
-        "()Lcom/commsource/easyeditor/utils/opengl/f;",
-        "maxEffectFBOEntity",
-        "Lcom/commsource/studio/shader/i;",
-        "Lcom/commsource/studio/shader/i;",
-        "mixPaintProgram",
-        "<init>",
-        "(II)V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

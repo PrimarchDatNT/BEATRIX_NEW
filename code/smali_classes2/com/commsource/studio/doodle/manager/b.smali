@@ -12,53 +12,6 @@
     }
 .end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000B\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u0008\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010!\n\u0002\u0010\u0000\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u0018\u00002\u0008\u0012\u0004\u0012\u00020\u00020\u0001B\u0017\u0012\u0006\u0010\u0017\u001a\u00020\u0012\u0012\u0006\u0010\u0019\u001a\u00020\u0018\u00a2\u0006\u0004\u0008\u001a\u0010\u001bJ5\u0010\u000b\u001a\u00020\n2\u0006\u0010\u0004\u001a\u00020\u00032\u000c\u0010\u0006\u001a\u0008\u0012\u0004\u0012\u00020\u00020\u00052\u000e\u0010\t\u001a\n\u0012\u0004\u0012\u00020\u0008\u0018\u00010\u0007H\u0017\u00a2\u0006\u0004\u0008\u000b\u0010\u000cR\u001e\u0010\u0011\u001a\n \u000e*\u0004\u0018\u00010\r0\r8\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u000f\u0010\u0010R\u0019\u0010\u0017\u001a\u00020\u00128\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u0013\u0010\u0014\u001a\u0004\u0008\u0015\u0010\u0016\u00a8\u0006\u001c"
-    }
-    d2 = {
-        "Lcom/commsource/studio/doodle/manager/b;",
-        "Lcom/commsource/widget/h1/f;",
-        "Lcom/commsource/studio/doodle/manager/a;",
-        "",
-        "position",
-        "Lcom/commsource/widget/h1/d;",
-        "item",
-        "",
-        "",
-        "payloads",
-        "Lcotlin/t1;",
-        "k",
-        "(ILcom/commsource/widget/h1/d;Ljava/util/List;)V",
-        "Lcom/commsource/beautyplus/f0/oe;",
-        "kotlin.jvm.PlatformType",
-        "p",
-        "Lcom/commsource/beautyplus/f0/oe;",
-        "viewBinding",
-        "Landroid/content/Context;",
-        "J",
-        "Landroid/content/Context;",
-        "v",
-        "()Landroid/content/Context;",
-        "context",
-        "Landroid/view/ViewGroup;",
-        "parent",
-        "<init>",
-        "(Landroid/content/Context;Landroid/view/ViewGroup;)V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

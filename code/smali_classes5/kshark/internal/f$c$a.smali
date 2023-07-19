@@ -16,45 +16,6 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000\"\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0010\t\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0006\u0018\u00002\u00020\u00012\u00020\u0002B\u001f\u0012\u0006\u0010\r\u001a\u00020\t\u0012\u0006\u0010\u0011\u001a\u00020\u000e\u0012\u0006\u0010\u0008\u001a\u00020\u0003\u00a2\u0006\u0004\u0008\u0012\u0010\u0013R\u001c\u0010\u0008\u001a\u00020\u00038\u0016@\u0016X\u0096\u0004\u00a2\u0006\u000c\n\u0004\u0008\u0004\u0010\u0005\u001a\u0004\u0008\u0006\u0010\u0007R\u001c\u0010\r\u001a\u00020\t8\u0016@\u0016X\u0096\u0004\u00a2\u0006\u000c\n\u0004\u0008\u0006\u0010\n\u001a\u0004\u0008\u000b\u0010\u000cR\u001c\u0010\u0011\u001a\u00020\u000e8\u0016@\u0016X\u0096\u0004\u00a2\u0006\u000c\n\u0004\u0008\u000b\u0010\u000f\u001a\u0004\u0008\u0004\u0010\u0010\u00a8\u0006\u0014"
-    }
-    d2 = {
-        "kshark/internal/f$c$a",
-        "Lkshark/internal/f$c;",
-        "Lkshark/internal/f$b;",
-        "Lkshark/LibraryLeakReferenceMatcher;",
-        "c",
-        "Lkshark/LibraryLeakReferenceMatcher;",
-        "a",
-        "()Lkshark/LibraryLeakReferenceMatcher;",
-        "matcher",
-        "",
-        "J",
-        "b",
-        "()J",
-        "objectId",
-        "Lkshark/d;",
-        "Lkshark/d;",
-        "()Lkshark/d;",
-        "gcRoot",
-        "<init>",
-        "(JLkshark/d;Lkshark/LibraryLeakReferenceMatcher;)V",
-        "shark"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

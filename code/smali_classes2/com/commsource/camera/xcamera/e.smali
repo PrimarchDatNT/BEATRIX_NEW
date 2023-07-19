@@ -4,48 +4,6 @@
 
 
 # annotations
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000.\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u000e\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0008\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\t\u0018\u00002\u00020\u0001B\u0007\u00a2\u0006\u0004\u0008\u0015\u0010\u0016J\u000f\u0010\u0003\u001a\u00020\u0002H\u0014\u00a2\u0006\u0004\u0008\u0003\u0010\u0004J\u0017\u0010\u0007\u001a\u00020\u00052\u0006\u0010\u0006\u001a\u00020\u0005H\u0014\u00a2\u0006\u0004\u0008\u0007\u0010\u0008J\u0019\u0010\u000c\u001a\u00020\u000b2\u0008\u0010\n\u001a\u0004\u0018\u00010\tH\u0014\u00a2\u0006\u0004\u0008\u000c\u0010\rR\"\u0010\u0014\u001a\u00020\u000e8\u0006@\u0006X\u0086.\u00a2\u0006\u0012\n\u0004\u0008\u0003\u0010\u000f\u001a\u0004\u0008\u0010\u0010\u0011\"\u0004\u0008\u0012\u0010\u0013\u00a8\u0006\u0017"
-    }
-    d2 = {
-        "Lcom/commsource/camera/xcamera/e;",
-        "Lcom/meitu/library/d/a/a$a;",
-        "",
-        "a",
-        "()Ljava/lang/String;",
-        "Lcom/meitu/library/d/a/a$d;",
-        "previewParams",
-        "c",
-        "(Lcom/meitu/library/d/a/a$d;)Lcom/meitu/library/d/a/a$d;",
-        "Lcom/meitu/library/d/a/a$c;",
-        "cameraInfo",
-        "",
-        "b",
-        "(Lcom/meitu/library/d/a/a$c;)I",
-        "Lcom/commsource/camera/xcamera/i;",
-        "Lcom/commsource/camera/xcamera/i;",
-        "e",
-        "()Lcom/commsource/camera/xcamera/i;",
-        "f",
-        "(Lcom/commsource/camera/xcamera/i;)V",
-        "cameraParams",
-        "<init>",
-        "()V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

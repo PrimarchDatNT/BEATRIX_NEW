@@ -4,64 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nMakeupPresetItemDecoration.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MakeupPresetItemDecoration.kt\ncom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupPresetItemDecoration\n*L\n1#1,61:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000H\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0010\u000b\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0002\u0008\u0006\u0018\u00002\u00020\u0001B\u0007\u00a2\u0006\u0004\u0008!\u0010\"J/\u0010\u000b\u001a\u00020\n2\u0006\u0010\u0003\u001a\u00020\u00022\u0006\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0007\u001a\u00020\u00062\u0006\u0010\t\u001a\u00020\u0008H\u0016\u00a2\u0006\u0004\u0008\u000b\u0010\u000cJ\'\u0010\u000f\u001a\u00020\n2\u0006\u0010\u000e\u001a\u00020\r2\u0006\u0010\u0007\u001a\u00020\u00062\u0006\u0010\t\u001a\u00020\u0008H\u0016\u00a2\u0006\u0004\u0008\u000f\u0010\u0010R\u0019\u0010\u0015\u001a\u00020\u00118\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u0012\u0010\u0013\u001a\u0004\u0008\u000e\u0010\u0014R\"\u0010\u001c\u001a\u00020\u00168\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0017\u0010\u0018\u001a\u0004\u0008\u0017\u0010\u0019\"\u0004\u0008\u001a\u0010\u001bR\u001d\u0010 \u001a\u00020\u001d8F@\u0006X\u0086\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u000e\u0010\u001e\u001a\u0004\u0008\u0012\u0010\u001f\u00a8\u0006#"
-    }
-    d2 = {
-        "Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/makeup/MakeupPresetItemDecoration;",
-        "Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;",
-        "Landroid/graphics/Rect;",
-        "outRect",
-        "Landroid/view/View;",
-        "view",
-        "Landroidx/recyclerview/widget/RecyclerView;",
-        "parent",
-        "Landroidx/recyclerview/widget/RecyclerView$State;",
-        "state",
-        "Lcotlin/t1;",
-        "getItemOffsets",
-        "(Landroid/graphics/Rect;Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$State;)V",
-        "Landroid/graphics/Canvas;",
-        "c",
-        "onDraw",
-        "(Landroid/graphics/Canvas;Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$State;)V",
-        "Landroid/graphics/RectF;",
-        "b",
-        "Landroid/graphics/RectF;",
-        "()Landroid/graphics/RectF;",
-        "roundRectF",
-        "",
-        "a",
-        "Z",
-        "()Z",
-        "d",
-        "(Z)V",
-        "hasPreset",
-        "Landroid/graphics/Paint;",
-        "Lcotlin/w;",
-        "()Landroid/graphics/Paint;",
-        "paint",
-        "<init>",
-        "()V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

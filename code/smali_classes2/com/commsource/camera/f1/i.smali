@@ -10,56 +10,7 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nXAnimation.kt\nKotlin\n*S Kotlin\n*F\n+ 1 XAnimation.kt\ncom/commsource/camera/util/XAnimationCapture\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 3 View.kt\nandroidx/core/view/ViewKt\n*L\n1#1,518:1\n1819#2:519\n1820#2:548\n1819#2:549\n1820#2:582\n1819#2,2:583\n330#3,28:520\n330#3:550\n330#3,10:551\n339#3,10:561\n348#3,10:571\n357#3:581\n*E\n*S KotlinDebug\n*F\n+ 1 XAnimation.kt\ncom/commsource/camera/util/XAnimationCapture\n*L\n176#1:519\n176#1:548\n214#1:549\n214#1:582\n332#1,2:583\n176#1,28:520\n214#1:550\n214#1,10:551\n214#1,10:561\n214#1,10:571\n214#1:581\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u00004\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u0007\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0010\u000e\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0008\u0018\u0000 \u001a2\u00020\u0001:\u0001\u000eB\u000f\u0012\u0006\u0010\u0017\u001a\u00020\u0013\u00a2\u0006\u0004\u0008\u0018\u0010\u0019J\r\u0010\u0003\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0003\u0010\u0004J\r\u0010\u0005\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0005\u0010\u0004J\u0017\u0010\u0008\u001a\u00020\u00022\u0008\u0008\u0001\u0010\u0007\u001a\u00020\u0006\u00a2\u0006\u0004\u0008\u0008\u0010\tR9\u0010\u0012\u001a\"\u0012\u0004\u0012\u00020\u000b\u0012\u0006\u0012\u0004\u0018\u00010\u000c0\nj\u0010\u0012\u0004\u0012\u00020\u000b\u0012\u0006\u0012\u0004\u0018\u00010\u000c`\r8\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u000e\u0010\u000f\u001a\u0004\u0008\u0010\u0010\u0011R\u0019\u0010\u0017\u001a\u00020\u00138\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u0010\u0010\u0014\u001a\u0004\u0008\u0015\u0010\u0016\u00a8\u0006\u001b"
-    }
-    d2 = {
-        "Lcom/commsource/camera/f1/i;",
-        "",
-        "Lcotlin/t1;",
-        "d",
-        "()V",
-        "e",
-        "",
-        "fraction",
-        "f",
-        "(F)V",
-        "Ljava/util/HashMap;",
-        "",
-        "Lcom/commsource/camera/f1/p;",
-        "Lcotlin/collections/HashMap;",
-        "a",
-        "Ljava/util/HashMap;",
-        "b",
-        "()Ljava/util/HashMap;",
-        "animationMap",
-        "Landroid/view/View;",
-        "Landroid/view/View;",
-        "c",
-        "()Landroid/view/View;",
-        "target",
-        "<init>",
-        "(Landroid/view/View;)V",
-        "r",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # static fields

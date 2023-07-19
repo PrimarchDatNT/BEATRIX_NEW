@@ -13,40 +13,6 @@
     }
 .end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000\u0018\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0010\u0003\n\u0002\u0008\u0007\u0008\u0000\u0018\u0000 \u000e2\u00020\u0001:\u0001\u0003B\u000f\u0012\u0006\u0010\u000b\u001a\u00020\u0008\u00a2\u0006\u0004\u0008\u000c\u0010\rR \u0010\u0007\u001a\u0006\u0012\u0002\u0008\u00030\u00028\u0016@\u0016X\u0096\u0004\u00a2\u0006\u000c\n\u0004\u0008\u0003\u0010\u0004\u001a\u0004\u0008\u0005\u0010\u0006R\u0016\u0010\u000b\u001a\u00020\u00088\u0006@\u0007X\u0087\u0004\u00a2\u0006\u0006\n\u0004\u0008\t\u0010\n\u00a8\u0006\u000f"
-    }
-    d2 = {
-        "Lcotlinx/coroutines/flow/internal/c;",
-        "Lcotlin/coroutines/CoroutineContext$a;",
-        "Lcotlin/coroutines/CoroutineContext$b;",
-        "a",
-        "Lcotlin/coroutines/CoroutineContext$b;",
-        "getKey",
-        "()Lcotlin/coroutines/CoroutineContext$b;",
-        "key",
-        "",
-        "b",
-        "Ljava/lang/Throwable;",
-        "e",
-        "<init>",
-        "(Ljava/lang/Throwable;)V",
-        "c",
-        "kotlinx-coroutines-core"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # static fields

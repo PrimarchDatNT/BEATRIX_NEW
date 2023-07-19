@@ -10,69 +10,6 @@
     }
 .end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000>\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u000e\n\u0000\n\u0002\u0010\u000b\n\u0000\n\u0002\u0010\u0008\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\t\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0010\n\u0002\u0018\u0002\n\u0002\u0008\u0005\u0018\u0000 +2\u00020\u0001:\u0001\u0017B\u000f\u0012\u0006\u0010(\u001a\u00020\'\u00a2\u0006\u0004\u0008)\u0010*J)\u0010\t\u001a\u00020\u00082\u0008\u0010\u0003\u001a\u0004\u0018\u00010\u00022\u0006\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0007\u001a\u00020\u0006H\u0002\u00a2\u0006\u0004\u0008\t\u0010\nJ\'\u0010\u000e\u001a\u00020\u00082\u0006\u0010\u000c\u001a\u00020\u000b2\u0006\u0010\r\u001a\u00020\u00062\u0006\u0010\u0007\u001a\u00020\u0006H\u0007\u00a2\u0006\u0004\u0008\u000e\u0010\u000fJ\u0015\u0010\u0011\u001a\u00020\u00082\u0006\u0010\u0010\u001a\u00020\u0004\u00a2\u0006\u0004\u0008\u0011\u0010\u0012J\r\u0010\u0013\u001a\u00020\u0004\u00a2\u0006\u0004\u0008\u0013\u0010\u0014R\u001f\u0010\u001b\u001a\u0008\u0012\u0004\u0012\u00020\u00160\u00158\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u0017\u0010\u0018\u001a\u0004\u0008\u0019\u0010\u001aR\u001f\u0010\u001e\u001a\u0008\u0012\u0004\u0012\u00020\u00060\u00158\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u001c\u0010\u0018\u001a\u0004\u0008\u001d\u0010\u001aR\"\u0010#\u001a\u00020\u00048\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u001f\u0010 \u001a\u0004\u0008!\u0010\u0014\"\u0004\u0008\"\u0010\u0012R\u001f\u0010&\u001a\u0008\u0012\u0004\u0012\u00020\u000b0\u00158\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008$\u0010\u0018\u001a\u0004\u0008%\u0010\u001a\u00a8\u0006,"
-    }
-    d2 = {
-        "Lcom/commsource/camera/xcamera/cover/montage/a;",
-        "Landroidx/lifecycle/AndroidViewModel;",
-        "",
-        "url",
-        "",
-        "isMale",
-        "",
-        "picSource",
-        "Lcotlin/t1;",
-        "F",
-        "(Ljava/lang/String;ZI)V",
-        "Landroid/graphics/Bitmap;",
-        "effectBitmap",
-        "faceIndex",
-        "M",
-        "(Landroid/graphics/Bitmap;II)V",
-        "isFromUser",
-        "E",
-        "(Z)V",
-        "K",
-        "()Z",
-        "Landroidx/lifecycle/MutableLiveData;",
-        "Lcom/meitu/template/bean/ArMaterial;",
-        "a",
-        "Landroidx/lifecycle/MutableLiveData;",
-        "G",
-        "()Landroidx/lifecycle/MutableLiveData;",
-        "createMontageEvent",
-        "b",
-        "I",
-        "updateMontageFollowEvent",
-        "d",
-        "Z",
-        "J",
-        "L",
-        "isCreateEnable",
-        "c",
-        "H",
-        "loadingImageEvent",
-        "Landroid/app/Application;",
-        "application",
-        "<init>",
-        "(Landroid/app/Application;)V",
-        "j",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # static fields

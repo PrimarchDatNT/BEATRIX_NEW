@@ -16,63 +16,6 @@
     name = "ResponseMediaInfo"
 .end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u00000\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0010\u000e\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0008\n\u0002\u0010\u0008\n\u0002\u0008\u0003\n\u0002\u0010\u000b\n\u0002\u0008\u0011\u0008\u0087\u0008\u0018\u00002\u00020\u0001B\u001f\u0012\u0006\u0010\u000b\u001a\u00020\u0002\u0012\u0006\u0010\u000c\u001a\u00020\u0005\u0012\u0006\u0010\r\u001a\u00020\u0008\u00a2\u0006\u0004\u0008$\u0010%J\u0010\u0010\u0003\u001a\u00020\u0002H\u00c6\u0003\u00a2\u0006\u0004\u0008\u0003\u0010\u0004J\u0010\u0010\u0006\u001a\u00020\u0005H\u00c6\u0003\u00a2\u0006\u0004\u0008\u0006\u0010\u0007J\u0010\u0010\t\u001a\u00020\u0008H\u00c6\u0003\u00a2\u0006\u0004\u0008\t\u0010\nJ.\u0010\u000e\u001a\u00020\u00002\u0008\u0008\u0002\u0010\u000b\u001a\u00020\u00022\u0008\u0008\u0002\u0010\u000c\u001a\u00020\u00052\u0008\u0008\u0002\u0010\r\u001a\u00020\u0008H\u00c6\u0001\u00a2\u0006\u0004\u0008\u000e\u0010\u000fJ\u0010\u0010\u0010\u001a\u00020\u0002H\u00d6\u0001\u00a2\u0006\u0004\u0008\u0010\u0010\u0004J\u0010\u0010\u0012\u001a\u00020\u0011H\u00d6\u0001\u00a2\u0006\u0004\u0008\u0012\u0010\u0013J\u001a\u0010\u0016\u001a\u00020\u00152\u0008\u0010\u0014\u001a\u0004\u0018\u00010\u0001H\u00d6\u0003\u00a2\u0006\u0004\u0008\u0016\u0010\u0017R\"\u0010\r\u001a\u00020\u00088\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\r\u0010\u0018\u001a\u0004\u0008\u0019\u0010\n\"\u0004\u0008\u001a\u0010\u001bR\"\u0010\u000b\u001a\u00020\u00028\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u000b\u0010\u001c\u001a\u0004\u0008\u001d\u0010\u0004\"\u0004\u0008\u001e\u0010\u001fR\"\u0010\u000c\u001a\u00020\u00058\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u000c\u0010 \u001a\u0004\u0008!\u0010\u0007\"\u0004\u0008\"\u0010#\u00a8\u0006&"
-    }
-    d2 = {
-        "Lcom/meitu/http/api/OpenLabApi$ResponseMediaInfo;",
-        "",
-        "",
-        "component1",
-        "()Ljava/lang/String;",
-        "Lcom/meitu/http/api/OpenLabApi$MediaProfiles;",
-        "component2",
-        "()Lcom/meitu/http/api/OpenLabApi$MediaProfiles;",
-        "Lcom/meitu/http/api/OpenLabApi$MaskExtra;",
-        "component3",
-        "()Lcom/meitu/http/api/OpenLabApi$MaskExtra;",
-        "media_data",
-        "media_profiles",
-        "media_extra",
-        "copy",
-        "(Ljava/lang/String;Lcom/meitu/http/api/OpenLabApi$MediaProfiles;Lcom/meitu/http/api/OpenLabApi$MaskExtra;)Lcom/meitu/http/api/OpenLabApi$ResponseMediaInfo;",
-        "toString",
-        "",
-        "hashCode",
-        "()I",
-        "other",
-        "",
-        "equals",
-        "(Ljava/lang/Object;)Z",
-        "Lcom/meitu/http/api/OpenLabApi$MaskExtra;",
-        "getMedia_extra",
-        "setMedia_extra",
-        "(Lcom/meitu/http/api/OpenLabApi$MaskExtra;)V",
-        "Ljava/lang/String;",
-        "getMedia_data",
-        "setMedia_data",
-        "(Ljava/lang/String;)V",
-        "Lcom/meitu/http/api/OpenLabApi$MediaProfiles;",
-        "getMedia_profiles",
-        "setMedia_profiles",
-        "(Lcom/meitu/http/api/OpenLabApi$MediaProfiles;)V",
-        "<init>",
-        "(Ljava/lang/String;Lcom/meitu/http/api/OpenLabApi$MediaProfiles;Lcom/meitu/http/api/OpenLabApi$MaskExtra;)V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

@@ -16,49 +16,6 @@
     name = "LifeCycleBound"
 .end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000,\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000b\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0002\u0008\u0007\u0008\u0080\u0004\u0018\u00002\u00020\u0001B\u001d\u0012\u0006\u0010\u0010\u001a\u00020\u0002\u0012\u000c\u0010\u0015\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u0011\u00a2\u0006\u0004\u0008\u0016\u0010\u0017J\u0015\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J\u001f\u0010\u000b\u001a\u00020\n2\u0006\u0010\u0007\u001a\u00020\u00022\u0006\u0010\t\u001a\u00020\u0008H\u0016\u00a2\u0006\u0004\u0008\u000b\u0010\u000cR\u0019\u0010\u0010\u001a\u00020\u00028\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\r\u0010\u000e\u001a\u0004\u0008\r\u0010\u000fR\u001f\u0010\u0015\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u00118\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u0012\u0010\u0013\u001a\u0004\u0008\u0012\u0010\u0014\u00a8\u0006\u0018"
-    }
-    d2 = {
-        "Lcom/commsource/beautyfilter/NoStickLiveData$LifeCycleBound;",
-        "Landroidx/lifecycle/LifecycleEventObserver;",
-        "Landroidx/lifecycle/LifecycleOwner;",
-        "owner",
-        "",
-        "c",
-        "(Landroidx/lifecycle/LifecycleOwner;)Z",
-        "source",
-        "Landroidx/lifecycle/Lifecycle$Event;",
-        "event",
-        "Lcotlin/t1;",
-        "onStateChanged",
-        "(Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V",
-        "a",
-        "Landroidx/lifecycle/LifecycleOwner;",
-        "()Landroidx/lifecycle/LifecycleOwner;",
-        "lifecycleOwner",
-        "Lcom/commsource/beautyfilter/NoStickLiveData$a;",
-        "b",
-        "Lcom/commsource/beautyfilter/NoStickLiveData$a;",
-        "()Lcom/commsource/beautyfilter/NoStickLiveData$a;",
-        "observer",
-        "<init>",
-        "(Lcom/commsource/beautyfilter/NoStickLiveData;Landroidx/lifecycle/LifecycleOwner;Lcom/commsource/beautyfilter/NoStickLiveData$a;)V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

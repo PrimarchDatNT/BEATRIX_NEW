@@ -7,72 +7,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nIDCardCameraActivity.kt\nKotlin\n*S Kotlin\n*F\n+ 1 IDCardCameraActivity.kt\ncom/commsource/camera/xcamera/idcard/IDCardCameraActivity\n*L\n1#1,102:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000D\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0010\u000b\n\u0002\u0008\u0003\n\u0002\u0010\u0008\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u000b\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0005\u0018\u00002\u00020\u00012\u00020\u0002B\u0007\u00a2\u0006\u0004\u0008*\u0010\u0005J\u000f\u0010\u0004\u001a\u00020\u0003H\u0014\u00a2\u0006\u0004\u0008\u0004\u0010\u0005J\u000f\u0010\u0006\u001a\u00020\u0003H\u0014\u00a2\u0006\u0004\u0008\u0006\u0010\u0005J\u000f\u0010\u0007\u001a\u00020\u0003H\u0014\u00a2\u0006\u0004\u0008\u0007\u0010\u0005J\u0017\u0010\n\u001a\u00020\u00032\u0006\u0010\t\u001a\u00020\u0008H\u0014\u00a2\u0006\u0004\u0008\n\u0010\u000bJ\u000f\u0010\r\u001a\u00020\u000cH\u0014\u00a2\u0006\u0004\u0008\r\u0010\u000eJ\u000f\u0010\u000f\u001a\u00020\u000cH\u0014\u00a2\u0006\u0004\u0008\u000f\u0010\u000eJ\u000f\u0010\u0010\u001a\u00020\u0003H\u0014\u00a2\u0006\u0004\u0008\u0010\u0010\u0005J\u000f\u0010\u0011\u001a\u00020\u0003H\u0014\u00a2\u0006\u0004\u0008\u0011\u0010\u0005J\u0019\u0010\u0014\u001a\u00020\u00082\u0008\u0010\u0013\u001a\u0004\u0018\u00010\u0012H\u0016\u00a2\u0006\u0004\u0008\u0014\u0010\u0015JY\u0010 \u001a\u00020\u00032\u0008\u0010\u0017\u001a\u0004\u0018\u00010\u00162\u0006\u0010\u0018\u001a\u00020\u000c2\u0006\u0010\u0019\u001a\u00020\u000c2\u0006\u0010\u001a\u001a\u00020\u000c2\u0006\u0010\u001b\u001a\u00020\u000c2\u0006\u0010\u001c\u001a\u00020\u000c2\u0006\u0010\u001d\u001a\u00020\u000c2\u0006\u0010\u001e\u001a\u00020\u000c2\u0006\u0010\u001f\u001a\u00020\u000cH\u0016\u00a2\u0006\u0004\u0008 \u0010!R\u0016\u0010%\u001a\u00020\"8\u0002@\u0002X\u0082.\u00a2\u0006\u0006\n\u0004\u0008#\u0010$R\u0016\u0010)\u001a\u00020&8\u0002@\u0002X\u0082.\u00a2\u0006\u0006\n\u0004\u0008\'\u0010(\u00a8\u0006+"
-    }
-    d2 = {
-        "Lcom/commsource/camera/xcamera/idcard/IDCardCameraActivity;",
-        "Lcom/commsource/camera/xcamera/BaseCameraNewActivity;",
-        "Landroid/view/View$OnLayoutChangeListener;",
-        "Lcotlin/t1;",
-        "X0",
-        "()V",
-        "Y0",
-        "V0",
-        "",
-        "isFirst",
-        "W0",
-        "(Z)V",
-        "",
-        "P0",
-        "()I",
-        "R0",
-        "onDestroy",
-        "m0",
-        "Landroid/view/KeyEvent;",
-        "event",
-        "dispatchKeyEvent",
-        "(Landroid/view/KeyEvent;)Z",
-        "Landroid/view/View;",
-        "v",
-        "left",
-        "top",
-        "right",
-        "bottom",
-        "oldLeft",
-        "oldTop",
-        "oldRight",
-        "oldBottom",
-        "onLayoutChange",
-        "(Landroid/view/View;IIIIIIII)V",
-        "Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;",
-        "Y",
-        "Lcom/commsource/camera/xcamera/cover/CameraConfigViewModel;",
-        "cameraConfigViewModel",
-        "Lcom/commsource/camera/xcamera/cover/bottomFunction/b;",
-        "X",
-        "Lcom/commsource/camera/xcamera/cover/bottomFunction/b;",
-        "bottomFunctionViewModel",
-        "<init>",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

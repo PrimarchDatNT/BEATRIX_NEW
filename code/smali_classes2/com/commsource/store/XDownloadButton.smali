@@ -10,73 +10,7 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nXDownloadButton.kt\nKotlin\n*S Kotlin\n*F\n+ 1 XDownloadButton.kt\ncom/commsource/store/XDownloadButton\n*L\n1#1,362:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000L\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u0008\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0006\u0018\u00002\u00020\u0001:\u0001+B\'\u0008\u0007\u0012\u0006\u0010%\u001a\u00020$\u0012\n\u0008\u0002\u0010\'\u001a\u0004\u0018\u00010&\u0012\u0008\u0008\u0002\u0010(\u001a\u00020\u0002\u00a2\u0006\u0004\u0008)\u0010*J\u0017\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u0002H\u0002\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J\r\u0010\u0008\u001a\u00020\u0007\u00a2\u0006\u0004\u0008\u0008\u0010\tR\u001d\u0010\u000e\u001a\u00020\n8F@\u0006X\u0086\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0008\u0010\u000b\u001a\u0004\u0008\u000c\u0010\rR\u001d\u0010\u0011\u001a\u00020\n8F@\u0006X\u0086\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u000f\u0010\u000b\u001a\u0004\u0008\u0010\u0010\rR\u001d\u0010\u0016\u001a\u00020\u00128F@\u0006X\u0086\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0013\u0010\u000b\u001a\u0004\u0008\u0014\u0010\u0015R\u001d\u0010\u001b\u001a\u00020\u00178F@\u0006X\u0086\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0018\u0010\u000b\u001a\u0004\u0008\u0019\u0010\u001aR\u001d\u0010\u001e\u001a\u00020\u00078B@\u0002X\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u001c\u0010\u000b\u001a\u0004\u0008\u001d\u0010\tR\u001d\u0010#\u001a\u00020\u001f8F@\u0006X\u0086\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008 \u0010\u000b\u001a\u0004\u0008!\u0010\"\u00a8\u0006,"
-    }
-    d2 = {
-        "Lcom/commsource/store/XDownloadButton;",
-        "Landroid/widget/FrameLayout;",
-        "",
-        "progress",
-        "Lcotlin/t1;",
-        "setProgress",
-        "(I)V",
-        "Lcom/commsource/store/XDownloadButton$Executer;",
-        "d",
-        "()Lcom/commsource/store/XDownloadButton$Executer;",
-        "Landroid/widget/TextView;",
-        "Lcotlin/w;",
-        "getTvDownloadNext",
-        "()Landroid/widget/TextView;",
-        "tvDownloadNext",
-        "a",
-        "getTvDownloadBefore",
-        "tvDownloadBefore",
-        "Lcom/commsource/widget/CircleDownloadProgressView;",
-        "f",
-        "getCvDownload",
-        "()Lcom/commsource/widget/CircleDownloadProgressView;",
-        "cvDownload",
-        "Lcom/commsource/widget/IconFrontView;",
-        "c",
-        "getIfDownloadBefore",
-        "()Lcom/commsource/widget/IconFrontView;",
-        "ifDownloadBefore",
-        "g",
-        "getExecuter",
-        "executer",
-        "Landroid/widget/ImageView;",
-        "b",
-        "getIvPro",
-        "()Landroid/widget/ImageView;",
-        "ivPro",
-        "Landroid/content/Context;",
-        "context",
-        "Landroid/util/AttributeSet;",
-        "attrs",
-        "defStyleAttr",
-        "<init>",
-        "(Landroid/content/Context;Landroid/util/AttributeSet;I)V",
-        "Executer",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

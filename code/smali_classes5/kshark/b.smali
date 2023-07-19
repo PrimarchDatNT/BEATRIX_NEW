@@ -4,44 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nAndroidObjectInspectors.kt\nKotlin\n*S Kotlin\n*F\n+ 1 AndroidObjectInspectors.kt\nkshark/AndroidObjectInspectorsKt\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,591:1\n1313#2:592\n1382#2,3:593\n1313#2:596\n1382#2,3:597\n1313#2:600\n1382#2,3:601\n*E\n*S KotlinDebug\n*F\n+ 1 AndroidObjectInspectors.kt\nkshark/AndroidObjectInspectorsKt\n*L\n539#1:592\n539#1,3:593\n540#1:596\n540#1,3:597\n541#1:600\n541#1,3:601\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000(\n\u0002\u0018\u0002\n\u0002\u0010\u000e\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\u001a\u001c\u0010\u0003\u001a\u00020\u0001*\u00020\u00002\u0006\u0010\u0002\u001a\u00020\u0001H\u0082\u0004\u00a2\u0006\u0004\u0008\u0003\u0010\u0004\u001a%\u0010\n\u001a\u00020\t*\u00020\u00052\u0006\u0010\u0007\u001a\u00020\u00062\u0008\u0010\u0008\u001a\u0004\u0018\u00010\u0000H\u0002\u00a2\u0006\u0004\u0008\n\u0010\u000b\u001a\u0015\u0010\r\u001a\u0004\u0018\u00010\u000c*\u00020\u000cH\u0000\u00a2\u0006\u0004\u0008\r\u0010\u000e\u00a8\u0006\u000f"
-    }
-    d2 = {
-        "Lkshark/h;",
-        "",
-        "valueDescription",
-        "d",
-        "(Lkshark/h;Ljava/lang/String;)Ljava/lang/String;",
-        "Lkshark/v;",
-        "Lkshark/u;",
-        "inspector",
-        "field",
-        "Lcotlin/t1;",
-        "c",
-        "(Lkshark/v;Lkshark/u;Lkshark/h;)V",
-        "Lkshark/HeapObject$HeapInstance;",
-        "e",
-        "(Lkshark/HeapObject$HeapInstance;)Lkshark/HeapObject$HeapInstance;",
-        "shark"
-    }
-    k = 0x2
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # direct methods

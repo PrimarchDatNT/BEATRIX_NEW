@@ -13,79 +13,7 @@
     name = "ColorPickView"
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nColorPickerLayer.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ColorPickerLayer.kt\ncom/commsource/studio/doodle/ColorPickerLayer$ColorPickView\n*L\n1#1,221:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000^\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u0007\n\u0002\u0008\u0003\n\u0002\u0010\u0006\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u0008\u0082\u0004\u0018\u00002\u00020\u0001B\u000f\u0012\u0006\u0010/\u001a\u00020.\u00a2\u0006\u0004\u00080\u00101J\u0017\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u0002H\u0002\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J\u0017\u0010\u0007\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u0002H\u0014\u00a2\u0006\u0004\u0008\u0007\u0010\u0006R\u0016\u0010\u000b\u001a\u00020\u00088\u0002@\u0002X\u0082.\u00a2\u0006\u0006\n\u0004\u0008\t\u0010\nR\u0016\u0010\u000f\u001a\u00020\u000c8\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\r\u0010\u000eR\u0016\u0010\u0013\u001a\u00020\u00108\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0011\u0010\u0012R\u0016\u0010\u0017\u001a\u00020\u00148\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0015\u0010\u0016R\u0016\u0010\u0019\u001a\u00020\u00088\u0002@\u0002X\u0082.\u00a2\u0006\u0006\n\u0004\u0008\u0018\u0010\nR\u0016\u0010\u001d\u001a\u00020\u001a8\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u001b\u0010\u001cR\u0016\u0010!\u001a\u00020\u001e8\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u001f\u0010 R\u0016\u0010%\u001a\u00020\"8\u0002@\u0002X\u0082D\u00a2\u0006\u0006\n\u0004\u0008#\u0010$R\u0016\u0010\'\u001a\u00020\u00088\u0002@\u0002X\u0082.\u00a2\u0006\u0006\n\u0004\u0008&\u0010\nR\u0016\u0010)\u001a\u00020\u00108\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008(\u0010\u0012R\u0016\u0010-\u001a\u00020*8\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008+\u0010,\u00a8\u00062"
-    }
-    d2 = {
-        "Lcom/commsource/studio/doodle/ColorPickerLayer$ColorPickView;",
-        "Landroid/view/View;",
-        "Landroid/graphics/Canvas;",
-        "canvas",
-        "Lcotlin/t1;",
-        "l",
-        "(Landroid/graphics/Canvas;)V",
-        "onDraw",
-        "Landroid/graphics/Bitmap;",
-        "a",
-        "Landroid/graphics/Bitmap;",
-        "blackMask",
-        "Landroid/graphics/Matrix;",
-        "K",
-        "Landroid/graphics/Matrix;",
-        "optMatrix",
-        "Landroid/graphics/Rect;",
-        "f",
-        "Landroid/graphics/Rect;",
-        "aimIconRealRect",
-        "Landroid/graphics/Paint;",
-        "p",
-        "Landroid/graphics/Paint;",
-        "paint",
-        "b",
-        "pickerBg",
-        "Landroid/graphics/Path;",
-        "J",
-        "Landroid/graphics/Path;",
-        "path",
-        "",
-        "L",
-        "F",
-        "distance2",
-        "",
-        "M",
-        "D",
-        "topAngle",
-        "c",
-        "aimIcon",
-        "d",
-        "colorDisPlayRealRect",
-        "Landroid/graphics/RectF;",
-        "g",
-        "Landroid/graphics/RectF;",
-        "drawAreaInfo",
-        "Landroid/content/Context;",
-        "ctx",
-        "<init>",
-        "(Lcom/commsource/studio/doodle/ColorPickerLayer;Landroid/content/Context;)V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

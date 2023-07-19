@@ -8,79 +8,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nDispatcher.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Dispatcher.kt\nkotlinx/coroutines/scheduling/LimitingDispatcher\n*L\n1#1,233:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000P\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000b\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0010\u000e\n\u0002\u0008\u0003\n\u0002\u0010\u0008\n\u0002\u0008\u0008\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\t\u0008\u0002\u0018\u00002\u00020\u00012\u00020\u00022\u00020\u0003B\u001f\u0012\u0006\u0010(\u001a\u00020#\u0012\u0006\u0010/\u001a\u00020\u001a\u0012\u0006\u0010\u001f\u001a\u00020\u001a\u00a2\u0006\u0004\u00080\u00101J#\u0010\n\u001a\u00020\t2\n\u0010\u0006\u001a\u00060\u0004j\u0002`\u00052\u0006\u0010\u0008\u001a\u00020\u0007H\u0002\u00a2\u0006\u0004\u0008\n\u0010\u000bJ\u001b\u0010\r\u001a\u00020\t2\n\u0010\u000c\u001a\u00060\u0004j\u0002`\u0005H\u0016\u00a2\u0006\u0004\u0008\r\u0010\u000eJ\u000f\u0010\u000f\u001a\u00020\tH\u0016\u00a2\u0006\u0004\u0008\u000f\u0010\u0010J#\u0010\u0013\u001a\u00020\t2\u0006\u0010\u0012\u001a\u00020\u00112\n\u0010\u0006\u001a\u00060\u0004j\u0002`\u0005H\u0016\u00a2\u0006\u0004\u0008\u0013\u0010\u0014J#\u0010\u0015\u001a\u00020\t2\u0006\u0010\u0012\u001a\u00020\u00112\n\u0010\u0006\u001a\u00060\u0004j\u0002`\u0005H\u0016\u00a2\u0006\u0004\u0008\u0015\u0010\u0014J\u000f\u0010\u0017\u001a\u00020\u0016H\u0016\u00a2\u0006\u0004\u0008\u0017\u0010\u0018J\u000f\u0010\u0019\u001a\u00020\tH\u0016\u00a2\u0006\u0004\u0008\u0019\u0010\u0010R\u001c\u0010\u001f\u001a\u00020\u001a8\u0016@\u0016X\u0096\u0004\u00a2\u0006\u000c\n\u0004\u0008\u001b\u0010\u001c\u001a\u0004\u0008\u001d\u0010\u001eR\u0016\u0010\"\u001a\u00020\u00038V@\u0016X\u0096\u0004\u00a2\u0006\u0006\u001a\u0004\u0008 \u0010!R\u0019\u0010(\u001a\u00020#8\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008$\u0010%\u001a\u0004\u0008&\u0010\'R \u0010,\u001a\u000c\u0012\u0008\u0012\u00060\u0004j\u0002`\u00050)8\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008*\u0010+R\u0019\u0010/\u001a\u00020\u001a8\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008-\u0010\u001c\u001a\u0004\u0008.\u0010\u001e\u00a8\u00062"
-    }
-    d2 = {
-        "Lcotlinx/coroutines/scheduling/e;",
-        "Lcotlinx/coroutines/ExecutorCoroutineDispatcher;",
-        "Lcotlinx/coroutines/scheduling/i;",
-        "Ljava/util/concurrent/Executor;",
-        "Ljava/lang/Runnable;",
-        "Lcotlinx/coroutines/Runnable;",
-        "block",
-        "",
-        "tailDispatch",
-        "Lcotlin/t1;",
-        "C",
-        "(Ljava/lang/Runnable;Z)V",
-        "command",
-        "execute",
-        "(Ljava/lang/Runnable;)V",
-        "close",
-        "()V",
-        "Lcotlin/coroutines/CoroutineContext;",
-        "context",
-        "u",
-        "(Lcotlin/coroutines/CoroutineContext;Ljava/lang/Runnable;)V",
-        "v",
-        "",
-        "toString",
-        "()Ljava/lang/String;",
-        "i",
-        "",
-        "g",
-        "I",
-        "k",
-        "()I",
-        "taskMode",
-        "A",
-        "()Ljava/util/concurrent/Executor;",
-        "executor",
-        "Lcotlinx/coroutines/scheduling/c;",
-        "d",
-        "Lcotlinx/coroutines/scheduling/c;",
-        "E",
-        "()Lcotlinx/coroutines/scheduling/c;",
-        "dispatcher",
-        "Ljava/util/concurrent/ConcurrentLinkedQueue;",
-        "c",
-        "Ljava/util/concurrent/ConcurrentLinkedQueue;",
-        "queue",
-        "f",
-        "G",
-        "parallelism",
-        "<init>",
-        "(Lcotlinx/coroutines/scheduling/c;II)V",
-        "kotlinx-coroutines-core"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # static fields

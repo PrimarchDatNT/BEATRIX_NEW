@@ -11,53 +11,7 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nNewFilterConfig.kt\nKotlin\n*S Kotlin\n*F\n+ 1 NewFilterConfig.kt\ncom/commsource/beautyfilter/NewFilterConfig\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 3 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n*L\n1#1,361:1\n1819#2,2:362\n13506#3:364\n13506#3:365\n13506#3,2:366\n13507#3:368\n13507#3:369\n*E\n*S KotlinDebug\n*F\n+ 1 NewFilterConfig.kt\ncom/commsource/beautyfilter/NewFilterConfig\n*L\n293#1,2:362\n316#1:364\n316#1:365\n316#1,2:366\n316#1:368\n316#1:369\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000,\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010 \n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u000e\n\u0002\u0008\u000b\u0018\u0000 \u00152\u00020\u0001:\u0002\u0016\u0017B\u0011\u0008\u0002\u0012\u0006\u0010\u0012\u001a\u00020\r\u00a2\u0006\u0004\u0008\u0013\u0010\u0014J\u0013\u0010\u0004\u001a\u0008\u0012\u0004\u0012\u00020\u00030\u0002\u00a2\u0006\u0004\u0008\u0004\u0010\u0005J\u0013\u0010\u0007\u001a\u0008\u0012\u0004\u0012\u00020\u00060\u0002\u00a2\u0006\u0004\u0008\u0007\u0010\u0005J\u0013\u0010\u0008\u001a\u0008\u0012\u0004\u0012\u00020\u00060\u0002\u00a2\u0006\u0004\u0008\u0008\u0010\u0005J\r\u0010\n\u001a\u00020\t\u00a2\u0006\u0004\u0008\n\u0010\u000bJ\r\u0010\u000c\u001a\u00020\t\u00a2\u0006\u0004\u0008\u000c\u0010\u000bR\u0019\u0010\u0012\u001a\u00020\r8\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u000e\u0010\u000f\u001a\u0004\u0008\u0010\u0010\u0011\u00a8\u0006\u0018"
-    }
-    d2 = {
-        "Lcom/commsource/beautyfilter/NewFilterConfig;",
-        "Lcom/commsource/util/common/l;",
-        "",
-        "Lcom/commsource/beautyfilter/a;",
-        "T",
-        "()Ljava/util/List;",
-        "",
-        "P",
-        "Q",
-        "Lcom/commsource/beautyfilter/NewFilterConfig$FilterOnlineInfo;",
-        "O",
-        "()Lcom/commsource/beautyfilter/NewFilterConfig$FilterOnlineInfo;",
-        "S",
-        "",
-        "n",
-        "Ljava/lang/String;",
-        "R",
-        "()Ljava/lang/String;",
-        "tableName",
-        "<init>",
-        "(Ljava/lang/String;)V",
-        "A",
-        "a",
-        "FilterOnlineInfo",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # static fields

@@ -13,64 +13,7 @@
     name = "MagnifyDecorateView"
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nMagnifyComponent.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MagnifyComponent.kt\ncom/commsource/studio/MagnifyComponent$MagnifyDecorateView\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,236:1\n1819#2,2:237\n*E\n*S KotlinDebug\n*F\n+ 1 MagnifyComponent.kt\ncom/commsource/studio/MagnifyComponent$MagnifyDecorateView\n*L\n213#1,2:237\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000H\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0005\u0008\u0086\u0004\u0018\u00002\u00020\u0001B\u0011\u0008\u0016\u0012\u0006\u0010\u001b\u001a\u00020\u001a\u00a2\u0006\u0004\u0008\u001c\u0010\u001dB\u001b\u0008\u0016\u0012\u0006\u0010\u001b\u001a\u00020\u001a\u0012\u0008\u0010\u001f\u001a\u0004\u0018\u00010\u001e\u00a2\u0006\u0004\u0008\u001c\u0010 B#\u0008\u0016\u0012\u0006\u0010\u001b\u001a\u00020\u001a\u0012\u0008\u0010\u001f\u001a\u0004\u0018\u00010\u001e\u0012\u0006\u0010!\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u001c\u0010\"J/\u0010\u0008\u001a\u00020\u00072\u0006\u0010\u0003\u001a\u00020\u00022\u0006\u0010\u0004\u001a\u00020\u00022\u0006\u0010\u0005\u001a\u00020\u00022\u0006\u0010\u0006\u001a\u00020\u0002H\u0014\u00a2\u0006\u0004\u0008\u0008\u0010\tJ\u0019\u0010\u000c\u001a\u00020\u00072\u0008\u0010\u000b\u001a\u0004\u0018\u00010\nH\u0014\u00a2\u0006\u0004\u0008\u000c\u0010\rR\u0016\u0010\u0011\u001a\u00020\u000e8\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u000f\u0010\u0010R\u0016\u0010\u0015\u001a\u00020\u00128\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0013\u0010\u0014R\u0016\u0010\u0019\u001a\u00020\u00168\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0017\u0010\u0018\u00a8\u0006#"
-    }
-    d2 = {
-        "Lcom/commsource/studio/MagnifyComponent$MagnifyDecorateView;",
-        "Landroid/view/View;",
-        "",
-        "w",
-        "h",
-        "oldw",
-        "oldh",
-        "Lcotlin/t1;",
-        "onSizeChanged",
-        "(IIII)V",
-        "Landroid/graphics/Canvas;",
-        "canvas",
-        "onDraw",
-        "(Landroid/graphics/Canvas;)V",
-        "Landroid/graphics/RectF;",
-        "a",
-        "Landroid/graphics/RectF;",
-        "bitmapRect",
-        "Landroid/graphics/Paint;",
-        "c",
-        "Landroid/graphics/Paint;",
-        "bordPaint",
-        "Landroid/graphics/Rect;",
-        "b",
-        "Landroid/graphics/Rect;",
-        "borderRect",
-        "Landroid/content/Context;",
-        "context",
-        "<init>",
-        "(Lcom/commsource/studio/MagnifyComponent;Landroid/content/Context;)V",
-        "Landroid/util/AttributeSet;",
-        "attrs",
-        "(Lcom/commsource/studio/MagnifyComponent;Landroid/content/Context;Landroid/util/AttributeSet;)V",
-        "defStyleAttr",
-        "(Lcom/commsource/studio/MagnifyComponent;Landroid/content/Context;Landroid/util/AttributeSet;I)V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

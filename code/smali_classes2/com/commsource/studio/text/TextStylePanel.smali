@@ -4,68 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nTextStylePanel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TextStylePanel.kt\ncom/commsource/studio/text/TextStylePanel\n*L\n1#1,120:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000@\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u0014\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0007\u0018\u00002\u00020\u0001B\u0017\u0012\u0006\u0010\u001f\u001a\u00020\u001b\u0012\u0006\u0010\u000f\u001a\u00020\u000b\u00a2\u0006\u0004\u0008%\u0010&J\u000f\u0010\u0003\u001a\u00020\u0002H\u0002\u00a2\u0006\u0004\u0008\u0003\u0010\u0004J\u0019\u0010\u0007\u001a\u00020\u00022\u0008\u0010\u0006\u001a\u0004\u0018\u00010\u0005H\u0002\u00a2\u0006\u0004\u0008\u0007\u0010\u0008J\r\u0010\t\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\t\u0010\u0004J\r\u0010\n\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\n\u0010\u0004R\u0019\u0010\u000f\u001a\u00020\u000b8\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u000c\u0010\r\u001a\u0004\u0008\u000c\u0010\u000eR\u001d\u0010\u0015\u001a\u00020\u00108B@\u0002X\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0011\u0010\u0012\u001a\u0004\u0008\u0013\u0010\u0014R\u001d\u0010\u001a\u001a\u00020\u00168B@\u0002X\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0017\u0010\u0012\u001a\u0004\u0008\u0018\u0010\u0019R\u0019\u0010\u001f\u001a\u00020\u001b8\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u0018\u0010\u001c\u001a\u0004\u0008\u001d\u0010\u001eR\u001d\u0010$\u001a\u00020 8B@\u0002X\u0082\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008!\u0010\u0012\u001a\u0004\u0008\"\u0010#\u00a8\u0006\'"
-    }
-    d2 = {
-        "Lcom/commsource/studio/text/TextStylePanel;",
-        "",
-        "Lcotlin/t1;",
-        "j",
-        "()V",
-        "",
-        "params",
-        "l",
-        "([F)V",
-        "k",
-        "i",
-        "Lcom/commsource/studio/sticker/TextFragment;",
-        "e",
-        "Lcom/commsource/studio/sticker/TextFragment;",
-        "()Lcom/commsource/studio/sticker/TextFragment;",
-        "fragment",
-        "Lcom/commsource/studio/text/TextViewModel;",
-        "a",
-        "Lcotlin/w;",
-        "f",
-        "()Lcom/commsource/studio/text/TextViewModel;",
-        "mViewModel",
-        "Lcom/commsource/widget/h1/e;",
-        "b",
-        "d",
-        "()Lcom/commsource/widget/h1/e;",
-        "attrAdapter",
-        "Lcom/commsource/beautyplus/f0/cc;",
-        "Lcom/commsource/beautyplus/f0/cc;",
-        "h",
-        "()Lcom/commsource/beautyplus/f0/cc;",
-        "viewBinding",
-        "Lcom/commsource/studio/text/d;",
-        "c",
-        "g",
-        "()Lcom/commsource/studio/text/d;",
-        "pageAdapter",
-        "<init>",
-        "(Lcom/commsource/beautyplus/f0/cc;Lcom/commsource/studio/sticker/TextFragment;)V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

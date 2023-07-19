@@ -7,44 +7,7 @@
 .annotation runtime Lcom/mopub/common/Mockable;
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nVastVideoViewProgressRunnable.kt\nKotlin\n*S Kotlin\n*F\n+ 1 VastVideoViewProgressRunnable.kt\ncom/mopub/mobileads/VastVideoViewProgressRunnable\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n+ 3 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,82:1\n1571#2,9:83\n1819#2:92\n1820#2:94\n1580#2:95\n1#3:93\n1#3:96\n*E\n*S KotlinDebug\n*F\n+ 1 VastVideoViewProgressRunnable.kt\ncom/mopub/mobileads/VastVideoViewProgressRunnable\n*L\n33#1,9:83\n33#1:92\n33#1:94\n33#1:95\n33#1:93\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000(\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u0008\u0017\u0018\u00002\u00020\u0001B\u001f\u0012\u0006\u0010\t\u001a\u00020\u0008\u0012\u0006\u0010\u0006\u001a\u00020\u0005\u0012\u0006\u0010\u000c\u001a\u00020\u000b\u00a2\u0006\u0004\u0008\r\u0010\u000eJ\u000f\u0010\u0003\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\u0003\u0010\u0004R\u0016\u0010\u0006\u001a\u00020\u00058\u0012@\u0012X\u0092\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0006\u0010\u0007R\u0016\u0010\t\u001a\u00020\u00088\u0012@\u0012X\u0092\u0004\u00a2\u0006\u0006\n\u0004\u0008\t\u0010\n\u00a8\u0006\u000f"
-    }
-    d2 = {
-        "Lcom/mopub/mobileads/VastVideoViewProgressRunnable;",
-        "Lcom/mopub/mobileads/RepeatingHandlerRunnable;",
-        "Lcotlin/t1;",
-        "doWork",
-        "()V",
-        "Lcom/mopub/mobileads/VastVideoConfig;",
-        "vastVideoConfig",
-        "Lcom/mopub/mobileads/VastVideoConfig;",
-        "Lcom/mopub/mobileads/VastVideoViewController;",
-        "videoViewController",
-        "Lcom/mopub/mobileads/VastVideoViewController;",
-        "Landroid/os/Handler;",
-        "handler",
-        "<init>",
-        "(Lcom/mopub/mobileads/VastVideoViewController;Lcom/mopub/mobileads/VastVideoConfig;Landroid/os/Handler;)V",
-        "mopub-sdk-base_release"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

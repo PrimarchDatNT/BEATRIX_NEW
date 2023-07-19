@@ -4,67 +4,6 @@
 
 
 # annotations
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000H\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0008\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0010\u000b\n\u0002\u0008\n\n\u0002\u0018\u0002\n\u0002\u0008\t\u0008&\u0018\u00002\u00020\u0001B#\u0008\u0016\u0012\u0006\u0010\u0019\u001a\u00020\u0016\u0012\u0006\u0010\u001a\u001a\u00020\u0016\u0012\u0008\u0010$\u001a\u0004\u0018\u00010!\u00a2\u0006\u0004\u0008\'\u0010(B\t\u0008\u0016\u00a2\u0006\u0004\u0008\'\u0010)J\u001b\u0010\u0005\u001a\u0004\u0018\u00010\u00042\u0008\u0010\u0003\u001a\u0004\u0018\u00010\u0002H\u0002\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J\u0017\u0010\n\u001a\u00020\t2\u0006\u0010\u0008\u001a\u00020\u0007H\'\u00a2\u0006\u0004\u0008\n\u0010\u000bJ+\u0010\u0012\u001a\u00020\t2\u0008\u0010\r\u001a\u0004\u0018\u00010\u000c2\u0006\u0010\u000f\u001a\u00020\u000e2\u0008\u0010\u0011\u001a\u0004\u0018\u00010\u0010H\u0016\u00a2\u0006\u0004\u0008\u0012\u0010\u0013J+\u0010\u0015\u001a\u00020\t2\u0008\u0010\u0014\u001a\u0004\u0018\u00010\u000c2\u0006\u0010\u000f\u001a\u00020\u000e2\u0008\u0010\u0011\u001a\u0004\u0018\u00010\u0010H\u0016\u00a2\u0006\u0004\u0008\u0015\u0010\u0013R\u0016\u0010\u0019\u001a\u00020\u00168\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u0017\u0010\u0018R\u0016\u0010\u001a\u001a\u00020\u00168\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u0012\u0010\u0018R\u0018\u0010\u001c\u001a\u0004\u0018\u00010\u000c8\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u0015\u0010\u001bR\u0018\u0010\u001e\u001a\u0004\u0018\u00010\u00048\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u0005\u0010\u001dR\u0018\u0010 \u001a\u0004\u0018\u00010\u00028\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\n\u0010\u001fR\u0018\u0010$\u001a\u0004\u0018\u00010!8\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\"\u0010#R\u0018\u0010&\u001a\u0004\u0018\u00010\u000c8\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008%\u0010\u001b\u00a8\u0006*"
-    }
-    d2 = {
-        "Lcom/commsource/camera/xcamera/m;",
-        "Lcom/meitu/library/n/a/p/b$e;",
-        "Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;",
-        "aiFaceData",
-        "Lcom/meitu/core/types/FaceData;",
-        "e",
-        "(Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;)Lcom/meitu/core/types/FaceData;",
-        "Lcom/commsource/camera/xcamera/bean/c;",
-        "captureResultBean",
-        "Lcotlin/t1;",
-        "f",
-        "(Lcom/commsource/camera/xcamera/bean/c;)V",
-        "Landroid/graphics/Bitmap;",
-        "effectFrame",
-        "",
-        "deviceOrientation",
-        "Lcom/meitu/library/n/a/s/a$b;",
-        "detectedData",
-        "b",
-        "(Landroid/graphics/Bitmap;ILcom/meitu/library/n/a/s/a$b;)V",
-        "originalFrame",
-        "d",
-        "",
-        "a",
-        "Z",
-        "needOriBitmap",
-        "needEffectBitmap",
-        "Landroid/graphics/Bitmap;",
-        "effectBitmap",
-        "Lcom/meitu/core/types/FaceData;",
-        "faceDataCache",
-        "Lcom/meitu/mtlab/MTAiInterface/MTFaceModule/MTFaceResult;",
-        "oriFaceData",
-        "Lcom/commsource/camera/xcamera/n;",
-        "g",
-        "Lcom/commsource/camera/xcamera/n;",
-        "takePictureInfo",
-        "c",
-        "oriBitmap",
-        "<init>",
-        "(ZZLcom/commsource/camera/xcamera/n;)V",
-        "()V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

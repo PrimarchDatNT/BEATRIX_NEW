@@ -22,44 +22,7 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nEffectTranslateLayer.kt\nKotlin\n*S Kotlin\n*F\n+ 1 EffectTranslateLayer.kt\ncom/commsource/studio/layer/EffectTranslateLayer$start$1\n*L\n1#1,189:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000\u001e\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0008\u0008\n\u0018\u00002\u0010\u0012\u0004\u0012\u00020\u0002\u0012\u0006\u0012\u0004\u0018\u00010\u00030\u0001J+\u0010\u0008\u001a\u00020\u00072\u0006\u0010\u0004\u001a\u00020\u00032\u0012\u0010\u0006\u001a\u000e\u0012\u0008\u0008\u0000\u0012\u0004\u0018\u00010\u0003\u0018\u00010\u0005H\u0016\u00a2\u0006\u0004\u0008\u0008\u0010\tJ\u0019\u0010\u000b\u001a\u00020\u00072\u0008\u0010\n\u001a\u0004\u0018\u00010\u0003H\u0016\u00a2\u0006\u0004\u0008\u000b\u0010\u000cJ\u0019\u0010\u000e\u001a\u00020\u00072\u0008\u0010\r\u001a\u0004\u0018\u00010\u0003H\u0014\u00a2\u0006\u0004\u0008\u000e\u0010\u000c\u00a8\u0006\u000f"
-    }
-    d2 = {
-        "com/commsource/studio/layer/EffectTranslateLayer$a",
-        "Lcom/bumptech/glide/request/j/f;",
-        "Landroid/view/View;",
-        "Landroid/graphics/drawable/Drawable;",
-        "resource",
-        "Lcom/bumptech/glide/request/k/f;",
-        "transition",
-        "Lcotlin/t1;",
-        "m",
-        "(Landroid/graphics/drawable/Drawable;Lcom/bumptech/glide/request/k/f;)V",
-        "errorDrawable",
-        "Z1",
-        "(Landroid/graphics/drawable/Drawable;)V",
-        "placeholder",
-        "f",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

@@ -12,76 +12,7 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nLookGuideDialog.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LookGuideDialog.kt\ncom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookGuideDialog\n*L\n1#1,162:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000D\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u000b\n\u0002\u0008\u0003\n\u0002\u0010\u0008\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u000b\u0018\u00002\u0008\u0012\u0004\u0012\u00020\u00020\u0001B\u0007\u00a2\u0006\u0004\u0008.\u0010\u000cJ\u000f\u0010\u0004\u001a\u00020\u0003H\u0002\u00a2\u0006\u0004\u0008\u0004\u0010\u0005J\u000f\u0010\u0006\u001a\u00020\u0003H\u0002\u00a2\u0006\u0004\u0008\u0006\u0010\u0005J\u000f\u0010\u0008\u001a\u00020\u0007H\u0014\u00a2\u0006\u0004\u0008\u0008\u0010\tJ\u000f\u0010\u000b\u001a\u00020\nH\u0015\u00a2\u0006\u0004\u0008\u000b\u0010\u000cJ\u000f\u0010\r\u001a\u00020\nH\u0016\u00a2\u0006\u0004\u0008\r\u0010\u000cJ\u000f\u0010\u000e\u001a\u00020\nH\u0016\u00a2\u0006\u0004\u0008\u000e\u0010\u000cJ\u000f\u0010\u000f\u001a\u00020\nH\u0016\u00a2\u0006\u0004\u0008\u000f\u0010\u000cR$\u0010\u0017\u001a\u0004\u0018\u00010\u00108\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0011\u0010\u0012\u001a\u0004\u0008\u0013\u0010\u0014\"\u0004\u0008\u0015\u0010\u0016R\u001d\u0010\u001d\u001a\u00020\u00188F@\u0006X\u0086\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0019\u0010\u001a\u001a\u0004\u0008\u001b\u0010\u001cR%\u0010#\u001a\n \u001f*\u0004\u0018\u00010\u001e0\u001e8F@\u0006X\u0086\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008 \u0010\u001a\u001a\u0004\u0008!\u0010\"R\u001d\u0010(\u001a\u00020$8F@\u0006X\u0086\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008%\u0010\u001a\u001a\u0004\u0008&\u0010\'R\"\u0010-\u001a\u00020\u00038\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008)\u0010 \u001a\u0004\u0008*\u0010\u0005\"\u0004\u0008+\u0010,\u00a8\u0006/"
-    }
-    d2 = {
-        "Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/look/LookGuideDialog;",
-        "Lf/d/a;",
-        "Lcom/commsource/beautyplus/f0/w5;",
-        "",
-        "Q",
-        "()Z",
-        "T",
-        "",
-        "D",
-        "()I",
-        "Lcotlin/t1;",
-        "A",
-        "()V",
-        "onDestroy",
-        "dismiss",
-        "dismissAllowingStateLoss",
-        "Landroid/view/View$OnClickListener;",
-        "b0",
-        "Landroid/view/View$OnClickListener;",
-        "O",
-        "()Landroid/view/View$OnClickListener;",
-        "V",
-        "(Landroid/view/View$OnClickListener;)V",
-        "onClickListener",
-        "Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager;",
-        "Y",
-        "Lcotlin/w;",
-        "M",
-        "()Lcom/commsource/widget/infiniteview/InfinitePagerLayoutManager;",
-        "layoutManager",
-        "Lcom/commsource/camera/f1/s$a;",
-        "kotlin.jvm.PlatformType",
-        "Z",
-        "P",
-        "()Lcom/commsource/camera/f1/s$a;",
-        "timer",
-        "Lcom/commsource/widget/h1/e;",
-        "X",
-        "L",
-        "()Lcom/commsource/widget/h1/e;",
-        "adapter",
-        "a0",
-        "U",
-        "W",
-        "(Z)V",
-        "isTouch",
-        "<init>",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

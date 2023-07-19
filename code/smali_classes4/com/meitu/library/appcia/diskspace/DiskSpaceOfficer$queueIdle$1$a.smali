@@ -16,43 +16,6 @@
     name = null
 .end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u00000\n\u0000\n\u0002\u0018\u0002\n\u0002\u0010\t\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0010\u000e\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u0008\n\u0018\u00002\u00020\u0001JO\u0010\u000b\u001a\u00020\n2\u0006\u0010\u0003\u001a\u00020\u00022\u0006\u0010\u0004\u001a\u00020\u00022\u0006\u0010\u0005\u001a\u00020\u00022&\u0010\t\u001a\"\u0012\u0004\u0012\u00020\u0007\u0012\u0004\u0012\u00020\u0002\u0018\u00010\u0006j\u0010\u0012\u0004\u0012\u00020\u0007\u0012\u0004\u0012\u00020\u0002\u0018\u0001`\u0008H\u0016\u00a2\u0006\u0004\u0008\u000b\u0010\u000cJ\u001f\u0010\u0010\u001a\u00020\n2\u000e\u0010\u000f\u001a\n\u0018\u00010\rj\u0004\u0018\u0001`\u000eH\u0016\u00a2\u0006\u0004\u0008\u0010\u0010\u0011\u00a8\u0006\u0012"
-    }
-    d2 = {
-        "com/meitu/library/appcia/diskspace/DiskSpaceOfficer$queueIdle$1$a",
-        "Lcom/meitu/library/appcia/diskspace/c/a$b;",
-        "",
-        "appSize",
-        "dataSize",
-        "cacheSize",
-        "Ljava/util/HashMap;",
-        "",
-        "Lcotlin/collections/HashMap;",
-        "documentList",
-        "Lcotlin/t1;",
-        "b",
-        "(JJJLjava/util/HashMap;)V",
-        "Ljava/lang/Exception;",
-        "Lcotlin/Exception;",
-        "e",
-        "a",
-        "(Ljava/lang/Exception;)V",
-        "appcia.diskspace_release"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

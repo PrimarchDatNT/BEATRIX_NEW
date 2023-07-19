@@ -13,44 +13,6 @@
     name = null
 .end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000,\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0006\u0008\n\u0018\u00002\u00020\u0001J/\u0010\u000b\u001a\u00020\n2\u0006\u0010\u0003\u001a\u00020\u00022\u0006\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0007\u001a\u00020\u00062\u0006\u0010\t\u001a\u00020\u0008H\u0016\u00a2\u0006\u0004\u0008\u000b\u0010\u000cR\u0019\u0010\u0011\u001a\u00020\r8\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u000e\u0010\u000f\u001a\u0004\u0008\u000e\u0010\u0010\u00a8\u0006\u0012\u00b8\u0006\u0013"
-    }
-    d2 = {
-        "com/commsource/studio/text/TextStylePanel$b",
-        "Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;",
-        "LLandroid/graphics/Rect;;",
-        "outRect",
-        "LLandroid/view/View;;",
-        "view",
-        "LLandroidx/recyclerview/widget/RecyclerView;;",
-        "parent",
-        "Landroidx/recyclerview/widget/RecyclerView$State;",
-        "state",
-        "L;",
-        "getItemOffsets",
-        "(LLandroid/graphics/Rect;;LLandroid/view/View;;LLandroidx/recyclerview/widget/RecyclerView;;LLandroidx/recyclerview/widget/RecyclerView$State;;)L;",
-        "",
-        "a",
-        "I",
-        "()I",
-        "lrSpace",
-        "app_googleplayRelease",
-        "com/commsource/studio/text/TextStylePanel$$special$$inlined$apply$lambda$2"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

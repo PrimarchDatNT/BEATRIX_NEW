@@ -16,52 +16,6 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u00002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000b\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0010\u0008\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0007\u0008\u0002\u0018\u00002\u00020\u0001B\u0017\u0012\u0006\u0010\u0018\u001a\u00020\u0014\u0012\u0006\u0010\u000e\u001a\u00020\t\u00a2\u0006\u0004\u0008\u0019\u0010\u001aJ#\u0010\u0007\u001a\u00020\u00062\u0008\u0010\u0003\u001a\u0004\u0018\u00010\u00022\u0008\u0010\u0005\u001a\u0004\u0018\u00010\u0004H\u0017\u00a2\u0006\u0004\u0008\u0007\u0010\u0008R\u0019\u0010\u000e\u001a\u00020\t8\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\n\u0010\u000b\u001a\u0004\u0008\u000c\u0010\rR\u0016\u0010\u0012\u001a\u00020\u000f8\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u0010\u0010\u0011R\u0016\u0010\u0013\u001a\u00020\u000f8\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u000c\u0010\u0011R\u0019\u0010\u0018\u001a\u00020\u00148\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u0015\u0010\u0016\u001a\u0004\u0008\u0010\u0010\u0017\u00a8\u0006\u001b"
-    }
-    d2 = {
-        "com/commsource/beautyplus/setting/test/TestFuncFloatingWinService$a",
-        "Landroid/view/View$OnTouchListener;",
-        "Landroid/view/View;",
-        "v",
-        "Landroid/view/MotionEvent;",
-        "event",
-        "",
-        "onTouch",
-        "(Landroid/view/View;Landroid/view/MotionEvent;)Z",
-        "Landroid/view/WindowManager$LayoutParams;",
-        "d",
-        "Landroid/view/WindowManager$LayoutParams;",
-        "a",
-        "()Landroid/view/WindowManager$LayoutParams;",
-        "layoutParams",
-        "",
-        "b",
-        "I",
-        "y",
-        "x",
-        "Landroid/view/WindowManager;",
-        "c",
-        "Landroid/view/WindowManager;",
-        "()Landroid/view/WindowManager;",
-        "windowManager",
-        "<init>",
-        "(Landroid/view/WindowManager;Landroid/view/WindowManager$LayoutParams;)V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

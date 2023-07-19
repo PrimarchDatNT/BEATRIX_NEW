@@ -10,63 +10,6 @@
     }
 .end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u00002\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0008\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\n\n\u0002\u0018\u0002\n\u0002\u0008\u000e\u0018\u00002\u00020\u0001:\u0001\u000fB\u0007\u00a2\u0006\u0004\u0008$\u0010%J\'\u0010\t\u001a\u00020\u00082\u0006\u0010\u0003\u001a\u00020\u00022\u0006\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0007\u001a\u00020\u0006H\u0002\u00a2\u0006\u0004\u0008\t\u0010\nJ\'\u0010\u000c\u001a\u00020\u00082\u0006\u0010\u0003\u001a\u00020\u00022\u0006\u0010\u000b\u001a\u00020\u00042\u0006\u0010\u0007\u001a\u00020\u0006H\u0002\u00a2\u0006\u0004\u0008\u000c\u0010\nJ\'\u0010\u000f\u001a\u00020\u00082\u0006\u0010\u0003\u001a\u00020\u00022\u0008\u0010\u000e\u001a\u0004\u0018\u00010\r2\u0006\u0010\u0007\u001a\u00020\u0006\u00a2\u0006\u0004\u0008\u000f\u0010\u0010R$\u0010\u0017\u001a\u0004\u0018\u00010\u00068\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0011\u0010\u0012\u001a\u0004\u0008\u0013\u0010\u0014\"\u0004\u0008\u0015\u0010\u0016R$\u0010\u001d\u001a\u0004\u0018\u00010\u00188\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u000f\u0010\u0019\u001a\u0004\u0008\u0011\u0010\u001a\"\u0004\u0008\u001b\u0010\u001cR$\u0010 \u001a\u0004\u0018\u00010\u00188\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u000c\u0010\u0019\u001a\u0004\u0008\u001e\u0010\u001a\"\u0004\u0008\u001f\u0010\u001cR$\u0010#\u001a\u0004\u0018\u00010\u00068\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\t\u0010\u0012\u001a\u0004\u0008!\u0010\u0014\"\u0004\u0008\"\u0010\u0016\u00a8\u0006&"
-    }
-    d2 = {
-        "Lcom/commsource/camera/f1/g;",
-        "",
-        "Landroid/app/Activity;",
-        "activity",
-        "",
-        "arId",
-        "Ljava/lang/Runnable;",
-        "runnable",
-        "Lcotlin/t1;",
-        "b",
-        "(Landroid/app/Activity;ILjava/lang/Runnable;)V",
-        "lookId",
-        "c",
-        "Lcom/commsource/beautyplus/router/RouterEntity;",
-        "routerEntity",
-        "a",
-        "(Landroid/app/Activity;Lcom/commsource/beautyplus/router/RouterEntity;Ljava/lang/Runnable;)V",
-        "d",
-        "Ljava/lang/Runnable;",
-        "g",
-        "()Ljava/lang/Runnable;",
-        "k",
-        "(Ljava/lang/Runnable;)V",
-        "lookTimeoutTask",
-        "Lcom/commsource/camera/f1/g$a;",
-        "Lcom/commsource/camera/f1/g$a;",
-        "()Lcom/commsource/camera/f1/g$a;",
-        "h",
-        "(Lcom/commsource/camera/f1/g$a;)V",
-        "arCompleteCallBack",
-        "f",
-        "j",
-        "lookCompleteCallBack",
-        "e",
-        "i",
-        "arTimeoutTask",
-        "<init>",
-        "()V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

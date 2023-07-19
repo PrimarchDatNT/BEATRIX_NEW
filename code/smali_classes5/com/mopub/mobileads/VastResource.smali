@@ -18,75 +18,7 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nVastResource.kt\nKotlin\n*S Kotlin\n*F\n+ 1 VastResource.kt\ncom/mopub/mobileads/VastResource\n+ 2 fake.kt\nkotlin/jvm/internal/FakeKt\n*L\n1#1,206:1\n1#2:207\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000D\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000e\n\u0002\u0008\u0006\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\u000b\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u000f\u0008\u0017\u0018\u0000 +2\u00020\u0001:\u0003+,-B/\u0012\u0006\u0010&\u001a\u00020\u0007\u0012\u0006\u0010 \u001a\u00020\u001f\u0012\u0006\u0010\u001b\u001a\u00020\u001a\u0012\u0006\u0010$\u001a\u00020\u0013\u0012\u0006\u0010\u0017\u001a\u00020\u0013\u00a2\u0006\u0004\u0008)\u0010*J\u0017\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J\u0011\u0010\u0008\u001a\u0004\u0018\u00010\u0007H\u0016\u00a2\u0006\u0004\u0008\u0008\u0010\tJ%\u0010\u000c\u001a\u0004\u0018\u00010\u00072\u0008\u0010\n\u001a\u0004\u0018\u00010\u00072\u0008\u0010\u000b\u001a\u0004\u0018\u00010\u0007H\u0016\u00a2\u0006\u0004\u0008\u000c\u0010\rJ\u001a\u0010\u0011\u001a\u00020\u00102\u0008\u0010\u000f\u001a\u0004\u0018\u00010\u000eH\u0096\u0002\u00a2\u0006\u0004\u0008\u0011\u0010\u0012J\u000f\u0010\u0014\u001a\u00020\u0013H\u0016\u00a2\u0006\u0004\u0008\u0014\u0010\u0015J\u000f\u0010\u0016\u001a\u00020\u0007H\u0016\u00a2\u0006\u0004\u0008\u0016\u0010\tR\u001c\u0010\u0017\u001a\u00020\u00138\u0016@\u0017X\u0097\u0004\u00a2\u0006\u000c\n\u0004\u0008\u0017\u0010\u0018\u001a\u0004\u0008\u0019\u0010\u0015R\u001c\u0010\u001b\u001a\u00020\u001a8\u0016@\u0017X\u0097\u0004\u00a2\u0006\u000c\n\u0004\u0008\u001b\u0010\u001c\u001a\u0004\u0008\u001d\u0010\u001eR\u001c\u0010 \u001a\u00020\u001f8\u0016@\u0017X\u0097\u0004\u00a2\u0006\u000c\n\u0004\u0008 \u0010!\u001a\u0004\u0008\"\u0010#R\u001c\u0010$\u001a\u00020\u00138\u0016@\u0017X\u0097\u0004\u00a2\u0006\u000c\n\u0004\u0008$\u0010\u0018\u001a\u0004\u0008%\u0010\u0015R\u001c\u0010&\u001a\u00020\u00078\u0016@\u0017X\u0097\u0004\u00a2\u0006\u000c\n\u0004\u0008&\u0010\'\u001a\u0004\u0008(\u0010\t\u00a8\u0006."
-    }
-    d2 = {
-        "Lcom/mopub/mobileads/VastResource;",
-        "Ljava/io/Serializable;",
-        "Lcom/mopub/mobileads/VastWebView;",
-        "webView",
-        "Lcotlin/t1;",
-        "initializeWebView",
-        "(Lcom/mopub/mobileads/VastWebView;)V",
-        "",
-        "getHtmlResourceValue",
-        "()Ljava/lang/String;",
-        "vastClickThroughUrl",
-        "webViewClickThroughUrl",
-        "getCorrectClickThroughUrl",
-        "(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;",
-        "",
-        "other",
-        "",
-        "equals",
-        "(Ljava/lang/Object;)Z",
-        "",
-        "hashCode",
-        "()I",
-        "toString",
-        "height",
-        "I",
-        "getHeight",
-        "Lcom/mopub/mobileads/VastResource$CreativeType;",
-        "creativeType",
-        "Lcom/mopub/mobileads/VastResource$CreativeType;",
-        "getCreativeType",
-        "()Lcom/mopub/mobileads/VastResource$CreativeType;",
-        "Lcom/mopub/mobileads/VastResource$Type;",
-        "type",
-        "Lcom/mopub/mobileads/VastResource$Type;",
-        "getType",
-        "()Lcom/mopub/mobileads/VastResource$Type;",
-        "width",
-        "getWidth",
-        "resource",
-        "Ljava/lang/String;",
-        "getResource",
-        "<init>",
-        "(Ljava/lang/String;Lcom/mopub/mobileads/VastResource$Type;Lcom/mopub/mobileads/VastResource$CreativeType;II)V",
-        "Companion",
-        "CreativeType",
-        "Type",
-        "mopub-sdk-base_release"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # static fields

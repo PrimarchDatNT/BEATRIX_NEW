@@ -4,61 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nFilterManagerViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FilterManagerViewModel.kt\ncom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewModel\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,86:1\n1819#2,2:87\n1819#2,2:89\n*E\n*S KotlinDebug\n*F\n+ 1 FilterManagerViewModel.kt\ncom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewModel\n*L\n37#1,2:87\n74#1,2:89\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u00004\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000b\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0010 \n\u0002\u0008\u000c\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u0018\u00002\u00020\u0001B\u000f\u0012\u0006\u0010\u001d\u001a\u00020\u001c\u00a2\u0006\u0004\u0008\u001e\u0010\u001fJ\r\u0010\u0003\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0003\u0010\u0004J\r\u0010\u0006\u001a\u00020\u0005\u00a2\u0006\u0004\u0008\u0006\u0010\u0007R#\u0010\u000e\u001a\u0008\u0012\u0004\u0012\u00020\t0\u00088F@\u0006X\u0086\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\n\u0010\u000b\u001a\u0004\u0008\u000c\u0010\rR)\u0010\u0012\u001a\u000e\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\t0\u000f0\u00088F@\u0006X\u0086\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0010\u0010\u000b\u001a\u0004\u0008\u0011\u0010\rR\"\u0010\u0018\u001a\u00020\u00058\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0013\u0010\u0014\u001a\u0004\u0008\u0015\u0010\u0007\"\u0004\u0008\u0016\u0010\u0017R#\u0010\u001b\u001a\u0008\u0012\u0004\u0012\u00020\t0\u00088F@\u0006X\u0086\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0019\u0010\u000b\u001a\u0004\u0008\u001a\u0010\r\u00a8\u0006 "
-    }
-    d2 = {
-        "Lcom/commsource/camera/xcamera/cover/bottomFunction/effect/filter/shop/FilterManagerViewModel;",
-        "Landroidx/lifecycle/AndroidViewModel;",
-        "Lcotlin/t1;",
-        "D",
-        "()V",
-        "",
-        "B",
-        "()Z",
-        "Lcom/commsource/beautyfilter/NoStickLiveData;",
-        "Lcom/meitu/template/bean/Filter;",
-        "c",
-        "Lcotlin/w;",
-        "A",
-        "()Lcom/commsource/beautyfilter/NoStickLiveData;",
-        "filterRemoveEvent",
-        "",
-        "a",
-        "z",
-        "filterDataEvent",
-        "d",
-        "Z",
-        "C",
-        "E",
-        "(Z)V",
-        "isCamera",
-        "b",
-        "y",
-        "filterCollectedEvent",
-        "Landroid/app/Application;",
-        "application",
-        "<init>",
-        "(Landroid/app/Application;)V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

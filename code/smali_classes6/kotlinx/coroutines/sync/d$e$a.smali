@@ -13,38 +13,6 @@
     name = "a"
 .end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000\u0016\n\u0000\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0007\u0008\u0082\u0004\u0018\u00002\u00020\u0001B\u0013\u0012\n\u0010\n\u001a\u0006\u0012\u0002\u0008\u00030\u0006\u00a2\u0006\u0004\u0008\u000b\u0010\u000cJ\u001b\u0010\u0004\u001a\u0004\u0018\u00010\u00022\u0008\u0010\u0003\u001a\u0004\u0018\u00010\u0002H\u0016\u00a2\u0006\u0004\u0008\u0004\u0010\u0005R \u0010\n\u001a\u0006\u0012\u0002\u0008\u00030\u00068\u0016@\u0016X\u0096\u0004\u00a2\u0006\u000c\n\u0004\u0008\u0007\u0010\u0008\u001a\u0004\u0008\u0007\u0010\t\u00a8\u0006\r"
-    }
-    d2 = {
-        "kotlinx/coroutines/sync/d$e$a",
-        "Lcotlinx/coroutines/internal/v;",
-        "",
-        "affected",
-        "c",
-        "(Ljava/lang/Object;)Ljava/lang/Object;",
-        "Lcotlinx/coroutines/internal/d;",
-        "a",
-        "Lcotlinx/coroutines/internal/d;",
-        "()Lcotlinx/coroutines/internal/d;",
-        "atomicOp",
-        "<init>",
-        "(Lcotlinx/coroutines/sync/d$e;Lcotlinx/coroutines/internal/d;)V",
-        "kotlinx-coroutines-core"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

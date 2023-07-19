@@ -10,42 +10,6 @@
     }
 .end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000(\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0007\u0018\u0000 \u000f2\u00020\u0001:\u0001\u0010B\u0007\u00a2\u0006\u0004\u0008\r\u0010\u000eJ/\u0010\u000b\u001a\u00020\n2\u0006\u0010\u0003\u001a\u00020\u00022\u0006\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0007\u001a\u00020\u00062\u0006\u0010\t\u001a\u00020\u0008H\u0016\u00a2\u0006\u0004\u0008\u000b\u0010\u000c\u00a8\u0006\u0011"
-    }
-    d2 = {
-        "Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/arChild/u;",
-        "Landroidx/recyclerview/widget/RecyclerView$ItemDecoration;",
-        "Landroid/graphics/Rect;",
-        "outRect",
-        "Landroid/view/View;",
-        "view",
-        "Landroidx/recyclerview/widget/RecyclerView;",
-        "parent",
-        "Landroidx/recyclerview/widget/RecyclerView$State;",
-        "state",
-        "Lcotlin/t1;",
-        "getItemOffsets",
-        "(Landroid/graphics/Rect;Landroid/view/View;Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$State;)V",
-        "<init>",
-        "()V",
-        "b",
-        "a",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # static fields

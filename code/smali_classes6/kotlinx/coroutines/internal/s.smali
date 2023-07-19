@@ -4,55 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nMainDispatchers.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MainDispatchers.kt\nkotlinx/coroutines/internal/MainDispatchersKt\n*L\n1#1,132:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u00006\n\u0002\u0018\u0002\n\u0002\u0010 \n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000b\n\u0002\u0008\u0002\n\u0002\u0010\u0003\n\u0000\n\u0002\u0010\u000e\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u0001\n\u0002\u0008\n\u001a!\u0010\u0004\u001a\u00020\u0003*\u00020\u00002\u000c\u0010\u0002\u001a\u0008\u0012\u0004\u0012\u00020\u00000\u0001H\u0007\u00a2\u0006\u0004\u0008\u0004\u0010\u0005\u001a\u0013\u0010\u0007\u001a\u00020\u0006*\u00020\u0003H\u0007\u00a2\u0006\u0004\u0008\u0007\u0010\u0008\u001a\'\u0010\u000e\u001a\u00020\r2\n\u0008\u0002\u0010\n\u001a\u0004\u0018\u00010\t2\n\u0008\u0002\u0010\u000c\u001a\u0004\u0018\u00010\u000bH\u0002\u00a2\u0006\u0004\u0008\u000e\u0010\u000f\u001a\u000f\u0010\u0011\u001a\u00020\u0010H\u0000\u00a2\u0006\u0004\u0008\u0011\u0010\u0012\"\u001c\u0010\u0016\u001a\u00020\u00068\u0002@\u0002X\u0082D\u00a2\u0006\u000c\n\u0004\u0008\u000e\u0010\u0013\u0012\u0004\u0008\u0014\u0010\u0015\"\u0016\u0010\u0019\u001a\u00020\u000b8\u0002@\u0002X\u0082T\u00a2\u0006\u0006\n\u0004\u0008\u0017\u0010\u0018\u00a8\u0006\u001a"
-    }
-    d2 = {
-        "Lcotlinx/coroutines/internal/MainDispatcherFactory;",
-        "",
-        "factories",
-        "Lcotlinx/coroutines/m2;",
-        "f",
-        "(Lcotlinx/coroutines/internal/MainDispatcherFactory;Ljava/util/List;)Lcotlinx/coroutines/m2;",
-        "",
-        "d",
-        "(Lcotlinx/coroutines/m2;)Z",
-        "",
-        "cause",
-        "",
-        "errorHint",
-        "Lcotlinx/coroutines/internal/t;",
-        "b",
-        "(Ljava/lang/Throwable;Ljava/lang/String;)Lcotlinx/coroutines/internal/t;",
-        "",
-        "e",
-        "()Ljava/lang/Void;",
-        "Z",
-        "SUPPORT_MISSING$annotations",
-        "()V",
-        "SUPPORT_MISSING",
-        "a",
-        "Ljava/lang/String;",
-        "FAST_SERVICE_LOADER_PROPERTY_NAME",
-        "kotlinx-coroutines-core"
-    }
-    k = 0x2
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # static fields

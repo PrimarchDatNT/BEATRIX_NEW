@@ -4,63 +4,6 @@
 
 
 # annotations
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000<\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0005\u0018\u00002\u00020\u0001B\u0007\u00a2\u0006\u0004\u0008$\u0010%R(\u0010\n\u001a\u0008\u0012\u0004\u0012\u00020\u00030\u00028\u0006@\u0006X\u0087\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0004\u0010\u0005\u001a\u0004\u0008\u0006\u0010\u0007\"\u0004\u0008\u0008\u0010\tR$\u0010\u0011\u001a\u0004\u0018\u00010\u000b8\u0006@\u0006X\u0087\u000e\u00a2\u0006\u0012\n\u0004\u0008\u000c\u0010\r\u001a\u0004\u0008\u0004\u0010\u000e\"\u0004\u0008\u000f\u0010\u0010R(\u0010\u0015\u001a\u0008\u0012\u0004\u0012\u00020\u00120\u00028\u0006@\u0006X\u0087\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0006\u0010\u0005\u001a\u0004\u0008\u0013\u0010\u0007\"\u0004\u0008\u0014\u0010\tR$\u0010\u001c\u001a\u0004\u0018\u00010\u00168\u0006@\u0006X\u0087\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0017\u0010\u0018\u001a\u0004\u0008\u000c\u0010\u0019\"\u0004\u0008\u001a\u0010\u001bR(\u0010 \u001a\u0008\u0012\u0004\u0012\u00020\u001d0\u00028\u0006@\u0006X\u0087\u000e\u00a2\u0006\u0012\n\u0004\u0008\u001e\u0010\u0005\u001a\u0004\u0008\u0017\u0010\u0007\"\u0004\u0008\u001f\u0010\tR(\u0010#\u001a\u0008\u0012\u0004\u0012\u00020!0\u00028\u0006@\u0006X\u0087\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0013\u0010\u0005\u001a\u0004\u0008\u001e\u0010\u0007\"\u0004\u0008\"\u0010\t\u00a8\u0006&"
-    }
-    d2 = {
-        "Lcom/commsource/studio/function/m;",
-        "",
-        "Ljava/util/LinkedList;",
-        "Lcom/commsource/studio/function/f;",
-        "d",
-        "Ljava/util/LinkedList;",
-        "c",
-        "()Ljava/util/LinkedList;",
-        "i",
-        "(Ljava/util/LinkedList;)V",
-        "doodlesJson",
-        "Lcom/commsource/studio/function/h;",
-        "a",
-        "Lcom/commsource/studio/function/h;",
-        "()Lcom/commsource/studio/function/h;",
-        "j",
-        "(Lcom/commsource/studio/function/h;)V",
-        "imagePositionJson",
-        "Lcom/commsource/studio/function/p;",
-        "e",
-        "k",
-        "stickersJson",
-        "Lcom/commsource/studio/function/d;",
-        "b",
-        "Lcom/commsource/studio/function/d;",
-        "()Lcom/commsource/studio/function/d;",
-        "g",
-        "(Lcom/commsource/studio/function/d;)V",
-        "backgroundJson",
-        "Lcom/commsource/studio/function/e;",
-        "f",
-        "h",
-        "colourEffectsJson",
-        "Lcom/commsource/studio/function/r;",
-        "l",
-        "textsJson",
-        "<init>",
-        "()V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

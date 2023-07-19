@@ -4,68 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nLayerInfoManager.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LayerInfoManager.kt\ncom/commsource/studio/bean/PictureData\n*L\n1#1,1178:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000.\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\t\n\u0002\u0010\u000e\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0010\u0008\n\u0002\u0008\u000b\u0018\u00002\u00020\u0001B\u0007\u00a2\u0006\u0004\u0008%\u0010&J\u0015\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0005\u0010\u0006R$\u0010\r\u001a\u0004\u0018\u00010\u00048\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0007\u0010\u0008\u001a\u0004\u0008\t\u0010\n\"\u0004\u0008\u000b\u0010\u000cR\"\u0010\u0015\u001a\u00020\u000e8\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u000f\u0010\u0010\u001a\u0004\u0008\u0011\u0010\u0012\"\u0004\u0008\u0013\u0010\u0014R$\u0010\u001b\u001a\u0004\u0018\u00010\u00168\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\t\u0010\u0017\u001a\u0004\u0008\u0007\u0010\u0018\"\u0004\u0008\u0019\u0010\u001aR\"\u0010\"\u001a\u00020\u001c8\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u001d\u0010\u001e\u001a\u0004\u0008\u000f\u0010\u001f\"\u0004\u0008 \u0010!R\"\u0010$\u001a\u00020\u001c8\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0011\u0010\u001e\u001a\u0004\u0008\u001d\u0010\u001f\"\u0004\u0008#\u0010!\u00a8\u0006\'"
-    }
-    d2 = {
-        "Lcom/commsource/studio/bean/d;",
-        "",
-        "Landroid/graphics/Bitmap;",
-        "bitmap",
-        "Lcom/commsource/studio/o;",
-        "f",
-        "(Landroid/graphics/Bitmap;)Lcom/commsource/studio/o;",
-        "c",
-        "Lcom/commsource/studio/o;",
-        "b",
-        "()Lcom/commsource/studio/o;",
-        "h",
-        "(Lcom/commsource/studio/o;)V",
-        "detectData",
-        "",
-        "a",
-        "Ljava/lang/String;",
-        "d",
-        "()Ljava/lang/String;",
-        "j",
-        "(Ljava/lang/String;)V",
-        "imageKey",
-        "Lcom/commsource/studio/y;",
-        "Lcom/commsource/studio/y;",
-        "()Lcom/commsource/studio/y;",
-        "i",
-        "(Lcom/commsource/studio/y;)V",
-        "imageData",
-        "",
-        "e",
-        "I",
-        "()I",
-        "g",
-        "(I)V",
-        "dataVersion",
-        "k",
-        "selectFaceIndex",
-        "<init>",
-        "()V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

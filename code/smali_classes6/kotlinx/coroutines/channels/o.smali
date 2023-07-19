@@ -3,24 +3,6 @@
 
 
 # annotations
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "kotlinx/coroutines/channels/ChannelsKt__ChannelsKt",
-        "kotlinx/coroutines/channels/ChannelsKt__Channels_commonKt"
-    }
-    d2 = {}
-    k = 0x4
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # static fields

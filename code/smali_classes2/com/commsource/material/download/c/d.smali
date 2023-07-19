@@ -4,58 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nCommonDownloadTask.kt\nKotlin\n*S Kotlin\n*F\n+ 1 CommonDownloadTask.kt\ncom/commsource/material/download/task/CommonDownloadTask\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,84:1\n1819#2,2:85\n*E\n*S KotlinDebug\n*F\n+ 1 CommonDownloadTask.kt\ncom/commsource/material/download/task/CommonDownloadTask\n*L\n62#1,2:85\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000,\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000e\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0010\u000b\n\u0002\u0008\u000b\u0018\u00002\u00020\u0001B1\u0012\u0008\u0010\u0019\u001a\u0004\u0018\u00010\u0004\u0012\u0008\u0010\u001a\u001a\u0004\u0018\u00010\u0004\u0012\u0008\u0008\u0002\u0010\u0015\u001a\u00020\u0012\u0012\n\u0008\u0002\u0010\u0018\u001a\u0004\u0018\u00010\u0004\u00a2\u0006\u0004\u0008\u001b\u0010\u001cJ\u001f\u0010\u0007\u001a\u00020\u00062\u0006\u0010\u0003\u001a\u00020\u00022\u0006\u0010\u0005\u001a\u00020\u0004H\u0002\u00a2\u0006\u0004\u0008\u0007\u0010\u0008J\u0017\u0010\t\u001a\u00020\u00062\u0006\u0010\u0005\u001a\u00020\u0004H\u0002\u00a2\u0006\u0004\u0008\t\u0010\nJ\u001f\u0010\u000b\u001a\u00020\u00062\u0006\u0010\u0003\u001a\u00020\u00022\u0006\u0010\u0005\u001a\u00020\u0004H\u0016\u00a2\u0006\u0004\u0008\u000b\u0010\u0008R\u001f\u0010\u0011\u001a\u0008\u0012\u0004\u0012\u00020\u00000\u000c8\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\r\u0010\u000e\u001a\u0004\u0008\u000f\u0010\u0010R\u0016\u0010\u0015\u001a\u00020\u00128\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0013\u0010\u0014R\u0018\u0010\u0018\u001a\u0004\u0018\u00010\u00048\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0016\u0010\u0017\u00a8\u0006\u001d"
-    }
-    d2 = {
-        "Lcom/commsource/material/download/c/d;",
-        "Lcom/commsource/material/download/c/c;",
-        "Lcom/commsource/material/DownloadTask;",
-        "task",
-        "",
-        "path",
-        "Lcotlin/t1;",
-        "x",
-        "(Lcom/commsource/material/DownloadTask;Ljava/lang/String;)V",
-        "w",
-        "(Ljava/lang/String;)V",
-        "b",
-        "Ljava/util/concurrent/CopyOnWriteArraySet;",
-        "l",
-        "Ljava/util/concurrent/CopyOnWriteArraySet;",
-        "v",
-        "()Ljava/util/concurrent/CopyOnWriteArraySet;",
-        "appendDownloadTasks",
-        "",
-        "m",
-        "Z",
-        "needUnzip",
-        "n",
-        "Ljava/lang/String;",
-        "unzipPath",
-        "downloadUrl",
-        "targetPath",
-        "<init>",
-        "(Ljava/lang/String;Ljava/lang/String;ZLjava/lang/String;)V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

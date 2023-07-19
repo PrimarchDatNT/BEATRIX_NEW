@@ -4,63 +4,6 @@
 
 
 # annotations
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000 \n\u0002\u0010\u0000\n\u0002\u0008\u0003\n\u0002\u0010\u0008\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u000b\n\u0002\u0018\u0002\n\u0002\u0008\u0012\u001a\u0017\u0010\u0001\u001a\u0004\u0018\u00010\u0000*\u0004\u0018\u00010\u0000H\u0000\u00a2\u0006\u0004\u0008\u0001\u0010\u0002\u001a\u0017\u0010\u0003\u001a\u0004\u0018\u00010\u0000*\u0004\u0018\u00010\u0000H\u0000\u00a2\u0006\u0004\u0008\u0003\u0010\u0002\"\u0016\u0010\u0007\u001a\u00020\u00048\u0002@\u0002X\u0082T\u00a2\u0006\u0006\n\u0004\u0008\u0005\u0010\u0006\"\u001c\u0010\r\u001a\u00020\u00088\u0002@\u0003X\u0083\u0004\u00a2\u0006\u000c\n\u0004\u0008\t\u0010\n\u0012\u0004\u0008\u000b\u0010\u000c\"\u001c\u0010\u0010\u001a\u00020\u00088\u0002@\u0003X\u0083\u0004\u00a2\u0006\u000c\n\u0004\u0008\u000e\u0010\n\u0012\u0004\u0008\u000f\u0010\u000c\"\u001c\u0010\u0013\u001a\u00020\u00088\u0002@\u0003X\u0083\u0004\u00a2\u0006\u000c\n\u0004\u0008\u0011\u0010\n\u0012\u0004\u0008\u0012\u0010\u000c\"\u001c\u0010\u0018\u001a\u00020\u00148\u0002@\u0003X\u0083\u0004\u00a2\u0006\u000c\n\u0004\u0008\u0015\u0010\u0016\u0012\u0004\u0008\u0017\u0010\u000c\"\u0016\u0010\u001a\u001a\u00020\u00048\u0002@\u0002X\u0082T\u00a2\u0006\u0006\n\u0004\u0008\u0019\u0010\u0006\"\u001c\u0010\u001d\u001a\u00020\u00088\u0002@\u0003X\u0083\u0004\u00a2\u0006\u000c\n\u0004\u0008\u001b\u0010\n\u0012\u0004\u0008\u001c\u0010\u000c\"\u001c\u0010 \u001a\u00020\u00148\u0002@\u0003X\u0083\u0004\u00a2\u0006\u000c\n\u0004\u0008\u001e\u0010\u0016\u0012\u0004\u0008\u001f\u0010\u000c\"\u001c\u0010#\u001a\u00020\u00088\u0000@\u0001X\u0081\u0004\u00a2\u0006\u000c\n\u0004\u0008!\u0010\n\u0012\u0004\u0008\"\u0010\u000c\"\u0016\u0010%\u001a\u00020\u00048\u0002@\u0002X\u0082T\u00a2\u0006\u0006\n\u0004\u0008$\u0010\u0006\u00a8\u0006&"
-    }
-    d2 = {
-        "",
-        "n",
-        "(Ljava/lang/Object;)Ljava/lang/Object;",
-        "o",
-        "",
-        "f",
-        "I",
-        "FALSE",
-        "Lcotlinx/coroutines/internal/c0;",
-        "c",
-        "Lcotlinx/coroutines/internal/c0;",
-        "COMPLETING_RETRY$annotations",
-        "()V",
-        "COMPLETING_RETRY",
-        "h",
-        "SEALED$annotations",
-        "SEALED",
-        "d",
-        "TOO_LATE_TO_CANCEL$annotations",
-        "TOO_LATE_TO_CANCEL",
-        "Lcotlinx/coroutines/i1;",
-        "j",
-        "Lcotlinx/coroutines/i1;",
-        "EMPTY_ACTIVE$annotations",
-        "EMPTY_ACTIVE",
-        "g",
-        "TRUE",
-        "a",
-        "COMPLETING_ALREADY$annotations",
-        "COMPLETING_ALREADY",
-        "i",
-        "EMPTY_NEW$annotations",
-        "EMPTY_NEW",
-        "b",
-        "COMPLETING_WAITING_CHILDREN$annotations",
-        "COMPLETING_WAITING_CHILDREN",
-        "e",
-        "RETRY",
-        "kotlinx-coroutines-core"
-    }
-    k = 0x2
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # static fields

@@ -4,65 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nAbstractChannel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 AbstractChannel.kt\nkotlinx/coroutines/channels/AbstractChannelKt\n+ 2 Channel.kt\nkotlinx/coroutines/channels/ValueOrClosed$Companion\n*L\n1#1,1075:1\n423#2:1076\n419#2:1077\n423#2:1078\n*E\n*S KotlinDebug\n*F\n+ 1 AbstractChannel.kt\nkotlinx/coroutines/channels/AbstractChannelKt\n*L\n1071#1:1076\n1071#1:1077\n1074#1:1078\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000.\n\u0000\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0010\u0008\n\u0002\u0008\u0012\n\u0002\u0018\u0002\n\u0002\u0010\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0002\u001a%\u0010\u0003\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u0002\"\u0004\u0008\u0000\u0010\u0000*\u0004\u0018\u00010\u0001H\u0082\u0008\u00f8\u0001\u0000\u00a2\u0006\u0004\u0008\u0003\u0010\u0004\u001a\'\u0010\u0006\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u0002\"\u0004\u0008\u0000\u0010\u0000*\u0006\u0012\u0002\u0008\u00030\u0005H\u0082\u0008\u00f8\u0001\u0000\u00a2\u0006\u0004\u0008\u0006\u0010\u0007\"\u001c\u0010\u000c\u001a\u00020\u00018\u0000@\u0001X\u0081\u0004\u00a2\u0006\u000c\n\u0004\u0008\u0008\u0010\t\u0012\u0004\u0008\n\u0010\u000b\"\u0016\u0010\u0010\u001a\u00020\r8\u0000@\u0000X\u0080T\u00a2\u0006\u0006\n\u0004\u0008\u000e\u0010\u000f\"\u001c\u0010\u0012\u001a\u00020\u00018\u0000@\u0001X\u0081\u0004\u00a2\u0006\u000c\n\u0004\u0008\u0003\u0010\t\u0012\u0004\u0008\u0011\u0010\u000b\"\u001c\u0010\u0015\u001a\u00020\u00018\u0000@\u0001X\u0081\u0004\u00a2\u0006\u000c\n\u0004\u0008\u0013\u0010\t\u0012\u0004\u0008\u0014\u0010\u000b\"\u001c\u0010\u0018\u001a\u00020\u00018\u0000@\u0001X\u0081\u0004\u00a2\u0006\u000c\n\u0004\u0008\u0016\u0010\t\u0012\u0004\u0008\u0017\u0010\u000b\"\u0016\u0010\u001a\u001a\u00020\r8\u0000@\u0000X\u0080T\u00a2\u0006\u0006\n\u0004\u0008\u0019\u0010\u000f\"\u0016\u0010\u001c\u001a\u00020\r8\u0000@\u0000X\u0080T\u00a2\u0006\u0006\n\u0004\u0008\u001b\u0010\u000f\"\u001c\u0010\u001f\u001a\u00020\u00018\u0000@\u0001X\u0081\u0004\u00a2\u0006\u000c\n\u0004\u0008\u001d\u0010\t\u0012\u0004\u0008\u001e\u0010\u000b*(\u0008\u0000\u0010#\"\u0010\u0012\u0006\u0012\u0004\u0018\u00010!\u0012\u0004\u0012\u00020\"0 2\u0010\u0012\u0006\u0012\u0004\u0018\u00010!\u0012\u0004\u0012\u00020\"0 \u0082\u0002\u0004\n\u0002\u0008\u0019\u00a8\u0006$"
-    }
-    d2 = {
-        "E",
-        "",
-        "Lcotlinx/coroutines/channels/f0;",
-        "h",
-        "(Ljava/lang/Object;)Ljava/lang/Object;",
-        "Lcotlinx/coroutines/channels/p;",
-        "i",
-        "(Lcotlinx/coroutines/channels/p;)Ljava/lang/Object;",
-        "g",
-        "Ljava/lang/Object;",
-        "ENQUEUE_FAILED$annotations",
-        "()V",
-        "ENQUEUE_FAILED",
-        "",
-        "b",
-        "I",
-        "RECEIVE_NULL_ON_CLOSE",
-        "HANDLER_INVOKED$annotations",
-        "HANDLER_INVOKED",
-        "f",
-        "POLL_FAILED$annotations",
-        "POLL_FAILED",
-        "d",
-        "OFFER_SUCCESS$annotations",
-        "OFFER_SUCCESS",
-        "a",
-        "RECEIVE_THROWS_ON_CLOSE",
-        "c",
-        "RECEIVE_RESULT",
-        "e",
-        "OFFER_FAILED$annotations",
-        "OFFER_FAILED",
-        "Lcotlin/Function1;",
-        "",
-        "Lcotlin/t1;",
-        "Handler",
-        "kotlinx-coroutines-core"
-    }
-    k = 0x2
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # static fields

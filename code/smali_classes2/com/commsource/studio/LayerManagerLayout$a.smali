@@ -13,69 +13,7 @@
     name = "a"
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nLayerManagerLayout.kt\nKotlin\n*S Kotlin\n*F\n+ 1 LayerManagerLayout.kt\ncom/commsource/studio/LayerManagerLayout$GestureListener\n+ 2 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n+ 3 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,370:1\n13527#2,2:371\n13527#2,2:373\n1819#3,2:375\n1819#3,2:377\n*E\n*S KotlinDebug\n*F\n+ 1 LayerManagerLayout.kt\ncom/commsource/studio/LayerManagerLayout$GestureListener\n*L\n206#1,2:371\n250#1,2:373\n291#1,2:375\n303#1,2:377\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000.\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u0007\n\u0002\u0008\u0002\n\u0002\u0010\u000b\n\u0002\u0008\u000b\n\u0002\u0010\u0008\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0011\u0008\u0086\u0004\u0018\u00002\u00020\u0001B\u0007\u00a2\u0006\u0004\u0008&\u0010\'J/\u0010\t\u001a\u00020\u00082\u0006\u0010\u0003\u001a\u00020\u00022\u0006\u0010\u0004\u001a\u00020\u00022\u0006\u0010\u0006\u001a\u00020\u00052\u0006\u0010\u0007\u001a\u00020\u0005H\u0016\u00a2\u0006\u0004\u0008\t\u0010\nJ\u0017\u0010\u000b\u001a\u00020\u00082\u0006\u0010\u0003\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\u000b\u0010\u000cJ\u0017\u0010\r\u001a\u00020\u00082\u0006\u0010\u0003\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\r\u0010\u000cJ3\u0010\u0011\u001a\u00020\u00082\u0008\u0010\u0003\u001a\u0004\u0018\u00010\u00022\u0008\u0010\u000e\u001a\u0004\u0018\u00010\u00022\u0006\u0010\u000f\u001a\u00020\u00052\u0006\u0010\u0010\u001a\u00020\u0005H\u0016\u00a2\u0006\u0004\u0008\u0011\u0010\nJ3\u0010\u0012\u001a\u00020\u00082\u0008\u0010\u0003\u001a\u0004\u0018\u00010\u00022\u0008\u0010\u000e\u001a\u0004\u0018\u00010\u00022\u0006\u0010\u000f\u001a\u00020\u00052\u0006\u0010\u0010\u001a\u00020\u0005H\u0016\u00a2\u0006\u0004\u0008\u0012\u0010\nJ\u0019\u0010\u0013\u001a\u00020\u00082\u0008\u0010\u000e\u001a\u0004\u0018\u00010\u0002H\u0016\u00a2\u0006\u0004\u0008\u0013\u0010\u000cJ\u0015\u0010\u0015\u001a\u00020\u00142\u0006\u0010\u0003\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0015\u0010\u0016J\u0015\u0010\u0018\u001a\u00020\u00172\u0006\u0010\u0010\u001a\u00020\u0005\u00a2\u0006\u0004\u0008\u0018\u0010\u0019R\"\u0010\u001f\u001a\u00020\u00088\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0015\u0010\u001a\u001a\u0004\u0008\u001b\u0010\u001c\"\u0004\u0008\u001d\u0010\u001eR\"\u0010%\u001a\u00020\u00148\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0018\u0010 \u001a\u0004\u0008!\u0010\"\"\u0004\u0008#\u0010$\u00a8\u0006("
-    }
-    d2 = {
-        "com/commsource/studio/LayerManagerLayout$a",
-        "Lcom/commsource/studio/i$e;",
-        "Landroid/view/MotionEvent;",
-        "downEvent",
-        "moveEvent",
-        "",
-        "distanceX",
-        "distanceY",
-        "",
-        "onMajorScroll",
-        "(Landroid/view/MotionEvent;Landroid/view/MotionEvent;FF)Z",
-        "onLongPress",
-        "(Landroid/view/MotionEvent;)Z",
-        "onMajorFingerDown",
-        "upEvent",
-        "velocityX",
-        "velocityY",
-        "onFlingFromBottomToTop",
-        "onFlingFromTopToBottom",
-        "onMajorFingerUp",
-        "",
-        "c",
-        "(Landroid/view/MotionEvent;)I",
-        "Lcotlin/t1;",
-        "d",
-        "(F)V",
-        "Z",
-        "f",
-        "()Z",
-        "h",
-        "(Z)V",
-        "isStartLongPress",
-        "I",
-        "e",
-        "()I",
-        "g",
-        "(I)V",
-        "currentIndex",
-        "<init>",
-        "(Lcom/commsource/studio/LayerManagerLayout;)V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

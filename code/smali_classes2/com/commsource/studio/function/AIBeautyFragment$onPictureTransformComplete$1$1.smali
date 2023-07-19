@@ -28,34 +28,7 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nAIBeautyFragment.kt\nKotlin\n*S Kotlin\n*F\n+ 1 AIBeautyFragment.kt\ncom/commsource/studio/function/AIBeautyFragment$onPictureTransformComplete$1$1\n*L\n1#1,208:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000\u0012\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\u0010\u0004\u001a\u00020\u00032\u000c\u0010\u0002\u001a\u0008\u0018\u00010\u0000R\u00020\u0001H\n\u00a2\u0006\u0004\u0008\u0004\u0010\u0005"
-    }
-    d2 = {
-        "Lf/d/d/o$c;",
-        "Lf/d/d/o;",
-        "aiBeautyState",
-        "Lcotlin/t1;",
-        "a",
-        "(Lf/d/d/o$c;)V"
-    }
-    k = 0x3
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

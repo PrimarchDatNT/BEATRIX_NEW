@@ -10,79 +10,7 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nIconBar.kt\nKotlin\n*S Kotlin\n*F\n+ 1 IconBar.kt\ncom/commsource/studio/IconBar\n+ 2 _Arrays.kt\nkotlin/collections/ArraysKt___ArraysKt\n+ 3 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,81:1\n13506#2,2:82\n1828#3,3:84\n*E\n*S KotlinDebug\n*F\n+ 1 IconBar.kt\ncom/commsource/studio/IconBar\n*L\n36#1,2:82\n43#1,3:84\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000\\\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0010\u0008\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u0011\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u0007\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0002\u0008\u0006\n\u0002\u0010!\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0006\u0018\u0000 \u00082\u00020\u0001:\u0001)B\u0007\u00a2\u0006\u0004\u00081\u0010\u0010J\u0017\u0010\u0005\u001a\u00020\u00042\u0008\u0008\u0001\u0010\u0003\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J\u0019\u0010\u0008\u001a\u0004\u0018\u00010\u00072\u0008\u0008\u0001\u0010\u0003\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0008\u0010\tJ\u001d\u0010\r\u001a\u00020\u000c2\u000e\u0010\u000b\u001a\n\u0012\u0006\u0008\u0001\u0012\u00020\u00070\n\u00a2\u0006\u0004\u0008\r\u0010\u000eJ\r\u0010\u000f\u001a\u00020\u000c\u00a2\u0006\u0004\u0008\u000f\u0010\u0010J\u0015\u0010\u0013\u001a\u00020\u000c2\u0006\u0010\u0012\u001a\u00020\u0011\u00a2\u0006\u0004\u0008\u0013\u0010\u0014R\"\u0010\u001b\u001a\u00020\u00158\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\r\u0010\u0016\u001a\u0004\u0008\u0017\u0010\u0018\"\u0004\u0008\u0019\u0010\u001aR\u001c\u0010\u001e\u001a\u0008\u0012\u0004\u0012\u00020\u00040\u001c8\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u0013\u0010\u001dR\u0019\u0010\"\u001a\u00020\u00048\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u000f\u0010\u001f\u001a\u0004\u0008 \u0010!R\u001f\u0010\'\u001a\u0008\u0012\u0004\u0012\u00020\u00070#8\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u0005\u0010$\u001a\u0004\u0008%\u0010&R\u0016\u0010+\u001a\u00020(8\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008)\u0010*R\u0019\u00100\u001a\u00020,8\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008 \u0010-\u001a\u0004\u0008.\u0010/\u00a8\u00062"
-    }
-    d2 = {
-        "Lcom/commsource/studio/w;",
-        "",
-        "",
-        "iconType",
-        "Landroid/graphics/RectF;",
-        "e",
-        "(I)Landroid/graphics/RectF;",
-        "Lcom/commsource/studio/x;",
-        "h",
-        "(I)Lcom/commsource/studio/x;",
-        "",
-        "objs",
-        "Lcotlin/t1;",
-        "b",
-        "([Lcom/commsource/studio/IconObj;)V",
-        "c",
-        "()V",
-        "Landroid/graphics/Canvas;",
-        "canvas",
-        "d",
-        "(Landroid/graphics/Canvas;)V",
-        "",
-        "F",
-        "i",
-        "()F",
-        "k",
-        "(F)V",
-        "keepHorizontalAngle",
-        "Landroid/util/SparseArray;",
-        "Landroid/util/SparseArray;",
-        "map",
-        "Landroid/graphics/RectF;",
-        "f",
-        "()Landroid/graphics/RectF;",
-        "iconBarArea",
-        "",
-        "Ljava/util/List;",
-        "g",
-        "()Ljava/util/List;",
-        "iconList",
-        "Landroid/graphics/Matrix;",
-        "a",
-        "Landroid/graphics/Matrix;",
-        "translateMatrix",
-        "Landroid/graphics/Paint;",
-        "Landroid/graphics/Paint;",
-        "j",
-        "()Landroid/graphics/Paint;",
-        "paint",
-        "<init>",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # static fields

@@ -14,52 +14,6 @@
     }
 .end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000$\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u000b\n\u0002\u0018\u0002\n\u0002\u0008\t\u0008&\u0018\u0000*\u0008\u0008\u0000\u0010\u0002*\u00020\u00012\u0008\u0012\u0004\u0012\u00028\u00000\u0003B\u0007\u00a2\u0006\u0004\u0008\u001a\u0010\nJ\u0017\u0010\u0007\u001a\u00020\u00062\u0006\u0010\u0005\u001a\u00020\u0004H\u0016\u00a2\u0006\u0004\u0008\u0007\u0010\u0008J\r\u0010\t\u001a\u00020\u0006\u00a2\u0006\u0004\u0008\t\u0010\nR$\u0010\u0011\u001a\u0004\u0018\u00018\u00008\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u000b\u0010\u000c\u001a\u0004\u0008\r\u0010\u000e\"\u0004\u0008\u000f\u0010\u0010R\"\u0010\u0019\u001a\u00020\u00128\u0006@\u0006X\u0086.\u00a2\u0006\u0012\n\u0004\u0008\u0013\u0010\u0014\u001a\u0004\u0008\u0015\u0010\u0016\"\u0004\u0008\u0017\u0010\u0018\u00a8\u0006\u001b"
-    }
-    d2 = {
-        "Lcom/commsource/camera/xcamera/cover/AbsLazyCover;",
-        "Landroidx/databinding/ViewDataBinding;",
-        "T",
-        "Lcom/commsource/camera/xcamera/cover/AbsBaseCover;",
-        "Lcom/commsource/camera/xcamera/cover/CoverGroup;",
-        "group",
-        "Lcotlin/t1;",
-        "f",
-        "(Lcom/commsource/camera/xcamera/cover/CoverGroup;)V",
-        "z",
-        "()V",
-        "c",
-        "Landroidx/databinding/ViewDataBinding;",
-        "A",
-        "()Landroidx/databinding/ViewDataBinding;",
-        "C",
-        "(Landroidx/databinding/ViewDataBinding;)V",
-        "mViewBinding",
-        "Landroid/view/ViewStub;",
-        "b",
-        "Landroid/view/ViewStub;",
-        "B",
-        "()Landroid/view/ViewStub;",
-        "D",
-        "(Landroid/view/ViewStub;)V",
-        "vsCover",
-        "<init>",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

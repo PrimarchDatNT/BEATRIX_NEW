@@ -16,36 +16,7 @@
     name = null
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nGmsManager.kt\nKotlin\n*S Kotlin\n*F\n+ 1 GmsManager.kt\ncom/commsource/billing/pro/GmsManager$init$1\n+ 2 _Collections.kt\nkotlin/collections/CollectionsKt___CollectionsKt\n*L\n1#1,546:1\n1819#2,2:547\n*E\n*S KotlinDebug\n*F\n+ 1 GmsManager.kt\ncom/commsource/billing/pro/GmsManager$init$1\n*L\n81#1,2:547\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000\u0018\n\u0002\u0010!\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010 \n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\u0010\u0006\u001a\u00020\u00052*\u0010\u0004\u001a&\u0012\u000c\u0012\n \u0002*\u0004\u0018\u00010\u00010\u0001 \u0002*\u0012\u0012\u000c\u0012\n \u0002*\u0004\u0018\u00010\u00010\u0001\u0018\u00010\u00030\u0000H\n\u00a2\u0006\u0004\u0008\u0006\u0010\u0007"
-    }
-    d2 = {
-        "",
-        "Lcom/meitu/global/billing/purchase/data/MTGPurchase;",
-        "kotlin.jvm.PlatformType",
-        "",
-        "purchases",
-        "Lcotlin/t1;",
-        "a",
-        "(Ljava/util/List;)V"
-    }
-    k = 0x3
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

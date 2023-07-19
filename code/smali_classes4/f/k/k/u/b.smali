@@ -4,79 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nXHttpEx.kt\nKotlin\n*S Kotlin\n*F\n+ 1 XHttpEx.kt\ncom/meitu/http/kotex/XHttpExKt\n*L\n1#1,79:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000Z\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000e\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0002\u0008\n\n\u0002\u0018\u0002\n\u0002\u0008\u000b\u001a\u001d\u0010\u0002\u001a\u00028\u0000\"\u0004\u0008\u0000\u0010\u0000*\u0008\u0012\u0004\u0012\u00028\u00000\u0001\u00a2\u0006\u0004\u0008\u0002\u0010\u0003\u001a:\u0010\u000c\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u000b\"\u0004\u0008\u0000\u0010\u00002\u0006\u0010\u0005\u001a\u00020\u00042\u0017\u0010\n\u001a\u0013\u0012\u0004\u0012\u00020\u0007\u0012\u0004\u0012\u00020\u00080\u0006\u00a2\u0006\u0002\u0008\t\u00a2\u0006\u0004\u0008\u000c\u0010\r\u001a:\u0010\u000f\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u000b\"\u0004\u0008\u0000\u0010\u00002\u0006\u0010\u0005\u001a\u00020\u00042\u0017\u0010\n\u001a\u0013\u0012\u0004\u0012\u00020\u000e\u0012\u0004\u0012\u00020\u00080\u0006\u00a2\u0006\u0002\u0008\t\u00a2\u0006\u0004\u0008\u000f\u0010\r\u001a6\u0010\u0013\u001a\u00020\u00122\u0006\u0010\u0010\u001a\u00020\u00042\u0006\u0010\u0011\u001a\u00020\u00042\u0017\u0010\n\u001a\u0013\u0012\u0004\u0012\u00020\u0012\u0012\u0004\u0012\u00020\u00080\u0006\u00a2\u0006\u0002\u0008\t\u00a2\u0006\u0004\u0008\u0013\u0010\u0014\u001a!\u0010\u0018\u001a\u00020\u0008*\u00020\u00152\u0006\u0010\u0016\u001a\u00020\u00042\u0006\u0010\u0017\u001a\u00020\u0004\u00a2\u0006\u0004\u0008\u0018\u0010\u0019\u001aJ\u0010\u001e\u001a\u00020\u0008*\u00020\u001527\u0010\u001d\u001a3\u0012$\u0012\"\u0012\u0004\u0012\u00020\u0004\u0012\u0006\u0012\u0004\u0018\u00010\u001b0\u001aj\u0010\u0012\u0004\u0012\u00020\u0004\u0012\u0006\u0012\u0004\u0018\u00010\u001b`\u001c\u0012\u0004\u0012\u00020\u00080\u0006\u00a2\u0006\u0002\u0008\t\u00a2\u0006\u0004\u0008\u001e\u0010\u001f\u001a\u0011\u0010 \u001a\u00020\u0008*\u00020\u0015\u00a2\u0006\u0004\u0008 \u0010!\u001a\u0019\u0010#\u001a\u00020\u0008*\u00020\u00152\u0006\u0010\"\u001a\u00020\u0004\u00a2\u0006\u0004\u0008#\u0010$\u001a\u001d\u0010%\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u000b\"\u0004\u0008\u0000\u0010\u0000*\u00020\u0015\u00a2\u0006\u0004\u0008%\u0010&\u001aB\u0010)\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u000b\"\u0004\u0008\u0000\u0010\u0000*\u0008\u0012\u0004\u0012\u00028\u00000\u000b2\u001d\u0010(\u001a\u0019\u0012\n\u0012\u0008\u0012\u0004\u0012\u00028\u00000\'\u0012\u0004\u0012\u00020\u00080\u0006\u00a2\u0006\u0002\u0008\t\u00a2\u0006\u0004\u0008)\u0010*\"\u0017\u0010-\u001a\u00020\u0004*\u00020\u00158F@\u0006\u00a2\u0006\u0006\u001a\u0004\u0008+\u0010,\"\u0017\u0010/\u001a\u00020\u0004*\u00020\u00158F@\u0006\u00a2\u0006\u0006\u001a\u0004\u0008.\u0010,\"\u0017\u00101\u001a\u00020\u0004*\u00020\u00158F@\u0006\u00a2\u0006\u0006\u001a\u0004\u00080\u0010,\u00a8\u00062"
-    }
-    d2 = {
-        "T",
-        "Ljava/lang/Class;",
-        "h",
-        "(Ljava/lang/Class;)Ljava/lang/Object;",
-        "",
-        "requestMapping",
-        "Lcotlin/Function1;",
-        "Lf/k/k/g;",
-        "Lcotlin/t1;",
-        "Lcotlin/q;",
-        "body",
-        "Lf/k/k/u/c;",
-        "b",
-        "(Ljava/lang/String;Lcotlin/jvm/u/l;)Lf/k/k/u/c;",
-        "Lf/k/k/k;",
-        "g",
-        "onlinePath",
-        "localPath",
-        "Lf/k/k/f;",
-        "a",
-        "(Ljava/lang/String;Ljava/lang/String;Lcotlin/jvm/u/l;)Lf/k/k/f;",
-        "Lf/k/k/d;",
-        "key",
-        "value",
-        "c",
-        "(Lf/k/k/d;Ljava/lang/String;Ljava/lang/String;)V",
-        "Ljava/util/HashMap;",
-        "",
-        "Lcotlin/collections/HashMap;",
-        "hashMap",
-        "f",
-        "(Lf/k/k/d;Lcotlin/jvm/u/l;)V",
-        "e",
-        "(Lf/k/k/d;)V",
-        "host",
-        "d",
-        "(Lf/k/k/d;Ljava/lang/String;)V",
-        "i",
-        "(Lf/k/k/d;)Lf/k/k/u/c;",
-        "Lf/k/k/u/a;",
-        "content",
-        "m",
-        "(Lf/k/k/u/c;Lcotlin/jvm/u/l;)Lf/k/k/u/c;",
-        "l",
-        "(Lf/k/k/d;)Ljava/lang/String;",
-        "ProductCenterHost",
-        "j",
-        "CMSHost",
-        "k",
-        "DuffleHost",
-        "app_googleplayRelease"
-    }
-    k = 0x2
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # direct methods

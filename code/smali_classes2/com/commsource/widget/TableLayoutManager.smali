@@ -4,78 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nTableLayoutManager.kt\nKotlin\n*S Kotlin\n*F\n+ 1 TableLayoutManager.kt\ncom/commsource/widget/TableLayoutManager\n*L\n1#1,153:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000L\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u0008\n\u0002\u0008\t\n\u0002\u0010\u000b\n\u0002\u0008\u000c\n\u0002\u0010\u0007\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0005\u0018\u00002\u00020\u0001B\u001b\u0012\u0008\u0008\u0002\u0010)\u001a\u00020\'\u0012\u0008\u0008\u0002\u0010#\u001a\u00020\u001a\u00a2\u0006\u0004\u0008/\u00100J\u000f\u0010\u0003\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\u0003\u0010\u0004J\u0019\u0010\u0008\u001a\u00020\u00072\u0008\u0010\u0006\u001a\u0004\u0018\u00010\u0005H\u0016\u00a2\u0006\u0004\u0008\u0008\u0010\tJ#\u0010\u000e\u001a\u00020\u00072\n\u0010\u000b\u001a\u00060\nR\u00020\u00052\u0006\u0010\r\u001a\u00020\u000cH\u0016\u00a2\u0006\u0004\u0008\u000e\u0010\u000fJ/\u0010\u0012\u001a\u00020\u00102\u0006\u0010\u0011\u001a\u00020\u00102\u000c\u0010\u000b\u001a\u0008\u0018\u00010\nR\u00020\u00052\u0008\u0010\r\u001a\u0004\u0018\u00010\u000cH\u0016\u00a2\u0006\u0004\u0008\u0012\u0010\u0013J+\u0010\u0016\u001a\u00020\u00072\u0008\u0010\u0014\u001a\u0004\u0018\u00010\u00052\u0008\u0010\r\u001a\u0004\u0018\u00010\u000c2\u0006\u0010\u0015\u001a\u00020\u0010H\u0016\u00a2\u0006\u0004\u0008\u0016\u0010\u0017J\u0017\u0010\u0018\u001a\u00020\u00072\u0006\u0010\r\u001a\u00020\u0010H\u0016\u00a2\u0006\u0004\u0008\u0018\u0010\u0019J\u000f\u0010\u001b\u001a\u00020\u001aH\u0016\u00a2\u0006\u0004\u0008\u001b\u0010\u001cJ\u000f\u0010\u001d\u001a\u00020\u001aH\u0016\u00a2\u0006\u0004\u0008\u001d\u0010\u001cR\"\u0010#\u001a\u00020\u001a8\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u001e\u0010\u001f\u001a\u0004\u0008 \u0010\u001c\"\u0004\u0008!\u0010\"R\u0016\u0010&\u001a\u00020\u00108\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008$\u0010%R\u0016\u0010)\u001a\u00020\'8\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008!\u0010(R\u0016\u0010+\u001a\u00020\u00108\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008*\u0010%R\u0016\u0010.\u001a\u00020,8\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008 \u0010-\u00a8\u00061"
-    }
-    d2 = {
-        "Lcom/commsource/widget/TableLayoutManager;",
-        "Landroidx/recyclerview/widget/RecyclerView$LayoutManager;",
-        "Landroidx/recyclerview/widget/RecyclerView$LayoutParams;",
-        "generateDefaultLayoutParams",
-        "()Landroidx/recyclerview/widget/RecyclerView$LayoutParams;",
-        "Landroidx/recyclerview/widget/RecyclerView;",
-        "view",
-        "Lcotlin/t1;",
-        "onAttachedToWindow",
-        "(Landroidx/recyclerview/widget/RecyclerView;)V",
-        "Landroidx/recyclerview/widget/RecyclerView$Recycler;",
-        "recycler",
-        "Landroidx/recyclerview/widget/RecyclerView$State;",
-        "state",
-        "onLayoutChildren",
-        "(Landroidx/recyclerview/widget/RecyclerView$Recycler;Landroidx/recyclerview/widget/RecyclerView$State;)V",
-        "",
-        "dx",
-        "scrollHorizontallyBy",
-        "(ILandroidx/recyclerview/widget/RecyclerView$Recycler;Landroidx/recyclerview/widget/RecyclerView$State;)I",
-        "recyclerView",
-        "position",
-        "smoothScrollToPosition",
-        "(Landroidx/recyclerview/widget/RecyclerView;Landroidx/recyclerview/widget/RecyclerView$State;I)V",
-        "onScrollStateChanged",
-        "(I)V",
-        "",
-        "canScrollHorizontally",
-        "()Z",
-        "canScrollVertically",
-        "e",
-        "Z",
-        "c",
-        "d",
-        "(Z)V",
-        "needHalfRule",
-        "b",
-        "I",
-        "currentOffsetX",
-        "",
-        "F",
-        "minMargin",
-        "a",
-        "totalWidth",
-        "Landroid/animation/ValueAnimator;",
-        "Landroid/animation/ValueAnimator;",
-        "smoothScrollAnimator",
-        "<init>",
-        "(FZ)V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

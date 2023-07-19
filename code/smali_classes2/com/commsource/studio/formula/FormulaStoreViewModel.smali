@@ -4,65 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nFormulaStoreViewModel.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FormulaStoreViewModel.kt\ncom/commsource/studio/formula/FormulaStoreViewModel\n*L\n1#1,45:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000@\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u000b\n\u0002\u0008\u0005\n\u0002\u0010 \n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u000e\n\u0002\u0008\u0003\n\u0002\u0010\u0008\n\u0002\u0008\n\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u0018\u00002\u00020\u0001B\u000f\u0012\u0006\u0010!\u001a\u00020 \u00a2\u0006\u0004\u0008\"\u0010#J\r\u0010\u0003\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0003\u0010\u0004R#\u0010\u000b\u001a\u0008\u0012\u0004\u0012\u00020\u00060\u00058F@\u0006X\u0086\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0007\u0010\u0008\u001a\u0004\u0008\t\u0010\nR)\u0010\u0010\u001a\u000e\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\r0\u000c0\u00058F@\u0006X\u0086\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u000e\u0010\u0008\u001a\u0004\u0008\u000f\u0010\nR#\u0010\u0014\u001a\u0008\u0012\u0004\u0012\u00020\u00110\u00058F@\u0006X\u0086\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0012\u0010\u0008\u001a\u0004\u0008\u0013\u0010\nR#\u0010\u0018\u001a\u0008\u0012\u0004\u0012\u00020\u00150\u00058F@\u0006X\u0086\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0016\u0010\u0008\u001a\u0004\u0008\u0017\u0010\nR\"\u0010\u001f\u001a\u00020\u00158\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0019\u0010\u001a\u001a\u0004\u0008\u001b\u0010\u001c\"\u0004\u0008\u001d\u0010\u001e\u00a8\u0006$"
-    }
-    d2 = {
-        "Lcom/commsource/studio/formula/FormulaStoreViewModel;",
-        "Landroidx/lifecycle/AndroidViewModel;",
-        "Lcotlin/t1;",
-        "D",
-        "()V",
-        "Landroidx/lifecycle/MutableLiveData;",
-        "",
-        "d",
-        "Lcotlin/w;",
-        "A",
-        "()Landroidx/lifecycle/MutableLiveData;",
-        "subscribeResultEvent",
-        "",
-        "Lcom/commsource/studio/formula/FormulaCategory;",
-        "b",
-        "B",
-        "tagDataEvent",
-        "",
-        "e",
-        "C",
-        "uiReplyEvent",
-        "",
-        "c",
-        "z",
-        "subscribeEvent",
-        "a",
-        "I",
-        "y",
-        "()I",
-        "E",
-        "(I)V",
-        "selectTag",
-        "Landroid/app/Application;",
-        "application",
-        "<init>",
-        "(Landroid/app/Application;)V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

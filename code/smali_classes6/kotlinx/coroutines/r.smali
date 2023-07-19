@@ -12,43 +12,6 @@
     }
 .end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000*\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u0003\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000e\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0007\u0008\u0000\u0018\u00002\u0008\u0012\u0004\u0012\u00020\u00020\u0001B\u001b\u0012\u0006\u0010\u000f\u001a\u00020\u0002\u0012\n\u0010\u000e\u001a\u0006\u0012\u0002\u0008\u00030\u000b\u00a2\u0006\u0004\u0008\u0010\u0010\u0011J\u001a\u0010\u0006\u001a\u00020\u00052\u0008\u0010\u0004\u001a\u0004\u0018\u00010\u0003H\u0096\u0002\u00a2\u0006\u0004\u0008\u0006\u0010\u0007J\u000f\u0010\t\u001a\u00020\u0008H\u0016\u00a2\u0006\u0004\u0008\t\u0010\nR\u001a\u0010\u000e\u001a\u0006\u0012\u0002\u0008\u00030\u000b8\u0006@\u0007X\u0087\u0004\u00a2\u0006\u0006\n\u0004\u0008\u000c\u0010\r\u00a8\u0006\u0012"
-    }
-    d2 = {
-        "Lcotlinx/coroutines/r;",
-        "Lcotlinx/coroutines/d2;",
-        "Lcotlinx/coroutines/c2;",
-        "",
-        "cause",
-        "Lcotlin/t1;",
-        "f0",
-        "(Ljava/lang/Throwable;)V",
-        "",
-        "toString",
-        "()Ljava/lang/String;",
-        "Lcotlinx/coroutines/n;",
-        "f",
-        "Lcotlinx/coroutines/n;",
-        "child",
-        "parent",
-        "<init>",
-        "(Lcotlinx/coroutines/c2;Lcotlinx/coroutines/n;)V",
-        "kotlinx-coroutines-core"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

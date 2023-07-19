@@ -10,66 +10,7 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nArApi.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ArApi.kt\ncom/meitu/http/api/ArApi\n*L\n1#1,149:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000F\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000e\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000b\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u0008\u0018\u0000 \u00192\u00020\u0001:\u0001\u001bB\u0007\u00a2\u0006\u0004\u0008$\u0010\u001cJ\u001d\u0010\u0006\u001a\u00020\u00052\u000e\u0010\u0004\u001a\n\u0012\u0004\u0012\u00020\u0003\u0018\u00010\u0002\u00a2\u0006\u0004\u0008\u0006\u0010\u0007J\u001d\u0010\t\u001a\u00020\u00052\u000e\u0010\u0004\u001a\n\u0012\u0004\u0012\u00020\u0008\u0018\u00010\u0002\u00a2\u0006\u0004\u0008\t\u0010\u0007J\'\u0010\r\u001a\u00020\u00052\u0008\u0010\u000b\u001a\u0004\u0018\u00010\n2\u000e\u0010\u0004\u001a\n\u0012\u0004\u0012\u00020\u000c\u0018\u00010\u0002\u00a2\u0006\u0004\u0008\r\u0010\u000eJ\u0017\u0010\u0010\u001a\u00020\u00052\u0008\u0010\u000f\u001a\u0004\u0018\u00010\n\u00a2\u0006\u0004\u0008\u0010\u0010\u0011J\u001d\u0010\u0013\u001a\u00020\u00052\u000e\u0010\u0004\u001a\n\u0012\u0004\u0012\u00020\u0012\u0018\u00010\u0002\u00a2\u0006\u0004\u0008\u0013\u0010\u0007J1\u0010\u0019\u001a\u00020\u00052\u0008\u0010\u0014\u001a\u0004\u0018\u00010\n2\u0006\u0010\u0016\u001a\u00020\u00152\u0008\u0010\u0017\u001a\u0004\u0018\u00010\n2\u0006\u0010\u0018\u001a\u00020\u0015\u00a2\u0006\u0004\u0008\u0019\u0010\u001aJ\r\u0010\u001b\u001a\u00020\u0005\u00a2\u0006\u0004\u0008\u001b\u0010\u001cR\u001d\u0010!\u001a\u00020\u001d8F@\u0006X\u0086\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0013\u0010\u001e\u001a\u0004\u0008\u001f\u0010 R\u0016\u0010#\u001a\u00020\n8\u0002@\u0002X\u0082D\u00a2\u0006\u0006\n\u0004\u0008\u001b\u0010\"\u00a8\u0006%"
-    }
-    d2 = {
-        "Lcom/meitu/http/api/ArApi;",
-        "",
-        "Lf/k/k/p;",
-        "Lcom/commsource/camera/ardata/f;",
-        "responseListener",
-        "Lcotlin/t1;",
-        "e",
-        "(Lf/k/k/p;)V",
-        "Lcom/commsource/camera/ardata/h;",
-        "g",
-        "",
-        "content",
-        "Lcom/commsource/camera/ardata/g;",
-        "f",
-        "(Ljava/lang/String;Lf/k/k/p;)V",
-        "key",
-        "h",
-        "(Ljava/lang/String;)V",
-        "Lcom/commsource/camera/ardata/d;",
-        "b",
-        "responseId",
-        "",
-        "isTrending",
-        "gifId",
-        "isClick",
-        "d",
-        "(Ljava/lang/String;ZLjava/lang/String;Z)V",
-        "a",
-        "()V",
-        "Lcom/giphy/sdk/core/network/api/GPHApiClient;",
-        "Lcotlin/w;",
-        "c",
-        "()Lcom/giphy/sdk/core/network/api/GPHApiClient;",
-        "giphyClient",
-        "Ljava/lang/String;",
-        "BASE_GIPHY_ANALYTICS_URL",
-        "<init>",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # static fields

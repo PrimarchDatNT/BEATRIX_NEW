@@ -4,46 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nByteSubArray.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ByteSubArray.kt\nkshark/internal/ByteSubArrayKt\n*L\n1#1,106:1\n106#1:107\n106#1:108\n106#1:109\n106#1:110\n106#1:111\n106#1:112\n103#1:113\n103#1:114\n103#1:115\n103#1:116\n103#1:117\n103#1:118\n103#1:119\n103#1:120\n*E\n*S KotlinDebug\n*F\n+ 1 ByteSubArray.kt\nkshark/internal/ByteSubArrayKt\n*L\n76#1:107\n76#1:108\n83#1:109\n84#1:110\n85#1:111\n86#1:112\n92#1:113\n93#1:114\n94#1:115\n95#1:116\n96#1:117\n97#1:118\n98#1:119\n99#1:120\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000\"\n\u0002\u0010\u0012\n\u0002\u0010\u0008\n\u0000\n\u0002\u0010\n\n\u0002\u0008\u0004\n\u0002\u0010\t\n\u0002\u0008\u0002\n\u0002\u0010\u0005\n\u0002\u0008\u0006\u001a\u001b\u0010\u0004\u001a\u00020\u0003*\u00020\u00002\u0006\u0010\u0002\u001a\u00020\u0001H\u0000\u00a2\u0006\u0004\u0008\u0004\u0010\u0005\u001a\u001b\u0010\u0006\u001a\u00020\u0001*\u00020\u00002\u0006\u0010\u0002\u001a\u00020\u0001H\u0000\u00a2\u0006\u0004\u0008\u0006\u0010\u0007\u001a\u001b\u0010\t\u001a\u00020\u0008*\u00020\u00002\u0006\u0010\u0002\u001a\u00020\u0001H\u0000\u00a2\u0006\u0004\u0008\t\u0010\n\u001a\u001c\u0010\r\u001a\u00020\u0008*\u00020\u000b2\u0006\u0010\u000c\u001a\u00020\u0008H\u0082\u000c\u00a2\u0006\u0004\u0008\r\u0010\u000e\u001a\u001c\u0010\u000f\u001a\u00020\u0001*\u00020\u000b2\u0006\u0010\u000c\u001a\u00020\u0001H\u0082\u000c\u00a2\u0006\u0004\u0008\u000f\u0010\u0010\u00a8\u0006\u0011"
-    }
-    d2 = {
-        "",
-        "",
-        "index",
-        "",
-        "f",
-        "([BI)S",
-        "d",
-        "([BI)I",
-        "",
-        "e",
-        "([BI)J",
-        "",
-        "other",
-        "c",
-        "(BJ)J",
-        "b",
-        "(BI)I",
-        "shark"
-    }
-    k = 0x2
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # direct methods

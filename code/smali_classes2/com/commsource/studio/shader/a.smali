@@ -15,57 +15,6 @@
     }
 .end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000(\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u000c\n\u0002\u0010\u0008\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\t\u0008&\u0018\u0000*\u0008\u0008\u0000\u0010\u0002*\u00020\u0001*\u0008\u0008\u0001\u0010\u0003*\u00020\u00012\u00020\u0004B\u0017\u0012\u0006\u0010\u0011\u001a\u00028\u0000\u0012\u0006\u0010\u0016\u001a\u00028\u0001\u00a2\u0006\u0004\u0008\u001e\u0010\u001fJ\u000f\u0010\u0006\u001a\u00020\u0005H\u0016\u00a2\u0006\u0004\u0008\u0006\u0010\u0007J\u000f\u0010\u0008\u001a\u00020\u0005H\u0016\u00a2\u0006\u0004\u0008\u0008\u0010\u0007J\u000f\u0010\t\u001a\u00020\u0005H\u0016\u00a2\u0006\u0004\u0008\t\u0010\u0007J\r\u0010\n\u001a\u00020\u0005\u00a2\u0006\u0004\u0008\n\u0010\u0007R\"\u0010\u0011\u001a\u00028\u00008\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u000b\u0010\u000c\u001a\u0004\u0008\r\u0010\u000e\"\u0004\u0008\u000f\u0010\u0010R\u0016\u0010\u0014\u001a\u00020\u00128\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\n\u0010\u0013R\"\u0010\u0016\u001a\u00028\u00018\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\r\u0010\u000c\u001a\u0004\u0008\u000b\u0010\u000e\"\u0004\u0008\u0015\u0010\u0010R\"\u0010\u001d\u001a\u00020\u00178\u0006@\u0006X\u0086.\u00a2\u0006\u0012\n\u0004\u0008\u0018\u0010\u0019\u001a\u0004\u0008\u0018\u0010\u001a\"\u0004\u0008\u001b\u0010\u001c\u00a8\u0006 "
-    }
-    d2 = {
-        "Lcom/commsource/studio/shader/a;",
-        "Lcom/commsource/studio/shader/BaseShader;",
-        "V",
-        "F",
-        "",
-        "Lcotlin/t1;",
-        "e",
-        "()V",
-        "f",
-        "g",
-        "a",
-        "c",
-        "Lcom/commsource/studio/shader/BaseShader;",
-        "d",
-        "()Lcom/commsource/studio/shader/BaseShader;",
-        "j",
-        "(Lcom/commsource/studio/shader/BaseShader;)V",
-        "vertexShader",
-        "",
-        "I",
-        "programId",
-        "i",
-        "fragmentShader",
-        "Lcom/commsource/easyeditor/utils/opengl/c;",
-        "b",
-        "Lcom/commsource/easyeditor/utils/opengl/c;",
-        "()Lcom/commsource/easyeditor/utils/opengl/c;",
-        "h",
-        "(Lcom/commsource/easyeditor/utils/opengl/c;)V",
-        "eglProvider",
-        "<init>",
-        "(Lcom/commsource/studio/shader/BaseShader;Lcom/commsource/studio/shader/BaseShader;)V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

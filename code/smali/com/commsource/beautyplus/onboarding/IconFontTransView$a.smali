@@ -16,37 +16,6 @@
     name = null
 .end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000\u001e\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000b\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u0010\u000c\u001a\u00020\u00082<\u0010\u0002\u001a8\u0012\u0014\u0012\u0012\u0012\u0002\u0008\u0003 \u0001*\u0008\u0012\u0002\u0008\u0003\u0018\u00010\u00000\u0000 \u0001*\u001c\u0012\u0016\u0008\u0001\u0012\u0012\u0012\u0002\u0008\u0003 \u0001*\u0008\u0012\u0002\u0008\u0003\u0018\u00010\u00000\u0000\u0018\u00010\u00000\u00002\u0006\u0010\u0004\u001a\u00020\u00032\u0006\u0010\u0006\u001a\u00020\u00052\u0006\u0010\u0007\u001a\u00020\u0005H\n\u00a2\u0006\u0004\u0008\t\u0010\n\u00a8\u0006\u000b"
-    }
-    d2 = {
-        "Landroidx/dynamicanimation/animation/DynamicAnimation;",
-        "kotlin.jvm.PlatformType",
-        "animation",
-        "L;",
-        "canceled",
-        "",
-        "value",
-        "velocity",
-        "Lcotlin/t1;",
-        "kotlin/Float",
-        "(Landroidx/dynamicanimation/animation/DynamicAnimation;L;ZZ)V",
-        "com/commsource/beautyplus/onboarding/IconFontTransView$setIconFontResWithAnim$1$1",
-        "<anonymous>"
-    }
-    k = 0x3
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

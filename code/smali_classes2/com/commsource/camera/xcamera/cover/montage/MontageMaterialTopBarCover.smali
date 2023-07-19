@@ -16,71 +16,7 @@
     }
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nMontageMaterialTopBarCover.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MontageMaterialTopBarCover.kt\ncom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover\n+ 2 SparseArray.kt\nandroidx/core/util/SparseArrayKt\n*L\n1#1,213:1\n57#2:214\n*E\n*S KotlinDebug\n*F\n+ 1 MontageMaterialTopBarCover.kt\ncom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover\n*L\n70#1:214\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000N\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u0008\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0006\u0018\u00002\u0008\u0012\u0004\u0012\u00020\u00020\u00012\u00020\u0003B\u0007\u00a2\u0006\u0004\u0008)\u0010\u000cJ\u0019\u0010\u0007\u001a\u00020\u00062\u0008\u0010\u0005\u001a\u0004\u0018\u00010\u0004H\u0016\u00a2\u0006\u0004\u0008\u0007\u0010\u0008J\u000f\u0010\n\u001a\u00020\tH\u0016\u00a2\u0006\u0004\u0008\n\u0010\u000bJ\u000f\u0010\u0005\u001a\u00020\u0006H\u0016\u00a2\u0006\u0004\u0008\u0005\u0010\u000cJ\u000f\u0010\r\u001a\u00020\u0006H\u0016\u00a2\u0006\u0004\u0008\r\u0010\u000cJ\u000f\u0010\u000e\u001a\u00020\u0006H\u0016\u00a2\u0006\u0004\u0008\u000e\u0010\u000cJ\r\u0010\u000f\u001a\u00020\u0006\u00a2\u0006\u0004\u0008\u000f\u0010\u000cR\u001d\u0010\u0015\u001a\u00020\u00108F@\u0006X\u0086\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0011\u0010\u0012\u001a\u0004\u0008\u0013\u0010\u0014R\u001d\u0010\u001a\u001a\u00020\u00168F@\u0006X\u0086\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u0017\u0010\u0012\u001a\u0004\u0008\u0018\u0010\u0019R\u001d\u0010\u001e\u001a\u00020\u001b8F@\u0006X\u0086\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008\u000f\u0010\u0012\u001a\u0004\u0008\u001c\u0010\u001dR\u001d\u0010#\u001a\u00020\u001f8F@\u0006X\u0086\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008 \u0010\u0012\u001a\u0004\u0008!\u0010\"R\u001d\u0010(\u001a\u00020$8F@\u0006X\u0086\u0084\u0002\u00a2\u0006\u000c\n\u0004\u0008%\u0010\u0012\u001a\u0004\u0008&\u0010\'\u00a8\u0006*"
-    }
-    d2 = {
-        "Lcom/commsource/camera/xcamera/cover/montage/MontageMaterialTopBarCover;",
-        "Lcom/commsource/camera/xcamera/cover/AbsLazyCover;",
-        "Lcom/commsource/beautyplus/f0/e4;",
-        "Landroid/view/View$OnClickListener;",
-        "Landroid/view/View;",
-        "v",
-        "Lcotlin/t1;",
-        "onClick",
-        "(Landroid/view/View;)V",
-        "",
-        "q",
-        "()I",
-        "()V",
-        "o",
-        "x",
-        "J",
-        "Lcom/commsource/camera/xcamera/cover/bottomFunction/b;",
-        "d",
-        "Lcotlin/w;",
-        "F",
-        "()Lcom/commsource/camera/xcamera/cover/bottomFunction/b;",
-        "bottomFunctionViewModel",
-        "Lcom/commsource/camera/xcamera/BpCameraViewModel;",
-        "f",
-        "G",
-        "()Lcom/commsource/camera/xcamera/BpCameraViewModel;",
-        "bpCameraViewModel",
-        "Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;",
-        "E",
-        "()Lcom/commsource/camera/xcamera/cover/bottomFunction/arGroup/c1;",
-        "arViewModel",
-        "Lcom/commsource/camera/montage/e0;",
-        "p",
-        "I",
-        "()Lcom/commsource/camera/montage/e0;",
-        "montageMaterialViewModel",
-        "Lcom/commsource/camera/montage/w;",
-        "g",
-        "H",
-        "()Lcom/commsource/camera/montage/w;",
-        "montageDressUpViewModel",
-        "<init>",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

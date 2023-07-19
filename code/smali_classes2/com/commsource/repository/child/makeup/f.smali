@@ -4,56 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nMakeupJsonMaterial.kt\nKotlin\n*S Kotlin\n*F\n+ 1 MakeupJsonMaterial.kt\ncom/commsource/repository/child/makeup/MakeupJsonMaterial\n*L\n1#1,37:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000 \n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0010\u0008\n\u0002\u0008\u000e\u0008\u0016\u0018\u00002\u00020\u0001B\u0007\u00a2\u0006\u0004\u0008\u0019\u0010\u001aJ\u000f\u0010\u0003\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\u0003\u0010\u0004R$\u0010\u000c\u001a\u0004\u0018\u00010\u00058\u0006@\u0006X\u0087\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0006\u0010\u0007\u001a\u0004\u0008\u0008\u0010\t\"\u0004\u0008\n\u0010\u000bR\"\u0010\u0014\u001a\u00020\r8\u0006@\u0006X\u0087\u000e\u00a2\u0006\u0012\n\u0004\u0008\u000e\u0010\u000f\u001a\u0004\u0008\u0010\u0010\u0011\"\u0004\u0008\u0012\u0010\u0013R\"\u0010\u0018\u001a\u00020\r8\u0006@\u0006X\u0087\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0015\u0010\u000f\u001a\u0004\u0008\u0016\u0010\u0011\"\u0004\u0008\u0017\u0010\u0013\u00a8\u0006\u001b"
-    }
-    d2 = {
-        "Lcom/commsource/repository/child/makeup/f;",
-        "Lcom/commsource/repository/child/makeup/i;",
-        "Lcom/commsource/repository/child/makeup/h;",
-        "q",
-        "()Lcom/commsource/repository/child/makeup/h;",
-        "Lcom/meitu/template/bean/i;",
-        "i",
-        "Lcom/meitu/template/bean/i;",
-        "s",
-        "()Lcom/meitu/template/bean/i;",
-        "v",
-        "(Lcom/meitu/template/bean/i;)V",
-        "file",
-        "",
-        "k",
-        "I",
-        "r",
-        "()I",
-        "u",
-        "(I)V",
-        "downloadType",
-        "j",
-        "t",
-        "w",
-        "isGl3",
-        "<init>",
-        "()V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

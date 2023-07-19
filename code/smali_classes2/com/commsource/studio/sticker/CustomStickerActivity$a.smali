@@ -16,39 +16,6 @@
     name = null
 .end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000\"\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0005\u0008\n\u0018\u00002\u00020\u0001J\u000f\u0010\u0003\u001a\u00020\u0002H\u0016\u00a2\u0006\u0004\u0008\u0003\u0010\u0004J)\u0010\u000b\u001a\u00020\u00022\u0006\u0010\u0006\u001a\u00020\u00052\u0008\u0010\u0008\u001a\u0004\u0018\u00010\u00072\u0006\u0010\n\u001a\u00020\tH\u0016\u00a2\u0006\u0004\u0008\u000b\u0010\u000c\u00a8\u0006\r\u00b8\u0006\u000e"
-    }
-    d2 = {
-        "com/commsource/studio/sticker/CustomStickerActivity$a",
-        "Lcom/commsource/studio/function/q;",
-        "Lcotlin/t1;",
-        "a",
-        "()V",
-        "LLcom/commsource/studio/effect/ImageResult;;",
-        "imageResult",
-        "Landroid/graphics/Bitmap;",
-        "bitmap",
-        "L;",
-        "inWorkThread",
-        "confirmEffect",
-        "(LLcom/commsource/studio/effect/ImageResult;;Landroid/graphics/Bitmap;L;)V",
-        "app_googleplayRelease",
-        "com/commsource/studio/sticker/CustomStickerActivity$initSegmentFragment$1$1"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

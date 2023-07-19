@@ -4,69 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nMutex.kt\nKotlin\n*S Kotlin\n*F\n+ 1 Mutex.kt\nkotlinx/coroutines/sync/MutexKt\n*L\n1#1,406:1\n110#1,7:407\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000,\n\u0002\u0010\u000b\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0010\u0000\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0016\u001a\u0017\u0010\u0003\u001a\u00020\u00022\u0008\u0008\u0002\u0010\u0001\u001a\u00020\u0000\u00a2\u0006\u0004\u0008\u0003\u0010\u0004\u001a7\u0010\n\u001a\u00028\u0000\"\u0004\u0008\u0000\u0010\u0005*\u00020\u00022\n\u0008\u0002\u0010\u0007\u001a\u0004\u0018\u00010\u00062\u000c\u0010\t\u001a\u0008\u0012\u0004\u0012\u00028\u00000\u0008H\u0086H\u00f8\u0001\u0000\u00a2\u0006\u0004\u0008\n\u0010\u000b\"\u001c\u0010\u0011\u001a\u00020\u000c8\u0002@\u0003X\u0083\u0004\u00a2\u0006\u000c\n\u0004\u0008\r\u0010\u000e\u0012\u0004\u0008\u000f\u0010\u0010\"\u001c\u0010\u0016\u001a\u00020\u00128\u0002@\u0003X\u0083\u0004\u00a2\u0006\u000c\n\u0004\u0008\u0013\u0010\u0014\u0012\u0004\u0008\u0015\u0010\u0010\"\u001c\u0010\u0019\u001a\u00020\u000c8\u0002@\u0003X\u0083\u0004\u00a2\u0006\u000c\n\u0004\u0008\u0017\u0010\u000e\u0012\u0004\u0008\u0018\u0010\u0010\"\u001c\u0010\u001c\u001a\u00020\u000c8\u0002@\u0003X\u0083\u0004\u00a2\u0006\u000c\n\u0004\u0008\u001a\u0010\u000e\u0012\u0004\u0008\u001b\u0010\u0010\"\u001c\u0010\u001f\u001a\u00020\u000c8\u0002@\u0003X\u0083\u0004\u00a2\u0006\u000c\n\u0004\u0008\u001d\u0010\u000e\u0012\u0004\u0008\u001e\u0010\u0010\"\u001c\u0010\"\u001a\u00020\u00128\u0002@\u0003X\u0083\u0004\u00a2\u0006\u000c\n\u0004\u0008 \u0010\u0014\u0012\u0004\u0008!\u0010\u0010\"\u001c\u0010%\u001a\u00020\u000c8\u0002@\u0003X\u0083\u0004\u00a2\u0006\u000c\n\u0004\u0008#\u0010\u000e\u0012\u0004\u0008$\u0010\u0010\"\u001c\u0010\'\u001a\u00020\u000c8\u0002@\u0003X\u0083\u0004\u00a2\u0006\u000c\n\u0004\u0008\u0003\u0010\u000e\u0012\u0004\u0008&\u0010\u0010\u0082\u0002\u0004\n\u0002\u0008\u0019\u00a8\u0006("
-    }
-    d2 = {
-        "",
-        "locked",
-        "Lcotlinx/coroutines/sync/c;",
-        "f",
-        "(Z)Lcotlinx/coroutines/sync/c;",
-        "T",
-        "",
-        "owner",
-        "Lcotlin/Function0;",
-        "action",
-        "r",
-        "(Lcotlinx/coroutines/sync/c;Ljava/lang/Object;Lcotlin/jvm/u/a;Lcotlin/coroutines/c;)Ljava/lang/Object;",
-        "Lcotlinx/coroutines/internal/c0;",
-        "d",
-        "Lcotlinx/coroutines/internal/c0;",
-        "SELECT_SUCCESS$annotations",
-        "()V",
-        "SELECT_SUCCESS",
-        "Lcotlinx/coroutines/sync/b;",
-        "g",
-        "Lcotlinx/coroutines/sync/b;",
-        "EMPTY_LOCKED$annotations",
-        "EMPTY_LOCKED",
-        "b",
-        "ENQUEUE_FAIL$annotations",
-        "ENQUEUE_FAIL",
-        "c",
-        "UNLOCK_FAIL$annotations",
-        "UNLOCK_FAIL",
-        "e",
-        "LOCKED$annotations",
-        "LOCKED",
-        "h",
-        "EMPTY_UNLOCKED$annotations",
-        "EMPTY_UNLOCKED",
-        "a",
-        "LOCK_FAIL$annotations",
-        "LOCK_FAIL",
-        "UNLOCKED$annotations",
-        "UNLOCKED",
-        "kotlinx-coroutines-core"
-    }
-    k = 0x2
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # static fields

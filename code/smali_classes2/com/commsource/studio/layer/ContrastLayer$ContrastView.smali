@@ -13,50 +13,7 @@
     name = "ContrastView"
 .end annotation
 
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nContrastLayer.kt\nKotlin\n*S Kotlin\n*F\n+ 1 ContrastLayer.kt\ncom/commsource/studio/layer/ContrastLayer$ContrastView\n+ 2 Color.kt\nandroidx/core/graphics/ColorKt\n*L\n1#1,95:1\n111#2:96\n*E\n*S KotlinDebug\n*F\n+ 1 ContrastLayer.kt\ncom/commsource/studio/layer/ContrastLayer$ContrastView\n*L\n78#1:96\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000.\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u0008\u0082\u0004\u0018\u00002\u00020\u0001B\u000f\u0012\u0006\u0010\u0012\u001a\u00020\u0011\u00a2\u0006\u0004\u0008\u0013\u0010\u0014J\u0017\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u0002H\u0014\u00a2\u0006\u0004\u0008\u0005\u0010\u0006R\u0018\u0010\n\u001a\u0004\u0018\u00010\u00078\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u0008\u0010\tR\u0016\u0010\u000e\u001a\u00020\u000b8\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u000c\u0010\rR\u0016\u0010\u0010\u001a\u00020\u000b8\u0002@\u0002X\u0082\u0004\u00a2\u0006\u0006\n\u0004\u0008\u000f\u0010\r\u00a8\u0006\u0015"
-    }
-    d2 = {
-        "Lcom/commsource/studio/layer/ContrastLayer$ContrastView;",
-        "Landroid/view/View;",
-        "Landroid/graphics/Canvas;",
-        "canvas",
-        "Lcotlin/t1;",
-        "onDraw",
-        "(Landroid/graphics/Canvas;)V",
-        "Landroid/graphics/BitmapShader;",
-        "a",
-        "Landroid/graphics/BitmapShader;",
-        "bitmapShader",
-        "Landroid/graphics/Paint;",
-        "c",
-        "Landroid/graphics/Paint;",
-        "blendPaint",
-        "b",
-        "paint",
-        "Landroid/content/Context;",
-        "ctx",
-        "<init>",
-        "(Lcom/commsource/studio/layer/ContrastLayer;Landroid/content/Context;)V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields

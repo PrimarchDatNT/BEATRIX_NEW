@@ -4,59 +4,7 @@
 
 
 # annotations
-.annotation system Ldalvik/annotation/SourceDebugExtension;
-    value = "SMAP\nFirebaseDbManager.kt\nKotlin\n*S Kotlin\n*F\n+ 1 FirebaseDbManager.kt\ncom/meitu/library/hwanalytics/firebase/FirebaseDbManager\n*L\n1#1,77:1\n*E\n"
-.end annotation
 
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000>\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0010\u000e\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0010 \n\u0002\u0018\u0002\n\u0002\u0008\u0004\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0007\u0008\u00c6\u0002\u0018\u00002\u00020\u0001B\t\u0008\u0002\u00a2\u0006\u0004\u0008\u001d\u0010\u000cJ\u0015\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0003\u001a\u00020\u0002\u00a2\u0006\u0004\u0008\u0005\u0010\u0006J\u0015\u0010\t\u001a\u00020\u00042\u0006\u0010\u0008\u001a\u00020\u0007\u00a2\u0006\u0004\u0008\t\u0010\nJ\r\u0010\u000b\u001a\u00020\u0004\u00a2\u0006\u0004\u0008\u000b\u0010\u000cJ8\u0010\u0012\u001a\u00020\u00042)\u0010\u0011\u001a%\u0012\u0019\u0012\u0017\u0012\u0004\u0012\u00020\u00070\u000e\u00a2\u0006\u000c\u0008\u000f\u0012\u0008\u0008\u0010\u0012\u0004\u0008\u0008(\u0008\u0012\u0004\u0012\u00020\u0004\u0018\u00010\r\u00a2\u0006\u0004\u0008\u0012\u0010\u0013R\u0018\u0010\u0016\u001a\u0004\u0018\u00010\u00148\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\u0012\u0010\u0015R\u0018\u0010\u0019\u001a\u0004\u0018\u00010\u00178\u0002@\u0002X\u0082\u000e\u00a2\u0006\u0006\n\u0004\u0008\t\u0010\u0018R\u0016\u0010\u001b\u001a\u00020\u00078\u0002@\u0002X\u0082T\u00a2\u0006\u0006\n\u0004\u0008\u0005\u0010\u001aR\u0016\u0010\u001c\u001a\u00020\u00078\u0002@\u0002X\u0082T\u00a2\u0006\u0006\n\u0004\u0008\u000b\u0010\u001a\u00a8\u0006\u001e"
-    }
-    d2 = {
-        "Lcom/meitu/library/hwanalytics/firebase/b;",
-        "",
-        "Landroid/content/Context;",
-        "context",
-        "Lcotlin/t1;",
-        "b",
-        "(Landroid/content/Context;)V",
-        "",
-        "properties",
-        "c",
-        "(Ljava/lang/String;)V",
-        "a",
-        "()V",
-        "Lcotlin/Function1;",
-        "",
-        "Lcotlin/k0;",
-        "name",
-        "onUserProperty",
-        "d",
-        "(Lcotlin/jvm/u/l;)V",
-        "Ljava/util/concurrent/ExecutorService;",
-        "Ljava/util/concurrent/ExecutorService;",
-        "mExecutorService",
-        "Landroid/database/sqlite/SQLiteDatabase;",
-        "Landroid/database/sqlite/SQLiteDatabase;",
-        "mDatabase",
-        "Ljava/lang/String;",
-        "PROPERTIES",
-        "USER_PROPERTIES_TB",
-        "<init>",
-        "hwanalytics_release"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # static fields

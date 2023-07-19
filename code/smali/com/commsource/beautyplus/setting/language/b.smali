@@ -4,69 +4,6 @@
 
 
 # annotations
-.annotation runtime Lcotlin/b0;
-    bv = {
-        0x1,
-        0x0,
-        0x3
-    }
-    d1 = {
-        "\u0000X\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u0008\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000e\n\u0002\u0008\u0002\n\u0002\u0010\u000b\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0010 \n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0005\n\u0002\u0018\u0002\n\u0002\u0008\u0004\u0018\u00002\u00020\u0001B\u000f\u0012\u0006\u0010)\u001a\u00020(\u00a2\u0006\u0004\u0008*\u0010+J\u001d\u0010\u0007\u001a\u00020\u00062\u0006\u0010\u0003\u001a\u00020\u00022\u0006\u0010\u0005\u001a\u00020\u0004\u00a2\u0006\u0004\u0008\u0007\u0010\u0008J\r\u0010\n\u001a\u00020\t\u00a2\u0006\u0004\u0008\n\u0010\u000bR\u0019\u0010\u0010\u001a\u00020\u00068\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u000c\u0010\r\u001a\u0004\u0008\u000e\u0010\u000fR%\u0010\u0018\u001a\u000e\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\u00130\u00120\u00118\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u0014\u0010\u0015\u001a\u0004\u0008\u0016\u0010\u0017R5\u0010 \u001a\u001e\u0012\u0004\u0012\u00020\u0006\u0012\u0004\u0012\u00020\u001a0\u0019j\u000e\u0012\u0004\u0012\u00020\u0006\u0012\u0004\u0012\u00020\u001a`\u001b8\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008\u001c\u0010\u001d\u001a\u0004\u0008\u001e\u0010\u001fR)\u0010\'\u001a\u0012\u0012\u0004\u0012\u00020\u00130!j\u0008\u0012\u0004\u0012\u00020\u0013`\"8\u0006@\u0006\u00a2\u0006\u000c\n\u0004\u0008#\u0010$\u001a\u0004\u0008%\u0010&\u00a8\u0006,"
-    }
-    d2 = {
-        "Lcom/commsource/beautyplus/setting/language/b;",
-        "Landroidx/lifecycle/AndroidViewModel;",
-        "",
-        "resId",
-        "Ljava/util/Locale;",
-        "locale",
-        "",
-        "C",
-        "(ILjava/util/Locale;)Ljava/lang/String;",
-        "",
-        "D",
-        "()Z",
-        "d",
-        "Ljava/lang/String;",
-        "z",
-        "()Ljava/lang/String;",
-        "language",
-        "Landroidx/lifecycle/MutableLiveData;",
-        "",
-        "Lcom/commsource/beautyplus/setting/language/a;",
-        "c",
-        "Landroidx/lifecycle/MutableLiveData;",
-        "y",
-        "()Landroidx/lifecycle/MutableLiveData;",
-        "dataEvent",
-        "Ljava/util/HashMap;",
-        "Landroid/content/res/Resources;",
-        "Lcotlin/collections/HashMap;",
-        "b",
-        "Ljava/util/HashMap;",
-        "A",
-        "()Ljava/util/HashMap;",
-        "languageMap",
-        "Ljava/util/ArrayList;",
-        "Lcotlin/collections/ArrayList;",
-        "a",
-        "Ljava/util/ArrayList;",
-        "B",
-        "()Ljava/util/ArrayList;",
-        "languages",
-        "Landroid/app/Application;",
-        "application",
-        "<init>",
-        "(Landroid/app/Application;)V",
-        "app_googleplayRelease"
-    }
-    k = 0x1
-    mv = {
-        0x1,
-        0x1,
-        0xf
-    }
-.end annotation
 
 
 # instance fields
